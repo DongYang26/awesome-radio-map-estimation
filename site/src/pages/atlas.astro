@@ -1,0 +1,170 @@
+---
+import Base from '../layouts/Base.astro';
+import { papers, institutions } from '../lib/data';
+import WorldMap from '../components/WorldMap';
+
+const base = import.meta.env.BASE_URL;
+const b = base.endsWith('/') ? base.slice(0, -1) : base;
+
+// Count papers per institution (only ones referenced by some paper).
+const counts = new Map<string, number>();
+for (const p of papers) {
+  if (p.first_affiliation) {
+    counts.set(p.first_affiliation, (counts.get(p.first_affiliation) ?? 0) + 1);
+  }
+}
+
+// Enrich each institution with its paper list and count; drop unused ones.
+const enriched = institutions.institutions
+  .filter((inst) => counts.has(inst.id))
+  .map((inst) => ({
+    ...inst,
+    count: counts.get(inst.id) ?? 0,
+    papers: papers
+      .filter((p) => p.first_affiliation === inst.id)
+      .map((p) => ({
+        id: p.id,
+        title: p.title,
+        year: p.year,
+        subfield: p.subfield,
+        authors: p.authors,
+      }))
+      .sort((a, b) => b.year - a.year || a.title.localeCompare(b.title)),
+  }))
+  .sort((a, b) => b.count - a.count);
+
+const totalInst = enriched.length;
+const totalCovered = enriched.reduce((s, i) => s + i.count, 0);
+const totalCountries = new Set(enriched.map((i) => i.country)).size;
+const totalPapers = papers.length;
+---
+
+<Base
+  title="Academic Atlas"
+  description="A world map of where Radio Map Estimation research happens — first-author institutions of every paper in the corpus."
+>
+  <section aria-labelledby="atlas-heading">
+    <h1 id="atlas-heading">Academic Atlas</h1>
+    <p>
+      A world map of where Radio Map Estimation research happens. Every marker is the
+      first-author institution of one or more papers in the corpus. Marker size scales with
+      paper count; marker color shows the dominant subfield. Click a marker for the full paper list.
+    </p>
+
+    <ul class="stats-row" role="list" aria-label="Atlas summary">
+      <li class="card stat">
+        <div class="stat__num">{totalInst}</div>
+        <div class="stat__label">Institutions</div>
+      </li>
+      <li class="card stat">
+        <div class="stat__num">{totalCountries}</div>
+        <div class="stat__label">Countries</div>
+      </li>
+      <li class="card stat">
+        <div class="stat__num">{totalCovered} / {totalPapers}</div>
+        <div class="stat__label">Papers mapped</div>
+      </li>
+    </ul>
+
+    <WorldMap client:only="react" institutions={enriched} basePath={b} />
+
+    <ul class="atlas-legend" role="list" aria-label="Subfield colors">
+      <li><span class="dot dot--rem"></span> REM</li>
+      <li><span class="dot dot--sc"></span> Spectrum Cartography</li>
+      <li><span class="dot dot--pl"></span> Pathloss Prediction</li>
+      <li><span class="dot dot--ckm"></span> CKM</li>
+    </ul>
+
+    <h2>Institutions ranked by paper count</h2>
+    <ol class="atlas-ranking">
+      {
+        enriched.map((inst) => (
+          <li>
+            <strong>{inst.name}</strong>{' '}
+            <span class="text-muted">
+              — {inst.country} · <strong>{inst.count}</strong> paper
+              {inst.count === 1 ? '' : 's'}
+            </span>
+          </li>
+        ))
+      }
+    </ol>
+
+    {
+      totalCovered < totalPapers && (
+        <p class="text-muted atlas-uncovered">
+          <em>
+            {totalPapers - totalCovered} paper(s) have no <code>first_affiliation</code> yet — these
+            are not on the map. Add the field to their YAML to include them.
+          </em>
+        </p>
+      )
+    }
+  </section>
+</Base>
+
+<style>
+  .stats-row {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 1.25rem;
+    list-style: none;
+    padding: 0;
+  }
+  .stat {
+    flex: 1;
+    min-width: 130px;
+    text-align: center;
+  }
+  .stat__num {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    line-height: 1.1;
+  }
+  .stat__label {
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    margin-top: 0.2rem;
+  }
+  .atlas-legend {
+    display: flex;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0.75rem 0 1.5rem;
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+  }
+  .atlas-legend .dot {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 0.4rem;
+    vertical-align: middle;
+  }
+  .dot--rem  { background: #3b82f6; }
+  .dot--sc   { background: #f59e0b; }
+  .dot--pl   { background: #10b981; }
+  .dot--ckm  { background: #a855f7; }
+  .atlas-ranking {
+    margin: 0.5rem 0 0 1.25rem;
+    columns: 2;
+    column-gap: 2rem;
+  }
+  .atlas-ranking li {
+    margin-bottom: 0.35rem;
+    break-inside: avoid;
+  }
+  @media (max-width: 720px) {
+    .atlas-ranking {
+      columns: 1;
+    }
+  }
+  .atlas-uncovered {
+    margin-top: 1.5rem;
+  }
+</style>

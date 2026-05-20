@@ -27,4 +27,5 @@ links:
   pdf: "https://doi.org/10.1109/icassp49357.2023.10096546"
 citations: 17
 tags: [challenge, outdoor, UNet, LOS-map, fast-inference]
+first_affiliation: ucla
 added_date: '2026-05-16'

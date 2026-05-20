@@ -28,4 +28,5 @@ links:
   pdf: "https://doi.org/10.1109/icassp49357.2023.10095501"
 citations: 13
 tags: [challenge, outdoor, SegNet, encoder-decoder, ray-tracing-data]
+first_affiliation: university-of-cambridge
 added_date: '2026-05-16'

@@ -84,6 +84,10 @@ export interface RMEPaperEntry {
   is_milestone?: boolean;
   tags?: string[];
   added_date: string;
+  /**
+   * Institution id (must exist in data/institutions.yml); first author's affiliation at time of publication.
+   */
+  first_affiliation?: string;
 }
 
 export interface RMEDatasetCatalog {
@@ -164,5 +168,21 @@ export interface RMEReadingPath {
      * Rationale: why a newcomer should read this paper at this point
      */
     why: string;
+  }[];
+}
+
+export interface InstitutionsCatalog {
+  /**
+   * @minItems 0
+   */
+  institutions: {
+    /**
+     * kebab-case institution id; referenced by paper.first_affiliation
+     */
+    id: string;
+    name: string;
+    country: string;
+    lat: number;
+    lon: number;
   }[];
 }

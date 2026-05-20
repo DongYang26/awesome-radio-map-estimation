@@ -27,4 +27,5 @@ links:
   doi: "10.1109/MLSP62443.2025.11204292"
 citations: 2
 tags: [challenge, indoor, UNet, sparse-supervision, physics-informed, transfer-learning, MLSP2025]
+first_affiliation: ntt-docomo
 added_date: '2026-05-16'

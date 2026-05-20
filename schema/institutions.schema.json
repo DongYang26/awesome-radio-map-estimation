@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/DongYang26/awesome-radio-map-estimation/schema/institutions.schema.json",
+  "title": "Institutions catalog",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["institutions"],
+  "properties": {
+    "institutions": {
+      "type": "array",
+      "minItems": 0,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "name", "country", "lat", "lon"],
+        "properties": {
+          "id":      { "type": "string", "pattern": "^[a-z0-9._-]+$",
+                       "description": "kebab-case institution id; referenced by paper.first_affiliation" },
+          "name":    { "type": "string", "minLength": 2 },
+          "country": { "type": "string", "minLength": 2 },
+          "lat":     { "type": "number", "minimum": -90,  "maximum": 90  },
+          "lon":     { "type": "number", "minimum": -180, "maximum": 180 }
+        }
+      }
+    }
+  }
+}

@@ -57,6 +57,8 @@
                       "description": "Semantic Scholar count; refreshed periodically (v2 job)" },
     "is_milestone": { "type": "boolean", "default": false },
     "tags":         { "type": "array", "items": { "type": "string" } },
-    "added_date":   { "type": "string", "format": "date" }
+    "added_date":        { "type": "string", "format": "date" },
+    "first_affiliation": { "type": "string", "pattern": "^[a-z0-9._-]+$",
+                           "description": "Institution id (must exist in data/institutions.yml); first author's affiliation at time of publication." }
   }
 }

@@ -27,4 +27,5 @@ links:
   pdf: "https://ieeexplore.ieee.org/ielx7/6287639/6514899/10347228.pdf"
 citations: 10
 tags: [indoor, 2.4GHz, ray-tracing, ResUNet, RSS]
+first_affiliation: nict
 added_date: '2026-05-16'

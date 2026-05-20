@@ -24,6 +24,7 @@ const schemas = [
   { file: 'datasets.schema.json',     bannerType: 'RmeDatasetCatalog' },
   { file: 'taxonomy.schema.json',     bannerType: 'RmeTaxonomyTree' },
   { file: 'reading-path.schema.json', bannerType: 'RmeReadingPath' },
+  { file: 'institutions.schema.json', bannerType: 'RmeInstitutions' },
 ];
 
 const compileOptions = {

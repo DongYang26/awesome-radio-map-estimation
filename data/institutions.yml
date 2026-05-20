@@ -1,0 +1,280 @@
+# Institutions catalog
+# First-author institutions for papers in data/papers/*.yml.
+# Conforms to schema/institutions.schema.json.
+# Coordinates use main campus / headquarters; 4-decimal precision.
+institutions:
+  - id: army-engineering-university-pla
+    name: Army Engineering University of PLA
+    country: China
+    lat: 32.0667
+    lon: 118.7833
+  - id: beijing-institute-of-technology
+    name: Beijing Institute of Technology
+    country: China
+    lat: 39.9594
+    lon: 116.3194
+  - id: beijing-jiaotong-university
+    name: Beijing Jiaotong University
+    country: China
+    lat: 39.9504
+    lon: 116.3431
+  - id: bogazici-university
+    name: Boğaziçi University
+    country: Türkiye
+    lat: 41.0844
+    lon: 29.0517
+  - id: city-university-of-hong-kong
+    name: City University of Hong Kong
+    country: Hong Kong SAR
+    lat: 22.3367
+    lon: 114.1733
+  - id: cuhk-shenzhen
+    name: The Chinese University of Hong Kong, Shenzhen
+    country: China
+    lat: 22.6915
+    lon: 114.2125
+  - id: epfl
+    name: École Polytechnique Fédérale de Lausanne
+    country: Switzerland
+    lat: 46.5191
+    lon: 6.5668
+  - id: ericsson
+    name: Ericsson Research
+    country: Sweden
+    lat: 59.4044
+    lon: 17.9499
+  - id: georgia-state-university
+    name: Georgia State University
+    country: United States
+    lat: 33.7531
+    lon: -84.3863
+  - id: hangzhou-dianzi-university
+    name: Hangzhou Dianzi University
+    country: China
+    lat: 30.3197
+    lon: 120.3548
+  - id: hit-shenzhen
+    name: Harbin Institute of Technology, Shenzhen
+    country: China
+    lat: 22.5950
+    lon: 113.9700
+  - id: hkust
+    name: The Hong Kong University of Science and Technology
+    country: Hong Kong SAR
+    lat: 22.3364
+    lon: 114.2654
+  - id: hunan-normal-university
+    name: Hunan Normal University
+    country: China
+    lat: 28.1900
+    lon: 112.9469
+  - id: jozef-stefan-institute
+    name: Jožef Stefan Institute
+    country: Slovenia
+    lat: 46.0421
+    lon: 14.4870
+  - id: ku-leuven
+    name: KU Leuven
+    country: Belgium
+    lat: 50.8780
+    lon: 4.7008
+  - id: mitsubishi-electric
+    name: Mitsubishi Electric Corporation
+    country: Japan
+    lat: 35.6764
+    lon: 139.7647
+  - id: nc-state-university
+    name: North Carolina State University
+    country: United States
+    lat: 35.7847
+    lon: -78.6821
+  - id: nict
+    name: National Institute of Information and Communications Technology
+    country: Japan
+    lat: 35.7104
+    lon: 139.4886
+  - id: ntt-docomo
+    name: NTT DOCOMO
+    country: Japan
+    lat: 35.6692
+    lon: 139.7644
+  - id: ntu-singapore
+    name: Nanyang Technological University
+    country: Singapore
+    lat: 1.3483
+    lon: 103.6831
+  - id: nuaa
+    name: Nanjing University of Aeronautics and Astronautics
+    country: China
+    lat: 32.0331
+    lon: 118.7986
+  - id: nudt
+    name: National University of Defense Technology
+    country: China
+    lat: 28.2266
+    lon: 112.9928
+  - id: orange-labs
+    name: Orange Labs
+    country: France
+    lat: 48.7916
+    lon: 2.2308
+  - id: oregon-state-university
+    name: Oregon State University
+    country: United States
+    lat: 44.5638
+    lon: -123.2794
+  - id: peking-university
+    name: Peking University
+    country: China
+    lat: 39.9907
+    lon: 116.3056
+  - id: peng-cheng-laboratory
+    name: Peng Cheng Laboratory
+    country: China
+    lat: 22.5965
+    lon: 113.9963
+  - id: qualcomm-ai-research
+    name: Qualcomm AI Research
+    country: Netherlands
+    lat: 52.3105
+    lon: 4.8684
+  - id: shanghai-university
+    name: Shanghai University
+    country: China
+    lat: 31.3196
+    lon: 121.3958
+  - id: shenyang-institute-of-automation-cas
+    name: Shenyang Institute of Automation, Chinese Academy of Sciences
+    country: China
+    lat: 41.7920
+    lon: 123.4316
+  - id: southeast-university
+    name: Southeast University
+    country: China
+    lat: 32.0586
+    lon: 118.7967
+  - id: southwest-university
+    name: Southwest University
+    country: China
+    lat: 29.8164
+    lon: 106.4231
+  - id: tsinghua-university
+    name: Tsinghua University
+    country: China
+    lat: 40.0084
+    lon: 116.3225
+  - id: tu-berlin
+    name: Technical University of Berlin
+    country: Germany
+    lat: 52.5125
+    lon: 13.3269
+  - id: tu-dortmund
+    name: TU Dortmund University
+    country: Germany
+    lat: 51.4925
+    lon: 7.4128
+  - id: uc-davis
+    name: University of California, Davis
+    country: United States
+    lat: 38.5382
+    lon: -121.7617
+  - id: ucla
+    name: University of California, Los Angeles
+    country: United States
+    lat: 34.0689
+    lon: -118.4452
+  - id: uestc
+    name: University of Electronic Science and Technology of China
+    country: China
+    lat: 30.7565
+    lon: 103.9209
+  - id: universidad-de-narino
+    name: Universidad de Nariño
+    country: Colombia
+    lat: 1.2136
+    lon: -77.2811
+  - id: university-of-agder
+    name: University of Agder
+    country: Norway
+    lat: 58.1645
+    lon: 8.0381
+  - id: university-of-cambridge
+    name: University of Cambridge
+    country: United Kingdom
+    lat: 52.2043
+    lon: 0.1196
+  - id: university-of-central-florida
+    name: University of Central Florida
+    country: United States
+    lat: 28.6024
+    lon: -81.2001
+  - id: university-of-georgia
+    name: University of Georgia
+    country: United States
+    lat: 33.9480
+    lon: -83.3773
+  - id: university-of-glasgow
+    name: University of Glasgow
+    country: United Kingdom
+    lat: 55.8721
+    lon: -4.2880
+  - id: university-of-lille
+    name: University of Lille
+    country: France
+    lat: 50.6112
+    lon: 3.1374
+  - id: university-of-minnesota
+    name: University of Minnesota
+    country: United States
+    lat: 44.9740
+    lon: -93.2277
+  - id: university-of-north-texas
+    name: University of North Texas
+    country: United States
+    lat: 33.2074
+    lon: -97.1526
+  - id: university-of-oulu
+    name: University of Oulu
+    country: Finland
+    lat: 65.0588
+    lon: 25.4669
+  - id: university-of-southern-california
+    name: University of Southern California
+    country: United States
+    lat: 34.0224
+    lon: -118.2851
+  - id: university-of-sydney
+    name: The University of Sydney
+    country: Australia
+    lat: -33.8886
+    lon: 151.1873
+  - id: university-of-ulsan
+    name: University of Ulsan
+    country: South Korea
+    lat: 35.5417
+    lon: 129.2569
+  - id: virginia-tech
+    name: Virginia Tech
+    country: United States
+    lat: 37.2284
+    lon: -80.4234
+  - id: xi-an-jiaotong-university
+    name: Xi'an Jiaotong University
+    country: China
+    lat: 34.2474
+    lon: 108.9836
+  - id: xidian-university
+    name: Xidian University
+    country: China
+    lat: 34.1305
+    lon: 108.8420
+  - id: yerevan-state-university
+    name: Yerevan State University
+    country: Armenia
+    lat: 40.1834
+    lon: 44.5167
+  - id: zhejiang-university
+    name: Zhejiang University
+    country: China
+    lat: 30.2647
+    lon: 120.1224

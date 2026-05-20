@@ -76,6 +76,7 @@ export interface Paper {
   is_milestone?: boolean;
   tags?: string[];
   added_date: string;
+  first_affiliation?: string;
 }
 
 export function loadPapers(): Paper[] {
@@ -154,9 +155,35 @@ export function loadReadingPath(): ReadingPathData {
 }
 
 // ---------------------------------------------------------------------------
+// Institutions (Academic Atlas)
+// ---------------------------------------------------------------------------
+export interface Institution {
+  id: string;
+  name: string;
+  country: string;
+  lat: number;
+  lon: number;
+}
+
+export interface InstitutionsData {
+  institutions: Institution[];
+}
+
+export function loadInstitutions(): InstitutionsData {
+  // Graceful fallback if data/institutions.yml has not been generated yet
+  // (e.g. the populating agent has not run, or someone deleted the file).
+  try {
+    return loadYaml<InstitutionsData>(join(DATA_DIR, 'institutions.yml'));
+  } catch {
+    return { institutions: [] };
+  }
+}
+
+// ---------------------------------------------------------------------------
 // Convenience re-exports (pre-loaded singletons for use in .astro files)
 // ---------------------------------------------------------------------------
 export const papers: Paper[] = loadPapers();
 export const taxonomy: TaxonomyData = loadTaxonomy();
 export const datasets: DatasetsData = loadDatasets();
 export const readingPath: ReadingPathData = loadReadingPath();
+export const institutions: InstitutionsData = loadInstitutions();
