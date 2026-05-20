@@ -1,0 +1,130 @@
+name: Update Papers
+
+on:
+  schedule:
+    # Every Monday at 06:00 UTC
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+# Least-privilege default: read-only. Write scopes are granted per-job below.
+permissions:
+  contents: read
+
+jobs:
+  update-papers:
+    runs-on: ubuntu-latest
+    # This job opens an auto-PR, so it needs write to contents + pull-requests.
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch candidate papers
+        run: python scripts/fetch.py -o candidates.json
+        env:
+          S2_API_KEY: ${{ secrets.S2_API_KEY }}
+
+      - name: Deduplicate candidates against corpus
+        run: python scripts/dedup.py candidates.json -o new_candidates.json
+
+      - name: Propose YAML stubs for new candidates
+        run: python scripts/propose.py new_candidates.json --output-dir data/papers
+
+      - name: Validate generated stubs (mandatory gate before PR creation)
+        # Auto-PRs opened with GITHUB_TOKEN do NOT trigger validate.yml, so
+        # validation must run inline here. This step is the auto-PR's sole
+        # validation gate; validate.yml covers human-authored PRs.
+        run: python scripts/validate.py
+
+      - name: Collect new stub metadata for PR body
+        id: pr-meta
+        run: |
+          python - <<'PYEOF'
+          import json, os, re
+
+          # Paper title/authors/arxiv_url come from third-party arXiv/S2 APIs and
+          # are UNTRUSTED. Escape every Markdown-significant character before
+          # interpolating into the PR body, and validate the arXiv URL strictly.
+          _MD_SPECIAL = r"\`*_{}[]()#+-.!|<>"
+
+          def md_escape(value) -> str:
+              text = "" if value is None else str(value)
+              return "".join("\\" + ch if ch in _MD_SPECIAL else ch for ch in text)
+
+          _ARXIV_URL_RE = re.compile(r"^https://arxiv\.org/abs/[\w.\-/]+$")
+
+          def safe_arxiv_url(value) -> str:
+              text = "" if value is None else str(value)
+              return text if _ARXIV_URL_RE.match(text) else ""
+
+          with open("new_candidates.json", encoding="utf-8") as f:
+              candidates = json.load(f)
+
+          if not candidates:
+              print("No new candidates — skipping PR.")
+              body = "No new papers this week."
+              with open(os.environ["GITHUB_OUTPUT"], "a") as out:
+                  out.write("has_new=false\n")
+          else:
+              lines = ["## New paper candidates\n"]
+              lines.append("These stubs were auto-generated and require a **maintainer review** pass")
+              lines.append("(all judgement fields are marked `# TODO: maintainer verify`).\n")
+              lines.append("| # | Title | Authors | Year | arXiv |")
+              lines.append("|---|-------|---------|------|-------|")
+              for i, c in enumerate(candidates, 1):
+                  title = md_escape(c.get("title"))
+                  authors = ", ".join(md_escape(a) for a in (c.get("authors") or [])[:3])
+                  if len(c.get("authors") or []) > 3:
+                      authors += " et al."
+                  year = md_escape(c.get("year"))
+                  arxiv_id = md_escape(c.get("arxiv_id"))
+                  arxiv_url = safe_arxiv_url((c.get("links") or {}).get("arxiv"))
+                  arxiv_cell = f"[{arxiv_id}]({arxiv_url})" if arxiv_url else arxiv_id
+                  lines.append(f"| {i} | {title} | {authors} | {year} | {arxiv_cell} |")
+
+              lines.append("")
+              lines.append("### Review checklist")
+              lines.append("")
+              for c in candidates:
+                  title = md_escape(c.get("title") or "Unknown")
+                  arxiv_id = md_escape(c.get("arxiv_id"))
+                  lines.append(f"- [ ] **{title}** (`{arxiv_id}`): verify all `# TODO` fields before merging")
+
+              body = "\n".join(lines)
+              with open(os.environ["GITHUB_OUTPUT"], "a") as out:
+                  out.write("has_new=true\n")
+
+          # Write the body to a file and hand it to create-pull-request via
+          # body-path. This avoids interpolating untrusted text through a
+          # GITHUB_OUTPUT expression in the workflow.
+          with open("pr_body.md", "w", encoding="utf-8") as f:
+              f.write(body)
+
+          PYEOF
+
+      - name: Create pull request for new paper stubs
+        if: steps.pr-meta.outputs.has_new == 'true'
+        # peter-evans/create-pull-request pinned to the v7.0.11 commit SHA
+        # (supply-chain hardening — do not replace with a mutable tag).
+        uses: peter-evans/create-pull-request@22a9089034f40e5a961c8808d113e2c98fb63676 # v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: auto/new-papers-${{ github.run_id }}
+          base: main
+          title: "chore(papers): auto-propose new candidates (${{ github.run_id }})"
+          body-path: pr_body.md
+          commit-message: "chore(papers): add auto-proposed paper stubs"
+          labels: automated,needs-review
+          add-paths: |
+            data/papers/*.yml

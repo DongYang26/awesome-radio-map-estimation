@@ -1,0 +1,216 @@
+name: Add a paper
+description: Propose a paper to add to the Awesome Radio Map Estimation hub.
+labels: ["new-paper"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contributing! Fill in as many fields as you can.
+        Required fields are marked with an asterisk (*). A maintainer will
+        review and create the YAML file from your submission.
+
+  # -------------------------------------------------------------------------
+  # Identity
+  # -------------------------------------------------------------------------
+  - type: input
+    id: title
+    attributes:
+      label: "Paper title *"
+      placeholder: "e.g. RadioUNet: Fast Radio Map Estimation With Convolutional Neural Networks"
+    validations:
+      required: true
+
+  - type: input
+    id: authors
+    attributes:
+      label: "Authors *"
+      description: "Comma-separated list of author names."
+      placeholder: "e.g. Ron Levie, Çağkan Yapar, Gitta Kutyniok, et al."
+    validations:
+      required: true
+
+  - type: input
+    id: year
+    attributes:
+      label: "Publication year *"
+      placeholder: "e.g. 2023"
+    validations:
+      required: true
+
+  - type: input
+    id: venue
+    attributes:
+      label: "Venue (conference / journal)"
+      placeholder: "e.g. IEEE Transactions on Signal Processing"
+    validations:
+      required: false
+
+  # -------------------------------------------------------------------------
+  # Links
+  # -------------------------------------------------------------------------
+  - type: input
+    id: arxiv_url
+    attributes:
+      label: "arXiv URL"
+      placeholder: "https://arxiv.org/abs/XXXX.XXXXX"
+    validations:
+      required: false
+
+  - type: input
+    id: doi
+    attributes:
+      label: "DOI"
+      placeholder: "10.1109/..."
+    validations:
+      required: false
+
+  - type: input
+    id: code_url
+    attributes:
+      label: "Code URL (GitHub or other)"
+      placeholder: "https://github.com/..."
+    validations:
+      required: false
+
+  # -------------------------------------------------------------------------
+  # Classification — enum dropdowns (mirrors paper.schema.json exactly)
+  # -------------------------------------------------------------------------
+  - type: dropdown
+    id: subfield
+    attributes:
+      label: "Subfield *"
+      description: "Which research sub-family does this paper belong to?"
+      options:
+        - REM
+        - spectrum-cartography
+        - pathloss-prediction
+        - CKM
+    validations:
+      required: true
+
+  - type: dropdown
+    id: method_family
+    attributes:
+      label: "Method family *"
+      description: "Highest-level methodological category."
+      options:
+        - interpolation
+        - model-based
+        - learning-based
+    validations:
+      required: true
+
+  - type: dropdown
+    id: input_modality
+    attributes:
+      label: "Input modality *"
+      description: "What inputs does the method consume?"
+      options:
+        - sparse-measurements
+        - environment-map
+        - both
+    validations:
+      required: true
+
+  - type: dropdown
+    id: environment
+    attributes:
+      label: "Environment *"
+      options:
+        - indoor
+        - outdoor
+        - both
+    validations:
+      required: true
+
+  - type: dropdown
+    id: dimensionality
+    attributes:
+      label: "Dimensionality *"
+      options:
+        - 2D
+        - 3D
+    validations:
+      required: true
+
+  - type: dropdown
+    id: supervision
+    attributes:
+      label: "Supervision *"
+      options:
+        - supervised
+        - self-supervised
+        - unsupervised
+        - semi-supervised
+        - n/a
+    validations:
+      required: true
+
+  # -------------------------------------------------------------------------
+  # Multi-value enums — listed as dropdowns; contributor picks the primary one
+  # and can clarify extras in the notes field below.
+  # -------------------------------------------------------------------------
+  - type: dropdown
+    id: task
+    attributes:
+      label: "Primary task *"
+      description: "Pick the most applicable task. List additional tasks in the notes field."
+      options:
+        - signal-strength-estimation
+        - coverage-prediction
+        - spectrum-occupancy
+        - pathloss-prediction
+        - channel-gain-prediction
+        - spectrum-cartography
+        - REM-construction
+        - other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: method_detail
+    attributes:
+      label: "Primary method detail"
+      description: "Pick the most applicable technique. List additional ones in the notes field."
+      options:
+        - Kriging
+        - IDW
+        - matrix-completion
+        - ray-tracing
+        - CNN
+        - GAN
+        - Transformer
+        - INR
+        - Diffusion
+        - GNN
+        - RNN
+        - autoencoder
+        - Gaussian-process
+        - other
+    validations:
+      required: false
+
+  # -------------------------------------------------------------------------
+  # Optional metadata
+  # -------------------------------------------------------------------------
+  - type: textarea
+    id: tldr
+    attributes:
+      label: "TL;DR (one-sentence summary, ≤ 280 chars)"
+      placeholder: "e.g. Introduces a CNN that estimates outdoor pathloss maps from sparse measurements and building layouts at near real-time speed."
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: "Additional notes"
+      description: |
+        Use this field for:
+        - Additional tasks (comma-separated enum values from the task list)
+        - Additional method details (comma-separated from the method_detail list)
+        - Whether this is a milestone paper (`is_milestone: true`)
+        - Relevant dataset names
+        - Anything else the maintainer should know
+    validations:
+      required: false

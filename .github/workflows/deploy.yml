@@ -1,0 +1,97 @@
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+
+# Least-privilege default: read-only. Write scopes are granted per-job below.
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    # This job self-commits the regenerated README/stats (contents: write) and
+    # publishes to GitHub Pages (pages: write + id-token: write for OIDC).
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy-pages.outputs.page_url }}
+
+    steps:
+      # -----------------------------------------------------------------------
+      # Step 1 — Python: validate → stats → README; commit only when changed
+      # -----------------------------------------------------------------------
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # A full clone so the self-commit push works with the default token.
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Validate data
+        run: python scripts/validate.py
+
+      - name: Generate stats.json
+        run: python scripts/stats.py
+
+      - name: Regenerate README.md
+        run: python scripts/build_readme.py
+
+      - name: Commit regenerated files (only if changed)
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet README.md site/src/data/stats.json || (
+            git add README.md site/src/data/stats.json &&
+            git commit -m "chore: regenerate README and stats.json [skip ci]" &&
+            git push
+          )
+
+      # -----------------------------------------------------------------------
+      # Step 2 — Node: build the Astro site
+      # -----------------------------------------------------------------------
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+
+      - name: Install Node dependencies
+        run: npm ci
+        working-directory: site
+
+      - name: Build site
+        run: npm run build
+        working-directory: site
+
+      # -----------------------------------------------------------------------
+      # Step 3 — Deploy site/dist to GitHub Pages
+      # -----------------------------------------------------------------------
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/dist
+
+      - name: Deploy to GitHub Pages
+        id: deploy-pages
+        uses: actions/deploy-pages@v4
