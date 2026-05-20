@@ -1,0 +1,42 @@
+id: "2211.10527"
+title: "PMNet: Robust Pathloss Map Prediction via Supervised Learning"
+authors:
+  - Ju-Hyung Lee
+  - Omer Gokalp Serbetci
+  - Dhruv Selvam
+  - Andreas F. Molisch
+year: 2022
+venue: "IEEE GLOBECOM 2023"
+abstract: >
+  PMNet proposes a supervised learning approach for pathloss map prediction that
+  trains a neural network on a limited amount of ray-tracing or channel measurement
+  data together with map data, then predicts pathloss over locations with no ray-tracing
+  data. The proposed architecture, empowered by state-of-the-art computer vision
+  techniques, outperforms prior architectures including UNet and RadioUNet in terms
+  of accuracy while showing strong generalization capability. PMNet trained on a
+  four-fold smaller dataset surpasses baselines trained on four-fold more data.
+tldr: "CNN-based pathloss map predictor that outperforms RadioUNet in accuracy and data efficiency using modern computer-vision building blocks."
+links:
+  arxiv: https://arxiv.org/abs/2211.10527
+  pdf: https://arxiv.org/pdf/2211.10527
+  code: https://github.com/abman23/PMNet
+  doi: 10.1109/GLOBECOM54140.2023.10437562
+subfield: pathloss-prediction
+method_family: learning-based
+method_detail:
+  - CNN
+task:
+  - pathloss-prediction
+  - coverage-prediction
+input_modality: environment-map
+environment: outdoor
+dimensionality: 2D
+supervision: supervised
+citations: 31
+is_milestone: true
+tags:
+  - PMNet
+  - pathloss-map
+  - urban
+  - data-efficient
+added_date: '2026-05-16'

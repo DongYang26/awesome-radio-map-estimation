@@ -1,0 +1,75 @@
+---
+import '../styles/global.css';
+
+export interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = 'A living research hub for Radio Map Estimation papers, methods, and benchmarks.' } = Astro.props;
+
+const base = import.meta.env.BASE_URL;
+// Ensure base ends without trailing slash for concatenation
+const b = base.endsWith('/') ? base.slice(0, -1) : base;
+
+const navLinks = [
+  { href: `${b}/`,             label: 'Home' },
+  { href: `${b}/taxonomy`,     label: 'Taxonomy' },
+  { href: `${b}/timeline`,     label: 'Timeline' },
+  { href: `${b}/matrix`,       label: 'Matrix' },
+  { href: `${b}/datasets`,     label: 'Datasets' },
+  { href: `${b}/trends`,       label: 'Trends' },
+  { href: `${b}/reading-path`, label: 'Reading Path' },
+];
+
+const currentPath = Astro.url.pathname;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <title>{title} — Awesome Radio Map Estimation</title>
+    <link rel="icon" type="image/svg+xml" href={`${b}/favicon.svg`} />
+  </head>
+  <body>
+    <!-- Skip-to-content for keyboard users -->
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header" role="banner">
+      <nav class="nav-inner" aria-label="Main navigation">
+        <a class="nav-brand" href={`${b}/`}>
+          📡 Awesome RME
+        </a>
+        <ul class="nav-links" role="list">
+          {navLinks.map(({ href, label }) => (
+            <li>
+              <a
+                href={href}
+                aria-current={currentPath === href || (href !== `${b}/` && currentPath.startsWith(href)) ? 'page' : undefined}
+              >
+                {label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main-content" tabindex="-1">
+      <slot />
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+      <p>
+        <a href="https://github.com/DongYang26/awesome-radio-map-estimation" rel="noopener noreferrer">
+          DongYang26/awesome-radio-map-estimation
+        </a>
+        &nbsp;·&nbsp; MIT (code) + CC-BY-4.0 (data) &nbsp;·&nbsp;
+        Built with <a href="https://astro.build" rel="noopener noreferrer">Astro</a>
+      </p>
+    </footer>
+  </body>
+</html>

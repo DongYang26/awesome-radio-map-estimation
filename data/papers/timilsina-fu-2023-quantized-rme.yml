@@ -1,0 +1,44 @@
+id: timilsina-fu-2023-quantized-rme
+title: "Quantized Radio Map Estimation Using Tensor and Deep Generative Models"
+authors:
+  - Subash Timilsina
+  - Sagar Shrestha
+  - Xiao Fu
+year: 2023
+venue: "IEEE Transactions on Signal Processing"
+abstract: >
+  Extends provable spectrum cartography to the realistic setting where sensors
+  transmit heavily quantized measurements rather than full-resolution real values.
+  A maximum likelihood estimation framework under a Gaussian quantizer is proposed
+  for both block-term tensor decomposition (BTD) and deep generative model (DGM)
+  based recovery. Recoverability is characterized under imperfect modeling and noisy
+  conditions; simulations and real-data experiments demonstrate effectiveness.
+tldr: >
+  MLE-based spectrum cartography with provable guarantees when sensors send
+  quantized (1-bit to low-bit) measurements, unifying BTD and deep generative models.
+links:
+  arxiv: "https://arxiv.org/abs/2303.01770"
+  pdf: "https://arxiv.org/pdf/2303.01770"
+  doi: "10.1109/TSP.2023.3336179"
+subfield: spectrum-cartography
+method_family: learning-based
+method_detail:
+  - matrix-completion
+  - autoencoder
+  - other   # block-term tensor decomposition + deep generative model
+task:
+  - spectrum-cartography
+  - signal-strength-estimation
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 2D
+supervision: unsupervised
+citations: 30
+is_milestone: false
+tags:
+  - quantized-measurements
+  - block-term-decomposition
+  - deep-generative-model
+  - MLE
+  - provable-recovery
+added_date: '2026-05-16'

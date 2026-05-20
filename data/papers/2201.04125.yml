@@ -1,0 +1,45 @@
+id: '2201.04125'
+title: 'Spectrum Surveying: Active Radio Map Estimation With Autonomous UAVs'
+authors:
+  - Raj K. Shrestha
+  - Daniel Romero
+  - Sundeep Chepuri
+year: 2022
+venue: IEEE Transactions on Wireless Communications
+subfield: REM
+method_family: learning-based
+method_detail:
+  - Gaussian-process
+  - CNN
+task:
+  - REM-construction
+  - signal-strength-estimation
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 2D
+supervision: supervised
+abstract: >
+  This paper proposes spectrum surveying, where a UAV collects measurements at
+  actively selected locations to obtain high-quality radio map estimates in
+  minimal surveying time. A model-based online Bayesian estimator and a
+  data-driven deep learning algorithm are devised for updating map estimates
+  and an uncertainty metric indicating measurement informativeness. A dynamic
+  programming approach plans the UAV trajectory to gather measurements at the
+  most informative locations in linear time. Experiments on realistic datasets
+  confirm that the scheme constructs accurate radio maps quickly.
+tldr: >
+  UAV-based active radio map estimation that jointly learns uncertainty and
+  plans measurement trajectories for efficient spectrum surveying.
+links:
+  arxiv: 'https://arxiv.org/abs/2201.04125'
+  pdf: 'https://arxiv.org/pdf/2201.04125'
+  doi: '10.1109/TWC.2022.3197087'
+citations: 76
+is_milestone: false
+tags:
+  - UAV
+  - active-learning
+  - uncertainty
+  - Bayesian
+  - trajectory-planning
+added_date: '2026-05-16'

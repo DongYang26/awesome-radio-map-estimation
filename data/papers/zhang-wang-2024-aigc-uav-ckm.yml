@@ -1,0 +1,41 @@
+id: "zhang-wang-2024-aigc-uav-ckm"
+title: "Strategic Application of AIGC for UAV Trajectory Design: A Channel Knowledge Map Approach"
+authors:
+  - Chiya Zhang
+  - Ting Wang
+  - Rubing Han
+  - Yuanxiang Gong
+year: 2024
+venue: "IEEE Transactions on Automation Science and Engineering"
+subfield: CKM
+method_family: learning-based
+method_detail:
+  - GAN
+  - other
+task:
+  - channel-gain-prediction
+  - other
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 2D
+supervision: supervised
+abstract: >
+  This paper proposes an AIGC-driven framework for UAV communication that combines data augmentation,
+  channel prediction, and trajectory optimization. A Wasserstein GAN generates high-quality synthetic
+  channel data to address data-collection bottlenecks, which trains a knowledge-driven CKM achieving
+  superior channel gain prediction. The enhanced CKM then guides a reinforcement learning algorithm
+  to generate optimal UAV trajectories, reducing training loss by 30.23% and flight time from 81 s
+  to 37 s versus traditional methods.
+tldr: "Uses WGAN-augmented data to train a CKM, then guides reinforcement learning for UAV trajectory optimization, cutting flight time by 54%."
+links:
+  arxiv: "https://arxiv.org/abs/2412.00386"
+  pdf: "http://arxiv.org/pdf/2412.00386"
+  doi: "10.1109/TASE.2025.3552832"
+citations: 4
+tags:
+  - AIGC
+  - GAN
+  - data-augmentation
+  - reinforcement-learning
+  - UAV-trajectory
+added_date: '2026-05-16'

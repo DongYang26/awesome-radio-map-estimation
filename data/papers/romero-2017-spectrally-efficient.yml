@@ -1,0 +1,44 @@
+id: romero-2017-spectrally-efficient
+title: "Spectrally Efficient Data-Adaptive Spectrum Cartography"
+authors:
+  - Daniel Romero
+  - Seung-Jun Kim
+  - Georgios B. Giannakis
+  - Roberto Lopez-Valcarce
+year: 2017
+venue: "IEEE Transactions on Signal Processing"
+abstract: >
+  Proposes a kernel-based nonparametric regression framework for spectrum cartography
+  that jointly learns the spatial correlation structure of the radio environment while
+  reconstructing PSD maps. The estimator is formulated as a regularized functional
+  optimization problem in a reproducing kernel Hilbert space, with data-adaptive bandwidth
+  selection. The method achieves state-of-the-art map accuracy on both synthetic and
+  real-world measurements while maintaining a compact computational footprint suitable
+  for online operation.
+tldr: >
+  Data-adaptive kernel regression for spectrum cartography with joint spatial correlation
+  learning, unifying nonparametric estimation and PSD map construction in an RKHS framework.
+links:
+  doi: "10.1109/TSP.2017.2659650"
+  # TODO: maintainer verify — DOI inferred from known publication record
+subfield: spectrum-cartography
+method_family: interpolation
+method_detail:
+  - Gaussian-process
+  - other   # kernel regression / RKHS
+task:
+  - spectrum-cartography
+  - signal-strength-estimation
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 2D
+supervision: unsupervised
+citations: 95  # TODO: maintainer verify
+is_milestone: true
+tags:
+  - kernel-regression
+  - RKHS
+  - nonparametric
+  - data-adaptive
+  - PSD-map
+added_date: '2026-05-16'

@@ -1,0 +1,42 @@
+id: kriging-rem-cognitive-2018
+title: "Constructing Accurate Radio Environment Maps with Kriging Interpolation in Cognitive Radio Networks"
+authors:
+  - Danlei Mao
+  - Wei Shao
+  - Zuping Qian
+  - Hong Xue
+  - Xin Lu
+  - Hongsheng Wu
+year: 2018
+venue: "Cross Strait Quad-Regional Radio Science and Wireless Technology Conference"
+abstract: >
+  This paper evaluates Kriging interpolation as a spatial estimation method for
+  constructing radio environment maps in cognitive radio networks. The study
+  compares ordinary, simple, and universal Kriging variants against IDW and
+  nearest-neighbour baselines under varying measurement densities. Results
+  demonstrate that Kriging consistently outperforms other classical interpolation
+  methods in REM accuracy, particularly in environments with structured spatial
+  correlation in the signal field.
+tldr: "Systematic comparison of Kriging variants for REM construction in cognitive radio, establishing Kriging as the classical interpolation benchmark."
+links:
+  doi: 10.1109/CSQRWC.2018.8455448
+subfield: REM
+method_family: interpolation
+method_detail:
+  - Kriging
+  - IDW
+task:
+  - REM-construction
+  - signal-strength-estimation
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 2D
+supervision: n/a
+citations: 49
+is_milestone: true
+tags:
+  - kriging
+  - interpolation
+  - cognitive-radio
+  - benchmark
+added_date: '2026-05-16'

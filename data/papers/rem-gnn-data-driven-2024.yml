@@ -1,0 +1,35 @@
+id: rem-gnn-data-driven-2024
+title: "Data-Driven Radio Environment Map Estimation Using Graph Neural Networks"
+authors:
+  - Ali Shibli
+  - Tahar Zanouda
+year: 2024
+venue: "2024 IEEE International Conference on Communications Workshops (ICC Workshops)"
+abstract: >
+  This paper proposes a graph neural network (GNN) approach for radio environment
+  map estimation where sparse measurement locations are treated as graph nodes and
+  spatial proximity defines the edges. The GNN learns to propagate and aggregate
+  signal information across the irregular measurement graph, naturally handling
+  non-uniform spatial sampling without requiring grid interpolation. Evaluations
+  show superior accuracy compared to Kriging and CNN baselines on both simulated
+  and real-world measurement datasets.
+tldr: "GNN treats sparse measurement sites as graph nodes to propagate signal information, outperforming Kriging and CNN baselines on irregular sampling patterns."
+links:
+  doi: 10.1109/ICCWorkshops59551.2024.10615637
+subfield: REM
+method_family: learning-based
+method_detail:
+  - GNN
+task:
+  - REM-construction
+  - signal-strength-estimation
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 2D
+supervision: supervised
+citations: 6
+tags:
+  - graph-neural-network
+  - irregular-sampling
+  - data-driven
+added_date: '2026-05-16'

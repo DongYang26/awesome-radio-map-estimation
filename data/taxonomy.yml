@@ -1,0 +1,58 @@
+taxonomy:
+  - id: interpolation
+    label: Interpolation-based
+    description: Methods that estimate radio maps by interpolating from sparse spatial measurements without explicit propagation models.
+    children:
+      - id: kriging
+        label: Kriging
+        description: Geostatistical interpolation using variogram-modelled spatial correlations; also known as Gaussian process regression on a lattice.
+      - id: idw
+        label: IDW
+        description: Inverse Distance Weighting — assigns measurement influence proportional to the inverse of distance to the query point.
+      - id: matrix-completion
+        label: Matrix Completion
+        description: Recovers a dense radio map by completing a partially observed measurement matrix via low-rank or sparse constraints.
+      - id: gaussian-process
+        label: Gaussian Process
+        description: Bayesian non-parametric interpolation that provides both mean estimates and uncertainty bounds over the spatial field.
+
+  - id: model-based
+    label: Model-based / Physics-based
+    description: Methods grounded in electromagnetic propagation theory or environment geometry to predict signal distributions.
+    children:
+      - id: ray-tracing
+        label: Ray Tracing
+        description: Simulates electromagnetic wave propagation by tracing ray paths through the environment to compute path loss and multipath effects.
+
+  - id: learning-based
+    label: Learning-based (Deep Learning)
+    description: Data-driven methods that learn radio propagation patterns from measurements or simulations using neural network architectures.
+    children:
+      - id: cnn
+        label: CNN
+        description: Convolutional Neural Networks that exploit spatial locality to infer signal strength maps from sparse inputs or environment features.
+      - id: gan
+        label: GAN
+        description: Generative Adversarial Networks used to synthesise or super-resolve radio maps with realistic spatial structure.
+      - id: transformer
+        label: Transformer
+        description: Attention-based models that capture long-range spatial dependencies across measurement locations for radio map estimation.
+      - id: inr
+        label: INR
+        description: Implicit Neural Representations that encode the radio map as a continuous function of coordinates, enabling query at arbitrary resolution.
+      - id: diffusion
+        label: Diffusion
+        description: Score-based or DDPM-style generative models that iteratively denoise a signal field to produce high-fidelity radio maps.
+      - id: gnn
+        label: GNN
+        description: Graph Neural Networks that model sensors or locations as nodes and propagate information along spatial or connectivity edges.
+      - id: rnn
+        label: RNN
+        description: Recurrent Neural Networks applied to sequential or trajectory-based measurement data for radio map construction.
+      - id: autoencoder
+        label: Autoencoder
+        description: Encoder-decoder architectures that learn compact latent representations of radio environments for reconstruction or completion.
+
+  - id: application
+    label: Application — Using Radio Maps / CKM
+    description: Papers that USE a radio environment or channel knowledge map for a downstream task (beamforming, ISAC, channel estimation, localization, …) rather than proposing an estimation method. Includes CKM concept and tutorial papers.

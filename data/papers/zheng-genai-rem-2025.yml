@@ -1,0 +1,46 @@
+id: zheng-genai-rem-2025
+title: 'Radio Map Estimation Based on Generative Artificial Intelligence: Evolution from Point-Level to Cell-Level Prediction'
+authors:
+  - Yi Zheng
+  - Ji Wang
+  - Wenwu Xie
+  - Xingwang Li
+  - Shahid Mumtaz
+  - Abdulhamied Al-Dulaimi
+year: 2025
+venue: IEEE Communications Magazine
+subfield: REM
+method_family: learning-based
+method_detail:
+  - GAN
+  - Diffusion
+  - CNN
+task:
+  - REM-construction
+  - coverage-prediction
+input_modality: both
+environment: outdoor
+dimensionality: 2D
+supervision: supervised
+abstract: >
+  This article surveys the application of generative AI for radio map estimation
+  in complex urban wireless networks, tracing the evolution from point-level to
+  cell-level predictions. A three-step deployment framework is proposed covering
+  scene analysis, adaptation to new environments, and efficient network
+  establishment. The article highlights how deep generative models combined with
+  traditional wireless communication knowledge improve base station placement and
+  network design for 5G-Advanced and 6G networks.
+tldr: >
+  Survey and framework showing how generative AI evolves REM from point-level
+  to cell-level prediction for 5G-Advanced/6G network planning.
+links:
+  doi: '10.1109/MCOM.005.2400027'
+citations: 3
+is_milestone: false
+tags:
+  - survey
+  - generative-AI
+  - cell-level
+  - 6G
+  - network-planning
+added_date: '2026-05-16'

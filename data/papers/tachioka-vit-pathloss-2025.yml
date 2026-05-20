@@ -1,0 +1,26 @@
+id: tachioka-vit-pathloss-2025
+title: "Enhancing Pathloss Estimation with Vision Transformers and Direct Wave Power Integration"
+authors:
+  - Yuuki Tachioka
+year: 2025
+venue: "European Signal Processing Conference"
+subfield: pathloss-prediction
+method_family: learning-based
+method_detail: [Transformer]
+task: [pathloss-prediction]
+input_modality: environment-map
+environment: both
+dimensionality: 2D
+supervision: supervised
+abstract: >
+  Proposes an MST++ vision transformer-based pathloss estimation model augmented with
+  direct wave power as an auxiliary input for line-of-sight detection. Experiments on
+  indoor and outdoor datasets show significantly reduced estimation errors compared to
+  existing deep learning methods, demonstrating the utility of integrating physical
+  wave-power priors into transformer-based architectures.
+tldr: "MST++ vision transformer with direct-wave-power auxiliary input improves pathloss estimation across indoor and outdoor environments."
+links:
+  doi: "10.23919/eusipco63237.2025.11226433"
+citations: 0
+tags: [transformer, indoor, outdoor, LOS, direct-wave, EUSIPCO2025]
+added_date: '2026-05-16'

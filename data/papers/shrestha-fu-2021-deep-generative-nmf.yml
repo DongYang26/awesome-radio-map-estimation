@@ -1,0 +1,41 @@
+id: shrestha-fu-2021-deep-generative-nmf
+title: "Deep Generative Model Learning for Blind Spectrum Cartography with NMF-Based Radio Map Disaggregation"
+authors:
+  - Subash Shrestha
+  - Xiao Fu
+  - Min-Fong Hong
+year: 2021
+venue: "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+abstract: >
+  Introduces blind spectrum cartography where neither emitter locations nor the number
+  of active transmitters are known a priori. Non-negative matrix factorization is used
+  to disaggregate the aggregate received PSD tensor into per-emitter radio maps, which
+  are then individually completed by generative deep neural models trained on synthetic
+  emitter map distributions. The approach handles the full blind SC problem end-to-end
+  and is validated on both simulated and indoor measurement datasets.
+tldr: >
+  Blind spectrum cartography combining NMF-based emitter disaggregation with learned
+  deep generative models, requiring no prior knowledge of transmitter count or locations.
+links:
+  doi: "10.1109/ICASSP39728.2021.9413382"
+subfield: spectrum-cartography
+method_family: learning-based
+method_detail:
+  - autoencoder
+  - matrix-completion
+task:
+  - spectrum-cartography
+  - signal-strength-estimation
+input_modality: sparse-measurements
+environment: both
+dimensionality: 2D
+supervision: self-supervised
+citations: 9
+is_milestone: false
+tags:
+  - NMF
+  - blind-cartography
+  - generative-model
+  - emitter-disaggregation
+  - deep-learning
+added_date: '2026-05-16'

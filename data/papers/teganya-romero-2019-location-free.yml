@@ -1,0 +1,43 @@
+id: teganya-romero-2019-location-free
+title: "Location-Free Spectrum Cartography"
+authors:
+  - Yves Teganya
+  - Daniel Romero
+  - Luis Miguel Lopez Ramos
+  - Baltasar Beferull-Lozano
+year: 2018
+venue: "IEEE Transactions on Signal Processing"
+abstract: >
+  Introduces spectrum cartography that does not require accurate sensor location
+  estimates, addressing a key limitation of prior art in multipath-rich indoor
+  and dense urban scenarios. Estimation relies on features derived from positioning
+  pilot signals rather than explicit location estimates, yielding learning algorithms
+  with markedly improved performance. Simulation studies in indoor scenarios confirm
+  the advantage over localization-based approaches.
+tldr: >
+  Location-free paradigm for spectrum cartography using pilot-signal features
+  instead of sensor position estimates, crucial for indoor/urban multipath environments.
+links:
+  arxiv: "https://arxiv.org/abs/1812.11539"
+  pdf: "https://arxiv.org/pdf/1812.11539"
+  doi: "10.1109/TSP.2019.2923151"
+subfield: spectrum-cartography
+method_family: learning-based
+method_detail:
+  - other   # feature-based learning without localization
+task:
+  - spectrum-cartography
+  - signal-strength-estimation
+input_modality: sparse-measurements
+environment: indoor
+dimensionality: 2D
+supervision: supervised
+citations: 20
+is_milestone: false
+tags:
+  - location-free
+  - indoor
+  - multipath
+  - pilot-features
+  - cognitive-radio
+added_date: '2026-05-16'

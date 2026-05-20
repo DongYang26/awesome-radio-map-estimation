@@ -1,0 +1,37 @@
+id: "wu-zeng-2023-comp-mmwave-ckm"
+title: "Environment-Aware Coordinated Multi-Point mmWave Beam Alignment Via Channel Knowledge Map"
+authors:
+  - Di Wu
+  - Yong Zeng
+year: 2023
+venue: "2023 IEEE International Conference on Communications Workshops (ICC Workshops)"
+subfield: CKM
+method_family: application
+method_detail:
+  - other
+task:
+  - channel-gain-prediction
+  - other
+input_modality: environment-map
+environment: outdoor
+dimensionality: 2D
+supervision: supervised
+abstract: >
+  This paper proposes an environment-aware CoMP beam alignment scheme for mmWave massive MIMO
+  systems using channel angle maps (CAMs) derived from CKM. For the case with a priori UE location,
+  wireless channels of all cooperating base stations can be reconstructed from CAM-inferred angle
+  information with light training overhead. Without a priori UE location, CAM is first used in
+  reverse to localize the UE from a subset of BSs, then forwards to infer remaining BS channels.
+  Ray-tracing simulations demonstrate significant reduction in training overhead and improved
+  effective rate over sequential per-BS beam sweeping.
+tldr: "Uses channel angle maps from CKM to enable overhead-efficient CoMP mmWave beam alignment, with or without prior UE location information."
+links:
+  doi: "10.1109/ICCWorkshops57953.2023.10283607"
+citations: 8
+tags:
+  - CoMP
+  - mmWave
+  - beam-alignment
+  - channel-angle-map
+  - localization
+added_date: '2026-05-16'

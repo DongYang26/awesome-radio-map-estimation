@@ -1,0 +1,44 @@
+id: zhan-hu-2024-uav-ckm-video
+title: "Aerial Video Streaming Over 3D Cellular Networks: An Environment and Channel Knowledge Map Approach"
+authors:
+  - Cheng Zhan
+  - Han Hu
+  - Zhi Liu
+  - Jing Wang
+  - Nan Cheng
+  - Shiwen Mao
+year: 2024
+venue: IEEE Transactions on Wireless Communications
+subfield: CKM
+method_family: learning-based
+method_detail:
+  - other
+task:
+  - channel-gain-prediction
+  - coverage-prediction
+  - other
+input_modality: both
+environment: outdoor
+dimensionality: 3D
+supervision: supervised
+citations: 20
+links:
+  doi: 10.1109/TWC.2023.3289501
+abstract: >
+  This paper studies QoE maximization for aerial video streaming over 3D urban cellular
+  networks using an environment and channel knowledge map (ECKM) approach. Joint design
+  of 3D UAV trajectory, transmission scheduling, and playback rate adaptation is tackled
+  with two graph-model algorithms for the perfect-ECKM case. For the no-map case, a
+  dueling Deep Q-learning solution with online map construction is proposed, demonstrating
+  improved QoE over baselines.
+tldr: >
+  Leverages a 3D environment and channel knowledge map to jointly optimize UAV trajectory
+  and video streaming quality in urban cellular networks.
+tags:
+  - CKM
+  - UAV
+  - 3D
+  - video-streaming
+  - QoE
+  - deep-reinforcement-learning
+added_date: '2026-05-16'

@@ -1,0 +1,51 @@
+id: ren-zhou-2025-ckm-construction-survey
+title: "Channel Knowledge Map Construction: Recent Advances and Open Challenges"
+authors:
+  - Zixiang Ren
+  - Juncong Zhou
+  - Jie Xu
+  - Ling Qiu
+  - Yong Zeng
+  - Han Hu
+  - Juyong Zhang
+  - Rui Zhang
+year: 2025
+venue: IEEE Wireless Communications
+subfield: CKM
+method_family: learning-based
+method_detail:
+  - Kriging
+  - CNN
+  - GAN
+  - Diffusion
+  - INR
+  - other
+task:
+  - channel-gain-prediction
+  - REM-construction
+input_modality: both
+environment: both
+dimensionality: 3D
+supervision: supervised
+citations: 1
+links:
+  doi: 10.1109/mwc.2026.3668205
+abstract: >
+  This article provides a comprehensive overview of recent advances in CKM construction,
+  examining classical interpolation-based methods and their limitations. It explores
+  image processing and generative AI techniques that leverage feature extraction using
+  environmental knowledge, and presents emerging wireless radiance field (WRF) frameworks
+  exploiting neural radiance fields and Gaussian splatting for high-fidelity CKM
+  construction from sparse measurements. Future directions in real-time and cross-domain
+  CKM construction are outlined.
+tldr: >
+  State-of-the-art survey on CKM construction covering interpolation, generative AI,
+  and neural radiance field / Gaussian splatting approaches for 6G systems.
+tags:
+  - CKM
+  - survey
+  - construction
+  - neural-radiance-field
+  - generative-AI
+  - 6G
+added_date: '2026-05-16'

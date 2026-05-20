@@ -1,0 +1,43 @@
+id: zhang-sun-2024-rf3dgs
+title: "RF-3DGS: Wireless Channel Modeling With Radio Radiance Field and 3D Gaussian Splatting"
+authors:
+  - Lihao Zhang
+  - Haijian Sun
+  - S. Berweger
+  - Camillo Gentile
+  - Rose Qingyang Hu
+year: 2024
+venue: IEEE Transactions on Wireless Communications
+subfield: CKM
+method_family: learning-based
+method_detail:
+  - other
+task:
+  - channel-gain-prediction
+  - other
+input_modality: sparse-measurements
+environment: both
+dimensionality: 3D
+supervision: supervised
+citations: 21
+links:
+  doi: 10.1109/TWC.2026.3652154
+  code: https://github.com/SunLab-UGA/RF-3DGS
+abstract: >
+  RF-3DGS proposes site-specific reconstruction of radio radiance fields from sparse
+  samples using 3D Gaussian Splatting adapted for wireless propagation. The method
+  requires only minutes for training and achieves millisecond inference for arbitrary
+  receiver poses, providing fine-grained spatial CSI including channel gain, delay,
+  AoA, and AoD. Real-world-calibrated experiments show significant improvement in
+  reconstruction quality, training efficiency, and rendering speed over state-of-the-art.
+tldr: >
+  Adapts 3D Gaussian Splatting to wireless propagation for fast, high-fidelity
+  site-specific radio radiance field reconstruction from sparse channel measurements.
+tags:
+  - CKM
+  - Gaussian-splatting
+  - radio-radiance-field
+  - 3D
+  - ISAC
+  - site-specific
+added_date: '2026-05-16'

@@ -1,0 +1,46 @@
+id: pan-2025-sc-gan-satellite
+title: "SC-GAN: A Spectrum Cartography with Satellite Internet Based on Pix2Pix Generative Adversarial Network"
+authors:
+  - Zhiqiang Pan
+  - Bangning Zhang
+  - Wang Heng
+  - Wenfeng Ma
+  - Daoxing Guo
+year: 2025
+venue: "China Communications"
+abstract: >
+  Proposes SC-GAN, a Pix2Pix-based conditional GAN for spectrum cartography in satellite
+  internet scenarios where LEO satellite signals create highly dynamic and spatially
+  heterogeneous interference patterns. The image-to-image translation framework treats
+  the sparse measurement map as the input image and the full PSD map as the target,
+  enabling end-to-end learning of the complex satellite propagation environment. Experiments
+  demonstrate accurate reconstruction of satellite interference maps for spectrum coexistence
+  management between terrestrial and non-terrestrial networks.
+tldr: >
+  Pix2Pix cGAN for satellite internet spectrum cartography, learning image-to-image
+  translation from sparse measurements to full PSD maps in dynamic LEO environments.
+links:
+  doi: "10.23919/JCC.fa.2024-0269.202502"
+subfield: spectrum-cartography
+method_family: learning-based
+method_detail:
+  - GAN
+  - CNN
+task:
+  - spectrum-cartography
+  - signal-strength-estimation
+  - spectrum-occupancy
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 2D
+supervision: supervised
+citations: 5
+is_milestone: false
+tags:
+  - GAN
+  - Pix2Pix
+  - satellite
+  - LEO
+  - non-terrestrial-network
+  - spectrum-coexistence
+added_date: '2026-05-16'

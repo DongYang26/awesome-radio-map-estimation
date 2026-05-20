@@ -1,0 +1,42 @@
+id: li-wang-2025-ckm-uav-trajectory
+title: "Joint Trajectory and Transmit Power Design for Cellular-Connected UAVs via Differentiable Channel Knowledge Map"
+authors:
+  - Yuan Li
+  - Xinyao Wang
+  - Zhong Zheng
+  - Jing Guo
+  - Zesong Fei
+year: 2025
+venue: IEEE Transactions on Vehicular Technology
+subfield: CKM
+method_family: learning-based
+method_detail:
+  - other
+task:
+  - channel-gain-prediction
+  - other
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 2D
+supervision: supervised
+citations: 2
+links:
+  doi: 10.1109/TVT.2025.3567741
+abstract: >
+  This work proposes a site-specific differentiable CKM constructed as a back-propagation
+  neural network (BPNN) to enable joint UAV trajectory and transmit power optimization.
+  Transfer learning allows CKM migration to nearby base stations with significantly fewer
+  training samples. Multi-UAV trajectory and power control are optimized via continuous
+  convex approximation using the differentiable CKM, achieving improved minimum average
+  rate over distance-based path-loss models and fixed-power CKM baselines.
+tldr: >
+  Differentiable BPNN-based CKM with transfer learning enables joint UAV trajectory
+  and power optimization in cellular-connected multi-UAV systems.
+tags:
+  - CKM
+  - UAV
+  - trajectory-optimization
+  - transfer-learning
+  - differentiable
+  - 6G
+added_date: '2026-05-16'

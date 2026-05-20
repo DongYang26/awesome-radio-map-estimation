@@ -1,0 +1,39 @@
+id: bazerque-giannakis-2010-distributed-sensing
+title: "Distributed Spectrum Sensing for Cognitive Radio Networks by Exploiting Sparsity"
+authors:
+  - Juan Andres Bazerque
+  - Georgios B. Giannakis
+year: 2010
+venue: "IEEE Transactions on Signal Processing"
+abstract: >
+  Proposes a distributed compressive spectrum sensing framework for cognitive radio networks
+  that exploits the sparsity of active primary users in the frequency domain. Sensors
+  exchange local estimates via consensus iterations to collaboratively reconstruct the
+  power spectral density without a central fusion center. The approach uses LASSO-type
+  sparse regression to identify occupied channels and reconstruct the spectrum map
+  from heavily compressed local measurements.
+tldr: >
+  Foundational distributed compressive sensing paper exploiting frequency sparsity for
+  decentralized PSD estimation across a cognitive radio sensor network.
+links:
+  doi: "10.1109/TSP.2009.2038417"
+subfield: spectrum-cartography
+method_family: interpolation
+method_detail:
+  - other   # LASSO / compressive sensing
+task:
+  - spectrum-occupancy
+  - spectrum-cartography
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 2D
+supervision: unsupervised
+citations: 507
+is_milestone: true
+tags:
+  - compressive-sensing
+  - distributed-sensing
+  - sparsity
+  - cognitive-radio
+  - LASSO
+added_date: '2026-05-16'

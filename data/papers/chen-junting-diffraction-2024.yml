@@ -1,0 +1,30 @@
+id: chen-junting-diffraction-2024
+title: "Diffraction and Scattering Aware Radio Map and Environment Reconstruction Using Geometry Model-Assisted Deep Learning"
+authors:
+  - Wangqian Chen
+  - Junting Chen
+year: 2024
+venue: "IEEE Transactions on Wireless Communications"
+subfield: REM
+method_family: learning-based
+method_detail: [CNN, other]
+task: [pathloss-prediction, signal-strength-estimation]
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 3D
+supervision: supervised
+abstract: >
+  Proposes a method to jointly reconstruct the radio map and a virtual 3D environment
+  from RSS data, without requiring an updated city map. A virtual obstacle model captures
+  the geometry relation between propagation paths and obstacles, a multi-screen knife-edge
+  model extracts diffraction features, and a neural network handles scattering using
+  local geometry structure around Tx/Rx. The approach achieves 10-18% accuracy improvement
+  over state-of-the-art and reduces data needs by 20% and training epochs by 50% on transfer.
+tldr: "Geometry-assisted NN jointly infers pathloss radio maps and virtual 3D obstacles from RSS data, exploiting diffraction and scattering structure."
+links:
+  arxiv: "https://arxiv.org/abs/2403.00229"
+  pdf: "https://arxiv.org/pdf/2403.00229"
+  doi: "10.1109/TWC.2024.3487225"
+citations: 15
+tags: [outdoor, geometry, diffraction, scattering, environment-reconstruction, physics-informed]
+added_date: '2026-05-16'

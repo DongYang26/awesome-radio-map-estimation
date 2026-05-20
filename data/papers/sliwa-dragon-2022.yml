@@ -1,0 +1,34 @@
+id: sliwa-dragon-2022
+title: "DRaGon: Mining Latent Radio Channel Information from Geographical Data Leveraging Deep Learning"
+authors:
+  - Benjamin Sliwa
+  - Melina Geis
+  - Caner Bektas
+  - Melisa López
+  - P. Mogensen
+  - C. Wietfeld
+year: 2021
+venue: "IEEE Wireless Communications and Networking Conference"
+subfield: pathloss-prediction
+method_family: learning-based
+method_detail: [CNN, other]
+task: [pathloss-prediction, signal-strength-estimation]
+input_modality: environment-map
+environment: outdoor
+dimensionality: 3D
+supervision: supervised
+abstract: >
+  Presents DRaGon (Deep RAdio channel modeling from GeOinformatioN), a machine learning
+  method for automatic generation of Radio Environmental Maps from geographical data.
+  DRaGon combines 3D propagation environment features with raw receiver-area images in a
+  deep learning model. Validated against real-world measurements, ray tracing, and known
+  channel models, DRaGon achieves significantly higher prediction accuracy than reference
+  methods by fusing domain expert features with data-driven learning.
+tldr: "DRaGon fuses 3D geo-features and raw images in a CNN to automatically generate radio environment maps with higher accuracy than ray tracing or statistical models."
+links:
+  arxiv: "https://arxiv.org/abs/2112.07941"
+  pdf: "https://arxiv.org/pdf/2112.07941.pdf"
+  doi: "10.1109/WCNC51071.2022.9771981"
+citations: 13
+tags: [outdoor, geospatial, image-input, REM-generation, hybrid]
+added_date: '2026-05-16'

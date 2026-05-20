@@ -1,0 +1,39 @@
+id: "2207.01931"
+title: "Channel Knowledge Map (CKM)-Assisted Multi-UAV Wireless Network: CKM Construction and UAV Placement"
+authors:
+  - Haoyun Li
+  - Peiming Li
+  - Jie Xu
+  - Junting Chen
+  - Yong Zeng
+year: 2022
+venue: "Journal of Communications and Information Networks"
+subfield: CKM
+method_family: interpolation
+method_detail:
+  - IDW
+  - other
+task:
+  - channel-gain-prediction
+  - other
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 2D
+supervision: n/a
+abstract: >
+  This paper investigates a CKM-assisted multi-UAV wireless network, focusing on CKM construction
+  and utilization for multi-UAV placement optimization. A data-driven interpolation technique is
+  exploited to construct CKMs from limited measurements. A derivative-free iterative algorithm
+  is then proposed to optimize UAV placement to maximize weighted sum rate, using quadratic
+  approximations subject to trust-region constraints.
+tldr: "Proposes data-driven CKM interpolation and derivative-free optimization for joint multi-UAV placement in CKM-assisted networks."
+links:
+  arxiv: "https://arxiv.org/abs/2207.01931"
+  pdf: "http://arxiv.org/pdf/2207.01931"
+citations: 16
+tags:
+  - UAV
+  - placement-optimization
+  - multi-UAV
+  - interpolation
+added_date: '2026-05-16'

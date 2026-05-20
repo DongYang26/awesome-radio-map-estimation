@@ -1,0 +1,43 @@
+id: chen-gprt-2025-terrain-gp
+title: "GPRT: A Gaussian Process Regression-Based Radio Map Construction Method for Rugged Terrain"
+authors:
+  - Guokai Chen
+  - Yongxiang Liu
+  - Jianzhao Zhang
+  - Tao Zhang
+  - Kai Liu
+  - Jun Yang
+year: 2025
+venue: "IEEE Internet of Things Journal"
+abstract: >
+  Proposes GPRT, a Gaussian process regression method that integrates digital
+  elevation data into the kernel function to capture anisotropic spatial correlation
+  and terrain effects for radio map construction in rugged terrain. An Adam optimizer
+  is used for efficient hyperparameter tuning. Simulations with varying emitter counts
+  and field experiments in real-world terrain show 20-33% improvement over competing
+  methods in both simulated and experimental settings.
+tldr: >
+  Terrain-aware Gaussian process radio map estimation with a kernel that embeds
+  digital elevation data to handle anisotropic propagation in rugged terrain.
+links:
+  doi: "10.1109/JIOT.2025.3554507"
+subfield: spectrum-cartography
+method_family: interpolation
+method_detail:
+  - Gaussian-process
+task:
+  - spectrum-cartography
+  - signal-strength-estimation
+input_modality: both
+environment: outdoor
+dimensionality: 2D
+supervision: unsupervised
+citations: 4
+is_milestone: false
+tags:
+  - Gaussian-process
+  - terrain-aware
+  - digital-elevation
+  - anisotropic-kernel
+  - IoT
+added_date: '2026-05-16'

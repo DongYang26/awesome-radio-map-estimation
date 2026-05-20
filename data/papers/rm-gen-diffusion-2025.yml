@@ -1,0 +1,39 @@
+id: rm-gen-diffusion-2025
+title: "Denoising Diffusion Probabilistic Model for Radio Map Estimation in Generative Wireless Networks"
+authors:
+  - Xuanhao Luo
+  - Zhizhen Li
+  - Zhiyuan Peng
+  - Mingzhe Chen
+  - Yuchen Liu
+year: 2025
+venue: "IEEE Transactions on Cognitive Communications and Networking"
+abstract: >
+  RM-Gen is a generative framework that leverages conditional denoising diffusion
+  probabilistic models to synthesize radio maps from minimal collected data.
+  An environment-aware method selects critical measurement locations to maximise
+  the utility of limited samples. Comprehensive evaluations at 60 GHz and sub-6 GHz
+  bands show over 95% accuracy, outperforming GAN and pix2pix baselines, offering a
+  cost-effective alternative to large-scale drive-test campaigns.
+tldr: "Conditional DDPM with environment-aware sampling achieves >95% accuracy in radio map synthesis for both mmWave and sub-6 GHz bands from minimal measurements."
+links:
+  doi: 10.1109/TCCN.2025.3529879
+subfield: REM
+method_family: learning-based
+method_detail:
+  - Diffusion
+task:
+  - REM-construction
+  - coverage-prediction
+  - signal-strength-estimation
+input_modality: both
+environment: outdoor
+dimensionality: 2D
+supervision: supervised
+citations: 27
+tags:
+  - diffusion-model
+  - generative-AI
+  - mmWave
+  - 5G
+added_date: '2026-05-16'

@@ -1,0 +1,39 @@
+id: "pseudo-ray-tracing-2022"
+title: "Pseudo Ray-Tracing: Deep Learning Assisted Outdoor mm-Wave Path Loss Prediction"
+authors:
+  - Kehai Qiu
+  - Stefanos Bakirtzis
+  - Hui Song
+  - Jie Zhang
+  - Ian J. Wassell
+year: 2022
+venue: "IEEE Wireless Communications Letters"
+abstract: >
+  This letter presents a deep learning approach for outdoor path loss prediction
+  at 30 GHz that leverages a model trained offline on 3D ray-tracing simulation
+  data. Unlike existing 3D ray-tracing methods that model physical propagation
+  phenomena geometrically, the proposed method predicts outdoor path loss directly
+  from environment features in an end-to-end manner. Simulation results show the
+  deep learning approach delivers path loss prediction with accuracy comparable to
+  a state-of-the-art 3D ray-tracing simulator while being 30 times faster.
+tldr: "Deep learning trained on 3D ray-tracing data predicts outdoor 30 GHz path loss 30x faster than the simulator with comparable accuracy."
+links:
+  doi: 10.1109/lwc.2022.3175091
+subfield: pathloss-prediction
+method_family: learning-based
+method_detail:
+  - CNN
+task:
+  - pathloss-prediction
+  - signal-strength-estimation
+input_modality: environment-map
+environment: outdoor
+dimensionality: 3D
+supervision: supervised
+citations: 42
+tags:
+  - mmWave
+  - 5G
+  - ray-tracing-assisted
+  - outdoor
+added_date: '2026-05-16'

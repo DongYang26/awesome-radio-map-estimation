@@ -1,0 +1,42 @@
+id: "1911.09002"
+title: "RadioUNet: Fast Radio Map Estimation With Convolutional Neural Networks"
+authors:
+  - Ron Levie
+  - Çağkan Yapar
+  - Gitta Kutyniok
+  - Giuseppe Caire
+year: 2019
+venue: "IEEE Transactions on Wireless Communications"
+abstract: >
+  RadioUNet proposes a deep learning method based on a U-Net architecture to
+  estimate the radio propagation pathloss map from transmitter location and an
+  urban building map. The network learns to predict the pathloss function for all
+  transmitter-receiver pairs in a given environment, achieving accuracy close to
+  ray-tracing simulations at orders-of-magnitude lower inference cost. The paper
+  also introduces methods for transferring simulation-trained models to real-world
+  deployments.
+tldr: "U-Net CNN estimates urban pathloss maps from building maps with ray-tracing accuracy at real-time speed, establishing a widely-used DL baseline for REM."
+links:
+  arxiv: https://arxiv.org/abs/1911.09002
+  pdf: http://arxiv.org/pdf/1911.09002
+  doi: 10.1109/TWC.2021.3054977
+subfield: pathloss-prediction
+method_family: learning-based
+method_detail:
+  - CNN
+task:
+  - signal-strength-estimation
+  - pathloss-prediction
+  - REM-construction
+input_modality: environment-map
+environment: outdoor
+dimensionality: 2D
+supervision: supervised
+citations: 418
+is_milestone: true
+tags:
+  - UNet
+  - pathloss
+  - urban
+  - simulation-to-real
+added_date: '2026-05-16'

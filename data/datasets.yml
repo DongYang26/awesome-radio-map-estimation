@@ -1,0 +1,104 @@
+datasets:
+
+  - id: radiomapseer
+    name: RadioMapSeer (RadioUNet Dataset)
+    description: >
+      Large-scale simulated urban outdoor pathloss dataset generated with WinProp
+      ray-tracing over 700 diverse city maps at 256×256 resolution. Provides
+      transmitter location, building footprint, and pathloss ground-truth maps;
+      the de-facto benchmark for outdoor pathloss radio map estimation since 2021.
+    link: https://radiomapseer.github.io
+    papers_using:
+      - "1911.09002"
+      - "2211.10527"
+      - "2212.12817"
+      - radiodiff-2024
+      - rem-autoencoder-skip-2023
+      - rem-gnn-data-driven-2024
+      - radioformer-2025
+      - rmtransformer-2025
+      - rm-gen-diffusion-2025
+      - grid-free-icr-2025
+    benchmark:
+      # TODO: maintainer verify — illustrative benchmark numbers
+      - paper_id: "1911.09002"
+        metric: RMSE (dB)
+        value: 6.03
+      - paper_id: radiodiff-2024
+        metric: RMSE (dB)
+        value: 3.41
+
+  - id: icassp2023-pathloss-dataset
+    name: ICASSP 2023 Pathloss Radio Map Prediction Challenge Dataset
+    description: >
+      Standardized outdoor urban pathloss dataset released alongside the first
+      ICASSP pathloss map prediction challenge. Provides building maps, transmitter
+      locations, and pathloss ground truth for training, validation, and held-out
+      test splits to enable fair comparison across deep-learning approaches.
+    link: https://arxiv.org/abs/2310.07658
+    papers_using:
+      - icassp2023-pathloss-challenge
+      - ojsp2024-pathloss-challenge-overview
+      - levie-icassp2020-pathloss
+      - pseudo-ray-tracing-2022
+    benchmark:
+      # TODO: maintainer verify — illustrative benchmark numbers
+      - paper_id: icassp2023-pathloss-challenge
+        metric: NMSE (dB)
+        value: -18.4
+
+  - id: icassp2025-indoor-dataset
+    name: ICASSP 2025 Indoor Pathloss Challenge Dataset
+    description: >
+      Indoor directional pathloss dataset introduced for the ICASSP 2025 challenge.
+      Covers diverse floor plans with directional antenna emission patterns, extending
+      outdoor challenge benchmarking methodology to indoor propagation environments.
+    link: https://doi.org/10.1109/ICASSP49660.2025.10889381
+    papers_using:
+      - icassp2025-indoor-pathloss-challenge
+      - vit-indoor-pathloss-2024
+
+  - id: ckmimagenet
+    name: CKMImageNet
+    description: >
+      Large-scale ray-tracing dataset pairing location-tagged numerical channel
+      knowledge (path loss, delay spread, etc.) with co-registered environmental
+      images across diverse outdoor scenarios. Purpose-built to enable computer-vision
+      methods for Channel Knowledge Map construction in 6G research.
+    link: https://doi.org/10.1109/ICCCWorkshops62562.2024.10693754
+    papers_using:
+      - wu-wu-2024-ckmimagenet-dataset
+      - zeng-chen-2024-ckm-tutorial
+      - wu-qiu-2024-ckm-channel-estimation
+      - li-wang-2025-ckm-uav-trajectory
+
+  - id: spectrum-cartography-synthetic
+    name: Spectrum Cartography Synthetic / Simulation Datasets
+    description: >
+      A family of synthetic datasets used across spectrum cartography literature,
+      generated via stochastic propagation models (log-distance path loss + shadowing)
+      or tensor-based multi-source emitter models. Used widely to benchmark
+      Kriging, group-lasso, and tensor-completion spectrum cartography methods.
+    link: https://github.com/uiano/spectrum_surveying_with_UAVs
+    papers_using:
+      - bazerque-giannakis-2010-distributed-sensing
+      - bazerque-giannakis-2010-group-lasso
+      - romero-2017-spectrally-efficient
+      - spectrum-cartography-tensor-2019
+      - shrestha-fu-2022-deep-spectrum-cartography-tensor
+      - teganya-romero-2022-deep-spectrum-cartography
+      - chen-wang-2025-dynamic-spectrum-tensor
+
+  - id: wifi-indoor-measurement
+    name: WiFi Indoor Measurement Datasets
+    description: >
+      Real-world indoor WiFi received-signal-strength (RSS) datasets collected
+      in office and campus environments at varying sample densities. Used to
+      benchmark diffusion and learning-based methods for fine-grained indoor
+      radio map estimation at ultra-low sampling rates.
+    link: https://arxiv.org/abs/2502.10472
+    papers_using:
+      - wifi-diffusion-2025
+      - rem-gp-location-2015
+      - boccolini-2012-kriging-cartography
+      - kriging-rem-cognitive-2018

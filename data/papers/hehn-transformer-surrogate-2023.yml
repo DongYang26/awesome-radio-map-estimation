@@ -1,0 +1,37 @@
+id: hehn-transformer-surrogate-2023
+title: "Transformer-Based Neural Surrogate for Link-Level Path Loss Prediction from Variable-Sized Maps"
+authors:
+  - Thomas M. Hehn
+  - Tribhuvanesh Orekondy
+  - O. Shental
+  - Arash Behboodi
+  - Juan Bucheli
+  - Akash S. Doshi
+  - June Namgoong
+  - Taesang Yoo
+  - Ashwin Sampath
+  - J. Soriaga
+year: 2023
+venue: "Global Communications Conference"
+subfield: pathloss-prediction
+method_family: learning-based
+method_detail: [Transformer]
+task: [pathloss-prediction]
+input_modality: both
+environment: outdoor
+dimensionality: 2D
+supervision: supervised
+abstract: >
+  Presents a transformer-based neural network for link-level path loss prediction from
+  maps of variable dimensions containing building and foliage information. The transformer
+  attends to propagation-relevant regions and scales efficiently to maps of different sizes.
+  The model works with continuous transmitter and receiver coordinates without discretisation
+  and generalises well to novel maps trained from sparse measurements.
+tldr: "Transformer neural surrogate predicts link-level pathloss from variable-sized environment maps, attending to propagation-relevant regions."
+links:
+  arxiv: "https://arxiv.org/abs/2310.04570"
+  pdf: "https://arxiv.org/pdf/2310.04570"
+  doi: "10.1109/GLOBECOM54140.2023.10436935"
+citations: 16
+tags: [transformer, link-level, variable-map, outdoor, generalisation]
+added_date: '2026-05-16'

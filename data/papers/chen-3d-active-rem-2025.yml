@@ -1,0 +1,43 @@
+id: chen-3d-active-rem-2025
+title: '3-D Radio Map Estimation Based on Active Measurement Trajectory Selection'
+authors:
+  - Zhibo Chen
+  - Heng Wang
+  - Daoxing Guo
+year: 2025
+venue: IEEE Wireless Communications Letters
+subfield: REM
+method_family: learning-based
+method_detail:
+  - autoencoder
+  - CNN
+task:
+  - REM-construction
+  - signal-strength-estimation
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 3D
+supervision: supervised
+abstract: >
+  This paper proposes a 3D radio map estimation framework where aircraft actively
+  select measurement positions to obtain high-quality estimates efficiently. A 3D
+  convolutional autoencoder estimates the radio map and quantifies per-location
+  uncertainty; an uncertainty-guided trajectory planning algorithm then directs
+  the aircraft toward the most informative locations. Under a 5% sampling ratio,
+  the framework achieves 2.61 dB estimation error, demonstrating that active
+  trajectory selection substantially improves 3D reconstruction accuracy.
+tldr: >
+  Active-sampling 3D REM framework where a convolutional autoencoder quantifies
+  uncertainty to guide aircraft measurement trajectories, achieving 2.61 dB error
+  at 5% sampling.
+links:
+  doi: '10.1109/LWC.2025.3557556'
+citations: 6
+is_milestone: false
+tags:
+  - 3D
+  - active-learning
+  - uncertainty
+  - trajectory-planning
+  - autoencoder
+added_date: '2026-05-16'

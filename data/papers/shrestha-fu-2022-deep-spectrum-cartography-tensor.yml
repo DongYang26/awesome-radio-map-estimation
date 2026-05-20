@@ -1,0 +1,44 @@
+id: shrestha-fu-2022-deep-spectrum-cartography-tensor
+title: "Deep Spectrum Cartography: Completing Radio Map Tensors Using Learned Neural Models"
+authors:
+  - Subash Shrestha
+  - Xiao Fu
+  - Min-Fong Hong
+year: 2021
+venue: "IEEE Transactions on Signal Processing"
+abstract: >
+  Frames spectrum cartography as an ill-posed radio map tensor completion problem and
+  proposes emitter-level radio map disaggregation using deep neural networks, where
+  individual emitter maps are modeled separately to tame the latent state space. A fast
+  NMF-based two-stage SC method and an iterative optimization algorithm exploit the
+  learned per-emitter DNNs for final tensor reconstruction. Recoverability, sample
+  complexity, and noise robustness are theoretically characterized, and experiments on
+  real indoor and shadowed outdoor data confirm the approach's superiority over model-based methods.
+tldr: >
+  Deep learning spectrum cartography via emitter-level radio map disaggregation and NMF,
+  with provable recoverability guarantees and strong results in heavily shadowed environments.
+links:
+  doi: "10.1109/TSP.2022.3145190"
+  pdf: "https://doi.org/10.1109/tsp.2022.3145190"
+subfield: spectrum-cartography
+method_family: learning-based
+method_detail:
+  - autoencoder
+  - matrix-completion
+task:
+  - spectrum-cartography
+  - signal-strength-estimation
+input_modality: sparse-measurements
+environment: both
+dimensionality: 2D
+supervision: self-supervised
+citations: 86
+is_milestone: true
+tags:
+  - tensor-completion
+  - NMF
+  - deep-learning
+  - emitter-disaggregation
+  - radio-map
+  - recoverability
+added_date: '2026-05-16'

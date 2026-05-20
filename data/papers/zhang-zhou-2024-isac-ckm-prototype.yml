@@ -1,0 +1,43 @@
+id: zhang-zhou-2024-isac-ckm-prototype
+title: "Prototyping and Experimental Results for ISAC-Based Channel Knowledge Map"
+authors:
+  - Chaoyue Zhang
+  - Zhiwen Zhou
+  - Xiaoli Xu
+  - Yong Zeng
+  - Zaichen Zhang
+  - Shi Jin
+year: 2024
+venue: IEEE Transactions on Vehicular Technology
+subfield: CKM
+method_family: application
+method_detail:
+  - other
+task:
+  - channel-gain-prediction
+  - other
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 2D
+supervision: supervised
+citations: 10
+links:
+  doi: 10.1109/TVT.2025.3545785
+abstract: >
+  This paper presents an ISAC-based CKM prototype system on mmWave OFDM, demonstrating
+  the mutualistic relationship between ISAC and CKM. The prototype showcases the full
+  pipeline of CKM construction (storing UE channel feedback indexed by ISAC-estimated
+  location) and CKM application (training-free mmWave beam alignment by CKM look-up).
+  Experimental results confirm that ISAC constructs or updates CKM during communication
+  while pre-learned CKM enables training-free beam alignment.
+tldr: >
+  First hardware prototype demonstrating the ISAC-CKM co-design loop: ISAC localizes
+  the UE to build CKM, and CKM enables training-free mmWave beam alignment.
+tags:
+  - CKM
+  - ISAC
+  - prototype
+  - mmWave
+  - beam-alignment
+  - 6G
+added_date: '2026-05-16'

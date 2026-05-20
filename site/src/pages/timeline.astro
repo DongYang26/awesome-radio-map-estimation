@@ -1,0 +1,173 @@
+---
+import Base from '../layouts/Base.astro';
+import { papers } from '../lib/data';
+import type { Paper } from '../lib/data';
+
+const base = import.meta.env.BASE_URL;
+const b = base.endsWith('/') ? base.slice(0, -1) : base;
+
+// ---------------------------------------------------------------------------
+// Group papers by year, newest year first. Within a year, milestones first,
+// then alphabetical by title.
+// ---------------------------------------------------------------------------
+const byYear = new Map<number, Paper[]>();
+for (const p of papers) {
+  const list = byYear.get(p.year) ?? [];
+  list.push(p);
+  byYear.set(p.year, list);
+}
+
+const years = [...byYear.keys()].sort((a, b) => b - a);
+const grouped = years.map((year) => ({
+  year,
+  papers: (byYear.get(year) ?? []).sort(
+    (a, b) =>
+      Number(b.is_milestone ?? false) - Number(a.is_milestone ?? false) ||
+      a.title.localeCompare(b.title),
+  ),
+}));
+
+const milestoneCount = papers.filter((p) => p.is_milestone).length;
+const spanLabel = years.length ? `${years[years.length - 1]}–${years[0]}` : '—';
+---
+
+<Base
+  title="Timeline"
+  description="An evolution timeline of radio map estimation research — papers grouped by year, with milestone work highlighted."
+>
+  <section aria-labelledby="tl-heading">
+    <h1 id="tl-heading">Evolution Timeline</h1>
+    <p>
+      Radio map estimation research across {spanLabel}, grouped by publication year (most recent
+      first). Papers marked as <span class="badge badge--milestone">Milestone</span> are landmark
+      contributions that shaped the field. Hover or focus a paper to read its one-line summary.
+    </p>
+    <p class="text-muted">
+      {papers.length} papers · {milestoneCount} milestones · {years.length} years.
+    </p>
+
+    <ol class="timeline" role="list">
+      {
+        grouped.map(({ year, papers: yearPapers }) => (
+          <li class="timeline-year-block">
+            <div class="timeline-year">
+              <h2>
+                {year} <span class="text-muted year-count">({yearPapers.length})</span>
+              </h2>
+            </div>
+            <ul class="timeline-year-papers" role="list">
+              {yearPapers.map((p) => (
+                <li
+                  class:list={[
+                    'timeline-item',
+                    { 'timeline-item--milestone': p.is_milestone },
+                  ]}
+                >
+                  <div class="timeline-item__head">
+                    <a
+                      class="timeline-item__title"
+                      href={`${b}/matrix#${encodeURIComponent(p.id)}`}
+                    >
+                      {p.title}
+                    </a>
+                    {p.is_milestone && (
+                      <span class="badge badge--milestone">Milestone</span>
+                    )}
+                  </div>
+                  <p class="timeline-item__meta text-muted">
+                    {p.authors.slice(0, 3).join(', ')}
+                    {p.authors.length > 3 ? ' et al.' : ''}
+                    {p.venue ? ` · ${p.venue}` : ''}
+                  </p>
+                  <p class="timeline-item__tags">
+                    <span class="badge badge--primary">{p.subfield}</span>
+                    <span class="badge">{p.method_family}</span>
+                  </p>
+                  {p.tldr && (
+                    <p class="timeline-item__tldr" aria-hidden="false">
+                      <span class="timeline-item__tldr-label">TL;DR</span> {p.tldr}
+                    </p>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </li>
+        ))
+      }
+    </ol>
+  </section>
+</Base>
+
+<style>
+  .timeline-year-block {
+    list-style: none;
+  }
+  .timeline-year-papers {
+    list-style: none;
+  }
+  .year-count {
+    font-size: 0.85rem;
+    font-weight: 400;
+  }
+  .timeline-item__head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.5rem;
+  }
+  .timeline-item__title {
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  .timeline-item__meta {
+    font-size: 0.82rem;
+    margin: 0.25rem 0 0;
+  }
+  .timeline-item__tags {
+    margin: 0.4rem 0 0;
+    display: flex;
+    gap: 0.35rem;
+    flex-wrap: wrap;
+  }
+
+  /* TL;DR is hidden by default and revealed on hover/focus of the timeline
+     card — a light CSS-only interaction (zero JS). It stays in the DOM so
+     screen-reader users can still reach it; sighted users get progressive
+     disclosure to keep the timeline scannable. */
+  .timeline-item__tldr {
+    font-size: 0.85rem;
+    margin: 0;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition:
+      max-height 0.2s ease,
+      opacity 0.2s ease,
+      margin-top 0.2s ease;
+  }
+  .timeline-item:hover .timeline-item__tldr,
+  .timeline-item:focus-within .timeline-item__tldr {
+    max-height: 12rem;
+    opacity: 1;
+    margin-top: 0.5rem;
+  }
+  .timeline-item__tldr-label {
+    font-weight: 700;
+    font-size: 0.7rem;
+    letter-spacing: 0.04em;
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    margin-right: 0.25rem;
+  }
+
+  /* When the OS requests reduced motion, drop the transition and keep the
+     TL;DR permanently visible so no information is gated behind animation. */
+  @media (prefers-reduced-motion: reduce) {
+    .timeline-item__tldr {
+      transition: none;
+      max-height: none;
+      opacity: 1;
+      margin-top: 0.5rem;
+    }
+  }
+</style>

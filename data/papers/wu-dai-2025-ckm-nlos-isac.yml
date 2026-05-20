@@ -1,0 +1,40 @@
+id: wu-dai-2025-ckm-nlos-isac
+title: "You May Use the Same Channel Knowledge Map for Environment-Aware NLoS Sensing and Communication"
+authors:
+  - Di Wu
+  - Zhuoyin Dai
+  - Yong Zeng
+year: 2025
+venue: IEEE Transactions on Wireless Communications
+subfield: CKM
+method_family: application
+method_detail:
+  - other
+task:
+  - channel-gain-prediction
+  - other
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 3D
+supervision: supervised
+citations: 4
+links:
+  doi: 10.1109/TWC.2026.3678277
+abstract: >
+  This paper proposes a novel approach to enable environment-aware NLoS ISAC by leveraging
+  CKM originally designed for wireless communications. A channel angle-delay map (CADM)
+  serves dual purposes: communication channel priors are transformed into sensing channel
+  priors, enabling NLoS target localization without building a separate sensing map.
+  CRLB analysis validates significant performance improvements over classic geometry-based
+  sensing methods in complex urban low-altitude airspace environments.
+tldr: >
+  Shows that a single CKM built for communications can be reused for NLoS sensing via
+  angle-delay priors, enabling dual-purpose environment-aware ISAC with one map.
+tags:
+  - CKM
+  - ISAC
+  - NLoS
+  - sensing
+  - 6G
+  - low-altitude
+added_date: '2026-05-16'

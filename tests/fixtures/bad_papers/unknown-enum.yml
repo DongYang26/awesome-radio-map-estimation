@@ -1,0 +1,14 @@
+id: unknown-enum
+title: "A Paper With An Invalid Subfield Enum Value"
+authors:
+  - Grace Hopper
+year: 2024
+subfield: not-a-real-subfield
+method_family: learning-based
+task:
+  - REM-construction
+input_modality: environment-map
+environment: outdoor
+dimensionality: 2D
+supervision: supervised
+added_date: '2024-02-01'

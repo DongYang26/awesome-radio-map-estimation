@@ -1,0 +1,40 @@
+id: chen-wang-2024-emitter-separation-tensor
+title: "Dynamic Spectrum Cartography via Emitter Separation-Based Tensor Completion"
+authors:
+  - Xiaonan Chen
+  - Jun Wang
+year: 2024
+venue: "IEEE International Conference on Communications (ICC)"
+abstract: >
+  Proposes an emitter-separation strategy for dynamic spectrum cartography where
+  time-varying RF maps are decomposed into per-emitter contributions before tensor
+  completion. By separating the contributions of individual emitters prior to
+  recovery, the method reduces the effective problem complexity and enables more
+  accurate reconstruction of dynamic spatial-spectral-temporal radio maps from
+  limited sensor measurements compared to joint recovery baselines.
+tldr: >
+  Dynamic spectrum cartography that first separates per-emitter contributions,
+  then applies tensor completion to each, improving dynamic map recovery accuracy.
+links:
+  doi: "10.1109/ICC51166.2024.10622998"
+subfield: spectrum-cartography
+method_family: interpolation
+method_detail:
+  - matrix-completion
+  - other   # emitter separation + block-term tensor decomposition
+task:
+  - spectrum-cartography
+  - signal-strength-estimation
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 2D
+supervision: unsupervised
+citations: 1
+is_milestone: false
+tags:
+  - emitter-separation
+  - dynamic-cartography
+  - tensor-completion
+  - time-varying
+  - block-term-decomposition
+added_date: '2026-05-16'

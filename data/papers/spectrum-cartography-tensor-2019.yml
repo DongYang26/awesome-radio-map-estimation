@@ -1,0 +1,42 @@
+id: spectrum-cartography-tensor-2019
+title: "Spectrum Cartography via Coupled Block-Term Tensor Decomposition"
+authors:
+  - Guoyong Zhang
+  - Xiao Fu
+  - Jun Wang
+  - Xile Zhao
+  - Mingyi Hong
+year: 2019
+venue: "IEEE Transactions on Signal Processing"
+abstract: >
+  This paper proposes a joint radio map recovery and disaggregation method based
+  on coupled block-term tensor decomposition. Unlike prior cartography methods
+  that only recover aggregate RF information, this work identifies individual
+  emitter-level radio maps with provable identifiability guarantees under realistic
+  sampling conditions. Effective optimization algorithms are derived, and the
+  method is validated on synthetic simulations across various geographic sampling
+  patterns.
+tldr: "Coupled block-term tensor decomposition enables provably identifiable per-emitter radio map disaggregation from sparse geographic samples."
+links:
+  doi: 10.1109/TSP.2020.2993530
+  pdf: https://doi.org/10.1109/tsp.2020.2993530
+subfield: spectrum-cartography
+method_family: interpolation
+method_detail:
+  - matrix-completion
+  - other
+task:
+  - spectrum-cartography
+  - REM-construction
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 2D
+supervision: unsupervised
+citations: 88
+is_milestone: true
+tags:
+  - tensor-decomposition
+  - spectrum-cartography
+  - disaggregation
+  - identifiability
+added_date: '2026-05-16'

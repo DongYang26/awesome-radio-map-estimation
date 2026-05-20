@@ -1,0 +1,41 @@
+id: ha-bayesian-rem-diffusion-2025
+title: 'Bayesian Radio Map Estimation: Fundamentals and Implementation via Diffusion Models'
+authors:
+  - Tien Ngoc Ha
+  - Daniel Romero
+year: 2025
+subfield: REM
+method_family: learning-based
+method_detail:
+  - Diffusion
+  - Gaussian-process
+task:
+  - REM-construction
+  - signal-strength-estimation
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 2D
+supervision: supervised
+abstract: >
+  This paper develops a full Bayesian formulation for radio map estimation (RME)
+  that targets the posterior distribution of the map given measurements, going
+  beyond point-estimate approaches. The posterior enables MMSE estimation of
+  arbitrary map functionals such as coverage area, capacity, and bit error rate,
+  while training only for power estimation. A conditional diffusion model
+  implements the Bayesian estimator. Analytical and numerical comparisons
+  establish when the Bayesian approach is preferable to non-Bayesian alternatives.
+tldr: >
+  Full posterior-distribution RME via conditional diffusion models; enables
+  uncertainty quantification and MMSE estimation of any map functional trained
+  solely on power measurements.
+links:
+  doi: '10.48550/arXiv.2502.09998'  # TODO: maintainer verify — confirm exact arXiv ID
+citations: 1
+is_milestone: false
+tags:
+  - Bayesian
+  - uncertainty
+  - diffusion
+  - posterior
+  - MMSE
+added_date: '2026-05-16'

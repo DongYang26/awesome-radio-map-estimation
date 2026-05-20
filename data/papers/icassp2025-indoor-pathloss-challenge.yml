@@ -1,0 +1,37 @@
+id: "icassp2025-indoor-pathloss-challenge"
+title: "The First Indoor Pathloss Radio Map Prediction Challenge"
+authors:
+  - Stefanos Bakirtzis
+  - Çagkan Yapar
+  - Kehai Qiu
+  - Ian J. Wassell
+  - Jie Zhang
+year: 2025
+venue: "IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)"
+abstract: >
+  This paper describes the ICASSP 2025 First Indoor Pathloss Radio Map Prediction
+  Challenge, addressing the less-explored case of directional radio signal emissions
+  in indoor propagation environments. The challenge provides datasets, task definitions,
+  and evaluation methodology for indoor pathloss map prediction, and presents results
+  and a summary of the submitted deep learning methods.
+tldr: "First standardized benchmark for indoor directional pathloss map prediction, extending the outdoor ICASSP 2023 challenge to indoor environments."
+links:
+  doi: 10.1109/ICASSP49660.2025.10889381
+subfield: pathloss-prediction
+method_family: learning-based
+method_detail:
+  - CNN
+  - other
+task:
+  - pathloss-prediction
+  - coverage-prediction
+input_modality: environment-map
+environment: indoor
+dimensionality: 2D
+supervision: supervised
+citations: 18
+tags:
+  - benchmark
+  - challenge
+  - indoor
+added_date: '2026-05-16'

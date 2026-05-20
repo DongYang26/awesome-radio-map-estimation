@@ -1,0 +1,33 @@
+id: yu-splitlearning-vit-2024
+title: "Distributed Split Learning for Map-Based Signal Strength Prediction Empowered by Deep Vision Transformer"
+authors:
+  - Haiyao Yu
+  - Changyang She
+  - Chentao Yue
+  - Zhanwei Hou
+  - P. Rogers
+  - B. Vucetic
+  - Yonghui Li
+year: 2024
+venue: "IEEE Transactions on Vehicular Technology"
+subfield: pathloss-prediction
+method_family: learning-based
+method_detail: [Transformer]
+task: [signal-strength-estimation, pathloss-prediction]
+input_modality: environment-map
+environment: outdoor
+dimensionality: 2D
+supervision: supervised
+abstract: >
+  Designs a map-based deep neural network using DeepViT (deep vision transformer) for
+  received signal strength prediction from satellite maps around base stations. A split
+  learning framework splits the DNN between server and user sides to avoid raw data sharing.
+  Evaluated on eight real-world datasets with 307,500 samples from an Australian telecom
+  operator, the model significantly outperforms 3GPP Urban Macro and LSTM methods in
+  centralised scenarios while reducing communication overhead versus federated learning.
+tldr: "DeepViT map-based RSS predictor with split learning avoids raw data sharing and outperforms 3GPP/LSTM baselines on real operator data."
+links:
+  doi: "10.1109/TVT.2023.3320643"
+citations: 6
+tags: [outdoor, vision-transformer, split-learning, satellite-map, real-world-data]
+added_date: '2026-05-16'

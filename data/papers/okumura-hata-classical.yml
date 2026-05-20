@@ -1,0 +1,36 @@
+id: "okumura-hata-classical"
+title: "Propagation Measurements and Models for Wireless Communications Channels"
+authors:
+  - Theodore S. Rappaport
+year: 1996
+venue: "IEEE Communications Magazine"
+abstract: >
+  This influential tutorial paper surveys propagation measurement campaigns and
+  empirical models for wireless communications channels, covering free-space loss,
+  the Okumura-Hata model, COST 231, and log-distance path loss models with
+  shadowing. It establishes the statistical framework—path loss exponent and
+  log-normal shadowing standard deviation—that underpins all subsequent
+  empirical pathloss baselines. The treatment of outdoor macro-cell and micro-cell
+  environments provides the definitive classical reference for DL-era pathloss comparisons.
+tldr: "Survey of empirical pathloss models (Okumura-Hata, COST 231, log-distance) providing the classical statistical framework against which DL pathloss predictors are benchmarked."
+links:
+  doi: 10.1109/35.468198
+subfield: pathloss-prediction
+method_family: model-based
+method_detail:
+  - other
+task:
+  - pathloss-prediction
+  - signal-strength-estimation
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 2D
+supervision: n/a
+is_milestone: true
+tags:
+  - empirical-model
+  - Hata
+  - COST231
+  - classical-baseline
+  - log-distance
+added_date: '2026-05-16'

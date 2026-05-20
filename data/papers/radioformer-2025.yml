@@ -1,0 +1,42 @@
+id: radioformer-2025
+title: "RadioFormer: A Multiple-Granularity Radio Map Estimation Transformer with 1‱ Spatial Sampling"
+authors:
+  - Zheng Fang
+  - Kangjun Liu
+  - Ke Chen
+  - Qingyu Liu
+  - Jianguo Zhang
+  - Lingyang Song
+  - Yaowei Wang
+year: 2025
+venue: arXiv
+abstract: >
+  RadioFormer introduces a Transformer-based architecture for radio map estimation
+  that operates across multiple spatial granularities, enabling accurate predictions
+  from as little as 1 per mille (0.1%) spatial sampling of the target area.
+  The multi-granularity design aggregates both local detail and global propagation
+  context through hierarchical attention, significantly reducing the measurement
+  burden while maintaining high reconstruction fidelity across diverse urban and
+  suburban environments.
+tldr: "Hierarchical Transformer achieves competitive radio map estimation from 0.1% spatial sampling by fusing multi-granularity attention over environment and measurement features."
+links:
+  arxiv: https://arxiv.org/abs/2504.19161
+  doi: 10.48550/arXiv.2504.19161
+subfield: REM
+method_family: learning-based
+method_detail:
+  - Transformer
+task:
+  - REM-construction
+  - signal-strength-estimation
+input_modality: both
+environment: outdoor
+dimensionality: 2D
+supervision: supervised
+citations: 1
+tags:
+  - transformer
+  - multi-granularity
+  - ultra-sparse
+  - 6G
+added_date: '2026-05-16'

@@ -1,0 +1,42 @@
+id: chen-cheng-2025-bayesian-btd
+title: "Sensing Radio Maps via Bayesian Tensor Learning"
+authors:
+  - Zhongtao Chen
+  - Lei Cheng
+  - Yik-Chung Wu
+year: 2025
+venue: "IEEE International Conference on Communications (ICC)"
+abstract: >
+  Frames spatial-spectral radio map estimation as a Bayesian block-term tensor
+  decomposition (BTD) problem where both the tensor rank and block-term ranks
+  (encoding emitter count and properties) are unknown. Sparsity-promoting priors
+  on factor matrices enable automatic rank learning without parameter tuning,
+  overcoming the overfitting/underfitting problem of optimization-based BTD.
+  Extensive numerical experiments confirm the effectiveness of the Bayesian BTD
+  approach for joint RME and emitter-level disaggregation.
+tldr: >
+  Bayesian BTD for radio map estimation that automatically learns tensor and
+  block-term ranks via sparsity priors, removing the need for rank hyperparameters.
+links:
+  doi: "10.1109/ICC52391.2025.11161174"
+subfield: spectrum-cartography
+method_family: interpolation
+method_detail:
+  - matrix-completion
+  - other   # Bayesian block-term tensor decomposition
+task:
+  - spectrum-cartography
+  - signal-strength-estimation
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 2D
+supervision: unsupervised
+citations: 0
+is_milestone: false
+tags:
+  - Bayesian-tensor
+  - block-term-decomposition
+  - rank-learning
+  - sparsity-prior
+  - emitter-disaggregation
+added_date: '2026-05-16'

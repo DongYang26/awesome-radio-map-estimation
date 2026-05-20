@@ -1,0 +1,43 @@
+id: rem-survey-construction-2014
+title: "Radio Environment Maps: The Survey of Construction Methods"
+authors:
+  - Marko Pesko
+  - Tomaž Javornik
+  - Andrej Košir
+  - Miha Stular
+  - Mihael Mohorčič
+year: 2014
+venue: "KSII Transactions on Internet and Information Systems"
+abstract: >
+  This survey systematically reviews methods for constructing radio environment
+  maps (REMs) used in cognitive radio networks. The paper classifies construction
+  approaches into measurement-based, model-based, and hybrid categories, examining
+  how spatial interpolation techniques such as Kriging and IDW are applied to
+  sparse field measurements. It provides a comprehensive taxonomy of REM use
+  cases including spectrum management, interference coordination, and dynamic
+  spectrum access.
+tldr: "Foundational survey classifying REM construction methods across measurement-based, model-based, and hybrid approaches for cognitive radio."
+links:
+  doi: 10.3837/tiis.2014.11.008
+  pdf: https://doi.org/10.3837/tiis.2014.11.008
+subfield: REM
+method_family: interpolation
+method_detail:
+  - Kriging
+  - IDW
+  - other
+task:
+  - REM-construction
+  - spectrum-cartography
+input_modality: sparse-measurements
+environment: both
+dimensionality: 2D
+supervision: n/a
+citations: 107
+is_milestone: true
+tags:
+  - survey
+  - cognitive-radio
+  - kriging
+  - spectrum-management
+added_date: '2026-05-16'

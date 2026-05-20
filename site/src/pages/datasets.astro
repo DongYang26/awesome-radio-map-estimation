@@ -1,0 +1,147 @@
+---
+import Base from '../layouts/Base.astro';
+import { datasets, papers, safeHref } from '../lib/data';
+
+const base = import.meta.env.BASE_URL;
+const b = base.endsWith('/') ? base.slice(0, -1) : base;
+
+// Look up a paper's display title by id; fall back to the raw id if the paper
+// is not in the corpus (e.g. a dataset references a not-yet-added paper).
+const paperById = new Map(papers.map((p) => [p.id, p]));
+const titleOf = (id: string) => paperById.get(id)?.title ?? id;
+
+const list = datasets.datasets;
+const benchmarkCount = list.filter((d) => (d.benchmark ?? []).length > 0).length;
+---
+
+<Base
+  title="Datasets"
+  description="Datasets and benchmarks used across radio map estimation research, with the papers that use each one."
+>
+  <section aria-labelledby="ds-heading">
+    <h1 id="ds-heading">Datasets &amp; Benchmarks</h1>
+    <p>
+      The datasets that power radio map estimation research — simulated and real-world corpora used
+      to train and benchmark methods. Each entry lists the papers in this hub that use it, plus any
+      reported benchmark numbers.
+    </p>
+    <p class="text-muted">
+      {list.length} datasets · {benchmarkCount} with benchmark tables.
+    </p>
+
+    <div class="ds-list">
+      {
+        list.map((ds) => {
+          const using = ds.papers_using ?? [];
+          const bench = ds.benchmark ?? [];
+          const dsHref = safeHref(ds.link);
+          return (
+            <article class="card ds-card" id={ds.id} aria-labelledby={`ds-${ds.id}`}>
+              <h2 id={`ds-${ds.id}`} class="ds-card__name">
+                {ds.name}
+              </h2>
+              <p class="ds-card__desc">{ds.description}</p>
+
+              <p class="ds-card__link">
+                {dsHref ? (
+                  <a href={dsHref} rel="noopener noreferrer">
+                    {ds.link}
+                  </a>
+                ) : (
+                  <span>{ds.link}</span>
+                )}
+              </p>
+
+              <div class="ds-card__section">
+                <h3>Papers using this dataset ({using.length})</h3>
+                {using.length === 0 ? (
+                  <p class="text-muted">
+                    <em>No papers in this hub reference this dataset yet.</em>
+                  </p>
+                ) : (
+                  <ul class="ds-papers" role="list">
+                    {using.map((pid) => (
+                      <li>
+                        <a href={`${b}/matrix#${encodeURIComponent(pid)}`}>{titleOf(pid)}</a>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </div>
+
+              {bench.length > 0 && (
+                <div class="ds-card__section">
+                  <h3>Benchmark results</h3>
+                  <div class="table-wrapper">
+                    <table>
+                      <caption class="sr-only">
+                        Reported benchmark metrics on {ds.name}
+                      </caption>
+                      <thead>
+                        <tr>
+                          <th scope="col">Paper</th>
+                          <th scope="col">Metric</th>
+                          <th scope="col">Value</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {bench.map((row) => (
+                          <tr>
+                            <td>
+                              <a href={`${b}/matrix#${encodeURIComponent(row.paper_id)}`}>
+                                {titleOf(row.paper_id)}
+                              </a>
+                            </td>
+                            <td>{row.metric}</td>
+                            <td>{row.value}</td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              )}
+            </article>
+          );
+        })
+      }
+    </div>
+  </section>
+</Base>
+
+<style>
+  .ds-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+  }
+  .ds-card__name {
+    margin-top: 0;
+    font-size: 1.25rem;
+  }
+  .ds-card__desc {
+    color: var(--color-text-muted);
+  }
+  .ds-card__link {
+    font-size: 0.85rem;
+    word-break: break-all;
+    margin-bottom: 0.5rem;
+  }
+  .ds-card__section {
+    margin-top: 1rem;
+  }
+  .ds-card__section h3 {
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+  .ds-papers {
+    list-style: disc;
+    padding-left: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    font-size: 0.9rem;
+  }
+</style>

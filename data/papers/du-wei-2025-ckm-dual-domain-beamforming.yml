@@ -1,0 +1,41 @@
+id: "du-wei-2025-ckm-dual-domain-beamforming"
+title: "Channel Knowledge Map-Assisted Dual-Domain Tracking and Predictive Beamforming for High-Mobility Wireless Networks"
+authors:
+  - Ruolin Du
+  - Zhiqiang Wei
+  - Zai Yang
+  - Lei Yang
+  - Yong Zeng
+  - Derrick Wing Kwan Ng
+  - Jinhong Yuan
+year: 2025
+venue: "IEEE Transactions on Wireless Communications"
+subfield: CKM
+method_family: application
+method_detail:
+  - other
+task:
+  - channel-gain-prediction
+  - other
+input_modality: both
+environment: outdoor
+dimensionality: 2D
+supervision: n/a
+abstract: >
+  This paper introduces a CKM-assisted dual-domain tracking and predictive beamforming scheme for
+  high-mobility wireless networks. In the coordinate domain, an extended Kalman filter predicts and
+  tracks receiver state under LoS-present and LoS-absent conditions using CKM-derived multipath-to-location
+  priors. In the beam domain, updated location feeds back to CKM for a priori AoA variation information,
+  enabling beam transition models for effective beam tracking. A joint predictive beamforming and power
+  allocation design minimizes AoA estimation errors to enhance multipath beam and target tracking.
+tldr: "CKM-aided EKF and beam-domain tracking jointly handle mobility in both coordinate and beam domains, significantly improving NLoS beam and target tracking."
+links:
+  doi: "10.1109/TWC.2026.3654755"
+citations: 3
+tags:
+  - high-mobility
+  - beam-tracking
+  - Kalman-filter
+  - predictive-beamforming
+  - NLoS
+added_date: '2026-05-16'

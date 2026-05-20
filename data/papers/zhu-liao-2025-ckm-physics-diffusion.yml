@@ -1,0 +1,38 @@
+id: "zhu-liao-2025-ckm-physics-diffusion"
+title: "Channel Knowledge Map Construction via Physics-Inspired Diffusion Model Without Prior Observations"
+authors:
+  - Yunzhe Zhu
+  - Xuewen Liao
+  - Zhenzhen Gao
+  - Linzhou Zeng
+  - Yong Zeng
+year: 2025
+subfield: CKM
+method_family: learning-based
+method_detail:
+  - Diffusion
+  - other
+task:
+  - channel-gain-prediction
+input_modality: environment-map
+environment: outdoor
+dimensionality: 2D
+supervision: unsupervised
+abstract: >
+  This paper designs three physics-based constraints characterizing the spatial distribution of
+  large-scale fading and integrates them into a state-of-the-art diffusion model to construct
+  CKM without relying on prior channel observations. The physics-inspired diffusion model derives
+  a loss function augmented with constraint terms, enabling generation of diverse, physically
+  consistent CKMs. Extensive experiments show the approach outperforms all existing methods in
+  construction accuracy.
+tldr: "Embeds three physics constraints into a diffusion generative model to construct physically consistent CKMs without any prior channel observations."
+links:
+  doi: "10.48550/arXiv.2506.01234"
+citations: 1
+tags:
+  - physics-informed
+  - diffusion-model
+  - generative
+  - large-scale-fading
+  - observation-free
+added_date: '2026-05-16'

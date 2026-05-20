@@ -1,0 +1,53 @@
+id: zeng-chen-2024-ckm-tutorial
+title: "A Tutorial on Environment-Aware Communications via Channel Knowledge Map for 6G"
+authors:
+  - Yong Zeng
+  - Junting Chen
+  - Jie Xu
+  - Di Wu
+  - Xiaoli Xu
+  - Shize Jin
+  - Xiqi Gao
+  - David Gesbert
+  - Shuguang Cui
+  - Rui Zhang
+year: 2023
+venue: IEEE Communications Surveys and Tutorials
+subfield: CKM
+method_family: application
+method_detail:
+  - Gaussian-process
+  - CNN
+  - other
+task:
+  - channel-gain-prediction
+  - coverage-prediction
+  - other
+input_modality: both
+environment: both
+dimensionality: 3D
+supervision: supervised
+is_milestone: true
+citations: 285
+links:
+  doi: 10.1109/COMST.2024.3364508
+  arxiv: https://arxiv.org/abs/2309.07460
+  pdf: https://arxiv.org/pdf/2309.07460
+abstract: >
+  This comprehensive tutorial covers environment-aware communications enabled by CKM
+  for 6G networks. It presents the basic CKM concept, compares CKM with existing
+  channel inference techniques, and discusses construction methods including both
+  environment model-free and model-assisted approaches. A general utilization framework
+  is presented for CKM-aided communication scenarios, with open problems and future
+  directions highlighted.
+tldr: >
+  Comprehensive survey and tutorial on CKM covering construction methods, utilization
+  frameworks, and CKM-aided 6G communication scenarios from the leading research group.
+tags:
+  - CKM
+  - tutorial
+  - survey
+  - 6G
+  - environment-aware
+  - beam-management
+added_date: '2026-05-16'

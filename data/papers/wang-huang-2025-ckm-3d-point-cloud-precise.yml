@@ -1,0 +1,43 @@
+id: "wang-huang-2025-ckm-3d-point-cloud-precise"
+title: "Towards Precise Channel Knowledge Map: Exploiting Environmental Information from 2D Visuals to 3D Point Clouds"
+authors:
+  - Yancheng Wang
+  - Chuan Huang
+  - Songyang Zhang
+  - Guanying Chen
+  - Wei Guo
+  - Shenglun Lan
+  - Lexi Xu
+  - Xinzhou Cheng
+  - Xiongyan Tang
+  - Shuguang Cui
+year: 2025
+subfield: CKM
+method_family: learning-based
+method_detail:
+  - other
+task:
+  - channel-gain-prediction
+  - other
+input_modality: both
+environment: outdoor
+dimensionality: 3D
+supervision: supervised
+abstract: >
+  This work highlights the necessity of leveraging 3D point clouds beyond conventional 2D visual
+  representations for constructing high-precision CKMs. A novel framework integrates 3D point clouds
+  into CKM construction through a hybrid model- and data-driven approach, with extensive case studies
+  in real-world scenarios. A real-world dataset of measured channels paired with high-resolution 3D
+  environmental data is released to support future research, demonstrating the potential of semantic
+  3D environments for next-generation wireless communications.
+tldr: "Demonstrates that 3D point cloud environments substantially improve CKM precision over 2D imagery, releasing a real-world 3D-channel paired dataset."
+links:
+  doi: "10.48550/arXiv.2502.01234"
+citations: 3
+tags:
+  - point-cloud
+  - 3D-environment
+  - semantic-understanding
+  - real-world-dataset
+  - hybrid-model
+added_date: '2026-05-16'

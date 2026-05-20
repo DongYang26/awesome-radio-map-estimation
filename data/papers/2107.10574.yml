@@ -1,0 +1,45 @@
+id: '2107.10574'
+title: 'UAV-Aided Radio Map Construction Exploiting Environment Semantics'
+authors:
+  - Wenjie Liu
+  - Junting Chen
+year: 2023
+venue: IEEE Transactions on Wireless Communications
+subfield: REM
+method_family: model-based
+method_detail:
+  - other
+task:
+  - REM-construction
+  - channel-gain-prediction
+input_modality: both
+environment: outdoor
+dimensionality: 3D
+supervision: supervised
+abstract: >
+  This paper constructs a full 6D radio map predicting the channel gain between
+  any transmitter and receiver location based on RSS measurements between
+  low-altitude UAV nodes and ground nodes. A multi-class 3D virtual obstacle
+  map with radio semantics is estimated jointly with propagation parameters via
+  a least-squares formulation with partial quasiconvexity. The proposed
+  algorithm substantially reduces the amount of measurement required while
+  achieving the same radio map accuracy compared with interpolation approaches.
+  In a UAV-aided relay scenario, the radio map-assisted placement achieves over
+  50% capacity gain.
+tldr: >
+  Constructs a 6D channel-gain radio map by jointly estimating a 3D semantic
+  obstacle map and propagation parameters from UAV RSS measurements, sharply
+  reducing required samples.
+links:
+  arxiv: 'https://arxiv.org/abs/2107.10574'
+  pdf: 'https://arxiv.org/pdf/2107.10574'
+  doi: '10.1109/TWC.2023.3241845'
+citations: 67
+is_milestone: false
+tags:
+  - UAV
+  - environment-semantics
+  - 3D
+  - channel-gain
+  - model-based
+added_date: '2026-05-16'

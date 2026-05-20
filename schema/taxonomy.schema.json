@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/DongYang26/awesome-radio-map-estimation/schema/taxonomy.schema.json",
+  "title": "RME Taxonomy Tree",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["taxonomy"],
+  "properties": {
+    "taxonomy": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/node" }
+    }
+  },
+  "$defs": {
+    "node": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "label"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+          "description": "kebab-case node identifier, unique within the tree"
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Human-readable node label"
+        },
+        "description": {
+          "type": "string",
+          "description": "Optional one-line explanation of the node"
+        },
+        "children": {
+          "type": "array",
+          "description": "Optional child nodes; recursive",
+          "items": { "$ref": "#/$defs/node" }
+        }
+      }
+    }
+  }
+}

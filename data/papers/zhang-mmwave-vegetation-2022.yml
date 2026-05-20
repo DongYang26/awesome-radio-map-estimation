@@ -1,0 +1,33 @@
+id: zhang-mmwave-vegetation-2022
+title: "Predictive Modeling of Millimeter-Wave Vegetation-Scattering Effect Using Hybrid Physics-Based and Data-Driven Approach"
+authors:
+  - Peize Zhang
+  - Cheng Yi
+  - Bensheng Yang
+  - Haiming Wang
+  - Claude Oestges
+  - X. You
+year: 2022
+venue: "IEEE Transactions on Antennas and Propagation"
+subfield: pathloss-prediction
+method_family: learning-based
+method_detail: [other]
+task: [pathloss-prediction]
+input_modality: environment-map
+environment: outdoor
+dimensionality: 3D
+supervision: supervised
+abstract: >
+  Proposes a machine learning-assisted mmWave channel modeling framework combining
+  statistical inter-cluster models with a hybrid physics-based and data-driven approach
+  for through-vegetation scattering at 28 GHz. Dedicated directional measurements and
+  ray-tracing simulations are used in an identical vegetated street canyon. The hybrid
+  model, which adds environment features as ANN inputs, achieves higher prediction accuracy
+  and greater generalisation than physical-statistical models for vegetation attenuation,
+  delay spread, and angular spread.
+tldr: "Hybrid physics+ANN model predicts 28 GHz mmWave channel properties in vegetated outdoor environments better than statistical models alone."
+links:
+  doi: "10.1109/TAP.2021.3118463"
+citations: 16
+tags: [mmWave, 28GHz, vegetation, outdoor, hybrid, physics-informed, ray-tracing]
+added_date: '2026-05-16'

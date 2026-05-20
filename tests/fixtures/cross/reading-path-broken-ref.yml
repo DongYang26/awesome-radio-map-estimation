@@ -1,0 +1,4 @@
+steps:
+  - order: 1
+    paper_id: nonexistent-paper-id
+    why: A reading-path fixture whose paper_id does not resolve to any paper.

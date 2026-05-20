@@ -1,0 +1,47 @@
+id: liu-dat-unet-rem-2025
+title: 'Paying Deformable Attention to Sparse Spatial Observations for Deep Radio Map Estimation'
+authors:
+  - Kangjun Liu
+  - Chunyan Qiu
+  - Ke Chen
+  - Qingfang Zheng
+  - Lingyang Song
+  - Yaowei Wang
+year: 2025
+venue: IEEE Transactions on Cognitive Communications and Networking
+subfield: REM
+method_family: learning-based
+method_detail:
+  - Transformer
+  - CNN
+task:
+  - REM-construction
+  - signal-strength-estimation
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 2D
+supervision: supervised
+abstract: >
+  DAT-Unet is a deformable attention transformer framework for radio map
+  estimation under extreme sparsity. Deformable attention dynamically adjusts
+  receptive fields to capture intricate spatial correlations and adapt to complex
+  channel variations. Geometry-aware modeling integrates spatial priors, and
+  multi-scale contextual fusion enhances feature representation across diverse
+  propagation patterns. DAT-Unet achieves state-of-the-art performance on public
+  datasets even at spatial sampling rates orders of magnitude below existing
+  methods. Code is publicly available.
+tldr: >
+  DAT-Unet uses deformable attention in a U-Net to handle extremely sparse REM
+  measurements, dynamically adapting receptive fields for complex propagation.
+links:
+  doi: '10.1109/TCCN.2025.3613520'
+  code: 'https://github.com/AkonLau/DAT-Unet'
+citations: 3
+is_milestone: false
+tags:
+  - deformable-attention
+  - Transformer
+  - sparse-sampling
+  - extreme-sparsity
+  - open-source
+added_date: '2026-05-16'

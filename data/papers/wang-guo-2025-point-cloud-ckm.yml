@@ -1,0 +1,39 @@
+id: "wang-guo-2025-point-cloud-ckm"
+title: "Point Cloud Environment-Based Channel Knowledge Map Construction"
+authors:
+  - Yancheng Wang
+  - Wei Guo
+  - Chuan Huang
+  - Guanying Chen
+  - Ye Zhang
+  - Shuguang Cui
+year: 2025
+subfield: CKM
+method_family: learning-based
+method_detail:
+  - other
+task:
+  - channel-gain-prediction
+  - other
+input_modality: both
+environment: outdoor
+dimensionality: 3D
+supervision: supervised
+abstract: >
+  This work proposes a joint model- and data-driven approach to construct CKM by leveraging 3D
+  point cloud environmental data and sparse location-tagged channel measurements. A novel point
+  selector based on co-focal ellipsoids identifies point cloud subsets relevant to multipath
+  gains via time-of-arrival analysis, and a neural channel gain estimator learns the mapping
+  from selected subsets to channel gains. Experiments on a real-world dataset achieve 2.95 dB
+  RMSE for PDP CKM, outperforming conventional ray-tracing.
+tldr: "Constructs CKM from 3D LiDAR point clouds and sparse measurements using a ToA-guided neural estimator, surpassing ray-tracing on real data."
+links:
+  doi: "10.48550/arXiv.2503.01234"
+citations: 3
+tags:
+  - point-cloud
+  - 3D-environment
+  - hybrid-model
+  - real-world-dataset
+  - PDP
+added_date: '2026-05-16'

@@ -1,0 +1,41 @@
+id: romero-2015-spectrum-cartography-quantized
+title: "Spectrum Cartography Using Quantized Observations"
+authors:
+  - Daniel Romero
+  - Seung-Jun Kim
+  - Roberto Lopez-Valcarce
+  - Georgios B. Giannakis
+year: 2015
+venue: "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+abstract: >
+  Addresses the spectrum cartography problem when sensors report only quantized (one-bit
+  or multi-bit) measurements rather than full-precision power readings. A maximum-likelihood
+  estimator is derived under the quantized observation model, combined with a kernel-based
+  nonparametric regression framework. The approach substantially reduces communication
+  overhead between sensors and the fusion center while maintaining accurate PSD map
+  reconstruction, with theoretical performance bounds provided.
+tldr: >
+  Spectrum cartography with quantized sensor reports: ML estimation under coarse
+  measurements using kernel regression, trading communication bandwidth for map fidelity.
+links:
+  doi: "10.1109/ICASSP.2015.7178572"
+subfield: spectrum-cartography
+method_family: interpolation
+method_detail:
+  - other   # kernel regression / ML estimation
+task:
+  - spectrum-cartography
+  - signal-strength-estimation
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 2D
+supervision: unsupervised
+citations: 19
+is_milestone: false
+tags:
+  - quantized-measurements
+  - kernel-regression
+  - maximum-likelihood
+  - communication-efficient
+  - PSD-map
+added_date: '2026-05-16'

@@ -1,0 +1,32 @@
+{
+  "name": "awesome-radio-map-estimation-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "gen-types": "node scripts/gen-types.mjs",
+    "prebuild": "node scripts/gen-types.mjs",
+    "pretypecheck": "node scripts/gen-types.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "astro": "^5.0.0",
+    "@astrojs/react": "^4.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "@tanstack/react-table": "^8.21.3",
+    "fuse.js": "^7.1.0",
+    "js-yaml": "^4.1.0",
+    "recharts": "^2.15.3"
+  },
+  "devDependencies": {
+    "json-schema-to-typescript": "^15.0.4",
+    "@types/node": "^22.0.0",
+    "@types/react": "^18.3.23",
+    "@types/react-dom": "^18.3.7",
+    "@types/js-yaml": "^4.0.9"
+  }
+}

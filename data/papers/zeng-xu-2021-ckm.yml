@@ -1,0 +1,41 @@
+id: zeng-xu-2021-ckm
+title: "Toward Environment-Aware 6G Communications via Channel Knowledge Map"
+authors:
+  - Yong Zeng
+  - Xiaoli Xu
+year: 2021
+venue: IEEE Wireless Communications
+subfield: CKM
+method_family: application
+method_detail:
+  - Gaussian-process
+  - other
+task:
+  - channel-gain-prediction
+  - other
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 2D
+supervision: supervised
+is_milestone: true
+citations: 243
+links:
+  doi: 10.1109/MWC.001.2000327
+abstract: >
+  This article proposes the concept of channel knowledge map (CKM) as an enabler
+  toward environment-aware wireless communications. CKM is a site-specific database,
+  tagged with transmitter/receiver locations, that contains channel-related information
+  useful to enhance environment-awareness and facilitate or even obviate sophisticated
+  real-time CSI acquisition. Four channel types are highlighted as especially appealing
+  for CKM: channels for yet-to-reach locations, channels for non-cooperative nodes,
+  channels with large dimensions, and channels with severe hardware/processing limitations.
+tldr: >
+  Foundational paper introducing the CKM concept as a location-tagged site-specific
+  channel database enabling environment-aware 6G communications without real-time CSI training.
+tags:
+  - CKM
+  - environment-aware
+  - 6G
+  - CSI-free
+  - location-aware
+added_date: '2026-05-16'

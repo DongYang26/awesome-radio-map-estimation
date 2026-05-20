@@ -1,0 +1,44 @@
+id: "qiu-chen-2024-uav-ckm-measurement"
+title: "Channel Knowledge Map Construction Based on a UAV-Assisted Channel Measurement System"
+authors:
+  - Yanheng Qiu
+  - Xiaomin Chen
+  - Kai Mao
+  - Xuchao Ye
+  - Hanpeng Li
+  - Farman Ali
+  - Yang Huang
+  - Qiuming Zhu
+year: 2024
+venue: "Drones"
+subfield: CKM
+method_family: interpolation
+method_detail:
+  - Kriging
+task:
+  - channel-gain-prediction
+  - pathloss-prediction
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 3D
+supervision: n/a
+abstract: >
+  This paper presents a comprehensive CKM construction scheme based on a UAV-assisted channel
+  measurement system for real-world scenarios. A 3D CKM construction pipeline covers channel
+  knowledge extraction using sliding correlation and CFAR, followed by 3D Kriging interpolation
+  for completion. A UAV-assisted measurement system was deployed and measurement campaigns conducted
+  in campus and farmland scenarios, producing path loss and RMS delay spread CKMs at different
+  heights, demonstrating effective and accurate construction in real-world environments.
+tldr: "Builds 3D path-loss and delay-spread CKMs via UAV measurements in campus and farmland, completed with 3D Kriging interpolation."
+links:
+  doi: "10.3390/drones8050191"
+citations: 12
+is_milestone: false
+tags:
+  - UAV
+  - measurement-campaign
+  - 3D-CKM
+  - Kriging
+  - real-world
+  - delay-spread
+added_date: '2026-05-16'

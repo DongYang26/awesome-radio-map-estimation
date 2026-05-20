@@ -1,0 +1,100 @@
+{
+  "method_family_by_year": {
+    "1996": {
+      "model-based": 1
+    },
+    "2008": {
+      "interpolation": 1
+    },
+    "2010": {
+      "interpolation": 2
+    },
+    "2012": {
+      "interpolation": 1
+    },
+    "2014": {
+      "interpolation": 1
+    },
+    "2015": {
+      "interpolation": 3
+    },
+    "2017": {
+      "interpolation": 1
+    },
+    "2018": {
+      "interpolation": 1,
+      "learning-based": 1
+    },
+    "2019": {
+      "interpolation": 1,
+      "learning-based": 2
+    },
+    "2020": {
+      "learning-based": 1
+    },
+    "2021": {
+      "application": 1,
+      "learning-based": 4
+    },
+    "2022": {
+      "interpolation": 2,
+      "learning-based": 7
+    },
+    "2023": {
+      "application": 3,
+      "interpolation": 3,
+      "learning-based": 10,
+      "model-based": 1
+    },
+    "2024": {
+      "application": 2,
+      "interpolation": 4,
+      "learning-based": 15,
+      "model-based": 1
+    },
+    "2025": {
+      "application": 2,
+      "interpolation": 5,
+      "learning-based": 28
+    },
+    "2026": {
+      "interpolation": 1,
+      "learning-based": 2
+    }
+  },
+  "method_family_distribution": {
+    "application": 8,
+    "interpolation": 26,
+    "learning-based": 70,
+    "model-based": 3
+  },
+  "papers_per_year": {
+    "1996": 1,
+    "2008": 1,
+    "2010": 2,
+    "2012": 1,
+    "2014": 1,
+    "2015": 3,
+    "2017": 1,
+    "2018": 2,
+    "2019": 3,
+    "2020": 1,
+    "2021": 5,
+    "2022": 9,
+    "2023": 17,
+    "2024": 22,
+    "2025": 35,
+    "2026": 3
+  },
+  "subfield_distribution": {
+    "CKM": 26,
+    "REM": 25,
+    "pathloss-prediction": 28,
+    "spectrum-cartography": 28
+  },
+  "totals": {
+    "milestones": 20,
+    "papers": 107,
+    "subfields": 4
+  }
+}

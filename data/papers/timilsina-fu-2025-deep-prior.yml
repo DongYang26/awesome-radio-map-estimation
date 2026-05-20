@@ -1,0 +1,41 @@
+id: timilsina-fu-2025-deep-prior
+title: "Domain-Factored Untrained Deep Prior for Spectrum Cartography"
+authors:
+  - Subash Timilsina
+  - Sagar Shrestha
+  - Lei Cheng
+  - Xiao Fu
+year: 2025
+venue: "IEEE Signal Processing Letters"
+abstract: >
+  Proposes a training-free spectrum cartography approach based on untrained neural
+  networks (UNNs) as structural priors, circumventing the need for large labelled
+  datasets required by learned deep generative models. A custom UNN architecture
+  exploits spatio-spectral factorization rooted in the physical structure of radio
+  maps, achieving low sample complexity. Experiments demonstrate performance on par
+  with state-of-the-art DGM-based methods without any training data.
+tldr: >
+  Training-free spectrum cartography using an untrained neural network whose
+  architecture encodes the spatio-spectral physics of radio maps as a structural prior.
+links:
+  doi: "10.1109/LSP.2025.3599714"
+subfield: spectrum-cartography
+method_family: learning-based
+method_detail:
+  - INR   # untrained neural network / deep image prior variant
+task:
+  - spectrum-cartography
+  - signal-strength-estimation
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 2D
+supervision: self-supervised
+citations: 1
+is_milestone: false
+tags:
+  - deep-image-prior
+  - untrained-network
+  - training-free
+  - spatio-spectral-factorization
+  - deep-generative-model
+added_date: '2026-05-16'

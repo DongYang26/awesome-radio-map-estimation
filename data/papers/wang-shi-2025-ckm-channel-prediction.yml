@@ -1,0 +1,39 @@
+id: "wang-shi-2025-ckm-channel-prediction"
+title: "Channel Knowledge Map-Aided Channel Prediction With Measurements-Based Evaluation"
+authors:
+  - Xianling Wang
+  - Yi-xing Shi
+  - Tianci Wang
+  - Yingyujiao Huang
+  - Zeyu Hu
+  - Lin Chen
+  - Zhiyuan Jiang
+year: 2025
+venue: "IEEE Transactions on Communications"
+subfield: CKM
+method_family: interpolation
+method_detail:
+  - other
+task:
+  - channel-gain-prediction
+  - other
+input_modality: both
+environment: outdoor
+dimensionality: 2D
+supervision: supervised
+abstract: >
+  This paper proposes a channel prediction scheme combining CKM with historical user CSI to
+  enhance MIMO beamforming performance. A joint-orthogonal matching pursuit algorithm reconstructs
+  user channels from limited pilots, while a multi-path component tracking algorithm extracts
+  common and independent support sets from estimated channels and CKM. An adaptive low-complexity
+  predictor then delivers future CSI, evaluated on multiple measured channel datasets.
+tldr: "Fuses CKM-derived multipath priors with real-time pilots to predict future MIMO CSI for beamforming, validated on measured datasets."
+links:
+  doi: "10.1109/TCOMM.2024.3487310"
+citations: 10
+tags:
+  - channel-prediction
+  - MIMO
+  - beamforming
+  - multipath-tracking
+added_date: '2026-05-16'

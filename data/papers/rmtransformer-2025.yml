@@ -1,0 +1,39 @@
+id: "rmtransformer-2025"
+title: "RMTransformer: Accurate Radio Map Construction and Coverage Prediction"
+authors:
+  - Yuxuan Li
+  - Cheng Zhang
+  - Wen Wang
+  - Yongming Huang
+year: 2025
+venue: "IEEE 101st Vehicular Technology Conference (VTC2025-Spring)"
+abstract: >
+  RMTransformer introduces a hybrid transformer-convolution model for pathloss
+  radio map prediction from geographical maps. The architecture features a
+  multi-scale transformer-based encoder for efficient global feature extraction
+  and a convolution-based decoder for precise pixel-level reconstruction.
+  Simulation results demonstrate over 30% reduction in RMSE compared to
+  state-of-the-art convolutional approaches, establishing transformers as
+  a strong backbone for radio map estimation.
+tldr: "Hybrid transformer-CNN model for pathloss map prediction achieves >30% RMSE reduction over CNN-only baselines through multi-scale attention encoding."
+links:
+  doi: 10.1109/VTC2025-Spring65109.2025.11174709
+subfield: pathloss-prediction
+method_family: learning-based
+method_detail:
+  - Transformer
+  - CNN
+task:
+  - pathloss-prediction
+  - coverage-prediction
+input_modality: environment-map
+environment: outdoor
+dimensionality: 2D
+supervision: supervised
+citations: 10
+tags:
+  - transformer
+  - hybrid
+  - radio-map
+  - coverage
+added_date: '2026-05-16'

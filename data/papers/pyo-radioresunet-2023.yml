@@ -1,0 +1,30 @@
+id: pyo-radioresunet-2023
+title: "A Deep Learning-Based Indoor Radio Estimation Method Driven by 2.4 GHz Ray-Tracing Data"
+authors:
+  - Changwoo Pyo
+  - Hirokazu Sawada
+  - Takeshi Matsumura
+year: 2023
+venue: "IEEE Access"
+subfield: pathloss-prediction
+method_family: learning-based
+method_detail: [CNN]
+task: [pathloss-prediction, signal-strength-estimation]
+input_modality: environment-map
+environment: indoor
+dimensionality: 2D
+supervision: supervised
+abstract: >
+  Proposes RadioResUNet, a CNN trained on 2.4 GHz ray-tracing radio-map images of
+  imitated indoor environments, for estimating received signal strength in indoor radio
+  propagation. Different loss functions (MSE, BCE, Dice_BCE) and dataset sizes are
+  evaluated. Validated against practical wireless measurements in an anechoic chamber and
+  office floor, the method achieves 4.25 dB and 5.4 dB discrepancy respectively, comparable
+  to the ITU-R P.1238 model.
+tldr: "RadioResUNet CNN trained on 2.4 GHz ray-tracing data predicts indoor RSS at accuracy comparable to ITU-R P.1238."
+links:
+  doi: "10.1109/ACCESS.2023.3340204"
+  pdf: "https://ieeexplore.ieee.org/ielx7/6287639/6514899/10347228.pdf"
+citations: 10
+tags: [indoor, 2.4GHz, ray-tracing, ResUNet, RSS]
+added_date: '2026-05-16'

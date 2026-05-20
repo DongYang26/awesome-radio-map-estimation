@@ -1,0 +1,38 @@
+id: "levie-icassp2020-pathloss"
+title: "Pathloss Prediction using Deep Learning with Applications to Cellular Optimization and Efficient D2D Link Scheduling"
+authors:
+  - Ron Levie
+  - Çagkan Yapar
+  - Gitta Kutyniok
+  - Giuseppe Caire
+year: 2020
+venue: "IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)"
+abstract: >
+  This paper proposes RadioUNet, a deep neural network for estimating the
+  propagation pathloss from a transmitter to all points on the 2D plane, given
+  urban environment maps. The method significantly outperforms previously proposed
+  approaches based on radial basis function interpolation and tensor completion.
+  Application experiments demonstrate clear gains in user-cell site association
+  and device-to-device link scheduling tasks when pathloss is estimated from
+  building maps rather than statistical models.
+tldr: "Early conference version of RadioUNet demonstrating deep-learning pathloss maps improve cellular optimization and D2D scheduling over statistical propagation models."
+links:
+  doi: 10.1109/ICASSP40776.2020.9053347
+subfield: pathloss-prediction
+method_family: learning-based
+method_detail:
+  - CNN
+task:
+  - pathloss-prediction
+  - signal-strength-estimation
+input_modality: environment-map
+environment: outdoor
+dimensionality: 2D
+supervision: supervised
+citations: 25
+tags:
+  - RadioUNet
+  - D2D
+  - cellular-optimization
+  - urban
+added_date: '2026-05-16'

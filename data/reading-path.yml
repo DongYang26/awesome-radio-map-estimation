@@ -1,0 +1,66 @@
+steps:
+
+  - order: 1
+    paper_id: rem-survey-construction-2014
+    why: >
+      Start here to get a comprehensive taxonomy of REM construction approaches
+      (measurement-based, model-based, hybrid) and understand the problem space
+      before diving into specific methods.
+
+  - order: 2
+    paper_id: okumura-hata-classical
+    why: >
+      Understand the classical empirical propagation models that predate data-driven
+      methods; these establish the baseline intuition for path loss behavior that all
+      modern learning-based methods implicitly seek to improve upon.
+
+  - order: 3
+    paper_id: bazerque-giannakis-2010-group-lasso
+    why: >
+      Foundational sparse-recovery approach to spectrum cartography using group LASSO;
+      establishes the signal-processing and optimization framing that later tensor
+      and deep-learning methods extend.
+
+  - order: 4
+    paper_id: romero-2017-spectrally-efficient
+    why: >
+      Representative data-adaptive classical cartography method bridging
+      interpolation-era and learning-era approaches; important for understanding
+      what the deep-learning revolution improved upon.
+
+  - order: 5
+    paper_id: "1911.09002"
+    why: >
+      The landmark deep-learning paper for radio map estimation: RadioUNet shows
+      that a U-Net CNN trained on simulated data can predict urban pathloss maps
+      at near ray-tracing accuracy in real time, and introduces the RadioMapSeer
+      benchmark used by nearly all subsequent work.
+
+  - order: 6
+    paper_id: "2212.12817"
+    why: >
+      RME-GAN demonstrates how conditional GANs can fuse propagation priors with
+      adversarial learning to reconstruct high-resolution maps from sparse
+      measurements — a key step toward generative approaches.
+
+  - order: 7
+    paper_id: radiodiff-2024
+    why: >
+      State-of-the-art diffusion-model approach to radio map construction; reading
+      this after the GAN paper highlights the evolution from adversarial to
+      score-based generative methods and establishes current SOTA baselines.
+
+  - order: 8
+    paper_id: zeng-xu-2021-ckm
+    why: >
+      Introduces the Channel Knowledge Map (CKM) concept for environment-aware 6G
+      communications, broadening the scope from plain pathloss estimation to
+      location-specific full channel characterization — essential context for
+      understanding the frontier research direction.
+
+  - order: 9
+    paper_id: ren-zhou-2025-ckm-construction-survey
+    why: >
+      Concludes the path with a 2025 survey on CKM construction advances and open
+      challenges, giving the reader a forward-looking map of unsolved problems and
+      promising directions for their own research.

@@ -1,0 +1,38 @@
+id: "liu-jiang-2025-nerf2-ss-ckm"
+title: "Scene Structure Based Neural Radio-Frequency Radiance Fields for Channel Knowledge Map Construction"
+authors:
+  - Kai Liu
+  - Wenjun Jiang
+  - Xiaojun Yuan
+year: 2025
+venue: "IEEE Wireless Communications Letters"
+subfield: CKM
+method_family: learning-based
+method_detail:
+  - INR
+  - other
+task:
+  - channel-gain-prediction
+  - other
+input_modality: environment-map
+environment: outdoor
+dimensionality: 3D
+supervision: supervised
+abstract: >
+  Inspired by neural radio-frequency radiance fields (NeRF2), this paper proposes NeRF2-SS which
+  uses scene structure as strong prior information in the neural network to predict the spatial
+  spectrum for CKM construction. NeRF2-SS introduces a scene-structure-based sampling method
+  concentrating samples near scatterer surfaces, and a lightweight architecture that distinctly
+  processes near-surface and free-space samples. Simulation results show 85-90% reduction in
+  inference latency versus NeRF2 with high-precision spatial spectrum prediction.
+tldr: "NeRF2-SS fuses 3D scene geometry priors into a neural radiance field to accelerate CKM spatial-spectrum prediction by 85-90% over NeRF2."
+links:
+  doi: "10.1109/LWC.2025.3615621"
+citations: 2
+tags:
+  - neural-field
+  - INR
+  - NeRF
+  - spatial-spectrum
+  - scene-structure
+added_date: '2026-05-16'

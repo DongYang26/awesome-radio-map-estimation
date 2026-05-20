@@ -1,0 +1,44 @@
+id: mallik-2024-cntk-emf-exposure
+title: "Infinite Limits of Convolutional Neural Network for Urban Electromagnetic Field Exposure Reconstruction"
+authors:
+  - Mohammed Mallik
+  - Baptiste Allaert
+  - Esteban Egea-Lopez
+  - Davy Gaillot
+  - Joe Wiart
+  - Laurent Clavier
+year: 2024
+venue: "IEEE Access"
+abstract: >
+  Addresses EMF exposure map reconstruction in urban 5G environments as a missing
+  data imputation problem using the convolutional neural tangent kernel (CNTK) of
+  an infinitely wide CNN. The CNTK's training dynamics are described by a closed-form
+  formula, enabling accurate EMF map estimation from very sparse sensor data without
+  large training sets. Experiments compare CNTK against deep learning and Gaussian
+  process regression approaches for spectrum cartography of exposure fields.
+tldr: >
+  Training-free urban EMF exposure map reconstruction using the infinite-width CNN
+  limit (neural tangent kernel), effective under extreme sparsity without labelled data.
+links:
+  doi: "10.1109/ACCESS.2024.3380835"
+subfield: spectrum-cartography
+method_family: interpolation
+method_detail:
+  - Gaussian-process
+  - other   # convolutional neural tangent kernel (training-free kernel regression)
+task:
+  - spectrum-cartography
+  - signal-strength-estimation
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 2D
+supervision: self-supervised
+citations: 10
+is_milestone: false
+tags:
+  - neural-tangent-kernel
+  - EMF-exposure
+  - 5G
+  - missing-data-imputation
+  - urban
+added_date: '2026-05-16'

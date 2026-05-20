@@ -1,0 +1,42 @@
+id: chen-wang-2025-dynamic-spectrum-tensor
+title: "Dynamic Spectrum Cartography: Reconstructing Spatial-Spectral-Temporal Radio Frequency Map via Tensor Completion"
+authors:
+  - Xiaonan Chen
+  - Jun Wang
+  - Qingyang Huang
+year: 2025
+venue: "IEEE Transactions on Signal Processing"
+abstract: >
+  Extends spectrum cartography from 3-D spatial-spectral maps to 4-D spatial-spectral-temporal
+  RF maps under time-varying scenarios. A two-stage methodology first unravels sensor
+  measurements into per-emitter incomplete RF maps, then completes each in parallel using
+  block-term tensor decomposition before synthesizing the full 4-D map. Both a batch
+  algorithm and an online streaming variant are developed, with recoverability characterized
+  by sampling pattern requirements. Experiments on synthetic, ray-tracing, and real-world
+  data confirm effectiveness over static cartography baselines.
+tldr: >
+  4-D spatial-spectral-temporal spectrum cartography via per-emitter tensor completion
+  with online streaming support and provable recoverability under structured sampling.
+links:
+  doi: "10.1109/TSP.2025.3531872"
+subfield: spectrum-cartography
+method_family: interpolation
+method_detail:
+  - matrix-completion
+  - other   # block-term tensor decomposition
+task:
+  - spectrum-cartography
+  - signal-strength-estimation
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 3D
+supervision: unsupervised
+citations: 14
+is_milestone: false
+tags:
+  - tensor-completion
+  - block-term-decomposition
+  - dynamic-spectrum
+  - online-algorithm
+  - 4D-map
+added_date: '2026-05-16'

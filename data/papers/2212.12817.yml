@@ -1,0 +1,40 @@
+id: "2212.12817"
+title: "RME-GAN: A Learning Framework for Radio Map Estimation Based on Conditional Generative Adversarial Network"
+authors:
+  - Songyang Zhang
+  - Achintha Wijesinghe
+  - Zhi Ding
+year: 2022
+venue: "IEEE Internet of Things Journal"
+abstract: >
+  RME-GAN presents a two-phase learning framework for outdoor radio map estimation
+  from sparse measurements. The first phase extracts global radio propagation
+  patterns using a propagation model prior; the second phase trains a conditional
+  GAN to estimate the local shadowing component. The framework is validated on
+  outdoor cellular scenarios and significantly outperforms classical interpolation
+  and prior deep learning methods in generating fine-resolution radio coverage maps.
+tldr: "Two-phase cGAN framework combines propagation model priors with adversarial learning to reconstruct high-resolution outdoor radio maps from sparse samples."
+links:
+  arxiv: https://arxiv.org/abs/2212.12817
+  pdf: https://arxiv.org/pdf/2212.12817
+  doi: 10.1109/JIOT.2023.3278235
+subfield: REM
+method_family: learning-based
+method_detail:
+  - GAN
+task:
+  - signal-strength-estimation
+  - coverage-prediction
+  - REM-construction
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 2D
+supervision: supervised
+citations: 133
+is_milestone: true
+tags:
+  - cGAN
+  - shadowing
+  - IoT
+  - coverage-map
+added_date: '2026-05-16'

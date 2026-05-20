@@ -1,0 +1,33 @@
+id: yapar-locunet-2021
+title: "Real-Time Outdoor Localization Using Radio Maps: A Deep Learning Approach"
+authors:
+  - Çagkan Yapar
+  - R. Levie
+  - Gitta Kutyniok
+  - G. Caire
+year: 2021
+venue: "IEEE Transactions on Wireless Communications"
+subfield: pathloss-prediction
+method_family: learning-based
+method_detail: [CNN]
+task: [other]
+input_modality: environment-map
+environment: outdoor
+dimensionality: 2D
+supervision: supervised
+abstract: >
+  Presents LocUNet, a convolutional end-to-end trained neural network that estimates a
+  user's position from the received signal strength of a small number of base stations
+  using estimated pathloss radio maps. Two novel datasets for RSS and ToA methods in
+  realistic urban environments are introduced and made publicly available. LocUNet
+  outperforms state-of-the-art RSS and ToA localisation methods and is suitable for
+  real-time applications.
+tldr: "LocUNet uses CNN-estimated pathloss radio maps for real-time urban localisation, outperforming RSS/ToA baselines."
+links:
+  arxiv: "https://arxiv.org/abs/2106.12556"
+  pdf: "https://arxiv.org/pdf/2106.12556"
+  doi: "10.1109/TWC.2023.3273202"
+citations: 70
+is_milestone: true
+tags: [localization, outdoor, UNet, pathloss-maps, dataset]
+added_date: '2026-05-16'

@@ -1,0 +1,47 @@
+id: radiodiff-2024
+title: "RadioDiff: An Effective Generative Diffusion Model for Sampling-Free Dynamic Radio Map Construction"
+authors:
+  - Xiucheng Wang
+  - Keda Tao
+  - Nan Cheng
+  - Zhisheng Yin
+  - Zan Li
+  - Yuan Zhang
+  - Xuemin Shen
+year: 2024
+venue: "IEEE Transactions on Cognitive Communications and Networking"
+abstract: >
+  RadioDiff models the sampling-free radio map construction problem as a
+  conditional generative task and proposes a denoising diffusion probabilistic
+  model-based solution. An attention U-Net with an adaptive fast Fourier transform
+  module serves as the backbone to extract dynamic environmental features, while a
+  decoupled diffusion model further improves construction quality. Theoretical
+  justification for treating REM construction as a generative problem is provided,
+  and the method achieves state-of-the-art RMSE, SSIM, and PSNR on standard
+  benchmarks. Code is publicly available.
+tldr: "Denoising diffusion model with attention U-Net and adaptive FFT backbone achieves state-of-the-art sampling-free radio map construction."
+links:
+  doi: 10.1109/TCCN.2024.3504489
+  code: https://github.com/UNIC-Lab/RadioDiff
+subfield: pathloss-prediction
+method_family: learning-based
+method_detail:
+  - Diffusion
+  - CNN
+  - Transformer
+task:
+  - REM-construction
+  - signal-strength-estimation
+  - pathloss-prediction
+input_modality: environment-map
+environment: outdoor
+dimensionality: 2D
+supervision: supervised
+citations: 118
+is_milestone: true
+tags:
+  - diffusion-model
+  - generative
+  - 6G
+  - attention
+added_date: '2026-05-16'

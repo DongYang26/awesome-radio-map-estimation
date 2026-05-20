@@ -1,0 +1,45 @@
+id: maeng-guvenc-2023-3d-kriging-rdz
+title: "Kriging-Based 3-D Spectrum Awareness for Radio Dynamic Zones Using Aerial Spectrum Sensors"
+authors:
+  - Seungmo Maeng
+  - Ozgur Ozdemir
+  - Ismail Guvenc
+  - Mihail L. Sichitiu
+year: 2023
+venue: "IEEE Sensors Journal"
+abstract: >
+  Proposes 3-D Kriging interpolation for real-time spectrum awareness within Radio
+  Dynamic Zones (RDZs) using UAV-borne spectrum sensors. Realistic 3-D correlation
+  models are derived from C-band measurements at 30-110 m altitude on the AERPAW
+  platform, covering path loss, shadowing, and semi-variogram characterization.
+  The 3-D Kriging map achieves significantly lower RMSE than a perfect-path-loss
+  baseline, especially when the height difference between measured and target locations
+  is under 20 m.
+tldr: >
+  3-D Kriging radio map for UAV-assisted spectrum monitoring in Radio Dynamic Zones,
+  calibrated with real AERPAW C-band measurements at multiple altitudes.
+links:
+  arxiv: "https://arxiv.org/abs/2307.06310"
+  pdf: "https://arxiv.org/pdf/2307.06310"
+  doi: "10.1109/JSEN.2024.3357430"
+subfield: spectrum-cartography
+method_family: interpolation
+method_detail:
+  - Kriging
+task:
+  - spectrum-cartography
+  - signal-strength-estimation
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 3D
+supervision: unsupervised
+citations: 23
+is_milestone: false
+tags:
+  - 3D-kriging
+  - UAV
+  - radio-dynamic-zone
+  - aerial-sensing
+  - AERPAW
+  - path-loss-modeling
+added_date: '2026-05-16'

@@ -1,0 +1,31 @@
+id: yapar-mlsp2025-sampling
+title: "The Sampling-Assisted Pathloss Radio Map Prediction Competition"
+authors:
+  - Çagkan Yapar
+  - Stefanos Bakirtzis
+  - Andra Lutu
+  - Ian J. Wassell
+  - Jie Zhang
+  - Giuseppe Caire
+year: 2025
+venue: "International Workshop on Machine Learning for Signal Processing"
+subfield: pathloss-prediction
+method_family: learning-based
+method_detail: [CNN, other]
+task: [pathloss-prediction]
+input_modality: both
+environment: indoor
+dimensionality: 2D
+supervision: semi-supervised
+abstract: >
+  Describes the MLSP 2025 Sampling-Assisted Pathloss Radio Map Prediction Data Competition,
+  targeting the less-explored case of combining sparse ground-truth pathloss samples with
+  physical propagation environment information for indoor pathloss map estimation. The paper
+  outlines the problem formulation, datasets, competition tasks, evaluation methodology, and
+  provides an overview of submitted methods and results.
+tldr: "MLSP 2025 challenge overview for sampling-assisted indoor pathloss prediction that combines sparse measurements with environment maps."
+links:
+  doi: "10.1109/MLSP62443.2025.11204278"
+citations: 8
+tags: [challenge, indoor, semi-supervised, sparse-measurements, MLSP2025]
+added_date: '2026-05-16'

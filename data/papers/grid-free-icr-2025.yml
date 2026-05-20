@@ -1,0 +1,37 @@
+id: grid-free-icr-2025
+title: "Grid-Free Radio Map Estimation via Unsupervised Implicit Continuous Representation"
+authors:
+  - Xiaonan Chen
+  - Jun Wang
+year: 2025
+venue: "IEEE Signal Processing Letters"
+abstract: >
+  This paper proposes a blind grid-free radio map estimation framework using
+  implicit continuous representation (ICR), which learns a mapping from spatial
+  coordinates to signal power for each transmitter without relying on a fixed grid
+  discretisation. The ICR-based approach is fully unsupervised, using only sampled
+  measurements for training, and thus avoids generalisation issues inherent in
+  supervised deep models. Experiments on simulated and ray-tracing datasets validate
+  the approach's accuracy and resolution-independence.
+tldr: "Unsupervised implicit continuous representation enables grid-free, resolution-independent radio map estimation directly from sparse measurement coordinates."
+links:
+  doi: 10.1109/LSP.2025.3601038
+subfield: REM
+method_family: learning-based
+method_detail:
+  - INR
+task:
+  - REM-construction
+  - signal-strength-estimation
+  - spectrum-cartography
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 2D
+supervision: unsupervised
+citations: 1
+tags:
+  - implicit-neural-representation
+  - grid-free
+  - coordinate-network
+  - unsupervised
+added_date: '2026-05-16'

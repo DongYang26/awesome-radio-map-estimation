@@ -1,0 +1,42 @@
+id: chen-wang-2023-offgrid-tensor
+title: "Tensor-Based Parametric Spectrum Cartography From Irregular Off-Grid Samplings"
+authors:
+  - Xiaonan Chen
+  - Jun Wang
+  - Guoyong Zhang
+  - Qihang Peng
+year: 2023
+venue: "IEEE Signal Processing Letters"
+abstract: >
+  Addresses the realistic scenario where spectrum cartography sensors are located
+  at arbitrary positions that deviate from a pre-defined grid. Combines spatial
+  interpolation with multi-linear rank-(L,L,1) block-term tensor decomposition (LL1)
+  to guarantee uniqueness; a sampling-pattern theorem guides the interpolation and
+  imposes grid-wise uncertainty bounds. Simulations show superior performance over
+  on-grid baselines in challenging environments.
+tldr: >
+  Off-grid tensor spectrum cartography that interpolates irregular sensor positions
+  before BTD decomposition, with theoretical guarantees on uniqueness.
+links:
+  doi: "10.1109/LSP.2023.3257723"
+subfield: spectrum-cartography
+method_family: interpolation
+method_detail:
+  - matrix-completion
+  - other   # block-term tensor decomposition (LL1) + interpolation
+task:
+  - spectrum-cartography
+  - signal-strength-estimation
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 2D
+supervision: unsupervised
+citations: 18
+is_milestone: false
+tags:
+  - off-grid
+  - tensor-decomposition
+  - block-term-decomposition
+  - irregular-sampling
+  - PSD-estimation
+added_date: '2026-05-16'

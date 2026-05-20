@@ -1,0 +1,42 @@
+id: rahman-guvenc-2024-3d-rdz-matrix
+title: "3D Spectrum Awareness for Radio Dynamic Zones Using Kriging and Matrix Completion"
+authors:
+  - Mushfiqur Rahman
+  - Seungmo Maeng
+  - Ismail Guvenc
+  - Chau-Wai Wong
+year: 2024
+venue: "IEEE International Symposium on Dynamic Spectrum Access Networks (DySPAN)"
+abstract: >
+  Compares ordinary Kriging and matrix completion for constructing 3-D radio maps
+  within Radio Dynamic Zones using sparse UAV RSRP measurements. Matrix completion
+  exploits the low-rank structure of propagation maps and outperforms ordinary Kriging
+  in most configurations; simple and trans-Gaussian Kriging variants excel at very
+  low measurement density. Using combined datasets from multiple altitudes further
+  improves prediction accuracy.
+tldr: >
+  Systematic comparison of Kriging variants vs. matrix completion for 3-D RDZ radio
+  maps, showing low-rank matrix completion wins except at very sparse regimes.
+links:
+  doi: "10.1109/DySPAN60163.2024.10632739"
+subfield: spectrum-cartography
+method_family: interpolation
+method_detail:
+  - Kriging
+  - matrix-completion
+task:
+  - spectrum-cartography
+  - signal-strength-estimation
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 3D
+supervision: unsupervised
+citations: 4
+is_milestone: false
+tags:
+  - matrix-completion
+  - 3D-kriging
+  - radio-dynamic-zone
+  - UAV
+  - low-rank
+added_date: '2026-05-16'

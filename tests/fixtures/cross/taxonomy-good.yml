@@ -1,0 +1,8 @@
+taxonomy:
+  - id: learning-based
+    label: Learning-based
+    description: A schema-valid taxonomy node fixture.
+    children:
+      - id: cnn
+        label: CNN
+        description: A schema-valid child node.

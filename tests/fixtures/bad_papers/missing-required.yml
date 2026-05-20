@@ -1,0 +1,13 @@
+id: missing-required
+title: "A Paper Missing The Required year Field"
+authors:
+  - Margaret Hamilton
+subfield: CKM
+method_family: model-based
+task:
+  - channel-gain-prediction
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 3D
+supervision: supervised
+added_date: '2024-03-01'

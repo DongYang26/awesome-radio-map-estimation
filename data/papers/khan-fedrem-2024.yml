@@ -1,0 +1,42 @@
+id: khan-fedrem-2024
+title: 'Radio Environment Map Construction Based on Privacy-Centric Federated Learning'
+authors:
+  - Shafi Ullah Khan
+  - Carla E. García
+  - Taewoong Hwang
+  - Insoo Koo
+year: 2024
+venue: IEEE Access
+subfield: REM
+method_family: learning-based
+method_detail:
+  - RNN
+task:
+  - REM-construction
+  - coverage-prediction
+input_modality: sparse-measurements
+environment: indoor
+dimensionality: 2D
+supervision: supervised
+abstract: >
+  This paper proposes a federated learning LSTM model (FedLSTM) for constructing
+  radio environment maps without sharing client measurement data with a central
+  server. Multiple clients train the model locally while preserving privacy and
+  reducing communication overhead. Using real data from clients moving along
+  indoor paths, FedLSTM achieves RMSE of 2.5 dBm and MAE of 1.9 dBm, only
+  marginally higher than the centralized counterpart (2.4 dBm / 1.7 dBm), while
+  offering strong privacy guarantees.
+tldr: >
+  Privacy-preserving federated LSTM for indoor REM construction that matches
+  centralized accuracy while keeping raw measurements on-device.
+links:
+  doi: '10.1109/ACCESS.2024.3367589'
+  pdf: 'https://ieeexplore.ieee.org/ielx7/6287639/10380310/10440080.pdf'
+citations: 7
+is_milestone: false
+tags:
+  - federated-learning
+  - privacy
+  - LSTM
+  - indoor
+added_date: '2026-05-16'

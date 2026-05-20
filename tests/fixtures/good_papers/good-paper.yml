@@ -1,0 +1,30 @@
+id: good-paper
+title: "A Well-Formed Radio Map Estimation Paper"
+authors:
+  - Ada Lovelace
+  - Alan Turing
+year: 2024
+venue: "Journal of Test Fixtures"
+abstract: >
+  A minimal but schema-valid paper fixture used to assert that validate.py
+  accepts a correctly-formed paper YAML file.
+tldr: "A schema-valid fixture paper for the validation test suite."
+links:
+  arxiv: https://arxiv.org/abs/2400.00001
+  doi: 10.0000/test.2024.0001
+subfield: REM
+method_family: learning-based
+method_detail:
+  - CNN
+task:
+  - REM-construction
+input_modality: environment-map
+environment: outdoor
+dimensionality: 2D
+supervision: supervised
+citations: 7
+is_milestone: true
+tags:
+  - fixture
+  - test
+added_date: '2024-01-15'

@@ -1,0 +1,4 @@
+steps:
+  - order: 1
+    paper_id: good-paper
+    why: A schema-valid reading-path fixture whose paper_id resolves.

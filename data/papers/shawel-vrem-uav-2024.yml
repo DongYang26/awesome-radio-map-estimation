@@ -1,0 +1,45 @@
+id: shawel-vrem-uav-2024
+title: 'A Deep-Learning Approach to a Volumetric Radio Environment Map Construction for UAV-Assisted Networks'
+authors:
+  - Bezawit Sahilu Shawel
+  - Dereje H. Woldegebreal
+  - Sofie Pollin
+year: 2024
+venue: International Journal of Antennas and Propagation
+subfield: REM
+method_family: learning-based
+method_detail:
+  - GAN
+  - CNN
+task:
+  - REM-construction
+  - signal-strength-estimation
+input_modality: both
+environment: outdoor
+dimensionality: 3D
+supervision: supervised
+abstract: >
+  This paper proposes volumetric REM (VREM) construction that captures 3D
+  propagation losses in both areal and altitude dimensions for UAV-assisted
+  networks. Two deep learning models are developed: a Vol2Vol approach using 3D
+  generative adversarial networks, and a sliced VREM with altitude-aware
+  spider-UNets. The Addis dataset comprising 54,000 samples from urban Addis
+  Ababa with 15 altitude slices per sample is introduced. The Vol2Vol approach
+  achieves a minimum L1 loss of 0.01, demonstrating statistically comparable
+  volumetric radio maps.
+tldr: >
+  3D/volumetric REM construction for UAV networks using 3D-GANs and altitude-aware
+  spider-UNets, with a new large-scale urban dataset from Addis Ababa.
+links:
+  doi: '10.1155/2024/9062023'
+  pdf: 'https://downloads.hindawi.com/journals/ijap/2024/9062023.pdf'
+citations: 6
+is_milestone: false
+tags:
+  - 3D
+  - volumetric
+  - UAV
+  - GAN
+  - altitude
+  - dataset
+added_date: '2026-05-16'

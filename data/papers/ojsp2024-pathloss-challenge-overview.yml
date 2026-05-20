@@ -1,0 +1,40 @@
+id: "ojsp2024-pathloss-challenge-overview"
+title: "Overview of the First Pathloss Radio Map Prediction Challenge"
+authors:
+  - Çagkan Yapar
+  - Fabian Jaensch
+  - Ron Levie
+  - Gitta Kutyniok
+  - Giuseppe Caire
+year: 2024
+venue: "IEEE Open Journal of Signal Processing"
+abstract: >
+  This paper provides a comprehensive overview of the ICASSP 2023 First Pathloss
+  Radio Map Prediction Challenge, covering the problem formulation, a literature
+  survey of deep learning-based pathloss prediction methods, a description of the
+  challenge datasets, task, and evaluation methodology, and a summary of submitted
+  methods and final results. Pathloss quantifies signal power reduction due to
+  large-scale effects including free-space loss and interactions with buildings
+  and other objects in the propagation environment.
+tldr: "Extended journal overview of the ICASSP 2023 pathloss challenge with literature survey, dataset description, and comparative results across DL approaches."
+links:
+  doi: 10.1109/OJSP.2024.3419563
+subfield: pathloss-prediction
+method_family: learning-based
+method_detail:
+  - CNN
+  - other
+task:
+  - pathloss-prediction
+  - coverage-prediction
+input_modality: environment-map
+environment: outdoor
+dimensionality: 2D
+supervision: supervised
+citations: 18
+tags:
+  - benchmark
+  - survey
+  - challenge
+  - outdoor
+added_date: '2026-05-16'

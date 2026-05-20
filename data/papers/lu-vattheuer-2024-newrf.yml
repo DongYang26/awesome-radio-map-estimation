@@ -1,0 +1,43 @@
+id: lu-vattheuer-2024-newrf
+title: "A Deep Learning Framework for Wireless Radiation Field Reconstruction and Channel Prediction"
+authors:
+  - Haofan Lu
+  - Christopher Vattheuer
+  - Baharan Mirzasoleiman
+  - Omid Salehi-Abari
+year: 2024
+venue: International Conference on Machine Learning
+subfield: CKM
+method_family: learning-based
+method_detail:
+  - INR
+  - other
+task:
+  - channel-gain-prediction
+  - coverage-prediction
+input_modality: sparse-measurements
+environment: both
+dimensionality: 3D
+supervision: supervised
+citations: 41
+links:
+  doi: 10.48550/arXiv.2403.03241
+  arxiv: https://arxiv.org/abs/2403.03241
+abstract: >
+  NeWRF is a deep learning framework for wireless channel prediction based on Neural
+  Radiance Fields (NeRF). Trained on sparse channel measurements, NeWRF predicts
+  wireless channels accurately at any unvisited location in a site by integrating
+  wireless propagation properties (multipath, diffraction, shadowing) into the NeRF
+  framework. Extensive evaluations show accurate channel prediction at significantly
+  lower measurement density than prior state-of-the-art methods.
+tldr: >
+  NeWRF adapts Neural Radiance Fields to wireless propagation, enabling site-specific
+  channel prediction from sparse measurements for cost-effective site surveys.
+tags:
+  - CKM
+  - NeRF
+  - neural-radiance-field
+  - channel-prediction
+  - INR
+  - site-specific
+added_date: '2026-05-16'

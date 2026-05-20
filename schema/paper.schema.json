@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/DongYang26/awesome-radio-map-estimation/schema/paper.schema.json",
+  "title": "RME Paper Entry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "title", "authors", "year", "subfield",
+               "method_family", "task", "input_modality",
+               "environment", "dimensionality", "supervision", "added_date"],
+  "properties": {
+    "id":        { "type": "string", "pattern": "^[a-z0-9._-]+$",
+                   "description": "arXiv id (e.g. 2210.12345) or kebab-case slug; must equal filename stem" },
+    "title":     { "type": "string", "minLength": 4 },
+    "authors":   { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "year":      { "type": "integer", "minimum": 1990, "maximum": 2100 },
+    "venue":     { "type": "string" },
+    "abstract":  { "type": "string" },
+    "tldr":      { "type": "string", "maxLength": 280,
+                   "description": "One-sentence human summary" },
+
+    "links": {
+      "type": "object", "additionalProperties": false,
+      "properties": {
+        "arxiv":        { "type": "string", "format": "uri", "pattern": "^https?://" },
+        "pdf":          { "type": "string", "format": "uri", "pattern": "^https?://" },
+        "code":         { "type": "string", "format": "uri", "pattern": "^https?://" },
+        "project_page": { "type": "string", "format": "uri", "pattern": "^https?://" },
+        "doi":          { "type": "string" }
+      }
+    },
+
+    "subfield":       { "enum": ["REM", "spectrum-cartography",
+                                 "pathloss-prediction", "CKM"] },
+    "method_family":  { "enum": ["interpolation", "model-based", "learning-based", "application"] },
+    "method_detail":  { "type": "array",
+                        "items": { "enum": ["Kriging", "IDW", "matrix-completion",
+                                            "ray-tracing", "CNN", "GAN", "Transformer",
+                                            "INR", "Diffusion", "GNN", "RNN",
+                                            "autoencoder", "Gaussian-process", "other"] } },
+    "task":           { "type": "array", "minItems": 1,
+                        "items": { "enum": ["signal-strength-estimation",
+                                            "coverage-prediction", "spectrum-occupancy",
+                                            "pathloss-prediction", "channel-gain-prediction",
+                                            "spectrum-cartography", "REM-construction",
+                                            "other"] } },
+    "input_modality": { "enum": ["sparse-measurements", "environment-map", "both"] },
+    "environment":    { "enum": ["indoor", "outdoor", "both"] },
+    "dimensionality": { "enum": ["2D", "3D"] },
+    "supervision":    { "enum": ["supervised", "self-supervised",
+                                 "unsupervised", "semi-supervised", "n/a"] },
+
+    "datasets":     { "type": "array",
+                      "items": { "type": "string" },
+                      "description": "dataset ids; each must exist in data/datasets.yml (checked by validate.py)" },
+
+    "citations":    { "type": "integer", "minimum": 0,
+                      "description": "Semantic Scholar count; refreshed periodically (v2 job)" },
+    "is_milestone": { "type": "boolean", "default": false },
+    "tags":         { "type": "array", "items": { "type": "string" } },
+    "added_date":   { "type": "string", "format": "date" }
+  }
+}

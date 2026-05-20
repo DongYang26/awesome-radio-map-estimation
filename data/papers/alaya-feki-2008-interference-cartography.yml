@@ -1,0 +1,43 @@
+id: alaya-feki-2008-interference-cartography
+title: "Informed Spectrum Usage in Cognitive Radio Networks: Interference Cartography"
+authors:
+  - Afef Ben Hadj Alaya-Feki
+  - Sana Ben Jemaa
+  - Berna Sayrac
+  - Patrick Houze
+  - Eric Moulines
+year: 2008
+venue: "IEEE International Symposium on Personal, Indoor and Mobile Radio Communications"
+abstract: >
+  Introduces the concept of interference cartography for cognitive radio networks, where
+  spatial interference maps are constructed from distributed sensor measurements to enable
+  informed spectrum access decisions. Gaussian process regression (Kriging) is employed
+  to interpolate interference levels across unobserved locations from sparse sensor reports.
+  The resulting interference maps guide secondary users in selecting idle spectrum bands
+  while protecting primary user transmissions.
+tldr: >
+  Early landmark proposing interference cartography via Kriging to enable geographically
+  aware spectrum access in cognitive radio networks.
+links:
+  doi: "10.1109/PIMRC.2008.4699911"
+subfield: spectrum-cartography
+method_family: interpolation
+method_detail:
+  - Kriging
+  - Gaussian-process
+task:
+  - spectrum-cartography
+  - spectrum-occupancy
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 2D
+supervision: n/a
+citations: 126
+is_milestone: true
+tags:
+  - interference-cartography
+  - Kriging
+  - Gaussian-process
+  - cognitive-radio
+  - spectrum-access
+added_date: '2026-05-16'

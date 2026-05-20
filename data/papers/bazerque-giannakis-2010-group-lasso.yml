@@ -1,0 +1,43 @@
+id: bazerque-giannakis-2010-group-lasso
+title: "Group-Lasso on Splines for Spectrum Cartography"
+authors:
+  - Juan Andres Bazerque
+  - Gonzalo Mateos
+  - Georgios B. Giannakis
+year: 2010
+venue: "IEEE Transactions on Signal Processing"
+abstract: >
+  Develops a spline-based approach to field estimation using a basis expansion model
+  weighted by generic functions estimated from noisy samples. A regularized variational
+  least-squares criterion yields finite-dimensional estimates spanned by thin-plate splines,
+  with a group-Lasso sparsifying regularizer that selects a parsimonious set of bases.
+  A distributed algorithm is derived for wireless sensor networks, and the method is
+  applied to spectrum cartography where cognitive radios collaboratively estimate the
+  spatial distribution of RF power spectral density across frequency bands.
+tldr: >
+  Landmark sparse-regression spectrum cartography via group-Lasso on spline bases,
+  enabling distributed PSD atlas construction from collaborative cognitive radio measurements.
+links:
+  doi: "10.1109/TSP.2011.2160858"
+  pdf: "http://arxiv.org/pdf/1010.0274"
+subfield: spectrum-cartography
+method_family: interpolation
+method_detail:
+  - other   # sparse regression / group-Lasso on splines
+task:
+  - spectrum-cartography
+  - signal-strength-estimation
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 2D
+supervision: unsupervised
+citations: 163
+is_milestone: true
+tags:
+  - group-lasso
+  - splines
+  - sparse-regression
+  - distributed-sensing
+  - cognitive-radio
+  - PSD-atlas
+added_date: '2026-05-16'

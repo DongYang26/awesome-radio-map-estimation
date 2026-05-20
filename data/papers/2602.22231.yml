@@ -1,0 +1,51 @@
+id: "2602.22231"
+title: "FM-RME: Foundation Model Empowered Radio Map Estimation"
+authors:
+  - Dong Yang
+  - Yue Wang
+  - Songyang Zhang
+  - Yingshu Li
+  - Zhipeng Cai
+  - Zhi Tian
+year: 2026
+venue: arXiv preprint
+abstract: >-
+  Traditional radio map estimation (RME) techniques fail to capture the
+  multi-dimensional and dynamic characteristics of complex spectrum
+  environments, and recent data-driven methods often ignore the physical prior
+  knowledge of radio propagation, limiting data efficiency in multi-dimensional
+  scenarios. FM-RME is a foundation model for multi-dimensional RME that builds
+  a synergy of two components: a geometry-aware feature-extraction module that
+  encodes physical propagation symmetries (translation and rotation invariance)
+  as inductive bias, and an attention-based network that learns long-range
+  correlations across the spatial-temporal-spectral domains. A masked
+  self-supervised multi-dimensional pre-training strategy yields generalizable
+  spectrum representations, enabling zero-shot inference for spatial, temporal,
+  and spectral estimation without scenario-specific retraining.
+tldr: >-
+  A foundation model for radio map estimation with masked self-supervised
+  multi-dimensional pre-training and physics-informed geometry-aware features,
+  enabling zero-shot spatial-temporal-spectral RME.
+links:
+  arxiv: https://arxiv.org/abs/2602.22231
+  doi: 10.48550/arXiv.2602.22231
+subfield: REM
+method_family: learning-based
+method_detail:
+  - Transformer
+task:
+  - REM-construction
+  - signal-strength-estimation
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 2D
+supervision: self-supervised
+citations: 1
+is_milestone: true
+tags:
+  - foundation-model
+  - self-supervised
+  - zero-shot
+  - physics-informed
+  - multi-dimensional
+added_date: "2026-05-16"

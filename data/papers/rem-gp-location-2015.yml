@@ -1,0 +1,37 @@
+id: rem-gp-location-2015
+title: "Location Estimation-Based Radio Environment Map Construction in Fading Channels"
+authors:
+  - Huseyin Birkan Yilmaz
+  - Tuna Tugcu
+year: 2015
+venue: "Wireless Communications and Mobile Computing"
+abstract: >
+  This paper addresses REM construction under uncertain measurement positions by
+  jointly estimating sensor locations and signal field values using a Gaussian
+  process regression framework. The method accounts for fading channel statistics
+  when interpolating received signal strength, providing a principled probabilistic
+  approach to handle location uncertainty inherent in mobile crowdsourcing
+  scenarios. Simulations confirm robust REM accuracy even under significant
+  positioning errors.
+tldr: "Gaussian process framework jointly estimates sensor positions and signal field values for robust REM construction under location uncertainty in fading channels."
+links:
+  doi: 10.1002/wcm.2367
+subfield: REM
+method_family: interpolation
+method_detail:
+  - Gaussian-process
+task:
+  - REM-construction
+  - signal-strength-estimation
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 2D
+supervision: semi-supervised
+citations: 91
+is_milestone: true
+tags:
+  - gaussian-process
+  - location-uncertainty
+  - fading-channel
+  - crowdsourcing
+added_date: '2026-05-16'

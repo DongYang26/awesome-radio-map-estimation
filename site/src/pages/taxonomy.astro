@@ -1,0 +1,214 @@
+---
+import Base from '../layouts/Base.astro';
+import { papers, taxonomy } from '../lib/data';
+import type { Paper, TaxonomyNode } from '../lib/data';
+
+const base = import.meta.env.BASE_URL;
+const b = base.endsWith('/') ? base.slice(0, -1) : base;
+
+// ---------------------------------------------------------------------------
+// Map each taxonomy node to the papers that belong to it.
+//
+// Top-level nodes (interpolation / model-based / learning-based) correspond to
+// a paper's `method_family`. Leaf nodes (Kriging, CNN, ...) correspond to a
+// value in a paper's `method_detail` array.
+//
+// Node ids in data/taxonomy.yml are kebab/lowercase ("cnn", "gaussian-process")
+// while `method_detail` enum values are mixed-case ("CNN", "Gaussian-process").
+// We match case-insensitively.
+//
+// IMPORTANT: a paper's `method_detail` may be "other" or a technique that has
+// no dedicated leaf under its family. Such papers are collected into a synthetic
+// "Other / cross-cutting methods" group per family so that EVERY paper of a
+// family is always reachable from the tree.
+// ---------------------------------------------------------------------------
+const norm = (s: string) => s.toLowerCase().replace(/[\s_]+/g, '-');
+
+function papersForFamily(family: string): Paper[] {
+  return papers
+    .filter((p) => norm(p.method_family) === norm(family))
+    .sort((a, b) => b.year - a.year || a.title.localeCompare(b.title));
+}
+
+function papersForLeaf(nodeId: string, family: string): Paper[] {
+  const key = norm(nodeId);
+  return papersForFamily(family).filter((p) =>
+    (p.method_detail ?? []).some((d) => norm(d) === key),
+  );
+}
+
+interface Group {
+  label: string;
+  description?: string;
+  papers: Paper[];
+  synthetic?: boolean;
+  autoOpen?: boolean;
+}
+
+// Build the display groups for a family: one per leaf node, plus a catch-all
+// "Other" group for family papers whose method_detail maps to no leaf.
+function groupsForFamily(family: TaxonomyNode): Group[] {
+  const leaves = family.children ?? [];
+  const leafIds = leaves.map((l) => norm(l.id));
+  const groups: Group[] = leaves.map((leaf) => ({
+    label: leaf.label,
+    description: leaf.description,
+    papers: papersForLeaf(leaf.id, family.id),
+  }));
+  const orphans = papersForFamily(family.id).filter(
+    (p) => !(p.method_detail ?? []).some((d) => leafIds.includes(norm(d))),
+  );
+  if (orphans.length > 0) {
+    const noChildren = leaves.length === 0;
+    groups.push({
+      label: noChildren ? 'Papers' : 'Other / cross-cutting methods',
+      description: noChildren
+        ? undefined
+        : 'Papers in this family whose method_detail does not map to a specific method node above — e.g. empirical or propagation models, hybrid and tensor methods, or method_detail tagged "other".',
+      papers: orphans,
+      synthetic: true,
+      autoOpen: noChildren,
+    });
+  }
+  return groups;
+}
+
+const familyGroups = taxonomy.taxonomy.map((family: TaxonomyNode) => ({
+  family,
+  groups: groupsForFamily(family),
+}));
+
+const familyCount = (family: string) => papersForFamily(family).length;
+const totalClassified = papers.length;
+---
+
+<Base
+  title="Taxonomy"
+  description="A collapsible taxonomy tree of radio map estimation methods, with papers attached at each method node."
+>
+  <section aria-labelledby="tax-heading">
+    <h1 id="tax-heading">Taxonomy Tree</h1>
+    <p>
+      Radio map estimation methods organized as a tree: <strong>method family</strong>
+      (interpolation, model-based, learning-based) → <strong>specific method</strong> (CNN, Kriging,
+      ray tracing, …). Expand a node to reveal the papers classified under it. The whole tree is
+      pure HTML — it works without JavaScript and is fully keyboard navigable.
+    </p>
+    <p class="text-muted">
+      {totalClassified} papers across {taxonomy.taxonomy.length} method families. A paper may appear
+      under multiple method nodes when its <code>method_detail</code> lists several techniques; a
+      paper whose method has no dedicated node appears under that family's
+      <em>Other / cross-cutting methods</em> group.
+    </p>
+
+    <div class="tax-tree" role="group" aria-labelledby="tax-heading">
+      {
+        familyGroups.map(({ family, groups }) => (
+          <details class="tax-family">
+            <summary>
+              <span class="tax-label">{family.label}</span>
+              <span class="badge tax-count">{familyCount(family.id)} papers</span>
+            </summary>
+            <div class="details-body">
+              {family.description && <p class="text-muted tax-desc">{family.description}</p>}
+
+              {groups.map((group) => (
+                <details class={group.synthetic ? 'tax-leaf tax-leaf--other' : 'tax-leaf'} open={group.autoOpen}>
+                  <summary>
+                    <span class="tax-label">{group.label}</span>
+                    <span class="badge tax-count">{group.papers.length}</span>
+                  </summary>
+                  <div class="details-body">
+                    {group.description && (
+                      <p class="text-muted tax-desc">{group.description}</p>
+                    )}
+                    {group.papers.length === 0 ? (
+                      <p class="text-muted">
+                        <em>No papers classified under this method yet.</em>
+                      </p>
+                    ) : (
+                      <ul class="tax-papers" role="list">
+                        {group.papers.map((p) => (
+                          <li class="tax-paper">
+                            <a
+                              class="tax-paper__title"
+                              href={`${b}/matrix#${encodeURIComponent(p.id)}`}
+                            >
+                              {p.title}
+                            </a>
+                            {p.is_milestone && (
+                              <span class="badge badge--milestone">Milestone</span>
+                            )}
+                            <span class="tax-paper__meta text-muted">
+                              {p.authors[0]}
+                              {p.authors.length > 1 ? ' et al.' : ''} · {p.year} · {p.subfield}
+                            </span>
+                            {p.tldr && <p class="tax-paper__tldr">{p.tldr}</p>}
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </div>
+                </details>
+              ))}
+
+              {groups.length === 0 && (
+                <p class="text-muted">
+                  <em>No papers in this family yet.</em>
+                </p>
+              )}
+            </div>
+          </details>
+        ))
+      }
+    </div>
+  </section>
+</Base>
+
+<style>
+  .tax-tree {
+    margin-top: 1.5rem;
+  }
+  .tax-family > summary {
+    font-size: 1.05rem;
+  }
+  .tax-label {
+    flex: 1;
+  }
+  .tax-count {
+    font-weight: 500;
+    flex-shrink: 0;
+  }
+  .tax-leaf--other > summary .tax-label {
+    font-style: italic;
+  }
+  .tax-desc {
+    font-size: 0.9rem;
+    margin-bottom: 0.75rem;
+  }
+  .tax-papers {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  .tax-paper {
+    padding: 0.6rem 0.75rem;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+  }
+  .tax-paper__title {
+    font-weight: 600;
+    margin-right: 0.4rem;
+  }
+  .tax-paper__meta {
+    display: block;
+    font-size: 0.8rem;
+    margin-top: 0.15rem;
+  }
+  .tax-paper__tldr {
+    font-size: 0.85rem;
+    margin: 0.35rem 0 0;
+  }
+</style>

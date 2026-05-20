@@ -1,0 +1,32 @@
+id: gao-multilayer-pathloss-2026
+title: "Effective Outdoor Pathloss Prediction: A Multi-Layer Segmentation Approach With Weighting Map"
+authors:
+  - Yuan Gao
+  - Tao Wen
+  - Wenjing Xie
+  - Jianbo Du
+  - Yong Zeng
+  - D. Niyato
+  - Shugong Xu
+year: 2026
+venue: "IEEE Transactions on Vehicular Technology"
+subfield: pathloss-prediction
+method_family: learning-based
+method_detail: [CNN, other]
+task: [pathloss-prediction]
+input_modality: environment-map
+environment: outdoor
+dimensionality: 2D
+supervision: supervised
+abstract: >
+  Introduces a ResNet-based model for outdoor pathloss prediction that generates Tx/Rx
+  depth maps and a distance map from geographic data, together with a weighting map
+  emphasising areas adjacent to the direct Tx-Rx path to capture reflection and diffraction.
+  Evaluated on the ITU challenge 2024 and ICASSP 2023 datasets, the model outperforms
+  PPNet, RPNet, and ViT by 1.2-3.0 dB while using 60% fewer FLOPs than benchmarks.
+tldr: "ResNet pathloss predictor with depth maps and a direct-path weighting map beats PPNet/ViT by 1.2-3 dB at 60% fewer FLOPs."
+links:
+  doi: "10.1109/tvt.2026.3658966"
+citations: 2
+tags: [outdoor, ResNet, weighting-map, depth-map, efficiency]
+added_date: '2026-05-16'

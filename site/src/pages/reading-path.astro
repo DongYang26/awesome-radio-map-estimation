@@ -1,0 +1,121 @@
+---
+import Base from '../layouts/Base.astro';
+import { readingPath, papers, safeHref } from '../lib/data';
+
+const base = import.meta.env.BASE_URL;
+const b = base.endsWith('/') ? base.slice(0, -1) : base;
+
+const paperById = new Map(papers.map((p) => [p.id, p]));
+
+// Steps in their declared reading order.
+const steps = [...readingPath.steps].sort((a, b) => a.order - b.order);
+
+// Resolve each step's paper once, up front.
+const resolved = steps.map((step) => ({
+  ...step,
+  paper: paperById.get(step.paper_id) ?? null,
+}));
+---
+
+<Base
+  title="Reading Path"
+  description="A curated newcomer reading path through the landmark papers of radio map estimation."
+>
+  <section aria-labelledby="rp-heading">
+    <h1 id="rp-heading">Newcomer Reading Path</h1>
+    <p>
+      New to radio map estimation? Follow this ordered path of {resolved.length} landmark papers.
+      It walks from the foundational problem statement, through classical signal-processing
+      approaches, into the deep-learning era and the current frontier — each step explains
+      <em>why</em> it belongs at that point in the journey.
+    </p>
+
+    <ol class="reading-path" role="list">
+      {
+        resolved.map(({ order, why, paper, paper_id }) => {
+          const arxivHref = safeHref(paper?.links?.arxiv);
+          const codeHref = safeHref(paper?.links?.code);
+          return (
+          <li class="reading-step">
+            <div class="reading-step__number" aria-hidden="true">
+              {order}
+            </div>
+            <div class="reading-step__body">
+              <span class="sr-only">Step {order}:</span>
+              {paper ? (
+                <>
+                  <h2 class="reading-step__title">
+                    <a href={`${b}/matrix#${encodeURIComponent(paper.id)}`}>{paper.title}</a>
+                  </h2>
+                  <p class="reading-step__meta text-muted">
+                    {paper.authors.slice(0, 3).join(', ')}
+                    {paper.authors.length > 3 ? ' et al.' : ''} · {paper.year}
+                    {paper.venue ? ` · ${paper.venue}` : ''}
+                    {' · '}
+                    <span class="badge badge--primary">{paper.subfield}</span>
+                    {paper.is_milestone && (
+                      <span class="badge badge--milestone">Milestone</span>
+                    )}
+                  </p>
+                  {arxivHref && (
+                    <p class="reading-step__links">
+                      <a href={arxivHref} rel="noopener noreferrer">
+                        arXiv
+                      </a>
+                      {codeHref && (
+                        <>
+                          {' · '}
+                          <a href={codeHref} rel="noopener noreferrer">
+                            Code
+                          </a>
+                        </>
+                      )}
+                    </p>
+                  )}
+                </>
+              ) : (
+                <h2 class="reading-step__title reading-step__title--missing">
+                  <code>{paper_id}</code>{' '}
+                  <span class="text-muted">(paper not found in corpus)</span>
+                </h2>
+              )}
+              <p class="reading-step__why">{why}</p>
+            </div>
+          </li>
+          );
+        })
+      }
+    </ol>
+  </section>
+</Base>
+
+<style>
+  .reading-path {
+    list-style: none;
+    margin-top: 1.5rem;
+  }
+  .reading-step__title {
+    margin-top: 0;
+    margin-bottom: 0.25rem;
+    font-size: 1.1rem;
+  }
+  .reading-step__title--missing {
+    font-weight: 500;
+  }
+  .reading-step__meta {
+    font-size: 0.82rem;
+    margin: 0.15rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.35rem;
+  }
+  .reading-step__links {
+    font-size: 0.85rem;
+    margin: 0.25rem 0;
+  }
+  .reading-step__why {
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+  }
+</style>

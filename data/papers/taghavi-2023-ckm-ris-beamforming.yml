@@ -1,0 +1,41 @@
+id: taghavi-2023-ckm-ris-beamforming
+title: "Environment-Aware Joint Active/Passive Beamforming for RIS-Aided Communications Leveraging Channel Knowledge Map"
+authors:
+  - E. Taghavi
+  - Ramin Hashemi
+  - N. Rajatheva
+  - M. Latva-aho
+year: 2023
+venue: IEEE Communications Letters
+subfield: CKM
+method_family: application
+method_detail:
+  - other
+task:
+  - channel-gain-prediction
+  - other
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 2D
+supervision: n/a
+citations: 18
+links:
+  doi: 10.1109/LCOMM.2023.3270491
+  pdf: https://ieeexplore.ieee.org/ielx7/4234/5534602/10108969.pdf
+abstract: >
+  This paper proposes environment-aware joint active/passive beamforming for
+  RIS-aided wireless communication using CKM. User equipment location information
+  is combined with radio environment information from CKM to achieve efficient
+  beamforming without real-time channel training. Simulation results show superior
+  performance over training-based beamforming, with robustness to UE location errors.
+tldr: >
+  CKM-enabled training-free joint active/passive beamforming for RIS-aided 6G systems
+  by exploiting location-tagged channel knowledge instead of real-time pilot overhead.
+tags:
+  - CKM
+  - RIS
+  - beamforming
+  - 6G
+  - environment-aware
+  - training-free
+added_date: '2026-05-16'

@@ -1,0 +1,52 @@
+id: zhao-niyato-2025-temporal-sc-genai
+title: "Temporal Spectrum Cartography in Low-Altitude Economy Networks: A Generative AI Framework With Multi-Agent Learning"
+authors:
+  - Changyuan Zhao
+  - Ruichen Zhang
+  - Jiacheng Wang
+  - Dusit Niyato
+  - Gang Sun
+  - Hongyang Du
+  - Zan Li
+  - Abbas Jamalipour
+  - Dong In Kim
+year: 2025
+venue: "IEEE Transactions on Mobile Computing"
+abstract: >
+  Introduces a two-stage generative AI framework for temporal spectrum cartography
+  in low-altitude economy networks (LAENets) with UAV aerial devices. Stage one uses
+  a Reconstructive Masked Autoencoder (RecMAE) with a dual-mask mechanism to accurately
+  reconstruct spectrum maps from sparse temporally varying sensor data. Stage two
+  applies Multi-agent Diffusion Policy (MADP) with diffusion-based reinforcement
+  learning and temporal-attention encoding to optimize UAV sensor trajectories,
+  minimizing cumulative reconstruction error across dynamic low-altitude environments.
+tldr: >
+  Two-stage GenAI framework for UAV temporal spectrum cartography: masked autoencoder
+  reconstruction followed by diffusion-policy multi-agent trajectory optimization.
+links:
+  doi: "10.1109/TMC.2025.3647029"
+subfield: spectrum-cartography
+method_family: learning-based
+method_detail:
+  - autoencoder
+  - Diffusion
+  - other   # multi-agent RL + masked autoencoder
+task:
+  - spectrum-cartography
+  - signal-strength-estimation
+  - spectrum-occupancy
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 2D
+supervision: supervised
+citations: 22
+is_milestone: false
+tags:
+  - generative-AI
+  - masked-autoencoder
+  - diffusion-policy
+  - multi-agent-RL
+  - UAV-trajectory
+  - low-altitude-economy
+  - temporal-cartography
+added_date: '2026-05-16'

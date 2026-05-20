@@ -1,0 +1,31 @@
+id: hussain-mmwave-uav-2024
+title: "Geometrical Features Based-mmWave UAV Path Loss Prediction Using Machine Learning for 5G and Beyond"
+authors:
+  - Sajjad Hussain
+  - Syed F. N. Bacha
+  - A. Cheema
+  - Berk Canberk
+  - T. Duong
+year: 2024
+venue: "IEEE Open Journal of the Communications Society"
+subfield: pathloss-prediction
+method_family: learning-based
+method_detail: [other]
+task: [pathloss-prediction]
+input_modality: environment-map
+environment: outdoor
+dimensionality: 3D
+supervision: supervised
+abstract: >
+  Proposes a machine learning framework for mmWave path loss prediction for UAV communications
+  in 5G and beyond scenarios using geometrical features extracted from the propagation
+  environment. The approach combines environment geometry descriptors with ML models to
+  achieve accurate path loss estimates for air-to-ground links, addressing the unique
+  propagation characteristics of mmWave UAV channels without relying on expensive ray
+  tracing simulations.
+tldr: "ML framework using geometrical environment features predicts mmWave path loss for UAV air-to-ground links in 5G and beyond."
+links:
+  doi: "10.1109/OJCOMS.2024.3450089"
+citations: 15
+tags: [mmWave, UAV, outdoor, 5G, geometry, air-to-ground]
+added_date: '2026-05-16'

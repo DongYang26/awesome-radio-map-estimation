@@ -1,0 +1,45 @@
+id: romero-kim-2022-rme-tutorial
+title: "Radio Map Estimation: A data-driven approach to spectrum cartography"
+authors:
+  - Daniel Romero
+  - Seung-Jun Kim
+year: 2022
+venue: "IEEE Signal Processing Magazine"
+abstract: >
+  Tutorial survey covering radio map estimation (RME) methods from simple regression
+  to state-of-the-art learning-based approaches. Radio maps characterize received
+  signal strength and channel attenuation at every point of a geographic region;
+  estimation typically entails interpolative inference from spatially distributed
+  measurements. The article presents representative applications and a toolkit of
+  methods with illustrative toy examples, bridging classical spectrum cartography
+  and modern deep-learning techniques.
+tldr: >
+  Comprehensive tutorial on radio map estimation linking classical interpolation,
+  kernel methods, and deep learning for spectrum cartography.
+links:
+  arxiv: "https://arxiv.org/abs/2202.03269"
+  pdf: "https://arxiv.org/pdf/2202.03269"
+  doi: "10.1109/MSP.2022.3200175"
+subfield: spectrum-cartography
+method_family: interpolation
+method_detail:
+  - Kriging
+  - Gaussian-process
+  - other   # survey covers IDW, kernel regression, NNs
+task:
+  - spectrum-cartography
+  - signal-strength-estimation
+input_modality: sparse-measurements
+environment: both
+dimensionality: 2D
+supervision: n/a
+citations: 144
+is_milestone: true
+tags:
+  - survey
+  - tutorial
+  - radio-map
+  - interpolation
+  - kernel-methods
+  - deep-learning
+added_date: '2026-05-16'

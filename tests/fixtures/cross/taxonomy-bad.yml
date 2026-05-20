@@ -1,0 +1,4 @@
+taxonomy:
+  - id: Learning_Based
+    label: Learning-based
+    description: An invalid taxonomy node — its id violates the kebab-case pattern.

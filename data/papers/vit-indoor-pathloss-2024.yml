@@ -1,0 +1,38 @@
+id: "vit-indoor-pathloss-2024"
+title: "Vision Transformers for Efficient Indoor Pathloss Radio Map Prediction"
+authors:
+  - Edvard Ghukasyan
+  - Hrant Khachatrian
+  - Rafayel Mkrtchyan
+  - Theofanis P. Raptis
+year: 2024
+venue: "Electronics"
+abstract: >
+  This work proposes a deep learning approach using a Vision Transformer (ViT)
+  architecture with DINO-v2 pretrained weights for indoor radio propagation
+  pathloss map prediction from floor maps and wall features. The study
+  systematically evaluates the effects of architectural choices, data augmentation
+  strategies, and feature engineering techniques, finding that extensive augmentation
+  significantly improves generalization and that feature engineering is crucial in
+  low-data regimes.
+tldr: "DINO-v2 pretrained ViT predicts indoor pathloss maps from floor plans, with data augmentation as the key factor for generalization in scarce-data regimes."
+links:
+  doi: 10.3390/electronics14101905
+subfield: pathloss-prediction
+method_family: learning-based
+method_detail:
+  - Transformer
+task:
+  - pathloss-prediction
+  - coverage-prediction
+input_modality: environment-map
+environment: indoor
+dimensionality: 2D
+supervision: supervised
+citations: 10
+tags:
+  - ViT
+  - indoor
+  - floor-plan
+  - pretrained
+added_date: '2026-05-16'

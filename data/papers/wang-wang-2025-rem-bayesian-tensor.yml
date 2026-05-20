@@ -1,0 +1,43 @@
+id: wang-wang-2025-rem-bayesian-tensor
+title: "Radio Environment Map Reconstruction via Tensor Completion: Bayesian and Semantic Approaches"
+authors:
+  - Xuegang Wang
+  - Fanggang Wang
+  - Boxiang He
+year: 2025
+venue: "IEEE Transactions on Vehicular Technology"
+abstract: >
+  Models the multi-domain REM (temporal, spectral, spatial) as a tensor and proposes
+  two complementary completion approaches for recovering maps from incomplete and noisy
+  observations. The Bayesian approach uses Tucker decomposition within a hierarchical
+  variational Bayesian framework. The semantic approach applies Vision Transformer
+  segmentation to identify per-emitter dominant regions before tensor completion.
+  Semantic approach outperforms Bayesian in sparse emitter scenarios; Bayesian wins
+  in dense emitter settings.
+tldr: >
+  Dual-approach REM tensor completion: hierarchical variational Bayes (Tucker) and
+  ViT-semantic segmentation, each excelling at different emitter densities.
+links:
+  doi: "10.1109/TVT.2025.3531124"
+subfield: spectrum-cartography
+method_family: learning-based
+method_detail:
+  - matrix-completion
+  - Transformer
+  - other   # Tucker decomposition + variational Bayes
+task:
+  - spectrum-cartography
+  - signal-strength-estimation
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 2D
+supervision: unsupervised
+citations: 1
+is_milestone: false
+tags:
+  - Tucker-decomposition
+  - variational-Bayes
+  - Vision-Transformer
+  - semantic-segmentation
+  - tensor-completion
+added_date: '2026-05-16'

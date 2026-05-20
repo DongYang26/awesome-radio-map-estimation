@@ -1,0 +1,30 @@
+id: kojima-sparse-radiounet-2025
+title: "Sparse-Guided RadioUNet with Adaptive Sampling for the MLSP 2025 Sampling-Assisted Pathloss Radio Map Prediction Data Competition"
+authors:
+  - Ryoichi Kojima
+  - Satoshi Ito
+  - Tatsuya Nagao
+  - Masato Taya
+year: 2025
+venue: "International Workshop on Machine Learning for Signal Processing"
+subfield: pathloss-prediction
+method_family: learning-based
+method_detail: [CNN, other]
+task: [pathloss-prediction]
+input_modality: both
+environment: indoor
+dimensionality: 2D
+supervision: semi-supervised
+abstract: >
+  Presents Sparse-Guided RadioUNet, a five-channel U-Net integrating physics-informed inputs
+  (reflection, transmission, distance maps) and sparse ground-truth pathloss samples. A
+  two-stage frequency transfer learning routine enables generalisation across propagation
+  conditions. A spread loss term penalises spatial discontinuities. An edge-strata-boundary
+  sampling algorithm places informative probes under tight budgets. The full pipeline runs in
+  2.5 ms per building at MLSP 2025.
+tldr: "Sparse-Guided RadioUNet merges physics-informed channels with sparse supervision and achieves 2.5 ms inference at MLSP 2025."
+links:
+  doi: "10.1109/MLSP62443.2025.11204292"
+citations: 2
+tags: [challenge, indoor, UNet, sparse-supervision, physics-informed, transfer-learning, MLSP2025]
+added_date: '2026-05-16'

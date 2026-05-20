@@ -1,0 +1,41 @@
+id: joneidi-2023-trasc-tensor-cp
+title: "TRASC: Tensor-Based Radio Spectrum Cartography Using Plate Splines and Tensor CP Decomposition"
+authors:
+  - Mohsen Joneidi
+  - Nazanin Rahnavard
+  - Faramarz Hejazi
+year: 2023
+venue: "IEEE Future Networks World Forum (FNWF)"
+abstract: >
+  Introduces TRASC, a joint algorithm that simultaneously performs CANDECOMP/PARAFAC
+  (CP) tensor decomposition and thin-plate spline spatial interpolation for spectrum
+  cartography. The CP subproblem captures latent temporal and spectral structure of
+  emitters while the spline subproblem leverages neighborhood spatial smoothness.
+  The ill-posed recovery is regularized by low tensor rank and spatial smoothness
+  assumptions; experiments show effectiveness in multi-dimensional sensing across
+  time, frequency, and space.
+tldr: >
+  TRASC jointly applies CP tensor decomposition and thin-plate splines to recover
+  spatial-spectral-temporal radio maps from sparse multi-dimensional measurements.
+links:
+  doi: "10.1109/FNWF58287.2023.10520367"
+subfield: spectrum-cartography
+method_family: interpolation
+method_detail:
+  - matrix-completion
+  - other   # CP decomposition + thin-plate splines
+task:
+  - spectrum-cartography
+  - signal-strength-estimation
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 2D
+supervision: unsupervised
+citations: 1
+is_milestone: false
+tags:
+  - CP-decomposition
+  - thin-plate-splines
+  - tensor-cartography
+  - multi-dimensional-sensing
+added_date: '2026-05-16'

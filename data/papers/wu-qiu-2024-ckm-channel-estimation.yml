@@ -1,0 +1,41 @@
+id: wu-qiu-2024-ckm-channel-estimation
+title: "Environment-Aware Channel Estimation via Integrating Channel Knowledge Map and Dynamic Sensing Information"
+authors:
+  - Di Wu
+  - Yuelong Qiu
+  - Yong Zeng
+  - Fuxi Wen
+year: 2024
+venue: IEEE Wireless Communications Letters
+subfield: CKM
+method_family: application
+method_detail:
+  - Gaussian-process
+  - other
+task:
+  - channel-gain-prediction
+  - other
+input_modality: both
+environment: outdoor
+dimensionality: 2D
+supervision: supervised
+citations: 18
+links:
+  doi: 10.1109/LWC.2024.3482357
+abstract: >
+  This letter decomposes the wireless environment into quasi-static and dynamic
+  components and proposes an efficient channel estimation method by integrating CKM
+  with dynamic sensing information. CKM stores location-specific quasi-static channel
+  knowledge while real-time sensed dynamic object locations handle the dynamic component,
+  significantly improving performance in highly dynamic scenarios beyond what static
+  environment-aware techniques can achieve.
+tldr: >
+  Integrates quasi-static CKM with real-time sensing of dynamic scatterers for
+  low-overhead channel estimation in rapidly changing 6G environments.
+tags:
+  - CKM
+  - channel-estimation
+  - dynamic-environment
+  - ISAC
+  - 6G
+added_date: '2026-05-16'

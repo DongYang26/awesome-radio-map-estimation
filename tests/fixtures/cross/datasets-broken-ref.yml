@@ -1,0 +1,8 @@
+datasets:
+  - id: test-dataset-a
+    name: Test Dataset A
+    description: A dataset fixture whose papers_using references a non-existent paper.
+    link: https://example.com/dataset-a
+    papers_using:
+      - good-paper
+      - this-paper-does-not-exist

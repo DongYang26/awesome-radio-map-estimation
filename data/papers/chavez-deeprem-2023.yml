@@ -1,0 +1,45 @@
+id: chavez-deeprem-2023
+title: 'DeepREM: Deep-Learning-Based Radio Environment Map Estimation From Sparse Measurements'
+authors:
+  - Andrea Cháves-Villota
+  - Carlos A. Viteri-Mera
+year: 2023
+venue: IEEE Access
+subfield: REM
+method_family: learning-based
+method_detail:
+  - CNN
+  - GAN
+task:
+  - REM-construction
+  - signal-strength-estimation
+  - coverage-prediction
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 2D
+supervision: supervised
+abstract: >
+  DeepREM presents two deep-learning models — a U-Net and a conditional GAN —
+  that estimate radio environment maps from sparse measurements without
+  requiring base station locations, topographic data, or building footprints at
+  inference time. A ray-tracing simulator is used only during training. The
+  models estimate RSRP and base-station coverage indices, achieving RMSE of
+  6.32 dBm and MAE of 4.54 dBm for RSRP estimation, outperforming
+  state-of-the-art methods. The training dataset and models are publicly
+  available.
+tldr: >
+  U-Net and CGAN that estimate REMs purely from sparse measurements, with no
+  geographic side information at inference, outperforming classical methods on
+  RSRP and cell-coverage tasks.
+links:
+  doi: '10.1109/ACCESS.2023.3277248'
+  pdf: 'https://ieeexplore.ieee.org/ielx7/6287639/10005208/10127968.pdf'
+citations: 42
+is_milestone: false
+tags:
+  - U-Net
+  - CGAN
+  - RSRP
+  - open-dataset
+  - sparse-measurements
+added_date: '2026-05-16'

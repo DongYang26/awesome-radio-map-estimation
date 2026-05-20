@@ -1,0 +1,43 @@
+id: wu-wu-2024-ckmimagenet-dataset
+title: "CKMImageNet: A Comprehensive Dataset to Enable Channel Knowledge Map Construction via Computer Vision"
+authors:
+  - Di Wu
+  - Zijian Wu
+  - Yuelong Qiu
+  - Shen Fu
+  - Yong Zeng
+year: 2024
+venue: "2024 IEEE/CIC International Conference on Communications in China (ICCC Workshops)"
+subfield: CKM
+method_family: model-based
+method_detail:
+  - ray-tracing
+  - other
+task:
+  - channel-gain-prediction
+  - REM-construction
+input_modality: environment-map
+environment: outdoor
+dimensionality: 2D
+supervision: supervised
+citations: 16
+links:
+  doi: 10.1109/ICCCWorkshops62562.2024.10693754
+abstract: >
+  This paper introduces CKMImageNet, a large-scale dataset providing both location-tagged
+  numerical channel data and visual environment images to support AI-driven CKM construction.
+  Built with commercial ray-tracing software, CKMImageNet captures electromagnetic wave
+  propagation in diverse scenarios, revealing location-environment-channel relationships.
+  It enables computer vision algorithms for CKM construction and supports both supervised
+  and generative AI approaches for environment-aware 6G systems.
+tldr: >
+  CKMImageNet is a ray-tracing-based dataset pairing location-tagged channel knowledge
+  with environmental images to enable computer-vision-driven CKM construction.
+tags:
+  - CKM
+  - dataset
+  - computer-vision
+  - ray-tracing
+  - 6G
+  - environment-aware
+added_date: '2026-05-16'

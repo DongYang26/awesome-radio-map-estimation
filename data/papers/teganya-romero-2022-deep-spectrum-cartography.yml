@@ -1,0 +1,40 @@
+id: teganya-romero-2022-deep-spectrum-cartography
+title: "Data-Driven Spectrum Cartography via Deep Completion Autoencoders"
+authors:
+  - Yves Teganya
+  - Daniel Romero
+year: 2019
+venue: "IEEE International Conference on Communications"
+abstract: >
+  Proposes the first deep-learning approach to spectrum cartography, framing PSD map
+  completion as a manifold-structured missing-data problem. A deep completion autoencoder
+  learns the low-dimensional manifold of spectrum maps from training environments and
+  then reconstructs unseen maps from sparse measurements by projecting onto this learned
+  manifold. The method learns propagation phenomena such as shadowing from data, enabling
+  accurate reconstruction from far fewer measurements than model-based competitors.
+tldr: >
+  First deep neural network approach to spectrum cartography: a completion autoencoder
+  learns the manifold of radio maps to reconstruct PSD maps from very sparse measurements.
+links:
+  doi: "10.1109/icc40277.2020.9149400"
+  pdf: "http://arxiv.org/pdf/1911.12810"
+subfield: spectrum-cartography
+method_family: learning-based
+method_detail:
+  - autoencoder
+task:
+  - spectrum-cartography
+  - signal-strength-estimation
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 2D
+supervision: self-supervised
+citations: 28
+is_milestone: true
+tags:
+  - autoencoder
+  - deep-learning
+  - manifold-learning
+  - PSD-map
+  - data-driven
+added_date: '2026-05-16'

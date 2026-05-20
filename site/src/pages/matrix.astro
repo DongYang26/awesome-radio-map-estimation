@@ -1,0 +1,21 @@
+---
+import Base from '../layouts/Base.astro';
+import LandscapeMatrix from '../components/LandscapeMatrix.tsx';
+import { papers } from '../lib/data';
+---
+
+<Base
+  title="Landscape Matrix"
+  description="Interactive landscape matrix — sort, filter, and fuzzy-search every Radio Map Estimation paper across all 8 classification dimensions."
+>
+  <section aria-labelledby="matrix-heading">
+    <h1 id="matrix-heading">Landscape Matrix</h1>
+    <p>
+      Sort, filter, and fuzzy-search the full corpus across every classification
+      dimension. Click any column header to sort (click more headers to sort by
+      multiple columns); use the facet dropdowns to narrow the rows.
+    </p>
+
+    <LandscapeMatrix client:load papers={papers} />
+  </section>
+</Base>

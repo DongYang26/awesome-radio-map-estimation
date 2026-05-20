@@ -1,0 +1,40 @@
+id: "song-lu-2025-uav-partial-ckm"
+title: "Trajectory Optimization for Cellular-Connected UAV in Complex Environment With Partial CKM"
+authors:
+  - Yuxuan Song
+  - Haiquan Lu
+  - Chiya Zhang
+  - Beixiong Zheng
+  - Yong Zeng
+year: 2025
+venue: "IEEE Transactions on Communications"
+subfield: CKM
+method_family: interpolation
+method_detail:
+  - Kriging
+  - other
+task:
+  - channel-gain-prediction
+  - other
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 2D
+supervision: n/a
+abstract: >
+  This paper proposes a trajectory design strategy where UAV navigation and CKM completion are
+  incorporated into a common framework for cellular-connected UAVs in urban environments with
+  incomplete CKMs. The UAV measures radio information during flight and completes the CKM via
+  Kriging interpolation. The resulting mixed-integer multi-objective problem is reformulated as
+  shortest-path and traveling-salesman problem variants in graph theory, with two navigation
+  strategies proposed and compared, achieving near-fully-known-CKM performance.
+tldr: "Co-designs UAV navigation and incremental Kriging-based CKM completion as shortest-path and TSP variants, approaching full-CKM performance in urban settings."
+links:
+  doi: "10.1109/TCOMM.2026.3689212"
+citations: 0
+tags:
+  - UAV-trajectory
+  - partial-CKM
+  - CKM-completion
+  - Kriging
+  - traveling-salesman
+added_date: '2026-05-16'

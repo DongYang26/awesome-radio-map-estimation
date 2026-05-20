@@ -1,0 +1,260 @@
+---
+import Base from '../layouts/Base.astro';
+import { papers, datasets, taxonomy, readingPath } from '../lib/data';
+
+const base = import.meta.env.BASE_URL;
+const b = base.endsWith('/') ? base.slice(0, -1) : base;
+
+const totalPapers = papers.length;
+const milestones = papers.filter((p) => p.is_milestone).length;
+const subfieldCount = new Set(papers.map((p) => p.subfield)).size;
+const datasetCount = datasets.datasets.length;
+const yearSpan = (() => {
+  const years = papers.map((p) => p.year).filter((y) => Number.isFinite(y));
+  return years.length ? `${Math.min(...years)}–${Math.max(...years)}` : '—';
+})();
+
+// The four subfields in scope, with short descriptions.
+const scope = [
+  {
+    code: 'REM',
+    name: 'Radio Environment Maps',
+    blurb: 'Construction of dense signal-strength / coverage maps over a geographic area from measurements or simulation.',
+  },
+  {
+    code: 'spectrum-cartography',
+    name: 'Spectrum Cartography',
+    blurb: 'Estimating the spatial distribution of spectrum usage and power across frequency and location.',
+  },
+  {
+    code: 'pathloss-prediction',
+    name: 'Pathloss Prediction',
+    blurb: 'Predicting propagation pathloss between transmitter and receiver from environment geometry.',
+  },
+  {
+    code: 'CKM',
+    name: 'Channel Knowledge Maps',
+    blurb: 'Location-specific full channel characterization for environment-aware 6G communications.',
+  },
+];
+const perSubfield = (code: string) => papers.filter((p) => p.subfield === code).length;
+
+// Cards for the six other pages.
+const pages = [
+  {
+    href: `${b}/taxonomy`,
+    icon: '🌳',
+    title: 'Taxonomy Tree',
+    desc: 'Browse papers organized by method family — interpolation, model-based, and learning-based approaches — in a collapsible tree.',
+  },
+  {
+    href: `${b}/timeline`,
+    icon: '📅',
+    title: 'Evolution Timeline',
+    desc: "Follow the field's year-by-year evolution, with milestone papers highlighted on a time axis.",
+  },
+  {
+    href: `${b}/matrix`,
+    icon: '🔬',
+    title: 'Landscape Matrix',
+    desc: 'Sort, filter, and search the full corpus across every classification dimension in an interactive table.',
+  },
+  {
+    href: `${b}/datasets`,
+    icon: '📦',
+    title: 'Datasets & Benchmarks',
+    desc: 'A catalog of the datasets that power this field, with benchmark leaderboard tables.',
+  },
+  {
+    href: `${b}/trends`,
+    icon: '📈',
+    title: 'Trend Charts',
+    desc: 'Statistical charts of publication trends by year, method family, and subfield distribution.',
+  },
+  {
+    href: `${b}/reading-path`,
+    icon: '🗺️',
+    title: 'Reading Path',
+    desc: `A curated ${readingPath.steps.length}-step newcomer path through the landmark papers of the field.`,
+  },
+];
+---
+
+<Base
+  title="Home"
+  description="Awesome Radio Map Estimation — a living research hub for REM, spectrum cartography, pathloss prediction, and CKM papers."
+>
+  <section aria-labelledby="hero-heading">
+    <h1 id="hero-heading">Awesome Radio Map Estimation</h1>
+    <p class="lead">
+      A curated, living research hub for <strong>Radio Map Estimation</strong> — the family of
+      techniques that reconstruct dense radio-frequency maps over space. It collects landmark and
+      recent papers, organizes them along a shared taxonomy, and tracks how the field has evolved.
+      All data is YAML-driven and openly maintained, so every view on this site is generated from a
+      single source of truth.
+    </p>
+
+    <ul class="stats-row" role="list" aria-label="Corpus summary">
+      <li class="card stat">
+        <div class="stat__num">{totalPapers}</div>
+        <div class="stat__label">Papers</div>
+      </li>
+      <li class="card stat">
+        <div class="stat__num">{subfieldCount}</div>
+        <div class="stat__label">Subfields</div>
+      </li>
+      <li class="card stat">
+        <div class="stat__num stat__num--milestone">{milestones}</div>
+        <div class="stat__label">Milestones</div>
+      </li>
+      <li class="card stat">
+        <div class="stat__num">{datasetCount}</div>
+        <div class="stat__label">Datasets</div>
+      </li>
+      <li class="card stat">
+        <div class="stat__num">{yearSpan}</div>
+        <div class="stat__label">Year span</div>
+      </li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="scope-heading">
+    <h2 id="scope-heading">Scope — Four Subfields</h2>
+    <p>
+      This hub covers four closely-related subfields of radio map estimation. Each paper in the
+      corpus is classified into exactly one of them.
+    </p>
+    <div class="scope-grid">
+      {
+        scope.map((s) => (
+          <article class="card scope-card">
+            <h3>
+              {s.name} <span class="badge badge--primary">{s.code}</span>
+            </h3>
+            <p class="text-muted scope-card__blurb">{s.blurb}</p>
+            <p class="scope-card__count">
+              <strong>{perSubfield(s.code)}</strong> papers
+            </p>
+          </article>
+        ))
+      }
+    </div>
+  </section>
+
+  <section aria-labelledby="explore-heading">
+    <h2 id="explore-heading">Explore the Hub</h2>
+    <p>Six ways to navigate the corpus — from structured browsing to interactive analysis.</p>
+    <div class="page-grid">
+      {
+        pages.map((pg) => (
+          <a class="card page-card" href={pg.href}>
+            <h3 class="page-card__title">
+              <span aria-hidden="true">{pg.icon}</span> {pg.title}
+            </h3>
+            <p class="page-card__desc">{pg.desc}</p>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+
+  <section aria-labelledby="contribute-heading">
+    <h2 id="contribute-heading">Contribute</h2>
+    <p>
+      Found a paper we missed? Open an issue or submit a pull request adding a single
+      <code>data/papers/&lt;id&gt;.yml</code> file. See
+      <a
+        href="https://github.com/DongYang26/awesome-radio-map-estimation/blob/main/CONTRIBUTING.md"
+        rel="noopener noreferrer">CONTRIBUTING.md</a
+      >
+      for the schema and review checklist.
+    </p>
+  </section>
+</Base>
+
+<style>
+  .lead {
+    font-size: 1.15rem;
+    color: var(--color-text-muted);
+    margin-bottom: 1.5rem;
+    max-width: 70ch;
+  }
+
+  .stats-row {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    list-style: none;
+  }
+  .stat {
+    flex: 1;
+    min-width: 130px;
+    text-align: center;
+  }
+  .stat__num {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    line-height: 1.1;
+  }
+  .stat__num--milestone {
+    color: var(--color-milestone);
+  }
+  .stat__label {
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+    margin-top: 0.25rem;
+  }
+
+  .scope-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  .scope-card h3 {
+    margin-top: 0;
+    font-size: 1.1rem;
+  }
+  .scope-card__blurb {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+  .scope-card__count {
+    margin-bottom: 0;
+    font-size: 0.9rem;
+  }
+
+  .page-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  .page-card {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition:
+      border-color 0.15s,
+      transform 0.15s;
+  }
+  .page-card:hover {
+    border-color: var(--color-primary);
+    transform: translateY(-2px);
+  }
+  .page-card:focus-visible {
+    outline: 2px solid var(--color-focus);
+    outline-offset: 2px;
+  }
+  .page-card__title {
+    margin-top: 0;
+    font-size: 1.1rem;
+  }
+  .page-card__desc {
+    color: var(--color-text-muted);
+    margin-bottom: 0;
+    font-size: 0.9rem;
+  }
+</style>

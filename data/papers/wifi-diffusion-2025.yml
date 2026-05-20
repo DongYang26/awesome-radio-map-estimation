@@ -1,0 +1,41 @@
+id: wifi-diffusion-2025
+title: "WiFi-Diffusion: Achieving Fine-Grained WiFi Radio Map Estimation With Ultra-Low Sampling Rate by Diffusion Models"
+authors:
+  - Zhiyuan Liu
+  - Shuhang Zhang
+  - Qingyu Liu
+  - Hongliang Zhang
+  - Lingyang Song
+year: 2025
+venue: "IEEE Journal on Selected Areas in Communications"
+abstract: >
+  WiFi-Diffusion applies denoising diffusion probabilistic models to indoor WiFi
+  radio map estimation, targeting ultra-low sampling regimes where only a tiny
+  fraction of grid points carry measurements. A conditioning mechanism incorporates
+  floor-plan geometry and sparse RSSI observations to guide the reverse diffusion
+  process toward physically consistent maps. The approach significantly outperforms
+  CNN and GAN baselines at sampling rates as low as 1%, demonstrating practical
+  feasibility for low-overhead indoor coverage mapping.
+tldr: "Diffusion model conditioned on floor plans and sparse RSSI achieves fine-grained indoor WiFi radio map estimation at ultra-low (1%) sampling rates."
+links:
+  doi: 10.1109/JSAC.2025.3584562
+subfield: REM
+method_family: learning-based
+method_detail:
+  - Diffusion
+  - CNN
+task:
+  - REM-construction
+  - signal-strength-estimation
+  - coverage-prediction
+input_modality: both
+environment: indoor
+dimensionality: 2D
+supervision: supervised
+citations: 17
+tags:
+  - diffusion-model
+  - WiFi
+  - indoor
+  - ultra-sparse
+added_date: '2026-05-16'

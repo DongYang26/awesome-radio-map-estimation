@@ -1,0 +1,35 @@
+id: "wang-xu-2024-ckm-super-resolution"
+title: "Deep Learning-Based CKM Construction with Image Super-Resolution"
+authors:
+  - Shiyu Wang
+  - Xiaoli Xu
+  - Yong Zeng
+year: 2024
+venue: "2025 IEEE 101st Vehicular Technology Conference (VTC2025-Spring)"
+subfield: CKM
+method_family: learning-based
+method_detail:
+  - CNN
+  - other
+task:
+  - channel-gain-prediction
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 2D
+supervision: supervised
+abstract: >
+  This paper proposes an effective deep learning-based CKM construction method leveraging the
+  image super-resolution network SRResNet, requiring no additional input beyond sparsely measured
+  data. Beyond conventional path loss maps, the approach also constructs channel angle maps (CAMs)
+  using the CKMImageNet dataset. Numerical results show it outperforms nearest-neighbor, bicubic
+  interpolation, and SRGAN, achieving 1.4 dB RMSE in path loss with only 1/16 of locations measured.
+tldr: "Adapts SRResNet image super-resolution to CKM upsampling, achieving 1.4 dB path-loss RMSE from 1/16 sparse measurements without extra inputs."
+links:
+  doi: "10.1109/VTC2025-Spring65109.2025.11174933"
+citations: 10
+tags:
+  - super-resolution
+  - sparse-measurements
+  - SRResNet
+  - channel-angle-map
+added_date: '2026-05-16'

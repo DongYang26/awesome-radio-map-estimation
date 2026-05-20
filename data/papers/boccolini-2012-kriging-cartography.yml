@@ -1,0 +1,41 @@
+id: boccolini-2012-kriging-cartography
+title: "Wireless Sensor Network for Spectrum Cartography Based on Kriging Interpolation"
+authors:
+  - Gabriele Boccolini
+  - Gustavo Hernandez-Penaloza
+  - Baltasar Beferull-Lozano
+year: 2012
+venue: "IEEE International Symposium on Personal, Indoor and Mobile Radio Communications"
+abstract: >
+  Presents a wireless sensor network architecture for spectrum cartography using Kriging
+  spatial interpolation to reconstruct power spectral density maps from sparse sensor
+  measurements. The variogram model is estimated from the data and used within ordinary
+  Kriging to provide minimum-variance unbiased interpolation of the RF field. The system
+  accounts for sensor energy constraints and demonstrates accurate PSD map reconstruction
+  in realistic propagation scenarios with shadowing.
+tldr: >
+  WSN-based spectrum cartography using Kriging interpolation, providing variance-optimal
+  PSD map reconstruction with explicit uncertainty quantification at unsampled locations.
+links:
+  doi: "10.1109/PIMRC.2012.6362597"
+subfield: spectrum-cartography
+method_family: interpolation
+method_detail:
+  - Kriging
+  - Gaussian-process
+task:
+  - spectrum-cartography
+  - signal-strength-estimation
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 2D
+supervision: n/a
+citations: 89
+is_milestone: false
+tags:
+  - Kriging
+  - variogram
+  - WSN
+  - PSD-map
+  - spatial-interpolation
+added_date: '2026-05-16'

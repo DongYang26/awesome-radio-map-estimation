@@ -1,0 +1,48 @@
+id: physics-inspired-distributed-rme-2025
+title: Physics-Inspired Distributed Radio Map Estimation
+authors:
+  - Dong Yang
+  - Yue Wang
+  - Songyang Zhang
+  - Yingshu Li
+  - Zhipeng Cai
+year: 2025
+venue: IEEE ICC 2025
+abstract: >-
+  Deep-learning radio map estimation (RME) typically relies on spectrum
+  measurements centralized at a fusion center, raising data-privacy and
+  communication-overhead concerns; federated learning improves security and
+  efficiency but its performance is hindered by task heterogeneity across
+  clients located in different environments. This work proposes a
+  physics-inspired distributed RME framework for heterogeneous settings that
+  leverages the domain knowledge of radio propagation models. The RME deep
+  model is split into two modules: a global autoencoder shared among clients
+  that captures the common pathloss influence on propagation, and a
+  client-specific autoencoder that learns the individual features produced by
+  local shadowing effects from unique building distributions. Simulation
+  results show the method outperforms benchmarks under heterogeneous settings.
+tldr: >-
+  A physics-inspired distributed (federated) radio map estimation framework
+  that splits the model into a shared global autoencoder for common pathloss
+  and client-specific autoencoders for local shadowing.
+links:
+  doi: 10.1109/ICC52391.2025.11161293
+subfield: REM
+method_family: learning-based
+method_detail:
+  - autoencoder
+task:
+  - REM-construction
+  - signal-strength-estimation
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 2D
+supervision: supervised
+citations: 3
+is_milestone: false
+tags:
+  - federated-learning
+  - distributed-learning
+  - physics-inspired
+  - pathloss
+added_date: "2026-05-16"

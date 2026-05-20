@@ -1,0 +1,29 @@
+id: feng-ippnet-2025
+title: "IPP-Net: A Generalizable Deep Neural Network Model for Indoor Pathloss Radio Map Prediction"
+authors:
+  - Bin Feng
+  - Meng Zheng
+  - Wei Liang
+  - Lei Zhang
+year: 2025
+venue: "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+subfield: pathloss-prediction
+method_family: learning-based
+method_detail: [CNN]
+task: [pathloss-prediction]
+input_modality: environment-map
+environment: indoor
+dimensionality: 2D
+supervision: supervised
+abstract: >
+  Proposes IPP-Net, a generalizable deep neural network for indoor pathloss radio map
+  prediction based on UNet architecture trained on large-scale ray tracing simulation
+  data combined with a modified 3GPP indoor hotspot model. Evaluated in the First Indoor
+  Pathloss Radio Map Prediction Challenge at ICASSP 2025, IPP-Net achieves a weighted
+  RMSE of 9.501 dB across three competition tasks, obtaining second overall ranking.
+tldr: "IPP-Net UNet trained on ray-tracing plus 3GPP data achieves 2nd place in ICASSP 2025 Indoor Pathloss Challenge."
+links:
+  doi: "10.1109/ICASSP49660.2025.10890663"
+citations: 12
+tags: [indoor, challenge, UNet, ray-tracing, 3GPP, ICASSP2025]
+added_date: '2026-05-16'

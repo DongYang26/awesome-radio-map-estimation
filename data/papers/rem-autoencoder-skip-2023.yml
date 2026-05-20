@@ -1,0 +1,37 @@
+id: rem-autoencoder-skip-2023
+title: "Radio Map Estimation with Deep Dual Path Autoencoders and Skip Connection Learning"
+authors:
+  - W. Locke
+  - Nikita Lokhmachev
+  - Yan Huang
+  - Xinrong Li
+year: 2023
+venue: "IEEE International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC)"
+abstract: >
+  This paper introduces a dual-path autoencoder architecture with skip connections
+  for radio map estimation from sparse measurements. One encoder path processes
+  the sparse measurement image while a second path encodes environmental context;
+  skip connections fuse multi-scale features to reconstruct the complete radio
+  map. The design prevents the over-smoothing common in single-path autoencoders
+  and achieves improved RMSE on standard indoor and outdoor benchmarks.
+tldr: "Dual-path autoencoder with skip connections fuses sparse measurements and environment context for sharper radio map reconstruction."
+links:
+  doi: 10.1109/PIMRC56721.2023.10293748
+subfield: REM
+method_family: learning-based
+method_detail:
+  - autoencoder
+  - CNN
+task:
+  - REM-construction
+  - signal-strength-estimation
+input_modality: both
+environment: both
+dimensionality: 2D
+supervision: supervised
+citations: 18
+tags:
+  - autoencoder
+  - skip-connection
+  - dual-path
+added_date: '2026-05-16'

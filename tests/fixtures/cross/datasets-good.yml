@@ -1,0 +1,11 @@
+datasets:
+  - id: test-dataset-a
+    name: Test Dataset A
+    description: A schema-valid dataset fixture whose references all resolve.
+    link: https://example.com/dataset-a
+    papers_using:
+      - good-paper
+    benchmark:
+      - paper_id: good-paper
+        metric: RMSE
+        value: 1.23

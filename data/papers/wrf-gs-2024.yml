@@ -1,0 +1,42 @@
+id: wrf-gs-2024
+title: "Neural Representation for Wireless Radiation Field Reconstruction: A 3D Gaussian Splatting Approach"
+authors:
+  - Chaozheng Wen
+  - Jingwen Tong
+  - Yingdong Hu
+  - Zehong Lin
+  - Jun Zhang
+year: 2024  # TODO: maintainer verify (journal pub date listed as 2026 but preprint/accepted 2024)
+venue: "IEEE Transactions on Wireless Communications"
+abstract: >
+  WRF-GS reconstructs the wireless radiation field (WRF) using 3D Gaussian
+  splatting primitives and neural networks to model environment-signal interactions,
+  enabling efficient spatial spectrum synthesis for channel characterisation.
+  An enhanced variant, WRF-GS+, integrates electromagnetic physics and deformable
+  3D Gaussians to handle high-frequency multipath effects. Experiments show
+  state-of-the-art RSSI and CSI prediction, outperforming ray-tracing and other
+  deep-learning baselines by over 3 dB in CSI.
+tldr: "3D Gaussian splatting with neural networks reconstructs wireless radiation fields for accurate spatial spectrum and channel prediction in 3D environments."
+links:
+  doi: 10.1109/TWC.2025.3631663
+  code: https://github.com/wenchaozheng/WRF-GSplus
+subfield: REM
+method_family: learning-based
+method_detail:
+  - INR
+  - other
+task:
+  - REM-construction
+  - signal-strength-estimation
+  - channel-gain-prediction
+input_modality: both
+environment: outdoor
+dimensionality: 3D
+supervision: supervised
+citations: 19
+tags:
+  - 3D-gaussian-splatting
+  - radiation-field
+  - channel-modeling
+  - multipath
+added_date: '2026-05-16'

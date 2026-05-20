@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/DongYang26/awesome-radio-map-estimation/schema/datasets.schema.json",
+  "title": "RME Dataset Catalog",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["datasets"],
+  "properties": {
+    "datasets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "name", "description", "link"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+            "description": "kebab-case dataset identifier; referenced by data/papers/*.yml datasets[]"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Human-readable dataset name"
+          },
+          "description": {
+            "type": "string",
+            "description": "One- or two-sentence description of the dataset"
+          },
+          "link": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https?://",
+            "description": "Canonical URL for the dataset (homepage, repo, or paper)"
+          },
+          "papers_using": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "paper ids (data/papers/*.yml stems) that use this dataset"
+          },
+          "benchmark": {
+            "type": "array",
+            "description": "Optional leaderboard rows: a paper's reported metric value on this dataset",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["paper_id", "metric", "value"],
+              "properties": {
+                "paper_id": {
+                  "type": "string",
+                  "description": "paper id of the reporting paper"
+                },
+                "metric": {
+                  "type": "string",
+                  "description": "metric name (e.g. RMSE, NMSE, SSIM)"
+                },
+                "value": {
+                  "type": "number",
+                  "description": "reported metric value"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

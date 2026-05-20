@@ -1,0 +1,30 @@
+id: yapar-locunet-icassp2022
+title: "LocUNet: Fast Urban Positioning Using Radio Maps and Deep Learning"
+authors:
+  - Çagkan Yapar
+  - R. Levie
+  - Gitta Kutyniok
+  - G. Caire
+year: 2022
+venue: "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+subfield: pathloss-prediction
+method_family: learning-based
+method_detail: [CNN]
+task: [other]
+input_modality: environment-map
+environment: outdoor
+dimensionality: 2D
+supervision: supervised
+abstract: >
+  Presents the conference version of LocUNet, a fast convolutional neural network for
+  outdoor urban positioning that leverages estimated pathloss radio maps together with
+  received signal strength measurements from a small number of base stations. The method
+  achieves state-of-the-art localisation accuracy and real-time performance, demonstrating
+  that accurate pathloss map prediction is directly beneficial for downstream positioning
+  tasks in dense urban environments.
+tldr: "Conference paper introducing LocUNet for fast urban positioning via CNN-predicted pathloss radio maps and RSS measurements."
+links:
+  doi: "10.1109/icassp43922.2022.9747240"
+citations: 29
+tags: [localization, outdoor, UNet, RSS, real-time, urban]
+added_date: '2026-05-16'

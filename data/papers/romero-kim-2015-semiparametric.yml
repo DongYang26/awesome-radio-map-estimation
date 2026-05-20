@@ -1,0 +1,41 @@
+id: romero-kim-2015-semiparametric
+title: "Stochastic Semiparametric Regression for Spectrum Cartography"
+authors:
+  - Daniel Romero
+  - Seung-Jun Kim
+  - Georgios B. Giannakis
+year: 2015
+venue: "IEEE International Workshop on Computational Advances in Multi-Sensor Adaptive Processing (CAMSAP)"
+abstract: >
+  Develops a stochastic semiparametric regression approach for online spectrum
+  cartography that blends a parametric propagation model with a nonparametric
+  RKHS correction term. The method processes sensor measurements sequentially,
+  updating the map estimate with each new observation at low per-sample cost.
+  The semiparametric structure provides robustness against model mismatch while
+  retaining computational efficiency suitable for real-time deployment.
+tldr: >
+  Online semiparametric RKHS regression for spectrum cartography that blends
+  a parametric propagation model with a nonparametric correction for real-time maps.
+links:
+  doi: "10.1109/CAMSAP.2015.7383849"
+subfield: spectrum-cartography
+method_family: interpolation
+method_detail:
+  - Gaussian-process
+  - other   # RKHS / semiparametric regression
+task:
+  - spectrum-cartography
+  - signal-strength-estimation
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 2D
+supervision: unsupervised
+citations: 9
+is_milestone: false
+tags:
+  - semiparametric
+  - RKHS
+  - online-algorithm
+  - stochastic-gradient
+  - kernel-regression
+added_date: '2026-05-16'

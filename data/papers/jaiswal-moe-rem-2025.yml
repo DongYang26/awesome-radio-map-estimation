@@ -1,0 +1,43 @@
+id: jaiswal-moe-rem-2025
+title: 'Leveraging Transfer Learning for Radio Map Estimation via Mixture of Experts'
+authors:
+  - Rahul Kumar Jaiswal
+  - Mohamed Elnourani
+  - Siddharth Deshmukh
+  - Baltasar Beferull-Lozano
+year: 2025
+venue: IEEE Transactions on Cognitive Communications and Networking
+subfield: REM
+method_family: learning-based
+method_detail:
+  - CNN
+  - other
+task:
+  - REM-construction
+  - signal-strength-estimation
+input_modality: sparse-measurements
+environment: indoor
+dimensionality: 2D
+supervision: supervised
+abstract: >
+  This paper applies transfer learning to a mixture-of-experts (MoE) model for
+  indoor radio map estimation. The MoE combines location-based and location-free
+  experts via a learned gating network to exploit their complementary strengths.
+  A data-driven similarity measure predicts the amount of data needed for
+  transfer to a new environment. The MoE approach requires only 5–40% of
+  training data to adapt to new environments while achieving similar MSE to
+  full retraining, and outperforms individual experts and prior state-of-the-art
+  methods in both office and café environments.
+tldr: >
+  Mixture-of-experts with transfer learning for indoor REM that adapts to new
+  environments with only 5-40% of normal training data.
+links:
+  doi: '10.1109/TCCN.2025.3570469'
+citations: 6
+is_milestone: false
+tags:
+  - transfer-learning
+  - mixture-of-experts
+  - indoor
+  - few-shot
+added_date: '2026-05-16'

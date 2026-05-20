@@ -1,0 +1,41 @@
+id: tao-tan-2026-laker-attention-kernel
+title: "Accelerating Regularized Attention Kernel Regression for Spectrum Cartography"
+authors:
+  - Liping Tao
+  - Chee Wei Tan
+year: 2026
+venue: "arXiv preprint"  # TODO: maintainer verify — no confirmed venue yet
+abstract: >
+  Addresses the computational bottleneck of attention-kernel-based spectrum
+  cartography, where exponential kernels produce severe spectral imbalance and
+  large condition numbers that stall standard iterative solvers. Proposes LAKER
+  (Learning-based Attention Kernel Regression), which learns a data-dependent
+  preconditioner via shrinkage-regularized convex-concave estimation to reduce
+  condition numbers. Integrated with preconditioned conjugate gradient, LAKER
+  reduces condition numbers by up to three orders of magnitude and accelerates
+  convergence by over twenty-fold while maintaining reconstruction accuracy.
+tldr: >
+  LAKER learns a data-dependent preconditioner for attention-kernel spectrum
+  cartography, cutting condition numbers 1000x and convergence time 20x.
+links:
+  doi: "10.48550/arXiv.tao-laker-2026"  # TODO: maintainer verify — preprint arXiv id not yet available
+subfield: spectrum-cartography
+method_family: interpolation
+method_detail:
+  - other   # attention kernel regression with learned preconditioner
+task:
+  - spectrum-cartography
+  - signal-strength-estimation
+input_modality: sparse-measurements
+environment: outdoor
+dimensionality: 2D
+supervision: supervised
+citations: 0
+is_milestone: false
+tags:
+  - attention-kernel
+  - preconditioning
+  - kernel-regression
+  - convergence-acceleration
+  - "2026"
+added_date: '2026-05-16'

@@ -1,0 +1,29 @@
+id: lee-pmnet-icassp2023
+title: "PMNet: Large-Scale Channel Prediction System for ICASSP 2023 First Pathloss Radio Map Prediction Challenge"
+authors:
+  - Ju-Hyung Lee
+  - Joohan Lee
+  - Seong-Bae Lee
+  - A. Molisch
+year: 2023
+venue: "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+subfield: pathloss-prediction
+method_family: learning-based
+method_detail: [CNN]
+task: [pathloss-prediction]
+input_modality: environment-map
+environment: outdoor
+dimensionality: 3D
+supervision: supervised
+abstract: >
+  Describes the pathloss prediction system submitted to the ICASSP 2023 First Pathloss Radio Map
+  Prediction Challenge. PMNet is a neural network specifically designed for pathloss prediction
+  trained on the RadioMap3DSeer dataset. Data augmentation, fine-tuning, and architectural
+  optimization are applied. The system achieves an RMSE of 0.02569 on the provided dataset and
+  0.0383 on the challenge test set, placing 1st in the challenge.
+tldr: "Challenge-winning PMNet CNN for outdoor pathloss map prediction, ranking 1st in ICASSP 2023."
+links:
+  doi: "10.1109/ICASSP49357.2023.10095257"
+citations: 12
+tags: [challenge, outdoor, UNet-variant, RadioMap3DSeer]
+added_date: '2026-05-16'

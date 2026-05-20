@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/DongYang26/awesome-radio-map-estimation/schema/reading-path.schema.json",
+  "title": "RME Reading Path",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["steps"],
+  "properties": {
+    "steps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["order", "paper_id", "why"],
+        "properties": {
+          "order": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "1-based position of this step in the reading path"
+          },
+          "paper_id": {
+            "type": "string",
+            "description": "paper id (data/papers/*.yml stem) to read at this step"
+          },
+          "why": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Rationale: why a newcomer should read this paper at this point"
+          }
+        }
+      }
+    }
+  }
+}
