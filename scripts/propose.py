@@ -289,19 +289,38 @@ def build_stub(candidate: dict) -> tuple[str, str]:
         w(f"abstract: {_yaml_str(abstract)}")
     w(f"tldr: ''  {_TODO}")
 
-    # links
-    w("links:")
-    arxiv_url = links.get("arxiv")
-    pdf_url = links.get("pdf")
-    doi = links.get("doi")
+    # links — emit only links that are present AND valid. The schema constrains
+    # arxiv/pdf/project_page to ^https?:// URIs, so an empty or malformed value
+    # would fail validation; omit such fields (and the whole block when nothing
+    # remains) rather than writing a placeholder like `arxiv: ''`.
+    def _http(u: object) -> str | None:
+        return (
+            u.strip()
+            if isinstance(u, str) and re.match(r"^https?://", u.strip())
+            else None
+        )
+
+    arxiv_url = _http(links.get("arxiv"))
+    pdf_url = _http(links.get("pdf"))
+    proj_url = _http(links.get("project_page"))
+    doi_raw = links.get("doi")
+    doi = doi_raw.strip() if isinstance(doi_raw, str) and doi_raw.strip() else None
+
+    link_lines: list[str] = []
     if arxiv_url:
-        w(f"  arxiv: {_yaml_str(arxiv_url)}")
+        link_lines.append(f"  arxiv: {_yaml_str(arxiv_url)}")
     if pdf_url:
-        w(f"  pdf: {_yaml_str(pdf_url)}")
+        link_lines.append(f"  pdf: {_yaml_str(pdf_url)}")
+    if proj_url:
+        link_lines.append(f"  project_page: {_yaml_str(proj_url)}")
     if doi:
-        w(f"  doi: {_yaml_str(doi)}")
-    if not (arxiv_url or pdf_url or doi):
-        w("  arxiv: ''  # TODO: maintainer verify")
+        link_lines.append(f"  doi: {_yaml_str(doi)}")
+    if link_lines:
+        w("links:")
+        for link_line in link_lines:
+            w(link_line)
+    else:
+        w("# links:  # TODO: maintainer verify — no arxiv/pdf/doi link found; add one")
 
     # --- Judgement fields (all marked TODO) ---
     w(f"subfield: {_yaml_str(subfield)}{_TODO}")
