@@ -1,0 +1,26 @@
+id: a-novel-system-for-wifi-radio-map-automatic-adaptation-and-i
+title: A Novel System for WiFi Radio Map Automatic Adaptation and Indoor Positioning
+authors:
+  - Ye Tao
+  - Long Zhao
+year: 2018
+venue: IEEE Transactions on Vehicular Technology
+abstract: WiFi fingerprinting-based indoor positioning system (IPS) using received signal strength (RSS) has been considered to be one solution for indoor positioning. However, there are two major bottlenecks that hamper its large-scale implementation. One widely recognized problem is the construction of a proper fingerprint database with high efficiency and accuracy. Second is to improve the online positioning accuracy on the basis of the fingerprint database. To address these issues comprehensively, this paper proposes a novel system—Digital navigation center IPS (DncIPS), an IPS that enables automatic online radio map construction, and step-by-step positioning, aiming for the high-accuracy RSS estimation and high-precision positioning. DncIPS can capture WiFi data packets transmitted in WiFi traffic so that they obtain the MAC addresses, frequency, and RSS of any WiFi access point (AP) at any point. DncIPS uses Gaussian process regression model based on a fireworks algorithm to approximate the RSS distribution of an indoor environment and to estimate the location of APs increasing the flexibility of DncIPS work environment. This system also consists of a coarse localizer detecting the outliers and dividing clustering area and a fine localizer followed to improve the online positioning accuracy. Extensive experiments results indicate the proposed system DncIPS leads to improvement on radio map updating and localization accuracy.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/TVT.2018.2867065
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - Gaussian-process  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: indoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: unsupervised  # TODO: maintainer verify
+citations: 87
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

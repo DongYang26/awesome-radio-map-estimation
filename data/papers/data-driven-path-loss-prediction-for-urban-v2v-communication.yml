@@ -1,0 +1,26 @@
+id: data-driven-path-loss-prediction-for-urban-v2v-communication
+title: 'Data-driven path loss prediction for urban V2V communications at 5.9 GHz: a two-stage machine learning framework'
+authors:
+  - H. Fhima
+  - H. Zormati
+  - J. Chebil
+  - Jamel Belhadj Taher
+year: 2026
+venue: Engineering Research Express
+abstract: This study validates a lightweight two-stage machine-learning framework for accurate path-loss prediction in urban Vehicle-to-Vehicle links at 5.9 GHz. A density classifier first labels the environment; a regressor then predicts path-loss using distance, density posterior and GIS features. Five algorithms were tuned with Bayesian optimisation and stress-tested with leave-one-road-segment-out cross-validation on 1 300+ on-road samples. Tree-based models (Random Forest, XGBoost, Decision Tree) cluster around 1.53 dB RMSE and 0.98 R2, while linear SVR lags at 3.38 dB. The two-stage pipeline cuts RMSE by 66% versus a single-task baseline (4.67 dB → 1.58 dB) and recovers 84% of the theoretical gain obtained with oracle density labels. SHAP analysis confirms that inverse-distance and density × distance interactions drive 42% of the prediction, aligning with propagation theory. With errors below 2 dB the proposed model meets 3GPP safety-gap requirements without ray-tracing or 3-D maps.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1088/2631-8695/ae3b9f
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

@@ -1,0 +1,24 @@
+id: '2605.23609'
+title: On reciprocal characters and the quantum affine Schur-Weyl duality
+authors:
+  - Maxim Gurevich
+  - Angelina Vargulevich
+year: 2026
+abstract: We identify the dominant part of the Frenkel-Reshetikhin $q$-character with a natural invariant arising from the Langlands/Zelevinsky parameterization for affine Hecke algebras.   We introduce the reciprocal character of a module over a $GL_n$-type affine Hecke algebra, defined in terms of multiplicities within parabolic restriction. The main theorem claims that the reciprocal character matches, under quantum affine Schur--Weyl duality, with the dominant $q$-character for finite-dimensional modules over quantum affine algebras.   This result gives a type $A$ realization of the Nakajima expectation that the dominant monomials in the $q$-character should play the role of monomial-basis coordinates in Lusztig's framework for finite quantum groups.   Indeed, under the affine Hecke categorification of $U_q(\mathfrak{sl}_\infty)^+$, we prove that the reciprocal character is the specialization at $q=1$ of the coordinate map attached to a monomial basis. As a consequence, dominant $q$-character multiplicities for simple (or standard) modules are described by transition coefficients between monomial and canonical (or PBW) bases.   Our methods rely on the development of explicit tableau-counting formulas for such dominant multiplicities, or equivalently for the reciprocal characters of standard modules over affine Hecke algebras.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23609
+  pdf: https://arxiv.org/pdf/2605.23609
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

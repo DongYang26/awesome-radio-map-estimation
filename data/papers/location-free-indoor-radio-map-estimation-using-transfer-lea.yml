@@ -1,0 +1,27 @@
+id: location-free-indoor-radio-map-estimation-using-transfer-lea
+title: Location-free Indoor Radio Map Estimation using Transfer learning
+authors:
+  - R. Jaiswal
+  - Mohamed Elnourani
+  - Siddharth Deshmukh
+  - B. Beferull-Lozano
+year: 2023
+venue: IEEE Vehicular Technology Conference
+abstract: Accurate estimation of radio maps is important for various applications of wireless communications, such as network planning, and resource allocation. To learn accurate radio map models, one needs to have accurate knowledge of transmitter and receiver locations. However, it is difficult to obtain accurate locations in practice, especially, in scenarios having a high degree of wireless multi-path. Alternatively, time of arrival (ToA) features, which are easier to obtain, can be employed for estimating radio maps. To this end, this paper investigates the application of transfer learning method using ToA features for estimating radio maps under indoor wireless communications. The performance is compared with the scenarios where only the locations of receivers and both ToAs and locations of receivers, are used for estimating radio maps, assuming that locations are known. Due to the changes in propagation characteristics, a radio map model learned in a specific wireless environment cannot be directly employed in a new wireless environment. To address this issue, a data-driven transfer learning method is designed that transfers and fine-tunes a deep neural network model learned for a radio map from a source wireless environment to other distinct (target) wireless environments. Our proposed method predicts the training data required in the new wireless environments using a data-driven similarity measure. Our results demonstrate that using ToA (location-free) features results in a superior performance for estimating radio maps in terms of the necessary number of sensor measurements for estimating radio maps with a good accuracy, as compared to a location-based approach, where it may be difficult to have accurate location estimations. It leads to a saving of 70-90% of the necessary sensor measurement data for a mean square error (MSE) of 0.004.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/VTC2023-Spring57618.2023.10200979
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: indoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 7
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

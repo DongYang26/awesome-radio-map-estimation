@@ -1,0 +1,27 @@
+id: machine-learning-for-improved-path-loss-prediction-in-urban-
+title: Machine learning for improved path loss prediction in urban vehicle-to-infrastructure communication systems
+authors:
+  - Mongi Ben Ameur
+  - J. Chebil
+  - M. Habaebi
+  - Jamel Bel Hadj Tahar
+year: 2025
+venue: Frontiers Artif. Intell.
+abstract: 'Path loss prediction is crucial to facilitate reliable vehicle-to-infrastructure (V2I) communications. In this study, machine learning techniques are investigated for path loss modeling using empirical measurements at 5.9 GHz from eight Road Side Unit (RSU) sites. The performance of Extreme Gradient Boosting (XGBoost) and Multilayer Perceptron (MLP) models is contrasted with traditional empirical models such as the Dual Slope and 3rd Generation Partnership Project (3GPP) models in three varied urban environments: open, suburban, and densely urbanized cities. The findings indicate that machine learning models, in particular XGBoost, consistently outperform traditional models with the lowest Root Mean Square Error (RMSE) in complicated urban environments. For additional robustness in prediction, we propose an innovative environmental classification system based on building density, street geometry, and transmitter position. Feature importance examination reveals that distance, environmental class, and transmitter height are the most significant factors affecting path loss prediction accuracy. These observations aid the development of adaptive V2I communication systems and provide valuable guidelines for enhancing reliability in diverse urban environments.'
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.3389/frai.2025.1597981
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 8
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

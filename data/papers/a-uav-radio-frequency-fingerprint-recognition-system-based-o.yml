@@ -1,0 +1,24 @@
+id: a-uav-radio-frequency-fingerprint-recognition-system-based-o
+title: A UAV Radio Frequency Fingerprint Recognition System Based on Time-Frequency Maps
+authors:
+  - Dong Wang
+  - Tao Long
+year: 2025
+venue: 2025 5th International Conference on Intelligent Technology and Embedded Systems (ICITES)
+abstract: Unmanned Aerial Vehicle (UAV) identification plays a critical role in ensuring airspace security and preventing unauthorized drone activities. Traditional Radio Frequency (RF) fingerprint recognition methods often rely solely on time-domain or frequency-domain features, which limits their ability to capture comprehensive signal characteristics, especially under noisy or complex environments. To address this issue, this paper proposes a UAV RF fingerprint recognition system that integrates time-frequency map analysis with the YOLOv8 deep learning framework. The system converts UAV RF signals into two-dimensional time-frequency representations using Short-Time Fourier Transform (STFT), and then employs YOLOv8 for robust feature extraction and classification at the hardware level, independent of protocol information. Compared to conventional approaches, the proposed method achieves significant improvements in both recognition accuracy and inference speed. Experimental evaluations on a dataset of five UAV types demonstrate that the system maintains high recognition accuracy even under low signal-to-noise ratio (SNR) conditions, with an average accuracy of $86.6 \%$ and inference latency of less than 30 ms on embedded GPU platforms. These results highlight the effectiveness and practicality of the proposed system for real-time UAV identification.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/ICITES66466.2025.11274303
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

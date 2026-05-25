@@ -1,0 +1,23 @@
+id: '2605.23626'
+title: Integrals of general geometric random variables on the moduli space of hyperbolic surfaces
+authors:
+  - Victor Le Guilloux
+year: 2026
+abstract: In this article we provide an integration formula making us able to integrate random variables defined on the moduli space of hyperbolic surfaces which involve the lengths of closed geodesics belonging to a fixed arbitrary mapping class group orbit. This generalizes Mirzakhani's formula for simple geodesics and the integration formula of our previous paper on geodesics with exactly one self-intersection. We then compute the general expression of the length function of an arbitrary closed loop in Fenchel-Nielsen coordinates. Using this expression together with our integration formula, we prove that the integral of a geometric random variable can be expressed as an integral over R for a measure with density with respect to the Lebesgue measure. By studying the asymptotic behavior of this density function (at fixed genus and number of boundaries on the base surface), given an arbitrary closed loop $γ$, we obtain an improvement of Mirzakhani's asymptotic equivalent of the Weil-Petersson expectation E[N$γ$(a)], when a $\rightarrow$ $\infty$, of the number of geodesics in the same mapping class group orbit as $γ$ of length at most a. This also generalizes the conclusions of our previous article on eight-shaped geodesics.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23626
+  pdf: https://arxiv.org/pdf/2605.23626
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

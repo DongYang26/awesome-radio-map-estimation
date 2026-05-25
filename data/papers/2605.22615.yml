@@ -1,0 +1,33 @@
+id: '2605.22615'
+title: Decoding the Radial Velocity Signatures of Solar Faculae with 3D MHD Simulations
+authors:
+  - Florian Kröll
+  - Sowmya Krishnamurthy
+  - Alexander Shapiro
+  - Andrew Collier Cameron
+  - Veronika Witzke
+  - Sami Khan Solanki
+  - Ignasi Ribas
+  - Sergiy Shelyag
+  - Greg Kopp
+  - Nina Elisabeth Nèmec
+  - Sophie Stucki
+year: 2026
+abstract: We model the solar radial velocity (RV) signal induced by faculae, the dominant contributor to RV variability in Sun-like stars. We use a representative case of a facular patch transiting the visible solar disk as the Sun rotates to disentangle various physical effects contributing to the RV signal. Our approach is based on 3D radiative magnetohydrodynamic (MHD) simulations of the solar photosphere and upper convection zone with the MURaM code and spectral synthesis with the MPS-ATLAS code. We show that the faculae-induced RV strongly depends on the facular position on the solar disk. Near disk centre, facular magnetic fields inhibit the convective blueshift and thus produce a relative redshift of the solar spectrum. Surprisingly, when located closer to the limb, namely at heliocentric angles greater than about $60^\circ$, faculae produce a relative blueshift. This transition from redshift to blueshift is caused by the effect of magnetic fields on horizontal flows, which dominate the signal near the limb, and on the visibility of these flows. In combination with solar rotation, this centre-to-limb dependence of the facular effect leads to a complex RV profile during the facular transit and, in particular, to a phase lag between the maximum of the RV signal and the facular crossing of the central meridian. We further show that, in contrast to stellar reflex motion, the facular signal strongly depends on the spectral line in which it is measured.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.22615
+  pdf: https://arxiv.org/pdf/2605.22615
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

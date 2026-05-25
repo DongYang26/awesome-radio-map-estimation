@@ -1,0 +1,26 @@
+id: path-loss-prediction-based-on-machine-learning-techniques-su
+title: 'PATH LOSS PREDICTION BASED ON MACHINE LEARNING TECHNIQUES: SUPPORT VECTOR MACHINE, ARTIFICIAL NEURAL NETWORK, AND MULTILINEAR REGRESSION MODEL'
+authors:
+  - J. Idogho
+  - G. George
+year: 2022
+venue: 'Open Journal of Physical Science (ISSN: 2734-2123)'
+abstract: 'The rapid progress in fairness, transparency, and reliability is inextricably linked to Nigeria''s rise as one of the continent''s leading telecom markets. Path loss has been one of the key issues in providing high-quality service in the telecommunications industry. Comparing route loss prediction systems with high accuracy and minimal complexity is so critical. In this article, the simulation of data was compared using three alternative models: Artificial Neural Network (ANN), Support Vector Machine (SVM), and a conventional Multilinear Regression (MLR) model. The performance of the various models is evaluated using measured data. The simulated outcome was then assessed using various performance efficiency metrics, including the Determination Coefficient (R2) and Root Mean Square Error (RMSE), Mean Square Error (MSE) and Root Square Error (R2) (MSE). For the modelling of all inputs, the anticipated results showed that the ANN model is marginally better than the SVM model. The results also demonstrated that the ANN and SVM models could model path loss prediction better than the MLR model. As a result, it is possible to recommend using ANN to estimate path loss.'
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://www.openjournalsnigeria.org.ng/journals/index.php/ojps/article/download/393/191
+  doi: 10.52417/ojps.v3i2.393
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 12
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

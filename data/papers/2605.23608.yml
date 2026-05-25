@@ -1,0 +1,24 @@
+id: '2605.23608'
+title: Linear quadratic optimal transport and interpolation inequalities
+authors:
+  - Luca Rizzi
+  - Alec Jacopo Almo Schiavoni Piazza
+year: 2026
+abstract: This paper investigates the optimal transport problem within the framework of Linear Quadratic optimal control systems. We establish the well-posedness of the Monge problem and analyze the regularity of the resulting optimal transport map, extending the results obtained in [Hindawi, Pomet, Rifford, 2011] for non-negative costs. Furthermore, we study the displacement interpolation of measures and derive general interpolation inequalities for entropy functionals. Our analysis is motivated by the role of these systems as natural model spaces for comparison theory in sub-Riemannian geometry.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23608
+  pdf: https://arxiv.org/pdf/2605.23608
+subfield: REM  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

@@ -1,0 +1,29 @@
+id: self-supervised-learning-informed-radio-environment-map-esti
+title: Self-Supervised Learning Informed Radio Environment Map Estimation with Few Samples
+authors:
+  - Jianping Ma
+  - Zezhong Zhang
+  - Junting Chen
+  - Kai Chen
+  - Shuguang Cui
+year: 2025
+venue: Global Communications Conference
+abstract: Accurate radio environment map (REM) estimation is essential for optimizing wireless networks, yet existing neural network-based methods face a critical bottleneck, i.e., their reliance on large, high-quality training datasets, which are usually unavailable. To overcome this limitation, we introduce a novel pretraining strategy, which is inspired by self-supervised learning (SSL), tailored for REM estimation that enhances data efficiency and generalizability by learning radio wave propagation characteristics from partial urban layouts. Our SSL-informed radio environment map (SSL-Radio) employs an encoder-decoder architecture, where the encoder processes unmasked radio maps and sparse measurements, including city structures (e.g., buildings, streets, and the transmitter information), while the decoder reconstructs missing signal strengths by reasoning about spatial dependencies and environmental constraints, enforcing high-level reasoning over low-level interpolation. By translating the problem into a generative denoising problem, our method reduces dependency on extensive data while capturing complex interactions between signal propagation and the environment. Experiments demonstrate consistent improvements in estimation accuracy (2% to 8%) under small-sample regimes, validating its effectiveness in real-world deployment.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/GLOBECOM59602.2025.11431663
+subfield: REM  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: self-supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

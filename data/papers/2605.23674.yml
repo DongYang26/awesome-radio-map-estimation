@@ -1,0 +1,24 @@
+id: '2605.23674'
+title: Infrared behavior of the photon yield in nonlinear Compton scattering
+authors:
+  - Antonino Di Piazza
+  - Giulio Audagnotto
+year: 2026
+abstract: Nonlinear Compton scattering is the process of emission of a single photon by a charge driven by an intense laser field. Here, we study the infrared behavior of the photon yield emitted via nonlinear Compton scattering. We first consider the idealized case of an electron in the presence of a plane wave and derive an analytical expression of the total yield in the form of a double integral over the laser phase. As it is known, the total yield is finite in the experimentally common case of a plane-wave laser field without a DC component whereas it diverges logarithmically in the complementary case of so-called unipolar fields. The divergence is found here to correspond to the longer-and-longer formation lengths of emitted photons with lower-and-lower frequency. Interestingly, we also find that the corrections to the Volkov states stemming from the fact that the field is unipolar cancel out in the computation of the probability of nonlinear Compton scattering, which is in agreement with the fact that in the classical limit the expression of the photon yield is independent on whether the plane wave is unipolar or not. Then, we pass to the more realistic case of an electron in a tightly-focused laser beam by assuming that the electron is ultrarelativistic. In this case we determine analytically the classical angular distribution of the yield of photons with an energy larger than a fixed value $\hbarω_m$ as a double integral over the electron's trajectory. After obtaining also the corresponding quantum expression of the angular distribution of the photon yield within the quasiclassical approximation, we determine analytically the leading-order quantum correction, which scales as $\hbarω_m/\varepsilon$, where $\varepsilon$ is the initial electron energy.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23674
+  pdf: https://arxiv.org/pdf/2605.23674
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

@@ -1,0 +1,27 @@
+id: '2605.07763'
+title: Beam-Aware Radio Map Estimation With Physics-Consistent Parametric Modeling for Unknown Multiple Satellites
+authors:
+  - Xiucheng Wang
+  - Nan Cheng
+  - Zhisheng Yin
+  - Conghao Zhou
+  - Ruijin Sun
+year: 2026
+abstract: Satellite networks with dense low Earth orbit (LEO) constellations rely on aggressive spectrum reuse, making co-channel interference a dominant and rapidly varying factor that limits link availability and complicates spectrum sharing and compliance. Satellite radio map (RM) construction is therefore essential for interference cognition, yet it is challenging because the active satellite set is unknown, beam footprints and pointing are not directly observable, and received signal strength (RSS) measurements are difficult to calibrate under coupled link budget variations and noise. These latent uncertainties yield a severely underdetermined inverse problem with strong signature coherence, where existing methods often trade detection recall for precision and still fail to recover a faithful continuous RSS field. This paper proposes a beam-aware RM estimation framework that unifies active satellite identification and RSS field reconstruction through physics-consistent parametric modeling. An interpretable structural prior links geometry and beam shaping to spatial RSS formation, and an adaptive model order selection strategy infers the number of active satellites from measurements by balancing fit and complexity. Extensive experiments across varying signal to noise ratio (SNR), total satellite count, and active satellite count demonstrate consistently higher RSS spatial correlation, lower root mean squared error (RMSE), and improved F1 score, validating the proposed approach for interference-aware satellite RM construction in satellite networks.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.07763
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

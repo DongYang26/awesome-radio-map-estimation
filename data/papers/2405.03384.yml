@@ -1,0 +1,28 @@
+id: '2405.03384'
+title: 'GLIP: Electromagnetic Field Exposure Map Completion by Deep Generative Networks'
+authors:
+  - Mohammed Mallik
+  - D. Gaillot
+  - Laurent Clavier
+year: 2024
+venue: IEEE International Symposium on Personal, Indoor and Mobile Radio Communications
+abstract: In Spectrum cartography (SC), the generation of exposure maps for radio frequency electromagnetic fields (RFEMF) spans dimensions of frequency, space, and time, which relies on a sparse collection of sensor data, posing a challenging ill-posed inverse problem. Cartography methods based on models integrate designed priors, such as sparsity and low-rank structures, to refine the solution of this inverse problem. In our previous work, EMF exposure map reconstruction was achieved by Generative Adversarial Networks (GANs) where physical laws or structural constraints were employed as a prior, but they require a large amount of labeled data or simulated full maps for training to produce efficient results. In this paper, we present a method to reconstruct EMF exposure maps using only the generator network in GANs which does not require explicit training, thus overcoming the limitations of GANs, such as using reference full exposure maps. This approach uses a prior from sensor data as Local Image Prior (LIP) captured by deep convolutional generative networks independent of learning the network parameters from images in an urban environment. Experimental results show that, even when only sparse sensor data are available, our method can produce accurate estimates.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2405.03384
+  doi: 10.1109/PIMRC59610.2024.10817428
+subfield: spectrum-cartography  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - GAN  # TODO: maintainer verify
+  - CNN  # TODO: maintainer verify
+task:
+  - spectrum-cartography  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 7
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

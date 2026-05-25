@@ -1,0 +1,26 @@
+id: neural-flow-map-reconstruction
+title: Neural Flow Map Reconstruction
+authors:
+  - Saroj Sahoo
+  - Y. Lu
+  - M. Berger
+year: 2022
+venue: Computer graphics forum (Print)
+abstract: In this paper we present a reconstruction technique for the reduction of unsteady flow data based on neural representations of time‐varying vector fields. Our approach is motivated by the large amount of data typically generated in numerical simulations, and in turn the types of data that domain scientists can generate in situ that are compact, yet useful, for post hoc analysis. One type of data commonly acquired during simulation are samples of the flow map, where a single sample is the result of integrating the underlying vector field for a specified time duration. In our work, we treat a collection of flow map samples for a single dataset as a meaningful, compact, and yet incomplete, representation of unsteady flow, and our central objective is to find a representation that enables us to best recover arbitrary flow map samples. To this end, we introduce a technique for learning implicit neural representations of time‐varying vector fields that are specifically optimized to reproduce flow map samples sparsely covering the spatiotemporal domain of the data. We show that, despite aggressive data reduction, our optimization problem — learning a function‐space neural network to reproduce flow map samples under a fixed integration scheme — leads to representations that demonstrate strong generalization, both in the field itself, and using the field to approximate the flow map. Through quantitative and qualitative analysis across different datasets we show that our approach is an improvement across a variety of data reduction methods, and across a variety of measures ranging from improved vector fields, flow maps, and features derived from the flow map.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1111/cgf.14549
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - INR  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 11
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

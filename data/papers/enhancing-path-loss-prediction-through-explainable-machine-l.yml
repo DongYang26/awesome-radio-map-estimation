@@ -1,0 +1,26 @@
+id: enhancing-path-loss-prediction-through-explainable-machine-l
+title: Enhancing Path Loss Prediction Through Explainable Machine Learning Approach
+authors:
+  - Ibrahim Yazici
+  - Emrecan Özkan
+  - Emre Gures
+year: 2024
+venue: International Conference on Wireless Networks and Mobile Communications
+abstract: Wireless communication systems heavily rely on accurate path loss prediction for effective radio frequency (RF) planning. In this paper, we propose a novel approach to path loss prediction by leveraging explainable machine learning techniques. Leveraging a public data set containing crucial environmental factors such as distance, longitude, latitude, elevation, altitude, and clutter height, we employ Extreme Gradient Boosting (XGBoost). Through rigorous cross-validation, we determine the optimal parameters for the XGBoost model. Subsequently, we apply explainable machine learning techniques, including SHAP (SHapley Additive exPlanations) and LIME (Local Interpretable Model-agnostic Explanations), to unlock the black box of machine learning method and gain deeper insights into the model's predictions. Some visualizations to enrich our understanding of the relationships between input features and path loss are presented. This study offers transparency and interpretability in path loss prediction by its findings, thereby enhancing the applicability of machine learning in RF planning.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/WINCOM62286.2024.10655363
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 2
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

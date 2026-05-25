@@ -1,0 +1,24 @@
+id: '2507.19149'
+title: Machine Learning based Radio Environment Map Estimation for Indoor Visible Light Communication
+authors:
+  - Helena Serpi
+  - C. Politi
+year: 2025
+abstract: Novel radio map estimation in optical wireless communications is proposed based on ML prediction rather than simulation techniques. ML training is performed on simulation and experimentally generated synthetic data and in both cases, prediction is fast and of high accuracy. Among various models, Multi-Layer Perceptron (MLP) representation of indoor Visible Light Communication (VLC) systems outperforms the others with respect to RSS that is estimated for various indoor systems. The predicted RSS is very accurate and fast and requires a reduced set of training sample size with respect to other counterparts, making this solution very suitable for real time estimation of an indoor VLC system. It is shown that by tweaking MLP parameters, such as sample size, number of epochs and batch size, one can balance the desired level of inference accuracy with training time and optimize the model's performance to meet real-time requirements. Furthermore, experimental data from a PureLiFi system has been used in a proof-of-concept production of synthetic data radio map prediction based on MLP. Using SMOGN-generated synthetic data derived from fewer than 100 experimental measurements, our MLP model achieves strong regression performance on the experimental measurements, demonstrating successful synthetic-to-real generalization without direct training on the full experimental dataset.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2507.19149
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: indoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 2
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

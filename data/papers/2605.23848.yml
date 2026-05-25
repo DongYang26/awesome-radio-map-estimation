@@ -1,0 +1,24 @@
+id: '2605.23848'
+title: 'A new Ising/tricritical-Ising interface: From ${W}_3$ symmetry to Rydberg atoms'
+authors:
+  - António Antunes
+  - Junchen Rong
+year: 2026
+abstract: We consider interfaces between critical spin-chains in different universality classes, described in the continuum limit by defect/interface conformal field theory (DCFT/ICFT). We find a new conformal interface between the Tricritical Ising (TIM) and the Ising CFT. We also explore the possibility of its experimental realizations in the context of Rydberg atom arrays. Our analysis emphasizes non-invertible symmetries and consistency under modular transformations, and uses defect couplings and the defect spectrum -- including in the case of mixed boundary conditions -- to make sharp experimental predictions. The structure of the observables hinges on a newly discovered pattern of emergent ${W}_3$ chiral symmetry for the Tricritical-Ising/Ising interface.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23848
+  pdf: https://arxiv.org/pdf/2605.23848
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

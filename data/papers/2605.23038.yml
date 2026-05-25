@@ -1,0 +1,32 @@
+id: '2605.23038'
+title: JWST reveals anomalously enhanced methane outgassing from below Chiron's water ice and carbon dioxide bearing surface
+authors:
+  - Ian Wong
+  - Silvia Protopapa
+  - Aurélie Guilbert-Lepoutre
+  - Geronimo L. Villanueva
+  - Bryan Holler
+  - Rosario Brunetto
+  - Joshua P. Emery
+  - Noemí Pinilla-Alonso
+  - Ana Carolina de Souza Feliciano
+  - Estela Fernández-Valenzuela
+year: 2026
+abstract: Centaurs are inward-scattered Kuiper belt objects, with some exhibiting comet-like activity. The physical mechanisms powering this activity remain poorly understood, with carbon monoxide (CO) sublimation or the crystallization of amorphous water ice commonly invoked as the dominant drivers. Here we present high-resolution JWST spectroscopy of 2060 Chiron, one of the largest known Centaurs, revealing methane and carbon dioxide gas emission with distinct coma spatial morphologies and production rates of $Q_{\rm CH_4}=(1.55\pm0.04)\times10^{27}$ molecules s$^{-1}$ and $Q_{\rm CO_2}=(1.01\pm0.06)\times10^{26}$ molecules s$^{-1}$. The surface spectrum displays spectral signatures attributed to water ice, carbon dioxide, CO, and refractory organic-rich material, while lacking detectable methane ice absorption bands. These findings suggest that carbon dioxide production is sustained by direct surface sublimation, whereas methane originates from the subsurface. The absence of measurable CO emission despite the presence of solid-state CO implies that any surviving primordial CO reservoir remains thermally inaccessible at greater depth below the methane, while irradiation-produced near-surface CO may be inefficiently released from the surface matrix. This inferred volatile stratification may result from long-term thermal evolution or potentially partial differentiation. Chiron differs markedly from other active small bodies, where CO production typically dominates over methane, indicating that Centaur activity may be driven by a broader range of volatile and thermophysical processes than predicted by canonical models.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23038
+  pdf: https://arxiv.org/pdf/2605.23038
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

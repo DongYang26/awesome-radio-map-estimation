@@ -1,0 +1,23 @@
+id: '2605.23835'
+title: Pointwise Estimates Near Singular Sets for Quasilinear Elliptic Equations
+authors:
+  - Juan Pablo Alcon Apaza
+year: 2026
+abstract: In this work, we study the removability of boundary singular sets for certain classes of quasilinear elliptic equations in domains $Ω$ of an $n$-dimensional Finsler manifold ( $\mathcal{M}, F, \vartheta$ ). We work with Lipschitz functions $ρ_1$ and $ρ_2$ satisfying distance-type properties; in particular, $F(\cdot, \boldsymbol{\nabla} ρ_1) \leq 1$ and $F(\cdot, \boldsymbol{\nabla} ρ_2) \leq 1$ a.e. in $\mathcal{M}$. The singular set is defined by $Γ=ρ_1^{-1}(\{0\})$. The model problem is $-Δ_{p(x)} u+|u|^{q-1} u=0$ in domains of $\mathbb{R}^n \cong \mathbb{R}^d \times \mathbb{R}^{n-d} \cong ρ_1^{-1}(\{0\}) \times ρ_2^{-1}(\{0\})$, where $ρ_1(x)=|(x_{d+1}, \ldots, x_n)|$ and $ρ_2(x)=|(x_1, \ldots, x_d)|$.   The main tool in our analysis is the estimate $$ |u(x)| \leq \mathbf{C} ρ_1(x)^{-τ} $$ near $Γ$ for weak solutions $u \in W_{loc}^{1, p(x)}(\barΩ \backslash(Γ\cup Σ) ; \vartheta) \cap L_{loc}^{\infty}(\barΩ \backslash(Γ\cup Σ))$, where the constants $\mathbf{C}>0$ and $τ>0$ converge to positive values as $p^{+} \rightarrow 1$. This estimate is a key ingredient in proving that the singularity at $Γ$ is removable.   Moreover, in a bounded domain $Ω$, using this estimate and assuming that, for every variable exponent satisfying $1<p^{-} \leq p^{+}<\min \{2, q+1\}$, there exists a weak solution $u_p \in W_{loc}^{1, p(x)}(Ω; \vartheta) \cap L_{loc}^{\infty}(Ω)$ of $$ -\operatorname{div}\left(|\boldsymbol{\nabla} u_p|_F^{p-2} \boldsymbol{\nabla} u_p\right)+|u_p|^{q-1} u_p=0 \quad \text { in } Ω, $$ we prove that, for every $U \Subset Ω$, there exists a subsequence $\{u_{p_m}\}$, with $p_m^{+} \rightarrow 1$, that converges to a solution $u \in B V(U ; \vartheta) \cap L^{q+1}(U ; \vartheta)$ of $$ -Δ_1 u+|u|^{q-1} u=0 \quad \text { in } U . $$
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23835
+  pdf: https://arxiv.org/pdf/2605.23835
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

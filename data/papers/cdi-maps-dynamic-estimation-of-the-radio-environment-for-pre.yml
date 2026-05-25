@@ -1,0 +1,27 @@
+id: cdi-maps-dynamic-estimation-of-the-radio-environment-for-pre
+title: 'CDI Maps: Dynamic Estimation of the Radio Environment for Predictive Resource Allocation'
+authors:
+  - D. Külzer
+  - S. Stańczak
+  - Mladen Botsov
+year: 2021
+venue: IEEE International Symposium on Personal, Indoor and Mobile Radio Communications
+abstract: The number of always-online vehicles continuously increases, and these vehicles will form an immense mobile sensor network. For example, cars can upload live temperature and precipitation information to enhance weather forecasting, and also transmit live cellular network measurements to the cloud. We leverage this vast amount of data, particularly the reference signal received power, to estimate the channel distribution information (CDI) for the vehicular environment. In particular, the proposed CDI maps depict the small-scale fading statistics for spatially separated regions, in contrast to the large-scale fading averages of classical radio maps (path loss and shadow fading). Our map generation framework includes a heuristic for clustering and predicts the fast-fading density per cluster via the Dirichlet process mixture model. This Bayesian nonparametric approach allows for modeling any fast-fading distribution (e.g., Rayleigh, Rice) without prior knowledge. We justify the choice of this approach by benchmarking it against other density estimation methods. Moreover, we support our assumption of local medium-term channel stationarity by measurements and show the framework’s effectiveness for anticipatory networking.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/pimrc50174.2021.9569310
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: unsupervised  # TODO: maintainer verify
+citations: 7
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

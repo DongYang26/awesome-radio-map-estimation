@@ -1,0 +1,24 @@
+id: '2605.23779'
+title: 'SIM-Aided Near-Field Channel and Localization Estimation With Dimensionality Reduction: A Multiport Network Theory Approach'
+authors:
+  - Andrea Abrardo
+  - Bartoli Giulio
+year: 2026
+abstract: The deployment of Extremely Large-Scale Antenna Arrays for 6G enables radiative near-field sensing but poses significant challenges in terms of hardware complexity and interference. Stacked Intelligent Metasurfaces (SIMs) address these limitations by enabling wave-domain dimensionality reduction. This paper proposes a rigorous SIM-aided framework for near-field channel and localization estimation based on Multiport Network Theory, which provides an electromagnetically consistent characterization accounting for mutual coupling and non-unilateral inter-layer propagation effects. An indirect estimation approach is adopted, where the SIM is optimized to perform analog spatial filtering by projecting the received signal onto a relevant subspace identified through coarse prior location information. Within this realistic setting, we analytically characterize the impact of SIM approximation errors on channel estimation and quantify the resulting effects on localization performance. The results show that the proposed architecture preserves the essential wavefront curvature information required for accurate near-field localization, achieving performance comparable to fully digital solutions while drastically reducing the number of radio-frequency chains.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23779
+  pdf: https://arxiv.org/pdf/2605.23779
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

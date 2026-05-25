@@ -1,0 +1,25 @@
+id: '2605.23638'
+title: List Reconstruction Problem with List Size Two
+authors:
+  - Binh Vu
+  - Shuche Wang
+  - Van Khu Vu
+year: 2026
+abstract: The problem of computing the cardinality of the intersection of multiple balls in the Hamming space has attracted a lot of attention recently due to their applications in the list reconstruction problem and information retrieval in Associative Memories. In previous work, most of the results are for the cases where the radii of each ball, $r$ and the distance between the centers of these balls, $k$ are fixed when the length $n$ of each codeword tend to infinity. In this work, we focus on the case where $r = αn$ and $k=βn$ for some constants $α$ and $β$ and compute the maximum asymptotic rate of the cardinality of the intersection of three balls. We provide the maximum asymptotic rate as a function of two parameters $α$ and $β$. We also provide numerical results and compare these results with the intersection of two balls.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23638
+  pdf: https://arxiv.org/pdf/2605.23638
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

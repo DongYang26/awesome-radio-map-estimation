@@ -1,0 +1,28 @@
+id: '2605.23858'
+title: Anticipating Continued Global Fertility Decline via Neural Forecasting
+authors:
+  - Daniel Ciganda
+  - Facundo Morini
+  - Francisco Piriz
+  - Henrik-Alexander Schubert
+  - Ugofilippo Basellini
+  - Mikko Myrskylä
+year: 2026
+abstract: The accelerating shift toward low and ultra-low fertility has intensified the debate over whether countries now undergoing rapid decline are approaching stabilization or entering a more persistent low-fertility regime. Existing projection systems answer that question differently because they embed different assumptions about recovery and about the role of external drivers. To provide an empirical benchmark in this debate, we introduce NeuralTFR, an endogenous global forecasting framework based on a recurrent neural network. Drawing on a harmonized panel of historical fertility series from 196 countries and territories, the model pools cross-country information to learn demographic momentum and generate empirical prediction intervals via multi-quantile regression. Evaluated on a held-out period (2009--2023), NeuralTFR achieves lower point-forecast errors than a Naive Drift baseline and BayesTFR, the United Nations' Bayesian Hierarchical Model, while maintaining competitive uncertainty calibration. In forward projections to 2040, NeuralTFR points to broader exposure to low and very low fertility than BayesTFR, suggesting weaker support for near-term stabilization while still falling short of the most severe decline paths predicted by the Global Burden of Disease project.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23858
+  pdf: https://arxiv.org/pdf/2605.23858
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - RNN  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

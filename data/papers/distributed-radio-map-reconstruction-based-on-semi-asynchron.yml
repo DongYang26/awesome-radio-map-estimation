@@ -1,0 +1,26 @@
+id: distributed-radio-map-reconstruction-based-on-semi-asynchron
+title: Distributed Radio Map Reconstruction Based on Semi-Asynchronous Federated Learning Generative Adversarial Networks
+authors:
+  - Yuqi Hou
+  - Yang Huang
+  - Xiaomin Chen
+year: 2024
+venue: 2024 IEEE/CIC International Conference on Communications in China (ICCC Workshops)
+abstract: Radio maps (RMs) can provide valuable information about the wireless environment by describing the distribution of received signal strength (RSS) in physical space. In this paper, we propose a novel distributed RM online reconstruction scheme, where the client unmanned aerial vehicles (UAVs) collect RSS samples measured by mobile users for local model training, and a server UAV performs model aggregation to optimize the global model. Unfortunately, in practice, the measured RSS samples may be sparse, non-independent and identically distributed (non-IID), and there is heterogeneity among the client UAVs, making the reconstruction of the complete RM intractable. Therefore, we proposes a RM online reconstruction scheme based on semi-asynchronous federated learning (SAFL) and generative adversarial networks (GAN), where GAN is utilized to generate RMs from sparse and non-uniformly distributed RSS data. To address the challenges of non-IID RSS data and client heterogeneity, our scheme design a weight assignment algorithm based on the Earth Mover's Distance (EMD) and client model staleness degree. Simulation results demonstrate that, compared to conventional algorithms, the proposed algorithm significantly improves reconstruction accuracy and convergence speed thanks to these aforementioned design.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/ICCCWorkshops62562.2024.10693836
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - GAN  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

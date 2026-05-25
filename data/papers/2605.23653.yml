@@ -1,0 +1,25 @@
+id: '2605.23653'
+title: 'ExpOS: Explainable Open-Surgery Skills Assessment Using 3D Hand Reconstruction'
+authors:
+  - Roi Papo
+  - Idan Smoller
+  - Shlomi Laufer
+year: 2026
+abstract: Timely and transparent feedback is essential for effective surgical training, yet current assessment remains dependent on expert observation, limiting scalability and opportunities for autonomous practice. We present ExpOS, an explainable framework for data-driven assessment of open-surgery skills designed to enable automatic, feedback-oriented evaluation. Rather than relying on expert-defined metrics, ExpOS learns discriminative temporal patterns directly from motion data and identifies the segments and behaviors most predictive of skill level. We trained and evaluated the method on 221 videos of medical students performing three open-surgery tasks. Hand poses and tool detections were extracted from each frame to derive kinematic descriptors and global motion statistics. Spatiotemporal hand-tool dynamics were modeled using a temporal convolutional backbone with attention-based pooling to generate frame-level importance maps. These representations were fused with global motion statistics to predict skill level and to provide interpretable feedback. ExpOS provides multi-level explainability by identifying when informative events occur through attention weights and which motion characteristics most influence predictions through global feature analysis. Across tasks, the framework achieved strong correlation with expert ratings, with best performance on fascial closure (r = 0.778, R2 = 0.74). These results demonstrate that combining weakly-supervised temporal importance learning with interpretable motion statistics enables scalable and actionable surgical skill assessment.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23653
+  pdf: https://arxiv.org/pdf/2605.23653
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

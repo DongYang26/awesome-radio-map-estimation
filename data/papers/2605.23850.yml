@@ -1,0 +1,26 @@
+id: '2605.23850'
+title: Enhancing Energy Efficiency in Scientific Workflows through CFD based PIVAEs
+authors:
+  - Ali Zahir
+  - Ashiq Anjum
+  - Mark Wilkinson
+  - Jeyan Thiyagalingam
+year: 2026
+abstract: The growing complexity and scale of scientific workflows in high performance computing (HPC) environments have led to significant challenges in managing energy consumption without compromising computational performance. Traditional scheduling strategies often fail to account for the complex interplay between thermal dynamics, workload diversity, and system scalability, leading to inefficient and unsustainable energy usage. This paper introduces a novel, scalable, and AI-assisted scheduling framework for optimizing energy consumption in HPC environments without compromising performance. Central to our approach is the integration of Computational Fluid Dynamics (CFD) with a Physics-Informed Variational Autoencoder (PIVAE), enabling the generation of physically realistic synthetic workload data that bridges the gap between thermodynamic behavior and scheduler decision-making in complex, multi-scale HPC environments. By categorizing workflows based on resource utilization profiles, we evaluate multiple scheduling strategies such as Locality Aware and Speculative Aware Scheduling. These workflows, ranging from event reconstruction to anomaly detection, represent diverse computational intensities. Our results show that modest reductions in CPU performance (e.g., to 15%) can yield substantial energy savings (up to 10%) with only minor turnaround time increases (approximately 5-6%), identifying an optimal operational sweet spot. This work demonstrates how physics-informed generative modeling can enable adaptive, sustainable, and data-efficient scheduling for next-generation HPC infrastructures.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23850
+  pdf: https://arxiv.org/pdf/2605.23850
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - autoencoder  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: unsupervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

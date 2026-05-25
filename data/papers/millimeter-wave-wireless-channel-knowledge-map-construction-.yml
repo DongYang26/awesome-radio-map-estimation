@@ -1,0 +1,30 @@
+id: millimeter-wave-wireless-channel-knowledge-map-construction-
+title: Millimeter Wave Wireless Channel Knowledge Map Construction Based on Path Matching and Environment Partitioning
+authors:
+  - Zeyang Li
+  - Qidong Gao
+  - Wence Zhang
+  - Xu Bao
+  - Jing Xia
+  - Zhaowen Zheng
+year: 2023
+venue: Wireless Communications and Mobile Computing
+abstract: Key technologies in 5G and future 6G, such as millimeter wave massive multiple-input multiple-output (MIMO), relies accurate channel state information (CSI). However, when the number of base station (BS) antenna increases or the number of users is large, it is rather resource-consuming to obtain the CSI. Channel knowledge map (CKM) is an emerging environment-aware wireless communication technology, which stores the physical coordinates of BS and reference locations together with the corresponding channel path information. This makes it possible to obtain CSI with light or even without pilots, which can significantly reduce the overhead of channel estimation and improve system performance, especially suitable for quasi-static wireless environments with relatively stable channels and communication systems using millimeter waves, terahertz waves, visible light, and so on. The main challenge for CKM is how to construct an accurate CKM based on finite measurement data points at limited reference locations. In this work, we proposed a novel CKM construction method based on path matching and environmental partitioning (PMEP-CC) to address the above issues. Specifically, we first sort the propagation paths between reference locations, map them to a high-dimensional space to establish the path correlation coefficient between two reference locations. Then, the communication region are divided into different subregions based on its spatial correlation. Finally, the path information at locations where no measurements are available are estimated based on the known path information within the subregion to construct CKM. Numerical results are provided to show the performance of the proposed method over related studies.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://downloads.hindawi.com/journals/wcmc/2023/6671048.pdf
+  doi: 10.1155/2023/6671048
+subfield: CKM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 3
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

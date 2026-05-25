@@ -1,0 +1,32 @@
+id: '2402.01969'
+title: Simulation-Enhanced Data Augmentation for Machine Learning Pathloss Prediction
+authors:
+  - Ahmed P. Mohamed
+  - Byunghyun Lee
+  - Yaguang Zhang
+  - Max Hollingsworth
+  - C. R. Anderson
+  - J. Krogmeier
+  - D. J. Love
+year: 2024
+venue: ICC 2024 - IEEE International Conference on Communications
+abstract: Machine learning (ML) offers a promising solution to pathloss prediction. However, its effectiveness can be degraded by the limited availability of data. To alleviate these challenges, this paper introduces a novel simulation-enhanced data augmentation method for machine learning (ML) pathloss prediction. Our method integrates synthetic data generated from a cellular coverage simulator and independently collected real-world datasets. These datasets were collected through an extensive measurement campaign in different environments, including farms, hilly ter-rains, and residential areas. This comprehensive data collection provides vital ground truth for model training. A set of channel features was engineered, including geographical attributes derived from LiDAR datasets. These features were then used to train our prediction model, incorporating the highly efficient and robust gradient boosting ML algorithm, CatBoost. The integration of synthetic data, as demonstrated in our study, significantly improves the generalizability of the model in different environments, achieving a remarkable improvement of approximately 12 dB in terms of mean absolute error for the best-case scenario. Moreover, our analysis reveals that even a small fraction of measurements added to the simulation training set, with proper data balance, can significantly enhance the model's performance.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2402.01969
+  pdf: https://arxiv.org/pdf/2402.01969
+  doi: 10.1109/ICC51166.2024.10622237
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 4
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

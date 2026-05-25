@@ -1,0 +1,24 @@
+id: '2605.23712'
+title: 'Operator Learning for Reconstructing Flow Fields from Sparse Measurements: a Language Model Approach'
+authors:
+  - Qian Zhang
+  - George Em Karniadakis
+year: 2026
+abstract: 'Reconstructing flow fields from sparse measurements is a fundamental problem in fluid mechanics with broad implications for modeling, control, and design. In this work, we propose a novel operator learning framework that leverages the architecture of language models to perform flow reconstruction in a mesh-free manner. We reformulate flow field reconstruction as a sequence-to-sequence learning task, where sparse measurements are treated as context and unobserved locations as queries. Our model learns to reconstruct the full flow field from sparse inputs, effectively capturing spatial correlations and long-range dependencies. We evaluate the proposed approach on four benchmark datasets: (1) two-dimensional vortex street simulations, (2) daily average temperature data across the contiguous United States, (3) three-dimensional blood flow simulations based on dissipative particle dynamics, and (4) three-dimensional turbulent jet flow measurements obtained via particle tracking velocimetry. Across all cases, our method demonstrates competitive reconstruction accuracy, even with highly incomplete data (less than 10\% observed), and achieves efficient performance. The results highlight the potential of language models as robust and scalable tools for scientific data reconstruction, and suggest a promising direction toward the development of foundation models for scientific and engineering applications.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23712
+  pdf: https://arxiv.org/pdf/2605.23712
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

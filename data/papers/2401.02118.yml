@@ -1,0 +1,32 @@
+id: '2401.02118'
+title: Radio Map-Based Spectrum Sharing for Joint Communication and Sensing
+authors:
+  - Xinran Fang
+  - W. Feng
+  - Yunfei Chen
+  - Dingxi Yang
+  - Ning Ge
+  - Zhiyong Feng
+  - Yue Gao
+year: 2024
+venue: IEEE Open Journal of the Communications Society
+abstract: The sixth-generation (6G) network is expected to provide both communication and sensing (C&S) services. However, spectrum scarcity poses a major challenge to the harmonious coexistence of C&S systems. Without effective cooperation, the interference resulting from spectrum sharing impairs the performance of both systems. This paper addresses C&S interference within a distributed network. Different from traditional schemes that require pilot-based high-frequency interactions between C&S systems, we introduce a third party named the radio map to provide the large-scale channel state information (CSI). With large-scale CSI, we optimize the transmit power of C&S systems to maximize the signal-to-interference-plus-noise ratio (SINR) for the radar detection, while meeting the ergodic rate requirement of the interfered user. Given the non-convexity of both the objective and constraint, we employ the techniques of auxiliary-function-based scaling and fractional programming for simplification. Subsequently, we propose an iterative algorithm to solve this problem. Simulation results corroborate our idea that the extrinsic information, i.e., positions and surroundings, is effective to decouple C&S interference.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2401.02118
+  pdf: https://doi.org/10.1109/ojcoms.2024.3421234
+  doi: 10.1109/OJCOMS.2024.3421234
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 11
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

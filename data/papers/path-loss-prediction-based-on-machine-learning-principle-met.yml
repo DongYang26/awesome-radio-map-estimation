@@ -1,0 +1,29 @@
+id: path-loss-prediction-based-on-machine-learning-principle-met
+title: 'Path Loss Prediction Based on Machine Learning: Principle, Method, and Data Expansion'
+authors:
+  - Yan Zhang
+  - Jinxiao Wen
+  - Guanshu Yang
+  - Zunwen He
+  - Jing Wang
+year: 2019
+venue: Applied Sciences
+abstract: Path loss prediction is of great significance for the performance optimization of wireless networks. With the development and deployment of the fifth-generation (5G) mobile communication systems, new path loss prediction methods with high accuracy and low complexity should be proposed. In this paper, the principle and procedure of machine-learning-based path loss prediction are presented. Measured data are used to evaluate the performance of different models such as artificial neural network, support vector regression, and random forest. It is shown that these machine-learning-based models outperform the log-distance model. In view of the fact that the volume of measured data sometimes cannot meet the requirements of machine learning algorithms, we propose two mechanisms to expand the training dataset. On one hand, old measured data can be reused in new scenarios or at different frequencies. On the other hand, the classical model can also be utilized to generate a number of training samples based on the prior information obtained from measured results. Measured data are employed to verify the feasibility of these data expansion mechanisms. Finally, some issues for future research are discussed.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://www.mdpi.com/2076-3417/9/9/1908/pdf?version=1557393866
+  doi: 10.3390/APP9091908
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 175
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

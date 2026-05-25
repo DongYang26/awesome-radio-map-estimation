@@ -1,0 +1,30 @@
+id: space-frequency-interpolated-radio-map
+title: Space-Frequency-Interpolated Radio Map
+authors:
+  - Koya Sato
+  - Katsuya Suto
+  - Kei Inage
+  - K. Adachi
+  - T. Fujii
+year: 2021
+venue: IEEE Transactions on Vehicular Technology
+abstract: This paper presents a novel method for radio map construction that simultaneously interpolates the received signal power values over space and frequency domains. Radio maps can be used to improve spectrum management and for localization systems, which are related to wireless systems in general such as cellular systems, Internet of Things (IoT) networks, and vehicular communications. Researchers have shown that crowdsourcing using spatial interpolation techniques can be used to accurately construct a radio map to improve these applications; however, because of the limitation in the spatial domain, conventional methods can build a radio map for only those frequencies at which sensing can be performed. Our proposed method focuses on the fact that the shadowing values show strong correlation over a wide range of frequency domains. The main idea is to treat the shadowing values obtained over various frequencies as the ones over target frequency. Using the actual datasets obtained over 870, 2115, and 3500 MHz in a cellular system, we show that the proposed method can accurately generate a radio map, even if no (or few) datasets are available in the target frequency.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://ieeexplore.ieee.org/ielx7/25/9353678/09316892.pdf
+  doi: 10.1109/TVT.2021.3049894
+subfield: REM  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 67
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

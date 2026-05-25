@@ -1,0 +1,31 @@
+id: '2501.16023'
+title: 'TransPathNet: A Novel Two-Stage Framework for Indoor Radio Map Prediction'
+authors:
+  - Xin Li
+  - Ran Liu
+  - Saihua Xu
+  - S. G. Razul
+  - Chau Yuen
+year: 2025
+venue: IEEE International Conference on Acoustics, Speech, and Signal Processing
+abstract: Accurate indoor pathloss prediction is crucial for optimizing wireless communication in indoor settings, where diverse materials and complex electromagnetic interactions pose significant modeling challenges. This paper introduces TransPathNet, a novel two-stage deep learning framework that leverages transformer-based feature extraction and multiscale convolutional attention decoding to generate high-precision indoor radio pathloss maps. TransPathNet demonstrates state-of-the-art performance in the ICASSP 2025 Indoor Pathloss Radio Map Prediction Challenge, achieving an overall Root Mean Squared Error (RMSE) of 10.397 dB on the challenge full test set and 9.73 dB on the challenge Kaggle test set, showing excellent generalization capabilities across different indoor geometries, frequencies, and antenna patterns. Our project page, including the associated code, is available at https://lixin.ai/TransPathNet/.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2501.16023
+  doi: 10.1109/ICASSP49660.2025.10887939
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - Transformer  # TODO: maintainer verify
+  - CNN  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: indoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 6
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

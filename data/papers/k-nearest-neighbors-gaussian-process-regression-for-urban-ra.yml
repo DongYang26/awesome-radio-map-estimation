@@ -1,0 +1,26 @@
+id: k-nearest-neighbors-gaussian-process-regression-for-urban-ra
+title: K-Nearest Neighbors Gaussian Process Regression for Urban Radio Map Reconstruction
+authors:
+  - Yifang Zhang
+  - Shaowei Wang
+year: 2022
+venue: IEEE Communications Letters
+abstract: Radio map is of great importance to interference control, network planning and resource allocation in wireless communications. In this letter, we develop an accurate radio map reconstruction method based on k-nearest neighbors Gaussian process regression, which can exploit the relationship of the received signal strengths at adjacent locations efficiently. Numerical experiments demonstrate that our proposed method outperforms the state-of-the-art ones significantly.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/LCOMM.2022.3207210
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - Gaussian-process  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 41
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

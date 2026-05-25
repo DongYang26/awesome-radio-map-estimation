@@ -1,0 +1,27 @@
+id: '2502.01280'
+title: Trajectory Map-Matching in Urban Road Networks Based on RSS Measurements
+authors:
+  - Zheng Xing
+  - Weibing Zhao
+year: 2025
+venue: IEEE transactions on intelligent transportation systems (Print)
+abstract: The widespread deployment of wireless communication networks has catalyzed significant advancements in utilizing signal channs to address real-world challenges, such as vehicle trajectory reconstruction (VTR), drone trajectory planning, and network optimization. Existing methods primarily utilize time-difference-of-arrival (TDoA) measurements for vehicle localization. However, these methods require specialized decoding receivers capable of deciphering communication protocols, leading to increased application costs. received signal strength (RSS), a measure of wireless signal strength, can be recorded by any standard communication device, thus allowing RSS-based VTR to benefit from cost-effectiveness. Nevertheless, the inherently noisy and sporadic nature of RSS poses significant challenges for accurately reconstructing vehicle trajectories. This paper aims to utilize RSS measurements to reconstruct vehicle trajectories within a road network. We constrain the trajectories to comply with signal propagation rules and vehicle mobility constraints, thereby mitigating the impact of the noisy and sporadic nature of RSS data on the accuracy of trajectory reconstruction. The primary challenge involves exploiting latent spatial-temporal correlations within the noisy and sporadic RSS data while navigating the complex road network. To overcome these challenges, we develop an hidden Markov model (HMM)-based RSS embedding (HRE) technique that utilizes alternating optimization to search for the vehicle trajectory based on RSS measurements. This model effectively captures the spatial-temporal relationships among RSS measurements, while a road graph model ensures compliance with network pathways. Additionally, we introduce a maximum speed-constrained rough trajectory estimation (MSR) method to effectively guide the proposed alternating optimization procedure, ensuring that the proposed HRE method rapidly converges to a favorable local solution. The proposed method is validated using real RSS measurements from 5G NR networks in Chengdu and Shenzhen, China. The experimental results demonstrate that the proposed approach significantly outperforms state-of-the-art methods, even with limited RSS data.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2502.01280
+  pdf: http://arxiv.org/pdf/2502.01280
+  doi: 10.1109/TITS.2025.3544399
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 3
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

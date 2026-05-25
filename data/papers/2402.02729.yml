@@ -1,0 +1,30 @@
+id: '2402.02729'
+title: Fast and Accurate Cooperative Radio Map Estimation Enabled by GAN
+authors:
+  - Zezhong Zhang
+  - Guangxu Zhu
+  - Junting Chen
+  - Shuguang Cui
+year: 2024
+venue: 2024 IEEE International Conference on Communications Workshops (ICC Workshops)
+abstract: In the 6G era, real-time radio resource monitoring and management are urged to support diverse wireless-empowered applications. This calls for fast and accurate estimation on the distribution of the radio resources, which is usually represented by the spatial signal power strength over the geographical environment, known as a radio map. In this paper, we present a cooperative radio map estimation (CRME) approach enabled by the generative adversarial network (GAN), called as GAN-CRME, which features fast and accurate radio map estimation without the transmitters' information. The radio map is inferred by exploiting the interaction between distributed received signal strength (RSS) measurements at mobile users and the geographical map using a deep neural network estimator, resulting in low data-acquisition cost and computational complexity. Moreover, a GAN-based learning algorithm is proposed to boost the inference capability of the deep neural network estimator by exploiting the power of generative AI. Simulation results showcase that the proposed GAN-CRME is even capable of coarse error-correction when the geographical map information is inaccurate.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2402.02729
+  pdf: https://arxiv.org/pdf/2402.02729
+  doi: 10.1109/ICCWorkshops59551.2024.10615679
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - GAN  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 18
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

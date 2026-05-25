@@ -1,0 +1,31 @@
+id: '2505.16132'
+title: Beamforming-Codebook-Aware Channel Knowledge Map Construction for Multi-Antenna Systems
+authors:
+  - Haohan Wang
+  - Xu Shi
+  - Hengyu Zhang
+  - Yashuai Cao
+  - Jintao Wang
+year: 2025
+venue: Global Communications Conference
+abstract: Channel knowledge map (CKM) has emerged as a crucial technology for next-generation communication, enabling the construction of high-fidelity mappings between spatial environments and channel parameters via electromagnetic information analysis. Traditional CKM construction methods like ray tracing are computationally intensive. Recent studies utilizing neural networks (NNs) have achieved efficient CKM generation with reduced computational complexity and real-time processing capabilities. Nevertheless, existing research predominantly focuses on single-antenna systems, failing to address the beamforming requirements inherent to MIMO configurations. Given that appropriate precoding vector selection in MIMO systems can substantially enhance user communication rates, this paper presents a TransUNet-based framework for constructing CKM, which effectively incorporates discrete Fourier transform (DFT) precoding vectors. The proposed architecture combines a UNet backbone for multiscale feature extraction with a Transformer module to capture global dependencies among encoded linear vectors. Experimental results demonstrate that the proposed method outperforms state-of-the-art (SOTA) deep learning (DL) approaches, yielding a 17% improvement in RMSE compared to RadioWNet. The code is publicly accessible at https://github.com/github-whh/TransUNet.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2505.16132
+  doi: 10.1109/GLOBECOM59602.2025.11432134
+subfield: CKM  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - Transformer  # TODO: maintainer verify
+  - CNN  # TODO: maintainer verify
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 3
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

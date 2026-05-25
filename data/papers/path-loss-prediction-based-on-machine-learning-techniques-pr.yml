@@ -1,0 +1,29 @@
+id: path-loss-prediction-based-on-machine-learning-techniques-pr
+title: 'Path Loss Prediction Based on Machine Learning Techniques: Principal Component Analysis, Artificial Neural Network, and Gaussian Process'
+authors:
+  - Han-Shin Jo
+  - Chanshin Park
+  - Eunhyoung Lee
+  - Haing Kun Choi
+  - Jaedon Park
+year: 2020
+venue: Italian National Conference on Sensors
+abstract: 'Although various linear log-distance path loss models have been developed for wireless sensor networks, advanced models are required to more accurately and flexibly represent the path loss for complex environments. This paper proposes a machine learning framework for modeling path loss using a combination of three key techniques: artificial neural network (ANN)-based multi-dimensional regression, Gaussian process-based variance analysis, and principle component analysis (PCA)-aided feature selection. In general, the measured path loss dataset comprises multiple features such as distance, antenna height, etc. First, PCA is adopted to reduce the number of features of the dataset and simplify the learning model accordingly. ANN then learns the path loss structure from the dataset with reduced dimension, and Gaussian process learns the shadowing effect. Path loss data measured in a suburban area in Korea are employed. We observe that the proposed combined path loss and shadowing model is more accurate and flexible compared to the conventional linear path loss plus log-normal shadowing model.'
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://www.mdpi.com/1424-8220/20/7/1927/pdf?version=1586396974
+  doi: 10.3390/s20071927
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - Gaussian-process  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 138
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

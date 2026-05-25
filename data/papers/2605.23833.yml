@@ -1,0 +1,30 @@
+id: '2605.23833'
+title: 'DORA: Dataflow-Instruction Orchestration Architecture for DNN Acceleration'
+authors:
+  - Xingzhen Chen
+  - Zhuoping Yang
+  - Jinming Zhuang
+  - Shixin Ji
+  - Sarah Schultz
+  - Zheng Dong
+  - Weisong Shi
+  - Peipei Zhou
+year: 2026
+abstract: As deep neural networks develop significantly more diverse and complex, achieving high performance and efficiency on complicated DNN models faces pressing challenges. Modern DNN workloads are increasingly diverse in operation types, tensor shapes, and execution dependencies, making it difficult to sustain high hardware efficiency across models. In addition, a generic accelerator often incurs substantial overhead when executing diverse workloads.   To address these problems, we propose DORA, an instruction-based overlay architecture that explicitly describes dataflow via a proposed ISA, enabling fine-grained control of data movement, computation, and synchronization at the layer level. To support flexibility while achieving high performance, DORA adopts a novel on-chip memory management and computation parallelism management mechanism. DORA proposes a compilation framework that can generate instructions for given DNN workloads after a two-stage design space exploration. DORA framework also incorporates a MILP-based and a heuristic-based search engine to generate the schedule solution for different needs and constraints.   We prototype DORA on the AMD Versal VCK190 platform, demonstrating its deployability on existing reconfigurable systems. Experimental results show that DORA maintains stable efficiency, with less than 5\% variation on a single vector processor across workloads exhibiting up to 6$\times$ variation in operation counts. Compared to state-of-the-art accelerators, DORA consistently achieves higher performance, delivering up to 5$\times$ throughput improvement. The heuristic-based scheduler further achieves up to 90\% optimality under practical time constraints. DORA is open-sourced at https://github.com/arc-research-lab/DORA.git.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23833
+  pdf: https://arxiv.org/pdf/2605.23833
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

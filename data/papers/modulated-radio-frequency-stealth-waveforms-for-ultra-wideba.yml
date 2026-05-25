@@ -1,0 +1,29 @@
+id: modulated-radio-frequency-stealth-waveforms-for-ultra-wideba
+title: Modulated Radio Frequency Stealth Waveforms for Ultra-Wideband Radio Fuzes
+authors:
+  - Kaiwei Wu
+  - Bing Yang
+  - Shijun Hao
+  - Yanbin Liang
+  - Zhonghua Huang
+year: 2024
+venue: Entropy
+abstract: The increasingly complex electromagnetic environment of modern warfare and the proliferation of intelligent jamming threaten to reduce the survival rate of radio fuzes on the battlefield. Radio frequency (RF) stealth technology can fundamentally improve the anti-interception and reconnaissance capabilities of radio fuzes, thereby lessening the probability of them being intercepted, recognized, and jammed by the enemy. In this paper, an RF stealth waveform based on chaotic pulse-position modulation is proposed for ultra-wideband (UWB) radio fuzes. Adding a perturbation signal based on the Tent map ensures that the chaotic sequences have sufficiently long periods despite hardware byte limitations. Measuring the approximate entropy and sequence period shows that the Tent map with the addition of perturbation signals can maintain good randomness under byte constraints, closely approximating the Tent map with ideal precision. Simulations verify that the proposed chaotic mapping used to modulate the pulse position of an ultra-wideband radio fuze signal results in superior detection, anti-interception, and anti-jamming performance.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://www.mdpi.com/1099-4300/26/7/605/pdf?version=1721208869
+  doi: 10.3390/e26070605
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 7
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

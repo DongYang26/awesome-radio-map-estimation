@@ -1,0 +1,26 @@
+id: '2604.00676'
+title: 'DF-3DRME: A Data-Friendly Learning Framework for 3D Radio Map Estimation based on Super-Resolution Technique'
+authors:
+  - Lin Zhu
+  - Weifeng Zhu
+  - Shuowen Zhang
+  - Giuseppe Caire
+  - Liang Liu
+year: 2026
+abstract: High-Resolution three-dimensional (3D) radio maps (RMs) provide rich information about the radio landscape that is essential to a myriad of wireless applications in the future wireless networks. Although deep learning (DL) methods have shown their effectiveness in RM construction, existing approaches require massive high-resolution 3D RM samples in the training dataset, the acquisition of which is labor-intensive and time-consuming in practice. In this paper, our goal is to devise a data-friendly high-resolution 3D RM construction solution via training over a hybrid dataset, wherein the RMs associated with a small fraction of environment maps (EMs) are of high-resolution, while those corresponding to the majority of EMs are of low-resolution. To this end, we propose a Data-Friendly 3D Radio Map Estimator (DF-3DRME), which comprises two processing stages. Specifically, in the first stage, we leverage the abundant low-resolution 3D RM samples to train a neural network, termed the LR-Net, for predicting the low-resolution 3D RM from the input EM, which provides a coarse characterization of the spatial radio propagation. In the second stage, we employ an advanced super-resolution network, termed the SR-Net, to upscale the predicted low-resolution 3D RM to its high-resolution counterpart. Unlike the LR-Net, the SR-Net can be effectively trained with only the limited high-resolution 3D RM samples available in the hybrid dataset. Experimental results demonstrate that the proposed framework achieves compelling reconstruction performance with only 4% of the EMs in the dataset having high-resolution 3D RM labels, which significantly reduces data acquisition overhead and facilitates practical deployment.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2604.00676
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

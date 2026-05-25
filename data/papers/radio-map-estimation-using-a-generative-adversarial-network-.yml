@@ -1,0 +1,31 @@
+id: radio-map-estimation-using-a-generative-adversarial-network-
+title: Radio Map Estimation Using a Generative Adversarial Network and Related Business Aspects
+authors:
+  - S. Vankayala
+  - Swaraj Kumar
+  - Ishaan Roy
+  - D. Thirumulanathan
+  - Seungil Yoon
+  - Ignatius Samuel Kanakaraj
+year: 2021
+venue: International Symposium on Wireless Personal Multimedia Communications
+abstract: 'Radio maps are widely used in the network resource management of 5G communication systems. However, a frequent radio map update is expensive and inefficient in practice because of the need to collect measurements from many devices. In this paper, we propose a highly accurate deep learning technique to predict the propagation path loss from any point on a planar domain with respect to the transmitter. Our proposal adopts a generative adversarial network to yield precise path loss estimations which are very close to ray tracing simulations but are computationally more efficient.The use of our proposal offers a three-fold benefits to a firm in terms of commercialization: Dynamic estimation of radio map corresponding to the changes in the environment, zero-touch automation of radio map generation, and more importantly, the development of end-to-end AI based network planning solution.'
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/wpmc52694.2021.9700474
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - GAN  # TODO: maintainer verify
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 23
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

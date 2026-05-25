@@ -1,0 +1,29 @@
+id: '2511.14495'
+title: Adversarial Learning-Based Radio Map Reconstruction for Fingerprinting Localization
+authors:
+  - Jiaming Zhang
+  - Jiajun He
+  - Tianyu Lu
+  - Jie Zhang
+  - O. Yurduseven
+year: 2025
+venue: IEEE Antennas and Wireless Propagation Letters
+abstract: This letter presents a feature-guided adversarial framework, namely ComGAN, which is designed to reconstruct an incomplete fingerprint database by inferring missing received signal strength (RSS) values at unmeasured reference points (RPs). An auxiliary subnetwork is integrated into a conditional generative adversarial network (cGAN) to enable spatial feature learning. An optimization method is then developed to refine the RSS predictions by aggregating multiple prediction sets, achieving an improved localization performance. Experimental results demonstrate that the proposed scheme achieves a root mean squared error (RMSE) comparable to the ground-truth measurements while outperforming state-of-the-art reconstruction methods. When the reconstructed fingerprint is combined with measured data for training, the fingerprinting localization achieves accuracy comparable to models trained on fully measured datasets.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2511.14495
+  doi: 10.1109/lawp.2026.3679273
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - GAN  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

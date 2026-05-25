@@ -1,0 +1,26 @@
+id: '2604.05520'
+title: Learned Elevation Models as a Lightweight Alternative to LiDAR for Radio Environment Map Estimation
+authors:
+  - Ljupcho Milosheski
+  - Fedja Movcnik
+  - Mihael Mohorvcivc
+  - Carolina Fortuna
+year: 2026
+abstract: 'Next-generation wireless systems such as 6G operate at higher frequency bands, making signal propagation highly sensitive to environmental factors such as buildings and vege- tation. Accurate Radio Environment Map (REM) estimation is therefore increasingly important for effective network planning and operation. Existing methods, from ray-tracing simulators to deep learning generative models, achieve promising results but require detailed 3D environment data such as LiDAR-derived point clouds, which are costly to acquire, several gigabytes per km2 in size, and quickly outdated in dynamic environments. We propose a two-stage framework that eliminates the need for 3D data at inference time: in the first stage, a learned estimator predicts elevation maps directly from satellite RGB imagery, which are then fed alongside antenna parameters into the REM estimator in the second stage. Across existing CNN- based REM estimation architectures, the proposed approach improves RMSE by up to 7.8% over image-only baselines, while operating on the same input feature space and requiring no 3D data during inference, offering a practical alternative for scalable radio environment modelling.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2604.05520
+subfield: REM  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

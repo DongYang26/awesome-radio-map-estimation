@@ -1,0 +1,25 @@
+id: '2605.23379'
+title: Spectral Monotonicity under Leaf Attachment and Limiting Behavior in Discrete Einstein Trees
+authors:
+  - Shuliang Bai
+  - Haoxuan Cheng
+  - Bobo Hua
+year: 2026
+abstract: 'Let $R_T$ be the Ricci matrix of a finite tree $T$ introduced in \cite{BaiChengHua2026}, the largest eigenvalue $λ_{\max}(R_T)$ determines the sign of a discrete Einstein metric curvature on the tree. This paper investigates the asymptotic behavior of the sequence $λ_k = λ_{\max}(R_{T_k})$ obtained by repeatedly adding pendant edges at a fixed vertex. We prove that $λ_k$ converges to a limit $λ_\infty$ that depends only on the local branch data of $T$, and establish a first-order asymptotic expansion: \[ λ_k = λ_\infty + \fracα{d+k} + O\!\left(\frac{1}{(d+k)^2}\right), \] where $d$ is the degree of the original vertex, and the coefficient $α$ is given by a spectral projection. As a corollary, when $α\neq 0$, $λ_k$ is eventually strictly monotonic (increasing or decreasing). This theory reveals the fine influence of local leaf addition on the global spectrum.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23379
+  pdf: https://arxiv.org/pdf/2605.23379
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

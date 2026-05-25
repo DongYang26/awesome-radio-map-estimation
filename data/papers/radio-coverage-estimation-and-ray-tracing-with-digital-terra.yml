@@ -1,0 +1,26 @@
+id: radio-coverage-estimation-and-ray-tracing-with-digital-terra
+title: Radio Coverage Estimation and Ray Tracing with Digital Terrain Models in the Matlab Environment
+authors:
+  - G. Fokin
+  - V. Starikov
+  - Vladimir Sevidov
+year: 2025
+venue: 2025 Wave Electronics and its Application in Information and Telecommunication Systems (WECONF)
+abstract: The article discusses the tools of the Matlab environment for planning radio coverage and ray tracing in fifth-generation mobile networks. In the process of modeling, calculations were made with omnidirectional and directional antennas of base stations. Taking into account weather factors, as well as the use of a three-dimensional digital map of the terrain, we can describe the complex conditions of signal propagation in an urban environment. Thanks to the built-in visualization tools, the process of express analysis of the qualitative parameters of the network is significantly simplified. Simulation results revealed, that Matlab ray tracing is an effective tool for modeling radio wave propagation in 5G networks and allows a detailed analysis of the impact of environmental features on communication quality, which is critical in dense urban areas.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/WECONF65186.2025.11017262
+subfield: REM  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

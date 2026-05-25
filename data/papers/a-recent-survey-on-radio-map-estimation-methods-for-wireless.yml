@@ -1,0 +1,28 @@
+id: a-recent-survey-on-radio-map-estimation-methods-for-wireless
+title: A Recent Survey on Radio Map Estimation Methods for Wireless Networks
+authors:
+  - Bin Feng
+  - Meng Zheng
+  - Wei Liang
+  - Lei Zhang
+year: 2025
+venue: Electronics
+abstract: 'As a visualization of radio frequency environment state, radio maps are of significant importance in enhancing the efficiency of spectrum resources and the quality of service of general-purpose wireless networks. For a comprehensive review on radio map estimation (RME) methods, representative achievements in recent years on RME are categorized. Firstly, according to the extent of dependency on model knowledge, existing RME methods are categorized into three major classifications for the first time: model-driven methods, data-driven methods, and hybrid model data-driven methods. Subsequently, typical works in each classification of RME methods, as well as their pros and cons, are illustrated in detail. Moreover, this survey compiles public datasets for radio maps and points out that hybrid simulation measurement datasets are crucial for RME. Finally, future directions on the RME problem are discussed. Unlike existing surveys, this survey not only ensures academic accuracy in its literature review, but also preserves the evolutionary trajectory of RME methods, enabling readers to quickly grasp the history and development trends of RME.'
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://doi.org/10.3390/electronics14081564
+  doi: 10.3390/electronics14081564
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 16
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

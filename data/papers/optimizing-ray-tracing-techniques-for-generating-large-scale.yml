@@ -1,0 +1,27 @@
+id: optimizing-ray-tracing-techniques-for-generating-large-scale
+title: Optimizing Ray Tracing Techniques for Generating Large-Scale 3D Radio Frequency Maps
+authors:
+  - Bernard Tamba Sandouno
+  - C. Barakat
+  - T. Turletti
+  - Walid Dabbous
+year: 2024
+venue: IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks
+abstract: Accurate estimation of the signal power received at a given location can be obtained through Ray Tracing (RT) propagation model. Nevertheless, processes involved in RT are extremely complex and not adapted for Radio Frequency (RF) mapping purposes. Particularly, the reception test process, responsible for validating received rays at given locations, contributes to over 98% of the overall RT complexity in large-scale scenarios. In this paper, we introduce a novel RT algorithm able to divide by a factor of 50 the RF map rendering time while limiting the difference in bitrate estimation to less than 1Mbps on average as compared to existing approaches. Our algorithm integrates hardware acceleration techniques for RT, proposes a new modeling of the terrain in the form of a triangular mesh, and introduces a new reception test able to efficiently calculate the signal power received per each triangle of the mesh. Our simulations show how these processes together can reduce the complexity of RF map generation, hence allowing the algorithm to scale to large-scale and precise scenarios.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://inria.hal.science/hal-04546462/file/WoWMoM2024.pdf
+  doi: 10.1109/WoWMoM60985.2024.00047
+subfield: REM  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

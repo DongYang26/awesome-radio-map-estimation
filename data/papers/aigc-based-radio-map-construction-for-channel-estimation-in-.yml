@@ -1,0 +1,25 @@
+id: aigc-based-radio-map-construction-for-channel-estimation-in-
+title: AIGC-Based Radio Map Construction for Channel Estimation in Low-Altitude Economy
+authors:
+  - Bin Yang
+  - Wei Zhang
+  - Shengli Zhang
+year: 2025
+venue: 2025 IEEE/CIC International Conference on Communications in China (ICCC Workshops)
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/ICCCWorkshops67136.2025.11148098
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

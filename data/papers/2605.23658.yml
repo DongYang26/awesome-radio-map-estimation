@@ -1,0 +1,23 @@
+id: '2605.23658'
+title: Periodic point theorem for generalized graphic contractions
+authors:
+  - Evgeniy Petrov
+year: 2026
+abstract: Let $(X,d)$ be a nonempty metric space and let $n\in \mathbb N^+$. We shall say that $T\colon X\to X$ is a graphic contraction of order $n$ if there exists $α\in (0,1)$ such that the inequality $$   d(T^n x,T^{2n}x) \leqslant αd(x,T^nx) $$ holds for all $x\in X$. In the case $n=1$ these mapping are known as graphic contractions and are well studied. In the present paper, we establish a theorem on the existence of periodic points for a graphic contraction of order $n$. Examples of such mappings having different properties are constructed.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23658
+  pdf: https://arxiv.org/pdf/2605.23658
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

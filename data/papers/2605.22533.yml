@@ -1,0 +1,29 @@
+id: '2605.22533'
+title: Seismic signature of a magnetic field in the $γ$ Doradus star KIC 2309579
+authors:
+  - S. Ihallaine
+  - J. Ballot
+  - F. Lignières
+  - L. Ferrié
+  - S. Charpinet
+  - M. Galoy
+  - G. Li
+year: 2026
+abstract: Internal magnetic fields have recently been detected and measured in the radiative core of red giant stars using asteroseismology. Being one of red giant stars progenitors and exhibiting high radial order gravity modes, $γ$ Doradus stars are also good candidates to hold detectable magnetic fields in their radiative envelope. We aim to detect internal magnetic field in a rapidly rotating $γ$ Doradus star for the first time, through its influence on the propagation of Kelvin gravito-inertial modes. We used the seismic variable $δK_a$, defined as a combination of Kelvin modes frequencies, which is sensible to the presence of a magnetic field. Following the detection, we carried out a modelling of the star oscillation spectrum considering a magnetic component following a Bayesian approach. We found a magnetic signature into the radiative envelope of KIC 2309579. If located just above the core, in the layers that were previously convective, the magnetic field would reach $\sim$ 4 kG.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.22533
+  pdf: https://arxiv.org/pdf/2605.22533
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

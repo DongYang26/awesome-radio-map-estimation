@@ -1,0 +1,28 @@
+id: comparison-of-machine-learning-algorithms-for-propagation-pa
+title: Comparison of Machine Learning Algorithms for Propagation Path Loss Prediction Using Ray Tracing Data
+authors:
+  - Chaewon Yoon
+  - Junseok Kim
+  - Hyuk-Je Kim
+  - Chung-Sup Kim
+  - Sung-Woong Choi
+  - Il-Kyoo Lee
+year: 2024
+venue: Information and Communication Technology Convergence
+abstract: In this paper, we compared several regression algorithms through machine learning approach to predict path loss in an outdoor environment using only the location information of Tx and Rx. We constructed an outdoor environment with intersections, buildings and collected path loss data through Ray-tracing. After training by adjusting hyperparameters, two algorithms with low Mean Squared Error (MSE) values were compared in detail by statistically comparing the values of Mean Absolute Error (MAE), MSE, Root Mean Square Error (RMSE), and $\mathbf{R}^{\mathbf{2}}$ using K-fold cross validation. The results showed that the K-Nearest Neighbor (K-NN) algorithm had the best prediction performance for path loss. The prediction model also showed faster prediction time compared to the estimation time of Ray tracing.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/ICTC62082.2024.10826992
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

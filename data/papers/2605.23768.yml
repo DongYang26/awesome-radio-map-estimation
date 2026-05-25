@@ -1,0 +1,27 @@
+id: '2605.23768'
+title: 'GMRT Survey of Radio Emission from Magnetic Massive Stars -- I: Emission from Single Stars at sub-GHz Frequencies'
+authors:
+  - Ayan Biswas
+  - Gregg A. Wade
+  - Barnali Das
+  - Veronique Petit
+  - Matthew E. Shultz
+year: 2026
+abstract: With the growing subset of magnetic massive stars, it is now possible to conduct a systematic survey of radio emission from magnetic hot stars to better understand the underlying emission mechanisms. Previous surveys of radio emission from hot star magnetospheres have focused on high frequencies ($>$2 GHz). At lower frequencies, additional emission and absorption mechanisms are expected, increasing the complexity of the observed emission. In this work, we survey towards lower frequencies while also increasing the sample size. We report the study of 28 magnetic hot stars with the Giant Metrewave Radio Telescope (GMRT) during cycles 27 and 28 of its operation. Among these, we found 11 detections and 17 non-detections. We also include 16 additional targets observed with GMRT from the literature. We investigated the dependence of low-frequency radio luminosity on different stellar parameters and searched for a scaling relationship at low frequencies. We further test the centrifugal breakout model for gyrosynchrotron emission. The observed low-frequency radio luminosities show a clear dependence of radio emission on magnetic field strength and rotation period, consistent with high-frequency studies. We observe a trend in scaling relationships with frequency and comment on the statistical behavior of gyrosynchrotron spectra. The observed low-frequency behavior likely reflects a combination of free-free absorption and the location of the low-frequency turnover in the gyrosynchrotron spectrum, which may vary among stars depending on their magnetospheric properties and can suppress detectable sub-GHz emission. One of the detected stars, HD 37742, is the first magnetic O-type star detected at sub-GHz frequencies.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23768
+  pdf: https://arxiv.org/pdf/2605.23768
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

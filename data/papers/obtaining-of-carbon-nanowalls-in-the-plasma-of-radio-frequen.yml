@@ -1,0 +1,28 @@
+id: obtaining-of-carbon-nanowalls-in-the-plasma-of-radio-frequen
+title: Obtaining of carbon nanowalls in the plasma of radio-frequency discharge
+authors:
+  - D. Batryshev
+  - Y. Yerlanuly
+  - B. Alpysbaeva
+  - R. Nemkaeva
+  - T. Ramazanov
+  - M. Gabdullin
+year: 2020
+abstract: Abstract In this work a synthesis of carbon nanowalls (CNWs) in the plasma of argon and methane gases of capacitively coupled radio-frequency (CCRF) discharge is considered. The carbon nanowalls were synthesized by plasma enhanced chemical vapor deposition method at relatively lower values of discharge power and gas flow rate for low-cost CNWs production. The growth process of carbon nanowalls was studied at different synthesis parameters. The morphology and structure quality of obtained samples were investigated by Raman spectroscopy, scanning electron and atomic force microscopies. It was found, that at a lower value of RF power the formation of CNWs goes better with increasing methane flow rate and further increasing RF power leads to agglomeration of nanowalls and formation of nanoclusters, which then transfer into multilayered graphene. Thus, on the basis of obtained results, a process map with different zones of deposited carbon nanostructures is developed.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1016/j.apsusc.2019.144119
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 10
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

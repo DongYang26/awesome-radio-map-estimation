@@ -1,0 +1,28 @@
+id: '2605.23766'
+title: 'Unravelling Nature''s Models for Transportation Network: Considering a Biomimicry Framework'
+authors:
+  - Sofiane Madmar
+  - Didier Josselin
+  - Olivier Blight
+  - Vincent Labatut
+  - Christophe Mazzia
+  - Marc Ciligot-Travain
+year: 2026
+abstract: Researchers worldwide have drawn inspiration from nature to optimize network design and dynamics. Some of the wonders of the living world exhibit remarkable abilities in generating efficient and resilient spatial structures. By mimicking biological strategies, transportation infrastructures could be profoundly rethought. This paper aims to provide the basis for a biomimicry framework for addressing transportation networks. In light of examples from the literature, the relevance of such a framework for advancing research in nature-inspired networks is demonstrated, with the aim of achieving resilience and efficiency.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23766
+  pdf: https://arxiv.org/pdf/2605.23766
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

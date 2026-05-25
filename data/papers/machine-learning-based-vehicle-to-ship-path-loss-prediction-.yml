@@ -1,0 +1,26 @@
+id: machine-learning-based-vehicle-to-ship-path-loss-prediction-
+title: Machine Learning-Based Vehicle-to-Ship Path Loss Prediction Using Offshore Measurements
+authors:
+  - Zheng Lv
+  - Xiaoying Zhang
+  - Xiaoran Liu
+  - Jibo Wei
+year: 2025
+venue: 2025 IEEE 102nd Vehicular Technology Conference (VTC2025-Fall)
+abstract: Vehicle-to-ship (V2S) communication plays a crucial role in maritime emergency rescue operations. This paper investigates the V2S large-scale channel model in offshore environments. We conducted V2S channel measurements and proposed machine learning-based models to predict path loss. Along the propagation path, obstacles enter the first Fresnel zone and cause energy loss. To characterize the extent of obstruction in the Fresnel zone during radio propagation, we innovatively introduced the relative propagation gap as an input parameter. The proposed model, utilizing the Random Forest algorithm, achieves a root mean square error (RMSE) of 1.51 dB, making a reduction of 6.03 dB compared to least squares model and 7.67 dB compared to ITU model.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/VTC2025-Fall65116.2025.11310125
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

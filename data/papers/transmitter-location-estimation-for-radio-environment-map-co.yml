@@ -1,0 +1,24 @@
+id: transmitter-location-estimation-for-radio-environment-map-co
+title: Transmitter location estimation for radio environment map construction using software defined radio
+authors:
+  - M. Ozsahin
+  - T. Tuğcu
+year: 2014
+venue: IEEE Symposium on Communications and Vehicular Technology in the Benelux
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/SCVT.2014.7046715
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 2
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

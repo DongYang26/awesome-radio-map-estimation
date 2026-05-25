@@ -1,0 +1,31 @@
+id: radio-environment-map-construction-by-adaptive-ordinary-krig
+title: Radio environment map construction by adaptive ordinary Kriging algorithm based on affinity propagation clustering
+authors:
+  - Haiyang Xia
+  - Song Zha
+  - Jijun Huang
+  - Jibin Liu
+year: 2020
+venue: Int. J. Distributed Sens. Networks
+abstract: 'In the era of 5G mobile communication, radio environment maps are increasingly viewed as a powerful weapon for the optimization of spectrum resources, especially in the field of autonomous vehicles. However, due to the constraint of limited resources when it comes to sensor networks, it is crucial to select a suitable scale of sensor measurements for radio environment map construction. This article proposes an adaptive ordinary Kriging algorithm based on affinity propagation clustering as a novel spatial interpolation method for the construction of the radio environment map, which can provide precise awareness of signal strength at locations where no measurements are available. Initially, a semivariogram is obtained from all the sensor measurements. Then, in order to select the minimum scale of measurements and at the same time guarantee accuracy, the affinity propagation clustering is introduced in the selection of sensors. Moreover, the sensor estimation groups are created based on the clustering result, and estimation results are obtained by ordinary Kriging. In the end, the simulation of the proposed algorithm is analyzed through comparisons with three conventional algorithms: inverse distance weighting, nearest neighbor, and ordinary Kriging. As a result, the conclusion can be drawn that the proposed algorithm is superior to others in accuracy as well as in efficiency.'
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://doi.org/10.1177/1550147720922484
+  doi: 10.1177/1550147720922484
+subfield: REM  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - Gaussian-process  # TODO: maintainer verify
+  - Kriging  # TODO: maintainer verify
+  - IDW  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: unsupervised  # TODO: maintainer verify
+citations: 18
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

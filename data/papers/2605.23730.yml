@@ -1,0 +1,29 @@
+id: '2605.23730'
+title: Enhanced magneto-optical intensity effect in a helicity-preserving all-dielectric metasurface at Mie resonances and the anapole state
+authors:
+  - P. V. Zorina
+  - I. O. Ignatyeva
+  - A. E. Bezmenova
+  - A. N. Kalish
+  - S. Xia
+  - L. Bi
+  - V. I. Belotelov
+year: 2026
+abstract: Nanophotonic structures provide an efficient route to enhancing magneto-optical effects by concentrating electromagnetic fields at subwavelength scales. In this work, we propose and experimentally demonstrate a helicity-preserving all-dielectric metasurface for enhancing magnetization-induced transmission modulation under circularly polarized excitation. The optical response of the structure is governed by the Mie resonances of silicon nanodisks and by a spectral feature associated with the anapole state. In the spectral regions of the Mie resonances, the metasurface exhibits a pronounced enhancement of the magneto-optical intensity response relative to a bare magnetic film of the same thickness, with the normalized magneto-optical intensity effect increased by a factor of about 2-3. A strong response is also observed in the spectral region associated with the anapole state, manifested as a local transmission maximum. In this regime, the normalized magneto-optical intensity effect exceeds that of the bare magnetic film by about 30%, while the metasurface transmission remains as high as around 80%. The enhanced response in this spectral region is preserved over a broad range of incidence angles. These results demonstrate that all-dielectric metasurfaces combining Mie resonances with the spectral feature associated with the anapole state provide an efficient platform for magneto-optical intensity modulation of circularly polarized light at high transmission.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23730
+  pdf: https://arxiv.org/pdf/2605.23730
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

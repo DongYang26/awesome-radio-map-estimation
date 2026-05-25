@@ -1,0 +1,25 @@
+id: '2605.23317'
+title: Enhanced Stellar Production of Weakly Interacting Slim Particles from Non-Thermal Nuclear Cascades
+authors:
+  - Víctor Fonoll
+  - Maurizio Giannotti
+  - Giuseppe Lucente
+year: 2026
+abstract: 'Weakly interacting slim particles (WISPs) can be produced in stars through the conversion of non-thermal photons generated in nuclear reactions. Previous studies have generally treated these sources only at the level of their primary injection lines. We show that this picture is incomplete: repeated Compton scatterings redistribute the injected photons into a broad low-energy spectrum, while associated positrons can thermalize and annihilate into a 511~keV line. Together, these effects define a generic non-thermal photon reservoir and thus a broadly applicable source term for any photon-coupled WISP. We develop a general framework for this mechanism and illustrate its impact with the example of dark-photon production in the solar pp chain. Our results show that non-thermal stellar WISP production can be substantially underestimated if Compton reprocessing and positron annihilation are neglected.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23317
+  pdf: https://arxiv.org/pdf/2605.23317
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

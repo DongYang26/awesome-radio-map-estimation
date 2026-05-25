@@ -1,0 +1,25 @@
+id: '2605.22628'
+title: Ising surface defects can get dirty
+authors:
+  - António Antunes
+  - Apratim Kaviraj
+  - Baishali Roy
+year: 2026
+abstract: Real critical systems, such as uniaxial ferromagnets in the 3d Ising universality class, are constrained by boundaries and subject to random couplings. We consider the Wilson-Fisher fixed point in $4-ε$ dimensions subject to a random magnetic field localized on a two-dimensional surface, which becomes co-dimension 1 in the physical $ε\to1$ limit. Using the replica method for the disordered field, we find that the ordinary boundary condition is stable under disorder but also discover a non-trivial ``dirty" boundary condition which can be reached by tuning the disorder strength or the local temperature. We also investigate the logarithmic structure of the defect spectrum and how it emerges via the replica formalism.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.22628
+  pdf: https://arxiv.org/pdf/2605.22628
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

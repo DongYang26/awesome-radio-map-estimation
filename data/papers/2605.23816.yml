@@ -1,0 +1,30 @@
+id: '2605.23816'
+title: 'SDNator is Not Another SDN Controller: Enabling Extensible Data-Driven Control in Cyber-Physical Systems'
+authors:
+  - Y. Lin
+  - R. Zhang
+  - E. Balta
+  - X. Zhu
+  - J. Zhang
+  - K. Barton
+  - D. Tilbury
+  - Z. Mao
+year: 2026
+abstract: An SDN-like centralized control architecture is increasingly popular and has been widely explored in cyber-physical systems (CPS) such as manufacturing, internet-of-things, and autonomous vehicle systems for higher flexibility, programmability and scalability. However, no existing frameworks can offer domain-agnostic, easily extensible support for data-driven CPS applications. In this work, we design, implement, and open-source \textit{SDNator}, the first framework to enable extensible, data-driven control in CPS. SDNator embraces an application- and data-driven design where applications function as data consumers and producers to collectively define the workflows of the controller. SDNator also incorporates two data store backends to support both event-driven and data-driven programming patterns. Benchmarks show that SDNator is highly scalable, and delivers comparable performance to Ryu, a widely used SDN controller.   Moreover, we demonstrate the capabilities and usability of SDNator through our case studies of manufacturing and networking systems. By integrating applications from respective domains, we build different ``controllers'' for different scenarios. Most notably, we leverage SDNator to implement the first digital-twin-equipped central controller for additive manufacturing fleets. We show through extensive and realistic simulations that SDNator-based scheduling can (1) significantly shorten production time and improve reliability in the presence of anomalies compared to decentralized approaches, and (2) flexibly adjust and optimize production plans upon urgent requests such as producing Personal Protective Equipment during the COVID-19 pandemic.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23816
+  pdf: https://arxiv.org/pdf/2605.23816
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

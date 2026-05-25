@@ -1,0 +1,26 @@
+id: machine-learning-based-path-loss-prediction-for-vehicle-to-v
+title: Machine-Learning-Based Path Loss Prediction for Vehicle-to-Vehicle Communication in Highway Environments
+authors:
+  - N. Sağır
+  - Zeynep Hasırcı Tuğcu
+year: 2024
+venue: Applied Sciences
+abstract: Vehicle-to-vehicle (V2V) communication, which plays an important role in intelligent transportation systems, has been statistically proven to improve traffic efficiency and reduce the probability of accidents. In real-world applications, it is critical to accurately estimate the path loss parameter in communication channels due to the variable and complex propagation environments often encountered in inter-vehicle communication scenarios. This paper presents a study on various machine learning methods to improve path loss estimation in V2V communication using a dataset (192,000 observations) obtained from field measurements of highway environments in the Trabzon and Gümüşhane provinces in Türkiye. For this purpose, path loss estimation was carried out with different machine learning algorithms such as Artificial Neural Networks, Random Forest, Linear Regression, Gradient Boosting, Support Vector Regression, and AdaBoost by using various environmental and system features. Then, performance comparisons were conducted between machine learning methods and traditional empirical approaches such as log-distance, two-ray, and log-ray. Examining the outputs reveals that machine learning methods outperform traditional methods and yield results quickly. As a result, the Random Forest and Gradient Boosting methods demonstrated the highest prediction performances, with R2 values of 0.97 and 0.96, MAE values of 0.0557 and 0.0701, and RMSE values of 0.0774 and 0.0964, respectively, outperforming both empirical methods, other machine learning techniques, and the existing studies based on V2V. Overall, our study provides significant contributions to the existing literature by providing a comprehensive parameter set for highway environments, examining the path loss prediction performance of machine learning models with different capabilities, and comparing them with traditional methods. This study not only fills a critical gap in the existing literature but also highlights the necessity, efficiency, and originality of machine learning approaches for improving reliable V2V communication systems.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://doi.org/10.3390/app14177545
+  doi: 10.3390/app14177545
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 10
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

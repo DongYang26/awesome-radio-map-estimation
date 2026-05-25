@@ -1,0 +1,98 @@
+id: experimental-demonstration-of-hadron-beam-cooling-using-radi
+title: Experimental Demonstration of Hadron Beam Cooling Using Radio-Frequency Accelerated Electron Bunches.
+authors:
+  - A. Fedotov
+  - Z. Altinbas
+  - S. Belomestnykh
+  - I. Ben-Zvi
+  - M. Blaskiewicz
+  - M. Brennan
+  - D. Bruno
+  - C. Brutus
+  - M. Costanzo
+  - A. Drees
+  - W. Fischer
+  - J. Fite
+  - M. Gaowei
+  - D. Gassner
+  - X. Gu
+  - J. Halinski
+  - K. Hamdi
+  - L. Hammons
+  - M. Harvey
+  - T. Hayes
+  - R. Hulsart
+  - P. Inacker
+  - J. Jamilkowski
+  - Y. Jing
+  - J. Kewisch
+  - P. Kankiya
+  - D. Kayran
+  - R. Lehn
+  - C. Liaw
+  - V. Litvinenko
+  - Chuyu Liu
+  - J. Ma
+  - G. Mahler
+  - M. Mapes
+  - A. Marusic
+  - K. Mernick
+  - C. Mi
+  - R. Michnoff
+  - T. Miller
+  - M. Minty
+  - G. Narayan
+  - S. Nayak
+  - L. Nguyen
+  - M. Paniccia
+  - I. Pinayev
+  - S. Polizzo
+  - V. Ptitsyn
+  - T. Rao
+  - G. Robert-Demolaize
+  - T. Roser
+  - J. Sandberg
+  - V. Schoefer
+  - C. Schultheiss
+  - S. Seletskiy
+  - F. Severino
+  - T. Shrey
+  - L. Smart
+  - Kevin Smith
+  - H. Song
+  - A. Sukhanov
+  - R. Than
+  - P. Thieberger
+  - S. Trabocchi
+  - J. Tuozzolo
+  - P. Wanderer
+  - E. Wang
+  - G. Wang
+  - D. Weiss
+  - B. Xiao
+  - T. Xin
+  - Wencan Xu
+  - A. Zaltsman
+  - H. Zhao
+  - Zhengguo Zhao
+year: 2020
+venue: Physical Review Letters
+abstract: Cooling of beams of gold ions using electron bunches accelerated with radio-frequency systems was recently experimentally demonstrated in the Relativistic Heavy Ion Collider at Brookhaven National Laboratory. Such an approach is new and opens the possibility of using this technique at higher energies than possible with electrostatic acceleration of electron beams. The challenges of this approach include generation of electron beams suitable for cooling, delivery of electron bunches of the required quality to the cooling sections without degradation of beam angular divergence and energy spread, achieving the required small angles between electron and ion trajectories in the cooling sections, precise velocity matching between the two beams, high-current operation of the electron accelerator, as well as several physics effects related to bunched-beam cooling. Here we report on the first demonstration of cooling hadron beams using this new approach.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://www.osti.gov/biblio/1602464
+  doi: 10.1103/physrevlett.124.084801
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 38
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

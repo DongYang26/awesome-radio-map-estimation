@@ -1,0 +1,25 @@
+id: machine-learning-approach-for-the-modelling-and-prediction-o
+title: Machine Learning Approach for the Modelling and Prediction of Path Loss Over GSM 4 & 5G Channels in Kano Metropolis, Nigeria
+authors:
+  - Hamza Ahmad Masari
+  - A. Akinbolati
+  - M. Sani
+year: 2026
+venue: Scholarly Journal of Science and Technology Research and Development
+abstract: Accurate prediction of path loss in wireless communication systems is essential for ensuring efficient signal coverage and network optimization. Traditional empirical models often fail to capture environmental complexities, particularly in dense urban and variable suburban settings. This study investigates the effectiveness of machine learning algorithms in modeling path loss over GSM 4G and 5G channels in urban and suburban environments of Kano City, Nigeria. Data were collected using a spectrum analyzer and GPS devices along predefined routes, and conventional empirical models such as COST-231, ECC-33, and Free Space Path Loss (FSPL) were applied as baselines. Performance metrics, including MAE, RMSE, and R² were used to assess accuracy. Empirical models yielded RMSE values of 5.60 dB (FSPL) and 7.80 dB (ECC-33) for 4G, and 6.17 dB (ECC-33) for 5G. Machine learning models, including Linear Regression, SVM, Random Forest, and Logistic Regression, were then applied. Among them, the Linear Regression model achieved the best results with an RMSE of 1.13 dB and an R² of 0.9789, significantly outperforming traditional models. The findings confirm that machine learning, particularly Linear Regression, provides superior accuracy and generalizability in path loss prediction across varied terrains. In conclusion, this study demonstrates that ML-driven approaches enhance wireless planning and offer scalable, location-specific alternatives for modern telecommunication networks, especially in environments like Kano City.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.46654/dy29kr76
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

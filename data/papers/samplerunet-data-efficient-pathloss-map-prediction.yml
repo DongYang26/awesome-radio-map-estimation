@@ -1,0 +1,26 @@
+id: samplerunet-data-efficient-pathloss-map-prediction
+title: 'SamplerUNet: Data Efficient Pathloss Map Prediction'
+authors:
+  - Omer Gokalp Serbetci
+  - Pradeep Mahtiyarasu
+  - A. Molisch
+year: 2025
+venue: Asilomar Conference on Signals, Systems and Computers
+abstract: Deep Learning (DL)-based pathloss map prediction is a powerful tool for wireless network planning, but its deployment is often limited by the cost of acquiring dense training labels via measurements or ray tracing. We propose a data-efficient framework that learns where to sample so as to minimize the number of required measurements while preserving the performance of a state-of-the-art pathloss predictor. A UNet-based sampler (SamplerUNet) produces a per-pixel score map from which a binary sampling mask is derived under a sampling-rate constraint; sparse pathloss values at the selected locations are then interpolated and used to train PMNet, a state-of-the-art DL architecture for pathloss map prediction. SamplerUNet is trained on a subset of fully labeled maps using a tailored loss that combines interpolation error and sampling diversity. Experiments on realistic ray-tracing datasets from the USC campus and downtown Boston show that the learned sampling strategy consistently outperforms uniform and random baselines, requiring (for the same performance) up to 32% fewer measurements on USC at a 20% sampling rate and provide about 30% savings when transferring a sampler trained on USC data to Boston. These results demonstrate that environment-aware sampling policies are a key enabler for scalable, measurement-efficient DL-based pathloss prediction.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/IEEECONF67917.2025.11443800
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

@@ -1,0 +1,26 @@
+id: path-loss-prediction-in-urban-areas-a-machine-learning-appro
+title: 'Path Loss Prediction in Urban Areas: A Machine Learning Approach'
+authors:
+  - I. Rafie
+  - Soo Yong Lim
+  - M. Chung
+year: 2023
+venue: IEEE Antennas and Wireless Propagation Letters
+abstract: Propagation prediction is important in that it contributes toward optimal base station planning and placement. This is especially relevant for 5G and other future generations of cellular networks. In this work, we propose a machine learning-based method to rapidly predict path loss in an urban area using data extracted from online sources, such as OpenStreetMap and other geographical information systems to aid in cellular coverage estimation in an area. The outcome of this work is useful for an urban environment that sees rapid development and changes to its landscape. In such a scenario, the location of the existing base station will benefit from adjustment for optimal coverage provision.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/LAWP.2022.3225792
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 17
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

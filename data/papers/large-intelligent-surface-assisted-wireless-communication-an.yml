@@ -1,0 +1,25 @@
+id: large-intelligent-surface-assisted-wireless-communication-an
+title: LARGE INTELLIGENT SURFACE-ASSISTED WIRELESS COMMUNICATION AND PATH LOSS PREDICTION MODEL BASED ON ELECTROMAGNETICS AND MACHINE LEARNING ALGORITHMS
+authors:
+  - Wael S. Elshennawy
+year: 2022
+venue: Progress In Electromagnetics Research C
+abstract: '|This paper presents the application of machine learning-based approach toward prediction of path loss for the large intelligent surface-assisted wireless communication in smart radio environment. Two bagging ensemble methods, namely K-nearest neighbor and random forest, are exploited to build the path loss prediction models by using the training dataset. To generate the data samples without having to run measurement campaign, a path loss model is developed owning to the similarity between the large intelligent surface-assisted wireless communication and the re(cid:13)ector antenna system. Simple path loss expression is deduced from the system gain of the re(cid:13)ector antenna system, and it is used to generate the data samples. Simulation results are presented to verify the prediction accuracy of the path loss predictions models. The prediction performances of the trained path loss models are assessed based on the complexity and accuracy metrics, including R 2 score, mean absolute error, and root mean square error. It is demonstrated that the machine learning-based models can provide high prediction accuracy and acceptable complexity. The K-nearest neighbor algorithm outperforms random forest algorithm, and it has smaller prediction errors.'
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://www.jpier.org/ac_api/download.php?id=22013002
+  doi: 10.2528/pierc22013002
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 6
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

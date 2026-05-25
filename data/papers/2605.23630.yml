@@ -1,0 +1,26 @@
+id: '2605.23630'
+title: To Overlay or to Customize? Revisiting Architectural Choices in Heterogeneous Systems
+authors:
+  - Xingzhen Chen
+  - Shixin Ji
+  - Zheng Dong
+  - Peipei Zhou
+year: 2026
+abstract: In this work, we present a systematic study of this trade-off from a deployment-centric perspective, focusing on an autonomous driving scenario. Instead of treating overlay and customized acceleration as isolated design points, we analyze when each approach is preferable under practical conditions, including workload variation, architectural design, reconfiguration latency, and switching frequency. Our analysis shows that overlay-based architecture is more suitable for highly frequent model switching under the state-of-the-art architecture. However, as bitstream reload overhead continues to reduce, customized architectures may become increasingly attractive, especially for workloads with efficiency requirements. Conversely, if overlay architectures become more capable and flexible, they may further expand their advantage over customized architectures. These observations provide design insights for future architectural design, and the optimal deployment strategy will be flipped according to the technique development.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23630
+  pdf: https://arxiv.org/pdf/2605.23630
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

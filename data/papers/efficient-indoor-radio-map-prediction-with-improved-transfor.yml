@@ -1,0 +1,29 @@
+id: efficient-indoor-radio-map-prediction-with-improved-transfor
+title: Efficient Indoor Radio Map Prediction with Improved Transformers and Active Sampling Strategies
+authors:
+  - Zhihao Zheng
+  - Limin Xiao
+  - Ming Zhao
+  - Yunzhou Li
+year: 2025
+venue: International Workshop on Machine Learning for Signal Processing
+abstract: In this paper, we present a deep neural network designed for sampling-assisted pathloss radio map prediction, developed in the context of the MLSP 2025 “Sampling-Assisted Pathloss Radio Map Prediction Data Competition.” The proposed model is built upon a U-Net encoder-decoder architecture and incorporates an enhanced Transformer module to strengthen global feature modeling capabilities. The network is trained on radio map data with sparsely sampled pathloss values. Experimental results show that our method achieves a weighted root mean square error (wRMSE) of 4.94 dB across both competition tasks, ranking third overall among all participating teams. These results highlight the model's strong prediction accuracy and generalization performance, particularly under sparse sampling conditions.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/MLSP62443.2025.11204304
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - Transformer  # TODO: maintainer verify
+  - CNN  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: indoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 2
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

@@ -1,0 +1,28 @@
+id: saipp-net-a-sampling-assisted-indoor-pathloss-prediction-met
+title: 'Saipp-Net: A Sampling-Assisted Indoor Pathloss Prediction Method for Wireless Communication Systems'
+authors:
+  - Bin Feng
+  - Meng Zheng
+  - Wei Liang
+  - Lei Zhang
+year: 2025
+venue: International Workshop on Machine Learning for Signal Processing
+abstract: Accurate prediction of pathloss radio maps is essential for the design and optimization of next-generation indoor wireless communication systems. Incorporating sparse pathloss measurements as auxiliary information has demonstrated significant potential in improving prediction accuracy. In this paper, we propose a novel sampling-assisted indoor pathloss prediction method (SAIPP-Net). First, we design a UNetbased neural network with variable-channel inputs to adapt to different levels of sampling availability. Second, we introduce a sampling-aware training strategy that employs tailored training schemes for low and high sampling rates, respectively. Finally, we develop a prioritized hybrid sampling strategy that jointly considers the transmitter distance and signal gradient to guide the selection of informative sampling locations. SAIPP-Net was evaluated in the context of MLSP 2025 The Sampling-Assisted Pathloss Radio Map Prediction Data Competition, achieving a weighted root mean squared error of 4.67 dB on the test set and securing 1st place in the competition.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/MLSP62443.2025.11204326
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: indoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 4
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

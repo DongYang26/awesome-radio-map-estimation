@@ -1,0 +1,23 @@
+id: '2605.23659'
+title: 'State-dependent inverse-subordinator time changes of regenerative processes: Excursion structure and multiscale occupation-time limits'
+authors:
+  - Kosuke Yamato
+year: 2026
+abstract: We study regenerative processes time-changed by state-dependent inverse subordinators. The construction assigns possibly different independent subordinators to measurable classes of excursions and builds a random clock from the corresponding occupation times. Although the resulting process is generally not regenerative, we prove that its transformed excursion point process is again Poisson, using an excursion-wise marking-and-mapping procedure. We apply this to study occupation-time asymptotics. Under regular variation assumptions on the transformed excursion lifetime tails, we prove a multiscale joint occupation-time limit theorem, including generalized arcsine laws and Darling--Kac type limits.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23659
+  pdf: https://arxiv.org/pdf/2605.23659
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

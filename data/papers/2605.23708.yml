@@ -1,0 +1,27 @@
+id: '2605.23708'
+title: Learning Dynamic Stability Landscapes in Synchronization Networks
+authors:
+  - Christian Nauck
+  - Junyou Zhu
+  - Michael Lindner
+  - Frank Hellmann
+year: 2026
+abstract: 'The robustness of synchronization is typically characterized by scalar, per-node stability indices whose dependence on topology is studied via network science or graph neural networks (GNNs). We propose a novel upstream task, learning stability landscapes, which provide deeper insights into synchronization behavior and from which many such scalar indices can be derived. Crucially, we pioneer a graph-to-image prediction paradigm: learning image-like landscapes as per-node targets directly from graph topology, a formulation we are not aware of having been established elsewhere in the literature. To support this task, we release two datasets of 10,000 graphs each at 20 and 100 nodes with per-node landscape labels, based on a conceptual oscillator model, capturing power grid synchronization behavior. A GNN encodes topology and a CNN decoder renders per-node images, learned end-to-end with good in-distribution accuracy, generalizing across graph sizes and to realistic power grid topologies. This demonstrates that stability landscapes, while beyond the reach of conventional network science, are learnable from topology and open new avenues for moving beyond scalar stability indices in biology, neuroscience, and power grids.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23708
+  pdf: https://arxiv.org/pdf/2605.23708
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - GNN  # TODO: maintainer verify
+  - CNN  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

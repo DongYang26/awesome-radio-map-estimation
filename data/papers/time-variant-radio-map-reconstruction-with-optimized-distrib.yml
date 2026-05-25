@@ -1,0 +1,32 @@
+id: time-variant-radio-map-reconstruction-with-optimized-distrib
+title: Time-Variant Radio Map Reconstruction With Optimized Distributed Sensors in Dynamic Spectrum Environments
+authors:
+  - Qianhao Gao
+  - Qiuming Zhu
+  - Zhipeng Lin
+  - P. Mathiopoulos
+  - Yi Zhao
+  - Yang Huang
+  - Jie Wang
+  - Qihui Wu
+year: 2025
+venue: IEEE Internet of Things Journal
+abstract: Radio environment maps (REMs) have been used to visualize the information of invisible electromagnetic spectrum. Although in the past there have been many research activities dealing with the reconstruction of static REMs, they did not consider the time variation of the dynamic spectrum operational environment. In this article, we present a novel time-variant REM reconstruction methodology based on sparsely distributed sensors which jointly considers sensor layout optimization, propagation model improvement, and missing spectrum data recovery. First, a low complexity and computationally efficient method is proposed to improve the sampling efficiency. The proposed method jointly employs the gradient descent method and an upgraded greedy matching algorithm to optimize the sensor positions even when large-scale scenarios are considered. Then, by using the sampled spectrum data obtained from these sensors, the accuracy of commonly employed propagation models is improved and subsequently used to construct a channel dictionary for such time-varying environments. By exploring the heterogeneity of dynamic spectrum operational environments, an improved optimal reconstruction method is designed to recover the spectrum data using their spatial-temporal correlation. By considering a typical university campus environment as a case study, simulation and measurement data are obtained to reconstruct the time-variant REM. Through the simulation data, the reconstruction performance results are compared with those obtained from other state-of-the-art methods showing that the proposed methodology outperforms the others with respect to the sampling scheme and missing rate. Additionally, field measurement results have demonstrated that the proposed approach can effectively reconstruct time-variant REMs under dynamic scenarios.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://doi.org/10.22541/au.172893971.19345105/v1
+  doi: 10.1109/JIOT.2025.3545542
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 18
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

@@ -1,0 +1,24 @@
+id: reconstruction-of-radio-map-from-sparse-rss-data-by-disconti
+title: Reconstruction of radio map from sparse RSS data by discontinuity preserving smoothing
+authors:
+  - Wonsun Bong
+  - Y. C. Kim
+year: 2012
+venue: Research in Adaptive and Convergent Systems
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1145/2401603.2401653
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 3
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

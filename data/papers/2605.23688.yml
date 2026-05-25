@@ -1,0 +1,24 @@
+id: '2605.23688'
+title: Adjoint inverse design of microresonator frequency combs
+authors:
+  - Andrei Chuchalin
+  - Alexey Tikan
+year: 2026
+abstract: 'Microresonator frequency combs are key components for integrating optical devices into photonic circuits. They provide high stability, coherence, and low noise, even without external stabilization. Yet microcomb design remains largely heuristic: waveguide and resonator parameters are typically swept manually or semi-empirically, and the resulting spectra are evaluated only afterwards. This forward-design workflow is computationally costly, relies heavily on designer intuition, and does not generally identify optimal solutions. Here, we present an adjoint-based inverse-design framework for microresonator frequency combs that directly optimizes the comb spectrum with respect to pre-defined objectives. We demonstrate the power and flexibility of this approach by addressing three challenging problems: designing spectrally flat combs, synthesizing arbitrarily shaped comb spectra, and enforcing several performance metrics simultaneously through multi-objective optimization. Our results show that inverse design offers a systematic and efficient route to compact on-chip light sources with properties tailored to diverse applications.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23688
+  pdf: https://arxiv.org/pdf/2605.23688
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

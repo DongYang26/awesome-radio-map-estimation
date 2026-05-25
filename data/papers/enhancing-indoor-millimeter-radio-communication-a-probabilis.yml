@@ -1,0 +1,30 @@
+id: enhancing-indoor-millimeter-radio-communication-a-probabilis
+title: 'Enhancing Indoor Millimeter Radio Communication: A Probabilistic Approach to RSS Map Estimation'
+authors:
+  - Daiki Kodama
+  - Kenji Ohira
+  - Hideyuki Shimonishi
+  - Toshiro Nakahira
+  - Daisuke Murayama
+  - Tomoaki Ogawa
+year: 2024
+venue: Consumer Communications and Networking Conference
+abstract: In Cyber-Physical Systems (CPS), the reliability of wireless communication is paramount to ensuring safety. Received Signal Strength (RSS) map is particularly beneficial for safe robot operation, for example. However, accurately estimating an RSS map poses significant challenges, particularly when higher frequency bands are employed for broadband communications. Therefore, it is also important to not only further enhance the accuracy of the estimation, which is the target of many existing methods, but also design system that can tolerate errors in the estimation. In this paper, we propose a method for constructing a digital twin that represents the quality of the wireless network using probability distributions. Representing data probabilistically proves effective for risk-sensitive robot control or robust planning of base station positioning. We propose using a graphical model known as Markov Random Field (MRF), to depict the spatial structure of the RSS map. The probability distribution of the RSS value at each point within the space is provided as the marginal probabilities of the MRF. We then evaluated the proposed method in our own 28 GHz Private 5G environment and extensively studied the characteristics of indoor millimeter radio communication. We confirmed that each estimated point can be well estimated by probability distribution using the proposed method. In addition, the design of error toler-ance based probability distribution is discussed. By determining a margin on the estimated expected value based on the standard deviation of the estimated distribution, the margin can be set more efficiently than by determining a uniform margin for each points.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/CCNC51664.2024.10454887
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: indoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 3
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

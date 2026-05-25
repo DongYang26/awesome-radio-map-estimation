@@ -1,0 +1,23 @@
+id: '2605.22475'
+title: Rethinking the work of Langlands on Eisenstein series
+authors:
+  - Devadatta G. Hegde
+year: 2026
+abstract: Chapter $7$ of Langlands' monograph "On the functional equations satisfied by Eisenstein series" employs a sophisticated residue scheme to construct a portion of the discrete automorphic spectrum. We show, by examples, applications, and heuristics, that this construction is a straightforward regularization of cuspidal Eisenstein series at distinguished points, and that the regularization must track BOTH the zeros and the poles of these Eisenstein series.   Unlike the one-variable case, the zero set and pole set of a several-complex-variable meromorphic function can intersect at a point. The distinguished points supporting the discrete spectrum are typically of this kind. The zeros of cuspidal Eisenstein series - largely invisible in the rank-one case - begin to play a starring role in higher rank situations, on equal footing with the poles. We redo Langlands' famous $G_{2}$ calculation and show that once zeros are tracked, the calculation reduces to elementary algebra.   Drawing on rank-two examples, we introduce a program to re-think Langlands' construction from first principles, giving zeros and poles of cuspidal Eisenstein series equal standing from the very beginning. The program has the advantage of making the underlying phenomenon transparent, though carrying it out in full generality will require substantial further work.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.22475
+  pdf: https://arxiv.org/pdf/2605.22475
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

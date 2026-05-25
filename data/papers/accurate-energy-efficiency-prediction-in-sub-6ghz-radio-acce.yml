@@ -1,0 +1,26 @@
+id: accurate-energy-efficiency-prediction-in-sub-6ghz-radio-acce
+title: Accurate Energy Efficiency Prediction in Sub-6GHz Radio Access Networks Based on Pathloss Modeling Using Kriging Methods
+authors:
+  - Hao-Jen Fu
+  - Timothy O'Farrell
+year: 2023
+venue: 2023 IEEE International Conference on Communications Workshops (ICC Workshops)
+abstract: Radio access network (RAN) designers need to prioritize capacity and energy efficiency performance in 5G RANs to accommodate the increasing user demands. The analysis of RAN performances is substantially simplified through the application of an accurate, low computational complexity, and straightforward-to-apply pathloss model, which incorporates realistic correlated shadow fading. The work presented in this paper is based on the kriging method that generates an accurate correlated shadow fading map, which can be derived from either measured or simulated pathloss data. The new model is found to accurately predict throughput and energy efficiency in a densified urban RAN when compared with a reference data set.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/ICCWorkshops57953.2023.10283548
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - Gaussian-process  # TODO: maintainer verify
+  - Kriging  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

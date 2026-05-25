@@ -1,0 +1,43 @@
+id: '2605.23582'
+title: 51 Peg b revisited with VLT/CRIRES+. Constraints on atmospheric thermal structure, chemical composition, and an alternative orbital solution
+authors:
+  - D. Cont
+  - L. Nortmann
+  - F. Lesjak
+  - U. Seemann
+  - L. D. Nielsen
+  - B. Wechselberger
+  - F. Yan
+  - S. Liu
+  - A. Reiners
+  - A. Lavail
+  - D. Shulyak
+  - A. Hatzes
+  - N. Piskunov
+  - L. Boldt-Christmas
+  - S. Czesla
+  - E. W. Guenther
+  - O. Kochukhov
+  - T. Marquart
+  - E. Nagel
+  - A. D. Rains
+  - M. Rengel
+year: 2026
+abstract: So far, the atmospheres of non-transiting exoplanets remain poorly explored, and the potential of high-resolution spectroscopy for determining key planetary parameters beyond their atmospheric properties has not been fully exploited. We obtained high-resolution emission spectra of the non-transiting hot Jupiter 51 Peg b with VLT/CRIRES+ to study its atmospheric thermochemical and dynamical structure and derive additional planetary parameters from the Doppler shift of its spectral lines. Using the cross-correlation technique, we confirmed the spectral signature of H$_2$O in the planetary emission spectrum and a non-inverted atmospheric temperature profile. An indication was also found for the presence of atmospheric CO. The atmospheric chemical and thermal conditions were quantitatively constrained by use of a Bayesian retrieval framework, which yielded a high metallicity value ($2.63_{-0.93}^{+1.00}$ dex) suggestive of chemical quenching, a solar C/O ratio ($0.54_{-0.23}^{+0.18}$), and a temperature profile in the upper atmosphere in line with the expected planetary equilibrium temperature. Moreover, we measured an excess of spectral line broadening. The planetary signal was recovered at an orbital semi-amplitude of $102.8_{-9.1}^{+8.3}$ km s$^{-1}$, differing from previous high-resolution measurements. From the obtained orbital semi-amplitude, we further derived the surface gravity ($3.15 \pm 0.12$ log cgs), mass ($0.61_{-0.05}^{+0.06}$ $M_\mathrm{Jup}$), and orbital inclination ($49.8_{-5.7}^{+5.8}$ deg) of 51 Peg b. The mass and inclination values differ from those reported in earlier works. Overall, this study provides new constraints on the thermochemical and dynamical properties of 51 Peg b's atmosphere and demonstrates the potential of high-resolution emission spectroscopy for measuring parameters related to the planetary orbital motion.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23582
+  pdf: https://arxiv.org/pdf/2605.23582
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

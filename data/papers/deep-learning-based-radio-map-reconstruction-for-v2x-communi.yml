@@ -1,0 +1,32 @@
+id: deep-learning-based-radio-map-reconstruction-for-v2x-communi
+title: Deep-Learning-Based Radio Map Reconstruction for V2X Communications
+authors:
+  - Sandra Roger
+  - Mattia Brambilla
+  - Bernardo Camajori Tedeschini
+  - Carmen Botella-Mascarell
+  - Maximo Cobos
+  - Monica Nicoli
+year: 2024
+venue: IEEE Transactions on Vehicular Technology
+abstract: Radio environment map (REM) reconstruction based on large-scale channel measurements is a promising technology for future mobility services involving vehicle-to-everything (V2X) communications. REMs provide contextual information which can be exploited to reduce V2X communication latency and control signaling, for instance, through a fast access to channel state information. However, the accuracy of radio mapping techniques is limited by the availability of measurements, which require for collection significant signaling overhead. Moreover, mobility scenarios impose strict latency constraints that render fast channel acquisition a challenging problem. This paper presents a low-complexity deep-learning-based approach based on long-short term memory (LSTM) cells for REM reconstruction on roads, addressed as a data-filling problem. To improve model generalization, the network is trained on a virtually infinite dataset generated according to a 3GPP-compliant freeway scenario, considering different correlation properties and missing point configurations. The results show that the proposed approach provides a performance closer to the theoretical lower bound than the classical Ordinary Kriging spatial interpolation method, without increasing the complexity order. Experiments performed in realistic scenarios using a 3D city model confirm the generalization capability of the proposed solution.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://ieeexplore.ieee.org/ielx7/25/4356907/10292913.pdf
+  doi: 10.1109/TVT.2023.3326935
+subfield: REM  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - RNN  # TODO: maintainer verify
+  - Gaussian-process  # TODO: maintainer verify
+  - Kriging  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 29
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

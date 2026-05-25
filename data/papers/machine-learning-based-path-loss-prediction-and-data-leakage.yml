@@ -1,0 +1,25 @@
+id: machine-learning-based-path-loss-prediction-and-data-leakage
+title: Machine-Learning-Based Path Loss Prediction and Data-Leakage-Avoidance Modeling for UAV Links
+authors:
+  - Achilleas Theocharopoulos
+  - N. Moraitis
+  - Athanasios D. Panagopoulos
+year: 2026
+venue: 2026 Panhellenic Conference on Electronics & Telecommunications (PACET)
+abstract: In this paper a procedural approach is presented for path loss prediction with machine learning (ML) techniques, based on real measured data in an urban environment. Dual-polarized (DP), multiple-input multiple-output (MIMO) propagation measurements have been conducted, considering a low-elevation air-to-ground (A2G) channel for Unmanned Aerial Vehicles (UAVs). The obtained data set is utilized to train, test and assess the performance of different ML architectures, including a multilayer perceptron (MLP), extreme gradient boosting (XGB), and support vector regression (SVR). A rigorous analysis is also presented, addressing potential overfitting issues. The proposed models are evaluated using appropriate statistical metrics and tested against the conventional Fixed Intercept (FI) model. Considering the performance results, the studied ML models deliver accurate path loss predicted values with markedly low errors, adapting very well to the measured data.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/PACET68758.2026.11498248
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

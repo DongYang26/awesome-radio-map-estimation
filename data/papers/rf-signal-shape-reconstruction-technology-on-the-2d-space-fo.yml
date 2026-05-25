@@ -1,0 +1,31 @@
+id: rf-signal-shape-reconstruction-technology-on-the-2d-space-fo
+title: RF signal shape reconstruction technology on the 2D space for indoor localization
+authors:
+  - Changsoo Yu
+  - B. Shin
+  - C. Kang
+  - Jung Ho Lee
+  - Hankyeol Kyung
+  - Teahun Kim
+  - Taikjin Lee
+year: 2022
+venue: International Conference on Electronics, Information and Communications
+abstract: Various technologies using smartphones are being studied to estimate the user's location in an indoor space where GNSS cannot be used. Typically, there is a fingerprinting method using RF signal strength. This method compares RSS information received as one-shot from the current user's location with a pre-built radio map to calculate the location. Therefore, the signal discriminant according to the position is poor and the position estimation accuracy is low. On the other hand Surface Correlation technology uses a RF signal shape accumulated along the user's trajectory. Therefore, there is an advantage in that signal discrimination according to location is improved and location estimation accuracy is high. In the case of pedestrians, we reconstruct a RF signal shape using PDR. The number of steps and the direction of pedestrians are estimated using the IMU in the smartphone. Using this, the path is estimated. However, in the case of real environment, there are a wide variety of behaviors. Because behavior other than walking is measured in IMU, it is changed from the true path and the distorted signal shape is reconstructed. Distorted signal shape cause many errors because they do not match radio maps. In this paper, we are consider pedestrian in real environment and propose an RF signal shape reconstruction technology. In order to detect the correct step in the motion change, we use the enhanced PDR. This is a technology that detects accurate steps through peak detection using the pitch of a smartphone. In addition, we propose adaptive step length estimation to estimate various step length. This algorithm uses only one parameter and can provide accurate distance information by changing linear equations according to intervals. Also, the pattern of the step is analyzed to detect only the step for the purpose of moving. We propose a pacing detection that detects the path, not the purpose of pedestrian moving, by utilizing variance of step length and variance of step detection time. Through this, the position error generated in the pacing path can be reduced. To verify the performance of the proposed technology, a scenario such as a pedestrian of real environment was set and tested. The experimental results show that the proposed technology calculates more accurate trajectory even if motion changes and various behaviors are performed compared to the conventional PDR. Through this, it was confirmed that the accurate RF signal shape was reconstructed and the position was calculated more stably from the calculated position results of Surface Correlation.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/iceic54506.2022.9748389
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: indoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

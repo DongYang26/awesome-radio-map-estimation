@@ -1,0 +1,27 @@
+id: modefa-multiobserver-and-denoising-enhanced-fingerprint-augm
+title: 'MoDeFA: Multiobserver and Denoising-Enhanced Fingerprint Augmentation for Semi-Supervised Wi-Fi RSS-Based Indoor Positioning'
+authors:
+  - Tian-Jie Xiang
+  - Yuanjiang Sun
+  - Gang Shen
+year: 2025
+venue: IEEE Internet of Things Journal
+abstract: Wi-Fi received signal strength (RSS) fingerprinting is a cost-effective indoor positioning method that has attracted broad attention because it only requires the existing Wi-Fi infrastructure and ubiquitous smart devices. However, conducting a site survey to establish a fingerprint database is time-consuming and labor-intensive, hindering the fast deployment of fingerprint-based indoor positioning systems. This article presents a novel fingerprint reconstruction framework to reduce the site survey cost. The proposed MoDeFA is a semi-supervised deep learning framework that uses only a fraction of RSS data tagged with known locations to reconstruct the radio map. The resulting augmented fingerprints ensure the implementation of online fingerprint matching. First, we design a deep regression model to predict the RSS distribution from the perspectives of the multiple observational spots at surveyed locations. Next, we apply denoising to the initial radio map, a noisy representation of the ground truth, using the synthetic noise independent of the map errors without the need for ground-truth labels. Finally, we develop a noise-reduction model to compress the feature representation using unlabeled samples. Building on this, a model that combines multiscale self-attention and gated scale selection can enhance the prediction of a target’s position. We tested MoDeFA on four public and a private dataset collected from the School of Software Engineering Building at Huazhong University of Science and Technology. The results indicate that the semi-supervised MoDeFA outperforms other state-of-the-art methods in various settings, even with only a fraction (30%) of the labeled RSS samples.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/JIOT.2025.3573967
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - Transformer  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: indoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: semi-supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

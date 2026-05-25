@@ -1,0 +1,27 @@
+id: a-data-driven-transfer-learning-method-for-indoor-radio-map-
+title: A Data-Driven Transfer Learning Method for Indoor Radio Map Estimation
+authors:
+  - Rahul Kumar Jaiswal
+  - Mohamed Elnourani
+  - Siddharth Deshmukh
+  - Baltasar Beferull-Lozano
+year: 2026
+venue: IEEE Transactions on Vehicular Technology
+abstract: Estimating accurate radio maps is important for various tasks in wireless communications, such as localization, resource allocation, and network planning. Due to the changes in the propagation characteristics of the wireless environments, a radio map model learned under a particular wireless environment cannot be directly used in a new wireless environment. Moreover, learning a new model for every environment requires, in general, a large amount of data and is computationally demanding. In this work, we design an effective novel data-driven transfer learning method that transfers and fine-tunes a deep neural network (DNN)-based radio map model learned from an original indoor wireless environment to other indoor environments with a certain level of similarity. Since other widely used similarity measures do not consider the wireless propagation characteristics, we design a data-driven similarity measure that predicts the mean square error (MSE) of the estimated power values and the amount of training data needed when learning a radio map in a new environment. Extensive simulations over several wireless environments of both office and cafe area environments show that the proposed method achieves savings of approximately 40–90% in sensor measurement data while maintaining similar accuracy (MSE) as a model trained without transfer learning, and outperforms state-of-the-art methods.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/TVT.2025.3609207
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: indoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 4
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

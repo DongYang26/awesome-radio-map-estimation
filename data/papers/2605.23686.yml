@@ -1,0 +1,51 @@
+id: '2605.23686'
+title: 'The FAST Hundred-Deg$^2$ HI Deep (HD$^2$) Survey: Early Results from the Pilot Survey'
+authors:
+  - Chen Xu
+  - Yingjie Jing
+  - Jie Wang
+  - Hu Zou
+  - Wei Du
+  - Niankun Yu
+  - Hong Guo
+  - Zerui Liu
+  - Qingze Chen
+  - Tiantian Liang
+  - Zhipeng Hou
+  - Yiwei Xu
+  - Xiao Li
+  - Hui-Jie Hu
+  - Ziming Liu
+  - Pinsong Zhao
+  - Taotao Fang
+  - Liang Gao
+  - Qi Guo
+  - Qiusheng Gu
+  - Zhen Jiang
+  - Xi Kang
+  - Xu Kong
+  - Cheng Li
+  - Jun Pan
+  - Tao Wang
+  - Yanrui Zhou
+  - Wenting Wang
+  - Jing Wang
+year: 2026
+abstract: 'The Hundred-deg$^2$ HI Deep (HD$^2$) survey carried out with the Five-hundred-meter Aperture Spherical Telescope (FAST) is planned to map a contiguous region within the DESI DR1 footprint, achieving an effective integration time of 20 minutes for each pointing and a uniform detection sensitivity of 0.28 mJy beam$^{-1}$ at 4.8 km s$^{-1}$ resolution. We present early results from the pilot HD$^2$ survey: a 10 deg$^2$ field overlapping with HSC-SSP and the DESI EDR SV3, observed with an integration time of 7.3 minutes per beam and the rms of 0.45 mJy beam$^{-1}$ at 4.8 km s$^{-1}$ resolution. We identify 339 HI sources at $z<0.09$, corresponding to $\sim$34 detections per deg$^2$, nearly six times higher than the detection rate of the wide-field surveys. Optical counterparts are primarily identified using DESI redshifts, yielding a matching rate and correctness exceeding 90% for galaxies with $r<19.5$ mag, a substantial improvement over SDSS. Under the constraint of $r < 17.8$ mag and $0.01 < z < 0.05$, nearly 50% of galaxies in the DESI BGS samples have HI detections in this pilot survey. The optical properties of these HI-detected galaxies span nearly the entire parameter range of the DESI sample. The gas fraction scaling relations versus stellar mass, stellar mass surface density, NUV-r, and specific star formation rate are consistent with previous surveys, e.g., ALFALFA, DINGO, and xGASS. These results justify the feasibility of the full HD$^2$ survey, which will build a high-completeness HI census over a contiguous area to probe the cold gas scaling relations of galaxies over different scales.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23686
+  pdf: https://arxiv.org/pdf/2605.23686
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

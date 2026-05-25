@@ -1,0 +1,30 @@
+id: reusable-non-invasive-and-ultrafast-radio-frequency-biosenso
+title: Reusable, Non-Invasive, and Ultrafast Radio Frequency Biosensor Based on Optimized Integrated Passive Device Fabrication Process for Quantitative Detection of Glucose Levels
+authors:
+  - Yang Li
+  - Z. Yao
+  - Wenjing Yue
+  - Chunwei Zhang
+  - Song Gao
+  - Cong Wang
+year: 2020
+venue: Italian National Conference on Sensors
+abstract: The increase in the number of people suffering diabetes has been the driving force behind the development of glucose sensors to overcome the current testing shortcomings. In this work, a reusable, non-invasive and ultrafast radio frequency biosensor based on optimized integrated passive device fabrication process for quantitative detection of glucose level was developed. With the aid of the novel biosensor design with hammer-shaped capacitors for carrying out detection, both the resonance frequency and magnitude of reflection coefficient can be applied to map the different glucose levels. Meanwhile, the corresponding fabrication process was developed, providing an approach for achieving quantitative detection and a structure without metal-insulator-metal type capacitor that realizes low cost and high reliability. To enhance the sensitivity of biosensor, a 3-min dry etching treatment based on chlorine/argon-based plasma was implemented for realizing hydrophilicity of capacitor surface to ensure that the biosensor can be touched rapidly with glucose. Based on above implementation, a non-invasive biosensor having an ultrafast response time of superior to 0.85 s, ultralow LOD of 8.01 mg/dL and excellent reusability verified through five sets of measurements are realized. The proposed approaches are not limited the development of a stable and accurate platform for the detection of glucose levels but also presents a scheme toward the detection of glucose levels in human serum.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://www.mdpi.com/1424-8220/20/6/1565/pdf
+  doi: 10.3390/s20061565
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 22
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

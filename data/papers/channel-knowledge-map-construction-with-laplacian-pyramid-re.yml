@@ -1,0 +1,28 @@
+id: channel-knowledge-map-construction-with-laplacian-pyramid-re
+title: Channel Knowledge Map Construction with Laplacian Pyramid Reconstruction Network
+authors:
+  - Zhe-Xue Jin
+  - Li You
+  - Jue Wang
+  - Xiang-Gen Xia
+  - Xiqi Gao
+year: 2024
+venue: IEEE Wireless Communications and Networking Conference
+abstract: Channel knowledge map (CKM) has received widespread attention as an emerging enabling technology for environment-aware wireless communications. It involves the construction of databases containing location-specific channel knowledge, which are then leveraged to facilitate channel state information (CSI) acquisition and transceiver design. In this paper, we propose a Laplacian pyramid (LP)-based CKM construction scheme to predict the channel knowledge at arbitrary locations in a targeted area. Specifically, we first view the channel knowledge as a 2-D image and transform the CKM construction problem into an image to image (I2I) inpainting task, which predicts the channel knowledge at specific location by recovering the corresponding pixel value in the image matrix. Then, inspired by the reversible and closed-form frequency band decomposition structure of the LP, we design tailored subnetworks for different frequency components. In addition, to encode the global structural information of the propagation environment, we introduce self-attention and cross-covariance attention mechanisms in different layers, respectively. Experiments demonstrate that the proposed scheme can accurately reconstruct the CKM with low computational complexity. Moreover, the proposed method has a strong generalization ability to be implemented in different wireless communication scenarios.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/WCNC57260.2024.10570885
+subfield: CKM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - Transformer  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 7
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

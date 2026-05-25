@@ -1,0 +1,27 @@
+id: received-signal-strength-reconstruction-using-pix2pix-genera
+title: Received signal strength reconstruction using pix2pix generative adversarial network
+authors:
+  - Haochang Wu
+  - Hao Qin
+  - Xingqi Zhang
+year: 2023
+venue: Electronics Letters
+abstract: Positioning technology based on received signal strength (RSS) fingerprints has emerged as a vital research topic in indoor localization due to its high accuracy and low cost. Increasing the density of offline fingerprints collected can effectively improve localization accuracy in the online stage, but it will result in astronomical collection costs. RSS reconstruction using generative models is an efficient solution to dramatically reduce fingerprint collection costs while maintaining excellent accuracy. In this paper, the authors propose a pix2pix generative adversarial network based RSS reconstruction model, which can generate a dense RSS fingerprint map based on only the location information of the wireless access point. The accuracy and efficiency of the proposed model are verified in an indoor environment.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1049/ell2.12988
+  doi: 10.1049/ell2.12988
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - GAN  # TODO: maintainer verify
+task:
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: indoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 2
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

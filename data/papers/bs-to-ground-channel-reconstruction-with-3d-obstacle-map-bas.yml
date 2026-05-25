@@ -1,0 +1,28 @@
+id: bs-to-ground-channel-reconstruction-with-3d-obstacle-map-bas
+title: BS-to-Ground Channel Reconstruction With 3D Obstacle Map Based on RSS Measurements
+authors:
+  - Chenchen Fan
+  - Xiaofeng Zhong
+  - Jie Wei
+year: 2019
+venue: IEEE Access
+abstract: As the dependency on wireless services becomes considerably high, it is quite essential to achieve high-quality coverage of wireless signal in real-time. Meanwhile, radio map construction has great significance when realizing reasonable deployment of the base station (BS) or other airborne alternatives without the need for full site-specific ray-tracing simulation. Based on limited received signal strength (RSS) measurements, an effective system is proposed to reconstruct the BS-to-ground channel and then obtain a good estimation of signal values, which constructs the radio map for all the BS-user pairs in this area. Our system relies on the segmented propagation structure, consisted of line-of-sight (LOS) and non-line-of-sight (NLOS) models. An unsupervised classification method is proposed first to divide all the BS-to-ground links into two propagation models according to their signal values. Then, model parameters are computed by maximum likelihood estimation (MLE). The 3D obstacle map of this area can also be obtained based on category information, which provides a good description of obstacles layout. With this map, the signal blockage of an arbitrary BS-user pair and its class label can be confirmed. The corresponding channel is reconstructed and the value of RSS is then obtained. The performance of our system is verified by both simulation data and measured data. Compared with the methods in related works and the baseline, our classification method owns higher accuracy and the obstacle map captures most of the environmental characteristics. Our proposed system also has better RSS estimation performance.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://ieeexplore.ieee.org/ielx7/6287639/8600701/08769845.pdf
+  doi: 10.1109/ACCESS.2019.2930556
+subfield: REM  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: unsupervised  # TODO: maintainer verify
+citations: 10
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

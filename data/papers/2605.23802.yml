@@ -1,0 +1,24 @@
+id: '2605.23802'
+title: Astrophysical Parameters of 5056 Open Star Clusters from Bayesian Nested Sampling with PARSEC Isochrones
+authors:
+  - Olcay Plevne
+  - Furkan Akbaba
+year: 2026
+abstract: We present a homogeneous catalogue of fundamental astrophysical parameters -- age, metallicity ([Fe/H]), heliocentric distance, and colour excess $E(G_{\mathrm{BP}}-G_{\mathrm{RP}})$ -- for 5,056 open star clusters drawn from the Unified Cluster Catalogue (UCC). All parameters are derived uniformly from Gaia Data Release 3 (DR3) colour-magnitude diagrams via Bayesian Nested Sampling with PARSEC stellar isochrones, with no manual intervention on individual clusters. Initial metallicity $Z_{\mathrm{ini}}$ is treated as a free parameter throughout, yielding a photometric [Fe/H] estimate for every cluster. Physically motivated priors -- parallax-based distances from Gaia DR3 astrometry, spectrophotometric metallicity constraints from Gaia XP spectra where available, and interstellar reddening from the Schlegel-Finkbeiner-Davis dust map -- reduce CMD degeneracies without anchoring the fit to any external parameter catalogue. Of the 5,056 clusters, 3,766 (74.5\%) satisfy the fit-quality criterion $η_{\mathrm{fit}} \ge 0.80$. This high-quality subset spans ages 0.003-5.5~Gyr ($\log(\mathrm{Age/yr})$ median $8.33 \pm 0.34$~dex), heliocentric distances 88-19,011 pc (median 2,150~pc), metallicities $-1.17 \le \mathrm{[Fe/H]} \le +0.42$~dex (median $+0.002$ dex), and extinctions up to $A_G = 7.37$~mag (median 1.07~mag). The catalogue is made publicly available via CDS/VizieR; the complete nested-sampling posterior chains are archived on Zenodo.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23802
+  pdf: https://arxiv.org/pdf/2605.23802
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

@@ -1,0 +1,27 @@
+id: '2402.17904'
+title: '4CNet: A Diffusion Approach to Map Prediction for Decentralized Multirobot Exploration'
+authors:
+  - Aaron Hao Tan
+  - Siddarth Narasimhan
+  - G. Nejat
+year: 2024
+venue: IEEE Transactions on robotics
+abstract: 'Mobile robots in unknown cluttered environments with irregularly shaped obstacles often face energy and communication challenges which directly affect their ability to explore these environments. Existing heuristic and learning-based map prediction methods are unable to generalize to irregular obstacles and uneven terrain, as they rely on single-pass architectures that cannot iteratively refine map predictions or incorporate uncertainty under limited communication and energy constraints. On the other hand, diffusion models perform multipass denoising to reconstruct high-fidelity maps from partial observations, enabling accurate predictions in resource constrained settings. In this article, we introduce a novel deep learning architecture, confidence-aware contrastive conditional consistency model (4CNet), for robot map prediction during decentralized, resource-limited multirobot exploration. 4CNet uniquely incorporates: 1) a conditional consistency model for map prediction in unstructured unknown regions, 2) a contrastive map-trajectory pretraining framework for a trajectory encoder that extracts spatial information from the trajectories of nearby robots during map prediction, and 3) a confidence network to measure the uncertainty of map prediction for effective exploration under resource constraints. We incorporate 4CNet within our proposed robot exploration with map prediction architecture, 4CNet-E. We then conduct extensive comparison studies with 4CNet-E and state-of-the-art heuristic and learning methods to investigate both map prediction and exploration performance in environments consisting of irregularly shaped obstacles and uneven terrain. Results showed that 4CNet-E obtained statistically significant higher prediction accuracy and area coverage with varying environment sizes, number of robots, energy budgets, and communication limitations when compared to database and learning-based methods. Hardware experiments were performed and validated the applicability and generalizability of 4CNet-E in both unstructured indoor and real natural outdoor environments.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2402.17904
+  doi: 10.1109/TRO.2026.3666133
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - Diffusion  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: both  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: self-supervised  # TODO: maintainer verify
+citations: 8
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

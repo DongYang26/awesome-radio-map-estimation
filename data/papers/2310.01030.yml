@@ -1,0 +1,27 @@
+id: '2310.01030'
+title: A Robust Machine Learning Approach for Path Loss Prediction in 5G Networks with Nested Cross Validation
+authors:
+  - Ibrahim Yazici
+  - Emre Gures
+year: 2023
+venue: International Conference on Wireless Networks and Mobile Communications
+abstract: The design and deployment of fifth-generation (5G) wireless networks pose significant challenges due to the increasing number of wireless devices. Path loss has a landmark importance in network performance optimization, and accurate prediction of the path loss, which characterizes the attenuation of signal power during transmission, is critical for effective network planning, coverage estimation, and optimization. In this sense, we utilize machine learning (ML) methods, which overcome conventional path loss prediction models drawbacks, for path loss prediction in a 5G network system to facilitate more accurate network planning, resource optimization, and performance improvement in wireless communication systems. To this end, we utilize a novel approach, nested cross validation scheme, with ML to prevent overfitting, thereby getting better generalization error and stable results for ML deployment. First, we acquire a publicly available dataset obtained through a comprehensive measurement campaign conducted in an urban macro-cell scenario located in Beijing, China. The dataset includes crucial information such as longitude, latitude, elevation, altitude, clutter height, and distance, which are utilized as essential features to predict the path loss in the 5G network system. We deploy Support Vector Regression (SVR), CatBoost Regression (CBR), eXtreme Gradient Boosting Regression (XGBR), Artificial Neural Network (ANN), and Random Forest (RF) methods to predict the path loss, and compare the prediction results in terms of Mean Absolute Error (MAE) and Mean Square Error (MSE). As per obtained results, XGBR outperforms the rest of the methods. It outperforms CBR with a slight performance differences by 0.4% and 10% in terms of MAE and MSE metrics, respectively. On the other hand, it outperforms the rest of the methods with clear performance differences. Ultimately, the paper presents ML deployment with the novel approach from which network planning, resource optimization, and performance improvement in wireless communication systems will benefit as well according to the obtained results.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2310.01030
+  pdf: https://arxiv.org/pdf/2310.01030
+  doi: 10.1109/WINCOM59760.2023.10322963
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 13
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

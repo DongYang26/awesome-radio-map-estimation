@@ -1,0 +1,38 @@
+id: '2605.23685'
+title: 'HiFAST: An HI data calibration and imaging pipeline for the FAST IV: The stray-radiation correction'
+authors:
+  - Qingze Chen
+  - Jie Wang
+  - Yingjie Jing
+  - Ligang Hou
+  - Chen Xu
+  - Tiantian Liang
+  - Xuyang Gao
+  - Jinlin Han
+  - Ziming Liu
+  - Bin Liu
+  - Chuanpeng Zhang
+  - Hengqian Gan
+  - Ming Zhu
+  - Yan Zhu
+  - Peng Jiang
+year: 2026
+abstract: Stray radiation is a considerable challenge for radio telescopes, requiring careful assessment due to its effects. This is crucial when the strong background flux from side lobes significantly affects the total flux, especially for extended sources. In this study, we introduced the beam pattern of the L-band receiver on the Five-hundred-meter Aperture Spherical Telescope (FAST), covering various frequencies based on recent observations. We discovered that the main beam efficiency of all beams exceeds 90\% throughout the L band frequencies, with efficiency decreasing slowly as frequency increases. Subsequently, we developed a module to mitigate stray radiation effects, incorporating it into FAST's standard \HI data reduction process, referred to as \texttt{HiFAST}. Our analysis shows that side lobe flux's influence, particularly for extended sources with significant surface density gradients, necessitates detailed evaluation. Corrections for the extended M33 galaxy can reach up to 20\%. Moreover, the pattern data presented here is vital for studying HI intensity maps at high redshift. The module, along with HiFAST and beam pattern data across 15 frequency bins, can be accessed at \textrm{https://hifast.readthedocs.io}. The datasets of beam pattern presented in this paper, are openly available at \textrm{https://doi.org/10.57760/sciencedb.j00113.00266} (https://www.scidb.cn/s/bqQRNv).
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23685
+  pdf: https://arxiv.org/pdf/2605.23685
+  doi: https://doi.org/10.1088/1674-1056/ae4b27
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

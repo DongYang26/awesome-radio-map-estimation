@@ -1,0 +1,24 @@
+id: '2605.23586'
+title: 'Tracking a Decade of Research at the University of Nigeria, Nsukka: A Scientometric Analysis (2014-2023)'
+authors:
+  - Muneer Ahmad
+  - Joseph U Igligli
+year: 2026
+abstract: This study employs scientometric methods to assess the research output and performance of the University of Nigeria from 2014 to 2023. By analyzing publication trends, citation patterns, and collaboration networks, the research aims to comprehensively evaluate the university's research productivity, impact, and disciplinary focus. These research endeavors are characterized by innovation, interdisciplinary collaboration, and commitment to excellence, making the University of Nigeria a significant hub for cutting-edge research in Nigeria and beyond. The present study has been undertaken to determine the impact of the university's research and publication trends from 2014 to 2023. The study focuses on year-wise research output, citation impact at local and global levels, prominent authors and their total output, top journals, collaborating countries, and the most contributing departments of the University of Nigeria. The university's ten years of publication data indicate that 6,353 papers were published from 2014 to 2023, receiving 86,202 citations with an h-index of 39. In addition to this, the stenographical mapping of data is presented through graphs using the VOSviewer software mapping technique. The findings of this study will contribute to understanding the university's research strengths, weaknesses, and potential areas for improvement. Additionally, the results will inform evidence-based decision-making for enhancing research strategies and policies at the University of Nigeria
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23586
+  pdf: https://arxiv.org/pdf/2605.23586
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

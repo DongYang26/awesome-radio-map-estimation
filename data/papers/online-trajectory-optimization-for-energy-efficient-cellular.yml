@@ -1,0 +1,30 @@
+id: online-trajectory-optimization-for-energy-efficient-cellular
+title: Online Trajectory Optimization for Energy-Efficient Cellular-Connected UAVs With Map Reconstruction
+authors:
+  - Haitao Zhao
+  - Qing Hao
+  - Hao Huang
+  - Guan Gui
+  - Tomoaki Ohtsuki
+  - Hikmet Sari
+  - Fumiyuki Adachi
+year: 2024
+venue: IEEE Transactions on Vehicular Technology
+abstract: In this article, we leverage the outage probability knowledge map to characterize the connection between unmanned aerial vehicles (UAVs) and cellular networks. The outage probability knowledge map is a database that simulates the connection between UAV and the cellular network during real hovers, which helps to enhance the UAV's awareness of the environment and reduce the connection interruption under complex real-time channel state information. We assume that the UAV roughly samples from the actual radio environment of the airspace in advance, and calculates the outage probability of the sampled points. After that, the UAV reconstructs the actual outage knowledge map, and flies in the airspace to learn the optimal UAV trajectory planning policy based on the reconstructed map. The optimization objective is to minimize the flight energy cost of the UAV performing tasks. In this article, we propose a deep image prior based radio map reconstruction (DIPRMR) method to reconstruct the map, and then propose a deep reinforcement learning based trajectory optimization algorithm. The UAV that performs the task adjusts the flight trajectory based on the outage probability knowledge obtained from the reconstructed complete map. Simulation results show that the proposed online trajectory optimization scheme based on outage probability knowledge map can obtain great returns in terms of maintaining connectivity, reducing task completion time and energy consumption.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/TVT.2023.3323349
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 14
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

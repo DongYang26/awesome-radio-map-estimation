@@ -1,0 +1,24 @@
+id: '2605.23114'
+title: Increasing the Precision of Surrogate Models for Weak Lensing Mass Maps with Flow Matching
+authors:
+  - Guangjian Li
+  - Tomasz Kacprzak
+year: 2026
+abstract: 'Weak gravitational lensing maps compactly encode the evolution of cosmic large-scale structure and are a key tool for cosmological analyses. Performing inference directly at the map level allows flexible choices of statistics and can increase constraining power. Conventional methods rely solely on N-body simulations and are computationally expensive. Generative machine-learning emulators can accelerate map-level theory prediction. However, existing GAN-based map-level surrogates still have limited statistical fidelity. They can produce over-smoothed maps, may fail to capture the full distribution of generated map sets and can be difficult to train. Continuous normalizing flows trained with flow matching have recently emerged as a powerful class of generative models. We present a residual label-conditional flow matching generative network that conditions explicitly on the matter density Omega_m and clustering amplitude sigma_8 for a fixed source redshift distribution n(z). The model learns a continuous probability flow in a residual space from label-specific noise distributions to convergence maps. We evaluate it using pixel and peak statistics, the power spectrum, bispectrum, power-spectrum correlation matrices, and other validation metrics. Compared with the previous GAN benchmark, the proposed method improves the typical fidelity of generated maps from below 10% and below 20% to below 1% and below 5% for basic and higher-order statistics, respectively. The agreement at the level of map distributions is also very good: maps generated from random noise match well the distribution of maps generated with N-body simulations from random initial conditions. This work brings us closer to a practical mass-map emulator that captures the cosmological signal while supporting multiple forms of data analysis.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23114
+  pdf: https://arxiv.org/pdf/2605.23114
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - GAN  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: unsupervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

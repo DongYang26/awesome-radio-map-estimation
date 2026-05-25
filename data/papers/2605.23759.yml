@@ -1,0 +1,25 @@
+id: '2605.23759'
+title: Correlated $b \to s$ and $s \to d$ Rare Semileptonic Transitions in the Standard Model Effective Field Theory
+authors:
+  - Nilakshi Das
+  - Rusa Mandal
+  - Praveen S Patil
+year: 2026
+abstract: The persistent anomalies observed in $b \to s\,(\ell^+\ell^-,\,ν\barν)$ transitions continue to provide strong motivation for exploring possible extensions of the Standard Model (SM). Motivated by these discrepancies, we present a comprehensive analysis of semileptonic flavor changing neutral current processes within the Standard Model Effective Field Theory (SMEFT), encompassing both $b \to s\,(μ^+μ^-,\,ν\barν)$ and $s \to d\,(μ^+μ^-,\,ν\barν)$ transitions. We perform a combined fit to $b \to s\,(μ^+μ^-,\,ν\barν)$ observables, allowing the relevant dimension-six Wilson coefficients to be complex. We find that the four-fermion operators involving left-handed quark and lepton doublets provide the preferred description of the current $b \to s$ data, while the electroweak operator modifying the $Z$-boson couplings also plays an important role in improving the fit. We show that flavor-universal SMEFT couplings lead to strongly enhanced rare semileptonic kaon decay branching ratios, in conflict with current experimental bounds and thus motivating the implementation of Minimal Flavor Violation. In particular, we demonstrate that flavor-symmetric frameworks based on $U(3)^5$ and $U(2)^5$ naturally restore the required CKM hierarchies and bring the predicted kaon observables into agreement with present data. We further analyze the differential distributions with respect to the dineutrino invariant mass squared $q^2$, as well as the reconstructed variable $q^2_{\mathrm{rec}}$, in $B \to K^{(*)}ν\barν$ decays, demonstrating their sensitivity to different new physics operators. In addition, we investigate the impact of complex Wilson coefficients on $\mathcal{CP}$ asymmetries in $B \to K^{(*)}μ^+μ^-$ decays and find that percent-level effects can arise in specific $q^2$ regions.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23759
+  pdf: https://arxiv.org/pdf/2605.23759
+subfield: CKM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

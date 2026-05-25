@@ -1,0 +1,26 @@
+id: a-graph-neural-network-based-radio-map-construction-with-unc
+title: A Graph Neural Network-Based Radio Map Construction With Uncertainty Prediction
+authors:
+  - Fatema Islam Tania
+  - Seung-Jun Kim
+year: 2025
+venue: Asilomar Conference on Signals, Systems and Computers
+abstract: A graph neural network (GNN)-based method is proposed for radio map construction and uncertainty prediction in urban environment. Based on sparse measurements, the received signal strength (RSS) values are interpolated over the entire area. A graph is constructed using the city map and base station (BS) locations to capture the spatial correlation pattern of the RSS. Our proposed graph construction rule allows faithful reconstruction of the sharp transitions in the RSS values across line-of-sight (LOS) and non-line-of-sight (NLOS) regions. The uncertainty levels associated with the RSS estimates are jointly predicted using the negative log-likelihood (NLL) training cost. Numerical tests show that the proposed algorithm achieves up to a 30% reduction in root mean square error (RMSE) compared with an existing GNN-based approach, and significantly outperforms a convolutional neural network (CNN)-based method with a comparable parameter count. Furthermore, the uncertainty estimates are readily interpretable, typically assigning higher uncertainty in areas with larger prediction errors or fewer available samples.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/IEEECONF67917.2025.11443759
+subfield: REM  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - GNN  # TODO: maintainer verify
+  - CNN  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

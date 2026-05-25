@@ -1,0 +1,29 @@
+id: '2207.13473'
+title: Propagation Map Reconstruction via Interpolation Assisted Matrix Completion
+authors:
+  - Haolin Sun
+  - Junting Chen
+year: 2022
+venue: IEEE Transactions on Signal Processing
+abstract: Constructing a propagation map from a set of scattered measurements finds important applications in many areas, such as localization, spectrum monitoring and management. Classical interpolation-type methods have poor performance in regions with very sparse measurements. Recent advance in matrix completion has the potential to reconstruct a propagation map from sparse measurements, but the spatial resolution is limited. This paper proposes to integrate interpolation with matrix completion to exploit both the spatial correlation and the potential low rank structure of the propagation map. The proposed method first enriches matrix observations using interpolation, and develops the statistics of the interpolation error based on a local polynomial regression model. Then, two uncertainty-aware matrix completion algorithms are developed to exploit the interpolation error statistics. It is numerically demonstrated that the proposed method outperforms Kriging and other state-of-the-art schemes, and reduces the mean squared error (MSE) of propagation map reconstruction by 10%–50% for a medium to large number of measurements.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2207.13473
+  pdf: https://arxiv.org/pdf/2207.13473
+  doi: 10.1109/TSP.2022.3230332
+subfield: REM  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - matrix-completion  # TODO: maintainer verify
+  - Gaussian-process  # TODO: maintainer verify
+  - Kriging  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 55
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

@@ -1,0 +1,29 @@
+id: maooa-residual-attention-biconvlstm-an-automated-deep-learni
+title: 'MAOOA‐Residual‐Attention‐BiConvLSTM: An Automated Deep Learning Framework for Global TEC Map Prediction'
+authors:
+  - Haoran Wang
+  - Haijun Liu
+  - Jing Yuan
+  - H. Le
+  - Weifeng Shan
+  - Liangchao Li
+year: 2024
+venue: Space Weather
+abstract: 'The high‐precision prediction of total ionospheric electron content (TEC) is of great significance for improving the accuracy of global navigation satellite systems. There are two problems with the current prediction of TEC: (a) The existing TEC prediction models mainly based on stacked structure, which has insufficient predictive ability when the network has fewer layers, and loss of fine‐grained features when there are more layers, resulting in a decrease in predictive performance; (b) The existing research on ionospheric TEC prediction mainly focuses on building deep learning prediction models, while there is little research on optimizing the hyper‐parameters of TEC prediction models. Optimization can help find a better quasi‐optimal hyperparameter combination and improve the performance of the model. This paper proposed an automatic deep learning framework for global TEC map prediction, named MAOOA‐Residual‐Attitude‐BiConvLSTM. This framework includes a TEC prediction model, Residual‐Attention‐BiConvLSTM, which can simultaneously consider both coarse‐grained and fine‐grained spatiotemporal features. It also includes an optimization algorithm, MAOOA, for optimizing the hyper‐parameters of the model. We conducted comparative experiments between our framework and C1PG, ConvLSTM, ConvGRU, and ED‐ConvLSTM during high solar activity years, low solar activity years, and a magnetic storm event. The results indicate that in all cases, the framework proposed in this paper outperforms the comparative models.'
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1029/2024SW003954
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - RNN  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 15
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

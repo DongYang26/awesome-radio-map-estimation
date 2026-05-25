@@ -1,0 +1,27 @@
+id: path-loss-prediction-using-machine-learning-with-extended-fe
+title: Path Loss Prediction Using Machine Learning with Extended Features
+authors:
+  - Jonathan Ethier
+  - Mathieu Châteauvert
+  - Ryan G. Dempsey
+  - Alexis Bose
+year: 2025
+venue: 2025 IEEE International Symposium on Antennas and Propagation and North American Radio Science Meeting (AP-S/CNC-USNC-URSI)
+abstract: Wireless communications rely on path loss modeling, which is most effective when it includes the physical details of the propagation environment. Acquiring this data has historically been challenging, but geographic information system data is becoming increasingly available with higher resolution and accuracy. Access to such details enables propagation models to more accurately predict coverage and minimize interference in wireless deployments. Machine learning-based modeling can significantly support this effort, with feature-based approaches allowing for accurate, efficient, and scalable propagation modeling. Building on previous work, we introduce an extended set of features that improves prediction accuracy while, most importantly, maintaining model generalization across a broad range of environments.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/AP-S/CNC-USNC-URSI55537.2025.11266241
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 3
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

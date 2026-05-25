@@ -1,0 +1,30 @@
+id: radio-map-reconstruction-based-on-deep-denoising-regularizat
+title: Radio Map Reconstruction Based on Deep Denoising Regularization for UAV Communications
+authors:
+  - Haotai Zhao
+  - Qing Hao
+  - Yunxiang He
+  - Hao Huang
+  - Hikmet Sari
+  - Fumiyuki Adachi
+  - Guan Gui
+year: 2025
+venue: IEEE Transactions on Vehicular Technology
+abstract: This paper proposes a radio map reconstruction algorithm based on Deep Denoising Regularization (RMC-DDR) to effectively reconstruct high-precision radio maps under sparse data conditions and high environmental complexity. Traditional methods of obtaining radio maps face many challenges, especially when dealing with limited measurement data. This algorithm combines the deep learning framework with denoising regularization techniques, enabling the reconstruction of accurate radio maps from sparse data, significantly improving the precision and robustness of radio map reconstruction, and providing adequate technical support for optimizing unmanned aerial vehicle (UAV) communication systems. By enhancing the accuracy of radio map reconstructions, this algorithm improves UAV flight path planning and substantially boosts communication reliability and the speed of task execution. Experimental findings highlight the algorithm's pronounced superiority in the precision of radio map reconstruction, showcasing its broad application prospects in challenging environments.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/TVT.2025.3542768
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 3
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

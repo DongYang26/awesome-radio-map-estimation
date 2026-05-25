@@ -1,0 +1,30 @@
+id: angle-aware-coverage-control-for-3-d-map-reconstruction-with
+title: Angle-Aware Coverage Control for 3-D Map Reconstruction With Drone Networks
+authors:
+  - Takumi Shimizu
+  - Shunya Yamashita
+  - Takeshi Hatanaka
+  - K. Uto
+  - Martina Mammarella
+  - F. Dabbene
+year: 2022
+venue: IEEE Control Systems Letters
+abstract: In this letter, we address environmental monitoring for 3-D map reconstruction using drone networks. In view of the fact that the 3-D reconstruction requires images from a variety of viewing angles, we first formulate a novel angle-aware coverage control problem, based on a concept of virtual field that combines the position of a monitoring target and the viewing angle. Then, we define an objective function with an importance index, updated according to the history of the past coverage states. In the present scenario, drones are required not only to minimize the objective function but also to take situation-adaptive actions, e.g., a drone should quickly escape a region having low importance indices. To this end, we design a QP-based controller that switches actions depending on the current importance index. We finally demonstrate the effectiveness of the presented controller through simulations on Robot Operating System.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://ieeexplore.ieee.org/ielx7/7782633/9462165/09650560.pdf
+  doi: 10.1109/lcsys.2021.3135466
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 24
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

@@ -1,0 +1,27 @@
+id: '2510.00696'
+title: Machine Learning-based Path Loss Prediction in Suburban Environment in the Sub-6 GHz Band
+authors:
+  - Ferdaous Tarhouni
+  - M. Alzubi
+  - M. Alouini
+year: 2025
+venue: IEEE Transactions on Vehicular Technology
+abstract: Accurate path loss (PL) prediction is crucial for successful network planning, antenna design, and performance optimization in wireless communication systems. Several conventional approaches for PL prediction have been adopted, but they have been demonstrated to lack flexibility and accuracy. In this work, we investigate the effectiveness of Machine Learning (ML) models in predicting PL, particularly for the sub-6 GHz band in a suburban campus of King Abdullah University of Science and Technology (KAUST). For training purposes, we generate synthetic datasets using the ray-tracing simulation technique. The feasibility and accuracy of the ML-based PL models are verified and validated using both synthetic and measurement datasets. The random forest regression (RFR) and the K-nearest neighbors (KNN) algorithms provide the best PL prediction accuracy compared to other ML models. In addition, we compare the performance of the developed ML-based PL models with the traditional propagation models, including COST-231 Hata, Longley-Rice, and Close-in models. The results show the superiority of the ML-based PL models compared to conventional models. Therefore, the ML approach using the ray-tracing technique can provide a promising and cost-effective solution for predicting and modeling radio wave propagation in various scenarios in a flexible manner.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2510.00696
+  doi: 10.1109/tvt.2025.3633604
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

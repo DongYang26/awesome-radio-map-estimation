@@ -1,0 +1,34 @@
+id: '1503.03410'
+title: Analysis of Nb3Sn surface layers for superconducting radio frequency cavity applications
+authors:
+  - Ch. S. Becker
+  - S. Posen
+  - N. Groll
+  - R. Cook
+  - C. Schlepuetz
+  - D. Hall
+  - M. Liepe
+  - M. Pellin
+  - John Zasadzsinski
+  - T. Proslier
+year: 2015
+abstract: We present an analysis of Nb3Sn surface layers grown on a bulk Niobium (Nb) coupon prepared at the same time and by the same vapor diffusion process used to make Nb3Sn coatings on 1.3 GHz Nb cavities. Tunneling spectroscopy reveals a well-developed, homogeneous superconducting density of states at the surface with a gap value distribution centered around 2.7 ± 0.4 meV and superconducting critical temperatures (Tc) up to 16.3 K. Scanning transmission electron microscopy performed on cross sections of the sample's surface region shows an ∼2 μm thick Nb3Sn surface layer. The elemental composition map exhibits a Nb:Sn ratio of 3:1 and reveals the presence of buried sub-stoichiometric regions that have a ratio of 5:1. Synchrotron x-ray diffraction experiments indicate a polycrystalline Nb3Sn film and confirm the presence of Nb rich regions that occupy about a third of the coating volume. These low Tc regions could play an important role in the dissipation mechanisms occurring during RF tests of Nb3Sn-coated Nb...
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/1503.03410
+  pdf: https://arxiv.org/pdf/1503.03410
+  doi: 10.1063/1.4913617
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 56
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

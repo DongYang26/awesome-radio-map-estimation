@@ -1,0 +1,28 @@
+id: uav-aided-3d-building-map-reconstruction-from-rss-measuremen
+title: 'UAV-Aided 3D Building Map Reconstruction from RSS Measurements: A Diffraction-Based Approach'
+authors:
+  - Zhiqiang Tan
+  - Yuanhao Jiang
+  - Limin Xiao
+  - Ming Zhao
+  - Yunzhou Li
+year: 2024
+venue: International Conference on Emerging Technologies
+abstract: Sensing the physical environment is becoming crucial in the realm of communications, where the low-cost and illumination-independent reconstruction of 3D buildings through RSS measurements from ground transmitters (TXs) by UAVs has attracted significant attention. Traditional methodologies have predominantly focused on distinguishing between line-of-sight (LOS) and non-line-of-sight (NLOS), neglecting RSS variations. This study delves into the diffraction losses induced by buildings and their effect on RSS. Specifically, based on the regression clustering method for LOS and NLOS classification, we exploit the correlation between the RSS measurements and the theoretically deduced values that incorporate diffraction losses to estimate building distribution parameters. Simulation experiments demonstrate that our approach outperforms the classification-based method.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/ICET61945.2024.10672783
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: unsupervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

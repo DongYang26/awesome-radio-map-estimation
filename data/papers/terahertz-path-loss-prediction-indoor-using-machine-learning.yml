@@ -1,0 +1,25 @@
+id: terahertz-path-loss-prediction-indoor-using-machine-learning
+title: TeraHertz Path-Loss Prediction Indoor using Machine Learning
+authors:
+  - Nagma Elburki
+  - Affes Sofiéne
+year: 2023
+venue: 2023 IEEE International Conference on Advanced Systems and Emergent Technologies (IC_ASET)
+abstract: 'In this paper, we investigate the robustness of Machine Learning (ML) based path loss prediction models within the context of THz band for indoor environment applications. This study highlights the limitations of both empirical and deterministic models and provide solution to improve the prediction''s accuracy. To do so, we investigate four different ML models which are: Gradient Boosting, Random Forest, Multivariate Polynomial and Deep Learning. The Random Forest and the Deep Learning models show a higher prediction accuracy compared to the other two techniques due to the inherently intensive learning of these models.'
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/IC_ASET58101.2023.10151166
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: indoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 3
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

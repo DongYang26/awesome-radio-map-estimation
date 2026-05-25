@@ -1,0 +1,23 @@
+id: '2605.23869'
+title: Soft Mobility Theory
+authors:
+  - Christophe Eloy
+year: 2026
+abstract: 'Predicting how a deformable body moves and deforms in a viscous flow underlies problems ranging from microorganism locomotion to soft microrobotics, yet existing frameworks are either problem-specific or ill-suited to inverse design. We propose the soft mobility theory: applying the principle of virtual power and the Lorentz reciprocal theorem to a hyperelastic body in a background Stokes flow yields a configuration-dependent ordinary differential equation for the generalized coordinates of the body. This soft mobility equation extends classical rigid-body mobility theory in that the mobility, elastic, body-force, and flow-coupling tensors all depend explicitly on the instantaneous deformation. We specialize the framework to assemblies of hydrodynamically interacting spheres connected by elastic springs, using the Rotne-Prager-Yamakawa approximation to compute the mobility, and validate it on canonical problems spanning rigid and flexible bodies in quiescent and shear flows. An open-source JAX implementation makes entire simulations end-to-end differentiable. This allows efficient gradient-based inverse design: as proofs of concept, we recover the asymptotic optimum of a three-sphere swimmer and design a soft gyrotactic "surfer" that exploits passive deformation to ascend faster than its rigid counterpart in a Taylor-Green flow.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23869
+  pdf: https://arxiv.org/pdf/2605.23869
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

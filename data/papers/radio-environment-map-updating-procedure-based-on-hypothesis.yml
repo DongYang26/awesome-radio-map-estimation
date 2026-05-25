@@ -1,0 +1,26 @@
+id: radio-environment-map-updating-procedure-based-on-hypothesis
+title: Radio Environment Map Updating Procedure Based on Hypothesis Testing
+authors:
+  - Keita Katagiri
+  - T. Fujii
+year: 2019
+venue: International Symposium on Dynamic Spectrum Access Networks
+abstract: In this paper, we propose an updating method of a radio environment map (REM) using Welch’s t -test. The REM provides statistical radio information about primary users (PUs) to secondary users (SUs). By using REM, SUs can predict path loss and shadowing deviation in each location. However, the estimation accuracy of the radio environment is degraded if the surrounding environment changes since the initial REM is constructed. The database server should update the REM by detecting the change of the radio environment. Therefore, in this paper, we consider that the database server judges the change of the radio environment by using Welch’s t-test, which is one of the hypothesis testings. In the proposed method, the sensor nodes observe the received power in each location and report this information to the database server. The database server tests the difference of the average received power between the initial REM and the new observed datasets and decides the requirement of update of the REM. The simulation results show that the proposed method can detect the change of the radio environment and accurately predict the average received power than the updating method using oblivion factor.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/DySPAN.2019.8935724
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 5
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

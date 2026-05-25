@@ -1,0 +1,26 @@
+id: mmwave-path-loss-prediction-using-machine-learning-and-deep-
+title: Mmwave Path Loss Prediction using Machine Learning and Deep Learning Techniques
+authors:
+  - Harsha Harrison
+  - Chinnu Jacob
+  - B. Babu
+  - R. Resmi
+year: 2025
+venue: 2025 IEEE 2nd International Conference on Green Industrial Electronics and Sustainable Technologies (GIEST)
+abstract: Millimeter-wave (mmWave) communication, operating in the $24-100 \mathrm{GHz}$ range, is a key enabler for 5 G and beyond due to its ultra-fast transmission and wide bandwidth. However, mmWave signals suffer from severe path loss and strong sensitivity to obstacles such as buildings, foliage, and human presence, limiting their practical deployment. Accurate path loss prediction is therefore critical for reliable network design. Traditional empirical and ray-tracing models are computationally expensive and often fail to adapt to complex real-world scenarios. In this work, we propose a framework that combines Gaussian noise-based data augmentation validated via KL divergence with a Bayesian Neural Network (BNN) to provide both accurate predictions and predictive uncertainty. Real-world datasets at 28 GHz and 73 GHz under Line-of-Sight (LOS) and Non-Line-of-Sight (NLOS) conditions are used, with features including angles of arrival/departure and absolute path delay. The BNN outperforms conventional models by producing calibrated confidence intervals in addition to point predictions, supporting uncertainty-aware mmWave system design.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/GIEST66547.2025.11387216
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

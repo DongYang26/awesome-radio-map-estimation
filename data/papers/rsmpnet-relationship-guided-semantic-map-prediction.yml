@@ -1,0 +1,28 @@
+id: rsmpnet-relationship-guided-semantic-map-prediction
+title: 'RSMPNet: Relationship Guided Semantic Map Prediction'
+authors:
+  - Jingwen Sun
+  - Jing Wu
+  - Ze Ji
+  - Yu-Kun Lai
+year: 2024
+venue: IEEE Workshop/Winter Conference on Applications of Computer Vision
+abstract: In semantic navigation, a top-down map with accurate and complete semantic information is vital to subsequent decision-making. However, due to occlusions and limitations of the robot’s field of view (FOV), there are often unobserved areas in the top-down maps. To address this problem, recent works have studied semantic map prediction to complete the top-down maps. In this work, we propose to improve map prediction by integrating relational information. We propose RSMPNet, a relationship-guided semantic map prediction network, which makes use of semantic and spatial relationships to predict unobserved areas from accumulated semantic maps. Specifically, we propose a Relationship Reasoning Layer that includes two modules, namely 1) the Semantic Relationship Graph Reasoning Module (SeGRM) to capture the semantic relationship and 2) the Spatial Relationship Graph Reasoning Module (SpGRM) to utilize the spatial relationship. We also design a semantic relationship enhanced loss to enhance our model to learn semantic relationship information. Experiments show the effectiveness of our proposed network which achieves state-of-the-art performance in semantic map prediction. Our code and dataset are publicly available at https://github.com/jws39/semantic-map-prediction
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://orca.cardiff.ac.uk/id/eprint/163772/1/RSMPNet_WACV2024.pdf
+  doi: 10.1109/WACV57701.2024.00037
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 4
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

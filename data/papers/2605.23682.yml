@@ -1,0 +1,28 @@
+id: '2605.23682'
+title: Tri-Domain Multiuser MIMO Precoding Optimization and Channel Estimation with Spatial-EM Reconfigurable Antenna
+authors:
+  - Yining Li
+  - Ziwei Wan
+  - Zhen Gao
+  - Keke Ying
+  - Lipeng Zhu
+  - Rui Zhang
+year: 2026
+abstract: In this paper, we propose a tri-domain reconfigurable multiuser multiple-input multiple-output (MIMO) communication system that integrates the electromagnetic (EM) reconfigurable antenna (EMRA) with the spatially movable antenna (SMA), termed the spatial-EM reconfigurable antenna (SEMRA). The proposed system offers EM, spatial, and digital domain degrees of freedom (DoFs) for joint channel reconfiguration, yet introduces new challenges in channel estimation (CE) and precoding optimization. Specifically, for multiuser orthogonal frequency division multiplexing (OFDM) downlink, the precoding design is formulated as a tri-domain optimization problem over antenna positions, EM-domain radiation-pattern weights, and digital precoders. We first develop a zero-forcing (ZF)-based baseline algorithm to decouple the design of spatial reconfiguration, and then propose a weighted minimum mean square error (WMMSE)-based tri-domain joint optimization algorithm for further improving the spectral efficiency (SE). Furthermore, we propose a low-overhead movement-aided channel estimation scheme in which coordinated antenna repositioning across pilot slots synthesizes a denser virtual array, enabling more accurate angle-of-departure (AoD) estimation and EM-domain channel state information (eCSI) reconstruction under the same per-user pilot overhead as the EMRA baseline. The resulting parametric representation enables eCSI assembly at desired antenna positions without additional pilots. Simulation results show that the proposed CE scheme improves eCSI estimation accuracy and the proposed SEMRA achieves higher SE than the EMRA baseline under the same pilot overhead.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23682
+  pdf: https://arxiv.org/pdf/2605.23682
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

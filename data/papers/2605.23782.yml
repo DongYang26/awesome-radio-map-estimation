@@ -1,0 +1,24 @@
+id: '2605.23782'
+title: Routing Equilibrium in Mixed-Autonomy Traffic Networks with Altruistic Autonomous Agents
+authors:
+  - Lihui Yi
+  - Ermin Wei
+year: 2026
+abstract: Recent advancements in vehicle autonomy have drawn interest in understanding the impact of autonomous vehicles on traffic systems. In this paper, we study a traffic assignment problem in a mixed-autonomy setting where both human-driven and autonomous vehicles coexist. We model the interaction as a simultaneous routing game where human drivers are self-interested and aim to minimize their own travel times, while autonomous agents are altruistic and aim to minimize the total social cost. The standard nonatomic congestion game analysis establishes the existence of equilibrium to this game under convex cost functions, and does not have any implication of its uniqueness. In this work, we formulate the equilibrium as a variational inequality (VI), which enables us to establish the equilibrium existence without convexity assumption, and guarantees the uniqueness of the aggregated link flow and social cost at equilibrium under a specific class of cost functions. Leveraging this VI framework, we provide sufficient conditions under which including autonomous agents improves, deteriorates, or has no effect on social cost. While the possibility of deterioration has been established in prior work, our results complement existing worst-case bounds by explicitly characterizing sufficient conditions under which each outcome occurs, thereby providing a deeper understanding of mixed-autonomy traffic systems. Furthermore, we consider a centralized scenario where a social planner optimizes the routing of autonomous agents, and show that the same equilibrium is achieved as in the decentralized scenario when assuming convex costs.Finally, we conduct numerical experiments that illustrate how social cost changes with the amount of autonomous vehicles under different system parameters.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23782
+  pdf: https://arxiv.org/pdf/2605.23782
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - autoencoder  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

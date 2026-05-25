@@ -1,0 +1,26 @@
+id: '2605.23649'
+title: Diffusion Fluid Antenna Systems for Resilient ISAC
+authors:
+  - Noor Waqar
+  - Kai-Kit Wong
+  - Chan-Byoung Chae
+  - Ross Murch
+year: 2026
+abstract: 'Most existing integrated sensing and communication (ISAC) studies focus on enabling a base station (BS) to support sensing and communication over shared resources through advanced waveform design and power allocation. In contrast, the object-side perspective remains underexplored. For example, an object may wish to remain difficult to detect for security reasons, while another object in close proximity may generate dominant reflections that confuse the BS and impair sensing reliability for the intended target. These challenges motivate the fluid antenna system (FAS) paradigm which introduces a reconfigurable spatial degree of freedom (DoF) that can reshape sensing signatures via port selection, beyond what waveform and power control alone can provide. In this paper, we devise diffusion FAS, a generative artificial intelligence (AI)-driven framework that exploits spatial agility to steer ISAC performance over the electromagnetic fading manifold. Instead of optimizing ISAC solely in the power domain, diffusion FAS casts ISAC as a \emph{dynamic spatial selection} problem in which antenna states (i.e., ports) are chosen to shape sensing signatures while maintaining communication objectives. To work under sparse measurements, we employ a conditional denoising diffusion probabilistic model (DDPM) to reconstruct the latent spatial correlation structure from a small set of observed ports, enabling efficient exploration of the reconfigurable aperture. We demonstrate two FAS-enabled ISAC modes: (1) \emph{generative spatial stealth}, which identifies localized deep fades to suppress a target''s sensing visibility by up to two orders of magnitude, and (2) \emph{target isolation}, which synthesizes spatial nulls that reject interference from adjacent objects.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23649
+  pdf: https://arxiv.org/pdf/2605.23649
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - Diffusion  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

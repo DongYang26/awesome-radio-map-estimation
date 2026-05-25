@@ -1,0 +1,29 @@
+id: dygs-slam-realistic-map-reconstruction-in-dynamic-scenes-bas
+title: 'DyGS-SLAM: Realistic Map Reconstruction in Dynamic Scenes Based on Double-Constrained Visual SLAM'
+authors:
+  - Fan Zhu
+  - Yifan Zhao
+  - Ziyu Chen
+  - Chunmao Jiang
+  - Hui Zhu
+  - Xiaoxi Hu
+year: 2025
+venue: Remote Sensing
+abstract: Visual SLAM is widely applied in robotics and remote sensing. The fusion of Gaussian radiance fields and Visual SLAM has demonstrated astonishing efficacy in constructing high-quality dense maps. While existing methods perform well in static scenes, they are prone to the influence of dynamic objects in real-world dynamic environments, thus making robust tracking and mapping challenging. We introduce DyGS-SLAM, a Visual SLAM system that employs dual constraints to achieve high-fidelity static map reconstruction in dynamic environments. We extract ORB features within the scene, and use open-world semantic segmentation models and multi-view geometry to construct dual constraints, forming a zero-shot dynamic information elimination module while recovering backgrounds occluded by dynamic objects. Furthermore, we select high-quality keyframes and use them for loop closure detection and global optimization, constructing a foundational Gaussian map through a set of determined point clouds and poses and integrating repaired frames for rendering new viewpoints and optimizing 3D scenes. Experimental results on the TUM RGB-D, Bonn, and Replica datasets, as well as real scenes, demonstrate that our method has excellent localization accuracy and mapping quality in dynamic scenes.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.3390/rs17040625
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 10
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

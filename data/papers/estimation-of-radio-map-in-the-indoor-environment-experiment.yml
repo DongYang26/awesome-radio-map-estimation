@@ -1,0 +1,26 @@
+id: estimation-of-radio-map-in-the-indoor-environment-experiment
+title: 'Estimation of Radio Map in the Indoor Environment: Experimental Measurement'
+authors:
+  - A. M. C. Jahanavi
+  - Navin Kumar
+  - V. Kumar
+  - Seungil Yoon
+year: 2024
+venue: International Symposium on Wireless Personal Multimedia Communications
+abstract: Estimation of radio mapping affects the performance of the network. Better estimation not only increases the user experience but also utilizes the network resources. This work provides error and closeness in the measured value and the value obtained through simulation of a few standard radio mapping algorithms. The measurement is performed in the indoor environment in research and development laboratory and its surrounding area. We have plotted the estimated received power, power spectral density of the algorithm and calculated the root mean square error (RMSE) by placing the known point at different geometry. It is observed that the error obtained is competitive for inverse distance weighing (IDW) and gradient plus inverse distance squared (GIDS) but performance of IDW is slightly better in most of the scenario layouts. That is, RMSE is $\mathbf{7. 5 4 1 2}$ for IDW for equilateral triangle placement of known point while it is 8.5841 in the case of GIDS. Nearest neighbor performance in terms of RMSE for the same layout is 13.8719.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/WPMC63271.2024.10863186
+subfield: REM  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - IDW  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: indoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

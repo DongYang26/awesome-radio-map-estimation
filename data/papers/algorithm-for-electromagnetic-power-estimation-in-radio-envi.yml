@@ -1,0 +1,23 @@
+id: algorithm-for-electromagnetic-power-estimation-in-radio-envi
+title: Algorithm for Electromagnetic Power Estimation in Radio Environment Map
+authors:
+  - Tilal Elsheikh Ahmed Osman
+  - Osman Mudathir Elfadil
+year: 2020
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://doi.org/10.14445/23488549/ijece-v7i5p108
+  doi: 10.14445/23488549/ijece-v7i5p108
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

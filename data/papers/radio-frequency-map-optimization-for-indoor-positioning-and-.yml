@@ -1,0 +1,24 @@
+id: radio-frequency-map-optimization-for-indoor-positioning-and-
+title: Radio-Frequency Map Optimization for Indoor Positioning and Tracking
+authors:
+  - F. Daníş
+year: 2025
+venue: Sakarya University Journal of Computer and Information Sciences
+abstract: We introduce a parameter optimization strategy to enhance the accuracy of an indoor positioning system. The indoor positioning system of interest is composed of subsequent stages of processing of reference reduced signal strength indicator (RSSI) streams, Gaussian processes-based estimation of probabilistic radio-frequency maps, and an adaptive particle filter that is used to infer the trajectory of the tracked object. Each stage has its own model parameters, which can be evaluated by the accuracy of the final trajectory estimations given their ground-truth counterparts. We make use of an open dataset that includes RSSI data on reference points, RSSI data related to trajectories and their corresponding ground-truth positions. By being able to evaluate the estimations, we develop a Monte Carlo particle swarm optimization strategy to search for the best parameter configuration that minimizes the trajectory error. The time performance of the optimization strategy is also improved by artificially discretizing the parameters space, so that the stages can use the previously processed streams or radio maps. We show that the strategy can both improve accuracy and decrease the search time with respect to a grid-based search strategy.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.35377/saucis...1644762
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - Gaussian-process  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: indoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

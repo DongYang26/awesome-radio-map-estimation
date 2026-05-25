@@ -1,0 +1,29 @@
+id: snr-degradation-in-gnss-r-measurements-under-the-effects-of-
+title: SNR Degradation in GNSS-R Measurements Under the Effects of Radio-Frequency Interference
+authors:
+  - J. Querol
+  - Alberto Alonso Arroyo
+  - Raul Onrubia Ibáñez
+  - D. Pascual
+  - Hyuk Park
+  - Adriano Camps
+year: 2016
+venue: IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://upcommons.upc.edu/bitstream/2117/102031/1/JSTARS15_vF.C.pdf
+  doi: 10.1109/JSTARS.2016.2597438
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 32
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

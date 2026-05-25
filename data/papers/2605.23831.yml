@@ -1,0 +1,24 @@
+id: '2605.23831'
+title: 'Ray-Tracing vs. 3GPP TDL: Power Delay Profile Analysis in Outdoor-to-Indoor and Indoor Channels'
+authors:
+  - Julia Andrusenko
+  - Chloe Makdad
+year: 2026
+abstract: 3rd Generation Partnership Project (3GPP) Technical Report (TR) 38.901 channel models (Releases 15-19) are widely used for physical-layer design and system-level evaluation in dense urban outdoor-to-indoor (O2I) and indoor environments. These models capture ensemble-averaged channel statistics but do not account for site-specific geometry. In this paper, we compare Power Delay Profiles (PDPs) derived from a deterministic ray-tracing model (Remcom Wireless InSite software) with those from the 3GPP TR 38.901 Tapped Delay Line (TDL) channel models. This comparative analysis is performed using a dense urban O2I scenario and a representative single-story indoor layout modeled in Washington, D.C., under matched link-distance and Non-Line-of-Sight (NLOS) conditions. All Wireless InSite PDPs are power-normalized to enable comparison of relative multipath delay structure.   We evaluate root-mean-square (RMS) delay spread, mean excess delay, effective maximum delay, and Kullback-Leibler (KL) distribution divergence. Results indicate that 3GPP TDL models generally exhibit longer delay spreads and often fail to capture deterministic, site-specific features such as late-arriving energy and irregular spikes. While TDL models can approximate primary channel features in some cases, their reliance on ensemble-averaged statistics rather than geometry limits their representation of fine multipath structures. We conclude that while 3GPP TDL models are suitable for large-scale system evaluation, deterministic or hybrid approaches are more appropriate for site-specific physical-layer design.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23831
+  pdf: https://arxiv.org/pdf/2605.23831
+subfield: REM  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: both  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

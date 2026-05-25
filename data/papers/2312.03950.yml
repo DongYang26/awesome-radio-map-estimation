@@ -1,0 +1,27 @@
+id: '2312.03950'
+title: A Scalable and Generalizable Pathloss Map Prediction
+authors:
+  - Ju-Hyung Lee
+  - A. Molisch
+year: 2023
+venue: IEEE Transactions on Wireless Communications
+abstract: 'Large-scale channel prediction, i.e., estimation of the pathloss from geographical/morphological/building maps, is an essential component of wireless network planning. Ray tracing (RT)-based methods have been widely used for many years, but they require significant computational effort that may become prohibitive with the increased network densification and/or use of higher frequencies in B5G/6G systems. In this paper, we propose a data-driven, model-free pathloss map prediction (PMP) method, called PMNet. PMNet uses a supervised learning approach: it is trained on a limited amount of RT data and map data. Once trained, PMNet can predict pathloss over location with high accuracy (an RMSE level of <inline-formula> <tex-math notation="LaTeX">$10^{-2}$ </tex-math></inline-formula>) in a few milliseconds. We further extend PMNet by employing transfer learning (TL). TL allows PMNet to learn a new network scenario quickly (<inline-formula> <tex-math notation="LaTeX">$\times 5.6$ </tex-math></inline-formula> faster training) and efficiently (using <inline-formula> <tex-math notation="LaTeX">$\times 4.5$ </tex-math></inline-formula> less data) by transferring knowledge from a pre-trained model, while retaining accuracy. Our results demonstrate that PMNet is a scalable and generalizable ML-based PMP method, showing its potential to be used in several network optimization applications.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2312.03950
+  pdf: https://arxiv.org/pdf/2312.03950
+  doi: 10.1109/TWC.2024.3457431
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 53
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

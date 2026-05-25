@@ -1,0 +1,26 @@
+id: '2605.23734'
+title: The Floquet-Magnus expansion of unbounded operators
+authors:
+  - Daniel Burgarth
+  - Robin Hillier
+  - Davide Lonigro
+  - Leonhard Richter
+year: 2026
+abstract: 'The Floquet-Magnus expansion is a widely used tool to derive effective descriptions of time-periodic quantum systems by approximating their dynamics with a time-independent Hamiltonian. However, its standard formulation is, strictly speaking, restricted to bounded Hamiltonians. In this work, we extend its definition and analysis to a broad class of time-periodic unbounded Hamiltonians. Our approach is based on an a priori distinct nonperturbative framework for the construction of effective Hamiltonians, which we show to reproduce the Floquet-Magnus expansion. A particular strength of our framework is that it allows us to prove that the resulting effective dynamics approximates the original time evolution propagators to arbitrary order in the high-frequency limit without requiring convergence of the Floquet-Magnus expansion, a condition that is already highly restrictive even in the bounded setting. We illustrate the scope of the method on representative models: the quantum Rabi Hamiltonian in the interaction picture, and the periodically driven quantum harmonic oscillator.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23734
+  pdf: https://arxiv.org/pdf/2605.23734
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

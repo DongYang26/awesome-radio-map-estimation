@@ -1,0 +1,29 @@
+id: robunet-a-radio-map-construction-method-with-a-strong-genera
+title: 'RobUNet: A Radio Map Construction Method with A Strong Generalization Capability'
+authors:
+  - Shuai Shao
+  - Kangjun Liu
+  - Qingyu Liu
+  - Shuhang Zhang
+  - Ke Chen
+  - Lingyang Song
+year: 2024
+venue: Global Communications Conference
+abstract: Radio map presents communication parameters of interest, e.g., radio power, across a geographical region in a specific frequency band. It can be leveraged to improve the efficiency of spectrum utilization. The problem of constructing a radio map involves utilizing measurements from sparsely distributed sensors to infer the parameter of interest at every point in the region. One major challenge of solving this problem is ensuring a strong generalization capability for the solution, i.e., ensuring that the solution is able to make accurate inferences even in the presence of unknown system variables that can affect radio propagation, such as obstacle layouts and weather conditions. This paper focuses on analyzing and optimizing the generalization capability of radio map construction, an aspect that has been neglected in prior research as far as we know. We design RobUNet—a UNet-based algorithm that captures multi-scale features of radio maps. It further leverages mechanisms of residual connection, channel attention, and pixel attention to enhance its generalization capability. Simulations based on real-world dataset show that (i) the radio maps constructed by RobUNet are much more accurate than those constructed by many existing solutions in the presence of unknown system variables, and (ii) the accuracy of the radio maps constructed by RobUNet when system variables are unknown is close to that of the radio maps constructed by RobUNet when system variables are known. As a result, the generalization capability of RobUNet is much stronger than that of state-of-the-art.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/GLOBECOM52923.2024.10901772
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 5
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

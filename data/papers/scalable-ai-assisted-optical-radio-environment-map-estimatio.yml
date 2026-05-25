@@ -1,0 +1,26 @@
+id: scalable-ai-assisted-optical-radio-environment-map-estimatio
+title: Scalable AI-assisted optical radio environment map estimation for indoor visible-light communication systems (AI-VLCmaps)
+authors:
+  - Helena Serpi
+  - Dimitris Alexandropoulos
+  - C. Politi
+year: 2025
+venue: Optical Engineering + Applications
+abstract: Accurate prediction of optical Radio Environment Maps (REMs) is essential for the efficient design and optimization of indoor Visible Light Communication (VLC) systems. Conventional methods, such as geometric modeling and raytracing simulations, provide high accuracy but are computationally demanding and heavily dependent on-site geometry and layout. To overcome these challenges, we propose AI-VLCmaps, a supervised learning approach leveraging U-Net architectures to predict optical REMs. Our results show that U-Net model outperforms Multi-Layer Perceptron (MLP) models, which exhibit limited transferability due to overfitting to specific geometries and system configurations. A U-Net model pre-trained on a diverse set of VLC scenarios offers a computationally efficient alternative to ray-tracing, enabling real-time and adaptive VLC system deployment in dynamic indoor settings. The AI-VLCmaps model is paving the way for integration into next-generation intelligent wireless networks, enhancing both efficiency and adaptability in VLC system design and aligns with emerging trends in Joint Communication and Sensing (JCAS).
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1117/12.3065355
+subfield: REM  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: indoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

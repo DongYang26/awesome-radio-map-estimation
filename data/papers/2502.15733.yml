@@ -1,0 +1,29 @@
+id: '2502.15733'
+title: Channel Gain Map Construction Based on Subregional Learning and Prediction
+authors:
+  - Jiayi Chen
+  - Ruifeng Gao
+  - Jue Wang
+  - Shu Sun
+  - Yi Wu
+year: 2025
+venue: IEEE Transactions on Vehicular Technology
+abstract: The construction of channel gain map (CGM) is essential for realizing environment-aware wireless communications expected in 6G, for which a fundamental problem is how to predict the channel gains at unknown locations effectively by a finite number of measurements. As using a single prediction model is not effective in complex propagation environments, we propose a subregional learning-based CGM construction scheme, with which the entire map is divided into subregions via data-driven clustering, then individual models are constructed and trained for every subregion. In this way, specific propagation feature in each subregion can be better extracted with finite training data. Moreover, we propose to further improve prediction accuracy by uneven subregion sampling, as well as training data reuse around the subregion boundaries. Simulation results validate the effectiveness of the proposed scheme in CGM construction.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2502.15733
+  doi: 10.1109/TVT.2025.3542581
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: unsupervised  # TODO: maintainer verify
+citations: 7
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

@@ -1,0 +1,28 @@
+id: received-signal-strength-and-local-terrain-profile-data-for-
+title: Received signal strength and local terrain profile data for radio network planning and optimization at GSM frequency bands
+authors:
+  - S. Popoola
+  - Atayero
+  - N. Faruk
+year: 2017
+venue: Data in Brief
+abstract: 'The behaviour of radio wave signals in a wireless channel depends on the local terrain profile of the propagation environments. In view of this, Received Signal Strength (RSS) of transmitted signals are measured at different points in space for radio network planning and optimization. However, these important data are often not publicly available for wireless channel characterization and propagation model development. In this data article, RSS data of a commercial base station operating at 900 and 1800 MHz were measured along three different routes of Lagos-Badagry Highway, Nigeria. In addition, local terrain profile data of the study area (terrain elevation, clutter height, altitude, and the distance of the mobile station from the base station) are extracted from Digital Terrain Map (DTM) to account for the unique environmental features. Statistical analyses and probability distributions of the RSS data are presented in tables and graphs. Furthermore, the degree of correlations (and the corresponding significance) between the RSS and the local terrain parameters were computed and analyzed for proper interpretations. The data provided in this article will help radio network engineers to: predict signal path loss; estimate radio coverage; efficiently reuse limited frequencies; avoid interferences; optimize handover; and adjust transmitted power level.'
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://doi.org/10.1016/j.dib.2017.12.036
+  doi: 10.1016/j.dib.2017.12.036
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 32
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

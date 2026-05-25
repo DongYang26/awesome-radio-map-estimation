@@ -1,0 +1,29 @@
+id: constructing-a-digital-twin-of-the-birdcage-coil-in-an-mr-sc
+title: 'Constructing a Digital Twin of the Birdcage Coil in an MR Scanner by Map Matching: For Radio Frequency Heating Evaluation of Implantable Medical Devices'
+authors:
+  - Tiangang Long
+  - Changqing Jiang
+  - Wanxuan Sang
+  - Y. Gu
+  - Jianqi Ding
+  - Luming Li
+year: 2022
+venue: IEEE Transactions on Instrumentation and Measurement
+abstract: Radio frequency (RF)-induced heating associated with medical implants is a critical concern when performing a magnetic resonance imaging (MRI) scan. The purpose of this study is to construct a “digital twin” of RF coil integrated in an MRI scanner by <inline-formula> <tex-math notation="LaTeX">$B_{1}^{+}$ </tex-math></inline-formula> map matching, reproducing the physical electromagnetic (EM) field, allowing it to be a qualified test environment for heating evaluations. <inline-formula> <tex-math notation="LaTeX">$B_{1}^{+}$ </tex-math></inline-formula> map inside an American Society for Testing Material (ASTM) phantom with various positions was used to characterize the physical EM field. A loaded tuned two-port birdcage body coil model was established to generate the numerical EM field and optimized to minimize the difference between the measured and simulated fields, which was quantified by “mean symmetric mean absolute percentage error” (mSMAPE). The amplitude of the simulated field was normalized to MR sequence labeling. Finally, the average specific absorption rate (SAR) inside the ASTM phantom was measured in a calorimetry experiment and compared to simulation one heated by the pre-established coil. A heating experiment was performed on an insulated cable to further validate the established test environment. The impact of excitation parameters and the port location was investigated. mSMAPE of the optimized field was less than 10%. The difference between the simulated and measured average SAR was 8.5%. <inline-formula> <tex-math notation="LaTeX">$R^{2}$ </tex-math></inline-formula> for the linear regression of the temperature rise and predicted power deposition using the optimized field was 0.993. The digital twin was successfully constructed and verified a sufficiently accurate description of the physical field. The established construction method of the digital twin provides a handy choice for building RF test environment and may create more possibilities for the development of this area.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/TIM.2022.3212552
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 13
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

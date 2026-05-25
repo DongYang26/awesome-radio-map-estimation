@@ -1,0 +1,30 @@
+id: model-and-transfer-spatial-temporal-knowledge-for-fine-grain
+title: Model and Transfer Spatial-Temporal Knowledge for Fine-Grained Radio Map Reconstruction
+authors:
+  - Kehan Li
+  - Chao Li
+  - B. Yu
+  - Zhangchong Shen
+  - Qiming Zhang
+  - Shibo He
+  - Jiming Chen
+year: 2022
+venue: IEEE Transactions on Cognitive Communications and Networking
+abstract: Radio map, serving as an efficient indicator of wireless environments, has been widely used in many applications such as network monitoring, anomaly signal detection, and localization. It is hard to maintain an update-to-date fine-grained radio map within a large area since the radio map changes rapidly due to internal and external factors. In this paper, we develop a fine-grained radio map reconstruction framework, called Supreme, based on crowdsourced data in an image super-resolution manner. Specifically, Supreme explores spatial-temporal relationships in historical coarse-grained radio maps and builds a real-time fine-grained radio map via a spatial-temporal reconstruction network. Furthermore, a heterogeneous data fusion module is devised to handle external information. Supreme has shown its superiority on real-world datasets. However, it is costly to collect enough fine-grained radio maps as labels considering the labor-intensive collection process and privacy issues. Therefore, we further present the Supreme-UDA that adapts the model from a labeled source domain towards an unlabeled target domain with the help of a domain classifier. Compared with Supreme, the enhanced model effectively transfers spatial-temporal knowledge and improves generalization ability in new scenes even without any annotations. Finally, a case study illustrates that our model can boost localization accuracy in practice.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/tccn.2021.3133844
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 28
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

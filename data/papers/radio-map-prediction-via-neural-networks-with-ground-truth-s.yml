@@ -1,0 +1,27 @@
+id: radio-map-prediction-via-neural-networks-with-ground-truth-s
+title: Radio Map Prediction via Neural Networks with Ground Truth Shortcuts and Selective Sampling
+authors:
+  - Mengfan Wu
+  - Marco Skocaj
+  - M. Boban
+year: 2025
+venue: International Workshop on Machine Learning for Signal Processing
+abstract: In this paper, we present a machine learning approach for fast indoor radio map generation assisted by sample measurements in the target environment as extra input. Our solution is developed for MLSP 2025 The Sampling-Assisted Pathloss Radio Map Prediction Data Competition. In addition to feature engineering for input augmentation, we design a shortcut path in the convolutional neural network that routes the sample input channel directly to the deeper layers, which facilitates efficient refinement of the output radio map. We further propose selective sampling strategies for measurement locations to enhance the accuracy of the generated radio maps. The proposed method demonstrates particularly strong performance under conditions of relatively high sampling rates.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/MLSP62443.2025.11204216
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: indoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 2
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

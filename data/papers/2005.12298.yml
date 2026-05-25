@@ -1,0 +1,39 @@
+id: '2005.12298'
+title: 'High-resolution VLA low radio frequency observations of the Perseus cluster: radio lobes, mini-halo, and bent-jet radio galaxies'
+authors:
+  - M. Gendron-Marsolais
+  - J. Hlavacek-Larrondo
+  - R. Weeren
+  - L. Rudnick
+  - Tracy E. Clarke
+  - Biny Sebastian
+  - T. Mroczkowski
+  - A. C. Fabian
+  - K. Blundell
+  - Evan Sheldahl
+  - K. Nyland
+  - J. Sanders
+  - W. Peters
+  - H. Intema
+year: 2020
+venue: Monthly notices of the Royal Astronomical Society
+abstract: We present the first high-resolution 230–470 MHz map of the Perseus cluster obtained with the Karl G. Jansky Very Large Array. The high dynamic range and resolution achieved have allowed the identification of previously unknown structures in this nearby galaxy cluster. New hints of sub-structures appear in the inner radio lobes of the brightest cluster galaxy NGC 1275. The spurs of radio emission extending into the outer X-ray cavities, inflated by past nuclear outbursts, are seen for the first time at these frequencies, consistent with spectral aging. Beyond NGC 1275, we also analyse complex radio sources harboured in the cluster. Two new distinct, narrowly collimated jets are visible in IC 310, consistent with a highly projected narrow-angle tail radio galaxy infalling into the cluster. We show how this is in agreement with its blazar-like behaviour, implying that blazars and bent-jet radio galaxies are not mutually exclusive. We report the presence of filamentary structures across the entire tail of NGC 1265, including two new pairs of long filaments in the faintest bent extension of the tail. Such filaments have been seen in other cluster radio sources such as relics and radio lobes, indicating that there may be a fundamental connection between all these radio structures. We resolve the very narrow and straight tail of CR 15 without indication of double jets, so that the interpretation of such head–tail sources is yet unclear. Finally, we note that only the brightest western parts of the mini-halo remain, near NGC 1272 and its bent double jets.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2005.12298
+  pdf: https://academic.oup.com/mnras/article-pdf/499/4/5791/34564777/staa2003.pdf
+  doi: 10.1093/MNRAS/STAA2003
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 28
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

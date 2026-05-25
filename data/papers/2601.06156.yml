@@ -1,0 +1,29 @@
+id: '2601.06156'
+title: Channel Knowledge Map Construction via Guided Flow Matching
+authors:
+  - Ziyu Huang
+  - Yong Zeng
+  - Shen Fu
+  - Xiaoli Xu
+  - Hongyang Du
+year: 2026
+venue: IEEE Wireless Communications Letters
+abstract: The efficient construction of accurate channel knowledge maps (CKMs) is crucial for unleashing the full potential of environment-aware wireless networks, yet it remains a difficult ill-posed problem due to the sparsity of available location-specific channel knowledge data. Although diffusion-based methods such as denoising diffusion probabilistic models (DDPMs) have been exploited for CKM construction, they rely on iterative stochastic sampling, rendering them too slow for real-time wireless applications. To bridge the gap between high fidelity and efficient CKM construction, this letter introduces a novel generative framework based on linear transport guided flow matching (LT-GFM). Deviating from the noise-removal paradigm of diffusion models, our approach models the CKM generation process as a deterministic ordinary differential equation (ODE) that follows linear transport paths, thereby drastically reducing the number of required inference steps. We propose a unified architecture that is applicable to not only the conventional channel gain map (CGM) construction, but also the more challenging spatial correlation map (SCM) construction. To achieve physics-informed CKM constructions, we integrate environmental semantics (e.g., building masks) for edge recovery and enforce Hermitian symmetry for property of the SCM. Simulation results verify that LT-GFM achieves superior distributional fidelity with significantly lower Fréchet Inception Distance (FID) and accelerates inference speed by a factor of 25 compared to DDPMs.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2601.06156
+  doi: 10.1109/LWC.2026.3693360
+subfield: CKM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - Diffusion  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

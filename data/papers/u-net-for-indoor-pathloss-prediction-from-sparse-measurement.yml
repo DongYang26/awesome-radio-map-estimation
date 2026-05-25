@@ -1,0 +1,29 @@
+id: u-net-for-indoor-pathloss-prediction-from-sparse-measurement
+title: U-Net for Indoor Pathloss Prediction from Sparse Measurements with Physics-Based Features
+authors:
+  - K. Petrosyan
+  - Rafayel Mkrtchyan
+  - Hrant Khachatrian
+  - Theofanis P. Raptis
+year: 2025
+venue: International Workshop on Machine Learning for Signal Processing
+abstract: This work was conducted in the context of the MLSP 2025 Sampling-Assisted Pathloss Radio Map Prediction Data Competition. We propose a physics-based feature engineering approach combined with a U-Net architecture featuring ResNet-34 encoder and Atrous Spatial Pyramid Pooling (ASPP) module to reconstruct indoor pathloss maps from extremely sparse ground-truth samples. Our method transforms the three-channel input into eight physics-based channels incorporating free-space pathloss, cumulative transmittance losses, log-distance from the antenna, and a binary padding mask. Through a combination of geometric augmentations and multi-scale feature extraction, we achieve competitive performance across both uniform and strategic sampling scenarios. The model attains a weighted RMSE of 5.17 dB, while maintaining inference times of 65.2 ms per map including preprocessing—orders of magnitude faster than ray-tracing baselines.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/MLSP62443.2025.11204276
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: indoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 3
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

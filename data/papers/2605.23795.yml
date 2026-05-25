@@ -1,0 +1,31 @@
+id: '2605.23795'
+title: A Measurement-Based Parameterization of Physics Reflection Models for Terahertz Communication
+authors:
+  - Taihao Zhang
+  - Chenzhou Lin
+  - Cunhua Pan
+  - Hong Ren
+  - Ruyi Liu
+  - Yongchao He
+  - Tian Qiu
+  - Bingchang Hua
+  - Jiangzhou Wang
+year: 2026
+abstract: The accurate modeling of reflection coefficients is pivotal for developing reliable channel models in emerging terahertz (THz) communications. This study establishes a 300$\sim$400 GHz channel measurement platform to measure the reflection coefficients of various materials. Based on the analysis of measured data, we propose the single-layer interference with an extended-parameterized Lorentz/Drude (SLI-EPLD) reflection coefficient model. In this model, a sub-band modeling strategy is adopted to characterize the variation of reflection coefficients with frequency, while a parameterized mapping approach is employed to ensure the stability of model parameters. Furthermore, the weighted sub-band fitting for trend regression (WF-TREND) algorithm is introduced to achieve precise sub-band parameter fitting. Validation results demonstrate superior performance to existing models across multiple materials. The reflection coefficient model established in this work serves as a critical foundation for channel modeling in 300$\sim$400 GHz for high-THz communication.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23795
+  pdf: https://arxiv.org/pdf/2605.23795
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

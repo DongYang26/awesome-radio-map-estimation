@@ -1,0 +1,27 @@
+id: rem-net-quantified-3d-radio-environment-map-construction-gui
+title: 'REM-Net+: Quantified 3D Radio Environment Map Construction Guided by Radio Propagation Model'
+authors:
+  - Qi Chen
+  - Ming Huang
+  - Jingjing Yang
+year: 2026
+venue: IEEE Transactions on Vehicular Technology
+abstract: Radio Environment Map (REM) offers a visual representation of spectrum distribution and serves as a powerful tool for optimizing wireless network deployment and radio resource management. Different from the construction of 2D REM, height information in 3D propagation environments increases the richness and complexity of Path Loss (PL) patterns, posing challenges for REM construction. To address these challenges, this paper proposes the REM-Net technique, which is a novel high-resolution neural network comprising a convolutional encoding head, high-resolution body, and convolutional decoding tail for 3D REM construction. REM-Net achieves precise REM construction by expanding the receptive field and mitigating information loss. Furthermore, to fully leverage the prior knowledge of radio propagation, we further proposes a Radio Propagation Model (RPM) based on the parameter estimation of the least squares method to assist REM-Net learning, and name this approach REM-Net+. Specifically, the RPM guides the gradient descent process by supplying additional PL features for REM-Net in real-time. In the test set reserved for The First Path Loss Radio Map Prediction Challenge, REM-Net+ achieved a root mean square error of 0.0349 dB at the tensor level, achieving the current state-of-the-art performance.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/TVT.2025.3623917
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 3
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

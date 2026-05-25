@@ -1,0 +1,27 @@
+id: analysis-of-5g-cellular-technology-pathloss-prediction-on-mi
+title: ANALYSIS OF 5G CELLULAR TECHNOLOGY PATHLOSS PREDICTION ON MICRO URBAN CELLS USING ABG PREDICTION MODEL IN PONTIANAK CITY
+authors:
+  - Alfodaniel Theodorus Barahama
+  - Fitri Imansyah
+  - Eka Kusumawardhani
+year: 2024
+venue: Telecommunications, Computers, and Electricals Engineering Journal
+abstract: The implementation of 5G cellular technology in Indonesia needs to be studied in several aspects. So that several cellular operators in Indonesia have experienced difficulties in implementing 5G cellular technology in Indonesia, especially in Pontianak City. Therefore, the analysis of pathloss values in cellular systems is an approach to large-scale fading aspects to calculate service coverage. This research calculates the pathloss value with a case study in Pontianak City with micro urban cell characteristics. In this research, ABG (Alpha-Beta-Gamma) prediction model is used with working frequency of 3.5 GHz and 28 GHz with bandwidth of 100 MHz. The calculation results of the ABG prediction model at a frequency of 3.5 GHz has a value of 91.78 dB for LOS conditions and in NLOS conditions has a value of 123.26 dB. While at a frequency of 28 GHz the pathloss value generated is 110.71 dB in LOS conditions, while in NLOS conditions the value is 140.42 dB. The 28 GHz working frequency has a slightly higher pathloss value than the 3.5 GHz frequency and has a difference in value of 18.99 dB for LOS conditions while in NLOS conditions it has a difference in value of 17.16 dB.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://jurnal.untan.ac.id/index.php/TELECTRICAL/article/download/69802/pdf
+  doi: 10.26418/telectrical.v1i3.69802
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

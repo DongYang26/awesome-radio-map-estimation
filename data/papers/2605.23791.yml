@@ -1,0 +1,27 @@
+id: '2605.23791'
+title: 'Joint Bayesian models for validating spatial health-event databases against a gold standard: separating global and local discrepancies'
+authors:
+  - Mathias Brugel
+  - Florine Kempf
+  - Camille Ternynck
+  - Marta Blangiardo
+  - Michaël Génin
+year: 2026
+abstract: 'The reuse of medico-administrative and synthetic spatial data may overcome some limitations of population-based registries, provided rigorous validation is performed. However, no tool exists to spatially validate a candidate-for-reuse database (CFRD) against a gold standard (GS). We propose a Bayesian framework for two-dimensional (global and local) map-to-map validation of spatial health-event databases. We consider an error-model family (random [REM] and structured [SEM]) in which the CFRD is modelled as a departure from the GS. Both are compared with a shared component model (SCM). Global disagreement is assessed using the database-specific intercept difference ($RR_{\mathrm{global}}$), while local disagreement is measured by the exceedance probability of the database-specific error term. Disturbance scenarios included null, uniform, clustered, and random perturbations in the CFRD. Sensitivity, specificity, false detection rate, and Matthews Correlation Coefficient assessed detection performance. $RR_{\mathrm{global}}$ accurately recovered map-wide shifts across all models and scenarios. REM and SEM behaved were both sensitive and specific to local discrepancies. SCM was more conservative. Applied to Crohn''s disease data from the EPIMAD registry and a CFRD, all models reached the same conclusion: the CFRD reproduced global and local spatial structures with an overall signal about 7\% lower. Extensions to other outcome distributions, spatio-temporal models and calibration constitute natural next steps.   \textit{Keywords:} data reuse; spatial database validation; Bayesian hierarchical models; disease mapping; shared component model.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23791
+  pdf: https://arxiv.org/pdf/2605.23791
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

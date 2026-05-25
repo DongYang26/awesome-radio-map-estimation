@@ -1,0 +1,28 @@
+id: '2605.23700'
+title: New substellar candidates identified through deep learning in the F150 sample of the large-scale SHINE direct imaging survey
+authors:
+  - Carles Cantero Mitjans
+  - Mariam Sabalbal
+  - Olivier Absil
+  - Marc Van Droogenbroeck
+  - Damien Ségransan
+  - Philippe Delorme
+year: 2026
+abstract: 'Context. The SPHERE High-contrast Imaging survey for Exoplanets (SHINE) represents one of the largest direct imaging campaigns, targeting over 400 young, nearby stars with the goal of detecting and characterizing giant exoplanets and brown dwarfs. This dataset offers a unique opportunity to revisit observations using modern, data-driven approaches, potentially uncovering new substellar candidates that may have been overlooked by classical analysis techniques. Aims. Our study focuses on reprocessing and reanalyzing the so-called F150 sample, a well-defined subset of 150 main-sequence stars within 100 pc observed in the H-band with VLT/SPHERE as part of the SHINE survey. Methods. We apply NA-SODINN, a supervised deep learning model specifically tailored for detecting faint planetary signals in angular differential imaging (ADI) sequences. Designed to model local noise properties and capture spatial context, NA-SODINN is effective at distinguishing real companions from residual speckle noise. To translate the model''s pixel-wise confidence maps into actionable detections, we introduce a novel F1-score-based thresholding strategy. This principled approach balances sensitivity and specificity, addressing a key limitation in current deep learning-based methods. Results. NA-SODINN recovers all known companions and some of the debris disks in the F150 sample, and identifies 13 new substellar candidates not reported in previous studies: ten detected in both the H2 and H3 bands, and three in only one band. For the ten sources detected in both bands, we use the H2-H3 color-magnitude diagram to perform a first assessment of their nature. Based on this analysis, we identify two ambiguous cases and three photometrically promising candidates. However, in light of the currently available multi-epoch SPHERE data, only the candidate around Smethells 20 remains a strong target for follow-up.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23700
+  pdf: https://arxiv.org/pdf/2605.23700
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - Diffusion  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

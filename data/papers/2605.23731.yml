@@ -1,0 +1,23 @@
+id: '2605.23731'
+title: Global estimates on the Brenier map
+authors:
+  - Andrea Bidoia
+year: 2026
+abstract: Caffarelli's contraction theorem and the analogous Laplacian result in [arXiv:2411.12109, arXiv:2501.11382] are two examples of how log-Hessian bounds on probability densities yield estimates on the derivative of the corresponding Brenier map with optimal dimensional dependence. The main goal of this paper is to extend such phenomenon to a broader class of convex estimates such as norms.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23731
+  pdf: https://arxiv.org/pdf/2605.23731
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

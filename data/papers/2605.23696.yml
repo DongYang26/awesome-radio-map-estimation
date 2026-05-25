@@ -1,0 +1,25 @@
+id: '2605.23696'
+title: Graph-based Complexity Forecasts in UK En Route Airspace Using Relevant Aircraft Interactions
+authors:
+  - Edward Henderson
+  - George De Ath
+  - Nick Pepper
+year: 2026
+abstract: Effectively managing Air Traffic Control Officer (ATCO) workload is crucial in maintaining operational safety. Group supervisors use tools that estimate upcoming traffic load to aid decision-making. However, industry-standard models can fail to capture the nuances of upcoming air traffic complexity. This study presents a probabilistic approach to forecast the complexity of an airspace sector using the number of relevant aircraft pairs, i.e., those that require monitoring or deconfliction by a controller, as a proxy measure for ATCO workload. We adapted an existing filter algorithm to make it suitable for use in London Middle Sector (LMS), a complex airspace sector with multiple flows of traffic above some of the busiest airports in Europe. Through iterative feedback with ATCOs, the algorithm was refined and extended to handle specific geometric and operational considerations. The updated algorithm outperformed the original, with an F1-score of 0.84 compared to 0.69 on a labelled set of 50 traffic scenarios. To produce forecasts of future numbers of relevant aircraft pairs in the sector, a graph representation of the LMS route network was constructed, standardising the spatial fidelity of route legs. The forecasting method accounts for uncertainty in aircraft arrival times by modelling the probability of each aircraft occupying route segments at future query times. When combined with historic distributions of relevant interactions and a live operational data stream, predictions of upcoming ATCO workload could be made up to 45 minutes in advance. The proposed method to forecast upcoming workload showed a significantly stronger correlation with actual relevant interactions (Spearman's $ρ= 0.68$) than a standard traffic volume prediction ($ρ= 0.55$). The resulting data-driven tool shows promise for use by group supervisors to inform sector configuration and ATCO rostering decisions.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23696
+  pdf: https://arxiv.org/pdf/2605.23696
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

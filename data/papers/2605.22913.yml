@@ -1,0 +1,23 @@
+id: '2605.22913'
+title: A Precise Measurement of the Fermi-LAT Galactic Center Excess Morphology and Spectrum
+authors:
+  - Mattia Di Mauro
+year: 2026
+abstract: We present a new Fermi-LAT analysis of the Galactic-center excess (GCE) designed to substantially reduce the dominant systematic uncertainties associated with interstellar-emission and source modeling in the inner Galaxy. Using an optimized multi-step fitting procedure together with an iterative source-finding pipeline, we achieve a markedly improved agreement between data and model, reducing fractional residuals to $\lesssim 10\%$ over a $40^\circ\times 40^\circ$ region centered on the Galactic center. We analyze a suite of GALPROP-based interstellar-emission models (IEMs) and complementary analysis variants (Galactic-plane masking, fits restricted to $1$-$10$ GeV, and weighted-likelihood fits) to quantify robustness. The reconstructed surface-brightness profile is strongly centrally concentrated and is well described by an approximately spherical generalized Navarro-Frenk-White morphology with inner slope $γ\simeq 1.15$. Bulge-tracing templates (nuclear bulge plus boxy bulge) fail to reproduce the full radial morphology, most notably for line-of-sight angles around $θ\simeq 1^\circ$-$2^\circ$ and at $θ\gtrsim 8^\circ$, whereas the DM-motivated component provides a good description over the full angular range. Moreover, the DM component remains highly significant across all IEMs and analysis choices, including fits that simultaneously include the bulge templates. We also provide an updated measurement of the GCE spectrum from $0.5$ to $1000$ GeV, confirming a peak at a few GeV and setting stringent constraints above tens of GeV, where we obtain only upper limits at the level $E^2Φ\lesssim 10^{-8}$ GeV cm$^{-2}$ s$^{-1}$ sr$^{-1}$. These results deliver a sharpened and systematically controlled characterization of the GCE morphology and spectrum, enabling more incisive tests of astrophysical and dark-matter interpretations.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.22913
+  pdf: https://arxiv.org/pdf/2605.22913
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

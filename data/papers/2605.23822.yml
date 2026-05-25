@@ -1,0 +1,24 @@
+id: '2605.23822'
+title: Coarse Structures on Homogeneous Spaces
+authors:
+  - Carlos Pérez Estrada
+  - Christian Rosendal
+year: 2026
+abstract: Given a closed normal subgroup $H$ of a topological group $G$, we address the question of whether the left coarse structure on the quotient group $G/H$ equals the quotient of the left coarse structure on $G$. We provide a counterexample among Polish groups, namely, the mapping class group of the Loch Ness monster surface seen as a quotient of the mapping class group of the punctured Loch Ness monster surface, and establish both equivalent and sufficient conditions for when this holds in special settings. The latter are formulated in terms of liftings of bounded sets, existence of transversals and metrisability of the left coarse structure of $G$ restricted to $H$.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23822
+  pdf: https://arxiv.org/pdf/2605.23822
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

@@ -1,0 +1,26 @@
+id: '2605.23876'
+title: Photoluminescent Tetragonal Tb-doped Pb2P2O7
+authors:
+  - Yong Liu
+  - Wenhua Bi
+  - Alla Arakcheeva
+  - Arnaud Magrez
+year: 2026
+abstract: In this study, we report the synthesis and characterization of a novel tetragonal polymorph of Tb-doped Pb2P2O7. Single-crystal X-ray diffraction confirms the stabilization of the P41 and P43 enantiomorphs at room temperature due to the incorporation of Tb3+ ions. Optical investigations reveal green photoluminescence from the characteristic 5D4 -> 7Fj (J = 1-5) transitions of Tb3+, with each emission split due to the crystal field effect, indicating the presence of Tb3+ in multiple coordination environments. The power dependence of the PL intensity follows a linear power-law behavior, suggesting a one-photon excitation process. Temperature-dependent PL measurements show an initial increase in intensity up to 125C, attributed to energy transfer from structural defects, followed by thermal quenching above this temperature. Structural stability at elevated temperatures is confirmed via high-temperature X-ray diffraction (XRD), showing no phase transitions before melting at approximately 800C. These findings highlight the potential of tetragonal Tb-doped Pb2P2O7 as a new class of photoluminescent material.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23876
+  pdf: https://arxiv.org/pdf/2605.23876
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

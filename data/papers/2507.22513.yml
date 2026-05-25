@@ -1,0 +1,29 @@
+id: '2507.22513'
+title: PINN and GNN-based RF Map Construction for Wireless Communication Systems
+authors:
+  - Lizhou Liu
+  - Xiaohui Chen
+  - Zihan Tang
+  - Mengyao Ma
+  - Wenyi Zhang
+year: 2025
+venue: 2025 International Conference on Future Communications and Networks (FCN)
+abstract: Radio frequency (RF) map is a promising technique for capturing the characteristics of multipath signal propagation, offering critical support for channel modeling, coverage analysis, and beamforming in wireless communication networks. This paper proposes a novel RF map construction method based on a combination of physics-informed neural network (PINN) and graph neural network (GNN). The PINN incorporates physical constraints derived from electromagnetic propagation laws to guide the learning process, while the GNN models spatial correlations among receiver locations. By parameterizing multipath signals into received power, delay, and angle of arrival (AoA), and integrating both physical priors and spatial dependencies, the proposed method achieves accurate prediction of multipath parameters. Experimental results demonstrate that the method enables high-precision RF map construction under sparse sampling conditions and delivers robust performance in both indoor and complex outdoor environments, outperforming baseline methods in terms of generalization and accuracy.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2507.22513
+  doi: 10.1109/FCN66513.2025.11296780
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - GNN  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: both  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 3
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

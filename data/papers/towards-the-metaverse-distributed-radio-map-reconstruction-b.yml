@@ -1,0 +1,28 @@
+id: towards-the-metaverse-distributed-radio-map-reconstruction-b
+title: 'Towards the Metaverse: Distributed Radio Map Reconstruction based on Federated Learning Generative Adversarial Networks'
+authors:
+  - Yang Huang
+  - Yuqi Hou
+  - Qiuming Zhu
+  - Xiaomin Chen
+  - Lei Chen
+year: 2024
+venue: International Conference on Wireless Communications and Mobile Computing
+abstract: Metaverse, which enables the combination of the virtual and the physical worlds, requires mobile networks with high-capacity and reliable connectivity. Radio maps (RMs) can offer the knowledge of the wireless environments to improve the connectivity, by charactering the spatial distribution of received signal strength (RSS) throughout physical spaces. This paper investigates a collaborative RM reconstruction scheme, where client unmanned aerial vehicles (UAVs) collect RSS samples measured by mobile users for local training, while a server UAV performs model aggregation to optimize the global model. Unfortunately, RSS samples measured in practice can be sparse, non-uniformly distributed and non-independent and identically distributed (non-iid), such that reconstructing a complete RM is intractable. Therefore, we propose a novel RM reconstruction scheme based on federated learning (FL) with generative adversarial network (GAN), where GAN is exploited to generate a RM with sparsely and non-uniformly distributed RSS data. In order to tackle with non-iid RSS data, the FL is integrated with an adaptive client UAV selection strategy with model similarity evaluation, as well as a model weight assignment method with earth mover’s distance evaluation for model aggregation. Simulation results reveal that benefiting from the aforementioned design, the proposed scheme can significantly enhance the reconstruction accuracy and convergence speed compared to the conventional algorithms.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/IWCMC61514.2024.10592435
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - GAN  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

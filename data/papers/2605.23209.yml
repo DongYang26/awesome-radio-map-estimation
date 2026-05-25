@@ -1,0 +1,29 @@
+id: '2605.23209'
+title: TESS Observations of Stochastic Low-frequency Variability in Extreme Helium Stars
+authors:
+  - Courtney L. Crawford
+  - C. Simon Jeffery
+  - May G. Pedersen
+  - Timothy R. Bedding
+  - Benjamin T. Montet
+  - Geoffrey C. Clayton
+  - Patrick Tisserand
+year: 2026
+abstract: Extreme helium stars (EHes) are low-mass hydrogen-deficient stars thought to be the products of double white dwarf mergers. Despite prolonged ground-based observations, there is no consensus on the properties of their photometric variability. In this article, we present an analysis of TESS light curves for all known EHe stars, constituting the first population-level study of EHe photometric variability. We present updated TESS light curves for the two confirmed large-amplitude pulsators, V652 Her and BX Cir, and discuss the potential r-mode pulsators BD+37 442 and BD+37 1977. Notably, we found that the majority of EHe stars exhibit stochastic low-frequency (SLF) variability, or a signal with power increasing smoothly towards low frequencies, rather than peaks in the power spectrum corresponding to oscillation modes. We characterised the SLF variability of EHe stars using Gaussian process regression with a stochastically-driven/damped simple harmonic oscillator kernel and measured the characteristic timescale, low-frequency amplitude, and quality factor for each star. The variability timescales range from approximately 0.5 to 10 d and correlate strongly with stellar parameters, following both the granulation scaling relations established for cool stars and the convective turnover timescales predicted by the Fe opacity subsurface convection zone in one-dimensional EHe stellar models. Two metal-poor EHe stars show no detectable SLF variability, consistent with a metallicity-dependent driving mechanism. Our results suggest that SLF variability in EHe stars may be driven by subsurface convection, though further theoretical work is needed to distinguish between other potential driving mechanisms.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23209
+  pdf: https://arxiv.org/pdf/2605.23209
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - Gaussian-process  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

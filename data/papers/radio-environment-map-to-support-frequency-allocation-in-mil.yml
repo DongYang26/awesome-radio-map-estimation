@@ -1,0 +1,26 @@
+id: radio-environment-map-to-support-frequency-allocation-in-mil
+title: Radio environment map to support frequency allocation in military communications systems
+authors:
+  - M. Suchanski
+  - P. Kaniewski
+  - J. Romanik
+  - E. Golan
+year: 2018
+venue: 2018 Baltic URSI Symposium (URSI)
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.23919/URSI.2018.8406717
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 20
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

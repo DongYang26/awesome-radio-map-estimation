@@ -1,0 +1,26 @@
+id: fedrme-importance-aware-cooperative-radio-map-estimation-emp
+title: 'FedRME: Importance-Aware Cooperative Radio Map Estimation Empowered by Vertical Federated Learning'
+authors:
+  - Hexuan Ma
+  - Zezhong Zhang
+  - Kai Chen
+  - Shuguang Cui
+year: 2025
+venue: 2025 IEEE International Conference on Communications Workshops (ICC Workshops)
+abstract: In recent years, the rapid expansion of wireless communication data transmission has necessitated swift and precise real-time analysis of the surrounding communication environment. Radio map estimation (RME) serves as a crucial technique for acquiring the quality of signal coverage. With the advancements in artificial intelligence, it becomes increasingly prevalent to apply deep learning techniques for high-quality RME. However, most existing RME methods rely on centralized learning approaches that overlooks user privacy concerns and even requires the transmitter information in prior. In this work, we propose a vertical federated learning (VFL) based solution called FedRME, where local measurements can be exploited for cooperative training and inference without compromising user privacy. Furthermore, since the features across users are of different importance, we propose to integrate the attention mechanism into the VFL framework for importance-aware estimation. Simulation results show that the proposed importance-aware FedRME outperforms the standard VFL method, resulting in higher estimation accuracy with a lightweight model.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/ICCWorkshops67674.2025.11162141
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - Transformer  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

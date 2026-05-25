@@ -1,0 +1,33 @@
+id: enhanced-path-loss-prediction-using-machine-learning-and-mod
+title: Enhanced Path Loss Prediction Using Machine Learning and Modified COST-Hata Model for High-Frequency Wireless Networks
+authors:
+  - Awal Halifa
+  - K. Gyasi
+  - E. A. Ampomah
+  - Kwame Opuni-Boachie
+  - Obour Agyekum
+  - Kingsford Sarkodie
+  - Obeng Kwakye
+  - J. Owusu
+  - Agyeman
+  - Mubarak Sani
+  - Piyush Kumar
+year: 2024
+venue: Journal of Electrical Systems
+abstract: "Accurate path loss prediction is critical for optimizing wireless network performance, especially in complex environments such as urban canyons, hilly terrains, and dense vegetation. Traditional models like COST-Hata exhibit significant limitations under non-line-of-sight (NLOS) conditions, necessitating more adaptable approaches. This study addresses these challenges by integrating a modified COST-Hata model with advanced machine learning techniques to enhance prediction accuracy and generalization across diverse environments. The proposed model incorporates key propagation factors—including frequency dependence, terrain effects, antenna height, building height, and angular dependencies—to refine empirical path loss estimations. Five machine learning models—Support Vector Regressor (SVR), Decision Tree Regressor (DTR), Gradient Boosting Regressor (GrB), Random Forest Regressor (RFR), and Artificial Neural Network (ANN)—were trained on refined parametric equations derived from the modified COST-Hata model. \nResults indicate that ensemble-based models (RFR, GrB) significantly outperform traditional empirical models, demonstrating superior generalization and reduced prediction errors. After hyperparameter tuning, RFR achieved the lowest Mean Absolute Error (MAE) of 2.90 dB, underscoring its robustness across varied environments. Furthermore, the integration of terrain, building height, and angular dependencies allows for a more realistic representation of signal propagation. Compared to conventional models, the proposed hybrid approach exhibits higher accuracy, improved adaptability to NLOS conditions, and enhanced predictive stability. These advancements contribute to more efficient network planning, optimized resource allocation, and cost-effective wireless deployment. Ultimately, this study paves the way for next-generation intelligent path loss models, bridging the gap between empirical insights and machine learning-driven optimization."
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.52783/jes.8642
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

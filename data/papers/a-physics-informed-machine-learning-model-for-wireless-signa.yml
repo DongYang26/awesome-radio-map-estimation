@@ -1,0 +1,26 @@
+id: a-physics-informed-machine-learning-model-for-wireless-signa
+title: A physics-informed machine-learning model for wireless signal path loss prediction in underground infrastructure monitoring
+authors:
+  - Shuang Nie
+  - Fei Wang
+  - Qunfang Hu
+  - Qiang Hai
+  - Yuankang Mao
+year: 2026
+venue: Tunnelling and Underground Space Technology
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1016/j.tust.2026.107776
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

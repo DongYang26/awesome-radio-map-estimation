@@ -1,0 +1,26 @@
+id: path-loss-prediction-in-wireless-communication-using-machine
+title: Path Loss Prediction in Wireless Communication Using Machine Learning
+authors:
+  - Praveen Kadakol
+  - Bhargav Joshi
+  - Rohan Chunamuri
+  - Kaushik Mallibhat
+year: 2025
+venue: 2025 6th International Conference for Emerging Technology (INCET)
+abstract: 'The proposed work aims for effective network planning and optimization in wireless communication in mmWave urban contexts for 5G and beyond by combining characteristics RMS delay spread, angle of arrival/angle of departure (AoA/AoD angles), Tx-Rx separation distance, frequency, weather, and received power. The study examines the application of machine learning algorithms for path loss prediction and the performance was evaluated using metrics such as RMSE, MAE, MAPE, and R2. The top-performing algorithms identified were Random Forest (RF), Support Vector Regression (SVR), and Gradient Boosting (GB). R2 value was obtained using a stacking ensemble model that combined ridge regression as the meta-model with RF, SVR, and GB as base models. The stacked ensemble model shows its ability to detect complex patterns and improve prediction accuracy with low error rates (RMSE: 4.2125, MAPE: 1.8465%).'
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/INCET64471.2025.11140119
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

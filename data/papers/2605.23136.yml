@@ -1,0 +1,36 @@
+id: '2605.23136'
+title: A Gaia-linked High-purity QSO Candidate Catalog in Selected Fields with Extinction-binned Calibration and Spectrum-informed Training
+authors:
+  - Zi-Huang Cao
+  - Zhao-Xiang Qi
+  - Juan-Juan Ren
+  - Bo Zhang
+  - Dongwei Fan
+  - Shi-Long Liao
+  - Yuzhou Wang
+  - Yong-Heng Zhao
+  - Yong Zhang
+  - Meng-Xin Wang
+  - Yihan Tao
+  - Gao-Yuan Zhang
+  - Yong Yu
+  - A-Li Luo
+year: 2026
+abstract: 'We present an extinction-calibrated, Gaia-source-level QSO candidate catalog for selected fields, designed as a high-purity input catalog for fiber-spectroscopic follow-up rather than as an all-sky QSO census. The deployed selector uses Gaia astrometry and photometry, optical/infrared catalog features, and E(B-V)-binned threshold calibration; spectra are used only during training via a source-grouped spectrum-teacher model. The sample definition is layered: a four-field core domain ladder provides the main validation baseline, four application/stress-test fields probe portability, and COSMOS is treated separately as an Extreme Deep boundary case. At the recommended conservative operating point, calibrated to a validation-set purity of 0.98, the P3 spectrum-informed catalog selector achieves a measured test-set purity of 0.9809 and a spectroscopic-label completeness of 0.8869 within the frozen Gaia-linked benchmark, whereas the Gaia official QSO probability yields a spectroscopic-label completeness of 0.4493 under the same threshold protocol. The evaluation protocol excludes downstream validation/test Gaia source IDs from teacher fitting and checkpoint selection, and uses teacher probabilities only for downstream training rows. Relative to the earlier P2 teacher, P3 yields a modest mean completeness gain across five seeds, with a small decrease in purity and a small increase in false positives; the gain is most evident in higher-extinction and faint-source diagnostics. The released product is a catalog and empirical selection-function data product with source identifiers, field-layer assignments, input-coverage flags, calibrated scores, threshold flags, validation metadata, and provenance/QC fields. In COSMOS, the Gaia-linked parent set is much shallower than COSMOS2020; the robust 39-object subset is interpreted as a purity-oriented priority list rather than a completeness measurement.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23136
+  pdf: https://arxiv.org/pdf/2605.23136
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'
