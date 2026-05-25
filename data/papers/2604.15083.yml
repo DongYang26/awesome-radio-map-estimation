@@ -1,0 +1,31 @@
+id: '2604.15083'
+title: A Novel 6G Dynamic Channel Map Based on a Hybrid Channel Model
+authors:
+  - Tianrun Qi
+  - Chengxiang Wang
+  - Chen-Yen Huang
+  - Jiayue Shi
+  - Junling Li
+  - Shuaifei Chen
+  - el-Hadi M. Aggoune
+year: 2026
+venue: IEEE Transactions on Vehicular Technology
+abstract: In the sixth generation (6G) wireless communication networks, the device density, antenna number, and the complexity of communication scenarios will significantly increase, which brings great challenges for system design and network optimization. By obtaining channel information in advance, channel map has become a promising solution to these challenges in 6G era. However, conventional channel maps cannot be updated in time as physical environment changes. To solve the problem, a novel dynamic channel map (DCM) is proposed in this work. For DCM construction, we further present a ray tracing (RT) and geometric stochastic hybrid channel model (RT-GSHCM), which pre-constructs the DCM offline by RT and updates it online by geometry-based stochastic channel model (GBSM). By this way, the DCM can provide time-varying channel information and channel properties while matintaining accuracy. Next, a channel measurement campaign is conducted, and the measurement results are compared with the RT-GSHCM, RT, and GBSM. The comparison results validate the accuracy of DCM. Meanwhile, the time cost on DCM update is compared with that of conventional channel maps, illustrating the time-efficiency of DCM. Finally, important statistical channel properties of RT-GSHCM are further derived, analyzed, and compared under different configurations of interaction objects in physical environment.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2604.15083
+  doi: 10.1109/TVT.2025.3602807
+subfield: CKM  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 6
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

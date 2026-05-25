@@ -1,0 +1,24 @@
+id: '2605.23801'
+title: 'Unsupervised Chemo-Dynamical Dissection of the Inner Galactic Halo: Discovery of Five Accreted Substructures with SDSS-V and Gaia'
+authors:
+  - Furkan Akbaba
+  - Olcay Plevne
+year: 2026
+abstract: The inner Galactic halo is a complex graveyard of the Milky Way's earliest accretion events, where severe orbital phase-mixing challenges traditional dynamical stream-finding techniques. We present a purely data-driven, 12-dimensional chemo-dynamical analysis of the inner halo using \textsl{SDSS-V Milky Way Mapper} (DR19) and \textsl{Gaia} DR3. Utilizing an unsupervised machine learning framework based on UMAP and HDBSCAN, we perform a blind search for clustered populations within a chemically selected \textit{ex-situ} sample of 2,185 stars without kinematic pre-selection. Our pipeline recovers nine kinematic groupings corresponding to seven known substructures (including \textsl{Gaia}-Enceladus/Sausage, the Helmi Streams, and Sequoia), validating the robustness of the high-dimensional feature space. We also report five new tightly bound candidate substructures, designated FO1--FO5 ($E_{\rm tot} \leq -1.8 \times 10^5~\mathrm{km^2~s^{-2}}$). Four candidates (FO1, FO3, FO4, FO5) are confirmed as robust chemo-dynamical overdensities, while FO2 exhibits a striking nitrogen enhancement ($[\mathrm{N/Fe}] = +0.83 \pm 0.16$) suggestive of tidal debris from a disrupted massive globular cluster. Finally, we demonstrate that high-dimensional chemical information is critical for resolving dynamical degeneracies in the crowded inner halo, differentiating structures sharing similar orbits but distinct chemistry (e.g., FO5 and Shiva), and the reverse (e.g., FO3 and the Helmi Streams). These findings confirm that the deepest regions of the Galactic potential preserve a rich record of the Galaxy's assembly history.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23801
+  pdf: https://arxiv.org/pdf/2605.23801
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: unsupervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

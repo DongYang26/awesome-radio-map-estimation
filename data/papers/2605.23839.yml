@@ -1,0 +1,79 @@
+id: '2605.23839'
+title: 'cloelib: A Flexible Python Library for Computing Cosmological Observables in the Euclid Era'
+authors:
+  - Marco Bonici
+  - Guadalupe Cañas-Herrera
+  - Pedro Carrilho
+  - Santiago Casas
+  - Chiara Moretti
+  - Andrea Pezzotta
+  - Michel Aguena
+  - Giovanni Aricó
+  - Zahra Baghkhani
+  - Matteo Baratto
+  - Emilio Bellini
+  - Jip de Buck
+  - Klara Bertmann
+  - Ben Bose
+  - Jeger C. Broxterman
+  - Pierre Burger
+  - Carmelita Carbone
+  - Chaitanya Chawak
+  - Jose Coloma-Nadal
+  - Martin Crocce
+  - Stefano Davini
+  - Christopher A. J. Duncan
+  - Samuel Farrens
+  - Lisa Goh
+  - Nastassia Grimm
+  - Alex Hall
+  - Ryusei R. Kano
+  - Martin Kärcher
+  - Felicitas Keil
+  - Raphaël Kou
+  - Laila Linke
+  - Arthur Loureiro
+  - Katarina Markovic
+  - David Navarro-Gironés
+  - Filippo Oppizzi
+  - Gabriele Parimbelli
+  - Anna Porredon
+  - Robert Reischke
+  - Jaime Ruiz Zapatero
+  - Iñigo Sáez-Casares
+  - Ziad Sakr
+  - Neel Shah
+  - Davide Sciotti
+  - Matthieu Schaller
+  - Ivan Sladoljev
+  - Arghavan Souki
+  - Sankarshana Srinivasan
+  - Konstantinos Tanidis
+  - Peter L. Taylor
+  - Nicolas Tessore
+  - Linus Thummel
+  - Maria Tsedrik
+  - Isaac Tutusaus
+  - Casper Vedder
+  - Angus H. Wright
+  - Miguel Zumalacárregui
+  - Joe Zuntz
+year: 2026
+abstract: cloelib is a Python library developed to compute cosmological observables within the Cosmology Likelihood for Observables in Euclid (CLOE) ecosystem (cloe-org). As cosmology enters a precision era driven by galaxy survey missions such as Euclid, there is a growing need for flexible, efficient, and differentiable software capable of supporting next-generation inference pipelines. cloelib addresses these demands through a modular architecture that interfaces seamlessly with established Boltzmann solvers whilst incorporating JAX-based automatic differentiation to enable gradient-based methods. The library defines consistent protocols for background evolution, perturbations, and non-linear structure formation, and supports a wide range of observables, including photometric and spectroscopic large-scale structure probes, as well as cross-correlations with the Cosmic Microwave Background and galaxy clusters. In its finalised form, cloelib is intended to serve as the reference theory computation infrastructure for Euclid's first cosmological release, bridging traditional numerical cosmology with modern optimisation techniques and emerging machine learning approaches to inference.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23839
+  pdf: https://arxiv.org/pdf/2605.23839
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

@@ -1,0 +1,26 @@
+id: mae-based-radio-map-construction-for-wi-fi-fingerprint-indoo
+title: MAE-Based Radio Map Construction for Wi-Fi Fingerprint Indoor Localization
+authors:
+  - Yishuo Cheng
+  - Liye Zhang
+year: 2025
+venue: IEEE Communications Letters
+abstract: This letter proposes a method for constructing a radio map using the Masked Autoencoder (MAE) model, with a focus on enabling accurate indoor fingerprint localization by constructing a complete radio map from minimal Received Signal Strength (RSS) data. Traditional fingerprint localization systems typically require significant time and labor for manual data collection and face challenges in maintaining data completeness. To address these challenges, this letter employs the MAE model with a high-masking strategy to simulate the missing RSS data. The model learns the spatial relationship between signal strength and location, allowing for accurate reconstruction of the radio map despite missing data. Improvements to the MAE model include adjusting input dimensions, modifying position encoding functions, and designing a loss function that targets masked regions. These enhancements help capture the spatial correlation between reference points (RPs) and access points (APs), improving reconstruction accuracy. Experiments results show that the MAE model outperforms traditional methods in effectively filling missing data. With 40% missing data, the error probability within 2 meters is about 95%, and with 80% missing data, it still remains around 93%. Moreover, the MAE model significantly reduces data collection time and requires less data to complete the radio map reconstruction, while saving over 85% of computational and human resources, all while ensuring localization accuracy.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/LCOMM.2025.3582075
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - autoencoder  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: indoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 3
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

@@ -1,0 +1,37 @@
+id: '2605.23385'
+title: Non-Local and Non-Markovian Effects of a Microscopic Two-Level Defect in Superconducting Quantum Circuits
+authors:
+  - Yang Gao
+  - Yujia Zhang
+  - Huikai Xu
+  - Pan Shi
+  - Feiyu Li
+  - Yaqing Feng
+  - Weijie Sun
+  - Jiayu Ding
+  - Yang Liu
+  - He Wang
+  - Ruixia Wang
+  - Zhen Yang
+  - Yirong Jin
+  - Haifeng Yu
+  - Fei Yan
+year: 2026
+abstract: 'Microscopic two-level systems (TLS) -- ubiquitous atomic-scale defects in solid-state quantum devices -- are a dominant source of qubit decoherence, yet their role is often considered local and short-memoried. Here, we report the observation of a coherent TLS that couples simultaneously to two spatially distant superconducting qubits. The TLS is identified to reside within the tunable coupler linking the qubits, enabling controllability of the TLS-qubit coupling strength via coupler frequency -- a capability absent in earlier studies. This tunability allows us to systematically probe how TLS distorts qubit dynamics, revisiting the decoherence model in the presence of non-Markovian TLS dephasing noise. This is corroborated by the reconstructed $1/f$ noise spectrum of TLS frequency fluctuation spanning more than ten orders of magnitude (0.1\,mHz -- 1\,MHz) that reveals discrete fluctuator signatures. Quantum process tomography further unveils TLS-induced correlated qubit dynamics, highlighting the long-lived TLS as an effective source of non-Markovianity. Our findings expose a previously overlooked interaction mechanism in scalable quantum architectures: defects embedded in coupling elements can simultaneously affect multiple qubits with variable impact. Beyond immediate implications for system characterization and calibration, this situation provides a powerful testbed for studying defect-driven quantum dynamics, refining error suppression strategies, and advancing architecture design for scalable quantum technologies.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23385
+  pdf: https://arxiv.org/pdf/2605.23385
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

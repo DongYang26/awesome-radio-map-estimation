@@ -1,0 +1,31 @@
+id: sparse-bayesian-learning-based-3-d-radio-environment-map-con
+title: Sparse Bayesian Learning-Based 3-D Radio Environment Map Construction—Sampling Optimization, Scenario-Dependent Dictionary Construction, and Sparse Recovery
+authors:
+  - Jie Wang
+  - Qiuming Zhu
+  - Zhipeng Lin
+  - Qihui Wu
+  - Yang Huang
+  - Xuezhao Cai
+  - Weizhi Zhong
+  - Yi Zhao
+year: 2024
+venue: IEEE Transactions on Cognitive Communications and Networking
+abstract: The radio environment map (REM), which can visualize the information of invisible electromagnetic spectrum, is vital for monitoring, management, and security of spectrum resources in cognitive radio (CR) networks. In view of a limited number of spectrum sensors and constrained sampling time, this paper presents a new three-dimensional (3D) REM construction scheme based on sparse Bayesian learning (SBL). Firstly, we construct a scenario-dependent channel dictionary matrix by considering the propagation characteristic of the interested scenario. To improve sampling efficiency, a maximum mutual information (MMI)-based optimization algorithm is developed for the layout of sampling sensors. Then, a maximum and minimum distance (MMD) clustering-based SBL algorithm is proposed to recover the spectrum data at the unsampled positions and construct the whole 3D REM. We finally use the simulation data of the campus scenario to construct the 3D REMs and compare the proposed method with the state-of-the-art. The recovery performance and the impact of different parameters on the constructed REMs are also analyzed. Numerical results show that the proposed scheme can reduce the required spectrum data and has higher accuracy under the low sampling rate.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/TCCN.2023.3319539
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: unsupervised  # TODO: maintainer verify
+citations: 82
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

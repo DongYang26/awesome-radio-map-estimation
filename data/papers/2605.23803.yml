@@ -1,0 +1,24 @@
+id: '2605.23803'
+title: Chirality-sensitive mobility and dissipation of Brownian motion on a helical landscape
+authors:
+  - Debankur Bhattacharyya
+  - Abraham Nitzan
+year: 2026
+abstract: We study the Brownian dynamics and linear response of a particle with inertia moving in a 2-dimensional helical landscape imprinted on a cylindrical surface. In the harmonic well approximation, the deterministic motion separates into free propagation along the screw direction and harmonic motion in the transverse screw-normal direction. We show that for isotropic damping this simplification survives in the Langevin description, whereas anisotropic damping along the axial and angular directions couples the stochastic dynamics and destroys separability. The resulting anisotropic model is formulated as a linear Ornstein-Uhlenbeck process in phase space with a zero mode associated with diffusion along the screw coordinate, so that in an infinite system the full phase-space dynamics does not relax to a stationary distribution. To treat transport in this setting, we construct the stationary dynamics in the stable subspace obtained after projecting out the zero mode. This leads to a linear response theory for this system and yields closed analytical expressions for stationary time-correlation functions and the dynamical mobility tensor in both the time and frequency domains. The off-diagonal elements of the mobility tensor describe cross-response between axial forcing and angular motion, and between applied torque and axial transport. Consistent with time reversal symmetry, these cross mobilities are equal and provide a direct dynamical signature of the helical geometry. In addition, a simultaneous application of driving in both the axial and angular direction reveals asymmetry in energy dissipation rate due the helical landscape.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23803
+  pdf: https://arxiv.org/pdf/2605.23803
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

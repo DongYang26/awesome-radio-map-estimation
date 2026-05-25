@@ -1,0 +1,24 @@
+id: '2605.23896'
+title: A Stochastic Approach for Determining the Quark Confinement Potential of Charmonia
+authors:
+  - Ahmet Bingul
+  - Altug Ozpineci
+year: 2026
+abstract: In this study, a non-relativistic potential model is used to calculate the mass spectrum and decay properties of low lying charmonium states. A stochastic framework is proposed to extract the possible analytical form of the confinement part of the interaction potential between quarks. Based on this approach, it is found that the confinement function deviates slightly from a linear form at large distances. The results obtained are compared with other theoretical predictions and current PDG values.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23896
+  pdf: https://arxiv.org/pdf/2605.23896
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

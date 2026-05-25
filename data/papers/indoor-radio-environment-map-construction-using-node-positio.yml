@@ -1,0 +1,27 @@
+id: indoor-radio-environment-map-construction-using-node-positio
+title: Indoor Radio Environment Map Construction using Node Position Estimation for Smart Factories
+authors:
+  - Hayato Mukasa
+  - Kohei Yuzawa
+  - Takeo Fujii
+  - Koichi Adachi
+year: 2024
+venue: IEEE International Symposium on Personal, Indoor and Mobile Radio Communications
+abstract: Smart factories operating autonomously through a cyber-physical system (CPS) need to recognize the location-dependent wireless environment accurately for highly reliable communications and highly accurate information aggregation from automated guided vehicle and sensors. Recognizing the wireless environment is also essential for designing wireless power transfer to sensors simultaneously with data transmission. One of the methods for recognizing the wireless environment is a radio environment map (REM), which visualizes the statistical results of measured received power and communication quality by linking them to location information. This method requires node’s location information that is difficult to accurately locate indoors in a practical environment. In this paper, we propose a method to construct a REM with nodes whose locations are estimated by using a position estimation method. Measurement nodes recognize the wireless environment while autonomously estimating their position. We measured the received power of private 5G, a type of private network, in a smart factory and constructed a REM using a position estimation method based on bluetooth low energy beacons. Using the proposed method, a radio propagation environment could be inferred with an accuracy of about $5[\mathrm{~dB}]$ in root mean squared error (RMSE).
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/PIMRC59610.2024.10817191
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: indoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

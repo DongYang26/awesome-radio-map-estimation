@@ -1,0 +1,30 @@
+id: real-time-reconstruction-of-radio-environment-maps-in-indoor
+title: Real Time Reconstruction of Radio Environment Maps in Indoor Millimeter-Wave Beamforming with Beam Changes
+authors:
+  - Takumi Bushi
+  - Toshiro Nakahira
+  - Shoko Shinohara
+  - Yusuke Asai
+  - Kenji Ohira
+  - Hideyuki Shimonishi
+year: 2024
+venue: Conference on Network and Service Management
+abstract: To enable robust wireless communications towards the future Cyber Physical System by optimizing beamforming in real time, it is essential to quickly estimate changes in the radio environment map (REM) after altering the beam direction. In addition, because of the difficulty to predict detailed REMs with high accuracy, especially for millimeter waves, a probabilistic REM, which estimates the radio signal strength at any point as a probability distribution rather than as a deterministic value, is expected. In this paper, to enable fast and probabilistic REM estimation, we propose a scheme that divides the estimation formula into a linear term and a Gaussian Process Regression (GPR) term to minimize the recalculation time associated with beam adjustments. We also propose a GPR kernel that uses polar coordinates centered on the base station angle to better capture the characteristics of narrow beams like millimeter waves. We evaluated the proposed scheme using Kullback-Leibler Divergence (KLD) to compare the measured and estimated distributions of the radio signal strength. In the REM estimation after beam adjustment, an accurate distribution is estimated at 29 out of 35 points with a KLD of 0.5 or lower. The proposed method achieved approximately 50 times faster REM reconstruction compared to a simple REM using GPR, enabling dynamic beam-forming optimization in mm-wave environment.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.23919/CNSM62983.2024.10814612
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - Gaussian-process  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: indoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 3
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

@@ -1,0 +1,31 @@
+id: '1703.02286'
+title: Atom-based radio-frequency field calibration and polarization measurement using cesium $nD_J$ Floquet states
+authors:
+  - Y. Jiao
+  - Liping Hao
+  - Xiaoxuan Han
+  - Suying Bai
+  - G. Raithel
+  - Jianming Zhao
+  - Suotang Jia
+year: 2017
+abstract: We investigate atom-based electric-field calibration and polarization measurement of a 100-MHz linearly polarized radio-frequency (RF) field using cesium Rydberg-atom electromagnetically induced transparency (EIT) in a room-temperature vapor cell. The calibration method is based on matching experimental data with the results of a theoretical Floquet model. The utilized 60$D_J$ fine structure Floquet levels exhibit $J$- and $m_j$-dependent AC Stark shifts and splittings, and develop even-order RF-modulation sidebands. The Floquet map of cesium 60$D_J$ fine structure states exhibits a series of exact crossings between states of different $m_j$, which are not RF-coupled. These exact level crossings are employed to perform a rapid and precise ($\pm 0.5\%$) calibration of the RF electric field. We also map out three series of narrow avoided crossings between fine structure Floquet levels of equal $m_j$ and different $J$, which are weakly coupled by the RF field via a Raman process. The coupling leads to narrow avoided crossings that can also be applied as spectroscopic markers for RF field calibration. We further find that the line-strength ratio of intersecting Floquet levels with different $m_j$ provides a fast and robust measurement of the RF field's polarization.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/1703.02286
+  pdf: https://link.aps.org/accepted/10.1103/PhysRevApplied.8.014028
+  doi: 10.1103/PhysRevApplied.8.014028
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 62
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

@@ -1,0 +1,25 @@
+id: few-shot-fine-grained-ship-classification-with-a-foreground-
+title: Few-Shot Fine-Grained Ship Classification With a Foreground-Aware Feature Map Reconstruction Network
+authors:
+  - Yangfan Li
+  - Chunjiang Bian
+year: 2022
+venue: IEEE Transactions on Geoscience and Remote Sensing
+abstract: 'Fine-grained ship classification plays an important part in many military and civilian applications. However, it is often costly to obtain images of ships, making it difficult to procure large numbers of such images. This difficulty poses challenges to machine learning procedures that require ship images. Commonly, only a few input images are available for certain types of ships, which leads to the poor generalization of trained models. Therefore, few-shot fine-grained ship classification is an important (but significantly challenging) task in machine learning. In this study, we propose a novel foreground-aware feature map reconstruction network (FRN) that is simple, effective, and scalable. We reconstruct the query features from support features using ridge regression and predict the distribution of the categories of query images between the reconstructed and real query features by comparing the weighted distances with foreground weights. The foreground weights indicate the percentages of foreground information in the feature map locations. We propose two methods for calculating the foreground weights: a non-parametric method and a parametric method. Our proposed network achieves state-of-the-art results on both the fine-grained ship classification dataset Fine-Grained Ship Classification in Remote sensing images (FGSCR) and the natural fine-grained bird classification dataset Caltech UCSD Birds (CUB).'
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/tgrs.2022.3172223
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 26
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

@@ -1,0 +1,32 @@
+id: '2406.01961'
+title: Exploring Real World Map Change Generalization of Prior-Informed HD Map Prediction Models
+authors:
+  - Samuel M. Bateman
+  - Ningyi Xu
+  - H. C. Zhao
+  - Yael Ben Shalom
+  - Vince Gong
+  - Greg Long
+  - Will Maddern
+year: 2024
+venue: 2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)
+abstract: Building and maintaining High-Definition (HD) maps represents a large barrier to autonomous vehicle deployment. This, along with advances in modern online map detection models, has sparked renewed interest in the online mapping problem. However, effectively predicting online maps at a high enough quality to enable safe, driverless deployments remains a significant challenge. Recent work on these models proposes training robust online mapping systems using low quality map priors with synthetic perturbations in an attempt to simulate out-of-date HD map priors. In this paper, we investigate how models trained on these synthetically perturbed map priors generalize to performance on deployment-scale, real world map changes. We present a large-scale experimental study to determine which synthetic perturbations are most useful in generalizing to real world HD map changes, evaluated using multiple years of real-world autonomous driving data. We show there is still a substantial sim2real gap between synthetic prior perturbations and observed real-world changes, which limits the utility of current prior-informed HD map prediction models.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2406.01961
+  pdf: https://arxiv.org/pdf/2406.01961
+  doi: 10.1109/CVPRW63382.2024.00459
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 10
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

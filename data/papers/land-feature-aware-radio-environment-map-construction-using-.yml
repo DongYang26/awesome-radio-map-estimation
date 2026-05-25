@@ -1,0 +1,28 @@
+id: land-feature-aware-radio-environment-map-construction-using-
+title: Land Feature Aware Radio Environment Map Construction using Radio Oriented Heterogeneous Multitask Gaussian Process
+authors:
+  - Haoxian Liu
+  - Kai Chen
+  - Zezhong Zhang
+  - Li Wang
+  - Shuguang Cui
+year: 2025
+venue: Global Communications Conference
+abstract: A Radio Environment Map (REM) is pivotal for optimizing wireless communication systems, yet its accuracy is inherently tied to the complex interplay of electromagnetic propagation and landform heterogeneity. Existing REM construction methods often implicitly ignore land features, leading to inaccuracies in REM estimation. In this paper, we introduce a novel Radio Oriented Heterogeneous Multitask Gaussian Process (RO-HMTGP) to address this gap by jointly integrating heterogeneous inputs, including land features and Reference Signal Receiving Power (RSRP). The proposed RO-HMTGP model treats land features as auxiliary knowledge and captures spatially correlated propagation effects across varying landforms while preserving feature-specific attenuation characteristics. RO-HMTGP enhances the construction accuracy of REM while quantifying uncertainty. Empirical evaluations using real-world datasets demonstrate that the land feature-aware RO-HMTGP achieves superior predictive performance compared to existing methods without land feature awareness. RO-HMTGP advances the integration of geospatial analytics into wireless communications, providing a pathway toward land feature-aware cognitive radio systems.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/GLOBECOM59602.2025.11432161
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - Gaussian-process  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

@@ -1,0 +1,25 @@
+id: '2605.23757'
+title: Distributionally Robust Complex Chance-Constrained Optimization
+authors:
+  - Raneem Madani
+  - Abdel Lisser
+  - Zeno Toffano
+year: 2026
+abstract: This paper introduces a framework for Chance-Constrained Optimization with Complex Variables, addressing complex linear programming for both individual and joint probabilistic constraints in the complex domain. We first analyze the 3CP model in the density-based setting under the assumption that the random parameters follow a Complex Elliptically Symmetric distribution. The framework is then extended to distributionally robust settings, which include a moment-based model where the moments are known or bounded; a support-based model, where the ambiguity set contains distributions supported on norm-bounded uncertainty sets; and a data-driven model where moments are estimated empirically. The individual constraints are transformed into a convex deterministic second-order cone problem. We employ copula theory to the joint probability constraints and derive both upper and lower approximations. Finally, we demonstrate the proposed framework on the minimum variance distortionless response beamforming problem in signal processing. We further evaluate empirical out-of-sample rates and show that the observed behavior closely matches the prescribed probabilistic guarantees.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23757
+  pdf: https://arxiv.org/pdf/2605.23757
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

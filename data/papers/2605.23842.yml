@@ -1,0 +1,23 @@
+id: '2605.23842'
+title: Dissipative non-Abelian fluids from Scherk-Schwarz dimensional reduction
+authors:
+  - Emilio Torrente-Lujan
+year: 2026
+abstract: We construct a $d$-dimensional dissipative colored fluid by Scherk--Schwarz reduction of a neutral viscous conformal fluid in $D=d+n$ dimensions on an $n$-dimensional unimodular group manifold. The off-diagonal components of the higher-dimensional stress tensor become non-Abelian color currents, while the higher-dimensional shear tensor induces shear, bulk-like and vector-dissipative structures in the reduced theory. We derive the map for the equation of state, sound speed, color current, entropy current and first-order transport coefficients. In particular, \[   η=\ee^{α\varphi}\coshξ\,\heta,\qquad   τ=η\,\frac{n}{(D-1)(d-1)},\qquad   κ=η\sinh^2ξ. \] We also spell out the hydrodynamic-frame issue induced by dimensional reduction, discuss the status of the internal rapidity field $ξ$, and give a detailed account of how the second law descends from the parent theory, including the roles of temperature-dependent viscosity, non-unimodular groups and possible choices for $ξ$. The construction should be regarded as a toy model for non-Abelian dissipative hydrodynamics with the potential of paving the way to direct phenomenological model of, for example, quark--gluon plasma.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23842
+  pdf: https://arxiv.org/pdf/2605.23842
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

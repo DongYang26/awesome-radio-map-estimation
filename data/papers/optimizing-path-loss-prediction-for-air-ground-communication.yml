@@ -1,0 +1,27 @@
+id: optimizing-path-loss-prediction-for-air-ground-communication
+title: 'Optimizing Path Loss Prediction for Air-Ground Communication Systems Using Hybrid Machine Learning Models: A Case Study of Linear Regression and PSO-Optimized Gradient Boosting Regressor'
+authors:
+  - Abdulaziz Maiwada
+  - E. Adetiba
+  - A. Ahmed
+  - B. O. Omijeh
+year: 2025
+venue: Saudi Journal of Engineering and Technology
+abstract: This paper examines how linear regression in machine learning enables the prediction of air-ground path loss through environmental parameters such as temperature, humidity, and atmospheric pressure measurements. The paper demonstrates that temperature plays the most significant role in determining path loss, while humidity and atmospheric pressure contribute at a lower level. A high level of accuracy defines the linear regression model, which demonstrated efficient path loss prediction through a Mean Absolute Error (MAE) of 0.2995. The model demonstrates effective capabilities for system improvements during changing atmospheric conditions because the trend line shows the smooth progression of predicted and actual values. A hybrid model produced enhanced prediction accuracy when particle swarm optimization and gradient-boosting regressor parameters were optimized to establish the new model system. The optimized model substantially declined MAE to 0.0435, which verified its improved predictive capacity regarding absolute path loss values. A performance-maximized model resulted from tuning relevant parameters to set n_estimators equal to 56, learning rate to 0.1, and max_depth to 9. The optimized model accurately predicts path loss in communication networks, preparing it for on-site deployment. This research serves as a basis for further investigation, integrating other environmental elements, including wind speed, rainfall and elevation levels, and testing alternative state-of-the-art machine learning methods. Future improvements in these procedures can boost the flexibility and reliability of networks with an emphasis on air-ground systems. Research findings indicate that PSO-GBR hybrid models possess a high potential for path loss prediction, creating new possibilities for future air-ground communication systems and emerging technologies such as low-altitude satellites, air taxis, and unmanned aerial vehicles (UAVs).
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.36348/sjet.2025.v10i06.005
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

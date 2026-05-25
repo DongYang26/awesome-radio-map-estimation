@@ -1,0 +1,29 @@
+id: '2504.09849'
+title: 'CKMImageNet: A Dataset for AI-Based Channel Knowledge Map Toward Environment-Aware Communication and Sensing'
+authors:
+  - Zijian Wu
+  - Di Wu
+  - Shen Fu
+  - Yuelong Qiu
+  - Yong Zeng
+year: 2025
+venue: IEEE Transactions on Communications
+abstract: With the increasing demand for real-time channel state information (CSI) in sixth-generation (6G) mobile communication networks, channel knowledge map (CKM) emerges as a promising technique, offering a site-specific database that enables environment-awareness and significantly enhances communication and sensing performance by leveraging a priori wireless channel knowledge. However, efficient construction and utilization of CKMs require high-quality, massive, and location-specific channel knowledge data that accurately reflects the real-world environments. Inspired by the great success of ImageNet dataset in advancing computer vision and image understanding in artificial intelligence (AI) community, we introduce CKMImageNet, a dataset developed to bridge AI and environment-aware wireless communications and sensing by integrating location-specific channel knowledge data, high-fidelity environmental maps, and their visual representations. CKMImageNet supports a wide range of AI-driven approaches for CKM construction with spatially consistent and location-specific channel knowledge data, including both supervised and unsupervised, as well as discriminative and generative AI methods. The dataset is built using advanced ray-tracing techniques, ensuring high fidelity and environmental accuracy. By addressing key challenges in CKM construction and enabling AI models to learn environment-aware propagation patterns, CKMImageNet may serve as a foundational tool for advancing environment-aware 6G systems, ranging from network planning such as communication base station (BS) site selection and sensing anchor node placement, to pro-active resource allocation such as beam alignment, power allocation, interference avoidance, clutter rejection, and robot trajectory planning. Compared with existing datasets like RadioMapSeer, CKMImageNet not only provides numerical and visual representation to channel gain values, but also more diversified channel knowledge like multipath angles of arrival (AoAs) and path delays. Moreover, the dataset offers images with multiple sizes to cater to different application scenarios.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2504.09849
+  doi: 10.1109/TCOMM.2025.3615778
+subfield: CKM  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: unsupervised  # TODO: maintainer verify
+citations: 11
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

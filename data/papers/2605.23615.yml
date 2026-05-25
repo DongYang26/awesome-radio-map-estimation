@@ -1,0 +1,23 @@
+id: '2605.23615'
+title: Observation of Entanglement Enabled Spin-Interference in the Drell-Söding Process in Au+Au Ultraperipheral Collisions at RHIC
+authors:
+  - The STAR Collaboration
+year: 2026
+abstract: We report a measurement of the Drell-Söding $π^+ π^-$ production in Au + Au ultraperipheral collisions at a center-of-mass energy per nucleon pair $\sqrt{s_{NN}} = 200~\mathrm{GeV}$ using the STAR detector. For the first time, the Entanglement Enabled Spin-Interference (EESI) effect is observed in the Drell-Söding process through the amplitude $A_{2Δφ}$ of the $\cos(2Δφ)$ modulation. The measured $A_{2Δφ}$ exhibits no significant dependence on the invariant mass $M_{π^+ π^-}$. An enhancement of three standard deviations is observed for the Drell-Söding process compared to $ρ^0$ photoproduction. Furthermore, we measure the $|t|$-dependence of the Drell-Söding process and $ρ^0$ photoproduction. The Drell-Söding spectrum falls more steeply with $|t|$ and exhibits diffractive structures shifted to lower $|t|$ compared to $ρ^0$ photoproduction, features that are not captured by theoretical calculations. These results provide new insights into the interplay between quantum interference and photon-nuclear interactions in ultra-peripheral heavy-ion collisions.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23615
+  pdf: https://arxiv.org/pdf/2605.23615
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

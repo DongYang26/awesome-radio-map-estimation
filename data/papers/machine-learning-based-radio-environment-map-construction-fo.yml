@@ -1,0 +1,31 @@
+id: machine-learning-based-radio-environment-map-construction-fo
+title: Machine Learning Based Radio Environment Map Construction for Cellular Networks
+authors:
+  - Vasileios P. Rekkas
+  - S. Sotiroudis
+  - Z. Zaharis
+  - George Koudouridis
+  - Panagiotis Sarigiannids
+  - G. Karagiannidis
+  - C. Christodoulou
+  - Sotirios K Goudos
+year: 2024
+venue: 2024 IEEE International Symposium on Antennas and Propagation and INC/USNC‐URSI Radio Science Meeting (AP-S/INC-USNC-URSI)
+abstract: Radio environment maps (REMs) can characterize a parameter of interest in a communication channel such as the reference signal received power (RSRP) at every point in a given geographical region. High-precision REMs have substantial potential for managing wireless resources and monitoring the spectrum. In this work, we explore various machine learning (ML) models, including an ensemble approach, to construct REMs by first estimating RSRP values in a long-term evolution (LTE) network. The simulation results indicate that the proposed ensemble approach exhibits great accuracy in RSRP estimation in LTE networks.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/AP-S/INC-USNC-URSI52054.2024.10686580
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

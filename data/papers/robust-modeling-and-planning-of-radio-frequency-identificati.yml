@@ -1,0 +1,29 @@
+id: robust-modeling-and-planning-of-radio-frequency-identificati
+title: Robust modeling and planning of radio-frequency identification network in logistics under uncertainties
+authors:
+  - Bowei Xu
+  - Junjun Li
+  - Yongsheng Yang
+  - O. Postolache
+  - Huafeng Wu
+year: 2018
+venue: Int. J. Distributed Sens. Networks
+abstract: To realize higher coverage rate, lower reading interference, and cost efficiency of radio-frequency identification network in logistics under uncertainties, a novel robust radio-frequency identification network planning model is built and a robust particle swarm optimization is proposed. In radio-frequency identification network planning model, coverage is established by referring the probabilistic sensing model of sensor with uncertain sensing range; reading interference is calculated by concentric map–based Monte Carlo method; cost efficiency is described with the quantity of readers. In robust particle swarm optimization, a sampling method, the sampling size of which varies with iterations, is put forward to improve the robustness of robust particle swarm optimization within limited sampling size. In particular, the exploitation speed in the prophase of robust particle swarm optimization is quickened by smaller expected sampling size; the exploitation precision in the anaphase of robust particle swarm optimization is ensured by larger expected sampling size. Simulation results show that, compared with the other three methods, the planning solution obtained by this work is more conducive to enhance the coverage rate and reduce interference and cost.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://journals.sagepub.com/doi/pdf/10.1177/1550147718769781
+  doi: 10.1177/1550147718769781
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 28
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

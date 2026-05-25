@@ -1,0 +1,26 @@
+id: '2605.23828'
+title: Strong majority colorings of graphs
+authors:
+  - Rafał Kalinowski
+  - Mateusz Kamyczura
+  - Monika Pilśniak
+  - Mariusz Woźniak
+year: 2026
+abstract: Motivated by majority vertex-colorings of graphs and digraphs and majority edge-colorings of graphs, we introduce two concepts of strong majority colorings. A strong majority vertex-coloring of a graph $G=(V,E)$ is a mapping $c:V\rightarrow C$ such that for every vertex $v\in V$ and every color $α\in C$, at most half of the neighbors of $v$ have color $α$. The strong majority number of $G$, denoted Maj$(G)$, is the least number of colors in such a coloring. We show that Maj$(G)$ can be arbitrarily large and prove a tight upper bound Maj$(G)\le 2Δ(G)+1$ for every graph $G$ without pendant vertices. A strong majority edge-coloring of a graph $G$ is a mapping $c:E\rightarrow C$ such that for every edge $e\in E$ and every color $α\in C$, at most half of the edges adjacent to $e$ have color $α$. The strong majority index of $G$, denoted Maj'$(G)$, is the least number of colors in such a coloring. It is shown that there is an upper constant bound for Maj'$(G)$ of all admissible graphs $G$. We conjecture that this constant is as small as 4 and confirm this conjecture for numerous graph classes.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23828
+  pdf: https://arxiv.org/pdf/2605.23828
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

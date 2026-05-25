@@ -1,0 +1,24 @@
+id: '2605.23636'
+title: 'RF Instrument Agent (RFIA): Empowering RF Instruments with Natural Language Understanding, Scheduling and Execution of Complex Tasks'
+authors:
+  - Chunhui Li
+  - Wei Fan
+year: 2026
+abstract: Modern radio-frequency (RF) instruments, such as vector network analyzers (VNAs), already provide mature remote-control interfaces. However, practical RF measurement workflows still rely on manual operation or custom scripting, which is time-consuming and expertise-intensive. This paper presents RF Instrument Agent (RFIA), a natural-language agent framework for reliable task-driven RF instrument control. RFIA adopts a decoupled intent--planning--execution architecture, where the LLM is used only for task understanding and high-level planning, while instrument-facing operations are handled by a deterministic runtime. Verified skills, workflow templates, RF analysis tools, instrument-specific rules, and retrieval-assisted SCPI knowledge are organized in a structured knowledge base, and hybrid execution graphs are used for closed-loop measurement tasks. A hardware-in-the-loop prototype is implemented on a commercial VNA and evaluated using a 16-task benchmark covering configuration, query, acquisition, rule-aware operation, RF-data analysis, and closed-loop measurement. RFIA handles all benchmark tasks under predefined execution and safety policies, including one expected safety rejection. Hardware-in-the-loop results with both a 230B-scale MiniMax-M2.7 model and a smaller 27B-scale Qwen3.6-27B model confirm that the decoupled architecture supports reliable natural-language RF measurement automation across different LLM backends.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23636
+  pdf: https://arxiv.org/pdf/2605.23636
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

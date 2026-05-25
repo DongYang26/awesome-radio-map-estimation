@@ -1,0 +1,25 @@
+id: '2605.23767'
+title: Entropy and stability of an extremally charged Einstein-Born-Infeld thin shell
+authors:
+  - Ernesto Eiroa
+  - Griselda Figueroa-Aguirre
+  - Miguel Peñafiel
+year: 2026
+abstract: Spacetimes with a thin shell offer a framework where both the dynamical stability and the thermodynamical stability of the matter comprising the shell can be consistently studied. In the present work, we consider the dynamical and thermodynamical stability of a spherical thin shell in Einstein gravity coupled to Born-Infeld electrodynamics. For our construction, we adopt the extremally charged solution of the theory, which offers a closed analytic form for the horizon location that allows for a clear derivation of the corresponding physical quantities of interest. Under this scenario, the dynamical stability conditions under radial perturbations are readily obtained in terms of an effective potential. The complete equilibrium thermodynamics for such a shell is presented. We find that, despite a non-zero pressure at the shell (unlike the extremally charged Reissner-Nordström counterpart), its entropy is solely characterized as a function of the gravitational radius. We propose a physically suitable \emph{ansätze} for the relevant equations of state in order to obtain a closed expression for the entropy density of the shell. We find that the thermodynamical stability conditions reduce to a single inequality related to exchanges of the charge at the shell, which determines the domain where both dynamical and thermodynamical stable configurations exist.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23767
+  pdf: https://arxiv.org/pdf/2605.23767
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

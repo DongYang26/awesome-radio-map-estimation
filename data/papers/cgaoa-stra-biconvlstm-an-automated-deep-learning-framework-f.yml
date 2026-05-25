@@ -1,0 +1,29 @@
+id: cgaoa-stra-biconvlstm-an-automated-deep-learning-framework-f
+title: 'CGAOA-STRA-BiConvLSTM: An automated deep learning framework for global TEC map prediction'
+authors:
+  - Haijun Liu
+  - Haoran Wang
+  - Huijun Le
+  - Jing Yuan
+  - Weifeng Shan
+  - Yang Wu
+  - Yi Chen
+year: 2025
+venue: GPS Solutions
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1007/s10291-025-01814-y
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - RNN  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 10
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

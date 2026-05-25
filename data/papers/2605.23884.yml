@@ -1,0 +1,25 @@
+id: '2605.23884'
+title: On almost periodicity in crystalline measures
+authors:
+  - Jan Mazáč
+  - Christoph Richard
+  - Nicolae Strungaru
+year: 2026
+abstract: Meyer defined crystalline measures as tempered distributions $μ$ such that both $μ$ and its Fourier transform $\widehatμ$ are pure-point Radon measures of locally finite support. He conjectured that every crystalline measure is almost periodic as a tempered distribution. Favorov constructed a counterexample and asked whether crystalline measures are at least almost periodic as general distributions. To resolve Favorov's question, we first show that the almost periodicity of a crystalline measure is characterised in terms of its translation boundedness, in any class of Radon measures, tempered distributions, or general distributions. We then construct a crystalline Fourier eigenmeasure that fails to be translation bounded even as a distribution. We finally construct a crystalline measure that fails to be a~Fourier quasicrystal (in particular, it fails to be slowly increasing), but it is an almost periodic tempered distribution whose Fourier transform is even a norm almost periodic measure. Our examples fully resolve the questions of Meyer and Favorov and sharply delineate the class boundary of translation boundedness. They also demonstrate the unusual behaviour of crystalline measures beyond the class of Fourier quasicrystals.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23884
+  pdf: https://arxiv.org/pdf/2605.23884
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

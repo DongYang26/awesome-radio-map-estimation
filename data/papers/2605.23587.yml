@@ -1,0 +1,25 @@
+id: '2605.23587'
+title: 'A Markov-Chain-Monte-Carlo-based Hybrid Noise Inference for Continuous Wavelet Power Spectra: with Applications to Solar and Stellar Oscillatory Signals'
+authors:
+  - Song Feng
+  - Lin Li
+  - Ding Yuan
+year: 2026
+abstract: Detecting oscillations in solar and stellar time series is complicated by non-stationary red noise and evolving background emission. Methods based on detrending and AR(1)-based wavelet analysis can introduce spurious periodicities and do not adequately describe time-dependent backgrounds. We develop a Bayesian approach that combines the continuous wavelet transform with MCMC sampling to infer a time-dependent background spectrum. The background is represented by a power-law plus white-noise component, with parameters allowed to vary smoothly in time, so that significance levels can be evaluated locally without explicit detrending. Tests with synthetic data show that injected oscillations are recovered reliably, while false detections are suppressed in pure-noise cases. Using a frequency-domain signal-to-noise ratio (S/N), we find that oscillations can be identified robustly when the S/N is greater than or equal to 2 under mixed noise conditions. The detectable period range is limited by wavelet resolution, from about 3-4 sampling intervals up to roughly one-quarter of the total duration. Application to GOES soft X-ray flare observations shows that the method isolates quasi-periodic oscillations with improved temporal localization compared to standard wavelet and Fourier-based approaches. Meanwhile, this behavior is consistent across a range of noise conditions and signal morphologies.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23587
+  pdf: https://arxiv.org/pdf/2605.23587
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

@@ -1,0 +1,26 @@
+id: '2605.23752'
+title: Development of EAP-based actuators for high-frequency adaptive optics system
+authors:
+  - A. Michel
+  - D. Audigier
+  - C. Richard
+  - J. -F. Capsal
+year: 2026
+abstract: The present work aims to enhance the electrostrictive strain of the P(VDF-TrFE-CFE) terpolymer for use in adaptive optics, specifically in deformable mirror actuation. In the context of the FlexSiMirror project, these systems seek to operate under alternating electric fields of up to 50 V/um and within the kilohertz (kHz) frequency range, thereby framing the ranges of characterization considered in this study. To achieve greater strains, the incorporation of a polymeric plasticizer up to 20 vol.% and its impact on the actuation strain performance was studied. Hence, the relevance of this approach lies both in the kHz characterization of the mechanical and dielectric properties of the materials and in the utilization of a polymeric plasticizer, instead of the commonly used phthalates suitable for lower frequency ranges. In the kHz range, polymeric plasticizer addition markedly reduces the elastic modulus while limiting molecular migration, leading to more than a threefold increase of the figure of merit associated with strain (FOMstrain) and yielding 1.50% strain output under 50 V/um, 3.6 times greater than that of the unmodified terpolymer. Therefore, these findings show that modified P(VDF-TrFE-CFE) exhibits enhanced electromechanical performance in the kHz range. This advancement opens new possibilities for developing next-generation actuators intended for adaptive optics applications.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23752
+  pdf: https://arxiv.org/pdf/2605.23752
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

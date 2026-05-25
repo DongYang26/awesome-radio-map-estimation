@@ -1,0 +1,28 @@
+id: a-deep-probabilistic-machine-learning-approach-to-ray-tracin
+title: A Deep Probabilistic Machine Learning Approach to Ray Tracing Path Loss Prediction at 900 MHz
+authors:
+  - S. Sotiroudis
+  - M. Matin
+  - Shaohua Wan
+  - C. Christodoulou
+  - Sotirios K Goudos
+year: 2024
+venue: IEEE Transactions on Antennas and Propagation
+abstract: Machine Learning (ML) is extensively being used in order to tackle the problem of radio propagation. Besides the models that rely on tabular data, Deep Learning (DL)-based image-driven models have also emerged. However, significant uncertainty is associated with path loss (PL) forecasting and deterministic ML predictions should be combined with a model for predictive uncertainty. As a result, we take a probabilistic approach by estimating prediction intervals using a deep probabilistic framework. The probabilistic framework attempts to address the issue of conditional bias, which frequently characterizes deterministic ML predictions obtained through error minimization. This is accomplished by quantifying uncertainty, making probabilistic predictions, and incorporating robust optimization techniques into the modeling process. The work at hand fuses images and tabular data into a deep probabilistic ensemble (DPE). More precisely, natural gradient boosting (NGBoost) is being used in order to obtain probabilistic predictions from each input modality separately. These unimodal predictions are then ensembled for each estimation point, according to the inverse of their variance. The proposed model’s results show a significant performance boost against the single-mode predictions in terms of prediction error and uncertainty. To the best of our knowledge, this is the first time that images and tabular data are being combined on the basis of a probabilistically structured ensemble model for a PL modeling problem in electromagnetics.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/TAP.2024.3465840
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 4
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

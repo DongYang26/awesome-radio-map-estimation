@@ -1,0 +1,37 @@
+id: the-collateral-map-prediction-of-lesion-growth-and-penumbra-
+title: 'The collateral map: prediction of lesion growth and penumbra after acute anterior circulation ischemic stroke'
+authors:
+  - Jin-Seok Yi
+  - Hee Jong Ki
+  - Yoo Sung Jeon
+  - Jeong-Jin Park
+  - T. Lee
+  - J. T. Kwak
+  - Sang Bong Lee
+  - H. Lee
+  - I. S. Kim
+  - Joo Hyun Kim
+  - J. S. Lee
+  - H. Roh
+  - Hyun Jeong Kim
+year: 2023
+venue: European Radiology
+abstract: This study evaluated the collateral map’s ability to predict lesion growth and penumbra after acute anterior circulation ischemic strokes. This was a retrospective analysis of selected data from a prospectively collected database. The lesion growth ratio was the ratio of the follow-up lesion volume to the baseline lesion volume on diffusion-weighted imaging (DWI). The time-to-maximum (Tmax)/DWI ratio was the ratio of the baseline Tmax  > 6 s volume to the baseline lesion volume. The collateral ratio was the ratio of the hypoperfused lesion volume of the phase_FU (phase with the hypoperfused lesions most approximate to the follow-up DWI lesion) to the hypoperfused lesion volume of the phase_baseline of the collateral map. Multiple logistic regression analyses were conducted to identify independent predictors of lesion growth. The concordance correlation coefficients of Tmax/DWI ratio and collateral ratio for lesion growth ratio were analyzed. Fifty-two patients, including twenty-six males (mean age, 74 years), were included. Intermediate (OR, 1234.5; p < 0.001) and poor collateral perfusion grades (OR, 664.7; p = 0.006) were independently associated with lesion growth. Phase_FUs were immediately preceded phases of the phase_baselines in intermediate or poor collateral perfusion grades. The concordance correlation coefficients of the Tmax/DWI ratio and collateral ratio for the lesion growth ratio were 0.28 (95% CI, 0.17–0.38) and 0.88 (95% CI, 0.82–0.92), respectively. Precise prediction of lesion growth and penumbra can be possible using collateral maps, allowing for personalized application of recanalization treatments. Further studies are needed to generalize the findings of this study. Precise prediction of lesion growth and penumbra can be possible using collateral maps, allowing for personalized application of recanalization treatments. • Cell viability in cerebral ischemia due to proximal arterial steno-occlusion mainly depends on the collateral circulation. • The collateral map shows salvageable brain extent, which can survive by recanalization treatments after acute anterior circulation ischemic stroke. • Precise estimation of salvageable brain makes it possible to make patient-specific treatment decision.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://link.springer.com/content/pdf/10.1007/s00330-023-10084-6.pdf
+  doi: 10.1007/s00330-023-10084-6
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 13
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

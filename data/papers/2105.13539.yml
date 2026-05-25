@@ -1,0 +1,155 @@
+id: '2105.13539'
+title: 'Dark Energy Survey Year 3 results: Curved-sky weak lensing mass map reconstruction'
+authors:
+  - N. Jeffrey
+  - M. Gatti
+  - C. Chang
+  - L. Whiteway
+  - U. Demirbozan
+  - A. Kovács
+  - G. Pollina
+  - D. Bacon
+  - N. Hamaus
+  - T. Kacprzak
+  - O. Lahav
+  - F. Lanusse
+  - B. Mawdsley
+  - S. Nadathur
+  - J. Starck
+  - P. Vielzeuf
+  - D. Zeurcher
+  - A. Alarcon
+  - A. Amon
+  - K. Bechtol
+  - G. Bernstein
+  - A. Campos
+  - A. Rosell
+  - M. Kind
+  - R. Cawthon
+  - R. Chen
+  - A. Choi
+  - J. Cordero
+  - C. Davis
+  - J. DeRose
+  - C. Doux
+  - A. Drlica-Wagner
+  - K. Eckert
+  - F. Elsner
+  - J. Elvin-Poole
+  - S. Everett
+  - A. Fert'e
+  - G. Giannini
+  - D. Gruen
+  - R. Gruendl
+  - I. Harrison
+  - W. Hartley
+  - K. Herner
+  - E. Huff
+  - D. Huterer
+  - N. Kuropatkin
+  - M. Jarvis
+  - P. Leget
+  - N. MacCrann
+  - J. McCullough
+  - J. Muir
+  - J. Myles
+  - A. Navarro-Alsina
+  - S. Pandey
+  - J. Prat
+  - M. Raveri
+  - R. Rollins
+  - A. Ross
+  - E. Rykoff
+  - C. S'anchez
+  - L. Secco
+  - I. Sevilla-Noarbe
+  - E. Sheldon
+  - T. Shin
+  - M. Troxel
+  - I. Tutusaus
+  - T. Varga
+  - Biao Yin
+  - Y. Zhang
+  - J. Zuntz
+  - T. Abbott
+  - M. Aguena
+  - S. Allam
+  - F. Andrade-Oliveira
+  - M. Becker
+  - E. Bertin
+  - S. Bhargava
+  - D. Brooks
+  - D. Burke
+  - J. Carretero
+  - F. Castander
+  - C. Conselice
+  - M. Costanzi
+  - M. Crocce
+  - L. Costa
+  - M. Pereira
+  - J. Vicente
+  - S. Desai
+  - H. Diehl
+  - J. Dietrich
+  - P. Doel
+  - I. Ferrero
+  - B. Flaugher
+  - P. Fosalba
+  - J. Garc'ia-Bellido
+  - E. Gaztañaga
+  - D. Gerdes
+  - T. Giannantonio
+  - J. Gschwend
+  - G. Gutiérrez
+  - S. Hinton
+  - D. Hollowood
+  - B. Hoyle
+  - B. Jain
+  - D. James
+  - M. Lima
+  - M. Maia
+  - M. March
+  - J. Marshall
+  - Peter Melchior
+  - F. Menanteau
+  - R. Miquel
+  - J. Mohr
+  - R. Morgan
+  - R. Ogando
+  - A. Palmese
+  - F. Paz-Chinch'on
+  - A. Plazas
+  - M. Rodriguez-Monroy
+  - A. Roodman
+  - E. Sánchez
+  - V. Scarpine
+  - S. Serrano
+  - M. Smith
+  - M. Soares-Santos
+  - E. Suchyta
+  - G. Tarlé
+  - D. Thomas
+  - C. To
+  - J. Weller
+year: 2021
+venue: Monthly notices of the Royal Astronomical Society
+abstract: 'We present reconstructed convergence maps, mass maps, from the Dark Energy Survey (DES) third year (Y3) weak gravitational lensing data set. The mass maps are weighted projections of the density field (primarily dark matter) in the foreground of the observed galaxies. We use four reconstruction methods, each is a maximum a posteriori estimate with a different model for the prior probability of the map: Kaiser–Squires, null B-mode prior, Gaussian prior, and a sparsity prior. All methods are implemented on the celestial sphere to accommodate the large sky coverage of the DES Y3 data. We compare the methods using realistic ΛCDM simulations with mock data that are closely matched to the DES Y3 data. We quantify the performance of the methods at the map level and then apply the reconstruction methods to the DES Y3 data, performing tests for systematic error effects. The maps are compared with optical foreground cosmic-web structures and are used to evaluate the lensing signal from cosmic-void profiles. The recovered dark matter map covers the largest sky fraction of any galaxy weak lensing map to date.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2105.13539
+  pdf: https://academic.oup.com/mnras/article-pdf/505/3/4626/38824111/stab1495.pdf
+  doi: 10.1093/mnras/stab1495
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 60
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

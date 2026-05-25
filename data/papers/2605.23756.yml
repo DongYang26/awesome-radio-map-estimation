@@ -1,0 +1,37 @@
+id: '2605.23756'
+title: Probing Solar Wind Structures with Solar Energetic Particle Observations from Solar Orbiter
+authors:
+  - Xiaohang Chen
+  - Gang Li
+  - Joe Giacalone
+  - Xiangliang Kong
+  - Shuai Fu
+  - Rumeng Zhang
+  - Changyue Zhao
+  - George C. Ho
+  - David Lario
+  - Zheyi Ding
+  - Robert F. Wimmer-Schweingruber
+  - Glenn M. Mason
+  - Roberto Bruno
+  - Nicolas Wijsen
+  - Javier Rodríguez-Pacheco
+year: 2026
+abstract: 'The propagation of solar energetic particles (SEPs) through the heliosphere is primarily guided by the interplanetary magnetic field (IMF) which is embedded in the solar wind plasma. Large-scale IMF structures can drive transient variations in SEP intensities. Using Solar Orbiter observations, we identify a distinct class of SEP variations: SEP flux deflections (SFDs), which are commonly detected in SEP events and frequently recur multiple times within a single event. SFDs are characterized by a sudden change in SEP flux directions where the intensities drop in one direction and increase in another direction, without a significant net change in total flux magnitude. These deflections occur dispersionlessly across a broad energy range-from tens of keV to over 100 MeV-and exhibit steep intensity gradients. SFDs are typically associated with magnetic flux tubes with boundary features consistent with tangential discontinuities. We further show that the solar wind inside these structures exhibits distinct plasma properties, and that the SEP streaming direction within SFDs aligns closely to the flux-tube axis. These observations suggest that magnetic flux tubes are a prevalent structural element of the solar wind, and demonstrate that SEPs can serve as an effective diagnostic tool for probing the topology and dynamics of solar wind structures.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23756
+  pdf: https://arxiv.org/pdf/2605.23756
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

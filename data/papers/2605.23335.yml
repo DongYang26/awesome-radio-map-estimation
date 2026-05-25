@@ -1,0 +1,26 @@
+id: '2605.23335'
+title: Electron-Photon Spatial Entanglement in Coherent Cathodoluminescence
+authors:
+  - Tatsuro Yuge
+  - Ryo Okamoto
+  - Takumi Sannomiya
+  - Keiichirou Akiba
+year: 2026
+abstract: Electron-photon quantum entanglement in an electron microscope paves the way for a new quantum platform, enabling the integration of quantum functionalities into electron microscopy and opening opportunities for quantum imaging and quantum sensing at the nanoscale. To realize such a platform, it is crucial to understand the degree and nature of electron-photon entanglement in cathodoluminescence (CL). However, its dependence on electron-beam properties, particularly transverse coherence, remains unclear. Here, we present a theoretical framework describing the quantum state of an electron-photon pair generated in coherent CL, specifically for transition radiation. By expressing the scattered state directly via the luminescence spectrum, we evaluate the entanglement using both subsystem purity and an Einstein-Podolsky-Rosen-type criterion. These two measures enable a clear distinction between wave-like, particle-like, and classical regimes in terms of spatial and momentum entanglement in the electron-photon system. Our analysis identifies the roles of the electron's transverse and longitudinal coherence, as well as the photon's spectral width, and reveals the conditions under which strong spatial entanglement emerges. This unified perspective clarifies the nature of electron-photon quantum correlations in coherent CL, leading to quantum-enabled functionalities in electron microscopy.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23335
+  pdf: https://arxiv.org/pdf/2605.23335
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

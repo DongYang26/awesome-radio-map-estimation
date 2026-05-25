@@ -1,0 +1,29 @@
+id: '2509.11571'
+title: A Fine-Grained 3D Radio Map Construction Paradigm With Ultra-Low Sampling Rates by Large Generative Models
+authors:
+  - Zhiyuan Liu
+  - Qingyu Liu
+  - Shuhang Zhang
+  - Hongliang Zhang
+  - Lingyang Song
+year: 2025
+venue: IEEE Journal on Selected Areas in Communications
+abstract: 'A radio map captures the spatial distribution of wireless channel parameters, such as the strength of the signal received, across a geographic area. The problem of fine-grained three-dimensional (3D) radio map construction involves inferring a high-resolution radio map for the two-dimensional (2D) area at an arbitrary target height within a 3D region of interest, using radio samples collected by sensors sparsely distributed in that 3D region. Solutions to the problem are crucial for efficient spectrum management in 3D spaces, particularly for drones in the rapidly developing low-altitude economy. However, this problem is challenging due to ultra-sparse sampling, where the number of collected radio samples is far fewer than the desired resolution of the radio map to be estimated. In this paper, we design RadioLAM, a fine-grained 3D radio map construction paradigm built on generative Large Artificial Intelligence Models (LAMs). RadioLAM employs the creative power and the strong generalization capability of LAM to address the ultra-sparse sampling challenge. It consists of three key blocks: 1) an augmentation block, using the radio propagation model to project the radio samples collected at different heights to the 2D area at the target height; 2) a generation block, leveraging a diffusion-based LAM under an Mixture of Experts (MoE) architecture to generate a candidate set of fine-grained radio maps for the target 2D area; and 3) an election block, utilizing the radio propagation model as a guide to find the best map from the candidate set. Extensive simulations show that RadioLAM is able to solve the fine-grained 3D radio map construction problem efficiently from an ultra-low sampling rate of 0.1%, and significantly outperforms state-of-the-art (SOTA). Furthermore, real-world experiments confirm that RadioLAM achieves superior performance compared to SOTA.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2509.11571
+  doi: 10.1109/JSAC.2026.3677149
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

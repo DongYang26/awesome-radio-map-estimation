@@ -1,0 +1,33 @@
+id: novel-radio-environment-map-construction-scheme-for-3-d-and-
+title: Novel Radio Environment Map Construction Scheme for 3-D and Full Band for Modern Internet of Things Applications
+authors:
+  - Shoubin Zhang
+  - Zhimeng Li
+  - Haojin Li
+  - Yanping Zha
+  - Hongjun Wang
+  - Zhexian Shen
+  - Hao Jiang
+  - Jiangzhou Wang
+year: 2025
+venue: IEEE Internet of Things Journal
+abstract: A radio environment map (REM) is a visualization method that display electromagnetic properties, such as received signal strength, channel gain, and power spectrum density in combination with geographic information. The map can effectively support modern Internet of Things (IoT) network planning and resource management. A novel REM construction scheme of an arbitrary height and frequency in 3-D space is studied in this article. First, a complex urban environment is considered, where the radiation sources transmit wireless signals in different frequency bands. Then, the construction is sliced into 2-D planes with various elevations to achieve precise and efficient sensing of 3-D space. For near-ground scenarios, preliminary global interpolation based on linear unbiased estimation is first performed to obtain a coarse REM, and then graph neural networks are utilized to further extract the relationships and features of the spatial nodes to improve the construction accuracy. For high-altitude scenarios, a small range of interpolation is carried out on the basis of linear unbiased estimation with the clustering center obtained by clustering the known sensing nodes as the center of the circle. Then the global construction is implemented via domain transformation processing to increase the construction speed. Finally, the 2-D REMs are stacked in sheets according to elevation to form a 3-D REM. The simulation results demonstrate the effectiveness and superiority of the proposed scheme.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/JIOT.2024.3520611
+subfield: REM  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - GNN  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: unsupervised  # TODO: maintainer verify
+citations: 3
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

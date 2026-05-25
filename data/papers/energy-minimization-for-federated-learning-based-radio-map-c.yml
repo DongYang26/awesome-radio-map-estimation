@@ -1,0 +1,30 @@
+id: energy-minimization-for-federated-learning-based-radio-map-c
+title: Energy Minimization for Federated Learning Based Radio Map Construction
+authors:
+  - Fahui Wu
+  - Yunfei Gao
+  - Lin Xiao
+  - Dingcheng Yang
+  - Jiangbin Lyu
+year: 2024
+venue: IEEE Transactions on Machine Learning in Communications and Networking
+abstract: This paper studies an unmanned aerial vehicle (UAV)-enabled communication network, in which the UAV acts as an air relay serving multiple ground users (GUs) to jointly construct an accurate radio map or channel knowledge maps (CKM) through a federated learning (FL) algorithm. Radio map or CKM is a site-specific database that contains detailed channel-related information for specific locations. This information includes channel power gains, shadowing, interference, and angles of arrival (AoA) and departure (AoD), all of which are crucial for enabling environment-aware wireless communications. Because the wireless communication network has limited resource blocks (RBs), only a subset of users can be selected to transmit the model parameters at each iteration. Since the FL training process requires multiple transmission model parameters, the energy limitation of the wireless device will seriously affect the quality of the FL result. In this sense, the energy consumption and resource allocation have a significance to the final FL training result. We formulate an optimization problem by jointly considering user selection, wireless resource allocation, and UAV deployment, with the goal of minimizing the computation energy and wireless transmission energy. To solve the problem, we first propose a probabilistic user selection mechanism to reduce the total number of FL iterations, whereby the users who have a larger impact on the global model in each iteration are more likely to be selected. Then the convex optimization technique is utilized to optimize bandwidth allocation. Furthermore, to further save communication transmission energy, we use deep reinforcement learning (DRL) to optimize the deployment location of the UAV. The DRL-based method enables the UAV to learn from its interaction with the environment and ascertain the most energy-efficient deployment locations through an evaluation of energy consumption during the training process. Finally, the simulation results show that our proposed algorithm can reduce the total energy consumption by nearly 38%, compared to the standard FL algorithm.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://doi.org/10.1109/tmlcn.2024.3453212
+  doi: 10.1109/TMLCN.2024.3453212
+subfield: CKM  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 4
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

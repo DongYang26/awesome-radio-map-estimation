@@ -1,0 +1,30 @@
+id: wireless-channel-map-enabled-instantaneous-channel-state-inf
+title: Wireless Channel Map Enabled Instantaneous Channel State Information Acquisition in High-Mobility Scenarios
+authors:
+  - Yinglan Bu
+  - Cheng-Xiang Wang
+  - Chen-Yen Huang
+  - Shuaifei Chen
+  - Junling Li
+  - Jianghan Ji
+  - Yunfei Chen
+year: 2026
+venue: IEEE Transactions on Communications
+abstract: High-mobility and large-bandwidth applications at high frequencies make the acquisition of doubly-selective channels costly and complex, as the fast fading channel causes a surge in pilot overheads and inter-carrier interference. Accurate estimation of the complex channel gain (CG) and the carrier frequency offset (CFO) is required to support subsequent high-accuracy channel prediction that alleviates the heavy pilot burden. The emerging technology of the wireless channel map (WCM) can approximately reproduce the actual propagation environment digitally with customized channel parameters, offering an opportunity to accurately estimate the complex CG and CFO. In this paper, a WCM-based prior distribution construction method and a joint complex CG and CFO estimation algorithm are proposed. Specifically, a parameterized linear estimation problem for the complex CG is generated based on a nonuniform delay-domain off-grid channel representation, and with more realistic prior distributions constructed by the knowledge from the WCM-provided angular-delay power spectrum density, the joint estimation problem is solved under the Bayesian inference framework. Simulation results demonstrate the superiority of the proposed algorithm, with a better performance in terms of estimation accuracy and bit error rates (BER) than existing baselines. It is also verified that the proposed WCM-based algorithm is highly adaptable to different WCM precision and robust to different user speeds.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/TCOMM.2026.3663282
+subfield: CKM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

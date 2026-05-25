@@ -1,0 +1,29 @@
+id: a-novel-radio-map-construction-method-with-reduced-human-eff
+title: A novel radio map construction method with reduced human efforts for Wi-Fi localisation system
+authors:
+  - Qiyue Li
+  - Heng Xu
+  - Wei Sun
+  - Jie Li
+  - Guojun Luo
+  - Jianping Wang
+year: 2019
+venue: International Journal of Sensor Networks (IJSNet)
+abstract: Fingerprint based Wi-Fi localisation system often takes a lot of human efforts to measure the received signal strength (RSS) of dense grid in an indoor environment. In this paper, we propose a novel fingerprint database construction method with reduced human effort to obtain optimal length of RSS time series and grid division. We verify the chaotic characteristics of RSS time series, and use phase space reconstruction algorithm to calculate the optimal length of RSS data to be collected at each reference point. Then Gaussian process regression (GPR) for fingerprinting based indoor localisation is used to construct the database with information of limited reference points. The hyper-parameters of GPR is calculated by conjugate gradient descent algorithm. The performance of the proposed radio map construction framework is validated in real indoor environment, and with using Bayesian positioning method, the localisation error mean can be 1.5 m while the construction time of radio map is greatly reduced with ensuring accuracy.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1504/IJSNET.2019.10023451
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - Gaussian-process  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: indoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

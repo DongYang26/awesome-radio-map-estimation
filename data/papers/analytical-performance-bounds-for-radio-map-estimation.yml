@@ -1,0 +1,26 @@
+id: analytical-performance-bounds-for-radio-map-estimation
+title: Analytical Performance Bounds for Radio Map Estimation
+authors:
+  - Daniel Romero
+  - Tien Ngoc Ha
+  - Raju Shrestha
+  - Massimo Franceschetti
+year: 2023
+venue: IEEE Vehicular Technology Conference
+abstract: Radio map estimation (RME) aims at providing a radio frequency metric, such as the received power strength, at every location of a geographical region of interest by relying on measurements acquired at multiple positions. Although a large number of estimators have been proposed so far, their performance has been analyzed mostly on simulated data. The theoretical aspects of the RME problem as well as performance bounds remain an open problem. This paper takes a step towards filling this gap by means of a theoretical analysis of the RME problem in a free-space propagation environment. First, the complexity of the estimation problem is quantified by means of upper bounds on the spatial variability of radio maps. Second, error bounds are derived for zeroth-order and first-order interpolation estimators. The proximity coefficient, which depends proportionally on the transmitted power and inversely proportionally on the cube of the distance from the transmitters to the mapped region, is proposed to quantify the complexity of the RME problem. One of the main findings is that the error of the considered estimators is roughly proportional to this proximity coefficient. Simple numerical experiments verify the tightness of the obtained bounds.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/VTC2024-Spring62846.2024.10683442
+subfield: REM  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

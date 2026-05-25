@@ -1,0 +1,23 @@
+id: '2605.23722'
+title: 'Sustained Limit Cycles in the Logistic Two-Gene Genetic Oscillator: A Delay-Driven Hopf Bifurcation'
+authors:
+  - Ismail Belgacem
+year: 2026
+abstract: The logistic two-gene negative-feedback oscillator is locally asymptotically stable for all biological parameter values, since the trace of the Jacobian is uniformly negative. Real biological oscillators (circadian rhythms, the segmentation clock, Hes1, p53) nevertheless rely on delays. We extend the logistic two-gene model to a delay-differential system with transcriptional delays $τ_1$ and $τ_2$, and prove that the equilibrium loses stability through a Hopf bifurcation as the total delay $τ=τ_1+τ_2$ crosses an explicit critical value $τ_c$. The Hopf frequency $ω_c$ and $τ_c$ are computed in closed form from the logistic derivatives; the loop-gain condition $AB>γ_1γ_2$ is necessary and sufficient; the transversality $\mathrm{Re}(dμ/dτ)|_{τ_c}>0$ admits a parameter-uniform positive lower bound; and the bifurcation persists globally. A sum-of-delays symmetry reduces the analysis to the scalar parameter $τ$. Numerical simulations confirm three regimes (damped, small limit cycle, relaxation), the supercritical amplitude scaling $A\sim c\sqrt{τ-τ_c}$, and the deep-relaxation period asymptote $T\sim 2τ+C_\infty$ with closed-form offset $C_\infty$. For the symmetric-threshold loop, supercriticality is proved by a Lindstedt--Poincaré reduction yielding closed-form amplitude and frequency laws; for the general asymmetric loop it delivers a closed-form first Lyapunov coefficient and an explicit criticality criterion. Calibrated to p53--Mdm2 data, the closed-form Hopf period matches the observed oscillation within $3\%$, and the standard Hill-function model within a few percent. The analysis extends to cyclic $N$-gene loops, with a closed-form transversality rate valid for every $N$ and -- in the symmetric case -- an explicit delay-induced-Hopf window $γ^N<Λ<γ^N\sec^N(π/N)$.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23722
+  pdf: https://arxiv.org/pdf/2605.23722
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

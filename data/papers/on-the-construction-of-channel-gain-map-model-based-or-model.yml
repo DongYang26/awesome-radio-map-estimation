@@ -1,0 +1,27 @@
+id: on-the-construction-of-channel-gain-map-model-based-or-model
+title: 'On the Construction of Channel Gain Map: Model-Based or Model-Free Approach?'
+authors:
+  - Weina Xie
+  - Xiaoli Xu
+  - Zhuoyin Dai
+  - Yong Zeng
+year: 2024
+venue: IEEE Vehicular Technology Conference
+abstract: Channel gain map (CGM) is a promising technique that enables the environment-aware communications by providing a priori channel gain information for users at arbitrary locations. The construction of CGM can be viewed as spatial channel prediction from the communication perspective, which motivates the channel model-based construction algorithm. On the other hand, it can also be viewed as spatial data interpolation from the geostatistic perspective, where a bunch of model-free methods can be adopted. This paper compares model-based and model-free approaches for CGM construction. We extend the existing model-based channel prediction by introducing a multi-mode channel model to address the spatial inconsistency issue in conventional models. The model-based methods are then compared with various model-free spatial interpolation methods, including a deep learning method. The results show that the channel model may introduce substantial bias for CGM construction in complex environments.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/VTC2024-Spring62846.2024.10683332
+subfield: REM  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 7
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

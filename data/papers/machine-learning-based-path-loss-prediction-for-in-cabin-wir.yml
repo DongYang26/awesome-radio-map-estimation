@@ -1,0 +1,26 @@
+id: machine-learning-based-path-loss-prediction-for-in-cabin-wir
+title: Machine-Learning-Based Path Loss Prediction for In-Cabin Wireless Networks
+authors:
+  - N. Moraitis
+  - Lefteris Tsipi
+  - D. Vouyioukas
+year: 2024
+venue: 2024 IEEE International Conference on Machine Learning for Communication and Networking (ICMLCN)
+abstract: This article examines the performance of machine learning (ML) techniques for accurate path loss predictions inside aircrafts. An artificial neural network (ANN) and support vector regression (SVR) methods are introduced and assessed. Both algorithms are trained, validated and tested with measurements collected inside a long-range Airbus aircraft at three different frequencies. According to the statistical analysis both methods adapt very well to the measured data, delivering low root-mean-square errors, being 1.5 and 1.9 dB for ANN and SVR models, respectively. In any case, the ANN method exhibits better performance in predicting accurately path loss. Finally, the results verified that the appropriateness of the applied ML techniques is much better than that of conventional empirical models, thus forecasting path loss with remarkable efficacy.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/ICMLCN59089.2024.10624765
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 2
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

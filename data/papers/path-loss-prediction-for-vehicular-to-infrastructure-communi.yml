@@ -1,0 +1,30 @@
+id: path-loss-prediction-for-vehicular-to-infrastructure-communi
+title: Path Loss Prediction for Vehicular-to-Infrastructure Communication Using Machine Learning Techniques
+authors:
+  - Yoiz Nuñez
+  - Lisandro Lovisolo
+  - L. da Silva Mello
+  - Glaucio L. Ramos
+  - N. Leonor
+  - Stefânia Faria
+  - R. Caldeirinha
+year: 2023
+venue: 2023 IEEE Virtual Conference on Communications (VCC)
+abstract: 'Vehicular communications are becoming increasingly important due to the need for safer, more efficient, and sustainable transportation. They require the development of accurate radio channel models for vehicular environments. This study compares vehicle-to-infrastructure path loss predictions obtained using four machine learning models: artificial neural network, support vector regression, random forest, and gradient tree boosting. The model design employs predictors from the profile environment between the transmitter and receiver positions. A methodology to select the best predictor subset is applied by examining their contribution to performance and interpretability. We propose a generalization test considering unknown streets (scenarios), and the results demonstrate that the gradient tree boosting model significantly improves the path loss prediction compared to the log-distance path loss model.'
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/VCC60689.2023.10474798
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 6
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

@@ -1,0 +1,25 @@
+id: machine-learning-driven-path-loss-prediction-for-5g-networks
+title: Machine Learning Driven Path Loss Prediction for 5G Networks in Smart Cities Metro Station Environments
+authors:
+  - P. Yadav
+  - Satyendra Sharma
+  - P. Singh
+year: 2025
+venue: International Conference on Database Theory
+abstract: Accurate path loss models are crucial for ensuring quality of service for wireless network customers. However, traditional approaches for measuring wireless communications are often inaccurate, complex, and time-consuming. In this paper, we introduce a novel method for prediction of path loss by employing various ML (machine learning) algorithns such as support vector regression, decision trees, k-nearest neighbors, and random forests. Our approach focuses on path loss prediction at Yamuna bank metro station and Rajiv chowk metro station in Delhi. The results demonstrate that machine learning algorithms can predict path loss models more accurately than traditional deterministic or numerical analytic approaches. This finding is particularly important as fifth-generation wireless technology evolves, and a high-accuracy and low-complexity channel model is needed. The proposed machine learning approach has the potential to optimize wireless network performance and enhance the quality of service for end users. The results demonstrate its effectiveness in improving the accuracy and efficiency of path loss models, ultimately leading to better reception quality in wireless networks. This research offers valuable insights into optimizing wireless network performance and improving service quality for users in the era of fifth-generation technology.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/ICDT63985.2025.10986662
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

@@ -1,0 +1,25 @@
+id: '2605.23252'
+title: A matrix-based spectral method for the numerical approximation of the fractional Laplacian and the fractional $p$-Laplacian of functions defined on $\mathbb R^n$
+authors:
+  - Loïc Constantin
+  - Carlota M. Cuesta
+  - Francisco de la Hoz
+year: 2026
+abstract: Given a function $u$ defined on $\mathbb R^n$, its fractional $p$-Laplacian is given by $$(-Δ)_p^su(\vec x)=C_1(n,s,p)\int_{\mathbb R^n}\frac{|u(\vec x)-u(\vec y)|^{p-2}(u(\vec x)-u(\vec y))}{\|\vec x-\vec y\|_2^{n+sp}}d\vec y,\quad\vec x\in\mathbb R^n,$$where the integral is understood in the principal value sense, $p\in(1,\infty)$, $s\in(0,1)$, and $C_1(n,s,p)$ is a normalization constant. A formally equivalent nonlinear Balakrishnan formulation is given by $$(-Δ)_p^su(\vec x)=C_4(n,s,p)\int_0^\inftyΔ(t-Δ)^{-1}\left[Φ_p(u(\vec x)-u(\cdot))\right](\vec x)\frac{dt}{t^{1-sp/2}},$$ where $C_4(n,s,p)$ is another normalization constant, and $Φ_p(t)=|t|^{p-2}t$.   In this paper, we present a matrix-based spectral method to approximate numerically the fractional Laplacian (i.e., the linear case, where $p = 2$) and the fractional $p$-Laplacian for functions defined on $\mathbb R^n$. Our approach builds on the Balakrishnan representation, where we discretize the 2nd-order derivatives in $Δ$ using spectrally accurate differentiation matrices. A key advantage is that these matrices can be diagonalized in a well-conditioned manner, enabling a stable and robust numerical scheme that naturally extends to arbitrary spatial dimensions $n$. In particular, this diagonalization allows the fractional operator to act directly on the eigenvalue spectrum, effectively reducing the Balakrishnan integral to an analytical evaluation at the spectral level and thereby avoiding costly multidimensional quadrature. The resulting method also avoids domain truncation and variational formulations, making it both computationally efficient and conceptually straightforward.   As a practical application, we simulate the evolution of $$\frac{\partial u}{\partial t}+(-Δ)^s_pu=0,$$in one and two spatial dimensions, being able to capture the self-similar solutions that arise as $t\to\infty$.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23252
+  pdf: https://arxiv.org/pdf/2605.23252
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - autoencoder  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

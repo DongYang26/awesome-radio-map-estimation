@@ -1,0 +1,27 @@
+id: '2312.06966'
+title: How Much Data Is Needed for Channel Knowledge Map Construction?
+authors:
+  - Xiaoli Xu
+  - Yong Zeng
+year: 2023
+venue: IEEE Transactions on Wireless Communications
+abstract: 'Channel knowledge map (CKM) has been recently proposed to enable environment-aware communications by utilizing historical or simulation generated wireless channel data. This paper studies the construction of one particular type of CKM, namely channel gain map (CGM), by using a finite number of measurements or simulation-generated data, with model-based spatial channel prediction. We try to answer the following question: How much data is sufficient for CKM construction? To this end, we first derive the average mean square error (AMSE) of the channel gain prediction as a function of the sample density of data collection in offline CGM construction, as well as the number of data points used in online spatial channel gain prediction. To model the spatial variation of the wireless environment within each cell, we divide the CGM into subregions and estimate the channel parameters from the local data within each subregion. The parameter estimation error and the channel prediction error based on estimated channel parameters are derived as functions of the number of data points within the subregion. The analytical results may guide the CGM construction and utilization by determining the required spatial sample density for offline data collection and the number of data points to be used for online channel prediction, so that the desired level of channel prediction accuracy is guaranteed.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2312.06966
+  pdf: https://arxiv.org/pdf/2312.06966
+  doi: 10.1109/TWC.2024.3397964
+subfield: CKM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 58
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

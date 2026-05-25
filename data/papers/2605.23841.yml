@@ -1,0 +1,41 @@
+id: '2605.23841'
+title: 'cloelike: A Python Library for Cosmological Likelihood Inference in the Euclid Era'
+authors:
+  - Marco Bonici
+  - Guadalupe Cañas-Herrera
+  - Pedro Carrilho
+  - Santiago Casas
+  - Chiara Moretti
+  - Andrea Pezzotta
+  - Zahra Baghkhani
+  - Carmelita Carbone
+  - Martin Crocce
+  - Jip de Buck
+  - Klara Bertmann
+  - Nastassia Grimm
+  - Martin Kärcher
+  - Felicitas Keil
+  - Davide Sciotti
+  - Peter L. Taylor
+  - Nicolas Tessore
+  - Isaac Tutusaus
+  - Casper Vedder
+year: 2026
+abstract: cloelike is a Python package providing modular, composable Gaussian likelihood classes for the main cosmological large-scale structure observables targeted by the ESA Euclid space mission. It is a core component of the CLOE (Cosmology Likelihood for Observables in Euclid) ecosystem and interfaces directly with cloelib for theoretical predictions and euclidlib for reading official Euclid data products. The package implements Gaussian likelihoods covering harmonic angular power spectra and real-space two-point correlation functions for weak lensing (WL), photometric galaxy clustering (GCph), and Galaxy-Galaxy Lensing (GGL) in all joint probe combinations (3x2pt, 2x2pt), as well as spectroscopic full-shape power spectrum multipoles, and baryonic Acoustic oscillations (BAO). cloelike is actively used in internal Euclid Consortium analyses and is openly released to support community validation and reproducibility.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23841
+  pdf: https://arxiv.org/pdf/2605.23841
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: unsupervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

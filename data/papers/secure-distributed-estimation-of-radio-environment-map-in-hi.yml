@@ -1,0 +1,26 @@
+id: secure-distributed-estimation-of-radio-environment-map-in-hi
+title: Secure distributed estimation of radio environment map in hierarchical wireless Cognitive Radio networks
+authors:
+  - Jianzhi Liu
+  - Cailian Chen
+  - Shichao Mi
+  - X. Guan
+year: 2015
+venue: Chinese Control and Decision Conference
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/CCDC.2015.7162152
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 2
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

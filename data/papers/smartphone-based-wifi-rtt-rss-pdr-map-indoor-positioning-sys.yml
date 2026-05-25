@@ -1,0 +1,28 @@
+id: smartphone-based-wifi-rtt-rss-pdr-map-indoor-positioning-sys
+title: Smartphone-Based WiFi RTT/RSS/PDR/Map Indoor Positioning System Using Particle Filter
+authors:
+  - Meng Sun
+  - Yunjia Wang
+  - Qianxin Wang
+  - Guoliang Chen
+  - Zengke Li
+year: 2025
+venue: IEEE Transactions on Instrumentation and Measurement
+abstract: The WiFi fine time measurement (FTM)-based ranging positioning often encounters challenges instability and low accuracy in real-life scenarios due to inaccurate round-trip time (RTT)-based ranging. To address these issues, we construct a WiFi RTT/received signal strength (RSS)/pedestrian dead reckoning (PDR)/map fusion system with an improved map-aided particle filter (PF). Our approach focuses on FTM-based localization from a fingerprinting perspective rather than WiFi ranging positioning. The WiFi FTM fingerprinting utilizes an artificial database, reducing the need for offline labor-intensive measurement work. The semi-parametric error model is employed to compensate for the WiFi RTT and RSS data, and improve fingerprinting accuracy. A collaborative optimization strategy incorporating map and fingerprinting information is designed to enhance the PF’s performance in terms of particle impoverishment, propagation, and weight update. Extensive experiments demonstrate that the integrated WiFi RTT/RSS/PDR/map system is error-tolerant under various additional error variance conditions (e.g., heading <inline-formula> <tex-math notation="LaTeX">$\delta _{\Psi } ^{2}\leq 4/\deg ^{2}$ </tex-math></inline-formula>, or step length <inline-formula> <tex-math notation="LaTeX">$\delta _{L}^{2}\leq 0.5/\text {m}^{2}$ </tex-math></inline-formula>, or RTT ranging <inline-formula> <tex-math notation="LaTeX">$\delta _{d}^{2}\leq 2/\text {m}^{2}$ </tex-math></inline-formula> and RSS <inline-formula> <tex-math notation="LaTeX">$\delta _{R}^{2}\leq 2/\text {dBm}^{2}$ </tex-math></inline-formula>), with an accuracy fluctuation within 0.1 m. The system obtains meter-level accuracy within 0.19 s when utilizing 1000 particles for every localization request. Compared to the state-of-the-art fusion approaches, the WiFi RTT/RSS/PDR/map fusion system can deliver better accuracy and stability.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/TIM.2024.3509549
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: indoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 22
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

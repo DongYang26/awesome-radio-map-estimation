@@ -1,0 +1,23 @@
+id: '2605.23811'
+title: A Machine Learning Framework for Large-Scale Static Wireless Mesh Networks
+authors:
+  - Julia Andrusenko
+year: 2026
+abstract: This paper presents a system design methodology for a large-scale static wireless mesh network for 155 commercial off-the-shelf (COTS) radio nodes at fixed infrastructure sites in a challenging island environment. The architecture consists of approximately ten 15-node clusters, each with designated primary and secondary gateway nodes to support inter-cluster communication. A structured, multi-stage planning methodology was developed to guide network design. Site-specific radio frequency (RF) path loss predictions were generated using Remcom's Wireless InSite ray-tracing platform, incorporating terrain, buildings, and dense foliage effects. To optimize connectivity under physical-layer and operational constraints, spectral embedding combined with balanced k-means clustering was applied to partition the nodes into clusters of comparable size. A link budget analysis determined the maximum tolerable path loss under waveform and hardware constraints, defining the connectivity threshold used in the clustering framework. This work integrates deterministic RF propagation modeling with constrained clustering optimization to provide a scalable framework for planning static wireless mesh networks in complex geographic environments. Node mobility and higher-layer networking protocols were outside the scope of this study.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23811
+  pdf: https://arxiv.org/pdf/2605.23811
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: unsupervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

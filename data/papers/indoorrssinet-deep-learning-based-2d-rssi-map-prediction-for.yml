@@ -1,0 +1,25 @@
+id: indoorrssinet-deep-learning-based-2d-rssi-map-prediction-for
+title: IndoorRSSINet - Deep learning based 2D RSSI map prediction for indoor environments with application to wireless localization
+authors:
+  - N. Raj
+  - V. B. S.
+year: 2023
+venue: International Conference on Communication Systems and Networks
+abstract: We consider the problem of 2D RSSI prediction in an indoor environment. Indoor RSSI prediction plays a vital role in localization, wireless network topology planning, and scheduling. The problem is challenging in an indoor scenario due to multiple reflections and refractions from walls, furniture, and other objects. Conventional RSSI predictions using on-field measurements, ray tracing, or electromagnetic simulations are time-consuming. By considering RSSI map prediction as an image prediction problem, we leverage recent advances in deep-learning to propose a deep learning model called IndoorRSSINet with faster RSSI map predictions. We motivate the design of IndoorRSSINet using a ray-tracing interpretation. We evaluate the performance of IndoorRSSINet on synthetic 2D indoor RSSI datasets generated using ray tracing. We show that predicting the 2D RSSI map using IndoorRSSINet is 21 times faster than a ray tracing approach with a Normalized Mean Square Error (NMSE) of 0.00962 for RSSI normalized to [0, 1]. We illustrate the use of IndoorRSSINet for transmitter position optimization in an RSSI fingerprint based wireless localization application.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/COMSNETS56262.2023.10041394
+subfield: REM  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: indoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 10
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

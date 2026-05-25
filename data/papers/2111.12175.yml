@@ -1,0 +1,27 @@
+id: '2111.12175'
+title: Three-Way Deep Neural Network for Radio Frequency Map Generation and Source Localization
+authors:
+  - K. Gill
+  - Son Nguyen
+  - M. M. Thein
+  - A. Wyglinski
+year: 2021
+venue: arXiv.org
+abstract: In this paper, we present a Generative Adversarial Network (GAN) machine learning model to interpolate irregularly distributed measurements across the spatial domain to construct a smooth radio frequency map (RFMap) and then perform localization using a deep neural network. Monitoring wireless spectrum over spatial, temporal, and frequency domains will become a critical feature in facilitating dynamic spectrum access (DSA) in beyond-5G and 6G communication technologies. Localization, wireless signal detection, and spectrum policy-making are several of the applications where distributed spectrum sensing will play a significant role. Detection and positioning of wireless emitters is a very challenging task in a large spectral and spatial area. In order to construct a smooth RFMap database, a large number of measurements are required which can be very expensive and time consuming. One approach to help realize these systems is to collect finite localized measurements across a given area and then interpolate the measurement values to construct the database. Current methods in the literature employ channel modeling to construct the radio frequency map, which lacks the granularity for accurate localization whereas our proposed approach reconstructs a new generalized RFMap. Localization results are presented and compared with conventional channel models.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2111.12175
+subfield: REM  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - GAN  # TODO: maintainer verify
+task:
+  - spectrum-occupancy  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 5
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

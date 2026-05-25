@@ -1,0 +1,28 @@
+id: varifi-variational-inference-for-indoor-pedestrian-localizat
+title: 'VariFi: Variational Inference for Indoor Pedestrian Localization and Tracking Using IMU and WiFi RSS'
+authors:
+  - He Huang
+  - Jianfei Yang
+  - Xu Fang
+  - Hao Jiang
+  - Lihua Xie
+year: 2023
+venue: IEEE Internet of Things Journal
+abstract: Accurate indoor pedestrian localization and tracking are crucial in many practical applications. One efficient yet low-cost sensing scheme is the integration of inertial measurement unit and WiFi received signal strength (RSS) due to the popularity of smart devices and WiFi networks. Many approaches have been proposed to enhance the localization performance. However, they heavily rely on prerequisites, including prior knowledge (e.g., map information) and beacon corrections, which degrades the generalization of the approaches and their accuracy in complex environments. To address this issue, in this article, we propose a novel localization approach named VariFi, which incorporates variational inference techniques to estimate the location of pedestrian. Variational inference is applied in this work, whose inference network can produce accurate estimates as its parameters are optimized in terms of the reconstruction loss and regularization loss in real time. A signal map is constructed to provide a conditional RSS distribution at any given location, which is further applied to generate the reconstruction loss based on the real measurements. Also, a filtering mechanism is designed to reduce local optimum cases in optimization by utilizing the prior estimate and RSS fingerprinting estimate. In addition, VariFi can be further applied to conduct online optimization following the existing localization approaches. We conduct experiments, including static localization and trajectory estimation scenarios to validate the performance of our approach. The trajectory estimation results show that our approach outperforms the mainstream approaches in terms of both localization accuracy and robustness, respectively. Furthermore, the combination of existing approaches and VariFi has also been validated effectively in the experiments of two environments, where VariFi has the ability to bring enhanced localization accuracy.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/JIOT.2022.3232740
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - autoencoder  # TODO: maintainer verify
+task:
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: indoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 11
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

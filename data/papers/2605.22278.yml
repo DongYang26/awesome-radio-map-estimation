@@ -1,0 +1,24 @@
+id: '2605.22278'
+title: 'Topological semimetals: surface transport and spin effects'
+authors:
+  - E. V. Deviatov
+year: 2026
+abstract: 'For the solid state physics, recent interest to topological systems is mostly connected with topological semimetals, in particular, to Weyl ones as the most representative semimetal type. Like other topological materials, e.g. topological and Chern insulators, topological semimetals acquire topologically protected surface states with linear dispersion. In contrast to helical surface states in topological insulators, the surface states are chiral for Weyl semimetals, similarly to Chern insulators, which allows to consider Weyl semimetals as the three-dimensional analog of the quantum Hall effect regime. Weyl semimetals are also interesting for spin-dependent effects, due to the spin-momentum locking in the topological surface states. For topological semimetals, the main problem of transport investigations is to reveal the surface states contribution in the material with gapless bulk spectrum. Here, we present review of experimental results on charge and spin transport in topological semimetals: charge transport in different superconducting proximity devices; spin-dependent transport; magnetic response of the topological surface states; non-linear anomalous Hall effect as the direct manifestation of the non-zero Berry curvature in topological semimetals. Possible applications are also considered for this new class of topological materials.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.22278
+  pdf: https://arxiv.org/pdf/2605.22278
+  doi: https://doi.org/10.3367/UFNr.2025.04.039962
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

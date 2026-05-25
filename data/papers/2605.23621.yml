@@ -1,0 +1,26 @@
+id: '2605.23621'
+title: Conceptual Design of PID Detectors for the EicC Spectrometer
+authors:
+  - Xin Li
+  - Yuxiang Zhao
+  - Yutie Liang
+  - Xu Sun
+year: 2026
+abstract: The Electron-ion collider in China (EicC) is a proposed future electron-ion collider designed to achieve a high luminosity, with a center-of-mass energy ranging from 15 to 20 GeV. Excellent particle identification (PID) with extensive momentum coverage is essential for investigating exclusive and semi-inclusive processes, as well as enabling precise 3D imaging of the nucleon structure in the EicC experiment. To meet its PID requirement, the EicC Collaboration has proposed the conceptual design of various Cherenkov detectors, including the DIRC in the barrel region and the RICH in the endcap region. It also involving the TOF detector for PID in the low momentum region. The GEANT4 simulation, which integrate advanced optical transmission models and image reconstruction algorithms, have been conducted to study and optimize the performance of these detectors.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23621
+  pdf: https://arxiv.org/pdf/2605.23621
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

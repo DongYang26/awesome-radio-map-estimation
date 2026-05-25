@@ -1,0 +1,30 @@
+id: '2105.07768'
+title: Self-Learning for Received Signal Strength Map Reconstruction with Neural Architecture Search
+authors:
+  - A. Malkova
+  - Loïc Pauletto
+  - C. Villien
+  - B. Denis
+  - Massih-Reza Amini
+year: 2021
+venue: International Conference on Artificial Neural Networks
+abstract: In this paper, we present a Neural Network (NN) model based on Neural Architecture Search (NAS) and self-learning for received signal strength (RSS) map reconstruction out of sparse single-snapshot input measurements, in the case where data-augmentation by side deterministic simulations cannot be performed. The approach first finds an optimal NN architecture and simultaneously train the deduced model over some ground-truth measurements of a given (RSS) map. These ground-truth measurements along with the predictions of the model over a set of randomly chosen points are then used to train a second NN model having the same architecture. Experimental results show that signal predictions of this second model outperforms non-learning based interpolation stateof-the-art techniques and NN models with no architecture search on five large-scale maps of RSS measurements.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2105.07768
+  pdf: https://arxiv.org/pdf/2105.07768
+  doi: 10.1007/978-3-030-86383-8_41
+subfield: REM  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 3
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

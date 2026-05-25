@@ -1,0 +1,30 @@
+id: '2106.05873'
+title: Fiber Radio Frequency Transfer Using Bidirectional Frequency Division Multiplexing Dissemination
+authors:
+  - Qi Li
+  - Liang Hu
+  - Jinbo Zhang
+  - Jianping Chen
+  - Guiling Wu
+year: 2021
+venue: IEEE Photonics Technology Letters
+abstract: We report on the realization of a novel fiber-optic radio frequency (RF) transfer scheme with the bidirectional frequency division multiplexing (FDM) dissemination technique. Here, the proper bidirectional frequency map used in the forward and backward directions for suppressing the backscattering noise and ensuring the symmetry of the bidirectional transfer RF signals within one telecommunication channel. We experimentally demonstrated a 0.9 GHz signal transfer over a 120 km optical link with the relative frequency stabilities of <inline-formula> <tex-math notation="LaTeX">$2.2 \times 10^{-14}$ </tex-math></inline-formula> at 1 s and <inline-formula> <tex-math notation="LaTeX">$4.6 \times 10^{-17}$ </tex-math></inline-formula> at 20000 s. The implementation of phase noise compensation at the remote site has the capability to perform RF transfer over a branching fiber network with the proposed technique as needed by large-scale scientific experiments.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2106.05873
+  pdf: https://arxiv.org/pdf/2106.05873
+  doi: 10.1109/LPT.2021.3086299
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 8
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

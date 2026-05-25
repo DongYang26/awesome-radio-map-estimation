@@ -1,0 +1,26 @@
+id: dynamic-radio-map-construction-for-wlan-indoor-location
+title: Dynamic Radio Map Construction for WLAN Indoor Location
+authors:
+  - Huimin Wang
+  - Lin Ma
+  - Yubin Xu
+  - Zhian Deng
+year: 2011
+venue: 2011 Third International Conference on Intelligent Human-Machine Systems and Cybernetics
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/IHMSC.2011.110
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: indoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 26
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

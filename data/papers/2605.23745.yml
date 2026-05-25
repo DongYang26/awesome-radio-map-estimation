@@ -1,0 +1,23 @@
+id: '2605.23745'
+title: On the Design of an Analog-Dyadic Converter CRN
+authors:
+  - Mathieu Hemery
+year: 2026
+abstract: The Chemical Reaction Networks (CRN) interpreted through the differential semantics, even when restricted to elementary reactions with mass action law kinetics, form a Turing-complete language. This means that any computable real function can thus be programmed, and in fact compiled, in an abstract CRN that will compute it with an arbitrarily high precision. In this computational framework, the information carriers are the molecular concentrations, the required precision is given as input, and the output concentration is guaranteed to satisfy the required precision. On the other hand, one can be interested in estimating the derivative of an unknown input signal or in reading the concentration value of an input molecular species. By nature, such problems can only be approximated with a finite precision. Hence, the computation framework proposed previously cannot be applied and we need to design and analyze custom CRNs to perform these tasks. In this paper, we present an analog-dyadic converter CRN which takes as input one molecular concentration (in [0, 1] but not necessarily computable), and produces as output a sequence of ''on'' and ''off'' spikes corresponding to some extent to the sequence of bits in the dyadic representation of the input concentration. We provide a detailed analysis of the source of errors and their behavior when varying the reactions rate constants. We conclude by sketching a possible design for a reader module that takes as input an arbitrary concentration and a desired precision and outputs a dyadic encoding approximating the value of the concentration with the desired precision. We leave as an open question to prove the correctness of our construction.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23745
+  pdf: https://arxiv.org/pdf/2605.23745
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

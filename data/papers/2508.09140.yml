@@ -1,0 +1,31 @@
+id: '2508.09140'
+title: 'RadioMamba: Breaking the Accuracy-Efficiency Trade-Off in Radio Map Construction via a Hybrid Mamba-UNet'
+authors:
+  - Honggang Jia
+  - Nan Cheng
+  - Xiucheng Wang
+  - Conghao Zhou
+  - Ruijin Sun
+  - Xuemin Shen
+year: 2025
+venue: IEEE Transactions on Network Science and Engineering
+abstract: Radio map (RM) has recently attracted much attention since it can provide real-time and accurate spatial channel information for 6G services and applications. However, current deep learning-based methods for RM construction exhibit well known accuracy-efficiency trade-off. In this paper, we introduce RadioMamba, a hybrid Mamba-UNet architecture for RM construction to address the trade-off. Generally, accurate RM construction requires modeling long-range spatial dependencies, reflecting the global nature of wave propagation physics. RadioMamba utilizes a Mamba-Convolutional block where the Mamba branch captures these global dependencies with linear complexity, while a parallel convolutional branch extracts local features. This hybrid design generates feature representations that capture both global context and local detail. Experiments show that RadioMamba achieves higher accuracy than existing methods, including diffusion models, while operating nearly 20 times faster and using only 2.9% of the model parameters. By improving both accuracy and efficiency, RadioMamba presents a viable approach for real-time intelligent optimization in next generation wireless systems.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2508.09140
+  doi: 10.1109/TNSE.2025.3617102
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - Diffusion  # TODO: maintainer verify
+  - CNN  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 3
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

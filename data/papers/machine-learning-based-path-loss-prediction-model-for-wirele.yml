@@ -1,0 +1,26 @@
+id: machine-learning-based-path-loss-prediction-model-for-wirele
+title: Machine Learning-Based Path Loss Prediction Model for Wireless Sensor Networks in Urban Environments
+authors:
+  - H. R
+  - S. M
+  - Manjula Yerva
+  - Madihally Nagaraja
+year: 2025
+venue: 2025 International Conference on Computing for Sustainability and Intelligent Future (COMP-SIF)
+abstract: With the advancement in wireless sensor networks in terms of scalability, coverage and energy management, there exists a high demand for wireless channel maintenance. A channel gets affected due to many factors such as changing bandwidth, noise, loss component and many more. The conditions of a channel in real time urban Environments are dynamic in nature due to which the communication gets affected and loss in data occurs. Despite significant work done, there remains a crucial demand for more advanced models and predictions that result in higher accuracy. Among the various factors that affect the channel conditions, path loss is one crucial challenge to be addressed. This paper presents an intelligent path loss prediction model using ANN with MLPRegressor (Multilayer Perceptron Regressor). Also Machine Learning (ML) algorithms particularly KNN, Random Forest classifier, Gaussian Naive Bayes and Linear Regression are realized for comparison of results. The ANN model considers the dynamic conditions that prevail due to various factors and adapt to the real time environments. In detail performance analysis of ANN model with respect to existing four ML models is carried out with respect to prediction accuracy, Precision, Recall and F1-score. The simulation results convey that ANN with MLPRegressor model outperforms showing better accuracy, precision, Recall and F1 -Score in comparison to other four models. ANN is trained and tested with four different activation functions such as identity, relu, tanh and logistic for maximum iterations of 1000, 5000, 10000 and 20000. The results show that ANN with logistic activation function for 20000 iterations gives high training and testing accuracies. Further, the precision also reaches maximum value for ANN with logistic function in comparison with other models.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/COMP-SIF65618.2025.10969954
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

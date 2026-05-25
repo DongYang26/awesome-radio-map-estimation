@@ -1,0 +1,30 @@
+id: uav-based-volumetric-measurements-toward-radio-environment-m
+title: UAV-Based Volumetric Measurements toward Radio Environment Map Construction and Analysis
+authors:
+  - Antoni Ivanov
+  - Bilal Muhammad
+  - Krasimir Tonchev
+  - A. Mihovska
+  - V. Poulkov
+year: 2022
+venue: Italian National Conference on Sensors
+abstract: Unmanned aerial vehicle (UAV)-empowered communications have gained significant attention in recent years due to the promise of agile coverage provision for a large number of various mobile nodes on the ground and in three-dimensional (3D) space. Consequently, there is a need for efficient spectrum utilization in these dense aerial networks, which is characterized through radio environment maps (REMs), the construction of which is an important research area. Nevertheless, due to the difficult collection of radio frequency (RF) data, there are limited works that are based on real-world measurement campaigns. This paper presents a novel experimental setup that includes a constellation of three UAVs, the communication signals of which are measured by a software-defined radio (SDR) mounted on a separate UAV. It follows a trajectory that defines the REM’s two-dimensional (2D) area on a plane, executed at four altitudes, to extend the REM to 3D. The measurements are then processed and their features (received mean power level, average difference of the mean power, percentage of meaningful correlations) are analyzed in the temporal, spatial, and frequency domains to determine the utilization of a 20 MHz band in the 2.4 GHz spectrum, as well as their variation with altitude. This analysis provides a base for research in reducing the amount of measurements (by identifying the regions of low and of high interest) and spectrum occupancy prediction for UAV-based communication coexistence.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://www.mdpi.com/1424-8220/22/24/9705/pdf?version=1671175849
+  doi: 10.3390/s22249705
+subfield: spectrum-cartography  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - spectrum-occupancy  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 15
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

@@ -1,0 +1,25 @@
+id: '2511.06710'
+title: Structure-Aware Near-Field Radio Map Recovery via RBF-Assisted Matrix Completion
+authors:
+  - Hao Sun
+  - Xianghao Yu
+  - Junting Chen
+year: 2025
+abstract: This paper proposes a novel structure-aware matrix completion framework assisted by radial basis function (RBF) interpolation for near-field radio map construction in extremely large multiple-input multiple-output (XL-MIMO) systems. Unlike the far-field scenario, near-field wavefronts exhibit strong dependencies on both angle and distance due to spherical wave propagation, leading to complicated variations in received signal strength (RSS). To effectively capture the intricate spatial variations structure inherent in near-field environments, a regularized RBF interpolation method is developed to enhance radio map reconstruction accuracy. Leveraging theoretical insights from interpolation error analysis of RBF, an inverse {\mu}-law-inspired nonuniform sampling strategy is introduced to allocate measurements adaptively, emphasizing regions with rapid RSS variations near the transmitter. To further exploit the global low-rank structure in the near-field radio map, we integrate RBF interpolation with nuclear norm minimization (NNM)-based matrix completion. A robust Huberized leave-one-out cross-validation (LOOCV) scheme is then proposed for adaptive selection of the tolerance parameter, facilitating optimal fusion between RBF interpolation and matrix completion. The integration of local variation structure modeling via RBF interpolation and global low-rank structure exploitation via matrix completion yields a structure-aware framework that substantially improves the accuracy of near-field radio map reconstruction. Extensive simulations demonstrate that the proposed approach achieves over 10% improvement in normalized mean squared error (NMSE) compared to standard interpolation and matrix completion methods under varying sampling densities and shadowing conditions.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2511.06710
+subfield: REM  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - matrix-completion  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

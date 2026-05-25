@@ -1,0 +1,37 @@
+id: the-indirect-self-tuning-method-for-constructing-radio-envir
+title: The indirect self-tuning method for constructing radio environment map using omnidirectional or directional transmitter antenna
+authors:
+  - Marko Pesko
+  - T. Javornik
+  - Luka Vidmar
+  - A. Košir
+  - M. Stular
+  - M. Mohorčič
+year: 2015
+venue: EURASIP Journal on Wireless Communications and Networking
+abstract: 'AbstractIn this paper, we propose a new indirect method for constructing the radio frequency layer of radio environment map (RF-REM) called self-tuning method (STM). The proposed STM takes into account the characteristics of the operating environment and performs estimation of the transmitter parameters, i.e. its location, antenna diagram, antenna azimuth, transmit power, as well the parameters of the propagation model to obtain the best match between the available measurements and the predicted signal levels. We compare STM to several most often considered existing methods using different numbers of randomly distributed measurements, which could in practice be obtained in a participatory-like manner. The performance evaluation of the methods is performed in terms of averaged root mean square error (RMSE¯
+
+  $\overline {\text {{RMSE}}}$
+
+  ) and 95% confidence interval (CI) calculated between the constructed RF-REMs and the reference RF-REM, as well as in terms of false alarm zone ratio (FAZR) and correct detection zone ratio (CDZR 1). The analysis shows the robustness of the STM to various spatial distributions of measurements and its fast convergence and low residual root mean square error compared to the inverse distance weighted (IDW) method, the inverse distance square weighted method (IDW2), the Kriging method, and the location estimation-based method (LIvE).'
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://jwcn-eurasipjournals.springeropen.com/counter/pdf/10.1186/s13638-015-0297-2
+  doi: 10.1186/S13638-015-0297-2
+subfield: REM  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - Gaussian-process  # TODO: maintainer verify
+  - Kriging  # TODO: maintainer verify
+  - IDW  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 35
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

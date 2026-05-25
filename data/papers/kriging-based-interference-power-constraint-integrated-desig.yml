@@ -1,0 +1,26 @@
+id: kriging-based-interference-power-constraint-integrated-desig
+title: 'Kriging-Based Interference Power Constraint: Integrated Design of the Radio Environment Map and Transmission Power'
+authors:
+  - Koya Sato
+  - T. Fujii
+year: 2017
+venue: IEEE Transactions on Cognitive Communications and Networking
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://doi.org/10.1109/tccn.2017.2653189
+  doi: 10.1109/TCCN.2017.2653189
+subfield: REM  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - Gaussian-process  # TODO: maintainer verify
+  - Kriging  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 120
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

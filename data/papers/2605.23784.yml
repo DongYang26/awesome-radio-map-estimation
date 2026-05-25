@@ -1,0 +1,24 @@
+id: '2605.23784'
+title: Reconstruction methods for inverse scattering problems with phaseless data
+authors:
+  - John C. Schotland
+  - Shenwen Yu
+year: 2026
+abstract: 'We investigate phaseless inverse scattering problem for the Schrödinger equation and develop reconstruction methods based on the inverse Born series (IBS). We consider three types of phaseless data: the far-field total field, the total field and the far-field scattered field. For phaseless total-field data, we extend the IBS framework and analyze its radius of convergence. In the far-field setting, we propose a Fourier-based reconstruction method that exploits the scattering reciprocity between incident and observation directions to recover Fourier coefficients of the scattering potential. For phaseless scattered-field data, we employ a polarization-based approach to recover phase information and enable IBS reconstruction. Numerical experiments are conducted to validate the proposed methods.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23784
+  pdf: https://arxiv.org/pdf/2605.23784
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

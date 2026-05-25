@@ -1,0 +1,27 @@
+id: machine-learning-based-path-loss-prediction-with-novel-diffr
+title: Machine Learning-Based Path Loss Prediction With Novel Diffraction and Morphology Features
+authors:
+  - Beom Kwon
+  - Hyeongyong Lim
+  - Jaedon Park
+  - Eonsu Noh
+year: 2025
+venue: IEEE Antennas and Wireless Propagation Letters
+abstract: 'Several machine learning (ML) algorithms have been applied to predict path loss values, and various features have been proposed as input features in ML models. This study proposed two new types of features: diffraction parameter and morphology ratio features. In addition, we conducted a field measurement campaign to collect actual path loss data in various propagation environments. We conducted ablation studies on our own path loss dataset to evaluate the effectiveness of the proposed features using various ML models. The results demonstrated that the prediction accuracy of each ML model improved when the proposed features were added to the input feature vector.'
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/LAWP.2025.3554519
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 3
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

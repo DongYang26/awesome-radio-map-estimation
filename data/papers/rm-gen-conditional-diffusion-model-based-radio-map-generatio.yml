@@ -1,0 +1,30 @@
+id: rm-gen-conditional-diffusion-model-based-radio-map-generatio
+title: 'RM-Gen: Conditional Diffusion Model-Based Radio Map Generation for Wireless Networks'
+authors:
+  - Xuanhao Luo
+  - Zhizhen Li
+  - Zhiyuan Peng
+  - Dongkuan Xu
+  - Yuchen Liu
+year: 2024
+venue: 2024 IFIP Networking Conference (IFIP Networking)
+abstract: 'Radio map is crucial for optimizing wireless network performance and configuration, aiding in tasks such as network planning, virtualization, and mobility management by providing a visual representation of radio-frequency signal strength in specific locations. However, generating precise radio maps with limited prior knowledge remains a significant challenge. Existing research in this field relies on extensive contextual information or computations, such as detailed geographic maps and exhaustive measurements. This hinders the adaptability of obtaining radio maps across varying network conditions and environmental changes. In this study, we explore the potential of generating radio maps using a generative diffusion probabilistic model, applicable to both indoor and outdoor wireless network scenarios. Specifically, we propose leveraging two accessible information pieces as input conditions for the generative model: sparse signal strength data and transmitter locations, respectively. This approach enables cost-effective radio map generation, particularly valuable in complex scenarios where obtaining comprehensive measurements is challenging. To ensure the training of the generative diffusion-based model for an adaptable map-based prediction, we develop a ray-tracing-based method to synthetically collect training data covering a wide range of fine-grained network scenarios across both 60 GHz and sub-6GHz frequency bands. Through comprehensive evaluations, we demonstrate the feasibility of our generative model to synthesize high-quality radio maps with only a small amount of measurement data or access point locations as guidance, achieving an accuracy rate of over 95% in various wireless network scenarios.'
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.23919/IFIPNetworking62109.2024.10619829
+subfield: REM  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - Diffusion  # TODO: maintainer verify
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: both  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 19
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

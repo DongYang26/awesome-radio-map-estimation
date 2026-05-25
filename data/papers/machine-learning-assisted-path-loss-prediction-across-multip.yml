@@ -1,0 +1,29 @@
+id: machine-learning-assisted-path-loss-prediction-across-multip
+title: Machine Learning-Assisted Path Loss Prediction Across Multiple Frequency Bands using a Multi-Fidelity Surrogate Model
+authors:
+  - Meng Zhao
+  - Cheng Yi
+  - Haiming Wang
+  - Yiming Yu
+  - Ritao Cheng
+  - Songtao Gao
+year: 2023
+venue: IEEE International Wireless Symposium
+abstract: As a large-scale channel parameter, the path loss is important in the deployment and optimization of wireless networks. The introduction of machine learning brings convenience to path loss prediction, but the amount of data required for training increases the workload of channel measurement. First, based on machine learning, a multi-fidelity path loss prediction model across multiple frequency bands is introduced. Then, the existing low-frequency channel data is used as the prior knowledge to generate low-fidelity high-frequency channel data. Next, combining with a small amount of high-fidelity high-frequency measurement data, the path loss prediction accuracy is improved while the high-fidelity training data is greatly reduced. Finally, the results show that the multi-fidelity model can get close to the general machine learning model, the prediction error is 3.73 dB, but the number of samples is reduced by 80%.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/IWS58240.2023.10222265
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

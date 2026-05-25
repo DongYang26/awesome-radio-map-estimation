@@ -1,0 +1,29 @@
+id: 6g-dynamic-channel-map-construction-based-on-ai-and-image-pr
+title: 6G Dynamic Channel Map Construction Based on AI and Image Processing
+authors:
+  - Lixiang Song
+  - Junling Li
+  - Tong Wu
+  - Xiaoyu Chen
+  - Chen-Yen Huang
+  - Chengxiang Wang
+year: 2024
+venue: International Conference on Speech Technology and Human-Computer Dialogue
+abstract: Channel map construction has garnered significant attention due to its ability to optimize channel estimation and assist in beam alignment by obtaining channel information in advance. However, traditional channel map construction methods for fixed base stations cannot indicate the channel state in the dynamic electromagnetic (EM) environment. In this work, we establish a dynamic channel map construction method by importing the historical channel maps to infer the temporal variations in the channel map. The proposed method introduces the self-attention mechanism, enhancing its ability to extract movement information from the transmitter. We also design the mask-pooling encoder to enable the neural network to learn channel characteristics at multiple scales. To evaluate our model’s accuracy, we compare the mean absolute error (MAE) and root mean square error (RMSE) of the constructed channel maps in both known and unknown environments. The results demonstrate that our model outperforms the widely adopted machine learning methods and exhibits better generalization.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/ICCT62411.2024.10946643
+subfield: CKM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - Transformer  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

@@ -1,0 +1,26 @@
+id: '2605.23600'
+title: Entanglement entropy across the dynamical phase transition in the quantum $\mathcal{O}(N)$ model
+authors:
+  - Frederick del Pozo
+  - Tangi Morvan
+  - Irénée Frérot
+  - Nicolas Cherroret
+year: 2026
+abstract: We demonstrate that the dynamical phase transition of the quantum $\mathcal{O}(N)$ model at large $N$ leaves universal fingerprints in the infrared structure of the entanglement spectrum. While the leading contribution to the entanglement entropy at long time follows the conventional volume law associated with ballistic entanglement spreading, its subleading behavior sharply distinguishes the different dynamical regimes. Specifically, quenches at and below the critical point generate gapless low-energy entanglement modes together with logarithmic corrections to the long-time entanglement entropy, whose scaling is governed by the dynamical exponent of the transition. Using an infinite-slab bipartition geometry and exact numerical correlation functions in the large-$N$ limit, we characterize these scaling laws across the dynamical phase diagram and relate them to the emergence of long-range correlations during the post-quench dynamics. We further show that the entanglement eigenmodes themselves reveal characteristic signatures of the dynamical phase transition through their spatio-temporal structure and degeneracy properties.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23600
+  pdf: https://arxiv.org/pdf/2605.23600
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

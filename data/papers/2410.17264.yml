@@ -1,0 +1,29 @@
+id: '2410.17264'
+title: Radio Map Prediction From Aerial Images and Application to Coverage Optimization
+authors:
+  - Fabian Jaensch
+  - Giuseppe Caire
+  - B. Demir
+year: 2024
+venue: IEEE Transactions on Wireless Communications
+abstract: Several studies have explored deep learning algorithms to predict large-scale signal fading, or path loss, in urban communication networks. The goal is to replace costly measurement campaigns, inaccurate statistical models, or computationally expensive ray-tracing simulations with machine learning models that deliver quick and accurate predictions. We focus on predicting path loss radio maps using convolutional neural networks, leveraging aerial images alone or in combination with supplementary height information. Notably, our approach does not rely on explicit classification of environmental objects, which is often unavailable for most locations worldwide. While the prediction of radio maps using complete 3D environmental data is well-studied, the use of only aerial images remains under-explored. We address this gap by showing that state-of-the-art models developed for existing radio map datasets can be effectively adapted to this task. Additionally, we introduce a new model dubbed UNetDCN that achieves on par or better performance compared to the state-of-the-art with reduced complexity. The trained models are differentiable, and therefore they can be incorporated in various network optimization algorithms. While an extensive discussion is beyond this paper’s scope, we demonstrate this through an example optimizing the directivity of base stations in cellular networks via backpropagation to enhance coverage.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2410.17264
+  doi: 10.1109/TWC.2025.3583171
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 17
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

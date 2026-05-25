@@ -1,0 +1,28 @@
+id: evaluating-the-effectiveness-of-machine-learning-models-for-
+title: Evaluating the effectiveness of machine learning models for path loss prediction at 3.5 GHz with focus on feature prioritization
+authors:
+  - F. Shaibu
+  - E. N. Onwuka
+  - N. Salawu
+  - S. S. Oyewobi
+  - O. Ani
+year: 2025
+venue: Nigerian Journal of Technology
+abstract: Accurate path loss prediction is vital for efficient resource allocation, interference reduction, and overall network reliability in 5G networks, particularly in the widely deployed mid-band frequency spectrum (such as 3.5 GHz). This study evaluates the effectiveness of machine learning models for path loss prediction at 3.5 GHz with a focus on feature prioritization. A feature selection method, recursive feature elimination, was used to identify significant features from datasets obtained through measurement campaigns, weather stations, 3-D ray tracing, geographical data, and simulations. Out of eighteen features, eleven, including new environmental features, were identified as significant features contributing to path loss. These selected variables were then utilized to optimize and train four common machine learning models (ANN, XGBoost, RF, and k-NN) to evaluate their performance in predicting path loss in a specific urban area called an irregular urban environment. The performance of these models was assessed by comparing their predictions with the measured path loss. The Random Forest model closely matched the measured path loss over the entire path length in both LoS and NLoS scenarios, achieving the lowest MAE of 0.15 dB and RMSE of 0.57 dB in the LoS scenario and 0.62 dB and 1.42 dB in the NLoS scenario, with R2 scores of 0.999995437 and 0.999996828, respectively. This indicates its superior performance in predicting path loss in the urban environment.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.4314/njt.v43i4.15
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 3
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

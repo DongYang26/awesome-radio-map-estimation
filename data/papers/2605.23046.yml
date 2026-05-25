@@ -1,0 +1,23 @@
+id: '2605.23046'
+title: 'Weakly nonlinear interaction of capillary waves in a finite system: leading interaction process and scales'' range of direct energy cascade'
+authors:
+  - Alexander O. Korotkevich
+year: 2026
+abstract: 'During comprehensive study of weakly nonlinear interaction of surface capillary waves, processes of resonant and non-resonant interactions were considered both numerically and analytically: merging of two waves into one and waves on the ring (in Fourier space, isotropic spectrum) into larger diameter ring. It was shown numerically, that these resonant processes are the leading ones and other processes with respect to them are at least weaker if manifest themselves at all. It was confirmed, that resonant the processes are the major ones which contribute to the long time dynamics. In the case of isotropic turbulence of capillary waves the formation of wave turbulence''s Zakharov-Filonenko spectrum is demonstrated. It was also shown, that this spectrum in finite systems has a finite range of scales. Due to finiteness of the numerical simulation or experimental area the discreteness of the wavenumbers grid arrest local in Fourier space resonant interaction when smaller scales are considered. Scaling of the range of realization of the Zakharov-Filonenko spectrum, depending on main parameters of the numerical or experimental setup (average steepness and characteristic size), is derived analytically and partially confirmed numerically.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23046
+  pdf: https://arxiv.org/pdf/2605.23046
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

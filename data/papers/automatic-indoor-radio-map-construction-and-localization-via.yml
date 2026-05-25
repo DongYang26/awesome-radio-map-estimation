@@ -1,0 +1,28 @@
+id: automatic-indoor-radio-map-construction-and-localization-via
+title: Automatic Indoor Radio Map Construction and Localization via Multipath Fingerprint Extrapolation
+authors:
+  - Qiao Li
+  - Xuewen Liao
+  - Ang Li
+  - S. Valaee
+year: 2023
+venue: IEEE Transactions on Wireless Communications
+abstract: For fingerprint-based localization, the time-consuming and labor-intensive construction of offline radio map is the bottleneck which hinders its large-scale implementation. In this paper, we propose a radio map extrapolation and localization algorithm by exploiting the angles and delays of specular multipath components. First, using the concept of virtual anchor nodes (VANs), we calculate the virtual transmitter (VT) of each multipath component according to angle and delay information measured at a known point. By estimating the positions of reflector with these VTs, the angles and delays of the uplink multipath components transmitted at other locations in the indoor environment are extrapolated. Then, a channel fingerprint composed of the extrapolated angles and delays is proposed to represent the channel response in the angle-delay domain, which is spatially unique and discriminative. Thus, the radio map constructed such can significantly reduce the labor and time costs. Lastly, a convolutional neural network (CNN) is applied for indoor localization. The performance of the proposed fingerprint extrapolation and localization method is validated through extensive simulations with a ray-tracing channel model, which exhibits promising localization performance for our proposed scheme with reduced construction costs.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/TWC.2023.3237359
+subfield: REM  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: indoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 18
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

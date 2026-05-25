@@ -1,0 +1,30 @@
+id: semi-direct-multimap-slam-system-for-real-time-sparse-3-d-ma
+title: Semi-Direct Multimap SLAM System for Real-Time Sparse 3-D Map Reconstruction
+authors:
+  - Hongyu Xie
+  - Dong Zhang
+  - J. Wang
+  - Mengchu Zhou
+  - Zhengcai Cao
+  - Xiaobo Hu
+  - A. Abusorrah
+year: 2023
+venue: IEEE Transactions on Instrumentation and Measurement
+abstract: The lack of a sufficient number of reliable corners in low-textured environments is a big challenge for classical visual Simultaneous Localization And Mapping (SLAM), especially for point feature-based methods. Many other features (i.e., line and plane segments) are often combined with points to restore an environmental structure. However, using such features requires much computational time. This work focuses on the reliable and high-performance real-time operation of an SLAM system in low-textured scenarios. It proposes a semidirect multimap monocular SLAM system (SM-SLAM) that combines direct tracking and feature-based map maintenance with point features and line segments. The proposed system tracks nonkeyframes based on a sparse image alignment method for fast tracking, extracts and matches point features and line segments in keyframes for high-quality environment structure and motion optimization. We present an extensive evaluation on two widely-used datasets and some challenging real-world scenarios. Experimental results show that SM-SLAM can well reconstruct a sparse 3-D map with geometrical structure information in 30–40 Hz. It shows an accuracy improvement of more than 20% than the Oriented FAST and Rotated BRIEF feature-based SLAM on some low-speed, small-range camera motion datasets and performs well in low-texture scenarios.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/TIM.2023.3240206
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 24
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

@@ -1,0 +1,28 @@
+id: path-planning-for-adaptive-csi-map-construction-with-a3c-in-
+title: Path Planning for Adaptive CSI Map Construction With A3C in Dynamic Environments
+authors:
+  - Xiaoqiang Zhu
+  - Tie Qiu
+  - W. Qu
+  - Xiaoping Zhou
+  - Yifan Wang
+  - Dapeng Oliver Wu
+year: 2023
+venue: IEEE Transactions on Mobile Computing
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/TMC.2021.3131318
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 25
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

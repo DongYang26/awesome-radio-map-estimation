@@ -1,0 +1,25 @@
+id: efficient-training-for-fingerprint-based-positioning-using-m
+title: Efficient training for fingerprint based positioning using matrix completion
+authors:
+  - Sofia Nikitaki
+  - G. Tsagkatakis
+  - P. Tsakalides
+year: 2012
+venue: European Signal Processing Conference
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.5281/ZENODO.43028
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - matrix-completion  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 27
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

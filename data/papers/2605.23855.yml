@@ -1,0 +1,29 @@
+id: '2605.23855'
+title: Phase-dependent electronic structure of two-dimensional Ag layers at the graphene/SiC interface
+authors:
+  - Sawani Datta
+  - Boyang Zheng
+  - Arpit Jain
+  - Kathrin Küster
+  - Joshua A. Robinson
+  - Vincent H. Crespi
+  - Ulrich Starke
+year: 2026
+abstract: 'Intercalation at the graphene/SiC interface provides a controlled route to stabilize atomically thin layers with properties distinct from their bulk counterparts. In this platform, the structure and stability of the intercalated phase depend sensitively on the defect landscape of the starting substrate. For intercalated two-dimensional silver at the graphene/SiC interface, two phases have been observed: a phase epitaxial to the SiC lattice, Ag$_{(1)}$, readily obtained following the conventional intercalation method under ultra-high-vacuum conditions and extensively characterized, and a more densely packed phase, called Ag$_{(2)}$, which has remained largely unexplored. Here we report an in situ ultra-high-vacuum preparation method of the second phase intercalated at the graphene/SiC interface; this phase previously was prepared via high-pressure confinement heteroepitaxy. Low-energy electron diffraction shows that Ag$_{(2)}$ is rotated by 30 degree relative to the SiC lattice and forms supercells, in contrast to the $(1\times 1)$ epitaxial relation of Ag$_{(1)}$ with SiC. High-resolution angle-resolved photoemission spectroscopy reveals a more rich Ag$_{(2)}$ band dispersion compared to the Ag$_{(1)}$. In density functional theory calculations, by defining the unfolding entropy which, in a quantified way, finds that the band structure of Ag$_{(2)}$ is more suitable to be unfolded to the SiC primitive cell, and the resulting unfolded band dispersion is in great agreement with the experimental data. We further show that the different intercalated Ag phases tune the electronic properties of the overlying quasi-free-standing graphene layer differently: compared with Ag$_{(1)}$, Ag$_{(2)}$ yields an $\sim$1.75 times higher charge carrier density and modifies the charge-plasmon interaction of the graphene layer, indicating a change in effective screening at the interface.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23855
+  pdf: https://arxiv.org/pdf/2605.23855
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

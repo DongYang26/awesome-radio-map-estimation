@@ -1,0 +1,32 @@
+id: '2403.08323'
+title: Sparse Bayesian Learning-Based Hierarchical Construction for 3D Radio Environment Maps Incorporating Channel Shadowing
+authors:
+  - Jie Wang
+  - Qiuming Zhu
+  - Zhipeng Lin
+  - Junting Chen
+  - Guoru Ding
+  - Qihui Wu
+  - Guochen Gu
+  - Qianhao Gao
+year: 2024
+venue: IEEE Transactions on Wireless Communications
+abstract: The radio environment map (REM) visually displays the spectrum information over the geographical map and plays a significant role in monitoring, management, and security of spectrum resources. In this paper, we present an efficient 3D REM construction scheme based on the sparse Bayesian learning (SBL), which aims to recover the accurate REM with limited and optimized sampling data. In order to reduce the number of sampling sensors, an efficient sparse sampling method for unknown scenarios is proposed. For the given construction accuracy and the priority of each location, the quantity and sampling locations can be jointly optimized. With the sparse sampled data, by mining the sparsity of the spectrum situation and channel propagation characteristics, a SBL-based spectrum data hierarchical recovery algorithm is developed to estimate the missing data of unsampled locations. Finally, the simulated three-dimensional (3D) REM data in the campus scenario are used to verify the proposed methods as well as to compare with the state-of-the-art. We also analyze the recovery performance and the impact of different parameters on the constructed REMs. Numerical results demonstrate that the proposed scheme can ensure the construction accuracy and improve the computational efficiency under the low sampling rate.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2403.08323
+  doi: 10.1109/TWC.2024.3416447
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 78
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

@@ -1,0 +1,30 @@
+id: a-machine-learning-approach-for-path-loss-prediction-using-c
+title: A Machine Learning Approach for Path Loss Prediction Using Combination of Regression and Classification Models
+authors:
+  - I. Iliev
+  - Y. Velchev
+  - Peter Z. Petkov
+  - B. Bonev
+  - Georgi Iliev
+  - Ivaylo Nachev
+year: 2024
+venue: Italian National Conference on Sensors
+abstract: One of the key parameters in radio link planning is the propagation path loss. Most of the existing methods for its prediction are not characterized by a good balance between accuracy, generality, and low computational complexity. To address this problem, a machine learning approach for path loss prediction is presented in this study. The novelty is the proposal of a compound model, which consists of two regression models and one classifier. The first regression model is adequate when a line-of-sight scenario is fulfilled in radio wave propagation, whereas the second one is appropriate for non-line-of-sight conditions. The classification model is intended to provide a probabilistic output, through which the outputs of the regression models are combined. The number of used input parameters is only five. They are related to the distance, the antenna heights, and the statistics of the terrain profile and line-of-sight obstacles. The proposed approach allows creation of a generalized model that is valid for various types of areas and terrains, different antenna heights, and line-of-sight and non line-of-sight propagation conditions. An experimental dataset is provided by measurements for a variety of relief types (flat, hilly, mountain, and foothill) and for rural, urban, and suburban areas. The experimental results show an excellent performances in terms of a root mean square error of a prediction as low as 7.3 dB and a coefficient of determination as high as 0.702. Although the study covers only one operating frequency of 433 MHz, the proposed model can be trained and applied for any frequency in the decimeter wavelength range. The main reason for the choice of such an operating frequency is because it falls within the range in which many wireless systems of different types are operating. These include Internet of Things (IoT), machine-to-machine (M2M) mesh radio networks, power efficient communication over long distances such as Low-Power Wide-Area Network (LPWAN)—LoRa, etc.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://doi.org/10.3390/s24175855
+  doi: 10.3390/s24175855
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 11
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

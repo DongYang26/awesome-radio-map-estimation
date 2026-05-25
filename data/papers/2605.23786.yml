@@ -1,0 +1,35 @@
+id: '2605.23786'
+title: 'Gaia FGK benchmark stars: abundances of \textit{n}-capture elements of the third version'
+authors:
+  - S. Vitali
+  - P. Jofré
+  - L. Casamiquela
+  - U. Heiter
+  - C. Aguilera Gómez
+  - D. Barrios López
+  - S. Blanco Cuaresma
+  - A. Escorza
+  - I. Hernández Araya
+  - T. Signor
+  - C. Soubiran
+  - H. Sinclair Wentworth
+  - C. Worley
+year: 2026
+abstract: In the current era, in which an unprecedented wealth of data is available for the study of the Milky Way, the Gaia Benchmark Stars (GBS) have become an established reference and calibration sample. Studies of stellar structure and evolution, as well as the chemical history of our Galaxy, largely rely on large spectroscopic surveys and their output catalogs. In this context, deriving precise and accurate stellar parameters and chemical abundances is of paramount importance. This study provides the determination of neutron(n)-capture element abundances, extending the set of chemical abundances available for the third GBS release (GBSv3). Based on the compilation of high-resolution spectra assembled for GBSv3 and consistently with the spectral analysis adopted for the chemical abundances of GBSv3, we used the iSpec code to derive heavy-element abundances. We infer homogeneous abundances of n-capture elements across the GBSv3 sample using an in-depth line assessment tailored to different groups identified through a clustering algorithm that accounts for the diversity in stellar parameters and metallicities. This approach addresses key challenges in the spectral analysis of these elements, including the paucity of usable lines, weak line strengths, saturation effects, and sensitivity to atomic data. It yields reliable measurements, establishing an extended and robust reference scale in good agreement with the literature. This compilation of these abundances is based on the GBS's robust and accurate atmospheric parameters, together with the analysis of a large sample of stellar spectra per star, which provides a reliable and homogeneous spectral analysis. It supports the use of chemical abundances as precise tracers of the Milky Way's star formation history and chemical evolution, and constitutes a legacy sample for the calibration of current and future spectroscopic surveys.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23786
+  pdf: https://arxiv.org/pdf/2605.23786
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: unsupervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

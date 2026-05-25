@@ -1,0 +1,104 @@
+id: '2605.23107'
+title: Constraining the Photon Intensity of Extragalactic Background Light with the HAWC Observatory for the Blazar Mrk 421
+authors:
+  - R. Alfaro
+  - C. Alvarez
+  - A. Andrés
+  - E. Anita-Rangel
+  - M. Araya
+  - J. C. Arteaga-Velázquez
+  - D. Avila Rojas
+  - R. Babu
+  - P. Bangale
+  - E. Belmont-Moreno
+  - A. Bernal
+  - T. Capistrán
+  - A. Carramiñana
+  - F. Carreón
+  - A. L. Colmenero-Cesar
+  - U. Cotti
+  - J. Cotzomi
+  - S. Coutiño de León
+  - N. Di Lalla
+  - R. Diaz Hernandez
+  - B. L. Dingus
+  - M. A. DuVernois
+  - T. Ergin
+  - C. Espinoza
+  - N. Fraija
+  - S. Fraija
+  - J. A. García-González
+  - F. Garfias
+  - J. A. González
+  - N. Ghosh
+  - A. Gonzalez Muñoz
+  - M. M. González
+  - J. A. Goodman
+  - S. Groetsch
+  - J. Gyeong
+  - S. Hernández-Cadena
+  - I. Herzog
+  - F. Hueyotl-Zahuantitla
+  - D. Huang
+  - A. Iriarte
+  - S. Kaufmann
+  - D. Kieda
+  - H. León Vargas
+  - A. L. Longinotti
+  - G. Luis-Raya
+  - K. Malone
+  - O. Martinez
+  - J. Martínez-Castro
+  - H. Martínez-Huerta
+  - P. Miranda-Romagnoli
+  - P. E. Mirón-Enriquez
+  - E. Moreno
+  - M. Mostafá
+  - M. Najafi
+  - L. Nellen
+  - M. U. Nisa
+  - R. Noriega-Papaqui
+  - M. Osorio-Archila
+  - E. Ponce
+  - Y. Pérez Araujo
+  - E. G. Pérez-Pérez
+  - A. Pratts
+  - C. D. Rho
+  - D. Rosa-González
+  - M. Roth
+  - A. Sandoval
+  - M. Shin
+  - A. J. Smith
+  - Y. Son
+  - R. W. Springer
+  - O. Tibolla
+  - I. Torres
+  - R. Torres-Escobedo
+  - E. Varela
+  - L. Villaseñor
+  - X. Wang
+  - I. J. Watson
+  - H. Wu
+  - S. Yu
+  - X. Zhang
+  - H. Zhou
+  - C. de León
+year: 2026
+abstract: The blazar Mrk 421 exhibits rapid variability over a wide range of timescales. Spectral differences have been observed during the different emission states of Mrk 421. During the high emission states, tests to constraint the Hubble constant and the photon intensity of Extragalactic Background Light (EBL) can be performed. The HAWC observatory provides an exceptionally long term monitoring of the source at TeV energies. We selected periods of high emission state and low emission state in data with total observation time of 2460 transits from the HAWC observatory using the All-sky Root around in an Unbiased way methodology.   We report on evidence of a cutoff in the spectrum of Mrk 421 during high emission states. An Exponential Cutoff Power Law is preferred over a Simple Power Law at a $3.8\,σ$ level. In the Exponential Cutoff Power Law, the cutoff is found at $13\pm3~\text{TeV}$. Using this result, we provide upper limits on the specific intensity of EBL photons. Moreover, the value of the energy cutoff found in our analysis is different from the cutoff expected by the interaction of gamma-rays with EBL photons. This result indicates that the cutoff is intrinsic to the source.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23107
+  pdf: https://arxiv.org/pdf/2605.23107
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

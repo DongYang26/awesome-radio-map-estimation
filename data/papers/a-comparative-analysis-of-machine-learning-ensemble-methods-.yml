@@ -1,0 +1,30 @@
+id: a-comparative-analysis-of-machine-learning-ensemble-methods-
+title: A Comparative Analysis of Machine Learning Ensemble Methods for Accurate Path Loss Prediction
+authors:
+  - Awal Halifa
+  - E. A. Ampomah
+  - K. Gyasi
+  - Kwame Opuni-Boachie
+  - Obour Agyekum
+  - Kingsford Sarkodie
+  - Obeng Kwakye
+  - Piyush Kumar
+year: 2024
+venue: Journal of Electrical Systems
+abstract: 'This paper presents an ensemble path loss prediction model for wireless communication networks, leveraging machine learning. The model integrates three regression algorithms: Random Forest, Gradient Boosting, and Support Vector Regression. It is trained and tested using field data from diverse city environments. The model is optimized using feature engineering, hyperparameter tuning, and ensemble pruning techniques. Evaluation metrics, including Root Mean Square Error, Mean Square Error, and Mean Absolute Percentage Error, gauge the effectiveness of RF, GBR, SVR, and the ensemble methods. Notably, the bagging and blending ensemble models yield impressively low Mean Absolute Percentage Error values of 3.09% and 1.94%, respectively. Compared to existing empirical models, the proposed ensemble model achieved higher accuracy and generalization ability in path loss prediction, offering potential applications for network design and optimization.'
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.52783/jes.8467
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

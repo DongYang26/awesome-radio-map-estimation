@@ -1,0 +1,30 @@
+id: sardinia-aperture-array-demonstrator-measurement-campaigns-o
+title: 'Sardinia aperture array demonstrator: measurement campaigns of radio frequency interferences'
+authors:
+  - F. Gaudiomonte
+  - A. Ladu
+  - L. Schirru
+  - A. Melis
+  - R. Concu
+  - F. Perini
+  - M. Murgia
+year: 2020
+venue: Astronomical Telescopes + Instrumentation
+abstract: Measurement campaigns of radio frequency interferences (RFIs) represent a fundamental aspect to optimize data collected by radio astronomical observations. In order to monitor the state of unwanted man-made signals, every radio telescope needs to have a radio frequency map in the frequencies range of its receivers. The Sardinia Aperture Array Demonstrator (SAD) is an Italian aperture array demonstrator composed of prototypical Vivaldi antennas designed to work at frequencies below 500 MHz. The antennas are located at the Sardinia Radio Telescope (SRT) site and they are arranged with a versatile approach that is able to provide different array configurations. In this paper, we present the results of measurement campaigns conducted with the SAD antennas at the SRT observing site with the aim to monitor the evolution of RFI scenario from 2016 to date. The signal acquisition chain and the software tool used for RFI detection are, also, presented.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1117/12.2576078
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 3
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

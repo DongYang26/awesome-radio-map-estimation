@@ -1,0 +1,28 @@
+id: the-determination-of-pathloss-model-for-ultra-high-frequency
+title: The determination of pathloss model for ultra‐high‐frequency television transmission in Onitsha, Anambra state, Nigeria
+authors:
+  - Nurudeen Oladapo Olatoye
+  - Erumena Constance Ekoko
+  - Ogirima Mohammed Sani
+  - O. Ogungbenro
+year: 2021
+venue: International Journal of Communication Systems
+abstract: This research work on the determination of pathloss model for ultra‐high‐frequency (UHF) television transmission in the city of Onitsha, Anambra state, was carried out along Niksi Road, 33 area, Nkwelle‐Ezunaka to Nkwelle junction. The latitude and longitude parts of the data were measured using a software “GPS Map Mobile” installed on Tecno W3 android phone. The received power was measured at each point using “B&K precision RF signal strength analyzer 2.0‐GHz 2640.” From the analysis made using the root mean square error (RMSE), and also the graphs were plotted using MatLab package; it was discovered that the measured pathloss was interwoven with established Hata and COST‐231 Hata models by RMSE values of 4.90 and 4.74, respectively, which are within the acceptable range of 0–6 dB. These models are therefore suitable for urban center of Onitsha, and they are useful for prediction of transmission coverage in the city.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1002/dac.4716
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 4
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

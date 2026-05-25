@@ -1,0 +1,27 @@
+id: '2510.21238'
+title: Physics-Informed Neural Networks for MIMO Beam Map and Environment Reconstruction
+authors:
+  - Wangqian Chen
+  - Junting Chen
+  - Shuguang Cui
+year: 2025
+venue: arXiv.org
+abstract: As communication networks evolve towards greater complexity (e.g., 6G and beyond), a deep understanding of the wireless environment becomes increasingly crucial. When explicit knowledge of the environment is unavailable, geometry-aware feature extraction from channel state information (CSI) emerges as a pivotal methodology to bridge physical-layer measurements with network intelligence. This paper proposes to explore the received signal strength (RSS) data, without explicit 3D environment knowledge, to jointly construct the radio beam map and environmental geometry for a multiple-input multiple-output (MIMO) system. Unlike existing methods that only learn blockage structures, we propose an oriented virtual obstacle model that captures the geometric features of both blockage and reflection. Reflective zones are formulated to identify relevant reflected paths according to the geometry relation of the environment. We derive an analytical expression for the reflective zone and further analyze its geometric characteristics to develop a reformulation that is more compatible with deep learning representations. A physics-informed deep learning framework that incorporates the reflective-zone-based geometry model is proposed to learn the blockage, reflection, and scattering components, along with the beam pattern, which leverages physics prior knowledge to enhance network transferability. Numerical experiments demonstrate that, in addition to reconstructing the blockage and reflection geometry, the proposed model can construct a more accurate MIMO beam map with a 32%-48% accuracy improvement.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2510.21238
+  doi: 10.48550/arXiv.2510.21238
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

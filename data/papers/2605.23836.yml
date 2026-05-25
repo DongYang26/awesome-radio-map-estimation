@@ -1,0 +1,30 @@
+id: '2605.23836'
+title: Orbital Selective Dirac-like States in EuAgAs Revealed by Polarization Dependent ARPES and DFT
+authors:
+  - Mohit Mudgal
+  - Suman Nandi
+  - Mohamed El Gazzah
+  - Masashi Arita
+  - Shin-ichiro Ideta
+  - Nirmal J. Ghimire
+  - Kenya Shimada
+  - Anup Pradhan Sakhya
+year: 2026
+abstract: Magnetic topological semimetals provide a promising platform for emergent quantum phenomena driven by the interplay between magnetism and relativistic fermions, including anomalous transport effects and tunable topological phases. Here, we investigate the electronic structure and orbital character of EuAgAs, a magnetic topological Dirac semimetal candidate, using density functional theory (DFT) and polarization dependent angle resolved photoemission spectroscopy (ARPES). Fermi surface mapping and constant energy contours measured at 9 eV reveal ring like features that systematically expand with increasing binding energy, consistent with nearly linear low energy Dirac like dispersion. ARPES measurements at different photon energies hint at the presence of a van Hove singularity predicted by DFT calculations. Furthermore, this indicates that the photoemission matrix elements are highly sensitive to the excitation energy, allowing different photon energies to selectively probe distinct orbital characters. Polarization dependent ARPES measurements performed in s- and p-polarized geometries exhibit pronounced variations in spectral intensity, indicating symmetry selective orbital contributions to electronic states. These matrix element driven intensity modulations are well reproduced by DFT calculations. Furthermore, the observed Dirac like states remain nearly unchanged over the temperature range from 9 K to 30 K, suggesting that the magnetic ordering has minimal influence on the electronic structure. Our combined experimental and theoretical results provide detailed insight into the orbital selective electronic structure of EuAgAs and its implications for magnetic topological quantum states.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23836
+  pdf: https://arxiv.org/pdf/2605.23836
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

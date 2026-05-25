@@ -1,0 +1,27 @@
+id: '2605.23812'
+title: An Ensemble Variational approach for High-Dimensional Open-Loop Flow Control
+authors:
+  - Riccardo Maranelli
+  - Vincent Mons
+  - Jean-Camille Chassaing
+  - Matthieu Queguineur
+  - Taraneh Sayadi
+year: 2026
+abstract: Designing effective optimisation strategies for unsteady flows in the presence of complex dynamics is challenging. Gradient-based optimisation algorithms that rely on gradient information obtained from adjoint equations are efficient for high-dimensional control problems such as those considered here. However, they can be prone to numerical sensitivities when the underlying physics is complex, i.e. when it is highly nonlinear, non-differentiable and chaotic. This work proposes an ensemble-variational (EnVar) framework, which provides a non-intrusive alternative to classical, adjoint-based approaches for flow control applications. This framework approximates cost-function gradients through a finite ensemble of perturbed control vectors. A formulation based on a finite-difference approximation in the ensemble space is employed to address high-dimensional parameter spaces. The methodology is evaluated on two-dimensional cavity flows across Reynolds regimes spanning quasi-periodic to chaotic dynamics, where a steady forcing is optimised. In the quasi-periodic regime, the method identifies control strategies consistent with adjoint-based optimization and achieves a significant reduction of kinetic energy fluctuations, driving the flow toward a periodic limit cycle. In the chaotic regime, the framework remains effective in estimating gradients and mitigating flow fluctuations in situations where adjoint-based approaches typically exhibit convergence issues. This work demonstrates that the EnVar method serves as a computationally efficient, parallelizable, and non-intrusive alternative for high-dimensional optimization problems in complex fluid dynamic regimes.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23812
+  pdf: https://arxiv.org/pdf/2605.23812
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - autoencoder  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

@@ -1,0 +1,26 @@
+id: '2510.08015'
+title: Unsupervised Radio Map Construction in Mixed LoS/NLoS Indoor Environments
+authors:
+  - Zheng Xing
+  - Junting Chen
+year: 2025
+venue: Global Communications Conference
+abstract: Radio maps are essential for enhancing wireless communications and localization. However, existing methods for constructing radio maps typically require costly calibration processes to collect location-labeled channel state information (CSI) datasets. This paper aims to recover the data collection trajectory directly from the channel propagation sequence, eliminating the need for location calibration. The key idea is to employ a hidden Markov model (HMM)-based framework to conditionally model the channel propagation matrix, while simultaneously modeling the location correlation in the trajectory. The primary challenges involve modeling the complex relationship between channel propagation in multiple-input multiple-output (MIMO) networks and geographical locations, and addressing both line-of-sight (LOS) and non-line-of-sight (NLOS) indoor conditions. In this paper, we propose an HMM-based framework that jointly characterizes the conditional propagation model and the evolution of the user trajectory. Specifically, the channel propagation in MIMO networks is modeled separately in terms of power, delay, and angle, with distinct models for LOS and NLOS conditions. The user trajectory is modeled using a Gaussian-Markov model. The parameters for channel propagation, the mobility model, and LOS/NLOS classification are optimized simultaneously. Experimental validation using simulated MIMO-Orthogonal Frequency-Division Multiplexing (OFDM) networks with a multi-antenna uniform linear antenna array (ULA) configuration demonstrates that the proposed method achieves an average localization accuracy of 0.65 meters in an indoor environment, covering both LOS and NLOS regions. Moreover, the constructed radio map enables localization with a reduced error compared to conventional supervised methods, such as k-nearest neighbor (KNN), support vector machine (SVM), and deep neural network (DNN).
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2510.08015
+  doi: 10.1109/GLOBECOM59602.2025.11432665
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: indoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: unsupervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

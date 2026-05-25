@@ -1,0 +1,27 @@
+id: distributed-estimation-for-radio-environment-map-in-cognitiv
+title: Distributed estimation for Radio Environment Map in cognitive radio networks
+authors:
+  - Jianzhi Liu
+  - Hui Han
+  - Cailian Chen
+  - Lian Li
+  - X. Guan
+year: 2014
+venue: Cybersecurity and Cyberforensics Conference
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/CHICC.2014.6896670
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

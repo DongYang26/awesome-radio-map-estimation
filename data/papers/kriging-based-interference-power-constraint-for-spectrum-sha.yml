@@ -1,0 +1,25 @@
+id: kriging-based-interference-power-constraint-for-spectrum-sha
+title: Kriging-Based Interference Power Constraint for Spectrum Sharing Based on Radio Environment Map
+authors:
+  - Koya Sato
+  - T. Fujii
+year: 2015
+venue: 2015 IEEE Globecom Workshops (GC Wkshps)
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/GLOCOMW.2015.7414008
+subfield: REM  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - Gaussian-process  # TODO: maintainer verify
+  - Kriging  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 6
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

@@ -1,0 +1,29 @@
+id: irm-net-an-enhanced-attention-networks-for-indoor-radio-map-
+title: 'IRM-Net: An Enhanced Attention Networks for Indoor Radio Map Estimation'
+authors:
+  - Qi Chen
+  - Haidong Tan
+  - Jingjing Yang
+  - Ming Huang
+  - Bo Chen
+year: 2025
+venue: International Workshop on Machine Learning for Signal Processing
+abstract: In this paper, we introduce IRM-Net, a novel variant of the U-Net architecture designed for indoor radio map estimation. IRM-Net incorporates two principal improvements over the standard U-Net. First, we replace conventional convolutional layers with a cascaded combination of a Detail Enhancement Block (DEB) and a Detail Enhancement Attention Block (DEAB), which enhances the model's ability to capture finegrained features. Second, we implement dense connections in both the encoder and decoder, facilitating multi-level semantic interactions that mitigate information loss more effectively than traditional serial connections. IRM-Net was trained and evaluated on the benchmark dataset provided by the Sampling-Assisted Pathloss Radio Map Prediction Data Competition. Experimental results demonstrate that our approach can reliably predict path loss distributions in previously unseen indoor environments.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/MLSP62443.2025.11204298
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: indoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 2
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

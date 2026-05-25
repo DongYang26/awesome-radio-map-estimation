@@ -1,0 +1,26 @@
+id: '2605.23823'
+title: '"I can''t read your mind": A Study of Neurodivergent Computing Students'' Experiences with Collaborative Active Learning'
+authors:
+  - Cynthia Zastudil
+  - Srishty Muthusekaran
+  - Rayhona Nasimova
+  - Stephen MacNeil
+year: 2026
+abstract: Computing courses often feature active learning techniques that promote collaboration and social interaction between students. However, neurodivergent students' preferences and experiences with these techniques are not well understood. We conducted a survey of neurodivergent computing students (n=24), specifically autistic students or students with ADHD, and neurotypical computing students (n=20) to understand how the structure of collaborative active learning affects their comfort in computing courses. We also interviewed four computing students on the autism spectrum or with ADHD to gain more contextualized insights into their experiences and accessibility recommendations. Our survey surfaces how team dynamics and assignment structure can impact neurodivergent students' comfort in computing courses. Neurodivergent students expressed discomfort with assignments that lack structure or have ambiguous expectations. Neurodivergent students prefer smaller teams that work together frequently with explicitly defined roles. Our interviews identified ways that neurodivergent students cope with discomfort in collaborative active learning, including self-selecting roles and self-disclosure. While preliminary, our results highlight how instructors can design collaborative active learning to be more equitable and accessible for neurodivergent students.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23823
+  pdf: https://arxiv.org/pdf/2605.23823
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

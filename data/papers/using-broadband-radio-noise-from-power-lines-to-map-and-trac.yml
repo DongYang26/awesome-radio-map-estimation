@@ -1,0 +1,30 @@
+id: using-broadband-radio-noise-from-power-lines-to-map-and-trac
+title: Using Broadband Radio Noise From Power‐Lines to Map and Track Dense Es Structures
+authors:
+  - K. Obenberger
+  - J. Dowell
+  - C. Fallen
+  - J. Holmes
+  - G. Taylor
+  - S. Varghese
+year: 2021
+venue: Radio Science
+abstract: We present passive observations of midlatitude sporadic E (Es) structures in the 30–50 MHz range using the long wavelength array telescopes in New Mexico. Spectral and temporal analysis of the structures reveals that some of the emissions can be characterized by broadband, spark‐like radiation occurring at a repetition frequency of 60 Hz. The azimuthal distribution indicates that the brightest emissions come from the directions of several large metropolitan centers with distances ranging from 700 to 1,250 km from the telescopes. This implies that the source is unintended human‐made noise, originating from devices connected to 60 Hz alternating current power. The geometry of our observations rule out coherent scatter from field‐aligned irregularities, and indicate that the unintended noise must undergo a specular reflection off of over‐dense plasma distributed approximately parallel to Earth's surface. On certain occasions the reflections are seen at such high frequencies and high elevation angles that the local plasma frequency must be above 30 MHz. During both day and night Es conditions, the dense structures are observed to be arranged in propagating fronts, and travel at speeds of 70–100 m/s. We also present observations that reveal quasi‐periodic amplitude oscillations with frequencies consistent with atmospheric gravity waves and acoustic waves.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2020RS007169
+  doi: 10.1029/2020RS007169
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 8
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

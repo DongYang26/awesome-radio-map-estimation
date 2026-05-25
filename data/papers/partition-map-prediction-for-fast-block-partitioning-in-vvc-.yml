@@ -1,0 +1,28 @@
+id: partition-map-prediction-for-fast-block-partitioning-in-vvc-
+title: Partition Map Prediction for Fast Block Partitioning in VVC Intra-Frame Coding
+authors:
+  - Aolin Feng
+  - Kang Liu
+  - Dong Liu
+  - Li Li
+  - Feng Wu
+year: 2023
+venue: IEEE Transactions on Image Processing
+abstract: The Versatile Video Coding (VVC) standard introduces a block partitioning structure known as quadtree plus nested multi-type tree (QTMTT), which allows more flexible block partitioning compared to its predecessors, like High Efficiency Video Coding (HEVC). Meanwhile, the partition search (PS) process, which is to find out the best partitioning structure for optimizing the rate-distortion cost, becomes far more complicated for VVC than for HEVC. Also, the PS process in VVC reference software (VTM) is not friendly to hardware implementation. We propose a partition map prediction method for fast block partitioning in VVC intra-frame encoding. The proposed method may replace PS totally or be combined with PS partially, thereby achieving adjustable acceleration of the VTM intra-frame encoding. Different from the previous methods for fast block partitioning, we propose to represent a QTMTT-based block partitioning structure by a partition map, which consists of a quadtree (QT) depth map, several multi-type tree (MTT) depth maps, and several MTT direction maps. We then propose to predict the optimal partition map from the pixels through a convolutional neural network (CNN). We propose a CNN structure, known as Down-Up-CNN, for the partition map prediction, where the CNN structure emulates the recursive nature of the PS process. Moreover, we design a post-processing algorithm to adjust the network output partition map, so as to obtain a standard-compliant block partitioning structure. The post-processing algorithm may produce a partial partition tree as well; then based on the partial partition tree, the PS process is performed to obtain the full tree. Experimental results show that the proposed method achieves $1.61\times $ to $8.64\times $ encoding acceleration for the VTM-10.0 intra-frame encoder, with the ratio depending on how much PS is performed. Especially, when achieving $3.89\times $ encoding acceleration, the compression efficiency loss is 2.77% in BD-rate, which is a better tradeoff than the previous methods.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/TIP.2023.3266165
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 52
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

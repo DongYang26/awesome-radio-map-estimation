@@ -1,0 +1,32 @@
+id: '2202.05107'
+title: Machine Learning-Based Urban Canyon Path Loss Prediction Using 28 GHz Manhattan Measurements
+authors:
+  - Ankit Gupta
+  - Jinfeng Du
+  - D. Chizhik
+  - R. Valenzuela
+  - M. Sellathurai
+year: 2022
+venue: IEEE Transactions on Antennas and Propagation
+abstract: 'Large bandwidth at millimeter wave (mm-wave) is crucial for fifth generation (5G) and beyond, but the high path loss (PL) requires highly accurate PL prediction for network planning and optimization. Statistical models with slope-intercept fit fall short in capturing large variations seen in urban canyons, whereas ray tracing, capable of characterizing site-specific features, faces challenges in describing foliage and street clutter and associated reflection/diffraction ray calculation. Machine learning (ML) is promising but faces three key challenges in PL prediction: 1) insufficient measurement data; 2) lack of extrapolation to new streets; 3) overwhelmingly complex features/models. We propose an ML-based urban canyon PL prediction model based on extensive 28 GHz measurements from Manhattan where street clutters are modeled via a light detection and ranging (LiDAR) point cloud dataset and buildings by a mesh-grid building dataset. We extract expert knowledge-driven street clutter features from the point cloud and aggressively compress the 3-D building information using a convolutional autoencoder. Using a new street-by-street training and testing procedure to improve generalizability, the proposed model using both clutter and building features achieves a prediction error [root-mean-square error (RMSE)] of 4.8 ± 1.1 dB compared to 10.6 ± 4.4 and 6.5 ± 2.0 dB for 3GPP line of sight (LOS) and slope-intercept prediction, respectively, where the standard deviation indicates street-by-street variation. By only using four most influential clutter features, the RMSE of 5.5 ± 1.1 dB is achieved.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2202.05107
+  pdf: https://arxiv.org/pdf/2202.05107
+  doi: 10.1109/TAP.2022.3152776
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - autoencoder  # TODO: maintainer verify
+  - CNN  # TODO: maintainer verify
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 66
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

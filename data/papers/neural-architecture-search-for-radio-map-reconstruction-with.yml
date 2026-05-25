@@ -1,0 +1,28 @@
+id: neural-architecture-search-for-radio-map-reconstruction-with
+title: Neural architecture search for radio map reconstruction with partially labeled data
+authors:
+  - A. Malkova
+  - Massih-Reza Amini
+  - Benoît Denis
+  - C. Villien
+year: 2024
+venue: Integr. Comput. Aided Eng.
+abstract: In this paper, we tackle the challenging task of reconstructing Received Signal Strength (RSS) maps by harnessing location-dependent radio measurements and augmenting them with supplementary data related to the local environment. This side information includes city plans, terrain elevations, and the locations of gateways. The quantity of available supplementary data varies, necessitating the utilization of Neural Architecture Search (NAS) to tailor the neural network architecture to the specific characteristics of each setting. Our approach takes advantage of NAS’s adaptability, allowing it to automatically explore and pinpoint the optimal neural network architecture for each unique scenario. This adaptability ensures that the model is finely tuned to extract the most relevant features from the input data, thereby maximizing its ability to accurately reconstruct RSS maps. We demonstrate the effectiveness of our approach using three distinct datasets, each corresponding to a major city. Notably, we observe significant enhancements in areas near the gateways, where fluctuations in the mean received signal power are typically more pronounced. This underscores the importance of NAS-driven architectures in capturing subtle spatial variations. We also illustrate how NAS efficiently identifies the architecture of a Neural Network using both labeled and unlabeled data for Radio Map reconstruction. Our findings emphasize the potential of NAS as a potent tool for improving the precision and applicability of RSS map reconstruction techniques in urban environments.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.3233/ICA-240732
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

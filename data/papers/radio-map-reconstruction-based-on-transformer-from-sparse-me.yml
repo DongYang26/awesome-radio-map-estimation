@@ -1,0 +1,30 @@
+id: radio-map-reconstruction-based-on-transformer-from-sparse-me
+title: Radio Map Reconstruction Based on Transformer from Sparse Measurement
+authors:
+  - Zhibo Chen
+  - Daoxing Guo
+  - Ning Yang
+  - Xiaoyu Wang
+  - Heng Wang
+  - Jiawei Xie
+year: 2024
+venue: International Conference on Speech Technology and Human-Computer Dialogue
+abstract: Outdoor radio maps are complex functions of spatial coordinates, representing the distribution of received signal strength (RSS) in geographic space. Due to the infinitely many positions to be measured, incomplete radio maps are often obtained in practice. Furthermore, the accurate construction of radio maps in urban environments faces significant challenges because of the shadowing effect caused by obstacles, such as buildings. To tackle this problem, this paper first designed a cutting-edge transformer structure restoration (TSR) model as the radio map estimator. Then, we proposed a radio map reconstruction algorithm based on the TSR model, which estimates a complete radio map from spatially sparse measurements. Specifically, the network structure of the TSR model consists of transformer blocks and convolution blocks. The former can explore global information to learn radio propagation patterns, while the latter extracts local features to learn the shadowing effect on the radio map. Additionally, we have designed a loss function specifically for radio map reconstruction to train and optimize the TSR model. Simulation results indicate that the TSR model effectively captures propagation properties within urban environments and outperforms baseline algorithms in terms of reconstructing root mean squared error (RMSE). Under the sampling ratio of 5%, an estimation error of 2.23 dB is achieved.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/ICCT62411.2024.10946503
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - Transformer  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 5
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

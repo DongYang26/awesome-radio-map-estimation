@@ -1,0 +1,24 @@
+id: '2605.23853'
+title: Exact versus tight-binding models in longitudinally modulated $\mathcal{PT}$-symmetric coupled waveguides
+authors:
+  - Alonso Contreras-Astorga
+  - José Israel Galindo-Rodríguez
+year: 2026
+abstract: The tight-binding (TB) model is a widely adopted approximation scheme for describing light propagation in waveguide arrays. Despite its success, its validity in $\mathcal{PT}$-symmetric systems characterized by strong longitudinal modulation has not been rigorously benchmarked against exact analytical solutions. In this work, we address this gap by performing a comparative analysis between exact continuous solutions derived from $z$-dependent supersymmetric (SUSY) transformations and their corresponding discrete TB approximations. To achieve this, we develop a theoretical model for two PT-symmetric coupled waveguides subject to longitudinal modulation. We then evaluate the performance of the TB framework against the exact SUSY benchmark. Our results delineate the specific validity range of the TB approximation, demonstrating its proficiency in reproducing spatial intensity distributions. However, we also identify its limitations in accurately capturing the complex oscillatory phase dynamics inherent to this non-Hermitian evolution.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23853
+  pdf: https://arxiv.org/pdf/2605.23853
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

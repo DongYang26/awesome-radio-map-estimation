@@ -1,0 +1,30 @@
+id: can-channel-knowledge-map-help-to-predict-instantaneous-mimo
+title: Can Channel Knowledge Map Help to Predict Instantaneous MIMO Channel State Information?
+authors:
+  - Xianling Wang
+  - Yi-xing Shi
+  - Tianci Wang
+  - Yingyujiao Huang
+  - Zeyu Hu
+  - Zhiyuan Jiang
+year: 2024
+venue: IEEE Wireless Communications and Networking Conference
+abstract: Accurate channel state information (CSI) is crucial for optimizing system performance in wireless communications. One of the current research directions is to extract the CSI from the channel knowledge map (CKM) based on users' location. While such an approach is promising for large-scale CSI acquisition, e.g., pathloss, it is still questionable whether CKM can help to predict instantaneous CSI which is very sensitive to positioning error and scattering environment changes. To answer this question, this paper proposes a channel prediction scheme that combines the CKM with historical user CSI to improve the beamforming performance in multiple-input multiple-output (MIMO) systems. Specifically, it utilizes the complex amplitude information of multi-path components (MPCs) and employs a low-complexity method to predict the future MIMO CSI. Through experiments based on real-world channel data, the results demonstrate that the proposed scheme outperforms state-of-the-art ones that use the CKM alone or autoregressive schemes without CKM. In the non-line-of-sight scenarios, when the positioning error exceeds 0.525 m, small-scale CSI in CKM provides little gain. In line-of-sight environments, the threshold for the usability of small-scale CSI in terms of positioning error is approximately 0.725 m or slightly higher. When the positioning error is less than 0.225 m, the CKM is beneficial to predict instantaneous CSI in both scenarios.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/WCNC57260.2024.10570728
+subfield: CKM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 4
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

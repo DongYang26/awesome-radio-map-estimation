@@ -1,0 +1,25 @@
+id: path-loss-prediction-for-v2v-communication-using-an-advanced
+title: Path loss prediction for V2V communication using an advanced hybrid machine learning model based on real measurements
+authors:
+  - H. Zormati
+  - J. Chebil
+  - Jamel Bel Hadj Taher
+year: 2026
+venue: Engineering Research Express
+abstract: Accurate path-loss prediction is essential for vehicle-to-vehicle (V2V) communication, especially in urban environments characterized by complex infrastructure and high-density traffic. Various models have been developed to predict path loss in V2V communication based on parameters such as the distance between transceivers, vehicles velocities, and environmental scenarios. However, the performance of these models, particularly the traditional ones, is often limited. This study presents a hybrid machine learning model for path loss prediction at the 5.9 GHz frequency. The proposed model uses Extreme Gradient Boosting for feature selection and combines Random Forest with Support Vector Regression for path loss prediction. The model achieves a high R2 score of 0.98, demonstrating its effectiveness in improving the reliability of V2V communication systems.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1088/2631-8695/ae5e1f
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

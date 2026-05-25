@@ -1,0 +1,23 @@
+id: '2605.23846'
+title: Adjacent cross-sections of the commutant of Hilbert space operators
+authors:
+  - László Kérchy
+year: 2026
+abstract: Applying the techniques resulting the existence of almost invariant half-spaces, similarity models $\wh T$ can be given for upper triangular operator-matrices $T= \left[\begin{matrix}A&C\\ 0&B\end{matrix}\right]$. The model $\wh T$ is also an operator-matrix, containing two diagonal operators in the general case \cite{ker25}, and the unilateral shift $S$ together with a diagonal operator in the particular case when $A$ is similar to $S$ \cite{ker26}. Well-chosen compressions of operators in the commutant $\{\wh T\}'$ form a linear manifold $\whŁ$ satisfying the condition that every $\wh X\in\wh Ł$ is transformed into $\wh Y$ with $\rank\wh Y\le 2$ by a canonical mapping. Furthermore, a cyclcity property of $\{T\}'$ yields transitivity of $\whŁ$. In \cite{ker25} and \cite{ker26} the 3-dimensional cross-sections of $\whŁ$ have been investigated characterizing the canonical bases occurring in the corresponding subspaces of the matrix-algebra $M_3[\C]$. In this paper new conditions are provided by studying matching of adjacent cross-sections.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23846
+  pdf: https://arxiv.org/pdf/2605.23846
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - Transformer  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

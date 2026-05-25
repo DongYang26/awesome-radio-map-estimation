@@ -1,0 +1,24 @@
+id: '2605.23829'
+title: Outer automorphism groups of hyperbolic groups, bounded extensions, and hierarchical hyperbolicity
+authors:
+  - Ervin Hadziosmanovic
+  - Giorgio Mangioni
+year: 2026
+abstract: 'We prove that the outer automorphism group of a one-ended hyperbolic group is virtually a hierarchically hyperbolic group (HHG), under mild orientability conditions on the associated JSJ decomposition. This is done by proving that a finite-index subgroup is a central extension of a product of orbifold mapping class groups, and the extension has bounded Euler class. Our theorem is sharp: we exhibit a surface amalgam whose fundamental group has full outer automorphism group which is not a HHG. To prove this, the main technical tool is the fact that a top-dimensional Abelian subgroup of a HHG is a standard flat.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23829
+  pdf: https://arxiv.org/pdf/2605.23829
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

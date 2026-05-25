@@ -1,0 +1,27 @@
+id: graph-laplacian-based-sequential-smooth-estimator-for-three-
+title: Graph Laplacian-Based Sequential Smooth Estimator for Three-Dimensional RSS Map
+authors:
+  - T. Matsuda
+  - F. Ono
+  - S. Hara
+year: 2021
+venue: IEICE transactions on communications
+abstract: 'SUMMARY In wireless links between ground stations and UAVs (Unmanned Aerial Vehicles), wireless signals may be attenuated by obstructions such as buildings. A three-dimensional RSS (Received Signal Strength) map (3D-RSS map), which represents a set of RSSs at various reception points in a three-dimensional area, is a promising geographical database that can be used to design reliable ground-to-air wireless links. The construction of a 3D-RSS map requires higher computational complexity, especially for a large 3D area. In order to sequentially estimate a 3D-RSS map from partial observations of RSS values in the 3D area, we propose a graph Laplacian-based sequential smooth estimator. In the proposed estimator, the 3D area is divided into voxels, and a UAV observes the RSS values at the voxels along a predetermined path. By considering the voxels as vertices in an undirected graph, a measurement graph is dynamically constructed using vertices from which recent observations were obtained and their neighboring vertices, and the 3D-RSS map is sequentially estimated by performing graph Laplacian regularized least square estimation. key words: unmanned aerial vehicle, received signal'
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1587/TRANSCOM.2020CQP0003
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 6
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

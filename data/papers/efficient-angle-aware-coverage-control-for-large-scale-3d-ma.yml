@@ -1,0 +1,29 @@
+id: efficient-angle-aware-coverage-control-for-large-scale-3d-ma
+title: Efficient angle-aware coverage control for large-scale 3D map reconstruction using drone networks
+authors:
+  - Muhammad Hanif
+  - Takumi Shimizu
+  - Zhiyuan Lu
+  - Masaya Suenaga
+  - Takeshi Hatanaka
+year: 2024
+venue: SICE Journal of Control Measurement and System Integration
+abstract: This paper presents a novel angle-aware coverage control method to enhance monitoring efficiency for large-scale 3D map reconstruction using drone networks. The proposed method integrates a Voronoi-based coverage control as the nominal input into the quadratic programming problem required to solve in the original angle-aware coverage control. This approach provides a practical solution, ensuring diverse viewing angles to improve the quality of 3D map reconstruction and offers effective coverage of distant unobserved areas, particularly for large-scale area missions. We then implement the present method and validate its effectiveness through simulation on Robot Operating System as well as experiments conducted on a robotic testbed. The comparative analysis demonstrates the advantages of our proposed approach, resulting in increased monitoring efficiency for large-scale 3D map reconstruction.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://www.tandfonline.com/doi/pdf/10.1080/18824889.2024.2346375?needAccess=true
+  doi: 10.1080/18824889.2024.2346375
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 5
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

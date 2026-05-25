@@ -1,0 +1,21 @@
+id: a-method-of-connecting-a-chip-to-an-antenna-of-an-identifica
+title: A method of connecting a chip to an antenna of an identification device by radio-frequency map type contactless smart
+authors:
+  - Christophe Halopé
+  - Fabien Zupanek
+year: 2001
+tldr: ''    # TODO: maintainer verify
+# links:  # TODO: maintainer verify — no arxiv/pdf/doi link found; add one
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

@@ -1,0 +1,27 @@
+id: '1807.08235'
+title: Engineering Radio Map for Wireless Resource Management
+authors:
+  - Suzhi Bi
+  - Jiangbin Lyu
+  - Z. Ding
+  - Rui Zhang
+year: 2018
+venue: arXiv.org
+abstract: Radio map in general refers to the geographical signal power spectrum density, formed by the superposition of concurrent wireless transmissions, as a function of location, frequency and time. It contains rich and useful information regarding the spectral activities and propagation channels in wireless networks. Such information can be leveraged to not only improve the performance of existing wireless services (e.g., via proactive resource provisioning) but also enable new applications, such as wireless spectrum surveillance. However, practical implementation of radio maps in wireless communication is often difficult due to the heterogeneity of modern wireless networks and the sheer amount of wireless data to be collected, stored, and processed. In this article, we provide an overview on the state-of-the-art techniques for constructing radio maps as well as applying them to achieve efficient and secure resource management in wireless networks. Some key research challenges are highlighted to motivate future investigation.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/1807.08235
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 110
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

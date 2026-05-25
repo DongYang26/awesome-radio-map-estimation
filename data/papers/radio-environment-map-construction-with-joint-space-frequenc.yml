@@ -1,0 +1,29 @@
+id: radio-environment-map-construction-with-joint-space-frequenc
+title: Radio Environment Map Construction with Joint Space-Frequency Interpolation
+authors:
+  - Koya Sato
+  - Kei Inage
+  - T. Fujii
+year: 2020
+venue: Digital Signal Processing and Signal Processing Education Workshop
+abstract: In this paper, we propose a radio environment map (REM) construction method that interpolates the received signal power over not only the spatial domain but also the frequency domain. REM is a tool for analyzing radio propagation, which is typically defined as a map that stores the received signal power. Crowdsourcing with spatial interpolation (e.g., Kriging) can accurately construct the REM, and the accurate REM improves the efficiency of spectrum use. However, crowdsourcing can only be performed over frequencies in which the mobile terminals can perform the sensing. Thus, conventional REM construction may only improve the spectral efficiency in the frequency in which the sensing can be performed. Our proposed method focuses on the fact that the average received signal power, which consists of path loss and shadowing, shows a strong correlation over the frequency domain. We show that utilizing correlations over both frequency and spatial domains can construct the REM even if the datasets are not available at the estimated environment.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/ICAIIC48513.2020.9065217
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - Gaussian-process  # TODO: maintainer verify
+  - Kriging  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 19
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

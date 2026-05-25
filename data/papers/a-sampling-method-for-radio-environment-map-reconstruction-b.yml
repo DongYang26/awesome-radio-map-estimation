@@ -1,0 +1,26 @@
+id: a-sampling-method-for-radio-environment-map-reconstruction-b
+title: A Sampling Method for Radio Environment Map Reconstruction Based on Multiarea Gudmundson Model
+authors:
+  - Rui Zhang
+  - Fang Ye
+  - Jingchao Li
+  - Yibing Li
+year: 2025
+venue: IEEE Sensors Journal
+abstract: A radio environment map (REM) is an important basis for efficient spectrum management in wireless networks. Unmanned aerial vehicles (UAVs) can effectively detect the REM in unfamiliar environments. However, the sampling positions are difficult to determine due to the complex shadow loss (SL), which affects the accuracy of the REM reconstruction. To solve this problem, we propose the multiarea Gudmundson model (MAGM) to describe the SL distribution. The density-based spatial clustering of applications with noise (DBSCAN) is improved to divide the samples into areas. Specifically, the difference of SL is used as the distance metric in DBSCAN, and a threshold selection method is designed through the conversion of prior and posterior probabilities. Subsequently, the uncertainty of SL in the MAGM is derived based on Bayesian estimation. At last, a UAV sampling method based on average uncertainty is proposed. The experimental results show that compared to the ordinary Gudmundson model (GM), the MAGM can describe the distribution of SL in complex scenarios more accurately, and the calculated uncertainty can effectively reflect the drastic degree of SL changes. Using the proposed sampling method, UAVs can spontaneously explore areas with drastic SL changes. The REM reconstruction error is reduced at the same flight distance compared with baseline methods.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/JSEN.2025.3559083
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: unsupervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

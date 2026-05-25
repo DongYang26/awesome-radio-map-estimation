@@ -1,0 +1,27 @@
+id: '2601.10207'
+title: 'BeamCKMDiff: Beam-Aware Channel Knowledge Map Construction via Diffusion Transformer'
+authors:
+  - Le Zhao
+  - Yining Wang
+  - Xinyi Wang
+  - Zesong Fei
+  - Yong Zeng
+year: 2026
+abstract: Channel knowledge map (CKM) is emerging as a critical enabler for environment-aware 6G networks, offering a site-specific database to significantly reduce pilot overhead. However, existing CKM construction methods typically rely on sparse sampling measurements and are restricted to either omnidirectional maps or discrete codebooks, hindering the exploitation of beamforming gain. To address these limitations, we propose BeamCKMDiff, a generative framework for constructing high-fidelity CKMs conditioned on arbitrary continuous beamforming vectors without site-specific sampling. Specifically, we incorporate a novel adaptive layer normalization (adaLN) mechanism into the noise prediction network of the Diffusion Transformer (DiT). This mechanism injects continuous beam embeddings as {global control parameters}, effectively steering the generative process to capture the complex coupling between beam patterns and environmental geometries. Simulation results demonstrate that BeamCKMDiff significantly outperforms state-of-the-art baselines, achieving superior reconstruction accuracy in capturing main lobes and side lobes.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2601.10207
+subfield: CKM  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - Transformer  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 2
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

@@ -1,0 +1,28 @@
+id: '2511.02423'
+title: 'LLM4PG: Adapting Large Language Model for Pathloss Map Generation via Synesthesia of Machines'
+authors:
+  - Mingran Sun
+  - Lu Bai
+  - Xiang Cheng
+  - Jianjun Wu
+year: 2025
+venue: IEEE Transactions on Machine Learning in Communications and Networking
+abstract: In this paper, a novel large language model (LLM)-based pathloss map generation model, termed LLM4PG, is proposed for sixth-generation (6G) AI-native communication systems via Synesthesia of Machines (SoM). To explore the mapping mechanism between sensing images and pathloss maps, a new synthetic intelligent multi-modal sensing-communication dataset, SynthSoM-U2G, is constructed, covering multiple scenarios, frequency bands, and flight altitudes. By adapting the LLM for cross-modal pathloss map generation for the first time, LLM4PG establishes an effective cross-domain alignment between the multi-modal sensing-communication and natural language domains. A task-specific fine-tuning strategy with a tailored layer selection and activation scheme is designed to meet the demands of massive-scale, high-quality generation. Compared with conventional deep learning artificial intelligence generated content (AIGC) models, LLM4PG achieves more accurate pathloss map generation and stronger generalization across diverse conditions. Results show that LLM4PG attains an NMSE of 0.0454, outperforming the conventional AIGC model by over 2.90 dB, while its cross-condition generalization achieves an NMSE of 0.0492, exceeding the baseline by 4.52 dB.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2511.02423
+  doi: 10.1109/tmlcn.2026.3693982
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 3
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

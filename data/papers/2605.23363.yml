@@ -1,0 +1,30 @@
+id: '2605.23363'
+title: Field evolution of the magnetic structure and spin Hamiltonian in Cs$_2$RuO$_4$
+authors:
+  - S. D. Nabi
+  - E. Ressouche
+  - D. G. Mazzone
+  - J. Lass
+  - R. Sibille
+  - Z. Yan
+  - S. Gvasaliya
+  - A. Zheludev
+year: 2026
+abstract: We report neutron diffraction under applied magnetic fields and complementary zero-field neutron spectroscopy measurements on Cs$_2$RuO$_4$. Previous work [Phys. Rev. B. 112, 134436 (2025)] identified a spin-flop-like transition accompanied by a quantum critical point within the ordered phase, attributed to strong frustration between alternating single-ion anisotropy planes. Here, we quantitatively confirm the predicted field evolution of the magnetic structure using neutron diffraction. Furthermore, analysis of the excitation spectrum within an SU(3) spin-wave framework resolves previously undetermined parameters of the minimal spin Hamiltonian and lifts the associated degeneracies.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23363
+  pdf: https://arxiv.org/pdf/2605.23363
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

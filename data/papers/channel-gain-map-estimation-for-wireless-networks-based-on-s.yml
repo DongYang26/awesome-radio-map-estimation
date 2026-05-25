@@ -1,0 +1,27 @@
+id: channel-gain-map-estimation-for-wireless-networks-based-on-s
+title: Channel Gain Map Estimation for Wireless Networks Based on Scatterer Model
+authors:
+  - He Sun
+  - Lipeng Zhu
+  - Rui Zhang
+year: 2025
+venue: IEEE Transactions on Wireless Communications
+abstract: Channel gain map (CGM) contains crucial large-scale fading information regarding wireless channels at specific frequency bands in wireless networks. Traditional CGM construction methods require either detailed propagation environment information or numerous channel measurements, rendering them practically cumbersome to implement. To overcome such difficulties, we propose in this paper a novel scatterer-based CGM construction framework to characterize the large-scale channel fading in a spatial region by estimating the scatterer responses from a few channel gain measurements at designated locations in the region. In particular, the region is divided into equally-spaced grids so as to smooth out the small-scale fading by averaging the channel power gain within each grid. As the average channel power gain within each grid can be expressed as a function of large-scale multi-path channel parameters such as the scatterer response coefficients and path-loss coefficients, an iterative algorithm is proposed to estimate these parameters based on only a sufficient number of channel gain measurements taken at random locations around each scatterer. Specifically, the proposed algorithm decomposes the parameter estimation problem into a set of univariate or linear estimation subproblems, which can be efficiently solved by one-dimensional (1D) line search and least-squares methods. Based on the estimated channel parameters, the CGM over the whole region can be estimated by calculating the average channel power gain for each grid. Simulation results under both the two-dimensional (2D) multipath channel model and the practical three-dimensional (3D) ray-tracing channel model verify that the proposed scatterer-based channel gain characterization can accurately capture the large-scale channel gain spatial distribution within a region, and the proposed CGM estimation framework outperforms other channel-measurement-based benchmarks in terms of estimation accuracy, while requiring a significantly reduced number of measurements.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/TWC.2025.3557417
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 15
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

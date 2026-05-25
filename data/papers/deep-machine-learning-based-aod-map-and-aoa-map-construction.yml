@@ -1,0 +1,28 @@
+id: deep-machine-learning-based-aod-map-and-aoa-map-construction
+title: Deep Machine Learning-Based AoD Map and AoA Map Construction for Wireless Networks
+authors:
+  - Ronghong Mo
+  - Yiyang Pei
+  - Sumei Sun
+  - A. Premkumar
+  - N. Venkatarayalu
+year: 2024
+venue: IEEE Vehicular Technology Conference
+abstract: Channel knowledge map (CKM) has been envisioned as a promising technology to achieve environment-aware communications for future sixth-generation (6G) wireless networks. The angle of departure (AoD) and the angle of arrival (AoA) are crucial parameters of CKM widely used for location-specific applications. Conventional stochastic methods of char-acterization fail to correlate the AoD and AoA with location-specific transmission environments. In this paper, we propose to utilize the CKM technology to characterize the location-specific AoD and AoA, by constructing the AoD and AoA map based on sparse measurement data. We further leverage the data-driven deep machine learning (DML) technique to obtain the AoD and AoA for locations without measurements. Simulation results show that the proposed method can construct both the AoD and the AoA maps with high fidelity to the true map. Moreover, Method II which predicts AoDs and AoAs sequentially achieves better performance than the independent prediction in Method I.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/VTC2024-Spring62846.2024.10683141
+subfield: CKM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 6
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

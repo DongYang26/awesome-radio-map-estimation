@@ -1,0 +1,32 @@
+id: radio-environment-map-of-an-lte-deployment-based-on-machine-
+title: Radio Environment Map of an LTE Deployment Based on Machine Learning Estimation of Signal Levels
+authors:
+  - Yosvany Hervis Santana
+  - D. Plets
+  - Rodney Martinez Alonso
+  - Glauco A. Guillen Nieto
+  - L. Martens
+  - W. Joseph
+year: 2022
+venue: IEEE international Symposium on Broadband Multimedia Systems and Broadcasting
+abstract: Accurate estimation of Propagation Path Loss is important for reliable and optimized coverage of a service. In literature, a diversity of theoretically or experimentally based propagation models have been documented to estimate the received signal level. The goal of this work is to estimate the effective coverage area of service, predict the Path Loss, and build a Radio Environment Map (REM) using a sensor network. To this end, a sensor's correlation area is defined. By using Machine Learning (ML), the received signal level variation in this area can be estimated correctly 92.3% of the time, with a Mean Absolute Error (MAE) of 1.57 dB. Finally, a proper distribution of sensors based on the correlation area, and ML tools leads to building a REM for the effective coverage area. This approach is applied to a Long-Term Evolution network.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://biblio.ugent.be/publication/01GX36XYPXKB35WX7JAGRXKTSZ/file/01GX37CMWKASNB67NCVVDE2JP2.pdf
+  doi: 10.1109/bmsb55706.2022.9828582
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 3
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

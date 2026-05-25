@@ -1,0 +1,24 @@
+id: '2605.23814'
+title: 'Integral field spectroscopy with no IFUs: combining wide-field rotational slitless spectroscopy with tomographic reconstruction'
+authors:
+  - Jerry Jun-Yan Zhang
+  - Francesco Sinigaglia
+year: 2026
+abstract: 'Among spectroscopic techniques, Integral Field Spectroscopy (IFS) is regarded as one of the most versatile and powerful, but it is limited by small FoVs, complex designs, and high costs. We hereby present ROSSINI: the ROtational Slitless Spectrograph for INtegral field spectroscopy and Imager, a novel spectrograph design aimed at performing IFS without IFUs but in a slitless fashion instead. The device relies on generating a series of independent detector images of the same field by rotating the whole telescope and/or the dispersion direction of the optical element, and on a postprocessing tomographic reconstruction algorithm, yielding a full IFS datacube with arbitrary angular and spectral pixelization defined by the user.   We first develop the mathematical formulation of the problem and derive the solution as a linear matrix inversion. Then, we provide an interpretation of ROSSINI as a particular application of tomography and leverage this to propose a practical numerical solution based on iterative reconstruction. We test this novel conception through a series of numerical experiments: we first generate toy datacubes on the sky, then simulate the spectrograph and the corresponding detector images, and finally apply tomographic reconstruction, recovering the input datacube. The number of needed rotations can be easily computed from the relative pixelization of the datacube and the pixel number of the detector. From the numerical experiments, ROSSINI turns out to be able to reconstruct the benchmark datacubes with percent accuracy and in just a few hundred iterations, using negligible computational resources. ROSSINI is a promising way forward for future spectroscopic facilities, as it allows us to perform wide-field IFS in an efficient and cheap fashion by relying mostly on existing slitless spectrograph technologies.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23814
+  pdf: https://arxiv.org/pdf/2605.23814
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

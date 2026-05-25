@@ -1,0 +1,25 @@
+id: '2605.23581'
+title: 'Coupling optimization algorithms and monotone control systems: Suboptimal model predictive control as an operator splitting scheme'
+authors:
+  - Till Preuster
+  - Hannes Gernandt
+  - Manuel Schaller
+year: 2026
+abstract: We propose a framework for suboptimal model predictive control (MPC) based on the interconnection of monotone dynamical systems, such as port-Hamiltonian systems. In contrast to classical MPC formulations, where the optimizer is treated as an instantaneous mapping, we model both the plant and the optimizer as dynamical systems and couple them through a structured interconnection. This leads to a continuous-time closed-loop formulation governed by (quasi-)monotone operators. Within this setting, we establish well-posedness of the coupled optimizer-plant dynamics and provide a unified interpretation of suboptimal MPC schemes. In particular, we reveal a direct connection between iterative optimization algorithms and dynamical control systems theory by showing that standard suboptimal MPC algorithms can be understood as time discretizations of the underlying continuous-time dynamics via operator splitting methods.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23581
+  pdf: https://arxiv.org/pdf/2605.23581
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

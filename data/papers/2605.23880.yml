@@ -1,0 +1,24 @@
+id: '2605.23880'
+title: Not all black holes decohere quantum superpositions
+authors:
+  - Anna Biggs
+  - Stefano Trezzi
+year: 2026
+abstract: We study the decoherence induced by near-extremal charged black holes on quantum systems in their exterior. Specifically, we analyze a thought experiment recently discussed in the literature, where the quantum system is a charged particle prepared in a spatial superposition. Near-extremal black holes are known to exhibit large quantum metric fluctuations of the near-horizon geometry at low temperatures. We show that, at late times, if the black hole is sufficiently close to extremality, these quantum gravity effects make the decoherence rate vanish. This phenomenon is due to a spin-induced energy gap in the quantum black hole spectrum. For energies above the gap, the decoherence rate becomes nonzero, but is still suppressed relative to semiclassical expectations, so these quantum gravity effects always enhance the coherence of the superposition.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23880
+  pdf: https://arxiv.org/pdf/2605.23880
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

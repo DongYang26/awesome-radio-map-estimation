@@ -1,0 +1,26 @@
+id: a-machine-learning-approach-for-the-prediction-of-indoor-pro
+title: A Machine Learning Approach for the Prediction of Indoor Propagation Path-Loss in the Tera-Hertz Bands
+authors:
+  - Nagma Elburki
+  - Affes Sofiéne
+year: 2024
+venue: IEEE Access
+abstract: 'In this paper, we explore the use of machine learning (ML) models for predicting path loss in THz frequency bands for indoor environments. Traditional empirical and deterministic models often fall short in prediction accuracy. To overcome these limitations, we investigate four ML models: Gradient Boosting (GB), Random Forest (RF), Multivariate Polynomial (MP), and Deep Learning (ANN). Our simulation results indicate that the RF and ANN models outperform GB and MP models, reducing the Normalized Root Mean Square Error (NRMSE) by up to 25%, as discussed in detail in the results section. Furthermore, we introduce a hybrid learning approach, described as meta-learners, which combines elements of different ML models based on specific tasks. This hybrid model achieves an additional 10% improvement in NRMSE over the best-performing individual models. The algorithm used to calculate these values is provided, demonstrating the potential of meta-learners as effective predictors for enhancing path loss prediction in indoor THz communication scenarios.'
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://doi.org/10.1109/access.2024.3472549
+  doi: 10.1109/ACCESS.2024.3472549
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: indoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 3
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

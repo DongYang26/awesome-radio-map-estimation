@@ -1,0 +1,29 @@
+id: dynamic-radio-map-using-statistical-hypothesis-testing
+title: Dynamic Radio Map Using Statistical Hypothesis Testing
+authors:
+  - Keita Katagiri
+  - Koya Sato
+  - Kei Inage
+  - T. Fujii
+year: 2021
+venue: IEEE Transactions on Cognitive Communications and Networking
+abstract: Private fifth-generation mobile communication networks (5G) have garnered considerable attention for providing various communication services. In private 5G systems, such as those employed in smart factories, it is necessary to appropriately manage the interference power among diverse systems because each nonpublic operator deploys a gNodeB in the local area and utilizes a similar allocated frequency. Several researchers have discussed the use of a radio map, which stores the spatial distribution of received signal power values as a tool for managing intra-system interference. Radio maps are typically applied to television white space, where the location of the base station (BS) is fixed and the average value of the received signal power exhibits time-invariant characteristics. However, in private 5G networks, the estimation accuracy using a conventional radio map is lowered because the location of the BS may be changed when the factory is rearranged. In this study, a database server is used to infer a significant difference in the average values of the received signal power by means of Welch’s ${t}$ -test; the server then updates the radio map based on the test results. The simulation results indicate that the proposed method can detect changes in the BS location and update the radio map accurately.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://ieeexplore.ieee.org/ielx7/6687307/9530839/09310285.pdf
+  doi: 10.1109/tccn.2020.3047867
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 10
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

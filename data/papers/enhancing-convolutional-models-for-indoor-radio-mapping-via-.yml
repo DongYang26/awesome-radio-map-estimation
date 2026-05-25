@@ -1,0 +1,27 @@
+id: enhancing-convolutional-models-for-indoor-radio-mapping-via-
+title: Enhancing Convolutional Models for Indoor Radio Mapping via Ray Marching
+authors:
+  - Mengfan Wu
+  - Marco Skocaj
+  - M. Boban
+year: 2025
+venue: IEEE International Conference on Acoustics, Speech, and Signal Processing
+abstract: In this paper, we present an enhanced convolutional model for indoor radio map generation, focusing on the integration of a novel ray-marching feature. We describe our machine learning pipeline developed for the ICASSP 2025 Signal Processing Grand Challenge, specifically the First Indoor Pathloss Radio Map Prediction Challenge. Our method incorporates a ray-marching feature that, combined with a UNet architecture enhanced by dilated convolution layers, significantly improves indoor pathloss prediction accuracy. Our approach achieved a 3rd-place ranking in the challenge with a weighted RMSE of 10.33 on the test dataset.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/ICASSP49660.2025.10888520
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: indoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 6
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

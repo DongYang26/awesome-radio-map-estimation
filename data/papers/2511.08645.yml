@@ -1,0 +1,29 @@
+id: '2511.08645'
+title: 'Fluence Map Prediction with Deep Learning: A Transformer-based Approach'
+authors:
+  - Ujunwa Mgboh
+  - R. Sultan
+  - Dongxiao Zhu
+  - Joshua Kim
+year: 2025
+venue: arXiv.org
+abstract: Accurate fluence map prediction is essential in intensity-modulated radiation therapy (IMRT) to maximize tumor coverage while minimizing dose to healthy tissues. Conventional optimization is time-consuming and dependent on planner expertise. This study presents a deep learning framework that accelerates fluence map generation while maintaining clinical quality. An end-to-end 3D Swin-UNETR network was trained to predict nine-beam fluence maps directly from volumetric CT images and anatomical contours using 99 prostate IMRT cases (79 for training and 20 for testing). The transformer-based model employs hierarchical self-attention to capture both local anatomical structures and long-range spatial dependencies. Predicted fluence maps were imported into the Eclipse Treatment Planning System for dose recalculation, and model performance was evaluated using beam-wise fluence correlation, spatial gamma analysis, and dose-volume histogram (DVH) metrics. The proposed model achieved an average R^2 of 0.95 +/- 0.02, MAE of 0.035 +/- 0.008, and gamma passing rate of 85 +/- 10 percent (3 percent / 3 mm) on the test set, with no significant differences observed in DVH parameters between predicted and clinical plans. The Swin-UNETR framework enables fully automated, inverse-free fluence map prediction directly from anatomical inputs, enhancing spatial coherence, accuracy, and efficiency while offering a scalable and consistent solution for automated IMRT plan generation.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2511.08645
+  doi: 10.48550/arXiv.2511.08645
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - Transformer  # TODO: maintainer verify
+  - CNN  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 2
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

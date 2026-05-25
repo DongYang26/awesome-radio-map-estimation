@@ -1,0 +1,27 @@
+id: observation-data-and-3d-map-based-radio-environment-estimati
+title: Observation Data and 3D Map-based Radio Environment Estimation for Drone Wireless Communications
+authors:
+  - S. Yamada
+  - T. Fujii
+  - Katsuya Suto
+  - Koya Sato
+year: 2023
+venue: International Conference on Ubiquitous and Future Networks
+abstract: Toward next-generation mobile communication systems such as beyond 5G and 6G, non-terrestrial networks (NTNs) have attracted much attention as they extend the coverage of wireless communication services. In NTNs, drones have multiple roles, such as delivery service and transportation, while providing communication services. Therefore, radio environment estimation in three-dimensional (3D) space is crucial for stable drone operations. However, the impact of the surrounding structures and terrain on the radio environment is not well investigated. In this paper, we propose a method to estimate the received power in the direction of altitude by fusing observed signal data and a 3D map that records the geometry of terrain and structures. The proposed method divides the estimation area into a line-of-sight (LOS) altitude and a non-line-of-sight (NLOS) altitude, the estimation values for each range, and then integrates them to obtain the overall estimation values. Through the simulation using the actual measurement dataset, it is demonstrated that the proposed method outperforms the conventional empirical propagation model, i.e., Hata model.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/ICUFN57995.2023.10199770
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 8
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

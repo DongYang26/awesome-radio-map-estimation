@@ -1,0 +1,25 @@
+id: '2605.23781'
+title: Multi-field Return Point Memory
+authors:
+  - Nathaniel Croce
+  - Hossein Salahshoor
+  - D. Zeb Rocklin
+year: 2026
+abstract: Non-equilibrium systems display memory, a dependence not merely on their present environment but on previously applied fields. Multistable systems such as spin glasses, martensites and granular matter have exponentially many microstates consistent with an applied field, making their rich dynamics difficult to control. Control and order can be achieved through the concept of partial ordering, which we here generalize to systems subject to multiple control fields. We demonstrate, within the model system of the zero-temperature Ising model, that this leads to return-point memory, in which an applied sequence of fields restores the hysteretic system not only to a previous magnetization, but to a previous exact microstate. The multiplicity of fields grants more precise and complex control of the system, with different classes of operations displaying commutative and noncommutative behavior. This grants new insight into how physical systems can remember, learn, and be trained.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23781
+  pdf: https://arxiv.org/pdf/2605.23781
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

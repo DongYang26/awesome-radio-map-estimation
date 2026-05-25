@@ -1,0 +1,39 @@
+id: '2605.23739'
+title: A Wavelet-Integrated Search Pipeline for Narrowband Technosignatures in FAST Observations of 33 Exoplanet Systems
+authors:
+  - Zi-Qi Li
+  - Jian-Kang Li
+  - Zhe-Wei Luo
+  - Chen-Xu Guan
+  - Yu-Tong Fan
+  - Zhen-Zhao Tao
+  - Xiao-Hang Luan
+  - Bo-Lun Huang
+  - Yu Hu
+  - Peng-Yu Li
+  - Pu-Fan Liu
+  - Kang Jiao
+  - Tong-Jie Zhang
+  - Hai-Yan Zhang
+  - Peng Jiang
+  - Rui Li
+  - Liang Gao
+year: 2026
+abstract: Building on prior FAST targeted and blind SETI campaigns toward 33 exoplanet systems, we introduce a wavelet-integrated search pipeline for narrowband technosignature candidates in radio dynamic spectra. At its core, the pipeline uses a Multi-Scale Wavelet Net (MSWNet) to produce an interpretable multi-resolution representation, followed by a lightweight parameter estimator for endpoint localization. Rather than relying solely on hard-threshold drift searches, the pipeline reframes narrowband detection as wavelet-guided feature extraction followed by endpoint regression, morphology-aware filtering, raw-data S/N validation, and multi-beam anticoincidence veto. Applied to real FAST data, the pipeline recovers representative events from prior analyses and produces a compact set of veto-ready candidates for downstream inspection. The resulting workflow preserves interpretability, low regression complexity, and auditable threshold control, making it readily transferable to other radio surveys and large-scale technosignature searches.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23739
+  pdf: https://arxiv.org/pdf/2605.23739
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

@@ -1,0 +1,33 @@
+id: '2605.23750'
+title: Probing the environments of FRI and FRII radio galaxies in LoTSS DR2 with galaxy clusters
+authors:
+  - Tong Pan
+  - Yuming Fu
+  - H. J. A. Rottgering
+  - J. M. G. H. J. de Jong
+  - M. J. Hardcastle
+  - B. Mingo
+  - L. Clews
+  - M. Magliocchetti
+  - J. W. Petley
+  - Bohan Yue
+year: 2026
+abstract: 'The origin of the Fanaroff--Riley Class I/II (FRI/FRII) morphological dichotomy remains uncertain. We investigate whether cluster-scale environment contributes to this distinction using a morphologically classified LoTSS DR2 catalogue at \(z<0.4\). We construct a volume-limited sample with \(L_{144}>4\times10^{24}\,\mathrm{W\,Hz^{-1}}\) and a luminosity--redshift paired sample, and cross-match them with DESI Legacy Imaging Survey galaxy clusters. A radio galaxy is associated with a cluster if \(|Δz|<0.01\), projected separation \(<2R_{500}\). In the volume-limited sample, \(48.6\%\) of FRIs and \(30.6\%\) of FRIIs are cluster-associated; in the paired sample, the corresponding fractions are \(45.6\%\) and \(32.6\%\). The difference is stronger at \(L_{144}>10^{26}\,\mathrm{W\,Hz^{-1}}\), where the fractions are \(55.6\%\) versus \(19.0\%\) in the volume-limited sample and \(50.0\%\) versus \(6.7\%\) in the paired sample. However, cluster-associated FRIs and FRIIs occupy similar environments: their radio luminosities and stellar masses show similar trends with cluster richness and \(M_{500}\), and their radial distributions both peak near \(0.5R_{500}\) and decline beyond \(R_{500}\). Most cluster-associated sources are brightest cluster galaxies (BCGs), with fractions of \(74.8\%\) for FRIs and \(61.9\%\) for FRIIs in the volume-limited sample, and \(78.1\%\) and \(65.9\%\) in the paired sample. These results show that FRIIs are less frequently found in clusters, especially at high radio luminosity, consistent with dense intracluster gas disrupting or decelerating jets and suppressing stable FRII structures. Nevertheless, once inside clusters, FRIs and FRIIs inhabit similar large-scale environments, implying that cluster-scale properties alone are unlikely to be the primary driver of the FRI/FRII dichotomy.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23750
+  pdf: https://arxiv.org/pdf/2605.23750
+  doi: https://doi.org/10.1051/0004-6361/202557097
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

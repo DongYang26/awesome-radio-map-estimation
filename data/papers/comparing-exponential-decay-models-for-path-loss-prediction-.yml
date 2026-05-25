@@ -1,0 +1,27 @@
+id: comparing-exponential-decay-models-for-path-loss-prediction-
+title: Comparing Exponential Decay Models for Path Loss Prediction at 5.8 GHz Using Machine Learning Techniques
+authors:
+  - Leoni Marti Miranda Saravia
+  - Alejandro Rommel Miranda Saravia
+  - Marcelo Molina Silva
+  - L. Gonsioroski
+year: 2024
+venue: 2024 IEEE 1st Latin American Conference on Antennas and Propagation (LACAP)
+abstract: Accurate path loss estimation is crucial for optimizing wireless networks, particularly in urban environments where signal propagation is complicated by factors such as buildings and vegetation. This study evaluates the performance of traditional path loss models against an AI-based approach utilizing the ADAM optimization algorithm. Data collected at 5.8 GHz from the Pontificia Universidade Catolica do Rio de Janeiro (PUCRio) campus, characterized by significant vegetation and six-story buildings. These findings underscore the potential of integrating advanced techniques into the design and optimization of wireless networks to enhance accuracy and communication performance.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/LACAP63752.2024.10876251
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

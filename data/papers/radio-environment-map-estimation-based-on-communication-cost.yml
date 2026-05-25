@@ -1,0 +1,32 @@
+id: radio-environment-map-estimation-based-on-communication-cost
+title: Radio Environment Map Estimation Based on Communication Cost Modeling for Heterogeneous Networks
+authors:
+  - Fabiola Frantzis
+  - Vinay-Prasad Chowdappa
+  - C. Botella
+  - J. J. samper
+  - rafael. martinez
+  - J. J. samper
+  - rafael. martinez
+year: 2017
+venue: IEEE Vehicular Technology Conference
+abstract: Radio environment maps can be a powerful tool for achieving efficient context-aware resource allocation in 5G heterogeneous networks. In this paper, we consider an heterogeneous network formed by a traditional cellular network and a wireless sensor network. The role of the wireless sensor network is to estimate the radio environment map of the cell using a geostatistical interpolation technique named Kriging. A distributed clustering algorithm was proposed in a previous work in order to decrease the complexity of the estimation. In our contribution, the clustering formation process is modified to include the communication cost as a metric to determine which nodes are included in each cluster. Simulation results show that the proposed algorithm improves the estimation quality for sparse wireless sensor networks, and preserves the network lifetime by forming clusters with an average of 5 nodes.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://roderic.uv.es/bitstreams/532899d7-3982-4eaf-a170-5f6bf3f5076d/download
+  doi: 10.1109/VTCSPRING.2017.8108227
+subfield: REM  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - Gaussian-process  # TODO: maintainer verify
+  - Kriging  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: unsupervised  # TODO: maintainer verify
+citations: 5
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

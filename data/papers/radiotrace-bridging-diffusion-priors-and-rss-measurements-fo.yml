@@ -1,0 +1,28 @@
+id: radiotrace-bridging-diffusion-priors-and-rss-measurements-fo
+title: 'Radiotrace: Bridging Diffusion Priors and RSS Measurements for Accurate Radio Map Estimation'
+authors:
+  - Liu Yang
+  - Qiang Li
+  - Zhuo Cao
+  - Jingran Lin
+year: 2025
+venue: International Workshop on Machine Learning for Signal Processing
+abstract: Radio map (RM) estimation reconstructs the spatial distribution of received signal strength (RSS) from sparse measurements-a task vital for wireless network management and localization. Existing methods often require retraining for specific sampling patterns, limiting generalization, or fail to leverage domain-specific priors, leading to poor reconstruction. In this paper, we introduce RadioTrace, a novel training-free RM estimation framework that leverages an off-the-shelf pre-trained diffusion model to iteratively reconstruct RMs from limited RSS data. Unlike existing training-free RM estimation methods that use generative models merely as regularizers, RadioTrace achieves a deeper integration between the diffusion prior and the measurements. It embeds transmitter location estimation directly into the denoising process, iteratively refining these locations based on reconstruction quality at each step. By strategically incorporating measurement information into this denoising process, RadioTrace effectively guides the diffusion model to generate RMs that more accurately reflect the observed data. Experiments show that RadioTrace matches the performance of learning-based methods under random sampling and significantly outperforms them under restricted-area sampling, demonstrating strong adaptability and generalization.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/MLSP62443.2025.11204335
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - Diffusion  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

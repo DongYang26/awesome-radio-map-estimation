@@ -1,0 +1,27 @@
+id: path-loss-analysis-and-rsrp-prediction-using-machine-learnin
+title: Path Loss Analysis and RSRP Prediction using Machine Learning Models
+authors:
+  - K. Srinivas
+  - K. Jyostna
+  - Ch. Pranaya Kumar
+  - B. Kumar
+  - Chaitanya Reddy Varala
+year: 2025
+venue: 2025 IEEE International Conference on Emerging Trends in Computing and Communication (ETCOM)
+abstract: Path loss and Reference Signal Received Power (RSRP) are essential factors in the design, optimization, and analysis of wireless communication networks. Path loss indicates the reduction in power of a radio signal as it travels through distance, frequency, and various environmental conditions, whereas RSRP quantifies the average power of reference signals received from a base station. Precise forecasting of RSRP is crucial for effective coverage planning and improves the user experience in LTE and 5G networks. This paper offers a comparative analysis of RSRP forecasting using Linear Regression (LR), Artificial Neural Networks (ANN), and Gaussian Process Regression (GPR) models, focusing on key influencing factors like distance, frequency, and transmission power. Mathematical models for path loss are developed, and data-driven methods are applied to capture both linear and nonlinear relationships. Experimental findings indicate that although Linear Regression is straightforward, ANN and GPR models deliver superior prediction accuracy, especially in complex environments. The research underscores the significance of integrating machine learning approaches for dependable path loss and RSRP estimations in contemporary wireless systems.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/ETCOM66606.2025.11436508
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - Gaussian-process  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

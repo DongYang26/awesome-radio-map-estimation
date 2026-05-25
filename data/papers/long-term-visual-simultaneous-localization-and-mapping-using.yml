@@ -1,0 +1,27 @@
+id: long-term-visual-simultaneous-localization-and-mapping-using
+title: 'Long-Term Visual Simultaneous Localization and Mapping: Using a Bayesian Persistence Filter-Based Global Map Prediction'
+authors:
+  - Tianchen Deng
+  - Hongle Xie
+  - Jingchuan Wang
+  - Weidong Chen
+year: 2023
+venue: IEEE robotics & automation magazine
+abstract: 'With the rapidly growing demand for accurate localization in real-world environments, visual simultaneous localization and mapping (SLAM) has received significant attention in recent years. However, those existing methods still suffer from the degradation of localization accuracy in long-term changing environments. To address these problems, we propose a novel long-term SLAM system with map prediction and dynamics removal. First, a visual point-cloud matching algorithm is designed to efficiently fuse 2D pixel information and 3D voxel information. Second, each map point is classified into three types: static, semistatic, and dynamic based on the Bayesian persistence filter (BPF). Then we remove the dynamic map points to eliminate the influence of those map points. We can obtain a global predicted map by modeling the time series of semistatic map points. Finally, we incorporate the predicted global map into a state-of-the-art SLAM method, achieving an efficient visual SLAM system for long-term, dynamic environments. Extensive experiments are carried out on a wheelchair robot in an indoor environment over several months. The results demonstrate that our method has better map prediction accuracy and achieves more robust localization performance.'
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/MRA.2022.3228492
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: indoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 62
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

@@ -1,0 +1,24 @@
+id: '2605.23789'
+title: 'Orientable Surfactants on Thin Liquid Films: A Dynamic Density-Functional Theory Approach'
+authors:
+  - Toby Kay
+  - Serafim Kalliadasis
+year: 2026
+abstract: Thin liquid films are ubiquitous across many natural and engineering systems, including films which are laden with surface active molecules, i.e. surfactants. The presence of surfactants may have a destabilising effect on the film owing to their influence on surface tension, the so-called Marangoni effect, which in turn can induce flows in the film. Classical thin-film models for surfactant-laden films lead to paradigmatic gradient dynamics equations governing the film height and surfactant concentration and have been widely studied. However, in all these works, which are based on fluid dynamics or nonequilibrium thermodynamics, the shape of surfactants is neglected, and they have been treated as symmetric point-like particles. In general, this is a drastic oversimplification, as surfactants are amphiphilic with a polar head-tail structure. To account for this effect we use elements from the statistical mechanics of classical fluids, namely density-functional theory (DFT), and its dynamic extension (DDFT). Starting from DDFT and under the long-wave approximation, we derive the pertinent thin-film equations with the surfactants treated as polar uniaxial particles. These are equations which govern the film height, as well as the surfactant concentration and polarisation field. They preserve the gradient dynamics form by appropriately defining the free energy, which contains the usual interfacial contributions, as well as further contributions from the polarisation field. In doing so, we uncover a novel form of a generalised surface tension that is dependent on the surfactant polarisation as well as concentration, and show that it arises in a thermodynamically consistent way.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23789
+  pdf: https://arxiv.org/pdf/2605.23789
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

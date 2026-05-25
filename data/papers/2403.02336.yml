@@ -1,0 +1,31 @@
+id: '2403.02336'
+title: 'Brand visibility in packaging: a deep learning approach for logo detection, saliency-map prediction, and logo placement analysis'
+authors:
+  - Alireza Hosseini
+  - Kiana Hooshanfar
+  - Pouria Omrani
+  - Reza Toosi
+  - R. Toosi
+  - Zahra Ebrahimian
+  - M. Akhaee
+year: 2024
+venue: Discover Applied Sciences
+abstract: The visibility of brand logos on packaging plays a crucial role in shaping consumer perception, directly influencing the product’s success. Analyzing eye-tracking data across large groups of individuals is both costly and time-intensive. Therefore, there is a growing need to develop models that capture human visual attention behavior effectively. This paper introduces a framework that models attention in the human visual system to brand logos on packaging designs, to measure brand logo visibility and its impact on consumer perception. The proposed method consists of three main steps. The first step leverages YOLOv8 for logo detection across well-known datasets. The second step involves introducing a novel saliency prediction model tailored for the packaging context to model human visual attention. In the third step, by integrating logo detection with a saliency map generation, the framework provides a brand attention score. The effectiveness of the proposed method is assessed module by module, ensuring a thorough evaluation of each component. Comparing logo detection and saliency map prediction with SOTA models shows the superiority of the proposed methods. To investigate the robustness of the proposed brand attention score, we collected a dataset to examine previous psychophysical hypotheses related to brand visibility. The results show that the brand attention score is in line with all previous studies. Also, we introduced seven new hypotheses to check the impact of position, orientation, and other visual elements on brand attention. This research marks a stride in the intersection of cognitive psychology, computer vision, and marketing. Provides a framework to assess logo prominence on packaging and its impact on viewer focus. Introduces a new model to predict where people look in commercials and packaging images. Explores 12 consumer insights, including effects of logo position and orientation on visibility. Provides a framework to assess logo prominence on packaging and its impact on viewer focus. Introduces a new model to predict where people look in commercials and packaging images. Explores 12 consumer insights, including effects of logo position and orientation on visibility.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2403.02336
+  doi: 10.1007/s42452-025-07043-9
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 17
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

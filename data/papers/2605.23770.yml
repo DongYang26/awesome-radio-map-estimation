@@ -1,0 +1,25 @@
+id: '2605.23770'
+title: Reachability for Low-Thrust Trajectories via Maximum Initial Mass
+authors:
+  - Giacomo Acciarini
+  - Dario Izzo
+  - Zhong Zhang
+year: 2026
+abstract: Reachability analysis plays a central role in low-thrust spacecraft trajectory optimization by identifying which target states can be achieved under constraints on time, thrust, and propellant. Classical approaches construct reachable sets by solving many optimal control problems over grids of terminal states, requiring extensive forward simulations with fixed initial conditions. While effective, this approach is computationally expensive and becomes impractical for high-dimensional systems or strongly nonlinear dynamics, such as those encountered in cislunar environments or solar sail missions.   This work introduces a dual formulation of the reachability problem. Instead of computing reachable sets directly, we determine, for fixed transfer time and boundary conditions, the maximum allowable initial mass (or, for solar sails, a scalar sail-strength parameter) that permits a successful transfer. A target is reachable if the spacecraft's initial mass does not exceed this threshold. This reformulation reduces reachability assessment to a scalar optimization problem for each target, producing a smooth scalar field that encodes equivalent feasibility information to classical reachable sets.   We develop indirect maximum-initial-mass (MIM) formulations for both electric low-thrust and solar-sail dynamics and show how they can serve as efficient reachability oracles. Building on this formulation, we construct data-driven surrogate models to approximate the MIM-based reachability indicator. We investigate fully connected neural networks and demonstrate that residual networks provide the best trade-off between accuracy, training stability, and model complexity. The resulting surrogates enable rapid reachability evaluation while preserving the numerical advantages of the dual formulation, offering a practical tool for preliminary mission design and feasibility assessment.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23770
+  pdf: https://arxiv.org/pdf/2605.23770
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

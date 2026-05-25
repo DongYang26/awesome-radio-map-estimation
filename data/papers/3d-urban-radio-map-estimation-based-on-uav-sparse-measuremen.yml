@@ -1,0 +1,28 @@
+id: 3d-urban-radio-map-estimation-based-on-uav-sparse-measuremen
+title: 3D Urban Radio Map Estimation Based on UAV Sparse Measurement Data
+authors:
+  - Wenqiang Chen
+  - Xinwei Chen
+  - Xiaofeng Zhong
+  - Shidong Zhou
+year: 2025
+venue: 2025 11th International Conference on Computer and Communications (ICCC)
+abstract: The rapid evolution of 6 G communication technology necessitates reliable connectivity for unmanned aerial vehicle (UAV) communications in urban environments, making accurate three-dimensional (3D) radio environment estimation a critical research challenge. Urban landscape complexity induces substantial radio signal strength variability, complicating precise estimation. This study conducted field measurements on a university campus in Nanchang using a UAV equipped with radio signal sensors. We reconstruct the spatial radio environment by integrating sparse measurement data with physical propagation models. Traditional path loss models often underperform due to terrain and obstacles, while machine learning (ML) approaches demand extensive datasets and computational resources. We propose a non-ML estimation framework incorporating terrain features and in-situ measurements to correct diffraction losses. By integrating propagation loss modeling with distance-weighted interpolation, our method enhances prediction accuracy in complex urban settings. Experimental results demonstrate that the proposed approach achieves promising performance with sparse data, reducing the root mean square error (RMSE) by $0.5-3 ~\text{dB}$ compared to standard interpolation techniques at low sampling rates.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/ICCC68654.2025.11437905
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

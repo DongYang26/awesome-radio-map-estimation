@@ -1,0 +1,28 @@
+id: marine-radio-path-loss-prediction-under-different-wind-speed
+title: Marine Radio Path Loss Prediction under Different Wind Speeds Based on Machine Learning
+authors:
+  - Tao Jin
+  - Shuo Feng
+  - Hongjuan Zhou
+  - Chenxu Wang
+  - Zhiquan Zhou
+year: 2024
+venue: IEEE Asia-Pacific Conference on Antennas and Propagation
+abstract: With the further development of marine resources, more and more attention has been paid to the research of marine communication systems, accurate and timely prediction of radio wave propagation loss under different wind speeds is of great significance to the practical application of marine wireless communication equipment. This paper is based on the parabolic equation method and machine learning algorithms to predict the radio wave propagation loss under different sea conditions, in order to achieve the performance prediction of maritime communication systems. Through comparative analysis, this paper finds that the prediction performance index of back propagation (BP) neural network method is better than that of random forest (RF) model and long short-term memory (LSTM) model under different wind speeds. However, with the increase of wind speed, the prediction performance decreases, and further model optimization is needed or explore other methods.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/APCAP62011.2024.10882102
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - RNN  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

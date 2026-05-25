@@ -1,0 +1,27 @@
+id: an-accurate-radio-environment-map-reconstruction-method
+title: An Accurate Radio Environment Map Reconstruction Method
+authors:
+  - Yazhou Sun
+  - Longhui Wang
+  - Jian Wang
+year: 2025
+venue: IEEE Sensors Journal
+abstract: Radio environment map (REM) provides valuable information about radio characteristics in a geographical area and is widely used in spectrum sensing and communications. REM reconstruction can be modeled as a sparse recovery problem, exploiting spatial sparsity to estimate the parameters of transmitters. However, most existing sparse recovery methods assume that all transmitters are precisely located on predefined discrete grids. Due to the off-grid effect, these methods suffer from estimation bias, which limits the accuracy of REM reconstruction. To mitigate the off-grid effect, an accurate REM (AREM) reconstruction method is proposed. The proposed method is based on the idea of alternating iterative updates. In an iteration, a rough estimation is first obtained based on the correlation with the residual signal and added to the feasible solution set. Then, alternating updates are performed to improve the rough estimation in continuous space through local refinement. Next, pruning is applied to maintain the sparsity of feasible solution set. Finally, the residual signal is updated based on the feasible solution set. The simulation and experimental results demonstrate that the proposed method mitigates the off-grid effect more effectively, achieves higher reconstruction accuracy, and exhibits greater robustness to noise interference than existing methods.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/JSEN.2025.3562214
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - spectrum-occupancy  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

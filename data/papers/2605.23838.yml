@@ -1,0 +1,33 @@
+id: '2605.23838'
+title: Quantum critical collapse of a pinned vortex glass
+authors:
+  - David Perconte
+  - Thibault Charpentier
+  - Nikolaos Koutsopoulos
+  - Kalpajit Roy
+  - Nadjib Benchabane
+  - Xiaoli Peng
+  - Florent Blondelle
+  - Frédéric Gay
+  - Mikhail Feigel'man
+  - Viktor Kabanov
+  - Benjamin Sacépé
+year: 2026
+abstract: The interplay between disorder and vortex--vortex interactions in strongly disordered superconductors in a magnetic field can stabilize a vortex-glass state, characterized by strong pinning and the absence of positional order. Yet its role in the destruction of superconductivity at the field-driven superconductor--insulator transition has remained unresolved. Here we use plasmonic microwave spectroscopy of superconducting resonators patterned from amorphous indium oxide thin films to directly track the superfluid density up to the critical field $B_c$. We find an unexpected resilience of the superfluid density, which decreases only logarithmically over nearly three orders of magnitude in field, in stark contrast to the rapid power-law suppression expected for vortex lattices. We attribute this anomalously slow decay to a collective vortex-pinning mechanism counterintuitively enhanced by vortex--vortex interactions. The superfluid density then vanishes linearly at $B_c$, where independent magnetoresistance measurements identify a continuous quantum critical point, unlike the abrupt transition observed at zero field. We further uncover an exceptionally large nonlinear electromagnetic response of the vortex glass, manifested as a pronounced positive-Kerr effect with potential for quantum sensing. These results show how disorder controls the critical magnetic field and identify the vortex glass as the key intermediate state governing the magnetic-field-induced superconductor--insulator transition.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23838
+  pdf: https://arxiv.org/pdf/2605.23838
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

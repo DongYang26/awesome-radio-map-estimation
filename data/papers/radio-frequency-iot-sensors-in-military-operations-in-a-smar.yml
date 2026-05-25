@@ -1,0 +1,28 @@
+id: radio-frequency-iot-sensors-in-military-operations-in-a-smar
+title: Radio Frequency IoT Sensors in Military Operations in a Smart City
+authors:
+  - Aaron E. Cohen
+  - Gina Jiang
+  - D. Heide
+  - V. Pellegrini
+  - Niranjan Suri
+year: 2018
+venue: IEEE Military Communications Conference
+abstract: This paper presents the radio frequency sensor from commercial-off-the-shelf (COTS) technology and addresses various scenarios by which radio frequency sensors can be used in a smart city to monitor, identify, and track users in a smart city. The radio frequency sensor was developed using GNURadio environment with an embedded python block to generate jpeg images. A separate python HTTP server was used to allow an ATAK application to view the spectrum for a specific radio frequency sensor. Individual sensors reported their GPS coordinates using MQTT to the ATAK application and can be viewed on the map in ATAK on the Android tablet. This paper presents work performed by the NATO IST- 147 “Military Applications of Internet of Things” group to explore the potential to exploit civilian Internet of Things (IoT) software defined radio infrastructure as radio frequency sensors for military operations. Several scenarios are considered ranging from spectrum analysis, direction finding, and information fusion/tracking.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/MILCOM.2018.8599695
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 9
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

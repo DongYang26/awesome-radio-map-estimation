@@ -1,0 +1,32 @@
+id: ucdnet-double-u-shaped-segmentation-network-cascade-centroid
+title: 'UCDnet: Double U-Shaped Segmentation Network Cascade Centroid Map Prediction for Infrared Weak Small Target Detection'
+authors:
+  - Xiangdong Xu
+  - Jiarong Wang
+  - Ming Zhu
+  - Haijiang Sun
+  - Zhenyuan Wu
+  - Yao Wang
+  - Shenyi Cao
+  - Sanzai Liu
+year: 2023
+venue: Remote Sensing
+abstract: In recent years, the development of deep learning has brought great convenience to the work of target detection, semantic segmentation, and object recognition. In the field of infrared weak small target detection (e.g., surveillance and reconnaissance), it is not only necessary to accurately detect targets but also to perform precise segmentation and sub-pixel-level centroid localization for infrared small targets with low signal-to-noise ratio and weak texture information. To address these issues, we propose UCDnet (Double U-shaped Segmentation Network Cascade Centroid Map Prediction for Infrared Weak Small Target Detection) in this paper, which completes “end-to-end” training and prediction by cascading the centroid localization subnet with the semantic segmentation subnet. We propose the novel double U-shaped feature extraction network for point target fine segmentation. We propose the concept and method of centroid map prediction for point target localization and design the corresponding Com loss function, together with a new centroid localization evaluation metrics. The experiments show that ours achieves target detection, semantic segmentation, and sub-pixel-level centroid localization. When the target signal-to-noise ratio is greater than 0.4, the IoU of our semantic segmentation results can reach 0.9186, and the average centroid localization precision can reach 0.3371 pixels. On our simulated dataset of infrared weak small targets, the algorithm we proposed performs better than existing state-of-the-art networks in terms of semantic segmentation and centroid localization.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://www.mdpi.com/2072-4292/15/15/3736/pdf?version=1690441779
+  doi: 10.3390/rs15153736
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 11
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

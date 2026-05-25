@@ -1,0 +1,29 @@
+id: u-net-based-indoor-radio-map-prediction-under-sparse-samplin
+title: U-Net Based Indoor Radio Map Prediction Under Sparse Sampling
+authors:
+  - Tianxiang Xing
+  - Leyi Zou
+  - Tejas Bharadwaj
+  - Rushabha Balaji
+  - D. Cabric
+year: 2025
+venue: International Workshop on Machine Learning for Signal Processing
+abstract: In this paper, we present a runtime-efficient method for 2D pathloss (PL) map prediction in complex indoor environments, based on the U-Net convolutional neural network. The proposed method reconstructs full PL maps assisted by sparse measurements and preprocessed environment-aware geometrical features in highly-cluttered environments. We empirically show that such features help the network not only generalize to unseen points in the same environment but to different environments as well. Some of these features include the obstruction count map, accumulated transmittance maps, free-space pathloss and log-scaled distance map, which are collectively used as input features to the network. Our method is evaluated in the context of MLSP 2025 The Sampling-Assisted Pathloss Radio Map Prediction Data Competition. The evaluation results demonstrate that the proposed method achieves a weighted final root mean square error of 4.80 dB with an average total runtime of 14.36 milliseconds.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/MLSP62443.2025.11204227
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: indoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 3
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

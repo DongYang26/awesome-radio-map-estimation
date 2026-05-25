@@ -1,0 +1,25 @@
+id: intelligent-path-loss-prediction-for-iot-connectivity-in-5g-
+title: Intelligent Path Loss Prediction for IoT Connectivity in 5G Networks using Hybrid Machine Learning Techniques
+authors:
+  - Samuel Robinson
+  - Anthony Imianvan
+year: 2024
+venue: 2024 International Conference on Science, Engineering and Business for Driving Sustainable Development Goals (SEB4SDG)
+abstract: Maximizing the performance of wireless networks, notably within fifth-generation (5G) mobile communication systems, is crucial, in predicting path loss. This study employs a machine-learning-based approach tailored specifically for IoT connectivity within 5G networks. The objective is to evaluate different machine learning models, including support vector regression (SVR), decision tree (DT), and k-nearest neighbors (KNN), using measured data from the Zenodo data repository. Measured data from Zenodo is utilized to assess the efficacy of SVR, DT, and KNN in predicting path loss for IoT devices within 5G networks. Various performance metrics such as root mean square error (RMSE), mean absolute error (MAE), and R-square values are exploited for comparative analysis. The analysis reveals that DT and KNN outperformed SVR in path loss prediction for IoT devices in 5G networks. While SVR achieves a good fit with an R-square value of 0.9684, DT and KNN demonstrate superior performance metrics. DT yields an RMSE of 1.7583 and an MAE of 0.1718, indicating high accuracy and low error rates. Similarly, KNN shows competitive error metrics with an RMSE of 1.5947 and an MAE of 0.3648, alongside a high R-square value of 0.9931. The findings underscore the effectiveness of hybrid machine learning techniques, particularly DT and KNN, in intelligent path loss prediction systems for IoT connectivity within 5G networks. These results offer insights into optimizing wireless network performance and advancing the deployment of IoT devices in the era of 5G communication. Further research and implementation of DT and KNN-based prediction systems are recommended for enhancing 5G network performance and IoT deployment.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/SEB4SDG60871.2024.10630409
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

@@ -1,0 +1,34 @@
+id: '2501.19160'
+title: Physics-Informed Representation Alignment for Sparse Radio-Map Reconstruction
+authors:
+  - Haozhe Jia
+  - Wenshuo Chen
+  - Zhihui Huang
+  - Lei Wang
+  - Hongru Xiao
+  - Nanqian Jia
+  - Keming Wu
+  - Songning Lai
+  - Yutao Yue
+year: 2025
+venue: ACM Multimedia
+abstract: 'With the rapid development of wireless communication technology, the efficient utilization of spectrum resources, optimization of communication quality, and intelligent communication have become critical. Radio map reconstruction is essential for enabling advanced applications, yet challenges such as complex signal propagation and sparse observational data hinder accurate reconstruction in practical scenarios. Existing methods often fail to align physical constraints with data-driven features, particularly under sparse measurement conditions. To address these issues, we propose Physics-Aligned Radio Map Diffusion Model (PhyRMDM), a novel framework that establishes cross-domain representation alignment between physical principles and neural network features through dual learning pathways. The proposed model integrates Physics-Informed Neural Networks (PINNs) with a representation alignment mechanism that explicitly enforces consistency between Helmholtz equation constraints and environmental propagation patterns. Our architecture employs two synergistic U-Nets: the first ensures physical consistency by minimizing PDE residuals and boundary conditions through latent space alignment, while the second refines predictions via diffusion-based denoising with attention-guided feature fusion. This dual alignment strategy enables simultaneous satisfaction of wave propagation laws and data distribution characteristics. Experimental results demonstrate significant improvements over state-of-the-art methods, achieving NMSE of 0.0031 and RMSE of 0.0125 under Static Radio Map (SRM) conditions, and NMSE of 0.0047 with RMSE of 0.0146 in Dynamic Radio Map (DRM) scenarios. The proposed representation alignment paradigm provides 37.2% accuracy enhancement in ultra-sparse cases (1% sampling rate), confirming its effectiveness in bridging physics-based modeling and deep learning for radio map reconstruction. These advancements establish a new framework for sparse signal environment characterization, with direct applications in 5G/6G network optimization and intelligent spectrum management. The code can be found on the website: https://github.com/Hxxxz0/RMDM'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2501.19160
+  doi: 10.1145/3746027.3758161
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - Diffusion  # TODO: maintainer verify
+  - CNN  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 9
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

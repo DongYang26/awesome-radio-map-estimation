@@ -1,0 +1,31 @@
+id: '2412.01279'
+title: 'IMNet: Interference-Aware Channel Knowledge Map Construction and Localization'
+authors:
+  - Le Zhao
+  - Zesong Fei
+  - Xinyi Wang
+  - Jingxuan Huang
+  - Yuan Li
+  - Yan Zhang
+year: 2024
+venue: IEEE Wireless Communications Letters
+abstract: This letter presents a novel two-stage method for constructing channel knowledge maps (CKMs) specifically for A2G (Aerial-to-Ground) channels in the presence of non-cooperative interfering nodes (INs). We first estimate the interfering signal strength (ISS) at sampling locations based on total received signal strength measurements and the desired communication signal strength (DSS) map constructed with environmental topology. Next, an ISS map construction network (IMNet) is proposed, where a negative value correction module is included to enable precise reconstruction. Subsequently, we further execute signal-to-interference-plus-noise ratio map construction and IN localization. Simulation results demonstrate lower construction error of the proposed IMNet compared to baselines in the presence of interference.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2412.01279
+  doi: 10.1109/LWC.2025.3526222
+subfield: CKM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 15
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

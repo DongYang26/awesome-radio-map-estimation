@@ -1,0 +1,27 @@
+id: a-kriging-based-radio-environment-map-construction-and-chann
+title: A Kriging-Based Radio Environment Map Construction and Channel Estimation System in Threatening Environments
+authors:
+  - Ying Gao
+  - T. Fujii
+year: 2023
+venue: IEEE Access
+abstract: Radio environment map (REM) provides detailed information on the coverage of the primary terminals of wireless communication systems. The spatial estimation of the channel condition is directly related to the radio environment. However, the open characteristics of a system are always accompanied by life-threatening conditions. This study addresses this by proposing the Kriging-based trust nodes aided (KTNA) REM construction method with a channel estimation (KTNA+) system. The proposed method adds a small number of trust nodes to avoid malicious impacts and precisely estimate the channel conditions. The simulation results show that the proposed method succeeded in estimating the average path-loss and shadowing impacts under threatening environmental conditions.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/ACCESS.2023.3267973
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - Gaussian-process  # TODO: maintainer verify
+  - Kriging  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 12
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

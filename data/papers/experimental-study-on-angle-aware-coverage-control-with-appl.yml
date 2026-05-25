@@ -1,0 +1,29 @@
+id: experimental-study-on-angle-aware-coverage-control-with-appl
+title: Experimental Study on Angle-aware Coverage Control with Application to 3-D Visual Map Reconstruction
+authors:
+  - Masaya Suenaga
+  - Takumi Shimizu
+  - Takeshi Hatanaka
+  - K. Uto
+  - Martina Mammarella
+  - F. Dabbene
+year: 2022
+venue: Conference on Control Technology and Applications
+abstract: A key application of multi-drone coverage control is the 3-D map reconstruction from images acquired by aerial drones. In this framework, it is required not only to sample images at every point on the environment but also to collect them from rich viewing angles. A quadratic program (QP)- based solution to this problem, i.e. the so-called angle-aware coverage control, was recently presented by the authors. In this paper, an experimental study of the proposed coverage control is presented. To this end, the control algorithm was implemented on a multi-drone testbed, i.e. the Tokyo Tech Robot Zoo Sky. The experimental validation revealed that the QP-based controller achieved the desirable drone motion while reducing the cost function and also taking situation-adaptive actions. Namely, each drone was able to quickly escape the well-observed regions while they slowed down when the region was not sampled by any other drone in the past. Moreover, the effectiveness of the proposed angle-aware coverage control was compared in terms of quality of the map reconstructed by the images through a structure-from-motion technique with an existing persistent coverage control, which does not take into account viewing angles. The results show that the angle-aware coverage control outperforms the traditional coverage control scheme.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/CCTA49430.2022.9966065
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 7
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

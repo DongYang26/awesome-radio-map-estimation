@@ -1,0 +1,35 @@
+id: ed-attconvlstm-an-ionospheric-tec-map-prediction-model-using
+title: 'ED‐AttConvLSTM: An Ionospheric TEC Map Prediction Model Using Adaptive Weighted Spatiotemporal Features'
+authors:
+  - Liangchao Li
+  - Haijun Liu
+  - H. Le
+  - Jing Yuan
+  - Haoran Wang
+  - Yi Chen
+  - Weifeng Shan
+  - Li Ma
+  - Chunjie Cui
+year: 2024
+venue: Space Weather
+abstract: In this paper, we propose a novel Total Electron Content (TEC) map prediction model, named ED‐AttConvLSTM, using a Convolutional Long Short‐Term Memory (ConvLSTM) network and attention mechanism based on encoder‐decoder structure. The inclusion of the attention mechanism enhances the efficient utilization of spatiotemporal features extracted by the ConvLSTM, emphasizing the significance of crucial spatiotemporal features in the prediction process and, as a result, leading to an enhancement in predictive performance. We conducted experiments in East Asia (10°N–45°N, 90°E−130°E). The ED‐AttConvLSTM was trained and evaluated using the International GNSS Service TEC maps over a period of six years from 2013 to 2015 (high solar activity years) and 2017 to 2019 (low solar activity years). We compared our ED‐AttConvLSTM with IRI‐2016, COPG, LSTM, GRU, ED‐ConvLSTM and ED‐ConvGRU. The results indicate that our model surpasses the comparison models in forecasting both high and low solar activity years, across most months and UT moments in a day. Moreover, our model exhibits notably superior prediction performance during the most severe phases of a magnetic storm when compared to the comparison models. Subsequently, we then also discuss how the prediction performance of our model is affected by latitude. Finally, we discuss the diminishing performance of our model in multi‐day predictions, demonstrating that its reliability for forecasts ranging from one to 4 days in advance. Beyond the fifth day, there is a pronounced decline in the model's performance.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2023SW003740
+  doi: 10.1029/2023SW003740
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - Transformer  # TODO: maintainer verify
+  - RNN  # TODO: maintainer verify
+  - CNN  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 16
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

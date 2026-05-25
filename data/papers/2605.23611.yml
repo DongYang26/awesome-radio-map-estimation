@@ -1,0 +1,28 @@
+id: '2605.23611'
+title: Single-Photon Fourier Transform
+authors:
+  - Zhen Yang
+  - Zeng-Quan Yan
+  - Li Wang
+  - Xiao-Wei Wang
+  - Ka-Di Zhu
+  - Xian-Min Jin
+year: 2026
+abstract: The extraction of information carried by light plays an increasingly important role in optical communication, imaging, and detection. However, the information can only be successfully extracted when the light pulse is comparably strong, leaving untouched scenarios where survived photons are extremely sparse. Here, we propose and experimentally demonstrate a single-photon Fourier transform scheme. By retrieving the implicit correlation shared in the sparse singlephoton stream globally, we are able to precisely classify each photon and synchronously extract multiple ultra-weak signals with high fidelity against extreme environments. Our experiment results give a full picture of the scheme in terms of multi-terminal expandability, wide frequency adaptability, 125 dB loss tolerance, and -10.4 dB signal-to-noise ratio robustness. Even when the pulse repetition frequencies of all terminals are the same, we can still recognize the free-running clock drift and separate different messages. Our work can be a general scheme to extend the capability boundary for all the extremely low-light-flux scenarios, and makes many challenging tasks possible, such as in-orbit optical communication network with complex topology, navigation in extremely lossy and noisy environments, and wide-range single-photon imaging with multi-source illumination.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23611
+  pdf: https://arxiv.org/pdf/2605.23611
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

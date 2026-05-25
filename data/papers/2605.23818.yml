@@ -1,0 +1,56 @@
+id: '2605.23818'
+title: An extremely bright slow-rising afterglow from an off-axis jet in GRB 260310A
+authors:
+  - Yu-Han Yang
+  - Roberto Ricci
+  - Eleonora Troja
+  - Muskan Yadav
+  - Yi-Han Iris Yin
+  - Rubén Sánchez-Ramírez
+  - Brendan O'Connor
+  - Niccoló Passaleva
+  - Alberto J. Castro-Tirado
+  - Hendrik van Eerten
+  - Simone Dichiara
+  - Vincenzo Galluzzi
+  - Narjes Shahamat Dehsorkh
+  - Iván Agudo
+  - Jesús Aceituno
+  - Malte Busmann
+  - María D. Caballero-García
+  - Emilio Fernández-García
+  - Daniel Gruen
+  - Maria Gritsevich
+  - Sergiy Guziy
+  - David Hiriart
+  - You-Dong Hu
+  - Martin Jelínek
+  - Alexander Kutyrev
+  - Alzbeta Malenakova
+  - Filip Novotny
+  - Ignacio Pérez-García
+  - Shashi B. Pandey
+  - Jorma Ryske
+  - Alfredo Sota
+  - Jan Strobl
+  - Hira Waseem
+  - Siyu Wu
+year: 2026
+abstract: We present a multi-wavelength study of GRB 260310A, a nearby long-duration gamma-ray burst at $z\simeq0.153$ associated with a broad-lined Type Ic supernova. Despite its modest prompt gamma-ray output, $E_{γ,\rm iso}\simeq3.5\times10^{50}$ erg, GRB\,260310A exhibits one of the brightest afterglows ever observed in the X-ray, optical, and radio bands. Its apparent brightness is not its only remarkable feature. The optical afterglow displays a delayed onset, characterized by a slow rising phase, with slope $α\approx-1$, and a late peak at $\approx$0.1 d. We argue that the combination of weak prompt emission, hard peak energy, and late afterglow onset is naturally explained by a GRB jet viewed off-axis. The radio spectral energy distributions are consistent with synchrotron radiation and indicate the presence of both reverse- and forward-shock components, thus providing a first test of reverse-shock models in an off-axis geometry. The X-ray afterglow displays a prominent rebrightening, monitored for up to $\approx$68 d with no evidence of spectral evolution. A low level of linear polarization, $Π\approx1.7\%$, is measured at 15 GHz at $T_0+55$ d and suggests that, at these late times, the forward-shock is the dominant emission component from radio to X-rays. This late-time rebrightening represents a critical test for the two-component jet model. If interpreted as the emergence of a narrow jet core viewed further off-axis, it would imply extreme luminosities and energetics for an on-axis observer.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23818
+  pdf: https://arxiv.org/pdf/2605.23818
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

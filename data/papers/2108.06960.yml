@@ -1,0 +1,29 @@
+id: '2108.06960'
+title: 'Channel Knowledge Map for Environment-Aware Communications: EM Algorithm for Map Construction'
+authors:
+  - Kun Li
+  - Peiming Li
+  - Yong Zeng
+  - Jie Xu
+year: 2021
+venue: IEEE Wireless Communications and Networking Conference
+abstract: Channel knowledge map (CKM) is an emerging technique to enable environment-aware wireless communications, in which databases with location-specific channel knowledge are used to facilitate or even obviate real-time channel state information acquisition. One fundamental problem for CKM-enabled communication is how to efficiently construct the CKM based on finite measurement data points at limited user locations. Towards this end, this paper proposes a novel map construction method based on the expectation maximization (EM) algorithm, by utilizing the available measurement data, jointly with the expert knowledge of well-established statistic channel models. The key idea is to partition the available data points into different groups, where each group shares the same modelling parameter values to be determined. We show that determining the modelling parameter values can be formulated as a maximum likelihood estimation problem with latent variables, which is then efficiently solved by the classic EM algorithm. Compared to the pure data-driven methods such as the nearest neighbor based interpolation, the proposed method is more efficient since only a small number of modelling parameters need to be determined and stored. Furthermore, the proposed method is extended for constructing a specific type of CKM, namely, the channel gain map (CGM), where closed-form expressions are derived for the E-step and M-step of the EM algorithm. Numerical results are provided to show the effectiveness of the proposed map construction method as compared to the benchmark curve fitting method with one single model.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2108.06960
+  pdf: https://arxiv.org/pdf/2108.06960
+  doi: 10.1109/WCNC51071.2022.9771802
+subfield: CKM  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 49
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

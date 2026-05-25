@@ -1,0 +1,26 @@
+id: '2605.23642'
+title: Fast Fluid Antenna Multiple Access
+authors:
+  - Noor Waqar
+  - Kai-Kit Wong
+  - Chan-Byoung Chae
+  - Ross Murch
+year: 2026
+abstract: 'Fast fluid antenna multiple access (FAMA) is an idea that promises to overcome severe interference in massive access scenarios by reconfiguring the antenna''s position at the receiver side on a symbol-by-symbol basis, without the need of precoding nor any other interference mitigation techniques. However, this idea is commonly studied under a \emph{genie-aided} premise: each user terminal (UT) can probe \emph{all} fluid-antenna ports in every symbol instance and ideally knows the instantaneous signal-interference split for the received signals at all the ports. Such assumption is unrealistic since it implies impractical hardware and switching limits, pilot overhead, as well as an unknown ability to determine the signal-interference split. This paper revisits the fast FAMA communication problem and asks a key question: can a UT act \emph{as if} it had full per-port interference knowledge while observing only a small fraction of ports? To this end, we propose a \emph{copula-aided FAMA} framework that learns the joint dependence structure of the complex triplets $(r_k,h_k,I_k)$ across ports, where $r_k$, $h_k$ and $I_k$ denote, respectively, the received signal, the channel coefficient and the aggregate interference signal at the $k$-th port, and uses this learned model to infer unobserved channels and interference. Concretely, we devise an attention-copula time-series model that is trained under random partial-observation masks and evaluated under both rich and finite-scattering channel models. Simulation results indicate that the reconstruction normalized mean-square-error (NMSE) for $h$, $r$, and $I$ drops to the order of $10^{-4}$ once the number of observed ports, $M$, exceeds the spatial degrees of freedom (DoF).'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23642
+  pdf: https://arxiv.org/pdf/2605.23642
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

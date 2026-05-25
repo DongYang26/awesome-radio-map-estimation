@@ -1,0 +1,26 @@
+id: '2605.23810'
+title: Asymptotic behavior of solutions for the nonlinear Hartree equation involving the fractional Laplacian
+authors:
+  - Natalino Borgia
+  - Silvia Cingolani
+  - Minbo Yang
+  - Shunneng Zhao
+year: 2026
+abstract: In this paper, we investigate the nonlocal problem \begin{equation*}\left\lbrace \begin{aligned} &A_{s} u=(|x|^{-(n-2s)}\ast u^{2_{s}^{\sharp}-1-ε})u^{2_{s}^{\sharp}-2-ε} \quad\quad\hspace{3.5mm} \mbox{in}\hspace{2mm}Ω,\\ &u>0\quad\quad \quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\hspace{2mm}\mbox{in}\hspace{2mm}Ω,\\ &u=0\quad \quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\hspace{2mm}\mbox{on}\hspace{2mm}\mathbb{R}^n\setminusΩ, \end{aligned} \right.\end{equation*} where $Ω$ is a smooth bounded domain in $\mathbb{R}^n$, $0<s<1$, $n\in(2s,\min\{6s,n+2s\})$, $ε>0$ small, $2_{s}^{\sharp}-1=(n+2s)/(n-2s)$ and $A_{s}$ stands for the fractional Laplace operator $(-Δ)^{s}$ in $Ω$ with outside zero Dirichlet boundary condition. The above problem is reduced to the subcritical fractional system $$ A_{s}u=u^{2_{s}^{\sharp}-2-ε}v,\hspace{2mm}A_{s}v=u^{2_{s}^{\sharp}-1-ε},\hspace{2mm}u,v>0\hspace{2mm}\mbox{in}\hspace{2mm}Ω\hspace{2mm}\mbox{and}\hspace{2mm}u=(-Δ)^sv=0\hspace{2mm}\mbox{on}\hspace{2mm}\mathbb{R}^n\setminusΩ.$$ For a general domain $Ω$ or domains with convexity, we first prove a uniform $L^1$ bound away from the boundary and a uniform $L^{\infty}$ bound near the boundary for positive solutions to the general fractional Hartree-type PDEs by applying the moving planes method and integral estimates for the convolution term.Among these results, we study the asymptotic behavior of solutions as $ε\rightarrow0$.These solutions are shown to blow-up at exactly one point $x_0$ and location of this point is characterized. In addition, the shape and exact rates for blowing-up are studied.Finally,we also establish the corresponding main results for solutions of the fractional Brezis-Nirenberg problem involving critical Hartree-type nonlinearity.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23810
+  pdf: https://arxiv.org/pdf/2605.23810
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

@@ -1,0 +1,31 @@
+id: '2209.04566'
+title: Exemplar-Based Radio Map Reconstruction of Missing Areas Using Propagation Priority
+authors:
+  - Songyang Zhang
+  - Tianhang Yu
+  - Jonathan Tivald
+  - Brian Choi
+  - Feng Ouyang
+  - Zhi Ding
+year: 2022
+venue: Global Communications Conference
+abstract: Radio map describes network coverage and is a practically important tool for network planning in modern wireless systems. Generally, radio strength measurements are collected to construct fine-resolution radio maps for analysis. However, certain protected areas are not accessible for measurement due to physical constraints and security considerations, leading to blanked spaces on a radio map. Non-uniformly spaced measurement and uneven observation resolution make it more difficult for radio map estimation and spectrum planning in protected areas. This work explores the distribution of radio spectrum strengths and proposes an exemplar-based approach to reconstruct missing areas on a radio map. Instead of taking generic image processing approaches, we leverage radio propagation models to determine directions of region filling and develop two different schemes to estimate the missing radio signal power. Our test results based on high-fidelity simulation demonstrate efficacy of the proposed methods for radio map reconstruction.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2209.04566
+  pdf: https://arxiv.org/pdf/2209.04566
+  doi: 10.1109/GLOBECOM48099.2022.10001269
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 5
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

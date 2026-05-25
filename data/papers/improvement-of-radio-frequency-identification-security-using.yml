@@ -1,0 +1,29 @@
+id: improvement-of-radio-frequency-identification-security-using
+title: Improvement of Radio Frequency Identification Security Using New Hybrid Advanced Encryption Standard Substitution Box by Chaotic Maps
+authors:
+  - Amira S. El Batouty
+  - Hania H. Farag
+  - A. Mokhtar
+  - E. El-Badawy
+  - M. Aly
+year: 2020
+venue: Electronics
+abstract: Radio Frequency Identification (RFID) technology is widely utilized by businesses, organizations and wireless communication systems. RFID technology is secured using different ways of data encryption, e.g., Advanced Encryption Standard (AES). The Substitution Box (S-Box) is the core of AES. In this paper, a new algorithm is proposed to generate a modified S-Box with new keys, specifically a key and plaintext-dependent S-Box using an improved RC4 encryption algorithm with Logistic Chaotic Maps (LCM). The strength of the proposed S-Box is tested throughout the paper, and compared against the state-of-the-art S-Box implementations, namely, the static S-Box, dynamic S-box, KSA and PRGA S-Box, and RC4 S-Boxes with Henon chaotic maps. The comparison between the state-of-the-art S-Boxes and the proposed S-Box demonstrates that the use of the Logistic Chaotic Map increases the security of the S-Box and makes the differential and linear cryptography more sturdy. In particular, using the strict avalanche test, we demonstrate that the proposed S-Box improves the security by achieving a cipher text bit-flip ratio of 0.4765, which is closer to 0.5 (where half the bits are flipped), while maintaining a minimum elapsed time of 19 milliseconds for encryption and decryption.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://www.mdpi.com/2079-9292/9/7/1168/pdf?version=1595062649
+  doi: 10.3390/electronics9071168
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 12
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

@@ -1,0 +1,35 @@
+id: '2202.02758'
+title: 3D Map Reconstruction of an Orchard using an Angle-Aware Covering Control Strategy
+authors:
+  - Martina Mammarella
+  - Cesare Donati
+  - Takumi Shimizu
+  - Masaya Suenaga
+  - L. Comba
+  - A. Biglia
+  - K. Uto
+  - Takeshi Hatanaka
+  - P. Gay
+  - F. Dabbene
+year: 2022
+venue: IFAC-PapersOnLine
+abstract: In the last years, unmanned aerial vehicles are becoming a reality in the context of precision agriculture, mainly for monitoring, patrolling and remote sensing tasks, but also for 3D map reconstruction. In this paper, we present an innovative approach where a fleet of unmanned aerial vehicles is exploited to perform remote sensing tasks over an apple orchard for reconstructing a 3D map of the field, formulating the covering control problem to combine the position of a monitoring target and the viewing angle. Moreover, the objective function of the controller is defined by an importance index, which has been computed from a multi-spectral map of the field, obtained by a preliminary flight, using a semantic interpretation scheme based on a convolutional neural network. This objective function is then updated according to the history of the past coverage states, thus allowing the drones to take situation-adaptive actions. The effectiveness of the proposed covering control strategy has been validated through simulations on a Robot Operating System.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2202.02758
+  pdf: https://doi.org/10.1016/j.ifacol.2022.11.151
+  doi: 10.1016/j.ifacol.2022.11.151
+subfield: spectrum-cartography  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+task:
+  - spectrum-cartography  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 10
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

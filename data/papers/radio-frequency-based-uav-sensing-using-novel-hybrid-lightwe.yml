@@ -1,0 +1,28 @@
+id: radio-frequency-based-uav-sensing-using-novel-hybrid-lightwe
+title: Radio Frequency-Based UAV Sensing Using Novel Hybrid Lightweight Learning Network
+authors:
+  - Qian Wang
+  - Pengfei Yang
+  - Xiao Yan
+  - Hsiao-Chun Wu
+  - Ling He
+year: 2024
+venue: IEEE Sensors Journal
+abstract: Unmanned aerial vehicle (UAV) sensing based on the emitted radio frequency (RF) signals is investigated for UAV surveillance and control. A novel robust RF-based UAV sensing approach is introduced in this article. In our proposed approach, once an RF signal, such as a UAV telemetry, track, and command (TT&C) signal and digital data-transmission (DDT) signal, emitted by a UAV is received, the corresponding minimum variance distortionless response (MVDR) spectrum is obtained to extract the feature vector. Then, a novel hybrid lightweight deep-learning (DL) network, namely UAV-CTNet, is designed by fusing the Transformer and convolution to facilitate the feature-map recognition based on the aforementioned feature vector so that the UAV can be detected and identified. Furthermore, Monte Carlo simulations are carried out to evaluate the effectiveness of our proposed UAV sensing scheme in terms of detection accuracy and correct recognition rate using the UAV’s TT&C and DDT signals in the presence of interference signals.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/JSEN.2023.3346209
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - Transformer  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 22
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

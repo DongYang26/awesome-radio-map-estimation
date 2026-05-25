@@ -1,0 +1,29 @@
+id: '2605.23763'
+title: Nonlinear order separation in two-dimensional electronic spectroscopy quantifies properties of higher-excited states
+authors:
+  - Katja Mayershofer
+  - Peter A. Rose
+  - Julian Lüttig
+  - Luisa Brenneis
+  - Simon Büttner
+  - Jacob J. Krich
+  - Tobias Brixner
+year: 2026
+abstract: Two-dimensional (2D) spectroscopy combines high temporal and spectral resolution, allowing the observation of ultrafast energy transfer and the separation of homogeneous and inhomogeneous broadening. Typically, 2D spectroscopy is dominated by the lowest-order nonlinear signal for a given phase-matching configuration while signals of higher order are present but difficult to access separately. Recently, we introduced a technique to separate nonlinear orders in 2D spectroscopy by systematically varying the intensity of the pump pulses and appropriate post-processing. Here, we unravel the full potential of higher-order 2D spectroscopy by separating multiple nonlinear orders at different multi-quantum positions. As an example, we investigate a squaraine dimer. Using a theoretical model, we find excellent qualitative and quantitative agreement throughout all nonlinear orders and multi-quantum positions. Our simulations demonstrate the sensitivity and information content hidden in the higher-order spectra such as transition dipole moments and energy levels even of highly excited states. Our results pave the way for establishing higher-order spectroscopy as a unique extension of multidimensional spectroscopy, providing access to highly excited states and their properties encoded in successive orders of nonlinearity.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23763
+  pdf: https://arxiv.org/pdf/2605.23763
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

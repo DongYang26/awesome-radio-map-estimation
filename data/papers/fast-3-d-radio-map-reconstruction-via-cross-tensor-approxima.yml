@@ -1,0 +1,27 @@
+id: fast-3-d-radio-map-reconstruction-via-cross-tensor-approxima
+title: Fast 3-D Radio Map Reconstruction via Cross Tensor Approximation
+authors:
+  - Chunmei Li
+  - Z. Dou
+  - Yun Lin
+year: 2024
+venue: IEEE Internet of Things Journal
+abstract: 3-D radio maps provide significantly richer information than their 2-D counterparts in spectrum cartography. However, reconstruction methods for 3-D radio maps remain underexplored. Classic methods, such as spatial interpolation and matrix completion, can be adapted for 3-D scenarios, but they are often computationally intensive and require a substantial number of sampling measurements. To address these challenges, we propose a novel and efficient 3-D radio map reconstruction paradigm inspired by cross tensor approximation (CTA). During the measurement phase, only piecewise straight-line paths are required, making this method well-suited for the flying trajectories of unmanned aerial vehicles (UAVs). In the reconstruction phase, we utilize the inherent tensor structure of 3-D radio maps by employing the fiber sampling tensor decomposition (FSTD) algorithm, which ensures high-quality and computationally efficient reconstruction from the measurements. To further reduce the number of measurements, we introduce a new algorithm called interpolation-integrated FSTD (II-FSTD). This algorithm builds on the original FSTD yet exploits the smoothness of radio maps to incorporate interpolation, thereby reducing the required measurement frequency. Extensive experimental results demonstrate that the proposed paradigm can reconstruct 3-D radio maps with high quality, using fewer measurements and less computational time compared to state-of-the-art techniques. Notably, in scenarios with lower measurement frequency, II-FSTD outperforms other methods, achieving superior reconstruction performance.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/JIOT.2024.3454817
+subfield: spectrum-cartography  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - matrix-completion  # TODO: maintainer verify
+task:
+  - spectrum-cartography  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 6
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

@@ -1,0 +1,25 @@
+id: '2605.23703'
+title: Dynamic Consumer Demand at Large Scale
+authors:
+  - Daniel Brunner
+  - Florian Heiss
+  - Anna B. Schmidt
+year: 2026
+abstract: We study consumer demand in large-scale retail settings with many products, multiple categories and repeated purchase behavior. While inertia and brand loyalty are well documented, existing discrete choice models typically focus on single categories or become computationally infeasible in high-dimensional environments. We propose a dynamic product-level factor model that captures heterogeneity in baseline preferences, price sensitivity and inertia through a shared latent factor structure. By factorizing individual-product coefficients, the model pools information across individuals and categories and allows for correlated heterogeneity. We estimate the model using Bayesian variational inference, enabling scalable estimation with tens of thousands of parameters. In a simulation study calibrated to realistic retail data, we show that the dynamic factor model substantially improves predictive performance relative to static factor models and mixed logit benchmarks, particularly when individual purchase histories are sparse. Accounting for inertia also leads to more elastic demand estimates, underscoring the importance of dynamics for measuring consumer responsiveness. Our results highlight dynamic factor models as a scalable and flexible approach for demand estimation in modern, high-dimensional retail markets.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.23703
+  pdf: https://arxiv.org/pdf/2605.23703
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - autoencoder  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

@@ -1,0 +1,29 @@
+id: '2605.22891'
+title: 'Pointwise Metrics Mislead: An Evaluation Protocol for Multimodal Inverse Problems'
+authors:
+  - Mads H. Baattrup
+  - Jörn Bach
+  - Laurids Jeppe
+  - Finn Labe
+  - Alexander Grohsjean
+  - Christian Schwanenberger
+  - Peer Stelldinger
+year: 2026
+abstract: 'Evaluation in scientific reconstruction is dominated by pointwise metrics - RMSE, MAE, per-event resolution - under the implicit assumption that lower error means better reconstruction. We show that this assumption fails structurally for inverse problems with multimodal posteriors. By the law of total variance, point estimators trained to minimize MSE or MAE produce a marginal spectrum strictly narrower than the truth whenever the posterior has nonzero width. The resulting bias is independent of architecture, training, and dataset size, and it compresses precisely the spectral features - tails, modes, shapes - that downstream scientific measurements rely on. We propose a three-part evaluation protocol where each step targets a failure mode the others miss: per-event distributional accuracy via CRPS, population-level marginal accuracy via a spectrum-fidelity diagnostic, and uncertainty trustworthiness via coverage-based calibration. On a synthetic benchmark with an analytic posterior and on a realistic many-to-one inverse problem from particle physics, model rankings reverse between pointwise and distributional metrics, and calibration further separates architectures indistinguishable under CRPS. The evaluation protocol, not the model, determines the scientific conclusion.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.22891
+  pdf: https://arxiv.org/pdf/2605.22891
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

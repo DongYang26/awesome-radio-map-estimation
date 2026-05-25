@@ -1,0 +1,32 @@
+id: '2409.00461'
+title: Interference-Cancellation-Based Channel Knowledge Map Construction and Its Applications to Channel Estimation
+authors:
+  - Wenjun Jiang
+  - Xiaojun Yuan
+  - Boyu Teng
+  - Hao Wang
+  - Jing Qian
+year: 2024
+venue: IEEE Transactions on Wireless Communications
+abstract: Channel knowledge map (CKM) is viewed as a digital twin of wireless channels, providing location-specific channel knowledge for environment-aware communications. A fundamental problem in CKM-assisted communications is how to construct the CKM efficiently. Current research focuses on interpolating or predicting channel knowledge based on error-free channel knowledge from measured regions, ignoring the extraction of channel knowledge. This paper addresses this gap by unifying the extraction and representation of channel knowledge. We propose a novel CKM construction framework that leverages the received signals of the base station (BS) as online and low-cost data. Specifically, we partition the BS coverage area into spatial grids. The channel knowledge per grid is represented by a set of multi-path powers, delays, and angles, based on the principle of spatial consistency. In extracting these channel parameters, the challenges lie in strong inter-cell interference and non-linear relationships between received signals and channel parameters. To address these issues, we formulate the problem of CKM construction into a problem of Bayesian inference, employing a interference-activity prior model to characterize the path-loss differences of interferers. Under the Bayesian inference framework, we develop a hybrid message-passing algorithm for the interference-cancellation-based CKM construction. Based on the CKM, we obtain the joint frequency-space covariance of the user channel and design a CKM-assisted Bayesian channel estimator. The computational complexity of the channel estimator is substantially reduced by exploiting the CKM-derived covariance structure. Numerical results show that the proposed CKM provides accurate channel parameters at low signal-to-interference-plus-noise ratio (SINR) and that the CKM-assisted channel estimator significantly outperforms state-of-the-art counterparts.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2409.00461
+  pdf: http://arxiv.org/pdf/2409.00461
+  doi: 10.1109/TWC.2025.3552519
+subfield: CKM  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+  - pathloss-prediction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 11
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

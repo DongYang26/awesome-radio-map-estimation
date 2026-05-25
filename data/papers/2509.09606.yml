@@ -1,0 +1,26 @@
+id: '2509.09606'
+title: A Multi-Scale Feature Extraction and Fusion U-Net for Pathloss Prediction in UAV-Assisted mmWave Radio Networks
+authors:
+  - Sajjad Hussain
+year: 2025
+venue: IEEE Transactions on Wireless Communications
+abstract: Accurate pathloss prediction is essential for the design and optimization of unmanned aerial vehicles (UAV) assisted millimeter-wave (mmWave) networks. While deep learning approaches have shown strong potential, their generalization across diverse environments, robustness to noisy inputs, and sensitivity to UAV altitude remain underexplored. To address these challenges, we propose a U-Net-based deep learning architecture that combines multi-scale feature extraction, convolution-based feature fusion, and an atrous spatial pyramid pooling (ASPP) bottleneck for efficient context aggregation. The model predicts pathloss maps from log-distance, line-of-sight (LOS) mask, and building mask inputs. In addition, we develop a fully vectorized LOS mask computation algorithm that significantly accelerates pre-processing and enables large-scale dataset generation. Extensive evaluations on both in-house ray-tracing data and the RadioMapSeer benchmark demonstrate that the proposed model outperforms several state-of-the-art baselines in accuracy and efficiency. All source code is publicly released to support reproducibility and future research.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2509.09606
+  doi: 10.1109/TWC.2026.3670373
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

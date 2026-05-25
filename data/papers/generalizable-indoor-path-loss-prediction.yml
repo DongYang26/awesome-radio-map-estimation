@@ -1,0 +1,29 @@
+id: generalizable-indoor-path-loss-prediction
+title: Generalizable Indoor Path Loss Prediction
+authors:
+  - Cheick Tidiani Cisse
+  - Oumaya Baala
+  - V. Guillet
+  - François Spies
+  - Alexandre Caminada
+year: 2025
+venue: IEEE International Conference on Acoustics, Speech, and Signal Processing
+abstract: This paper is presented in the context of the First Indoor Pathloss Radio Map Prediction Challenge at IEEE ICASSP 2025. We propose a deep learning approach using a customized ResUNet architecture with physics-informed features for predicting radio maps in indoor environments. Our architecture progressively adapts to handle increasing task complexity, incorporating dual-stream processing for frequency generalization and specialized antenna gain processing with dilated convolutions. Experimental results demonstrate effective generalization across unknown indoor scenes, frequencies, and antenna patterns while maintaining computational efficiency.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/ICASSP49660.2025.10887696
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: indoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 2
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

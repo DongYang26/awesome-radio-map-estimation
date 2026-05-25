@@ -1,0 +1,27 @@
+id: identification-of-c-band-radio-frequency-interferences-from-
+title: Identification of C-Band Radio Frequency Interferences from Sentinel-1 Data
+authors:
+  - A. Monti-Guarnieri
+  - D. Giudici
+  - A. Recchia
+year: 2017
+venue: Remote Sensing
+abstract: We propose the use of Sentinel-1 Synthetic Aperture Radar (SAR) to provide a continuous and global monitoring of Radio Frequency Interferences (RFI) in C-band. We take advantage of the first 8–10 echo measures at the beginning of each burst, a 50–70 MHz wide bandwidth and a ground beam coverage of ~25 km (azimuth) by 70 km (range). Such observations can be repeated with a frequency better than three days, by considering two satellites and both ascending and descending passes. These measures can be used to qualify the same Sentinel-1 (S1) dataset as well as to monitor the availability and the use of radio frequency spectrum for present and future spaceborne imagers and for policy makers. In the paper we investigate the feasibility and the limits of this approach, and we provide a first Radio Frequency Interference (RFI) map with continental coverage over Europe.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://www.mdpi.com/2072-4292/9/11/1183/pdf?version=1511274949
+  doi: 10.3390/RS9111183
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 42
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

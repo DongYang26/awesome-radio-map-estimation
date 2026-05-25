@@ -1,0 +1,27 @@
+id: machine-learning-based-urban-path-loss-prediction-at-900-mhz
+title: 'Machine-Learning-Based Urban Path Loss Prediction at 900 MHz: Principal Component Analysis, Clustering, Feature Importance and Regression'
+authors:
+  - José Lorente-López
+  - Ignacio Rodríguez-Rodríguez
+  - J. Rodríguez
+  - Jose María Molina García-Pardo
+  - J. Aznar-Poveda
+year: 2026
+venue: IEEE Open Journal of Antennas and Propagation
+abstract: In this work, the possibility of applying machine learning (ML) techniques to analyze and predict radio wave propagation losses in urban environments is explored. Thus, from a measurement campaign–conducted at 900 MHz in Cartagena, Spain– and the obtaining, by means of digital terrain and cadastral maps, of a series of relevant geospatial variables, urban path loss is analyzed through clustering methods and principal component analysis (PCA), as well as predicted using multivariate ML-based regression models. A feature importance analysis is also carried out to identify key independent variables (predictors) which can be crucial for improved path loss prediction. The results obtained show how parameters such as the total distance between the transmitter (Tx) and the receiver (Rx), the number of intersected elements or the final free distance between the last obstacle and the Rx can be essential to differentiate the four clusters which are identified from the path loss measurements. Additionally, among all the algorithms analyzed–Gradient Boosting (GB), k-Nearest Neighbors (kNN), neural networks (NN), and Support Vector Machines (SVM)–, GB has proved to be the most robust across all clusters when it comes to predicting propagation losses. On the contrary, when evaluating the models for path loss prediction on the entire dataset (without distinguishing clusters), kNN has achieved the lowest test RMSE, the highest R2, and the smallest MAPE, with the total Tx-Rx distance, the final free distance and the average free distance emerging as the most critical features for enhanced path-loss prediction.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/OJAP.2025.3629578
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: unsupervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'

@@ -1,0 +1,29 @@
+id: '2206.08707'
+title: Environment-Aware Hybrid Beamforming by Leveraging Channel Knowledge Map
+authors:
+  - Di Wu
+  - Yong Zeng
+  - Shize Jin
+  - Rui Zhang
+year: 2022
+venue: IEEE Transactions on Wireless Communications
+abstract: Hybrid analog/digital beamforming is a promising technique to realize millimeter wave (mmWave) massive multiple-input multiple-output (MIMO) systems cost-effectively. However, existing hybrid beamforming designs mainly rely on real-time channel training or beam sweeping to find the desired beams, which incurs prohibitive overhead due to a large number of antennas at both the transmitter and receiver with only limited radio frequency (RF) chains. To resolve this challenging issue, in this paper, we propose a new environment-aware hybrid beamforming technique that requires only light real-time training, by leveraging the useful tool of channel knowledge map (CKM) with the user’s location information. CKM is a site-specific database, which offers location-specific channel-relevant information to facilitate or even obviate the acquisition of real-time channel state information (CSI). Two specific types of CKM are proposed in this paper for hybrid beamforming design in mmWave massive MIMO systems, namely channel angle map (CAM) and beam index map (BIM). It is shown that compared with existing environment-unaware schemes, the proposed environment-aware hybrid beamforming scheme based on CKM can drastically improve the effective communication rate, even under moderate user location errors, thanks to its great saving of the prohibitive real-time training overhead.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2206.08707
+  pdf: https://arxiv.org/pdf/2206.08707
+  doi: 10.1109/TWC.2023.3323941
+subfield: CKM  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 97
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-05-25'
