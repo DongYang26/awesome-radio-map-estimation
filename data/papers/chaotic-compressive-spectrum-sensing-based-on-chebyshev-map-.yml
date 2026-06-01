@@ -1,0 +1,28 @@
+id: chaotic-compressive-spectrum-sensing-based-on-chebyshev-map-
+title: Chaotic Compressive Spectrum Sensing Based on Chebyshev Map for Cognitive Radio Networks
+authors:
+  - Salma Benazzouza
+  - Mohammed Ridouani
+  - Fatima Salahdine
+  - A. Hayar
+year: 2021
+venue: Symmetry
+abstract: Recently, the chaotic compressive sensing paradigm has been widely used in many areas, due to its ability to reduce data acquisition time with high security. For cognitive radio networks (CRNs), this mechanism aims at detecting the spectrum holes based on few measurements taken from the original sparse signal. To ensure a high performance of the acquisition and recovery process, the choice of a suitable sensing matrix and the appropriate recovery algorithm should be done carefully. In this paper, a new chaotic compressive spectrum sensing (CSS) solution is proposed for cooperative CRNs based on the Chebyshev sensing matrix and the Bayesian recovery via Laplace prior. The chaotic sensing matrix is used first to acquire and compress the high-dimensional signal, which can be an interesting topic to be published in symmetry journal, especially in the data-compression subsection. Moreover, this type of matrix provides reliable and secure spectrum detection as opposed to random sensing matrix, since any small change in the initial parameters generates a different sensing matrix. For the recovery process, unlike the convex and greedy algorithms, Bayesian models are fast, require less measurement, and deal with uncertainty. Numerical simulations prove that the proposed combination is highly efficient, since the Bayesian algorithm with the Chebyshev sensing matrix provides superior performances, with compressive measurements. Technically, this number can be reduced to 20% of the length and still provides a substantial performance.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://www.mdpi.com/2073-8994/13/3/429/pdf?version=1615545630
+  doi: 10.3390/sym13030429
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - spectrum-occupancy  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 15
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

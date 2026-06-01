@@ -1,0 +1,30 @@
+id: deep-learning-for-radio-map-estimation-in-wireless-communica
+title: Deep Learning for Radio Map Estimation in Wireless Communication Networks
+authors:
+  - Haokai Zhang
+  - Zhiyuan You
+  - Jianmiao Liu
+  - Hailong Jiang
+  - Mengqi Liu
+  - Guoqing Li
+year: 2025
+venue: Proceedings of the 2025 3rd International Conference on Artificial Intelligence, Systems and Network Security
+abstract: Accurate radio map estimation (RME)—predicting received signal strength at arbitrary locations—is essential for network planning, beamforming, and interference management in 5G/6G systems. Classical ray tracing and empirical propagation models suffer from either prohibitive computational cost or insufficient fidelity in complex environments. We present an end-to-end deep learning framework that predicts Reference Signal Received Power (RSRP) from spatially aligned representations of terrain, buildings, land use, and base station parameters. Our key contribution is a systematic pipeline that encodes heterogeneous GIS data and transmitter parameters into a unified multi-channel feature map, enabling effective application of convolutional neural networks for single-point RSRP prediction. Trained end-to-end with mean squared error loss, the proposed model achieves superior accuracy compared to traditional methods while maintaining computational efficiency. Experimental results on both simulated and real-world datasets validate the effectiveness and generalization capability of our approach for practical wireless network planning.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1145/3797161.3797212
+subfield: REM  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

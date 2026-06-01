@@ -1,0 +1,23 @@
+id: '2605.29991'
+title: Complex spectrum of the partial theta function
+authors:
+  - Boris Shapiro
+year: 2026
+abstract: 'We study the complex spectrum of the partial theta function \[   Θ(q,x)=\sum_{j=0}^{\infty}q^{j(j+1)/2}x^j,   \qquad |q|<1, \] where a spectral value is a parameter for which \(Θ(q,\cdot)\) has a multiple zero. Since the function is defined here only for \(|q|<1\), all spectral values are strictly inside the unit disk; boundary points on \(|q|=1\) occur only as accumulation points of the spectrum. The paper combines two complementary points of view. Near the unit circle we prove that every point of \(|q|=1\) is an accumulation point of the spectrum; the proof uses explicit spectral factors of truncations, the Jacobi triple product, and a boundary-window lifting argument near roots of unity. Inside a fixed subdisk, illustrated for \(|q|\leq 0.8\), the true spectrum is locally finite and must be separated carefully from the much larger branch loci of truncations and Jensen polynomials. We give a truncation-seeded Newton procedure which produces a discrete list of candidate spectral values, explain the caustic/escaping-root mechanism in finite approximants, and record numerical monodromy experiments using a radial convention: for a spectral point \(q_*\), roots are labelled at the point \(0.1q_*/|q_*|\) on the small circle and then continued along the straight radial segment to \(q_*\). This convention gives a coherent set of collision labels in the disk, treats negative real spectral values from the base point \(-0.1\), and leads to a preliminary rational-direction heuristic for radial monodromy.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.29991
+  pdf: https://arxiv.org/pdf/2605.29991
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

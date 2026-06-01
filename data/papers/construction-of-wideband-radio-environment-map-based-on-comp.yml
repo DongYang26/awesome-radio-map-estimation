@@ -1,0 +1,27 @@
+id: construction-of-wideband-radio-environment-map-based-on-comp
+title: Construction of Wideband Radio Environment Map Based on Compressed Sensing
+authors:
+  - Ensong Yang
+  - Hui Yu
+  - Xiaohao Mo
+  - Ao Gao
+year: 2022
+venue: International Conference on Wireless Communications and Signal Processing
+abstract: The ever-growing demand for wireless communication has led to an increasingly complex radio environment, which has caused the construction of wideband radio environment map (WREM) as an effective means to manage and utilize spectrum resources. In this paper, we investigate the low-complexity method for building a high-accuracy WREM. By jointly exploiting the sparsity in spatial and frequency domains, we transform the WREM construction problem into a compressed sensing (CS) problem to reduce the construction complexity and resource consumption. Then we propose a spatial sampling points (SSP) optimization algorithm based on reducing columns correlation to improve the recovery accuracy. Inspired by the quasi-block sparse structure of the vector to be recovered, we propose a quasi-block sparse block matching pursuit (QBSBMP) algorithm to recover the locations and power spectral density (PSD) of all transmitting sources. Simulation results show that the proposed scheme significantly reduces the amount of sampled data and achieves the high - precision of constructing WREM.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/WCSP55476.2022.10039453
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 4
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

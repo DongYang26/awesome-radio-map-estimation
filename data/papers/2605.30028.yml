@@ -1,0 +1,25 @@
+id: '2605.30028'
+title: Hysteretic Acoustic Band Structures in Shape-Memory Composite Thin Rods
+authors:
+  - R. Esquivel-Sirvent
+  - B. Manzanares-Martínez
+  - J. Manzanares-Martínez
+year: 2026
+abstract: 'We investigate the propagation of longitudinal elastic waves in one-dimensional periodic composite rods composed of alternating segments of a shape-memory alloy (NiTiCu) and a polymer spacer (Parylene C). In the thin-rod regime, the longitudinal phase velocity reduces to $c=\sqrt{E/ρ}$, which coincides with the regime in which the elastic modulus of NiTiCu has been measured directly through its acoustic response across the martensitic transformation. Using the standard transfer-matrix method along the heating and cooling branches of the transformation separately, we compute the Bloch band structure of the infinite periodic system and the transmission spectrum of finite composite rods. Because the elastic modulus of NiTiCu follows different paths upon heating and cooling, the same external temperature within the transformation interval corresponds to two different phase fractions and, consequently, to two different phononic spectra. The resulting hysteresis of the underlying material is thus transferred to the collective acoustic response of the periodic structure: stop-band edges trace closed loops in the temperature--frequency plane, and the transmission coefficient of a finite rod at a fixed temperature depends on the previous thermal history. We further show that the geometric filling fraction of the active segment provides a complementary tuning mechanism, modifying the width of the spectral hysteresis loops and the position of specific gap closures independently of temperature. These results illustrate how a first-order structural phase transition with intrinsic thermal hysteresis manifests itself in the dispersion relation of a periodic elastic medium.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.30028
+  pdf: https://arxiv.org/pdf/2605.30028
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

@@ -1,0 +1,27 @@
+id: opportunistic-map-based-flexible-hybrid-duplex-systems-in-dy
+title: Opportunistic map based Flexible Hybrid Duplex Systems in Dynamic Spectrum Access
+authors:
+  - Soo-Min Kim
+  - Han Cha
+  - Seong-Lyun Kim
+  - C. Chae
+year: 2018
+venue: International Symposium on Dynamic Spectrum Access Networks
+abstract: With growing spectrum scarcity, full duplex radio, as well as cognitive radio network, has been considered as one of the solutions in 5G communications. We propose a new method that integrates full duplex and spectrum/spatial sensing in order to bring the maximum spectral efficiency. In this demonstration, we utilize OP-map to define the opportunity for secondary node’s transmission by predicting interference level with the aid of stochastic geometry. We will present the system performance enhancements by implementing an FPGA based real-time prototype.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/DySPAN.2018.8610496
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 3
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

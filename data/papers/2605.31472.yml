@@ -1,0 +1,26 @@
+id: '2605.31472'
+title: (Non-)Traversable Quantum Phase Transitions
+authors:
+  - Federico Balducci
+  - Paul M. Schindler
+  - Andrea Solfanelli
+  - Marin Bukov
+year: 2026
+abstract: Quantum phase transitions manifest as an abrupt change in the ground state of a many-body system; yet it is an open question whether this sudden change necessarily precludes a continuous dynamical connection between the two phases. We introduce a classification of quantum phase transitions based on this geometric aspect of the ground-state manifold, that differs from known classifications. By leveraging the framework of counterdiabatic driving, we explicitly construct schedules that dynamically connect one phase to another. This strategy allows us to uncover a large class of quantum phase transitions, where the states on both sides are separated only by a finite geometric distance in the thermodynamic limit. We term such transitions traversable, since exact counterdiabatic driving links the two phases via a finite dynamical protocol in the thermodynamic limit. We show that multiple known transitions fall into this class -- e.g., symmetry-breaking transitions obeying hyperscaling and discontinuous transitions with an enhanced continuous symmetry. We further show the existence of quantum phase transitions that cannot be crossed dynamically even with the help of nonlocal counterdiabatic driving, as they would require divergent amplitudes and frequencies. Geometrically, these nontraversable transitions correspond to an infinite distance separating the two phases of matter; we show that the class comprises continuous transitions exhibiting mean-field universality, and discontinuous transitions arising from the competition between metastable minima. Our geometric classification goes beyond the known taxonomy, is independent of local order parameters and renormalization group fixed points, and has direct implications for the complexity of state preparation and adiabatic quantum computation.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31472
+  pdf: https://arxiv.org/pdf/2605.31472
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

@@ -1,0 +1,27 @@
+id: '2605.31411'
+title: Odd-Parity Magnons
+authors:
+  - Pu Zhang
+  - Sun-Bo Xie
+  - Junxi Yu
+  - Yichen Liu
+  - Cheng-Cheng Liu
+year: 2026
+abstract: Magnons, as charge-neutral spin excitations, can transport spin information without Joule heating and therefore offer a promising platform for low-power spintronics. However, in collinear magnets, the effective time-reversal symmetry forbids odd-parity magnon band splitting. Here we propose odd-parity magnons and establish a general mechanism for realizing them in collinear antiferromagnets. We provide a complete spin-point-group classification of odd-parity magnon splitting in two-dimensional collinear antiferromagnets by identifying the leading splitting types and their symmetry-allowed basis functions. This classification serves as a practical guide for searching for odd-parity magnons. We show that breaking effective time-reversal symmetry, for example by circularly polarized light or loop currents, can induce highly tunable $p$- and $f$-wave magnon splitting. In bilayer systems, the dynamical modulation can drive a topological magnon phase transition, accompanied by chiral edge modes and an abrupt jump in the magnon thermal Hall conductivity. Material-specific first-principles calculations further demonstrate the feasibility of this mechanism in real van der Waals antiferromagnets. Our study identifies the odd-parity magnons as a new class of spin excitations and provides a theoretical foundation for odd-parity magnons and ultrafast optically controlled topological magnonic devices.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31411
+  pdf: https://arxiv.org/pdf/2605.31411
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

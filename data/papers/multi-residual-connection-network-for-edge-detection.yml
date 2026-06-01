@@ -1,0 +1,26 @@
+id: multi-residual-connection-network-for-edge-detection
+title: Multi-residual Connection Network for Edge Detection
+authors:
+  - Yin Wang
+  - Lide Wang
+  - Ji Qiu
+  - Y. Hu
+year: 2021
+venue: Neural Processing Letters
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1007/s11063-021-10503-z
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

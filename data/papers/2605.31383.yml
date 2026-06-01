@@ -1,0 +1,23 @@
+id: '2605.31383'
+title: Extendable mapping classes of knotted surfaces obtained by rim surgery in $S^4$
+authors:
+  - Weizhe Niu
+year: 2026
+abstract: 'Let $Σ_g^0\subset S^4$, $g\ge 3$, be the standard unknotted closed oriented surface, and let $a\subsetΣ_g^0$ be an oriented nonseparating curve. For a nontrivial knot $J\subset S^3$, let $Σ_{g,a,J}\subset S^4$ be the surface obtained by ordinary untwisted rim surgery along $a$. Assuming a meridian-longitude rigidity condition on the knot group of $J$, we compute the extendable mapping-class subgroup exactly: \[ E(Σ_{g,a,J})= \operatorname{Stab}_{\operatorname{Mod}(Σ_g)}(q_0)\cap \operatorname{Stab}_{\operatorname{Mod}(Σ_g)}([a]), \] where $q_0$ is the Rokhlin quadratic form of the standard embedding and $[a]\in H_1(Σ_g;\mathbb Z)$ is the oriented homology class.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31383
+  pdf: https://arxiv.org/pdf/2605.31383
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

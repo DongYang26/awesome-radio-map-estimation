@@ -1,0 +1,24 @@
+id: '2605.31353'
+title: 'Sensing with Random Signals: The Role of Time Sharing'
+authors:
+  - Yi Geng
+  - Wenyi Zhang
+year: 2026
+abstract: In monostatic, decision-aided, or known-waveform integrated sensing and communications (ISAC) formulations, the sensing receiver is often modeled as knowing the transmitted waveform. This assumption is not suitable for passive, bistatic, or distributed settings where the sensing receiver knows the signaling rule but not the transmitted symbols. We study such a symbol-unaware ISAC model, where sensing is measured by the unconditioned mutual information $I(S;V)$ rather than the symbol-aware quantity $I(S;V|X)$. For discrete-input memoryless channels, we characterize the capacity-sensing region through an auxiliary time-sharing variable, showing that the optimal upper boundary is the upper concave envelope of the single-mode frontier. Thus, explicit time sharing is unnecessary when the single-mode frontier is already concave, but strictly beneficial when its upper concave envelope strictly dominates the frontier. For Rayleigh-fading BPSK, we further show that the curvature of the single-mode boundary is determined by the stochastic ordering of the communication- and sensing-side effective SNR distributions. Communication-side dominance yields a concave single-mode frontier and no time-sharing gain, sensing-side dominance yields a convex single-mode frontier and a strict time-sharing gain, and equality yields a linear boundary. The result extends to SIMO-BPSK through the ordering of post-combining SNR distributions. These findings explain when symbol-unaware ISAC optimally moves from data-symbol transmission to pilot-like sensing modes.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31353
+  pdf: https://arxiv.org/pdf/2605.31353
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

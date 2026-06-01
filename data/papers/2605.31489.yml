@@ -1,0 +1,29 @@
+id: '2605.31489'
+title: Context-Conditioned Generative Models Enable Subnational Refinement of Sparse Humanitarian Surveys
+authors:
+  - Federica Sibilla
+  - Vasiliki Voukelatou
+  - Duccio Piovani
+  - Kyriacos Koupparis
+  - Daniela Paolotti
+  - Rossano Schifanella
+  - Kyriaki Kalimeri
+year: 2026
+abstract: 'Data scarcity limits inference in many scientific and policy domains. Survey data are essential for decision-making, but sparse samples often fail to capture fine spatial granularities. We evaluate normalizing flows, a generative model that learns complex data distributions and can be conditioned on exogenous contextual features, in controlled data scarcity scenarios. Across eight household survey datasets spanning six low-income or middle-income countries in the humanitarian domain, we show that context-conditioned generative models can refine sub-national survey distributions under severe data scarcity, and that performance increases systematically with the richness of the conditioning information. These findings support a general principle for survey data augmentation: generative models can improve sub-national estimates when the sparse sample retains sufficient support and contextual covariates encode relevant local heterogeneity. By learning full conditional distributions rather than point estimates, the approach provides fine-grained evidence for humanitarian decision-making and resource allocation.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31489
+  pdf: https://arxiv.org/pdf/2605.31489
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

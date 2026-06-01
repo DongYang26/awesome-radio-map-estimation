@@ -1,0 +1,29 @@
+id: a-deep-learning-based-reconstruction-method-for-3d-low-altit
+title: A deep-learning-based reconstruction method for 3D low-altitude propagation fields
+authors:
+  - Chen Liang
+  - Tianqi Xiang
+  - Ya Liu
+  - Xin Li
+  - Weiyan Chen
+  - Xin Zhang
+year: 2025
+venue: International Conference on Advanced Robotics, Automation Engineering, and Machine Learning
+abstract: This paper presents a deep learning-based reconstruction method for low-altitude channel path loss propagation fields. Six constructed datasets are respectively used to train a convolutional neural network (CNN) that extracts spatial distribution and height features of buildings from three-dimensional geographic information. The neural network achieves high accuracy across multiple altitudes, demonstrating its potential for 3D spatial application. Additionally, an interpolation algorithm, which incorporates wireless signal propagation characteristics, is proposed to predict values at arbitrary points on the global map. A comparative analysis with traditional ray tracing methods demonstrates that the proposed approach significantly reduces computational time while maintaining high prediction accuracy.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1117/12.3083929
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

@@ -1,0 +1,27 @@
+id: multi-dimensional-spectrum-map-construction-a-tensor-perspec
+title: 'Multi-dimensional spectrum map construction: A tensor perspective'
+authors:
+  - Mengyun Tang
+  - Guoru Ding
+  - Zhen Xue
+  - Jing Zhang
+  - Huaji Zhou
+year: 2016
+venue: International Conference on Wireless Communications and Signal Processing
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/WCSP.2016.7752600
+subfield: spectrum-cartography  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - spectrum-cartography  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 19
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

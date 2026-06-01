@@ -1,0 +1,27 @@
+id: '2605.31443'
+title: Modeling Covariate Transition for Efficient Estimation of Longitudinal Treatment Effects in Randomized Experiments
+authors:
+  - Naoki Chihara
+  - Tatsushi Oka
+  - Yasuko Matsubara
+  - Yasushi Sakurai
+  - Shota Yasui
+year: 2026
+abstract: We present a regression-adjustment framework designed for the estimation of longitudinal treatment effects in randomized experiments under static regimes. While regression-adjustment methods are useful for variance reduction in randomized experiments by using pre-treatment covariates, they usually focus only on average effects, from which we cannot obtain valuable insights into when the effects appear and how long they continue. To address this issue, we consider intermediate outcomes and evolving post-treatment covariates over time, and we represent such dynamic trajectories using transition kernels. Furthermore, we establish the asymptotic normality and the semiparametric efficiency bound for our estimator, enabling more powerful statistical inference. Simulation studies and empirical analysis using A/B test data from a streaming platform in Japan show the practical advantages of our method.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31443
+  pdf: https://arxiv.org/pdf/2605.31443
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

@@ -1,0 +1,29 @@
+id: '2605.31262'
+title: Non-linear density scaling of spin noise reveals atomic correlations in warm vapors
+authors:
+  - Joseph Delpy
+  - Elwyn Cardoz
+  - Adwaith KV
+  - Nikos Fayard
+  - Nadia Belabas
+  - Fabien bretenaker
+  - Fabienne Goldfarb
+year: 2026
+abstract: We experimentally demonstrate a non-linear dependence of the spin noise variance on atomic density in a warm alkali vapor. Implementing high-bandwidth spin noise spectroscopy (SNS) near the D2 transition of rubidium, a quadratic spin noise contribution is shown to arise at high densities, in contrast with the linear dependence valid in non-interacting ensembles. This non-linear scaling is shown to crucially depend on the residual optical excitation of the vapor by the probe beam, suggesting it stems from atomic cross-correlations due to resonant dipole-dipole interaction (DDI) in the vapor. We support this claim by introducing an additional experimental protocol to quench the ddi, resulting in a suppression of both the quadratic scaling of the spin variance and the distortions of the spin noise spectrum induced by the interaction. These results extend the applications of SNS to the characterization of many-body correlations in complex quantum systems.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31262
+  pdf: https://arxiv.org/pdf/2605.31262
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

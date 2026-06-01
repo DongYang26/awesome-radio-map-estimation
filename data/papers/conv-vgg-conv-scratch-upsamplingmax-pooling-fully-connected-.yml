@@ -1,0 +1,21 @@
+id: conv-vgg-conv-scratch-upsamplingmax-pooling-fully-connected-
+title: Conv-VGG Conv-Scratch UpsamplingMax Pooling Fully Connected Sigmoid BCE Cost Adversarial Cost Image Stimuli + Predicted Saliency Map Image Stimuli + Ground Truth Saliency Map Generator Discriminator
+authors:
+  - Junting Pan
+  - E. Sayrol
+year: 2017
+tldr: ''    # TODO: maintainer verify
+# links:  # TODO: maintainer verify — no arxiv/pdf/doi link found; add one
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

@@ -1,0 +1,25 @@
+id: '2605.31418'
+title: Optimization of multisite reactions in complex compartmentalized media
+authors:
+  - T. V. Mendes
+  - T. Guérin
+year: 2026
+abstract: In complex media, transport and geometric properties deeply influence the kinetics of random encounters between reactants. Here, we consider the situation where a random walker, moving in a regularly diffusing medium, has to reach and activate a target located inside a compartment characterized by fractal (obstructed) sub-diffusion. We focus on dual-site reactions, which end when two activation events occur within a given time window. Each activation event happens with a finite probability whenever the random walker visits the target. For weakly reactive targets, we demonstrate that the reaction time can be minimized for an optimal compartment size and can even be accelerated when compared to the same system without compartment. Our analytical predictions are validated through simulations of a random walker on a cubic lattice, where some sites inside the compartment are obstructed at the critical percolation threshold. Our theory illustrates the fact that adding a crowded compartment around a target, even if it slows down the motion in its vicinity, can accelerate the kinetics of complex reactions, especially for weakly reactive targets.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31418
+  pdf: https://arxiv.org/pdf/2605.31418
+  doi: https://doi.org/10.1103/ny3j-ttxs
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

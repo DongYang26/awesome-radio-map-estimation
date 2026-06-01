@@ -1,0 +1,26 @@
+id: multiagent-reinforcement-learning-based-spectrum-sensing-pol
+title: Multiagent Reinforcement Learning Based Spectrum Sensing Policies for Cognitive Radio Networks
+authors:
+  - J. Lundén
+  - Sanjeev R. Kulkarni
+  - V. Koivunen
+  - H. Vincent Poor
+year: 2013
+venue: IEEE Journal on Selected Topics in Signal Processing
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/JSTSP.2013.2259797
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - spectrum-occupancy  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 63
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

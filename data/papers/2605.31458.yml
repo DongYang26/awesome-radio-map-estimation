@@ -1,0 +1,25 @@
+id: '2605.31458'
+title: Ladder Logic Translation using Large Language Models in Industrial Automation
+authors:
+  - Oluwatosin Ogundare
+  - Promise Ekpo
+  - Nathanial Wiggins
+year: 2026
+abstract: Ladder logic translation is an important problem in industrial automation because without it, it is difficult to switch Programmable Logic Controller (PLC) vendors. The prevailing translation problem highlights mismatched programming environments, incompatible ladder logic constructs, limitations in terms of differences in the semantic expressiveness of the vendor formalisms and integrated black-box proprietary engineering tools which are exemplified in our example case; Rockwell to Siemens PLC code translation. This work presents a mathematical formulation of the problem, the detailed architecture of a solution which supports XML extraction, structural normalization, constrained generative function (LLM), and system integration via the TIA Portal Openness API as rigorously engineered pipeline for automated translation of Rockwell Ladder Programs to Siemens S7 ladder programs. Finally, we present results that show that the translations retain high semantic consistency across instruction categories.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31458
+  pdf: https://arxiv.org/pdf/2605.31458
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

@@ -1,0 +1,25 @@
+id: '2605.31602'
+title: 'Twin Algebras: Condensable Algebras beyond Anyons'
+authors:
+  - Yuhan Gai
+  - Sakura Schafer-Nameki
+  - Alison Warman
+year: 2026
+abstract: Condensable algebras in 2+1d non-chiral topological orders characterize gapped boundary conditions and interfaces. Applied to the Symmetry Topological Field Theory, they allow classification of symmetric gapped phases and impose sharp constraints on possible phase transitions. A condensable algebra is specified not only by its underlying set of anyons, which end on the boundary or interface, but also by its algebra structure. We introduce the concept of twin condensable algebras, which have the same anyon decomposition, but inequivalent algebra structure. We revisit the classification of condensable algebras in $\mathcal{Z}(\text{Vec}_G^ω)$, i.e. in group-theoretical topological orders for finite groups $G$ with anomaly $ω$. In this context we are able to identify twin algebras that arise from different mechanisms, such as subgroup data, SPT cocycles, and symmetry actions. In particular, we construct infinite families of examples of twins from so-called Gassmann triples, and exhibit cases in which the reduced topological orders are inequivalent despite having identical anyon content. Physically, twin algebras describe distinct symmetric phases that have isomorphic spaces of ground states, but inequivalent order parameters. Such twin phases never exhibit relative spontaneous symmetry breaking, and can be used to construct phase transitions without hidden symmetry breaking, which are intrinsically beyond Landau transitions.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31602
+  pdf: https://arxiv.org/pdf/2605.31602
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

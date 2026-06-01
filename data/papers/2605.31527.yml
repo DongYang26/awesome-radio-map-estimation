@@ -1,0 +1,26 @@
+id: '2605.31527'
+title: Accessing Exotic Hadronic States via Charmed-Meson Femtoscopy in Relativistic Heavy-Ion Collisions
+authors:
+  - Jiaxing Zhao
+  - Taesoo Song
+  - Elena Bratkovskaya
+  - Joerg Aichelin
+year: 2026
+abstract: The two-particle correlation function measured in femtoscopic analyses provides access to the interaction potentials between emitted particles. This offers a unique opportunity to investigate interactions among charmed mesons and to explore the nature of possible exotic hadronic states. In this Letter, we study femtoscopic correlations of various charmed-meson pairs in relativistic heavy-ion collisions. The dynamical evolution of the system and charm hadron production are described within the Parton-Hadron-String Dynamics (PHSD) transport approach, while the correlation functions are computed using the Correlation Analysis Tool using the Schrödinger equation (CATS). We demonstrate that heavy-ion collisions provide a significantly more favorable environment than $pp$ collisions for accessing charmed meson femtoscopic correlations. This arises from enhanced charm-quark production, reduced relative momenta due to in-medium energy loss, and a strong suppression of initial-state correlations. Our results indicate that femtoscopic measurements in heavy-ion collisions offer a sensitive probe of charmed meson interactions and possible hadronic molecular states.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31527
+  pdf: https://arxiv.org/pdf/2605.31527
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

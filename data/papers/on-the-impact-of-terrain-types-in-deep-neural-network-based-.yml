@@ -1,0 +1,31 @@
+id: on-the-impact-of-terrain-types-in-deep-neural-network-based-
+title: On the Impact of Terrain Types in Deep Neural Network-Based Surrogates of Radio Maps
+authors:
+  - Fukuharu Tanaka
+  - Takamasa Higuchi
+  - Masaki Takanashi
+  - Tatsuya Amano
+  - Hamada Rizk
+  - Akira Uchiyama
+  - Akihito Hiromori
+  - Hirozumi Yamaguchi
+year: 2025
+venue: International Conference on Mobile Computing and Ubiquitous Networking
+abstract: Radio maps, encoding wireless propagation characteristics over a region of interest, have been harnessed as a powerful tool to optimize various aspects of wireless communication systems. Generation of wide-scale radio maps is often a time-consuming process, necessitating extensive wireless propagation simulations and/or measurement campaigns. This hinders its applicability to vehicle-to-everything (V2X) communications, where wireless propagation environment may frequently change over time due to vehicle mobility. Surrogate models by Deep Neural Networks (DNNs) have emerged as a potential solution for low-latency path-loss estimation, yet most of the existing models in the literature are tuned to specific terrain types, lacking generalizabity to different kinds of terrains. In this work, we aim to develop a terrain-aware surrogate model for radio-map prediction that can robustly handle diverse propagation environments. To this end, we first analyze the internal behavior of a state-of-the-art DNN backbone, RadioUnet, to examine how terrain types are reflected in its latent space. Visualizing bottleneck features with UMAP reveals three distinct clusters—urban areas, forested plains, and sloped terrains. We also observe that prediction errors increase in tree-covered areas and near steep slopes or building edges, suggesting the need for terrain-specific modeling. As a first step in this direction, we introduce a simple multitask framework where the model jointly predicts terrain class and path-loss using a shared encoder. This explicit terrain supervision improves prediction accuracy when the dataset or model size is small.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.23919/ICMU65253.2025.11219164
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

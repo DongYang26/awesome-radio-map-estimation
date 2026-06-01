@@ -1,0 +1,26 @@
+id: '2605.29867'
+title: Design-Oriented Modeling of TSV Substrate Noise Coupling to Ring VCOs
+authors:
+  - Ilias Exouzidis
+  - Alberto Garcia-Ortiz
+  - George Floros
+  - Georgios Panagopoulos
+year: 2026
+abstract: Through-silicon vias (TSVs) enable dense vertical interconnects in 3D-IC and chiplet systems, but their metal-oxide-silicon structure introduces significant parasitic coupling paths that can degrade the spectral purity of sensitive RF blocks. This paper presents a compact, design-oriented methodology for assessing TSV-induced substrate noise in mixed-signal circuits. We derive a closed-form analytical three-port RLGC macromodel for a Signal-Ground TSV pair that explicitly exposes the substrate node. The methodology is validated using a three-stage Ring VCO designed in a 22 nm FD-SOI technology, where specific RF devices from the process design kit (PDK) provide direct access to the transistor substrate terminals for controlled noise injection. Multi-tone Harmonic Balance simulations in Spectre RF quantify the impact of TSV aggressors on the oscillator's output spectrum. The results indicate that an aggressor of 1 GHz, 0.5 V$_{pp}$ induces a primary sideband spur of -35.2 dBc. Sensitivity characterization reveals that the magnitude of these sideband spurs increases monotonically with the aggressor amplitude. Furthermore, frequency sweeps demonstrate a low-pass coupling response, where the induced spur magnitude decreases from -20.2 dBc at 500 MHz to -33.1 dBc at 2 GHz.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.29867
+  pdf: https://arxiv.org/pdf/2605.29867
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

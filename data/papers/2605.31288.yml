@@ -1,0 +1,26 @@
+id: '2605.31288'
+title: 'Stochastic bifurcation analysis via polynomial chaos: consistency and convergence of branch-approximating solutions'
+authors:
+  - Giacomo Venier
+  - Isabella Carla Gonnella
+  - Federico Pichi
+  - Gianluigi Rozza
+year: 2026
+abstract: 'Parameter-dependent dynamical systems that exhibit bifurcations pose significant computational challenges, as traditional continuation methods require repeated, costly simulations across large ranges of parameter values to capture sudden qualitative changes in the solution. In this work, we propose a systematic approach to reconstruct the branches of the entire bifurcation diagram in a single numerical solver leveraging generalized Polynomial Chaos (PC) expansion. By treating the parameter as a random variable, we cast the deterministic parameter-dependent model in a weak stochastic form, and then use a Galerkin projection to recover bifurcation branches globally across the parameter domain without iterative pointwise continuation. We show that the resulting Galerkin system, in the non-uniqueness regime, produces many discrete algebraic roots that naturally split into two classes: highly oscillatory solutions and branch-approximating ones. We develop a rigorous theoretical framework that establishes consistency, proves convergence of the branch-approximating solutions to the true steady states, and guarantees uniqueness of the Galerkin solution under suitable assumptions. Finally, we confirm these theoretical results with numerical experiments on several parameter-dependent ordinary differential equations (ODEs), demonstrating the accuracy and computational efficiency of our single-run framework in capturing complex bifurcation diagrams for both scalar and vector-valued systems.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31288
+  pdf: https://arxiv.org/pdf/2605.31288
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

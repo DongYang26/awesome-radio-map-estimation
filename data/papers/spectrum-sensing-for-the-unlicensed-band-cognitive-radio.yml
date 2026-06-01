@@ -1,0 +1,28 @@
+id: spectrum-sensing-for-the-unlicensed-band-cognitive-radio
+title: Spectrum sensing for the unlicensed band cognitive radio
+authors:
+  - N. Milosevic
+  - Z. Nikolic
+  - F. Jelenkovic
+  - Valentina Nejkovic
+  - M. Tosic
+  - I. Seskar
+year: 2015
+venue: Telecommunications Forum
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/TELFOR.2015.7377458
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - spectrum-occupancy  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 4
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

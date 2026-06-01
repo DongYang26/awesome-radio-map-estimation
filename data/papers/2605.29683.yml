@@ -1,0 +1,25 @@
+id: '2605.29683'
+title: 'WF-Bench: A Benchmark for Neural Network WaveFunction Expressivity and Scaling Laws'
+authors:
+  - Lixing Zhang
+  - Guijing Duan
+  - Di Luo
+year: 2026
+abstract: We present a comprehensive benchmarking dataset and empirical scaling law analysis for neural network wavefunctions by matching them to a wide spectrum of famous many body target wavefunctions. The dataset, WF-Bench, spans multiple distinct regimes of strongly correlated quantum matter, including topological states, Wigner crystals, and superconducting wavefunctions, providing a diverse and challenging test bed for neural network wavefunction expressivity. We introduce a systematic and reproducible benchmarking protocol for target wavefunction matching, enabling consistent performance evaluation across different neural network wavefunction architectures. By using wavefunction fidelity as the uniform metric, we discover empirical scaling laws that characterize how representability depends on system size and key model parameters, including number of determinant and model depth. By applying our benchmark protocol on Psiformer and Ferminet, we show that WF-Bench establishes a unified dataset driven framework for evaluating and comparing neural network wavefunctions and for guiding the design of future architectures.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.29683
+  pdf: https://arxiv.org/pdf/2605.29683
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

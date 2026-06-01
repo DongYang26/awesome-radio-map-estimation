@@ -1,0 +1,24 @@
+id: '2605.30413'
+title: Quark-Lepton Color-Flavor Unification
+authors:
+  - Antonio Delgado
+  - Seth Koren
+year: 2026
+abstract: We present an $SU(12) \times SU(2)_L \times U(1)_R$ model unifying $SU(9)$ quark color-flavor with $SU(3)$ lepton flavor as a flavorful alternative to conventional theories of unification. We begin in the ultraviolet with a single yukawa shared by the unified up-type quarks and neutrinos, and no further new fermions. We show that gauged quark color-flavor and lepton flavor instantons dynamically generate the bottom and tau yukawas, which implements a massless quark solution to the strong CP problem and sets up a flavored type-I seesaw mechanism. Only two new scalar irreps are needed for the symmetry-breaking steps, which include quark color-flavor deconstruction and then infrared reunification, and the Standard Model gauge group in this theory emerges as \[G_{\rm SM} = \frac{SU(3)_C \times SU(2)_L \times U(1)_Y \times \mathbb{Z}^X_{18}}{\mathbb{Z}_{3} \times Γ\times \mathbb{Z}_3},\] where $Γ\in \lbrace 1, \mathbb{Z}_2 \rbrace$ is the electroweak global structure and there is a discrete gauge symmetry $X = B - 3(L_i + L_j - L_k)$ which brings additional $\mathbb{Z}_3$ global structure to the SM. This gauge symmetry acts as a flavorful upgrade of the $\mathbb{Z}^{B+L}_{18}$ anomaly-free global symmetry of the SM and stabilizes the proton absolutely. Non-invertible chiral symmetry-breaking is crucial to our model, and we discuss the rich spectrum of emergent generalized symmetries and topological defects appearing at various stages. In the infrared, the novel shared quotient between continuous and discrete groups links the one-form and two-form global symmetries of the Standard Model.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.30413
+  pdf: https://arxiv.org/pdf/2605.30413
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

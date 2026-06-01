@@ -1,0 +1,23 @@
+id: '2605.31540'
+title: Migdal-Eliashberg and SUS-$Y^2$-SYK
+authors:
+  - D. V. Khveshchenko
+year: 2026
+abstract: This note addresses a number of subtle issues pertaining to the long-standing problem of strong phonon-like fermion-boson coupling. Among the central topics are the customary Migdal-Eliashberg approximation in the pertinent Schwinger-Dyson gap equation and its solutions. The previously gained insight is assessed by contrasting it against the various (non-)supersymmetric variants of the Yukawa-Sachdev-Ye-Kitaev model. Also, some previously discussed (pseudo-)holographic aspects of fermion pairing in such models are commented upon.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31540
+  pdf: https://arxiv.org/pdf/2605.31540
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

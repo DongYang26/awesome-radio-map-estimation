@@ -1,0 +1,26 @@
+id: '2605.31553'
+title: Numerical analytical continuation of multivariate hypergeometric functions
+authors:
+  - M. A. Bezuglov
+  - B. A. Kniehl
+  - A. I. Onishchenko
+  - O. L. Veretin
+year: 2026
+abstract: 'We present a general framework for the high-precision numerical evaluation of multivariate hypergeometric functions defined as solutions of holonomic systems of partial differential equations. Our approach adapts and extends methods originally developed for multi-loop Feynman integrals to the setting of hypergeometric functions of many variables. In particular, we construct Pfaffian systems for arbitrary multivariate hypergeometric functions by applying the Laporta reduction algorithm to suitable systems of differential relations. Next, we construct a numerical scheme based on the Frobenius method, which allows us to compute local power-series solutions with controlled precision and to transport them along prescribed paths in the space of variables. A central part of the paper is devoted to a systematic analysis of multivaluedness and branch structure: we show how the Frobenius method can be used to access different Riemann sheets in a controlled way and to track changes of the solution under analytic continuation around singular loci.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31553
+  pdf: https://arxiv.org/pdf/2605.31553
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

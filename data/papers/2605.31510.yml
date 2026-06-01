@@ -1,0 +1,24 @@
+id: '2605.31510'
+title: Cooperative Uplink Channel Estimation in User-Centric Cell-free Massive MIMO Communication Networks
+authors:
+  - Pourya Behmandpoor
+  - Marc Moonen
+year: 2026
+abstract: Cell-free massive multi-input-multi-output (CFmMIMO) communication networks aim to provide uniform quality of service by distributing access points (APs) across a coverage area. In user-centric variants, each user equipment (UE) can choose a cluster of APs with the best channel conditions (e.g., the closest APs) for accessing service. This approach eliminates the notion of cells with dedicated regions and APs, as found in cellular mMIMO communication networks. Estimating uplink channels between UEs and APs is a crucial step in CFmMIMO communication networks; however, existing channel estimation (CE) approaches typically originate from mMIMO systems without considering the unique properties of CFmMIMO communication networks. For instance, shorter AP-UE distances in CFmMIMO systems result in Rician channel models with prominent line of sight (LoS) components between APs and UEs, motivating cooperation between APs for improved performance. In this paper, we propose a cooperative minimum-mean-squared-error (MMSE)-based uplink CE approach where APs share their linearly compressed signals as fused signals with other APs in the same cluster. The proposed approach is optimal, i.e., its performance is equivalent to that of the centralized CE approach, where APs share their uncompressed raw signals. Notably, this optimality is achieved in one shot; that is, given the required correlation matrices, the optimal fusion filters and estimators are derived non-iteratively. Consequently, the proposed approach guarantees lower communication overhead for cooperative CE compared to the centralized approach. Numerical experiments corroborate the superior performance of the proposed cooperative CE approaches in terms of CE accuracy and convergence rate.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31510
+  pdf: https://arxiv.org/pdf/2605.31510
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

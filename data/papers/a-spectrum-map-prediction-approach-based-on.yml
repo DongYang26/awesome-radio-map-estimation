@@ -1,0 +1,28 @@
+id: a-spectrum-map-prediction-approach-based-on
+title: A Spectrum Map Prediction Approach Based on
+authors:
+  - Shoushuai He
+  - Lei Zhu
+  - Lu Yu
+  - Kaixin Cheng
+  - Zhen Qin
+year: 2024
+venue: Information and Communication Technology Convergence
+abstract: Spectrum maps, as effective indicators of wireless environments, have been widely used in various applications, including localization and anomaly signal detection. However, it is difficult to maintain the latest spectrum map on a large scale, as it changes rapidly. Previous studies typically relied on long-term measurements at dense sensing nodes, resulting in delayed spectrum maps. This paper focuses on the scenario of constructing spectrum maps and investigates the problem of spatial-temporal data prediction. In this paper, a model based on spatial-temporal residual network is designed, which can effectively extract features from historical spatial-temporal data and predict the current spectrum map. Specifically, it explores the spatialtemporal relationships in historical spectrum maps and constructs real-time ones through deep neural networks. In addition, a recalibration block is designed to clearly quantify the differences in the contribution of spatial correlations. In order to evaluate the performance of the proposed model, extensive experiments are conducted on a simulated dataset. The experimental results indicate that the proposed model has exceeded the baseline models for multiple task settings. In particular, the transferability of the proposed model for different scenarios is also studied. The results indicate that the fine-tuned model can significantly reduce training time and improve prediction accuracy.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/ICTC61510.2024.10602089
+subfield: spectrum-cartography  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - spectrum-cartography  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 2
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

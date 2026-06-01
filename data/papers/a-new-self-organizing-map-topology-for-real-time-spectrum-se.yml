@@ -1,0 +1,24 @@
+id: a-new-self-organizing-map-topology-for-real-time-spectrum-se
+title: A new self-organizing map topology for real-time spectrum sensing and fast convergence
+authors:
+  - Liudas Stasionis
+  - A. Serackis
+year: 2015
+venue: EUROCON Conference
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/EUROCON.2015.7313761
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - spectrum-occupancy  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 2
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

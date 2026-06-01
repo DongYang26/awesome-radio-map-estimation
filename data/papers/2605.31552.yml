@@ -1,0 +1,27 @@
+id: '2605.31552'
+title: 'Spectral coarse spaces based on indefinite operators: the $H_k$-GenEO method'
+authors:
+  - Théophile Chaumont-Frelet
+  - Victorita Dolean
+  - Mark Fry
+  - Ivan G. Graham
+  - Matthias Langer
+year: 2026
+abstract: GenEO (`Generalised Eigenvalue problems on the Overlap') is a method for constructing coarse spaces used in the preconditioning of iterative solvers for discrete PDEs. This method combines a (small) number of modes of local PDE eigenproblems to obtain a global coarse space. A coarse solve is then combined with local solves of the global PDE to obtain the preconditioner. A substantial theory for GenEO has been developed for the case when the local elgenproblems are positive semi-definite. This has been applied mostly to positive definite global PDEs, but also recently extended to the case of convection--diffusion--reaction problems, which may be neither self-adjoint, nor positive definite. However, when the global problem is highly indefinite, coarse spaces built from positive semi-definite local eigenproblems fail to be robust in practice. In this paper we consider highly indefinite global PDE problems, characterised by a large parameter $k$ (allowing also highly variable coefficients), and we develop a new spectral coarse space built from solving eigenvalue problems based on \textit{local copies of the global problem}. We put no constraint on the diameters of the local domains, thus allowing the local eigenvalue problems to be indefinite. The new method (which we call $H_k$-GenEO) is seen to be much more robust as $k$ increases than methods based on positive semi-definite eigenproblems. We provide sufficient conditions for robustness of the preconditioned GMRES iterative method, in terms of the tolerance of the local eigenproblems and the size of the subdomains for the local PDE solves. In practice the method is observed to be robust with respect to $k$ under even weaker conditions on the local eigenproblem tolerance. The experiments also suggest the method can be resilient to high variation in PDE coefficients.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31552
+  pdf: https://arxiv.org/pdf/2605.31552
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

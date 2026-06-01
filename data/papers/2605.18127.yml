@@ -1,0 +1,29 @@
+id: '2605.18127'
+title: 'R$^{2}$Net: 2D Deep Residual Learning with Height Embedding for 3D Radio Map Estimation'
+authors:
+  - Huiting Rao
+  - Junyuan Wang
+  - Huiling Zhu
+  - Cheng-Xiang Wang
+year: 2026
+venue: IEEE Transactions on Vehicular Technology
+abstract: Acquiring channel knowledge is required by many applications. For instance, handover in cellular networks is mainly decided based on the knowledge of pathloss. In contrast to traditional statistical distance-determined models that might provide misleading pathloss estimates, researchers started to explore deep learning methods recently to accurately estimate the radio map that characterizes the spatial distribution of pathloss according to the specific physical wireless propagation environment. However, existing works mainly focused on 2D radio map estimation by assuming that all receivers are at the same height. In fact, radio maps could be significantly different at different receiver heights, highlighting the importance of 3D radio map estimation. In this paper, we first propose a method to embed height information into 2D images, and then propose a general 2D radio residual network (R$^{2}$Net) for 3D radio map estimation. Since pathloss exhibits different characteristics in indoor and outdoor scenarios, we specifically propose R$^{2}$Net-In for indoor scenarios and R$^{2}$Net-Out for outdoor scenarios to better capture penetration loss and diffraction loss, respectively. Extensive experimental results show that our R$^{2}$Net significantly outperforms the state-of-the-art benchmarks in terms of estimation accuracy, computational and storage costs, and inference speed. In addition, due to the lack of publicly available 3D radio map datasets, a 3D indoor radio map dataset (3DiRM3200) is created, which took more than $1,000$ labour hours. The dataset and codes will be available at https://github.com/lighttime2023/3DiRM3200.git.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.18127
+  doi: 10.1109/TVT.2026.3689969
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+  - pathloss-prediction  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: both  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

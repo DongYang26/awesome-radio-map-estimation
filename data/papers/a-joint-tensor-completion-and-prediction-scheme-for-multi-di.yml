@@ -1,0 +1,30 @@
+id: a-joint-tensor-completion-and-prediction-scheme-for-multi-di
+title: A Joint Tensor Completion and Prediction Scheme for Multi-Dimensional Spectrum Map Construction
+authors:
+  - Mengyun Tang
+  - Guoru Ding
+  - Qihui Wu
+  - Zhen Xue
+  - T. Tsiftsis
+year: 2016
+venue: IEEE Access
+abstract: Spectrum data, which are usually characterized by many dimensions, such as location, frequency, time, and signal strength, present formidable challenges in terms of acquisition, processing, and visualization. In practice, a portion of spectrum data entries may be unavailable due to the interference during the acquisition process or compression during the sensing process. Nevertheless, the completion work in multi-dimensional spectrum data has drawn few attention to the researchers working in the field. In this paper, we first put forward the concept of spectrum tensor to depict the multi-dimensional spectrum data. Then, we develop a joint tensor completion and prediction scheme, which combines an improved tensor completion algorithm with prediction models to retrieve the incomplete measurements. Moreover, we build an experimental platform using Universal Software Radio Peripheral to collect real-world spectrum tensor data. Experimental results demonstrate that the effectiveness of the proposed joint tensor processing scheme is superior than relying on the completion or prediction scheme only.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://ieeexplore.ieee.org/ielx7/6287639/7419931/07742926.pdf
+  doi: 10.1109/ACCESS.2016.2627243
+subfield: spectrum-cartography  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - spectrum-cartography  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 66
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

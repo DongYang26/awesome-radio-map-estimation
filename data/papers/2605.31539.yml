@@ -1,0 +1,30 @@
+id: '2605.31539'
+title: Automated Prediction of Postoperative Pancreatic Fistula Using Preoperative Computed Tomography
+authors:
+  - Ashok Choudhary
+  - Chris Varghese
+  - Leo Y. Li-Han
+  - Frank G. Lee
+  - Ellen L. Larson
+  - Elizabeth B. Habermann
+  - Cornelius A. Thiels
+  - Hojjat Salehinejad
+year: 2026
+abstract: Postoperative pancreatic fistula (POPF) is a serious complication after pancreatic resection, increasing morbidity, hospital stay, and healthcare costs. We present an automatic, end-to-end deep learning pipeline-from pancreatic segmentation to classification-for preoperative POPF risk estimation and stratification using preoperative CT scans. A data set with auto-segmented pancreas volumes and surgical outcomes was used to evaluate multiple architectures, including a custom lightweight 3D CNN baseline (CNN3D), R(2+1)D ResNet-18, and ResNet-MC3-18 models. Evaluation across multiple 3D architectures demonstrated promising predictive performance. This approach offers a clinically valuable tool and a methodological benchmark for pancreas-specific CT classification, supporting improved preoperative decision-making in pancreatic surgery.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31539
+  pdf: https://arxiv.org/pdf/2605.31539
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

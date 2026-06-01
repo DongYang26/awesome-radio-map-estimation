@@ -1,0 +1,23 @@
+id: '2605.31448'
+title: 'Pseudoentanglement in constant depth: How trivial states can have non-trivial entanglement structure'
+authors:
+  - Alexandru Gheorghiu
+year: 2026
+abstract: 'We construct a family of 2D-local constant-depth quantum circuits that output states whose entanglement entropy across a specified cut cannot be estimated in quantum polynomial time. As constant-depth quantum circuits can be learned from polynomially many quantum samples, our resulting pseudoentangled states are implicitly public-key and not pseudorandom. This separates pseudoentanglement from pseudorandomness in the shallow-circuit regime: the former is possible, while the latter is not. The construction is based on the quantum intractability of the Dense-Sparse Learning Parity with Noise problem introduced in [DJ25] and uses a bounded-fan-in, bounded-fan-out classical randomized encoding for linear maps $\mathbf{x} \mapsto \mathbf{Mx},$ which could be of independent interest. As applications, we obtain quantum hardness for the problem of learning the entanglement structure (across a fixed cut) of the ground-state of 1D and 2D local Hamiltonians. The 1D Hamiltonian has an inverse polynomial gap, whereas the 2D one has a constant gap. This complements the result of [BZZ24] that showed only factoring-based hardness for the 1D case, though achieving a volume versus area entanglement difference.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31448
+  pdf: https://arxiv.org/pdf/2605.31448
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

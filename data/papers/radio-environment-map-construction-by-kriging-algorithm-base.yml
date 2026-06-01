@@ -1,0 +1,31 @@
+id: radio-environment-map-construction-by-kriging-algorithm-base
+title: Radio Environment Map Construction by Kriging Algorithm Based on Mobile Crowd Sensing
+authors:
+  - Zhifeng Han
+  - J. Liao
+  - Q. Qi
+  - Haifeng Sun
+  - Jingyu Wang
+year: 2019
+venue: Wireless Communications and Mobile Computing
+abstract: In the IoT era, 5G will enable various IoT services such as broadband access everywhere, high user and devices mobility, and connectivity of massive number of devices. Radio environment map (REM) can be applied to improve the utilization of radio resources for the access control of IoT devices by allocating them reasonable wireless spectrum resources. However, the primary problem of constructing REM is how to collect the large scale of data. Mobile crowd sensing (MCS), leveraging the smart devices carried by ordinary people to collect information, is an effective solution for collecting the radio environment information for building the REM. In this paper, we build a REM collecting prototype system based on MCS to collect the data required by the radio environment information. However, limited by the budget of the platform, it is hard to recruit enough participants to join the sensing task to collect the radio environment information. This will make the radio environment information of the sensing area incomplete, which cannot describe the radio information accuracy. Considering that the Kriging algorithm has been widely used in geostatistics principle for spatial interpolation for Kriging giving the best unbiased estimate with minimized variance, we utilize the Kriging interpolation algorithm to infer complete radio environment information from collected sample radio environment information data. The interpolation performance is analyzed based on the collected sample radio environment information data. We demonstrate experiments to analyze the Kriging interpolation algorithm interpolation results and error and compared them with the nearest neighbor (NN) and the inverse distance weighting (IDW) interpolation algorithms. Experiment results show that the Kriging algorithm can be applied to infer radio environment information data based on the collected sample data and the Kriging interpolation has the least interpolation error.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://doi.org/10.1155/2019/4064201
+  doi: 10.1155/2019/4064201
+subfield: REM  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - Gaussian-process  # TODO: maintainer verify
+  - Kriging  # TODO: maintainer verify
+  - IDW  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 36
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

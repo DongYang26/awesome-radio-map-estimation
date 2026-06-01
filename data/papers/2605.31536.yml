@@ -1,0 +1,23 @@
+id: '2605.31536'
+title: Closed-form linear moments of the two-dimensional angular central Gaussian distribution
+authors:
+  - Siméon Vareilles
+year: 2026
+abstract: 'The polar-angle marginal of a centred bivariate Gaussian distribution, obtained after integrating out the radial coordinate, gives the two-dimensional angular central Gaussian (ACG) distribution of Tyler. While its trigonometric and vector-valued moments have been studied in detail, to our knowledge there are no explicit closed-form expressions for the \emph{linear} moments $\mathbf{E}[θ]$ and $\mathbf{E}[θ^{2}]$ on the natural domain $θ\in\left]-π/2,π/2\right[$. Here \textit{linear} refers to the ordinary moments $\intθ^{k}f(θ)\,dθ$ of the angle regarded as a real-valued variable, in contrast to the circular (trigonometric) moments $\mathbf{E}[e^{ikθ}]$ customary in directional statistics. We provide such expressions: the mean is a simple arctangent of the parameters, while the second moment is given by the real part of a dilogarithm. The derivation, based on a contour integration around the branch cut of $\arctan z$, is elementary. These quantities naturally arise in physics, where $θ$ is interpreted as a real-valued phase rather than a circular variable.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31536
+  pdf: https://arxiv.org/pdf/2605.31536
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

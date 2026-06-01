@@ -1,0 +1,26 @@
+id: analysis-and-modelling-of-flood-risk-assessment-using-inform
+title: Analysis and modelling of flood risk assessment using information diffusion and artificial neural network
+authors:
+  - Qiong Li
+  - Xingwen Jiang
+  - Donghan Liu
+year: 2013
+abstract: 'Floods are a serious hazard to life and property. The traditional probability statistical method is acceptable in analysing the flood risk but requires a large sample size of hydrological data. This paper puts forward a composite method based on artificial neural network (ANN) and information diffusion method (IDM) for flood analysis. Information diffusion theory helps to extract as much useful information as possible from the sample and thus improves the accuracy of system recognition. Meanwhile, an artificial neural network model, back-propagation (BP) neural network, is used to map the multi-dimensional space of a disaster situation to a one-dimensional disaster space and to enable resolution of the grade of flood disaster loss. These techniques all contribute to a reasonable prediction of natural disaster risk. As an example, application of the method is verified in a flood risk analysis in China, and the risks of different flood grades are determined. Our model yielded very good results and suggests that the methodology is effective and practical, with the potentiality to be used to forecast flood risk for use in flood risk management. It is also hoped that by conducting such analyses lessons can be learned so that the impact of natural disasters such as floods can be mitigated in the future. Keywords: artificial neural network, information diffusion, flood, risk analysis, assessment'
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://www.ajol.info/index.php/wsa/article/download/95349/84692
+  doi: 10.4314/WSA.V39I5.8
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 20
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

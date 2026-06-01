@@ -1,0 +1,26 @@
+id: region-of-interest-extraction-based-on-local-global-contrast
+title: Region-of-Interest Extraction Based on Local-Global Contrast Analysis and Intra-Spectrum Information Distribution Estimation for Remote Sensing Images
+authors:
+  - Li-bao Zhang
+  - Shiyi Wang
+year: 2017
+venue: Remote Sensing
+abstract: Traditional saliency analysis models have made great advances in region of interest (ROI) extraction in natural scene images and videos. However, due to different imaging mechanisms and image features, those approaches are not quite appropriate for remote sensing images. Thus, we propose a novel saliency analysis and ROI extraction method for remote sensing images, which is composed of local–global contrast analysis for panchromatic images and intra-spectrum information distribution estimation (LI) for multi-spectral images. The panchromatic image is first segmented into superpixels via level set methods to reduce the subsequent computation complexity and keep region boundaries. Then, the spatially weighted superpixel intensity contrast is calculated globally to highlight superpixels unique to others and obtain the intensity saliency map. In multi-spectral images, ROIs are often included in informative superpixels; therefore, the information theory is introduced to each spectrum independently to acquire the spectrum saliency map. The final result is obtained by fusing the intensity saliency map and the spectrum saliency map and enhancing pixel-level saliency. To improve the anti-noise properties, we employ the Gaussian Pyramid for multi-scale analysis, which removes noise points by the blurring operation and the down-sampling operation. Experiments were conducted aiming at comparing the LI model with nine competing models qualitatively and quantitatively. The results show that the LI model performs better in maintaining intact ROIs with well-defined boundaries and less outside interference, and it tends to be stable when faced with images contaminated by noise.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://www.mdpi.com/2072-4292/9/6/597/pdf?version=1497498870
+  doi: 10.3390/rs9060597
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 11
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

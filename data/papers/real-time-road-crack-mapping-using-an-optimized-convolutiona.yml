@@ -1,0 +1,29 @@
+id: real-time-road-crack-mapping-using-an-optimized-convolutiona
+title: Real-Time Road Crack Mapping Using an Optimized Convolutional Neural Network
+authors:
+  - Mohammad Mahdi Naddaf Shargh
+  - Seyedsaeid Hosseini
+  - Jing Zhang
+  - Nicholas A. Brake
+  - H. Zargarzadeh
+year: 2019
+venue: Complex
+abstract: Pavement surveying and distress mapping is completed by roadway authorities to quantify the topical and structural damage levels for strategic preventative or rehabilitative action. The failure to time the preventative or rehabilitative action and control distress propagation can lead to severe structural and financial loss of the asset requiring complete reconstruction. Continuous and computer-aided surveying measures not only can eliminate human error when analyzing, identifying, defining, and mapping pavement surface distresses, but also can provide a database of road damage patterns and their locations. The database can be used for timely road repairs to gain the maximum durability of the asphalt and the minimum cost of maintenance. This paper introduces an autonomous surveying scheme to collect, analyze, and map the image-based distress data in real time. A descriptive approach is considered for identifying cracks from collected images using a convolutional neural network (CNN) that classifies several types of cracks. Typically, CNN-based schemes require a relatively large processing power to detect desired objects in images in real time. However, the portability objective of this work requires to utilize low-weight processing units. To that end, the CNN training was optimized by the Bayesian optimization algorithm (BOA) to achieve the maximum accuracy and minimum processing time with minimum neural network layers. First, a database consisting of a diverse population of crack distress types such as longitudinal, transverse, and alligator cracks, photographed at multiple angles, was prepared. Then, the database was used to train a CNN whose hyperparameters were optimized using BOA. Finally, a heuristic algorithm is introduced to process the CNN’s output and produce the crack map. The performance of the classifier and mapping algorithm is examined against still images and videos captured by a drone from cracked pavement. In both instances, the proposed CNN was able to classify the cracks with 97% accuracy. The mapping algorithm is able to map a diverse population of surface cracks patterns in real time at the speed of 11.1 km per hour.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://doi.org/10.1155/2019/2470735
+  doi: 10.1155/2019/2470735
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 33
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

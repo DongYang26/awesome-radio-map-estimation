@@ -1,0 +1,27 @@
+id: design-of-optimal-non-uniform-quantizer-in-imperfect-noisy-r
+title: Design of Optimal Non-Uniform Quantizer in Imperfect Noisy Reporting Channels for Collaborative Spectrum Sensing
+authors:
+  - Masoumeh Naderipour
+  - Amirhossein Taherpour
+  - Abbas Taherpour
+  - S. Gazor
+year: 2020
+venue: IEEE Transactions on Vehicular Technology
+abstract: We design an optimal non-uniform quantizer for collaborative spectrum sensing (CSS) in cognitive radio networks (CRNs). We assume non-ideal reporting channels are and consist of additive white Gaussian noise (AWGN). To design the optimum quantization at the transmitter, we minimize the mean square error (MMSE) at the receiver. The local data at each secondary user (SU) is quantized and transmitted via an AWGN reporting channel. Then, quantized symbols are received and decoded at the fusion center (FC) by a maximum a-posteriori probability (MAP) rule and, the final collaborative decision is made. By this method, a prediction is done for representation points of the quantizer and moreover, quantization and reporting channel noises are minimized, simultaneously. In addition, by taking into account the reporting channel noise in quantizer design, detection performance will be adaptive to change of signal to noise ratio (SNR) in the reporting channel. The simulation results demonstrate the superiority of the proposed quantizer compared to different quantizers in practical noisy reporting channels.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/TVT.2020.3015219
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - spectrum-occupancy  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 13
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

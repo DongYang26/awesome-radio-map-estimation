@@ -1,0 +1,29 @@
+id: ml-based-delay-angle-joint-path-loss-prediction-for-uav-mmwa
+title: ML-based delay–angle-joint path loss prediction for UAV mmWave channels
+authors:
+  - Kai Mao
+  - Benzhe Ning
+  - Qiuming Zhu
+  - Xijuan Ye
+  - Hanpeng Li
+  - Mao-zhong Song
+  - B. Hua
+year: 2021
+venue: Wireless networks
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1007/s11276-021-02817-6
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 7
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

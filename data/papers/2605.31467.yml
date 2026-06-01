@@ -1,0 +1,23 @@
+id: '2605.31467'
+title: Ab Initio Spinor Kadanoff-Baym Approach to Nonequilibrium Electron, Phonon and Magnon Dynamics in Itinerant Ferromagnets
+authors:
+  - Giovanni Marini
+year: 2026
+abstract: This work introduces a theoretical framework based on the Kadanoff-Baym equations in spinor space to study ultrafast magnetization dynamics in itinerant ferromagnetic systems from first principles. By incorporating spin-orbit coupling into the ab initio Hamiltonian and generalizing the self-energies to include terms beyond the charge sector, I derive scattering integrals within the Markov approximation and quasiparticle renormalizations for electrons and phonons in the presence of spin-dependent effective interactions within a many-body perturbation theory approach. I explicitly discuss how magnons emerge in this framework, and derive, through suitable approximations, a close and tractable set of equations for coupled electron,phonon and magnon dynamics that can be solved from first principles. This approach allows to treat coherent and incoherent magnetic dynamics on an equal footing, paving the way for a first principles understanding of ultrafast magnetic dynamics and demagnetization, and opening to a truly predictive theory of femtomagnetism in periodic systems.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31467
+  pdf: https://arxiv.org/pdf/2605.31467
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

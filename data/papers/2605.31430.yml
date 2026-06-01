@@ -1,0 +1,27 @@
+id: '2605.31430'
+title: Spectral density estimation for normal matrices
+authors:
+  - Cameron Musco
+  - Christopher Musco
+  - Rikhav Shah
+  - John Urschel
+  - Nicholas West
+year: 2026
+abstract: The spectral density estimation problem asks for an algorithm that, given an $n\times n$ matrix $A$, outputs a probability measure that is a good approximation to the uniform distribution on the eigenvalues of $A$, called the spectral density of $A$. This paper considers the setting where $A$ is a large normal matrix that is accessible only through matrix-vector product queries. We provide an algorithm that makes just $m$ matrix-vector queries to $A$ and returns, with high probability, a measure within earth mover's distance $O(1/m+\log m/{\sqrt n})$ of the true spectral density of $A$. We provide a complementary lower bound that any algorithm producing an $\varepsilon$-approximation to the true spectral density for large matrices must make $Ω(1/\varepsilon)$ matrix-vector queries. The lower bound holds even for the more restricted case of real symmetric input matrices. In combination with our upper bound, it shows that spectral density estimation is essentially no harder for complex normal matrices than for real symmetric matrices.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31430
+  pdf: https://arxiv.org/pdf/2605.31430
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

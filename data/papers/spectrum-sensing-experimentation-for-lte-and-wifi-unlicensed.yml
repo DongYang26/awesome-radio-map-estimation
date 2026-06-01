@@ -1,0 +1,28 @@
+id: spectrum-sensing-experimentation-for-lte-and-wifi-unlicensed
+title: Spectrum sensing experimentation for LTE and WiFi unlicensed band operation
+authors:
+  - N. Milosevic
+  - Z. Nikolic
+  - F. Jelenkovic
+  - Valentina Nejkovic
+  - M. Tosic
+year: 2016
+abstract: —If several different systems operate in the same frequency band, a coordination between them is needed for effective use of the available spectrum. The coordination is especially important if the systems are not designed to operate in such an environment. The very important initial phase of the coordination process is acquiring of the spectrum usage map or spectrum sensing. The paper describes the spectrum sensing experimentation in the unlicensed 5 GHz band during the WiFi or LTE transmission. It describes the experiment workflow and depicts the obtained results. The experiments were performed at NITOS testbed at the University of Thessaly, Greece, and show that it is possible to determine whether WiFi or LTE transmission is sensed. Therefore, based on spectrum sensing it will be possible to coordinate a shared access of WiFi and LTE users in the unlicensed 5 GHz band.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://scindeks-clanci.ceon.rs/data/pdf/1821-3251/2016/1821-32511602076M.pdf
+  doi: 10.5937/TELFOR1602076M
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - spectrum-occupancy  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 2
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

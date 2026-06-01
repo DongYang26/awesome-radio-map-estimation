@@ -1,0 +1,32 @@
+id: '2605.31542'
+title: Recovering the Shape of a Contact Line
+authors:
+  - Ashbell Abraham
+  - Audrey Profeta
+  - Jeanette Smit
+  - Esmeralda Orozco
+  - Charity Lizardo
+  - Dani Medina
+  - Aidan McGuckin
+  - Bri Kroger
+  - Shae Cole
+  - Nathan C. Keim
+year: 2026
+abstract: 'We study the conditions for a three-phase contact line to return to a previous position. We drive a water-air-glass contact line between two horizontal plates, by slowly adding and removing water with a constant volume amplitude. For the first several cycles, the contact line ends each cycle with a different shape, in contrast with previously published work. Eventually the shapes begin to repeat, and the system has memory: a cycle with a smaller amplitude ends in a different shape, but even one cycle at the original amplitude recovers the steady-state shape. After a cycle at a larger amplitude, the steady-state shape is erased. We find that our tight control of the enclosed volume creates a global interaction, wherein only the least stable part of the contact line can move. Using theory and minimal models, we show that this interaction gives rise to the transient behaviors. Our study sheds light on the origins of reversibility and memory in a system where neither is guaranteed, and shows that the physics of contact line motion changes in a confined environment.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31542
+  pdf: https://arxiv.org/pdf/2605.31542
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

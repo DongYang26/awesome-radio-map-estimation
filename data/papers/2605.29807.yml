@@ -1,0 +1,24 @@
+id: '2605.29807'
+title: Data filtering methods for training language models
+authors:
+  - Egor Shevchenko
+  - Elena Bruches
+year: 2026
+abstract: 'Data quality is a critical factor in the effectiveness of machine learning models. Label errors, present even in widely used benchmarks, introduce noise into training data and reduce model generalization. In this work, we conduct a comparative analysis of two automatic label error detection methods - Confident Learning and Dataset Cartography - on three Russian text classification corpora of varying size, number of classes, and domain: ru_emotion_e-culture (49,123 examples, emotion classification), RuCoLA (8,524 examples, linguistic acceptability), and TERRa (2,337 examples, textual entailment recognition). We use the pre-trained rubert-base-cased model fine-tuned on each corpus. To verify the meaningfulness of filtering, we conduct control experiments with random removal of an equivalent number of examples. Results show that the effectiveness of both methods depends strongly on dataset characteristics: on large corpora with low noise levels, filtering does not improve performance, while on small datasets with high noise, Confident Learning achieves a significant F1-macro improvement. Dataset Cartography demonstrates more conservative behavior, removing fewer examples. Across all corpora, targeted removal by both methods outperforms random removal, confirming the meaningfulness of the approaches.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.29807
+  pdf: https://arxiv.org/pdf/2605.29807
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - Transformer  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

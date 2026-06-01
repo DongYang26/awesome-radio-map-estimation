@@ -1,0 +1,29 @@
+id: multi-atlas-brain-parcellation-using-squeeze-and-excitation-
+title: Multi-Atlas Brain Parcellation Using Squeeze-and-Excitation Fully Convolutional Networks
+authors:
+  - Zhenyu Tang
+  - Xianli Liu
+  - Y. Li
+  - P. Yap
+  - D. Shen
+year: 2020
+venue: IEEE Transactions on Image Processing
+abstract: Multi-atlas parcellation (MAP) is carried out on a brain image by propagating and fusing labelled regions from brain atlases. Typical nonlinear registration-based label propagation is time-consuming and sensitive to inter-subject differences. Recently, deep learning parcellation (DLP) has been proposed to avoid nonlinear registration for better efficiency and robustness than MAP. However, most existing DLP methods neglect using brain atlases, which contain high-level information (e.g., manually labelled brain regions), to provide auxiliary features for improving the parcellation accuracy. In this paper, we propose a novel multi-atlas DLP method for brain parcellation. Our method is based on fully convolutional networks (FCN) and squeeze-and-excitation (SE) modules. It can automatically and adaptively select features from the most relevant brain atlases to guide parcellation. Moreover, our method is trained via a generative adversarial network (GAN), where a convolutional neural network (CNN) with multi-scale $l_{1}$ loss is used as the discriminator. Benefiting from brain atlases, our method outperforms MAP and state-of-the-art DLP methods on two public image datasets (LPBA40 and NIREP-NA0).
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/TIP.2020.2994445
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - GAN  # TODO: maintainer verify
+  - CNN  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 14
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

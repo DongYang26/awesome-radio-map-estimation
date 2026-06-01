@@ -1,0 +1,30 @@
+id: a-cooperative-spectrum-sensing-method-based-on-information-g
+title: A cooperative spectrum sensing method based on information geometry and fuzzy c-means clustering algorithm
+authors:
+  - Shunchao Zhang
+  - Yonghua Wang
+  - Jiangfan Li
+  - Pin Wan
+  - Yongwei Zhang
+  - Nan Li
+year: 2019
+venue: EURASIP Journal on Wireless Communications and Networking
+abstract: To improve spectrum sensing performance, a cooperative spectrum sensing method based on information geometry and fuzzy c-means clustering algorithm is proposed in this paper. In the process of signal feature extraction, a feature extraction method combining decomposition, recombination, and information geometry is proposed. First, to improve the spectrum sensing performance when the number of cooperative secondary users is small, the signals collected by the secondary users are split and reorganized, thereby logically increasing the number of cooperative secondary users. Then, in order to visually analyze the signal detection problem, the information geometry theory is used to map the split and recombine signals onto the manifold, thereby transforming the signal detection problem into a geometric problem. Further, use geometric tools to extract the corresponding statistical characteristics of the signal. Finally, according to the extracted features, the appropriate classifier is trained by the fuzzy c-means clustering algorithm and used for spectrum sensing, thus avoiding complex threshold derivation. In the simulation results and performance analysis section, the experimental results were further analyzed, and the results show that the proposed method can effectively improve the spectrum sensing performance.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://jwcn-eurasipjournals.springeropen.com/track/pdf/10.1186/s13638-019-1338-z
+  doi: 10.1186/s13638-019-1338-z
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - spectrum-occupancy  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: unsupervised  # TODO: maintainer verify
+citations: 33
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

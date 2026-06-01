@@ -1,0 +1,32 @@
+id: location-based-joint-spectrum-sensing-and-radio-resource-all
+title: Location Based Joint Spectrum Sensing and Radio Resource Allocation in Cognitive Radio Enabled LTE-U Systems
+authors:
+  - Qi Yang
+  - Yi-Feng Huang
+  - Yin-Chen Yen
+  - Ling-Yu Chen
+  - Hsiao-Hwa Chen
+  - Xuemin Hong
+  - Jianghong Shi
+  - Liangmin Wang
+year: 2020
+venue: IEEE Transactions on Vehicular Technology
+abstract: To support high speed transmission and traffic offloading from cellular networks, LTE-unlicensed (LTE-U) standard was proposed by 3GPP to enable cellular data transmission in unlicensed band. The primary challenge of LTE-U is to successfully coexist with the incumbent systems (e.g., WiFi networks) in the unlicensed bands, while still maintaining the quality-of-service (QoS) for LTE-A users. This paper proposes a new framework for implementing LTE-U standard based on deployed LTE-A infrastructure and cognitive radio (CR) technology to sense radio environment and construct a spectrum map, based on which the LTE-U system can perform joint power and channel allocation to maximize the overall system throughput. We introduce a spectrum map construction scheme and evaluate the Cramer-Rao bound of the scheme. It is shown that the original NP-hard joint power and channel allocation problem can be transformed into a linear programming problem for its solution. Simulation results verify that the proposed LTE-U scheme helps improve system throughput via access collision avoidance.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/TVT.2020.2966514
+subfield: spectrum-cartography  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - spectrum-occupancy  # TODO: maintainer verify
+  - spectrum-cartography  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 16
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

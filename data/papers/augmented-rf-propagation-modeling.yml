@@ -1,0 +1,29 @@
+id: augmented-rf-propagation-modeling
+title: Augmented RF Propagation Modeling
+authors:
+  - Serhat Tadik
+  - Michael A. Varner
+  - Frost Mitchell
+  - G. Durgin
+year: 2023
+venue: IEEE Journal of Radio Frequency Identification
+abstract: High-speed, accurate RF propagation models are essential for interference prediction between different spectrum users. We propose a simple and effective regression-based estimation method that can be used both for correcting errors in existing propagation models, such as the Terrain Integrated Rough Earth Model (TIREM), and also as a stand-alone empirical propagation model where no prior model is required. A neural network regression model (NNRM) that is informed by real-world channel and propagation characteristics is developed to obtain accurate path loss predictions throughout a 2.9 km by 2.6 km map of the University of Utah. The proposed NNRM is trained and tested on three path loss measurement campaign data sets collected across the campus, resulting in a 58% to 87% reduction in loss difference variance when used to correct TIREM, and a 59% to 76% reduction in measured signal strength variance when used as an empirical propagation model.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/JRFID.2023.3285452
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 10
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

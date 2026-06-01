@@ -1,0 +1,24 @@
+id: '2605.31502'
+title: Complex Diophantine Approximations and Cusp Excursions
+authors:
+  - Nathan Dalaklis
+  - Yan Mary He
+year: 2026
+abstract: We study the Hausdorff dimension spectrum of asymptotic approximation rates of complex Diophantine approximation and that of the asymptotic average excursion time of cusp excursions on the Bianchi orbifold $\mathbb{H}^3/\operatorname{PSL}(2,\mathbb {Z}[i])$ via a unified approach using the Hurwitz map. In particular, we construct a conformal graph directed system (CGDS) for the Hurwitz map and show that the Lyapunov exponent of the Hurwitz CGDS simultaneously captures the asymptotic approximation rate and the the asymptotic average excursion time. Applying the multifractal analysis of Lyapunov exponents for this system, we obtain a formula and real-analyticity for the Hausdorff dimension spectrum functions.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31502
+  pdf: https://arxiv.org/pdf/2605.31502
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

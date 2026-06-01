@@ -1,0 +1,26 @@
+id: '2605.31592'
+title: Floquet Engineering of Quantum Transport through two Driven Impurities
+authors:
+  - Vincenzo Bruno
+  - Corinna Kollath
+  - Roberta Citro
+  - Ameneh Sheikhan
+year: 2026
+abstract: Floquet engineering offers powerful tools to manipulate quantum states by periodically driving physical parameters. In this work, we investigate the quantum transport through two periodically driven impurities in a mesoscopic one-dimensional channel. By mapping the time-dependent Hamiltonian into an effective multichannel scattering problem, we unveil a rich landscape of transport phenomena arising from the interplay between Fabry-Perot cavity modes and Fano interference. We demonstrate that the inter-impurity distance acts as a critical control parameter, allowing for the formation of Bound States in the Continuum (BICs). Furthermore, we identify Quasi-BICs, extremely narrow resonances with finite lifetimes, that can be dynamically tuned by the drive amplitude. We show that these states enable a robust coherent trapping mechanism, allowing the system to switch from perfect transparency or reflection to strong localization with giant Wigner time delays. Our results suggest possible applications for tunable delay lines and quantum memories, with feasible experimental realizations in the context of cold atoms.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31592
+  pdf: https://arxiv.org/pdf/2605.31592
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

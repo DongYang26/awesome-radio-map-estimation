@@ -1,0 +1,31 @@
+id: '2605.31414'
+title: 'Beyond Instance-Level Alignment and Uniformity: Semantic Factor Learning for Collaborative Filtering'
+authors:
+  - Yajie Yu
+  - Chenzhong Bin
+  - Zhoubo Xu
+  - Zhixin Zeng
+  - Tongxin Xu
+  - Cihan Xia
+  - Jiafeng Wu
+year: 2026
+abstract: Collaborative filtering (CF) is widely used in recommender systems (RecSys) due to its simplicity and efficiency. However, existing CF methods follow an instance-level learning paradigm. During the instance learning stage, a large number of uninteracted user-item instances, of which items are potential interested by the user, are incorrectly treated as true negative samples resulting in a severe limitation to the generalization and scalability of models. Moreover, mainstream graph convolutional networks (GCNs) inherently suffer from high computational cost and over-smoothing issues, which limit the ability in capturing higher-order connectivity and lead to a poor generalization under sparse supervision signals. To address the above limitations, we propose Semantic Factor enhanced Alignment and Uniformity (SaFeAU), a novel framework that augments interacted instances with semantic factors, thereby mitigating false negative labeling and enabling matrix factorization (MF) to capture high-order CF signals without graph neighborhood aggregation. Specifically, SaFeAU consists of three tightly coupled components. First, Semantic Factor Routing (SFR) disentangles item representations into independent and global semantic factors. Building on these factors, Semantic Factor Matching (SFM) identifies uninteracted items, which share the same semantic factors with interacted ones, as potential positive pairs for enriching sparse supervision signals. Finally, Semantic Pairs Alignment (SPA) aligns both observed and potential positive pairs while promoting uniformity of user and item representations. Extensive experiments on four sparse real-world datasets show that SaFeAU consistently outperforms GCN-based and MF-based state-of-the-art CF methods in both recommendation accuracy and computational efficiency, confirming the effectiveness of the proposed semantic enhanced learning paradigm.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31414
+  pdf: https://arxiv.org/pdf/2605.31414
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - GNN  # TODO: maintainer verify
+  - CNN  # TODO: maintainer verify
+  - matrix-completion  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

@@ -1,0 +1,28 @@
+id: regression-of-large-scale-path-loss-parameters-using-deep-ne
+title: Regression of Large-Scale Path Loss Parameters Using Deep Neural Networks
+authors:
+  - Mustafa Bal
+  - Ahmed Marey
+  - H. Ates
+  - T. Baykaş
+  - B. Gunturk
+year: 2022
+venue: IEEE Antennas and Wireless Propagation Letters
+abstract: Path loss exponent and shadowing factor are among important wireless channel parameters. These parameters can be estimated using field measurements or ray-tracing simulations, which are costly and time-consuming. In this letter, we take a deep neural network-based approach, which takes either satellite image or height map of a target region as input, and estimates the desired channel parameters. We use the well-known VGG-16 architecture, pretrained on the ImageNet dataset, as the backbone to extract image features, modify it as a regression network to produce channel parameters, and retrain it on our dataset, which consists of satellite image or height map as input and channel parameters as target values. We demonstrate that deep networks can be successfully utilized in estimating path loss exponent and shadowing factor of a region, simply from the region’s satellite image or height map. The trained models and test codes are publicly available on a Github page.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/lawp.2022.3174357
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 14
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

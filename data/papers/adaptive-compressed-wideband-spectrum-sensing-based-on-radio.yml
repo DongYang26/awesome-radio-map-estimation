@@ -1,0 +1,26 @@
+id: adaptive-compressed-wideband-spectrum-sensing-based-on-radio
+title: Adaptive Compressed Wideband Spectrum Sensing Based on Radio Environment Map Dedicated for Space Information Networks
+authors:
+  - Xiaoluan Zhang
+  - Youping Zhao
+  - Hongbin Chen
+year: 2019
+venue: WISATS
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1007/978-3-030-19153-5_12
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - spectrum-occupancy  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 3
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

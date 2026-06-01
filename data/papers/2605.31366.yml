@@ -1,0 +1,24 @@
+id: '2605.31366'
+title: ISAC-Enabled Grant-Free Uplink via Artificial-Path Delay Modulation
+authors:
+  - Ruiqi Kong
+  - He Chen
+year: 2026
+abstract: This paper proposes an integrated sensing and communication (ISAC)-enabled grant-free uplink framework based on artificial-path delay modulation. A grant-free user equipment (g-UE) conveys uplink information by modulating the delay of a controllable artificial path derived from the scheduled downlink waveform. In contrast to conventional superposition-based schemes with successive interference cancellation, the proposed method enables uplink-downlink coexistence in the delay-sensing domain. By introducing a single weak artificial path confined within the cyclic prefix (CP), the g-UE allows the access point (AP) to decode uplink symbols from CSI perturbations while causing only limited degradation to the scheduled user equipment (s-UE) in the downlink. To support reliable finite-alphabet delay detection under unknown path gain and off-grid leakage, we develop a baseline delay calibration procedure and a normalized matched-filter detector. Results show that reflection power determines the reliability trade-off between the g-UE and the s-UE, whereas the delay step mainly controls the g-UE reliability-efficiency trade-off with little additional impact on the downlink s-UE. Even with an artificial path 15 dB weaker than the scheduled downlink signal, the g-UE achieves lower BER than the s-UE at an effective modulation order of 16-QAM. The proposed framework thus offers a low-complexity, SIC-free, and downlink-friendly solution for grant-free uplink in ISAC systems.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31366
+  pdf: https://arxiv.org/pdf/2605.31366
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'
