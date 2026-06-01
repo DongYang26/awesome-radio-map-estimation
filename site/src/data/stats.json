@@ -1,9 +1,18 @@
 {
   "method_family_by_year": {
+    "1990": {
+      "learning-based": 1
+    },
     "1996": {
       "model-based": 1
     },
+    "1999": {
+      "learning-based": 1
+    },
     "2001": {
+      "learning-based": 1
+    },
+    "2002": {
       "learning-based": 1
     },
     "2008": {
@@ -14,111 +23,118 @@
       "interpolation": 2
     },
     "2011": {
-      "learning-based": 1
+      "learning-based": 4
     },
     "2012": {
       "interpolation": 1,
+      "learning-based": 4
+    },
+    "2013": {
       "learning-based": 2
     },
     "2014": {
       "interpolation": 1,
-      "learning-based": 5
+      "learning-based": 7
     },
     "2015": {
       "interpolation": 5,
-      "learning-based": 3
+      "learning-based": 10
     },
     "2016": {
-      "learning-based": 2
+      "learning-based": 7
     },
     "2017": {
       "interpolation": 3,
-      "learning-based": 6
+      "learning-based": 13
     },
     "2018": {
-      "interpolation": 1,
-      "learning-based": 7
+      "interpolation": 2,
+      "learning-based": 14
     },
     "2019": {
-      "interpolation": 1,
-      "learning-based": 8,
+      "interpolation": 2,
+      "learning-based": 13,
       "model-based": 1
     },
     "2020": {
       "interpolation": 2,
-      "learning-based": 11
+      "learning-based": 15
     },
     "2021": {
       "application": 1,
       "interpolation": 4,
-      "learning-based": 12,
+      "learning-based": 24,
       "model-based": 1
     },
     "2022": {
       "interpolation": 3,
-      "learning-based": 23,
-      "model-based": 2
+      "learning-based": 28,
+      "model-based": 3
     },
     "2023": {
       "application": 3,
       "interpolation": 6,
-      "learning-based": 32,
-      "model-based": 4
+      "learning-based": 37,
+      "model-based": 5
     },
     "2024": {
       "application": 2,
       "interpolation": 9,
-      "learning-based": 59,
+      "learning-based": 67,
       "model-based": 7
     },
     "2025": {
       "application": 2,
       "interpolation": 10,
-      "learning-based": 81,
-      "model-based": 12
+      "learning-based": 92,
+      "model-based": 14
     },
     "2026": {
-      "interpolation": 3,
-      "learning-based": 189,
+      "interpolation": 4,
+      "learning-based": 422,
       "model-based": 8
     }
   },
   "method_family_distribution": {
     "application": 8,
-    "interpolation": 52,
-    "learning-based": 443,
-    "model-based": 36
+    "interpolation": 55,
+    "learning-based": 764,
+    "model-based": 40
   },
   "papers_per_year": {
+    "1990": 1,
     "1996": 1,
+    "1999": 1,
     "2001": 1,
+    "2002": 1,
     "2008": 2,
     "2010": 2,
-    "2011": 1,
-    "2012": 3,
-    "2014": 6,
-    "2015": 8,
-    "2016": 2,
-    "2017": 9,
-    "2018": 8,
-    "2019": 10,
-    "2020": 13,
-    "2021": 18,
-    "2022": 28,
-    "2023": 45,
-    "2024": 77,
-    "2025": 105,
-    "2026": 200
+    "2011": 4,
+    "2012": 5,
+    "2013": 2,
+    "2014": 8,
+    "2015": 15,
+    "2016": 7,
+    "2017": 16,
+    "2018": 16,
+    "2019": 16,
+    "2020": 17,
+    "2021": 30,
+    "2022": 34,
+    "2023": 51,
+    "2024": 85,
+    "2025": 118,
+    "2026": 434
   },
   "subfield_distribution": {
     "CKM": 48,
-    "REM": 349,
-    "pathloss-prediction": 110,
-    "spectrum-cartography": 32
+    "REM": 657,
+    "pathloss-prediction": 124,
+    "spectrum-cartography": 38
   },
   "totals": {
     "milestones": 20,
-    "papers": 539,
+    "papers": 867,
     "subfields": 4
   }
 }
