@@ -1,0 +1,29 @@
+id: '2605.31526'
+title: Distributionally Robust Physical-Layer Security for Satellite Communication via Aerial Reconfigurable Intelligent Surface
+authors:
+  - Zhaole Wang
+  - Xiao Tang
+  - Naijin Liu
+  - Jinxin Liu
+  - Qinghe Du
+  - Lei Chen
+  - Tingwu Lin
+year: 2026
+abstract: Satellite communications are envisioned as a key enabler for ubiquitous coverage in future 6G networks, yet the broadcast nature renders them vulnerable to eavesdropping, especially given the long-distance transmissions and associated high uncertainties. In this paper, we propose the physical layer security enhancement for multi-beam satellite communications with the assistance of an aerial reconfigurable intelligent surface (ARIS). Considering the high dynamics and uncertainties of channels, we characterize the channel distribution with moment-based ambiguity sets. Accordingly, a distributionally robust secrecy rate optimization is formulated through joint design of transmit and reflection beamforming. We then introduce a conditional value-at-risk-based reformulation to convert the probabilistic constraints into deterministic forms. An alternating optimization framework is subsequently employed to iteratively update the transmit and reflective beamforming vectors until convergence. Simulation results demonstrate that the proposed distributionally robust scheme significantly enhances secrecy performance, and maintains reliable performance across various channel error distributions.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31526
+  pdf: https://arxiv.org/pdf/2605.31526
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

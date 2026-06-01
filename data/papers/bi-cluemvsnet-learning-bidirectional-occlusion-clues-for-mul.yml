@@ -1,0 +1,27 @@
+id: bi-cluemvsnet-learning-bidirectional-occlusion-clues-for-mul
+title: 'Bi-ClueMVSNet: Learning Bidirectional Occlusion Clues for Multi-View Stereo'
+authors:
+  - Zhe Zhang
+  - Yuxi Hu
+  - Huachen Gao
+  - Ronggang Wang
+year: 2023
+venue: IEEE International Joint Conference on Neural Network
+abstract: Deep learning-based multi-view stereo (MVS) meth-ods have achieved promising results in recent years. However, very few existing works take the occlusion issues into consideration, leading to poor reconstruction results on the boundaries and occluded areas. In this paper, the Bidirectional Occlusion Clues-based Multi-View Stereo Network (Bi-ClueMVSNet) is proposed as an end-to-end MVS framework that explicitly models the occlusion obstacle for depth map inference and 3D modeling. To this end, we use bidirectional projection for the first time to reduce the propagation and accumulation of incorrect matches and build the occlusion-enhanced network to further advance the representational ability from 2D visibility maps to 3D occlusion clues. As for depth map estimation, we combine the characteristics of both regression and classification approaches to propose the adaptive depth map inference strategy. Besides, the robustness of the training process is further guaranteed and elevated by the occlusion clues-based loss function. The proposed method significantly improves the accuracy of depth map inference in boundaries and heavily occluded areas and brings the overall quality of the reconstructed point cloud to a new altitude. Extensive experiments are performed on DTU, Tanks and Temples, and BlendedMVS datasets to demonstrate the persuasiveness of the proposed framework.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/IJCNN54540.2023.10191325
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 3
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

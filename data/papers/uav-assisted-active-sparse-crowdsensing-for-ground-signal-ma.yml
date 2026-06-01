@@ -1,0 +1,28 @@
+id: uav-assisted-active-sparse-crowdsensing-for-ground-signal-ma
+title: UAV-Assisted Active Sparse Crowdsensing for Ground Signal Map Construction Based on 3-D Spatial–Temporal Correlation
+authors:
+  - Chengyong Liu
+  - Kun Zhu
+  - Chaoquan Tao
+  - Bing Chen
+  - Yanchao Zhao
+year: 2024
+venue: IEEE Internet of Things Journal
+abstract: Mobile crowdsensing (MCS) has been applied for signal map construction in smart city. MCS leverages the mobility of users and the sensors embedded in mobile phones to collect and transfer sensing data. However, it is still costly for MCS to cover large-scale regions. Accordingly, data recovery algorithms are proposed, which allow participants to collect only few signal data and infer the remainder by leveraging spatialtemporal correlation of signals. However, existing work only considered the temporal and 2-D spatial correlation in the plane, while the altitude dimension is not exploited. In this article, we give an attempt to exploit the 3-D spatialtemporal correlation of signals to infer missing data and reconstruct ground signal map, where unmanned aerial vehicles (UAVs) can be used to collect signals from the air. Two UAV-assisted ground signal map construction schemes are proposed based on the propagation loss (PL) and convolution neural network (CNN). To further reduce the number of aerial samples required and reduce the cost incurred by UAV, a random-active sampling strategy is proposed to select more valuable signals in our work. Extensive simulations are performed which show that the proposed framework and schemes perform well under extremely high missing rate situations and outperform pure ground-based data recovery schemes. In addition, experiments for both indoor and outdoor are conducted to further verify the effectiveness of the proposed schemes.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/JIOT.2024.3399409
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: both  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 6
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

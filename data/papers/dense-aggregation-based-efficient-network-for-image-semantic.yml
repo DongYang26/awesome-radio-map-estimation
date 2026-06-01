@@ -1,0 +1,27 @@
+id: dense-aggregation-based-efficient-network-for-image-semantic
+title: Dense Aggregation Based Efficient Network for Image Semantic Segmentation in Edge Intelligent Tasks
+authors:
+  - Chaoxia Wu
+  - Wei Wang
+  - Hong Sun
+year: 2021
+venue: IEEE Access
+abstract: 'The image semantic segmentation algorithm required by edge intelligence needs to have high accuracy and real-time performance at the same time. In this paper, a new image segmentation network: Dense Aggregation based efficient neural network (DA-ENet) is proposed. The proposed network aggregates feature maps of each two adjacent stages of DA-ENet into an aggregation feature map, and uses shortcut connections connect each encoder stage feature map to the two decoder stages. In DA-Enet the linear propagation way of original ENet was changed. DA-Enet uses aggregations to realize feature fusion at different stages of the network and reduce the number of network parameters. DA-Enet uses shortcut connections to enhance the propagation and reuse of features. Aggregations and shortcut connections make DA-ENet a densely connected network. In densely connected network, each layer receives additional supervision from the loss function. Therefore, DA-Enet will be easier to train and has higher accuracy.The proposed DA-ENet was evaluated on three standard datasets: CamVid, CityScapes and SUN RGB-D. The experimental results demonstrate that DA-ENet has similar inference speed but higher segmentation accuracy to ENet.'
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://ieeexplore.ieee.org/ielx7/6287639/9312710/09300205.pdf
+  doi: 10.1109/ACCESS.2020.3046041
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

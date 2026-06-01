@@ -1,0 +1,30 @@
+id: '2605.31405'
+title: Adaptive Artificial Time-Delay Control with Barrier Lyapunov Constraints for Euler-Lagrange Robots
+authors:
+  - Saksham Gupta
+  - Rishabh Dev Yadav
+  - Sarthak Mishra
+  - Amitabh Sharma
+  - Sourish Ganguly
+  - Wei Pan
+  - Spandan Roy
+  - Simone Baldi
+year: 2026
+abstract: This paper addresses the challenge of simultaneously compensating for state-dependent uncertainties and enforcing time-varying state constraints in Euler-Lagrange systems, a common requirement in robotics that remains underserved by existing control designs. A novel adaptive control framework is developed that combines an artificial time-delay-based uncertainty estimation strategy, also known as time-delay estimation, with a barrier Lyapunov function to enforce constraint-aware control design. Specifically, a state-dependent upper bound on the time-delay estimation approximation error is analytically formulated, and an adaptive law is constructed to estimate its parameters online, enabling real-time state-dependent uncertainty compensation without relying on prior model knowledge. To ensure constraint compliance, the barrier Lyapunov function-based controller enforces time-varying bounds on both position and velocity. The resulting architecture is provably stable via Lyapunov analysis. Experimental results on a five-degree-of-freedom robotic manipulator validate the framework's capability, compared with the state of the art, in maintaining strict adherence to safety-critical constraints under dynamic uncertainties.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31405
+  pdf: https://arxiv.org/pdf/2605.31405
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

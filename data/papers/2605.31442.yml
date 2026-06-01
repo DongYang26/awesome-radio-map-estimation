@@ -1,0 +1,28 @@
+id: '2605.31442'
+title: Engineered Randomness for Ubiquitous Quantum-Enhanced Metrology in Exponential-Dimensional Manifolds
+authors:
+  - Yaoming Chu
+  - Baiyi Yu
+  - Hartmut Häffner
+  - Markus Heyl
+  - Nathan Goldman
+  - Jianming Cai
+year: 2026
+abstract: The exponential growth of many-body Hilbert space presents a fundamental barrier to quantum technology, obscuring the search for physically significant states within an astronomically vast landscape. Consequently, resources for quantum-enhanced metrology have been largely confined to the symmetric subspace whose dimensionality scales only polynomially with the particle number-leaving the vast majority of the Hilbert space largely unexplored and poorly understood. Here we challenge this paradigm by demonstrating that metrological advantage can arise as a ubiquitous feature across exponential-dimensional manifolds. By tailoring the first-moment structure of random unitaries, we uncover dense manifolds of engineered random states (ERSs) where Heisenberg-limited scaling emerges as a statistically generic property. This ubiquity endows these resource states with inherent resilience against parameter disorder. We experimentally validate this framework on a trapped-ion processor, achieving a metrological enhancement of $6.98 \pm 0.38$ dB beyond the standard quantum limit. Potential applications extend to diverse platforms, ranging from superconducting circuits and waveguide QED to solid-state spins and polar molecules. Our results establish a powerful paradigm where quantum-enhanced precision can be harvested from the exponential vastness of the Hilbert space.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31442
+  pdf: https://arxiv.org/pdf/2605.31442
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - Transformer  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

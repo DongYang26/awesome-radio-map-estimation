@@ -1,0 +1,25 @@
+id: a-centralized-psd-map-construction-by-distributed-compressiv
+title: A Centralized PSD Map Construction by Distributed Compressive Sensing
+authors:
+  - M. Eslami
+  - F. Torkamani-Azar
+  - E. Mehrshahi
+year: 2015
+venue: IEEE Communications Letters
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/LCOMM.2015.2391265
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 5
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

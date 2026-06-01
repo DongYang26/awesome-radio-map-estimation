@@ -1,0 +1,24 @@
+id: '2605.31297'
+title: 'Limits of the Non-Linear Generalized Langevin Equation: Cross-Correlations, Irreversibility and Desynchronization'
+authors:
+  - Bernd Jung
+  - Gerhard Jung
+year: 2026
+abstract: The generalized Langevin equation (GLE) is widely used to model complex soft-matter systems, including biomolecular dynamics, by incorporating memory effects and colored noise into coarse-grained descriptions. However, recent results suggest that combining memory with non-linear forces, ubiquitous in soft matter, introduces fundamental analytical inconsistencies. Here, using a simplified model, we investigate the practical numerical consequences of these analytical results. We show that non-linear forces generate cross-correlations with the noise, modifying the fluctuation-dissipation theorem and rendering the noise position-dependent and irreversible. This implies that the commonly assumed reversible Gaussian noise in GLE simulations fails to capture essential features of the microscopic fluctuations. For weak non-linearities, these issues can be partially resolved either by using an iterative optimization of memory or by using microscopically consistent noise, which unexpectedly synchronizes GLE trajectories with the underlying microscopic dynamics. For stronger non-linearities like high barriers or shoulders in the external potential, however, iterative reconstruction fails and we observe desynchronization, indicating that the non-linear GLE no longer correctly reproduces the microscopic dynamics. Our results show in which situations non-linear GLEs can be accurately applied and when they fail, thus providing practical guidance for their application to coarse-grain soft-matter systems.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31297
+  pdf: https://arxiv.org/pdf/2605.31297
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

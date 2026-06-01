@@ -1,0 +1,28 @@
+id: predicting-hearing-loss-from-otoacoustic-emissions-using-an-
+title: Predicting hearing loss from otoacoustic emissions using an artificial neural network.
+authors:
+  - R. de Waal
+  - R. Hugo
+  - M. Soer
+  - J. J. Krüger
+year: 2002
+venue: South African Journal of Communication Disorders
+abstract: Normal and impaired pure tone thresholds (PTTs) were predicted from distortion product otoacoustic emissions (DPOAEs) using a feed-forward artificial neural network (ANN) with a back-propagation training algorithm. The ANN used a map of present and absent DPOAEs from eight DPgrams, (2f1-f2 = 406-4031 Hz) to predict PTTs at 0.5, 1, 2 and 4 kHz. With normal hearing as < 25 dB HL, prediction accuracy of normal hearing was 94% at 500, 88% at 1000, 88% at 2000 and 93% at 4000 Hz. Prediction of hearing-impaired categories was less accurate, due to insufficient data for the ANN to train on. This research indicates the possibility of accurately predicting hearing ability within 10 dB in normal hearing individuals and in hearing-impaired listeners with DPOAEs and ANNs from 500-4000 Hz.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://sajcd.org.za/index.php/sajcd/article/download/215/314
+  doi: 10.4102/SAJCD.V49I1.215
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 8
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

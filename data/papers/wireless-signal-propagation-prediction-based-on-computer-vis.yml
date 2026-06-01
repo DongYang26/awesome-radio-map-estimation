@@ -1,0 +1,31 @@
+id: wireless-signal-propagation-prediction-based-on-computer-vis
+title: Wireless Signal Propagation Prediction Based on Computer Vision Sensing Technology for Forestry Security Monitoring
+authors:
+  - Jialuan He
+  - Zirui Xing
+  - Tianqi Xiang
+  - Xin Zhang
+  - Yinghai Zhou
+  - Chuanyu Xi
+  - Hai Lu
+year: 2021
+venue: Italian National Conference on Sensors
+abstract: In this paper, Computer Vision (CV) sensing technology based on Convolutional Neural Network (CNN) is introduced to process topographic maps for predicting wireless signal propagation models, which are applied in the field of forestry security monitoring. In this way, the terrain-related radio propagation characteristic including diffraction loss and shadow fading correlation distance can be predicted or extracted accurately and efficiently. Two data sets are generated for the two prediction tasks, respectively, and are used to train the CNN. To enhance the efficiency for the CNN to predict diffraction losses, multiple output values for different locations on the map are obtained in parallel by the CNN to greatly boost the calculation speed. The proposed scheme achieved a good performance in terms of prediction accuracy and efficiency. For the diffraction loss prediction task, 50% of the normalized prediction error was less than 0.518%, and 95% of the normalized prediction error was less than 8.238%. For the correlation distance extraction task, 50% of the normalized prediction error was less than 1.747%, and 95% of the normalized prediction error was less than 6.423%. Moreover, diffraction losses at 100 positions were predicted simultaneously in one run of CNN under the settings in this paper, for which the processing time of one map is about 6.28 ms, and the average processing time of one location point can be as low as 62.8 us. This paper shows that our proposed CV sensing technology is more efficient in processing geographic information in the target area. Combining a convolutional neural network to realize the close coupling of a prediction model and geographic information, it improves the efficiency and accuracy of prediction.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://www.mdpi.com/1424-8220/21/17/5688/pdf?version=1629799914
+  doi: 10.3390/s21175688
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 2
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

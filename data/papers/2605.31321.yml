@@ -1,0 +1,29 @@
+id: '2605.31321'
+title: Surface Constraint Policy for Learning Surface-Constrained and Dynamically Feasible Robot Skills
+authors:
+  - Shuai Ke
+  - Jiexin Zhang
+  - Huan Zhao
+  - Zhiao Wei
+  - Yikun Guo
+  - Jie Pan
+  - Han Ding
+year: 2026
+abstract: Diffusion-based imitation learning methods have driven rapid progress in robot dexterous manipulation tasks. However, they have limitations when applied to tasks that involve complex free-form surface constraints because of their lack of explicit surface geometry constraint modeling and the dynamic feasibility issue, resulting in stochastic action generation that fails to achieve reliable surface alignment and maintain stable contact. To address these limitations, we propose a novel surface constraint policy (SCP) for generating robot actions that satisfy free-form surface constraints on the basis of human demonstrations and real-time visual observations. First, the surface geometry constraint is encoded using a two-dimensional weighted Gaussian kernel function that is derived from demonstrations. Building on the encoded surface geometry constraints, the diffusion-based policy is used to infer task-level action intentions from multimodal sensory inputs, including visual observations and robot state feedback. These intentions are further transformed into surface-constrained dynamic movement primitives (DMPs) through a similarity-based action mapping method, thereby enabling smooth and compliant motion execution. The SCP achieves generation of structured surface geometric intent and dynamically admissible actions. The proposed method is validated on multiple surface manipulation tasks and compared with existing techniques. The experimental results demonstrate superior task success rates and contact stability under surface constraints.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31321
+  pdf: https://arxiv.org/pdf/2605.31321
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

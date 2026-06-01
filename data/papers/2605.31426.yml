@@ -1,0 +1,30 @@
+id: '2605.31426'
+title: Self-Tuning Regularization for Image Scanning Microscopy
+authors:
+  - Sofia Agostoni
+  - Lisa Cuneo
+  - Christian Daniele
+  - Giacomo Garré
+  - Laurent Le
+  - Alessandro Zunino
+  - Giuseppe Vicidomini
+  - Luca Calatroni
+year: 2026
+abstract: Image Scanning Microscopy (ISM) is a fluorescence imaging technique that combines detector-array acquisition and computational reconstruction to achieve the theoretical resolution of an ideal confocal microscope, i.e., one operating with an infinitesimally small pinhole, while maintaining high signal-to-noise ratio. Among the reconstruction methods for obtaining the super-resolved image, multi-image deconvolution (MID) and its extension aimed at preserving the optical sectioning capability of confocal microscopy, known as super-resolution sectioning ISM (s$^2$ISM), are among the most widely used approaches. Both methods rely on Richardson--Lucy-type iterative schemes, whose semi-convergent behavior requires early stopping and often leads to noise amplification and reconstruction artifacts. In this work, we introduce a self-tuning explicit regularization framework for both MID and s$^2$ISM reconstruction. Within a Bayesian maximum a posteriori formulation, we combine a multi-frame Poisson data fidelity term with explicit regularization, considering $\ell_1$ and smoothed total variation penalties as representative examples. We further develop an automatic and ground-truth-free strategy for regularization parameter selection by adapting the residual whiteness principle to the multi-frame Poisson setting and introducing a spectral high-pass extension tailored to s$^2$ISM. The resulting framework enables stable reconstructions without empirical stopping rules. To demonstrate the proposed framework, we consider first-order optimization schemes based on proximal gradient and mirror descent methods with adaptive backtracking strategies. Experiments on simulated and real fluorescence ISM datasets demonstrate improved reconstruction stability and image quality with respect to unregularized approaches, while enabling robust super-resolution and optical sectioning in low-photon conditions.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31426
+  pdf: https://arxiv.org/pdf/2605.31426
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

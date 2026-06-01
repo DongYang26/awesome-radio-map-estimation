@@ -1,0 +1,24 @@
+id: '2605.31368'
+title: Generic simplicity for self-adjoint operators under bounded potential perturbations
+authors:
+  - Marianna Chatzakou
+  - Bernard Helffer
+year: 2026
+abstract: We are interested in the generic simplicity of the spectrum of self-adjoint operators under bounded potential perturbations. More precisely, given a semibounded self-adjoint operator with compact resolvent and a suitable space of real-valued bounded perturbations, we study whether all eigenvalues of the perturbed operator are simple for a generic choice of the potential. In the first part of this paper we prove an abstract criterion which ensures that the set of perturbations giving only simple eigenvalues is residual. In the second part, we apply this criterion to several geometric and analytic settings, including sub-Laplacians and maximally hypoelliptic operators on compact manifolds, Laplacians on bounded domains with different boundary conditions, and Schrödinger-type operators on non-compact spaces.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31368
+  pdf: https://arxiv.org/pdf/2605.31368
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

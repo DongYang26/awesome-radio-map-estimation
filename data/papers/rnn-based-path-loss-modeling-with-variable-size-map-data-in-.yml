@@ -1,0 +1,26 @@
+id: rnn-based-path-loss-modeling-with-variable-size-map-data-in-
+title: RNN-Based Path Loss Modeling with Variable-Size Map Data in Urban Environments
+authors:
+  - Tatsuya Nagao
+  - Takahiro Hayashi
+year: 2023
+venue: IEEE Vehicular Technology Conference
+abstract: Understanding the propagation characteristics in the real communication environment is crucial in designing and validating wireless systems. In particular, the path loss is one of the most fundamental and critical characteristics. Recently, machine learning technique has been used for site-specific path loss modeling. Several methods use building or satellite images as input data and apply the convolutional neural network (CNN) to model path loss according to the environment. CNN requires input data with fixed size due to its architecture. Therefore, these methods extract and input environmental information from a certain area around the transmitter and receiver points. As a result, accuracy degradation may occur due to redundancy or lack of environmental information depending on the distance between the transmitter and receiver. Therefore, this paper proposes a method for modeling path loss using a recurrent neural network (RNN), treating environmental information as sequential data. This method makes it possible to input the appropriate range of environmental information for various distances without redundancy or lack. Finally, we demonstrated the proposed method’s effectiveness by evaluating measurement data in the 2.1 GHz band acquired in an urban area. Especially in the short range, the evaluation results show that the proposed method can improve the accuracy by up to approximately 3.1 dB compared to the CNN-based method.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/VTC2023-Spring57618.2023.10199449
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - RNN  # TODO: maintainer verify
+  - CNN  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 4
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

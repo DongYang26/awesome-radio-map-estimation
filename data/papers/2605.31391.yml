@@ -1,0 +1,26 @@
+id: '2605.31391'
+title: Deep-learning-based low-energy trigger algorithms for the Hyper-Kamiokande experiment
+authors:
+  - Katharina Lachner
+  - Saúl Alonso-Monsalve
+  - Benjamin Richards
+  - Davide Sgalaberna
+year: 2026
+abstract: 'Modern machine learning techniques have become increasingly important in particle physics because of their powerful pattern-recognition capabilities, including in real-time data acquisition where stringent runtime constraints apply. This paper details the performance of deep-learning-based trigger algorithms for a large water Cherenkov detector such as Hyper-Kamiokande aimed at low-energy neutrino events (below 7 MeV). The performance of custom neural-network supervised classifiers is shown alongside two anomaly-detection approaches trained solely on detector noise: a pure autoencoder and an energy-based model based on Manifold Projection--Diffusion Recovery (MPDR). The supervised model shows signal identification efficiencies of 76.7% for single electrons of 3 MeV kinetic energy, significantly exceeding signal efficiencies obtained from a traditional hit-count-based trigger of 26.4%, as does the MPDR approach with 31.8%. Runtime evaluations on GPU yield per-window inference latencies well below the millisecond scale, indicating that real-time operation is feasible.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31391
+  pdf: https://arxiv.org/pdf/2605.31391
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - autoencoder  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

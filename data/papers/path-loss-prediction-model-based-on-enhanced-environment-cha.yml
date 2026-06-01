@@ -1,0 +1,28 @@
+id: path-loss-prediction-model-based-on-enhanced-environment-cha
+title: Path Loss Prediction Model Based on Enhanced Environment Characterization
+authors:
+  - Longwei Wang
+  - Fei Du
+  - Bo Zhu
+  - Xiongwen Zhao
+  - S. Geng
+year: 2024
+venue: International Symposium on Antennas, Propagation and EM Theory
+abstract: Accurate wireless channel model is important for the assessment and optimal preparation of wireless communication systems, which raises the need for the accuracy of channel modeling. In order to solve the problems of incomplete feature extraction and insufficient model accuracy of the existing image-based regression prediction methods, a double-branch parallel neural network model is constructed by combining convolution and back propagation neural network. A path loss prediction method is proposed by integrating the characteristics of spatial environment. Based on the measured channels of campus scene, 11 geographic information features related to the receiver and transmitter are used as the traditional input feature vector, and the gray map image between them is extracted as the feature image input. The simulation results show that the proposed network model achieves good result on the test channel set through training and validation, the root-mean-square error between the measured and predicted value is 6.71 dB, which has high prediction accuracy for path loss.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/ISAPE62431.2024.10840580
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 2
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

@@ -1,0 +1,24 @@
+id: '2605.31543'
+title: Orbital Networks in the Three-Body Problem
+authors:
+  - Abdullah Braik
+  - Shane D. Ross
+year: 2026
+abstract: Orbital transfers in multi-body systems are often studied as isolated trajectory design problems, making it difficult to identify the larger transport structure connecting families of periodic orbits, including which families act as hubs, gateways, relays, or persistently difficult-to-access regions. This work introduces a reachable-set-based framework for constructing orbital networks in the circular restricted three-body problem. Finite-$ΔV$ and finite-time-of-flight reachable-set overlaps are used to infer accessibility relationships between representative periodic orbit families on a common Jacobi energy manifold and to assemble these relationships into a weighted orbital network. Applied to the Earth-Moon system, the resulting network reveals distinct accessibility regimes in which direct reachability, graph connectedness, and feasible multileg closure emerge separately. The analysis identifies multi-orbiter cycler orbits as the dominant hub, gateway, and relay families, with the (3,2)-cycler dominating across much of the sampled budget plane and the short-period (1,1)-cycler dominating in the low-time-of-flight regime, while the stable 2:1 resonant orbit remains persistently difficult to access. Although the maximum-budget network is nearly complete in a binary sense, its weighted accessibility remains strongly non-uniform. Selected proxy-supported connections are refined into concrete trajectories through differential correction, with corrected transfer costs remaining below the proxy estimates in all tested cases. Together, the results demonstrate how reachable-set overlap geometry can expose large-scale transport structure in nonlinear gravitational systems without requiring exhaustive pairwise trajectory optimization.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31543
+  pdf: https://arxiv.org/pdf/2605.31543
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

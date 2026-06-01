@@ -1,0 +1,25 @@
+id: basic-study-of-map-image-processing-for-simple-path-loss-pre
+title: Basic Study of Map Image Processing for Simple Path Loss Prediction Using CNN
+authors:
+  - K. Itoi
+  - H. Nakabayashi
+year: 2022
+venue: 'IEEE International Workshop on Electromagnetics: Applications and Student Innovation Competition'
+abstract: Many models have been proposed for path loss in mobile communications. Conventionally, multiple regression analysis and theoretical formulas have been used, but in recent years, methods using machine learning have been proposed to solve these problems. We analyzed the parameters of the conventional typical propagation model and proposed to effectively merge the conventional models to predict the path loss by machine learning before. The prediction accuracy for Narashino-shi by proposed method is 4.39 dB in root mean square error (RMSE). In this report, we propose a prediction method using convolutional neural network (CNN) with only image input. For the purpose, we examined the structure of the map image input to CNN and the initial value of CNN training. The prediction accuracy 4.09 dB in RMSE was obtained.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/iWEM52897.2022.9993557
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

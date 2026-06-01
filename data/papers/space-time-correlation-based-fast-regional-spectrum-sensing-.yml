@@ -1,0 +1,27 @@
+id: space-time-correlation-based-fast-regional-spectrum-sensing-
+title: Space-time correlation based fast regional spectrum sensing in cognitive radio
+authors:
+  - Sai Huang
+  - Yuanyuan Yao
+  - Zhiyong Feng
+  - Ping Zhang
+  - Yifan Zhang
+year: 2017
+venue: China Communications
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/CC.2017.7942316
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - spectrum-occupancy  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 4
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

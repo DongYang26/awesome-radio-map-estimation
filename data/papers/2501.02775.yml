@@ -1,0 +1,33 @@
+id: '2501.02775'
+title: Constructing 4D Radio Map in LEO Satellite Networks with Limited Samples
+authors:
+  - Haoxuan Yuan
+  - Zhe Chen
+  - Zheng Lin
+  - Jinbo Peng
+  - Yuhang Zhong
+  - Xuanjie Hu
+  - Songyan Xue
+  - Wei Li
+  - Yue Gao
+year: 2025
+venue: IEEE Conference on Computer Communications
+abstract: Recently, Low Earth Orbit (LEO) satellite networks (i.e., non-terrestrial network (NTN)), such as Starlink, have been successfully deployed to provide broader coverage than terrestrial networks (TN). Due to limited spectrum resources, TN and NTN may soon share the same spectrum. Therefore, fine-grained spectrum monitoring is crucial for spectrum sharing and interference avoidance. To this end, constructing a 4D radio map (RM) including three spatial dimensions and signal spectra is important. However, this requires the large deployment of sensors, and high-speed analog-to-digital converters for extensive spatial signal collection and wide power spectrum acquisition, respectively. To address these challenges, we propose a deep unsupervised learning framework without ground truths labeling requirement, DeepRM, comprised of neural compressive sensing (CS) and tensor decomposition (TD) algorithms. Firstly, we map the CS process into the optimization of a neural networks-associated loss function, and design a sparsity-performance balance training algorithm to reconstruct a wide power spectrum under limited sub-N quist samples. Secondly, according to the output of neural CS algorithm, we also utilize neural networks to perform TD, and construct the 3D RM for each frequency, even under very sparse sensor deployment. Extensive evaluations show that DeepRM achieves lower error than its corresponding state-of-the-art baselines, especially with limited samples.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2501.02775
+  doi: 10.1109/INFOCOM55648.2025.11044496
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: unsupervised  # TODO: maintainer verify
+citations: 21
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

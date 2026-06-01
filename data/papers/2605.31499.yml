@@ -1,0 +1,28 @@
+id: '2605.31499'
+title: 'Perceptual-Quality based AMC for Enhanced mmWave Spectral Efficiency: Concept and Experiment'
+authors:
+  - Kıvanç Değirmenci
+  - Hasan Atalay Günel
+  - Mohaned Chraiti
+  - Özgür Erçetin
+  - Ali Ghrayeb
+  - Ali Görçin
+year: 2026
+abstract: For high-throughput applications such as ultra-high-definition video streaming and immersive extended-reality, perceptual quality rather than bit-level accuracy defines the primary performance criterion and provides a more informative and spectrally efficient objective than strict bitwise reconstruction. This is particularly relevant in millimeter-wave (mmWave) and sub-Terahertz (sub-THz) systems, where path loss, short channel coherence times and phase noise introduce severe fluctuations that degrade link spectral efficiency. We propose an extension to conventional Adaptive Modulation and Coding (AMC) framework that incorporates perceptual quality awareness into link adaptation. In this framework, the decision metric is a Perceptual Quality Indicator (PQI) derived from the Structural Similarity Index Measure (SSIM). The receiver employs a Denoising Convolutional Neural Network (DnCNN) denoiser to enhance post-decoding image quality before feedback estimation. The resulting perceptual metric replaces the standard Channel Quality Indicator (CQI) in the AMC loop, enabling adaptation to maximize spectral efficiency while satisfying a perceptual-fidelity constraint. Experiments on a 5G-compliant mmWave testbed demonstrate up to a twofold gain in spectral efficiency while maintaining perceptual fidelity, underscoring the potential of perception-optimized link adaptation.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31499
+  pdf: https://arxiv.org/pdf/2605.31499
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

@@ -1,0 +1,25 @@
+id: movable-access-point-aided-integrated-visible-light-communic
+title: Movable Access Point-Aided Integrated Visible Light Communication and Sensing Networks
+authors:
+  - Zohaib Saghir
+  - Sylvester B. Aboagye
+year: 2025
+venue: IEEE Wireless Communications Letters
+abstract: The emergence of visible light communication (VLC) provides a promising low-cost, radiation-free, and energy-efficient solution to the limited spectrum of wireless networks. However, the design issues of line-of-sight (LOS) blockage, user mobility support, random device orientation, and the limited field-of-view of VLC access points (APs) and receivers have delayed its adoption. This letter explores the use of movable AP (MAP) technology to address these issues in a visible light based joint communication and sensing system. First, a system model for a MAP-aided integrated visible light communication and sensing (IVLCS) network is proposed. Then, a non-convex optimization problem is formulated to maximize the aggregate sum rate and sensing mutual information (MI) by jointly optimizing MAPs’ position and user association. A low-complexity algorithm that obtains a locally optimal solution is proposed by leveraging the difference of convex functions and the majorization-minimization technique. Simulation results reveal that the proposed MAP-aided IVLCS system is more robust against link blockages, provides mobility support and can significantly enhance aggregate sum rate and MI compared to a fixed AP system.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/LWC.2024.3521192
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 5
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

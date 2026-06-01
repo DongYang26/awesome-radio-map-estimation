@@ -1,0 +1,29 @@
+id: spatial-angular-spectrum-sensing-for-non-geostationary-satel
+title: Spatial Angular Spectrum Sensing for Non-Geostationary Satellite Systems
+authors:
+  - Chi Zhang
+  - Chunxiao Jiang
+  - Jin Jin
+  - Sheng Wu
+  - Linling Kuang
+  - Song Guo
+year: 2018
+venue: Global Communications Conference
+abstract: 'In the scenario of frequency coexistence between the GEO (geostationary) and NGEO (non-geostationary) satellite networks, the NGEO system should not incur harmful interference to the GEO system according to the policy of the Radio Regulations. Therefore, spectrum sensing as a promising solution is applied widely in this scenario. With the increasing number of NGEO satellites in the space, one NGEO system could be affected by other NGEO systems while sensing the signal from the GEO system. Given these preconditions, the cognitive radio (CR) scenario considered in this paper is that: the GEO system is regarded as the primary user, one NGEO system is regarded as the secondary user, while another NGEO system is regarded as the interfering user. Meanwhile, all the satellite systems are supposed to operate with more than one discrete transmit power levels which is practical and fits the concept of adaptive power control. In our context, we propose a spectrum strategy using hypothesis testing as well as maximum a posterior (MAP) to differentiate the GEO signal from the interfering NGEO and noise, and then identify the specific power level utilized by the GEO system. Moreover, we derive the closed-form expressions for threshold of verifying the status of the GEO, and for decision regions to determine its power level. Finally, extensive simulations are provided to verify the proposed studies.'
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/GLOCOM.2018.8647520
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - spectrum-occupancy  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 4
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

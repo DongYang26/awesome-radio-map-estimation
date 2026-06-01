@@ -1,0 +1,24 @@
+id: '2605.31471'
+title: Convergence Rates of Continuous-Time Random Walks to Time-Fractional Diffusions with Unbounded Coefficients
+authors:
+  - Artur Sidorenko
+  - Vasilii Kolokoltsov
+year: 2026
+abstract: We investigate uniform weak convergence rates for probabilistic numerical methods applied to backward time-fractional diffusion equations whose dynamics are driven by diffusions with possibly unbounded coefficients, such as the Geometric Brownian Motion. The fractional structure is represented through a random time-change by the inverse of a stable subordinator. To approximate the underlying fractional dynamics, we combine discrete Markov chain schemes for the diffusion component with heavy-tailed random walk approximations of the time change.   Our analysis builds on Feller semigroup techniques and a high-order sensitivity framework for diffusion semigroups based on the Kunita stochastic flows and tensor fields. We derive uniform bounds for all orders of sensitivities, establish a quasi-contraction property for the associated semigroup, and transfer these estimates to the fractional setting via the convolution representation with the inverse subordinator. As a result, under killing conditions which dominate at least the base-space semigroup growth, we obtain weak convergence rates for the combined continuous-time-random-walk scheme to the time-fractional diffusion, with a logarithmic regime before the discount dominates the stronger smooth-space growth.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31471
+  pdf: https://arxiv.org/pdf/2605.31471
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

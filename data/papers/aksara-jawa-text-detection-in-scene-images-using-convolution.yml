@@ -1,0 +1,27 @@
+id: aksara-jawa-text-detection-in-scene-images-using-convolution
+title: Aksara jawa text detection in scene images using convolutional neural network
+authors:
+  - M. L. Afakh
+  - Anhar Risnumawan
+  - M. Anggraeni
+  - M. Tamara
+  - E. S. Ningrum
+year: 2017
+venue: 2017 International Electronics Symposium on Knowledge Creation and Intelligent Computing (IES-KCIC)
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/KCIC.2017.8228567
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 18
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

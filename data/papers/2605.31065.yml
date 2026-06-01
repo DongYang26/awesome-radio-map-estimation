@@ -1,0 +1,25 @@
+id: '2605.31065'
+title: 'DRIFT: Joint Channel Estimation and Prediction Towards Pilotless 6G Non-Terrestrial Networks'
+authors:
+  - Bruno De Filippo
+  - Carla Amatetti
+  - Alessandro Vanelli-Coralli
+year: 2026
+abstract: Non-terrestrial networks (NTNs) are expected to play a pivotal role in sixth-generation (6G) systems by enabling ubiquitous connectivity and massive communication. In this context, channel prediction emerges as a key technique to improve the spectrum utilization efficiency by limiting the pilot overhead. However, many proposed predictors based on artificial intelligence (AI) are characterized by high inference complexity, posing challenges to onboard implementation. In this paper, we address the challenge of designing accurate yet computationally efficient channel prediction techniques tailored to low Earth orbit (LEO) NTNs, where strict power constraints limit model complexity, to enable spectral efficiency gains. We propose an iterative joint channel estimation and prediction framework in the context of 6G NTNs that significantly reduces pilot overhead by transmitting pilots only in the initial slot and relying on data-driven processing for subsequent slots. We introduce Data-driven Refinement and Iterative Forecast for wireless channel Tracking (DRIFT), a lightweight architecture that refines data-aided channel estimates and predicts future channel frequency responses with low computational cost and reduced error propagation. Two predictor variants based on convolutional and long short-term memory layers are investigated. Simulation results in an end-to-end simulation of an uplink LEO NTN scenario show that the proposed approach achieves up to 12% spectral efficiency gain compared to conventional pilot-based systems, with robustness to training-test mismatches and consistent performance across different channel models. Moreover, DRIFT requires fewer than 200k multiply-accumulate operations, making it suitable for on-board satellite implementation under stringent power constraints.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31065
+  pdf: https://arxiv.org/pdf/2605.31065
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

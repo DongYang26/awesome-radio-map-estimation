@@ -1,0 +1,24 @@
+id: '2605.31425'
+title: Mixed-Precision GPU Acceleration for Large-Scale Minimum Enclosing Ball Problems
+authors:
+  - Ling Liang
+  - Lei Yang
+year: 2026
+abstract: 'A mixed-precision GPU-oriented optimization framework is developed for computing the minimum enclosing ball of a collection of balls. The approach is built on an equivalent second-order cone programming reformulation and a relative-type inexact proximal augmented Lagrangian method (ripALM), which provides a high-accuracy optimization backbone while solving the inner subproblems only to a progress-dependent relative accuracy. The proximal augmented Lagrangian inherits a constraint-wise separable structure: its objective, gradient, generalized Hessian, and multiplier updates can be efficiently evaluated on GPUs as parallel maps over the input balls followed by reductions. To further improve efficiency, a mixed-precision reduction strategy is introduced. A low-precision ripALM run identifies balls near the approximate boundary, a high-precision ripALM run refines the reduced problem, and a full a posteriori feasibility check detects and reintroduces any violated discarded balls. Thus, low precision is used only for screening and warm starting, while the final feasibility is enforced against the original problem. Numerical experiments show that ripALM and mixed-precision ripALM achieve high accuracy and are substantially faster than the tested CPU-based geometric software and general-purpose conic solvers on large-scale instances.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31425
+  pdf: https://arxiv.org/pdf/2605.31425
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

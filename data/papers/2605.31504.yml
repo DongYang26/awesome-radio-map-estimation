@@ -1,0 +1,26 @@
+id: '2605.31504'
+title: When Are Multimodal Predictions Biologically Supported? A Diagnostic Evaluation Framework
+authors:
+  - Dylan Steiner
+  - Gustavo Arango-Argoty
+  - Gerald Sun
+  - Etai Jacob
+year: 2026
+abstract: Multimodal models in oncology can produce accurate predictions, but accurate prediction does not reveal whether the model has learned biology that is shared across modalities, biology confined to one modality, or spurious correlations that reflect confounders rather than genuine biology. We introduce DECAT, a model-agnostic post-hoc evaluation framework that classifies multimodal representations into four diagnostic scenarios for a given task and modality, using five null-referenced metrics and a rule-based decision procedure. The framework operates on learned representations, requires no knowledge of which specific confounder is present, and returns indeterminate when the evidence is insufficient. We validate DECAT on synthetic data across four multimodal model classes (over 2,500 trained representations) and on real data from 8,979 TCGA patients, evaluating both multimodal embeddings and five pretrained pathology foundation models. Entangled models (e.g., CLIP) achieve near-perfect shared biology detection but falsely claim shared biology in the majority of cases where it is absent on real foundation model embeddings. This false claim rate increases with confound strength so that larger cohorts and stronger representations produce more confident but still incorrect diagnoses. Applied to both multimodal TCGA embeddings and five pathology foundation models without paired RNA, DECAT detects confounding invisible to AUROC without requiring the confounder labels, as confirmed by post-hoc stratification.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31504
+  pdf: https://arxiv.org/pdf/2605.31504
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

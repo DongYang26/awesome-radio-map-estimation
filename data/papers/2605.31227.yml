@@ -1,0 +1,26 @@
+id: '2605.31227'
+title: 'HiERO-StepG @ Ego4D Step Grounding Challenge: hierarchical activity understanding enables zero-shot step grounding'
+authors:
+  - Andrea Zenotto
+  - Simone Alberto Peirone
+  - Francesca Pistilli
+  - Giuseppe Averta
+year: 2026
+abstract: 'Procedural activities follow well-defined structures: whether we consider a cooking recipe or a mechanic repairing a car, these activities naturally decompose in a hierarchy of steps and sub-steps. Traditional approaches for step grounding require extensive annotations and scale poorly. Instead, we argue that such hierarchical structure can emerge naturally from uncurated videos of human activities through recurring patterns of co-occurring actions and activities. Our approach builds on HiERO, a weakly-supervised representation learning approach that maps close in the feature space actions that are functionally related to each other, leveraging only fine-grained action-level narrations. In this feature space, procedure steps can be detected by a simple clustering, with no additional task-specific fine-tuning. For the Ego4D Step Grounding challenge, we augment this approach by ensuring fine and coarse level agreement in step assignments, enforcing strict temporal monotonicity of the grounded steps and post-processing the detected steps to reduce the impact of noisy predictions. We call this approach HiERO-StepG and it achieves 56.27 % on the R@1 (IoU = 0.3) metric on the global leaderboard at submission time, ranking second while being completely zero-shot and not requiring procedure-specific annotations. Project page: https://github.com/andreazenotto/HiERO-StepG.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31227
+  pdf: https://arxiv.org/pdf/2605.31227
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: unsupervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

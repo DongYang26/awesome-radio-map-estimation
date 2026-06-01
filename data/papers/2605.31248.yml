@@ -1,0 +1,26 @@
+id: '2605.31248'
+title: Trainable Quantum Spectral Models for Partial Differential Equations
+authors:
+  - Gabriel Mejia
+  - Eileen Kuehn
+  - Melvin Strobl
+  - Achim Streit
+year: 2026
+abstract: This work studies trainable quantum spectral models (QSMs) for solving linear partial differential equations (PDEs). Instead of learning solutions directly in physical space, QSMs learn the inverse differential operator in a spectral representation, embedding prior knowledge of the equation's natural basis.   We systematically study the expressibility and trainability of several QSM architectures, ranging from near-diagonal to fully parameterized unitaries. In particular, we introduce a family of richer spectral models that interpolate between purely diagonal operators and fully mixing unitaries through a parameterized mixer controlled by $ε$. Our results reveal an intermediate regime, typically around $ε\approx 0.5$, where models achieve the best tradeoff between expressibility and trainability. Beyond this threshold, increased circuit complexity degrades convergence without improving accuracy.   Among the architectures considered, models inspired by the inverse step of the Harrow-Hassidim-Lloyd (HHL) algorithm achieve the fastest training convergence while maintaining high solution fidelity. Numerical experiments on the (variable-coefficient) Poisson and Helmholtz equations show that trainable operations in the spectral basis outperform standard variational quantum circuits acting directly in the computational basis. These advantages appear through faster convergence, more stable gradients, and more accurate recovery of the reference solution spectrum, particularly through stronger suppression of spurious high-frequency components, even when the operator is not exactly diagonal in the chosen spectral basis. Our results identify operator-aware spectral representations as a promising route toward trainable and physically grounded quantum methods for scientific computing.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31248
+  pdf: https://arxiv.org/pdf/2605.31248
+subfield: REM  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - autoencoder  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

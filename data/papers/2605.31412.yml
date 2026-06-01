@@ -1,0 +1,36 @@
+id: '2605.31412'
+title: 'MAUVE-MUSE: When Metallicity Follows or Fights Star Formation -- A Mass-Dependent Inversion in Virgo Galaxies'
+authors:
+  - Rongjun Huang
+  - Luca Cortese
+  - Barbara Catinella
+  - Luke J. M. Davies
+  - Toby Brown
+  - Andrei Ristea
+  - Alessandro Boselli
+  - Andrew J. Battisti
+  - Vicente Villanueva
+  - Kristine Spekkens
+  - Sara L. Ellison
+  - Daniel A. Dale
+  - Sabine Thater
+  - Amirnezam Amiri
+year: 2026
+abstract: 'Although globally-integrated studies often find that, at fixed stellar mass, high star formation rate (SFR) galaxies are relatively metal-poor while lower-SFR systems are more metal-rich, the corresponding coupling between gas-phase metallicity ($Z_{\rm gas}$) and star formation on sub-galactic scales remains poorly constrained. In this study, we analyse 14 Virgo spirals from the MAUVE-MUSE survey to revisit the resolved mass-metallicity relation (rMZR) and its secondary dependence on SFR surface density ($Σ_\mathrm{SFR}$) at $\sim 100$\,pc scales. We construct co-spatial maps of stellar mass surface density ($Σ_*$), $Σ_\mathrm{SFR}$, and oxygen abundance. MAUVE-MUSE galaxies follow a standard rMZR, but when binned by $Σ_*$, we find a mass-dependent inversion in the $Z_\mathrm{gas}$-$Σ_\mathrm{SFR}$ relation using O3N2 calibrations: the standard anti-correlation is confined to low-$Σ_*$ bins, while high-$Σ_*$ regions show a positive correlation, inverting at $\log_{10}(Σ_*/M_\odot\,\mathrm{kpc}^{-2})\simeq 7.5$-8.0. Correlated and anti-correlated \ion{H}{ii} regions coexist within the same discs; the mass dependence emerges only when grouping spaxels by $Σ_*$. We develop a spatially resolved gas-regulator model showing this $Z_\mathrm{gas}$-$Σ_\mathrm{SFR}$ (anti-)correlation arises from competition between star-formation-driven and gas-supply-driven variability. This framework naturally extrapolates to the integrated scenario, providing a unified explanation for resolved and global relations. However, the presence and strength of the $Z_\mathrm{gas}$-$Σ_\mathrm{SFR}$ (anti-)correlation depend strongly on the metallicity indicator used, highlighting the challenge of disentangling physical secondary trends within metallicity scaling relations.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31412
+  pdf: https://arxiv.org/pdf/2605.31412
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

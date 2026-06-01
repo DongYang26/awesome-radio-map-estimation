@@ -1,0 +1,24 @@
+id: adaptive-graph-based-neural-network-for-crossdomain-image-re
+title: Adaptive Graph-based Neural Network for Crossdomain Image Retrieval
+authors:
+  - Wei Wang
+  - Xiaofan Sun
+year: 2025
+venue: 2025 IEEE 7th International Conference on Civil Aviation Safety and Information Technology (ICCASIT)
+abstract: Cross-domain image retrieval faces significant challenges due to domain shifts, where variations in style, illumination, and viewpoint degrade retrieval accuracy. To address this, we introduce the Adaptive Graph Retrieval Network (AGRN), a novel end-to-end framework that combines graph neural network propagation with adversarial domain adaptation. AGRN constructs a dynamic similarity graph over instance embeddings and refines node features via multi-layer graph convolutions, while a gradient reversal-based adversarial module encourages domain-invariant representations. By jointly optimizing a retrieval loss and adversarial loss, AGRN learns embeddings that are both discriminative and robust to distribution discrepancies. Extensive evaluations on Caltech-Office and DomainNet benchmarks demonstrate that AGRN outperforms state-of-the-art methods, achieving up to 5% higher mAP and 6 percentage points improvement in Recall@1. AGRN’s flexibility allows seamless integration with various backbone architectures, making it suitable for diverse retrieval applications, including product search, medical image databases, and remote sensing tasks.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/ICCASIT66611.2025.11348718
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - GNN  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

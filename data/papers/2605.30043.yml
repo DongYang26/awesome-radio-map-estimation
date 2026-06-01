@@ -1,0 +1,39 @@
+id: '2605.30043'
+title: 'The outer rings of SN 1987A from year 1994 to 2024: morphology, light curves, and optical to mid-infrared spectra'
+authors:
+  - Sophie Rosu
+  - Elko Gerville-Reache
+  - Steven Thomas
+  - Josefin Larsson
+  - Patrick J. Kavanagh
+  - Jason Spyromilio
+  - Claes Fransson
+  - Christa Gall
+  - Robert D. Gehrz
+  - Alec S. Hirschauer
+  - Olivia C. Jones
+  - Robert P. Kirshner
+  - Peter Lundqvist
+  - Mikako Matsuura
+  - Margaret Meixner
+  - Beth Sargent
+  - Jesper Sollerman
+year: 2026
+abstract: The outer rings (ORs) of Supernova (SN) 1987A were ejected ~20000 years before the explosion. Their characterisation is crucial for constraining the properties of the progenitor of this famous SN. While numerous studies investigated in detail the ejecta, equatorial ring (ER), and reverse shocks, few were dedicated to the ORs. We fill this gap and investigate the ORs physical properties. We analyse data obtained over a long temporal period, from multiple instruments, and over a wide wavelength range from optical to mid-infrared of the northern and southern ORs (NOR and SOR). We combine observations taken with HST between 1994 and 2022, VLT/MUSE in 2023, and JWST in 2022 and 2024. We measure emission flux in the ORs in HST and JWST/NIRCam images. We extract optical and mid-infrared spectra for the ORs in MUSE and JWST/MIRI/MRS data and measure line emission fluxes. We analyse the evolution of the ORs clumps' morphology over time with HST. The optical lightcurves of the ORs have shown a steady decline with time over the last 30 years. It is expected as the ORs were ionised by the initial SN UV-flash and are since then fading. The observations do not show any sign of interaction of the SN ejecta with the ORs. We estimated the decay times for [O III] to be 900 and 680 days for the NOR and SOR, and for Halpha+[N II] to be 15870 and 7160 days for the NOR and SOR. We constrained the temperature from the optical [N II] lines to 13400-16900K and 11800-14500K for the NOR and SOR. We constrained the electron density from the optical [S II] lines to 610-670cm-3 and 720-790cm-3 for the NOR and SOR. The spectra of the ORs differ significantly from the spectrum of the ER in lines detected and line ratios. The ORs will likely keep on fading for the next years, until the SN ejecta sweep them up. Continued monitoring of SN1987A and its ring system at all wavelengths is essential to capture this instant.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.30043
+  pdf: https://arxiv.org/pdf/2605.30043
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

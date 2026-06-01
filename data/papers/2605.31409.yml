@@ -1,0 +1,28 @@
+id: '2605.31409'
+title: Fidelity bounds for spin-dependent kicks with pulsed lasers
+authors:
+  - C. Sagaseta
+  - H. Liu
+  - V. D. Vaidya
+  - C. R. Viteri
+  - J. J. García-Ripoll
+  - E. Torrontegui
+year: 2026
+abstract: Excitation of trapped-ion hyperfine qubits with fast optical Raman pulses enables faster-than-trap-period entangling gates with qubits of long coherence time for practical quantum computation. Achieving high-fidelity fast two-qubit gates requires high-quality spin-dependent kicks (SDKs), which form their fundamental building blocks. Here, we characterize the control parameters (including Raman frequency difference, pulse arrival times, Lamb--Dicke parameter, temperature, pulse width, and SDK time) that maximize the performance of single-ion SDKs for protocols compatible with performed experiments involving a small number of fast pulses. We demonstrate through analytical methods and numerical simulations that, within the model commonly used for infidelity optimization, finite pulse duration is the dominant source of error, exceeding the contribution of secular motion by orders of magnitude for nanosecond-scale SDKs. Low infidelities -- below $10^{-3}$ for schemes with $\gtrsim10$ fixed-amplitude, equispaced, picosecond pulses -- are achievable in SDK times on the order of nanoseconds. These results provide quantitative design rules for achieving competitive SDK fidelities with current pulsed-laser technology, laying the foundation for sub-microsecond trapped-ion quantum entangling operations.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31409
+  pdf: https://arxiv.org/pdf/2605.31409
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

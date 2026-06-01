@@ -1,0 +1,25 @@
+id: radio-propagation-estimation-in-a-long-range-environment-usi
+title: Radio Propagation Estimation in a Long-Range Environment using a Deep Neural Network
+authors:
+  - Satoshi Ito
+  - Takahiro Hayashi
+year: 2021
+venue: European Conference on Antennas and Propagation
+abstract: Expectations for dynamic spectrum access (DSA) systems that can increase spectrum usage efficiency are growing because network traffic and the number of devices are increasing dramatically. Although the transmission power of a secondary system is controlled by detecting radio waves emitted from the primary system measured by sensors, it is assumed that sensors cannot be placed with sufficient density in the real environment. For this reason, an estimation model in areas where there are no sensors is needed. In addition, when a large number of sensors are used, the sensitivity of the sensors is expected to be limited, hence a highly accurate propagation loss estimation model is required to detect the weak power at long distances from the transmission point. In this paper, the authors have developed a model for estimating propagation loss over the long-range by using a free space path loss map and a building occupancy map.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.23919/EuCAP51087.2021.9411398
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 7
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

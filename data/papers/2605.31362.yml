@@ -1,0 +1,25 @@
+id: '2605.31362'
+title: Collective Winds of Massive Star Clusters as the Dominant PeVatrons for Galactic Cosmic Rays
+authors:
+  - Zijian Qiu
+  - Sujie Lin
+  - Lili Yang
+year: 2026
+abstract: The knee feature in the cosmic-ray energy spectrum around 4 PeV is widely believed to have a Galactic origin, but the acceleration mechanism and identification of PeVatrons remain key open questions in high-energy astrophysics. Recent precise measurements by LHAASO reveal that the proton and helium spectra exhibit a common rigidity-dependent spectral break at ~ 3.5 PV, imposing a stringent constraint on source models. In this work, we construct, for the first time, a time-dependent cosmic-ray injection model that incorporates the full evolution of massive stars together with the dynamical development of wind termination shocks. We find that stellar winds of individual massive stars cannot explain the common spectral break observed by LHAASO, as they yield distinct rigidity cutoffs for protons and helium. By contrast, collective winds of massive star clusters naturally reconcile this discrepancy through the mixing effect of stars at different evolutionary stages. We propose a stellar-dominated model in which supernova remnants dominate the GeV-TeV range, individual stellar winds dominate the TeV range, and collective cluster winds dominate the PeV knee region. This model successfully reproduces the rigidity-dependent spectral features of various species near 100 GV and 0.1 PV. It further makes two testable predictions for future observations. Around 0.5 PV, the energy spectra of carbon and oxygen are expected to exhibit hardening similar to that of helium, which can be verified by LHAASO observations. In the multi-TV range, the energy spectrum of magnesium is not expected to show hardening similar to that observed for helium, carbon, and oxygen, which can be tested by DAMPE observations.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31362
+  pdf: https://arxiv.org/pdf/2605.31362
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

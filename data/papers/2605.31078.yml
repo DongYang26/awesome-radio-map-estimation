@@ -1,0 +1,25 @@
+id: '2605.31078'
+title: Finite-inertia effects in Langevin dynamics of a lopsided elastic dumbbell using exponential-time differencing schemes
+authors:
+  - Lei Song
+  - Dingyi Pan
+  - Nhan Phan-Thien
+year: 2026
+abstract: 'Inertia effects in the Langevin dynamics of a lopsided elastic dumbbell are investigated using exponential-time-differencing (ETD) integrators for the corresponding stiff stochastic equations at small mass limit. Starting from the bead-level underdamped Langevin model, we formulate the dynamics in modal coordinates, highlighting two distinct friction scales: an additive friction $ζ_{\rm trans}=ζ_1+ζ_2$ controlling translation ($ζ_i, i=1,2$ are the friction factor on bead $i$), and an effective internal friction $1/ζ_{\rm eff}=1/ζ_1+1/ζ_2$ controlling configurational relaxation, with relaxation time $τ_R=ζ_{\rm eff}/H$ for a Hookean spring of stiffness $H$. We benchmark ETD against Euler--Maruyama and overdamped Brownian dynamics using equilibrium statistics, time-domain autocorrelations, and frequency-domain power spectra of the end-to-end vector. When time is rescaled by $τ_R$, configurational and orientational relaxation curves collapse across asymmetry ratios, showing that the dominant long-time structural dynamics remains close to the overdamped description. Inertial signatures are instead confined to short-time transients, high-frequency modifications of the configurational spectrum, and a transient coupling between translational and internal modes. This study provides a practical and accurate route for lopsided dumbbells across overdamped and weakly underdamped regimes, and clarify how mass and friction asymmetry affect the translational and internal dynamics.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31078
+  pdf: https://arxiv.org/pdf/2605.31078
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

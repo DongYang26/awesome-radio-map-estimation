@@ -1,0 +1,25 @@
+id: '2605.31554'
+title: Expanding the Population of Short Gamma-Ray Transients with a Coherent Fermi/GBM Search. A 13-year catalog of short GRBs
+authors:
+  - Ariel Perera
+  - Barak Zackay
+  - Tejaswi Venumadhav
+year: 2026
+abstract: In this paper, we present an archival search for short gamma-ray bursts (sGRBs) over 13 years (2013-2025) of Fermi/GBM data using a Poisson matched-filter pipeline that performs a fully coherent analysis across all detectors and energy channels, significantly improving sensitivity relative to the onboard triggering algorithms. A central component of the analysis is the empirical estimation of trigger significance using 'timeslided' data, allowing each candidate to be assigned a probability of astrophysical origin. We also developed a new parameter-estimation framework based on the Poisson matched filter, which uses the global structure of the detected event across spectral, temporal, and spatial parameter spaces. This enables us to systematically classify bursts and distinguish between GRBs, soft gamma repeaters, terrestrial gamma-ray flashes, and solar flares. We identify 568 new GRB candidates with $p_{\text{astro}}\geq0.9$ and thousands of magnetar bursts, significantly expanding the known short-transient population in GBM data. To further strengthen the significance of the GRB candidates, we performed a targeted follow-up search in Swift/BAT rate data. Applying the followup to all of our triggers - including triggers below the detection threshold yielded 1736 temporally coincident events with association probability above $90\%$. The resulting probabilistically ranked catalog substantially expands the population of short GRBs and magnetar flares detected in GBM data and provides a statistically robust framework for multimessenger searches.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31554
+  pdf: https://arxiv.org/pdf/2605.31554
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

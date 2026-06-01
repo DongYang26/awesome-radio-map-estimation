@@ -1,0 +1,27 @@
+id: '2605.31548'
+title: 'Reconciling the Fundamental Plane of Early-Type Galaxies with hydrodynamical simulations: The case of IllustrisTNG100-1'
+authors:
+  - Pedro de Araujo Ferreira
+  - Nicola R. Napolitano
+  - Crescenzo Tortora
+  - Luciano Casarini
+  - Francisco Villaescusa-Navarro
+year: 2026
+abstract: The Fundamental Plane (FP) of Early-Type Galaxies (ETGs) encapsulates a tight correlation among their structural and dynamical properties and provides an important benchmark for galaxy formation models. However, cosmological hydrodynamical simulations have historically struggled to reproduce the observed FP tilt, with discrepancies often attributed to to flawed feedback physics or insufficient resolution. Using the IllustrisTNG100-1 simulation, we show that adopting observationally motivated measurements, including Sérsic-derived photometric parameters and dynamically inferred velocity dispersions designed to minimise softening-length effects, substantially reduces the discrepancy between simulated and observed FPs. We further explore the impact of non-universal, mass-dependent Initial Mass Function (IMF) variations through forward modelling of their effects on galaxy structural and dynamical quantities. In particular, bottom-heavy IMF variations produce FP coefficients fully consistent with observational constraints for both direct and orthogonal fits. Our results suggest that a significant fraction of the long-standing FP tension arises from how galaxy observables are extracted and interpreted in simulations, although residual discrepancies may still reflect limitations in the underlying baryonic physics. These findings highlight the importance of observational realism and IMF variations for interpreting galaxy scaling relations and for improving the predictive power of hydrodynamical simulations of ETG formation.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31548
+  pdf: https://arxiv.org/pdf/2605.31548
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

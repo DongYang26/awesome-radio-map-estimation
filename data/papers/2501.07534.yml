@@ -1,0 +1,27 @@
+id: '2501.07534'
+title: 'Investigating Map-Based Path Loss Models: A Study of Feature Representations in Convolutional Neural Networks'
+authors:
+  - Ryan G. Dempsey
+  - Jonathan Ethier
+  - H. Yanikomeroglu
+year: 2025
+venue: 2025 IEEE International Symposium on Antennas and Propagation and North American Radio Science Meeting (AP-S/CNC-USNC-URSI)
+abstract: Path loss prediction is a beneficial tool for efficient use of the radio frequency spectrum. Building on prior research on high-resolution map-based path loss models, this paper studies convolutional neural network input representations in more detail. We investigate different methods of representing scalar features in convolutional neural networks. Specifically, we compare using frequency and distance as input channels to convolutional layers or as scalar inputs to regression layers. We assess model performance using three different feature configurations and find that representing scalar features as image channels results in the strongest generalization.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2501.07534
+  doi: 10.1109/AP-S/CNC-USNC-URSI55537.2025.11266705
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

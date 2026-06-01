@@ -1,0 +1,30 @@
+id: '2507.20789'
+title: DT-Aided Resource Management in Spectrum Sharing Integrated Satellite-Terrestrial Networks
+authors:
+  - Hung Nguyen-Kha
+  - Vu Nguyen Ha
+  - T. Nguyen
+  - Eva Lagunas
+  - S. Chatzinotas
+  - J. Grotz
+year: 2025
+venue: Global Communications Conference
+abstract: The integrated satellite-terrestrial networks (ISTNs) through spectrum sharing have emerged as a promising solution to improve spectral efficiency and meet increasing wireless demand. However, this coexistence introduces significant challenges, including inter-system interference (ISI) and the low Earth orbit satellite (LSat) movements. To capture the actual environment for resource management, we propose a time-varying digital twin (DT)-aided framework for ISTNs incorporating 3D map that enables joint optimization of bandwidth (BW) allocation, traffic steering, and resource allocation, and aims to minimize congestion. The problem is formulated as a mixed-integer nonlinear programming (MINLP), addressed through a two-phase algorithm based on successive convex approximation (SCA) and compressed sensing approaches. Numerical results demonstrate the proposed method’s superior performance in queue length minimization compared to benchmarks.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2507.20789
+  doi: 10.1109/GLOBECOM59602.2025.11431723
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 4
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

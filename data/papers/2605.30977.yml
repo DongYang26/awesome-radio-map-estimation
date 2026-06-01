@@ -1,0 +1,24 @@
+id: '2605.30977'
+title: Software Platform for Hybrid Pseudo-Random Sequence Generation and Predictability Analysis Based on LFSR and Mersenne Twister
+authors:
+  - Ali Abdolrahimi Zarnagh
+  - Ali Motazedifard
+year: 2026
+abstract: 'Generating reliable random and pseudo-random sequences is important in many electronic and signal processing systems, such as secure communications, radar, spread-spectrum methods, and autonomous platforms. Although true and quantum random number generators provide stronger unpredictability, classical pseudo-random number generators, including Linear Feedback Shift Registers (LFSRs) and the Mersenne Twister (MT), are still widely used because they are efficient and easy to implement. This work introduces a user-friendly software platform for generating, analyzing, and evaluating the predictability of pseudo-random bit sequences. The software supports two main functions: generating sequences using classical PRNGs and hybrid combinations, and analyzing input sequences through statistical measures and data-driven methods. In particular, hybrid LFSR-MT structures are studied to examine how they affect sequence complexity and resistance to prediction. The platform also includes machine-learning and deep-learning tools to investigate when deterministic PRNGs may remain partially predictable, even when their structure becomes more complex. The results show that algorithmic random sequence generators have inherent limitations in terms of unpredictability, which supports the use of quantum random sequences in security-critical applications. A comparative study between classical LFSR-MT sequences and quantum random sequences shows that quantum randomness offers higher unpredictability due to its non-deterministic physical origin. The potential use of quantum random sequences in jamming applications is also discussed, highlighting their improved robustness against prediction-based attacks. Overall, the proposed software provides a practical tool for analyzing, comparing, and benchmarking random sequence generators in modern electronic, sensing, and quantum-enabled communication systems.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.30977
+  pdf: https://arxiv.org/pdf/2605.30977
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

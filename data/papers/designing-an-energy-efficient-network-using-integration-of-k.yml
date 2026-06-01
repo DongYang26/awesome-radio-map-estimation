@@ -1,0 +1,27 @@
+id: designing-an-energy-efficient-network-using-integration-of-k
+title: Designing an Energy Efficient Network Using Integration of KSOM, ANN and Data Fusion Techniques
+authors:
+  - Pooja Singh
+  - Vikas Pareek
+  - A. Ahlawat
+year: 2017
+venue: Int. J. Commun. Networks Inf. Secur.
+abstract: Energy in a wireless sensor network (WSN) is rendered as the major constraint that affects the overall feasibility and performance of a network. With the dynamic and demanding requirements of diverse applications, the need for an energy efficient network persists. Therefore, this paper proposes a mechanism for optimizing the energy consumption in WSN through the integration of artificial neural networks (ANN) and Kohonen self-organizing map (KSOM) techniques. The clusters are formed and re-located after iteration for effective distribution of energy and reduction of energy depletion at individual nodes. Furthermore, back propagation algorithm is used as a supervised learning method for optimizing the approach and reducing the loss function. The simulation results show the effectiveness of the proposed energy efficient network.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://www.ijcnis.org/index.php/ijcnis/article/download/2769/800
+  doi: 10.17762/ijcnis.v9i3.2769
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 6
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

@@ -1,0 +1,26 @@
+id: '2605.30850'
+title: 'Quantum Photonic Time Crystals: From Temporal Boundaries to Floquet Light-Matter Interactions'
+authors:
+  - Younsung Kim
+  - Kyungmin Lee
+  - Kun Woo Kim
+  - Bumki Min
+year: 2026
+abstract: 'Photonic time crystals (PTCs) are temporally periodic media whose Floquet spectra can exhibit momentum gaps, parametric amplification, and effective non-Hermitian descriptions, making them an idealized setting for vacuum amplification and nonequilibrium light-matter dynamics. Their classical electrodynamics is now well developed; the quantum side is less so, and this focused review is an attempt to organize what exists. We trace that account from temporal boundaries to homogeneous Floquet media and light-matter dynamics. A single temporal boundary induces Bogoliubov mode mixing and photon-pair creation; in homogeneous bulk media, momentum conservation isolates counter-propagating $(k,-k)$ sectors and yields a two-mode $SU(1,1)$ squeezing structure. Temporal periodicity promotes this to a Floquet problem with band and momentum-gap regimes, compactly described in a fixed Nambu basis. We then relate PTCs to the dynamical Casimir effect and parametric amplification, which share the same pair-creation mechanism but organize it through discrete resonances rather than a momentum-resolved bulk spectrum. We close with light-matter settings: spontaneous-emission decay and modulation-assisted excitation, atom-PTC dynamics, LDOS-based observables and their limits, and finite, dispersive, and experimentally accessible platforms.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.30850
+  pdf: https://arxiv.org/pdf/2605.30850
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

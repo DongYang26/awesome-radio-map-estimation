@@ -1,0 +1,27 @@
+id: '2605.31339'
+title: 'SQEEZ: Energy-efficient Location Sharing for Mobile Ad Hoc Networks'
+authors:
+  - Ram Ramanathan
+  - Dmitrii Dugaev
+  - Ryan Conyac
+  - Alon Mor
+  - Charlie Greenbacker
+year: 2026
+abstract: 'Periodic network-wide dissemination of node location data is crucial for shared situational awareness and collaborative mapping in mobile ad hoc and mesh networks for public safety, disaster relief, and military. A key challenge is to provide maximally accurate location information with minimal energy expenditure on part of the nodes. We present SQEEZ: a mechanism for reducing the Position Location Information (PLI) load that combines two orthogonal techniques: (1) adaptive suppression of location updates; and (2) temporal and inline compression of update packets. We describe the SQEEZ suppression and compression algorithms, analyze the tradeoff between location error and energy consumption, and introduce a new metric called \textit{Error-Penalized-Energy (EPE)} that normalizes the energy metric using the error incurred. Our simulation results show that, in the range of parameters studied, SQEEZ improves the EPE-efficiency and scalability in a 30-node random waypoint scenario by up to 4.4x and 2.3x respectively; and increases the EPE-efficiency by 7.5x in a 9-node real-world network trace. Compression provides larger improvements than suppression at high mobilities and vice-versa at low mobilities.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31339
+  pdf: https://arxiv.org/pdf/2605.31339
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

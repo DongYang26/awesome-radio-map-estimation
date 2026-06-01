@@ -1,0 +1,27 @@
+id: '2605.31523'
+title: 'Mind the Companion : Demographics of Transiting S-type Exoplanets'
+authors:
+  - Lina Y. Messamah
+  - François Bouchy
+  - Julia Venturini
+  - Léna Parc
+  - Ariana Nigioni
+year: 2026
+abstract: Exoplanet demographic studies rely on large and homogeneous catalogs, yet stellar multiplicity remains incompletely characterised in many planet samples. Misidentified stellar companions can bias both stellar and planetary parameters, leading to ambiguous and incomplete conclusions about planet formation and evolution. We aim to construct a robust and reliable reference catalog of S-type exoplanets for future investigations of planet formation and evolution in multiple-star environments, and to reassess exoplanet demographics by comparing planets hosted by single-stars and binary systems in a statistically consistent framework. We update the PlanetS catalog of transiting exoplanets by systematically identifying gravitationally bound stellar companions using Gaia DR3. Adopting a deliberately conservative classification, we distinguish binary and single-star systems and constructed a matched control sample of single hosts to mitigate selection and observational biases. Using this curated dataset of 860 transiting exoplanets including 133 S-type planets, we performed a comparative demographic analysis of planetary properties as a function of host multiplicity, stellar mass, and binary separation. We find a binary fraction of 19.4% relative to the control sample (15.5% relative to the full single-star sample), consistent with previous estimates but derived from a larger and more homogeneous dataset. Significant demographic differences emerge in the giant planet regime, less affected by observational biases. We find that giant planets in binaries tend to be more massive than their single-star counterparts and to orbit closer to their host stars, making their radius more inflated. In particular, we identify a tentative excess of giant planets orbiting M-dwarfs in binaries with separations < 1000 AU, suggesting a potentially informative regime for future demographic studies.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31523
+  pdf: https://arxiv.org/pdf/2605.31523
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

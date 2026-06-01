@@ -1,0 +1,24 @@
+id: '2605.31431'
+title: 'When Certainty Is Not Worth It: Capital Lock-Up and Settlement Discounting in Prediction Markets'
+authors:
+  - Jonas Gebele
+  - Florian Matthes
+year: 2026
+abstract: 'Collateralized prediction markets are contingent-claim markets in which economic uncertainty can disappear before winning claims become redeemable. This paper studies the pricing effect of that delay. When collateral remains locked until oracle settlement, a near-certain dollar is a delayed dollar, so prices embed a maturity-dependent settlement discount in addition to beliefs about outcomes. We recover an implied settlement-discount term structure from persistent near-certain contracts using realized settlement times and summarize it as an annualized settlement wedge (ASW). The recovered wedges are positive, maturity-dependent, and time-varying. Adjusting pricesby these curves reduces the near-certainty horizon gradient by roughly 48-88%, indicating that much of the raw maturity pattern reflects priced settlement frictions rather than forecast error alone. Market architecture changes the wedge: negRisk conversion compresses discounts by recycling part of the position into synthetic collateral, while yield-bearing collateral flattens the term structure by reducing the opportunity cost of lock-up. The results show that pricing quality in prediction markets is endogenous to settlement mechanics, collateral productivity, and capital-recycling design. Prediction-market prices therefore aggregate information through a financial infrastructure whose funding conditions are measurable and economically important.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31431
+  pdf: https://arxiv.org/pdf/2605.31431
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

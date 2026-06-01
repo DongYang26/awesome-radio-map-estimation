@@ -1,0 +1,29 @@
+id: '2605.31346'
+title: Wall-Clock Complexity for Zeroth-Order Optimization with Tunable Oracle Fidelity
+authors:
+  - Alexandra Suvorikova
+  - Igor Pavlov
+  - Artem Vasin
+  - Georgii Bychkov
+  - Anastasia Antsiferova
+  - Darina Dvinskikh
+  - Alexander Gasnikov
+year: 2026
+abstract: 'Zeroth-order (black-box) optimization is applied when gradients are unavailable and objective evaluations rely on expensive simulations. In many such applications, the oracle fidelity is tunable: higher-accuracy queries reduce noise but incur higher computational costs. To capture this trade-off, we study an accuracy-aware wall-clock model where each query with fidelity $δ$ has a cost $c(δ)$, and we minimize the total time $T_{\mathrm{total}} = \sum_{k=1}^{N} c(δ_k)$, subject to a target accuracy constraint. We show how the choice of oracle type, noise model, and optimization scheme induces explicit wall-clock-optimal choices for the algorithmic parameters. For instance, we demonstrate that accelerated methods can be wall-clock inferior to non-accelerated schemes. Furthermore, we characterize the conditions under which a constant fidelity strategy is optimal in the Big-O sense. Our framework provides a unified methodology to translate convergence guarantees into practical fidelity and batching recommendations.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31346
+  pdf: https://arxiv.org/pdf/2605.31346
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

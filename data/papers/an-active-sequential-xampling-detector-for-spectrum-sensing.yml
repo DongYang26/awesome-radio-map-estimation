@@ -1,0 +1,26 @@
+id: an-active-sequential-xampling-detector-for-spectrum-sensing
+title: An Active Sequential Xampling Detector for Spectrum Sensing
+authors:
+  - Lorenzo Ferrari
+  - A. Scaglione
+year: 2017
+venue: IEEE Transactions on Cognitive Communications and Networking
+abstract: Nyquist sampling at very high carriers can be prohibitively costly for low power wireless devices. In spectrum sensing, this limit calls for an analog front-end that can sweep different bands quickly, in order to use the available spectrum opportunistically. In this paper, we propose a new sub-Nyquist analog front-end and a sensing strategy formulated as a sequential utility optimization problem. The sensing action maximizes a utility function decreasing linearly with the number of measurements, and increasing as a function of the active spectrum components that are correctly detected. The optimization selects the best linear combinations of sub-bands to mix, in order to accrue maximum utility. The structure of the utility represents the tradeoff between exploration, exploitation, and risk of making an error, that is characteristic of the spectrum sensing problem. We first present the analog front-end architecture, and then map the measurement model into the abstract optimization problem proposed, and analyzed, in the remainder of this paper. We characterize the optimal policy, under constraints on the sensing matrix, and derive the approximation factor of the greedy approach we introduce to solve the problem. Numerical simulations showcase the benefits of combining active spectrum sensing with sub-Nyquist sampling.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://doi.org/10.1109/tccn.2018.2808528
+  doi: 10.1109/TCCN.2018.2808528
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - spectrum-occupancy  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 3
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

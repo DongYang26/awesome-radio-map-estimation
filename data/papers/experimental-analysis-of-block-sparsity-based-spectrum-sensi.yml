@@ -1,0 +1,28 @@
+id: experimental-analysis-of-block-sparsity-based-spectrum-sensi
+title: Experimental Analysis of Block-Sparsity-Based Spectrum Sensing Techniques for Cognitive Radar
+authors:
+  - A. Aubry
+  - V. Carotenuto
+  - A. De Maio
+  - Mark A. Govoni
+  - A. Farina
+year: 2021
+venue: IEEE Transactions on Aerospace and Electronic Systems
+abstract: Due to increasing demands for spectral resources in both communication and radar systems, the radio frequency electromagnetic spectrum is becoming more and more crowded with interfering nuisances. In order to tackle the scarcity of available spectral intervals, in recent years a multitude of sensing algorithms have been developed for improving spectrum sharing. Among these, two-dimensional (2-D) spectrum sensing can be used to obtain space–frequency electromagnetic spectrum awareness. Specifically, this approach makes it possible to optimize the spectrum usage of certain spectrum portions whose occupancy varies both temporally and spatially. In this article, we evaluate the effectiveness of certain space–frequency map recovery algorithms relying on the use of commercially available hardware. To this end, we employ an inexpensive four-channel coherent receiver, using software-defined radio components, for emitter localization. Hence, after proper calibration of the receiving system, the acquired samples are used to evaluate the performance of different signal processing strategies which exploits the inherent block-sparsity of the overall profile. At the analysis stage, results reveal the effectiveness of such algorithms.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/TAES.2020.3021810
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - spectrum-occupancy  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 22
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

@@ -1,0 +1,33 @@
+id: '2605.31330'
+title: Social welfare optimisation under institutional reward and punishment
+authors:
+  - Van An Nguyen
+  - Vuong Khang Huynh
+  - Huu Loi Bui
+  - Hai Anh Ha
+  - Quang Dung Le
+  - Tan Dat Nguyen
+  - Ngoc Ngu Nguyen
+  - Zhao Song
+  - Manh Hong Duong
+  - Le Hong Trang
+  - The Anh Han
+year: 2026
+abstract: 'Institutional incentives are widely used to promote cooperation among autonomous, self-regarding agents, from human societies to multi-agent and AI systems. Existing work typically treats incentive design as a bi-objective problem: minimise institutional cost while achieving a high long-run frequency of cooperation. Whether such schemes also maximise social welfare - total population payoff net of institutional expenditure - has remained largely unexplored. We develop a welfare-centric framework for institutional incentives in finite, well-mixed populations playing a social dilemma (Donation Game and Public Goods Game), considering both rewards for cooperators and punishments for defectors. For each mechanism, we derive explicit expressions for expected social welfare and characterise how it depends on incentive efficiency and selection intensity. Analytically, we identify parameter regimes where social welfare has a single optimal incentive level and regimes with qualitative phase transitions, in which welfare becomes non-monotonic with multiple local optima. We prove that any welfare-maximising incentive is either zero or concentrated around a simple closed-form target, and we provide an efficient algorithm to compute these optima. Comparing reward and punishment, we further derive close-formed conditions under which reward outperform punishment in terms of social welfare for any given budget. Overall, our results reveal a systematic gap between incentives optimised for cost or cooperation frequency and those that maximise welfare.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31330
+  pdf: https://arxiv.org/pdf/2605.31330
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

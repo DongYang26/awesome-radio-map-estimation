@@ -1,0 +1,31 @@
+id: '2605.31252'
+title: Magnetic domains reconfiguration on the Fe3O4(110) surface across the Verwey transition by Spin-Polarized Low-Energy Electron Microscopy
+authors:
+  - C. Gutiérrez-Cuesta
+  - A. Mandziak
+  - J. E. Prieto
+  - P. Nita
+  - A. Mascaraque
+  - U. Choudhry
+  - J. Turner
+  - A. Stibor
+  - J. de la Figuera
+year: 2026
+abstract: We have studied the (110) surface of Fe$_3$O$_4$ single crystals by means of spin-polarized low-energy electron microscopy (SPLEEM). After preparation by sputtering and annealing a well defined reconstructed surface was achieved, composed of rows aligned in the [010] direction. By acquiring SPLEEM images along different spin directions the vector magnetization was mapped on the surface, both at room temperature and at a temperature well below the Verwey transition. At room temperature, domains were observed with their magnetization aligned along the two <111> bulk easy axes which are in the (110) surface plane. They presented 180$^\circ$, 71$^\circ$ and 109$^\circ$ Néel-type domain walls. Below the Verwey transition, the magnetization directions changed to regions where the magnetization was oriented along the in-plane [100] and [001] directions. Those observations can be interpreted as the presence of magnetized regions on the surface where the monoclinic $c$ axis is in-plane in the former, and regions where the $c$ is out-of-plane in an oblique direction in the latter. However, the magnetization was at all times within the surface plane, with no out-of-plane component detected.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31252
+  pdf: https://arxiv.org/pdf/2605.31252
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

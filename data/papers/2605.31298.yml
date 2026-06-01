@@ -1,0 +1,24 @@
+id: '2605.31298'
+title: Multi-welded twin groups
+authors:
+  - Mohamad N. Nasser
+  - Oscar Ocampo
+year: 2026
+abstract: For $k\geq 1$ and $n\geq 2$, we introduce the multi-welded twin group $M_kWT_n$, a natural welded analogue of the multi-virtual twin group. We show that $M_kWT_n$ arises naturally as a quotient of the universal welded braid group $UW_n(k)$, placing it within the unified framework of universal virtual and welded braid-type groups. We establish natural quotient maps relating $M_kWT_n$ to the multi-virtual twin group $M_kVT_n$, the welded twin group $WT_n$, and the corresponding virtual and welded braid-type groups. Several structural properties of $M_kWT_n$ are obtained. In particular, we compute its abelianization, prove that its commutator subgroup is perfect for $n\ge5$, and show that the symmetric group $S_n$ is its smallest non-abelian finite quotient. We also investigate the representation theory of $M_kWT_n$. In fact, we classify all non-trivial complex homogeneous $2$-local representations of $M_kWT_n$, showing that only one family survives under the additional twin and welded relations. Furthermore, we classify all non-trivial complex homogeneous $3$-local representations of $M_2WT_n$. We further investigate the reducibility and faithfulness properties of both the $2$-local and $3$-local representations.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31298
+  pdf: https://arxiv.org/pdf/2605.31298
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

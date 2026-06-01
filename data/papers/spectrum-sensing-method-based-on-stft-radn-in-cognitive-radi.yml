@@ -1,0 +1,28 @@
+id: spectrum-sensing-method-based-on-stft-radn-in-cognitive-radi
+title: Spectrum Sensing Method Based on STFT-RADN in Cognitive Radio Networks
+authors:
+  - Anyi Wang
+  - Tao Zhu
+  - Qifeng Meng
+year: 2024
+venue: Italian National Conference on Sensors
+abstract: To address the common issues in traditional convolutional neural network (CNN)-based spectrum sensing algorithms in cognitive radio networks (CRNs), including inadequate signal feature representation, inefficient utilization of feature map information, and limited feature extraction capabilities due to shallow network structures, this paper proposes a spectrum sensing algorithm based on a short-time Fourier transform (STFT) and residual attention dense network (RADN). Specifically, the RADN model improves the basic residual block and introduces the convolutional block attention module (CBAM), combining residual connections and dense connections to form a powerful deep feature extraction structure known as residual in dense (RID). This significantly enhances the network’s feature extraction capabilities. By performing STFT on the received signals and normalizing them, the signals are converted into time–frequency spectrograms as network inputs, better capturing signal features. The RADN is trained to extract abstract features from the time–frequency images, and the trained RADN serves as the final classifier for spectrum sensing. Experimental results demonstrate that the STFT-RADN spectrum sensing method significantly improves performance under low signal-to-noise ratio (SNR) conditions compared to traditional deep-learning-based methods. This method not only adapts to various modulation schemes but also exhibits high detection probability and strong robustness.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://doi.org/10.3390/s24175792
+  doi: 10.3390/s24175792
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+task:
+  - spectrum-occupancy  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 10
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

@@ -1,0 +1,27 @@
+id: kernelized-generalized-likelihood-ratio-test-for-spectrum-se
+title: Kernelized Generalized Likelihood Ratio Test for Spectrum Sensing in Cognitive Radio
+authors:
+  - Lily Li
+  - Shujie Hou
+  - A. Anderson
+year: 2018
+venue: IEEE Transactions on Vehicular Technology
+abstract: Spectrum sensing in next-generation wireless radio networks is considered a key technology to overcome the problem of spectrum scarcity. Unfortunately, many approaches to spectrum sensing do not work well in low signal-to-noise ratio (SNR) environments. This paper proposes and analyzes a new algorithm named kernelized generalized likelihood ratio test (KGLRT) for spectrum sensing in cognitive radio systems to overcome this problem. Effectively, KGLRT uses a nonlinear kernel to map input data onto a high-dimensional feature space; then, the widely accepted (linear) generalized likelihood ratio test is used for hypothesis testing. This new algorithm gives a gain of 4 dB in SNR over its linear counterpart. A theoretical analysis for this algorithm is given for the first time and is shown analogous to algorithms used in image signal processing. The detection metrics are found to be concentrated random variables; furthermore, the probability distributions of the detection metrics are proved to follow the F -distributions, which agree with the results obtained using the concentration inequality. The analytical thresholds are derived for target false-alarm probabilities. The thresholds are independent of noise power; thus, the proposed algorithm can overcome noise uncertainty issues at very low SNR levels. Simulations validate the theoretical results.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://doi.org/10.1109/tvt.2018.2824023
+  doi: 10.1109/TVT.2018.2824023
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - spectrum-occupancy  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 10
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

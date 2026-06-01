@@ -1,0 +1,27 @@
+id: multi-view-stereo-3d-reconstruction-algorithm-based-on-impro
+title: Multi-view Stereo 3D Reconstruction Algorithm Based on Improved PatchMatch Algorithm
+authors:
+  - Liang Zeng
+  - Jun Wu
+  - Weidong Huang
+  - Xiao-lan Liu
+year: 2023
+venue: 2023 3rd International Conference on Neural Networks, Information and Communication Engineering (NNICE)
+abstract: 'In order to alleviate the problems of large memory consumption, low efficiency and high hardware requirements in previous deep learning-based 3D reconstruction schemes, this paper proposes an multi-view geometric 3D reconstruction network framework based on the improved PatchMatch algorithm. It consists of three parts: multi-scale feature extraction, improved PatchMatch and space optimization module. In this paper, the input view is first passed through a multi-scale feature extractor to generate three-scale features, and then the PatchMatch iterative optimization is performed on the feature maps of each scale to generate a depth map. By optimizing in the initialization phase of PatchMatch, an adaptive module is added in the propagation and cost evaluation phase of the algorithm, and the structural consistency loss function is used as the loss item of training; then the optimization algorithm model is embedded into the coarse to in a refined frame. Experimental results show that the proposed scheme can guarantee better reconstruction effect, improve reconstruction efficiency and reduce running memory.'
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/NNICE58320.2023.10105694
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 2
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

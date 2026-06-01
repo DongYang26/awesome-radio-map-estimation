@@ -1,0 +1,26 @@
+id: '2605.30007'
+title: Hidden Ising models from the generalized Yang-Baxter equation
+authors:
+  - Akash Sinha
+  - Somnath Maity
+  - Pramod Padmanabhan
+  - Vladimir Korepin
+year: 2026
+abstract: We introduce a one dimensional spin $\frac{1}{2}$ Hamiltonian with multi-site interactions, but still local. The algebra of its Hamiltonian densities resembles that of the transverse field Ising model. Using this fact we show that its spectrum is free-fermionic but with a huge degeneracy for each level. The source of the degeneracy is a set of local conserved quantities that act like a classical background field for the quantum system. The thermodynamics of this system is contrasted with the standard Ising model. At the gapless points in the energy spectrum, we show that this system can be derived from the quantum inverse scattering method adapted to a multi-site generalization of the Yang-Baxter equation as introduced by E. Rowell and Z. Wang. The $R$-matrix is constructed using generators of extraspecial 2-groups. This helps us extract all the conserved charges and lay the framework for a general mechanism to generate such multi-site interaction spin systems that are transverse field Ising models under the hood. A remark on how to obtain P. Fendley's free-fermion in disguise models in this formalism is also included.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.30007
+  pdf: https://arxiv.org/pdf/2605.30007
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

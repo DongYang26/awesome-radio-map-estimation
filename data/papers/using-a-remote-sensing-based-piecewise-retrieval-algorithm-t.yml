@@ -1,0 +1,31 @@
+id: using-a-remote-sensing-based-piecewise-retrieval-algorithm-t
+title: Using a Remote-Sensing-Based Piecewise Retrieval Algorithm to Map Chlorophyll-a Concentration in a Highland River System
+authors:
+  - Yuanxu Ma
+  - Dongqi Sun
+  - Weihua Liu
+  - Y. You
+  - Siyuan Wang
+  - Zhongchang Sun
+  - Shaohua Wang
+year: 2022
+venue: Remote Sensing
+abstract: Chlorophyll-a(chl-a) has been used as an important indicator of water quality. Great efforts have been invested to develop remote-sensing-based chl-a retrieval models. However, due to the spatial difference in chl-a concentration, a single model usually cannot accurately predict the whole range of chl-a concentration. To test the performance of precedent chl-a models, we carried out an experiment along the upper and middle reaches of the Kaidu River and around some small ponds in the Bayanbulak Wetland. We measured water surface reflectance in the field and analyzed the chl-a concentration in the laboratory. Initially, we performed a sensitivity analysis of the spectrum band to chl-a concentration with the aim of identifying the most suitable bands for various chl-a models. We found that the water samples could be divided into two groups with a threshold of 4.50 mg/m3. Then, we tested the performance of 11 precedent chl-a retrieval models and 7 spectral index-based regression models from this study for all the sample datasets and the two separate datasets with relatively high and low chl-a concentrations. Through a complete comparison of the performance of these models, we selected the D3B model for water bodies with high chl-a concentration and OC2 model (ocean color 2) for low chl-a concentration waters, resulting in the hierarchical and piecewise retrieval algorithm OC2-D3B. The chl-a concentration of 4.50 mg/m3 corresponded to the D3B value of −0.051; therefore, we used −0.051 as the threshold value of the OC2-D3B model. The result of the OC2-D3B model showed a better performance than the other algorithms. Finally, we mapped the spatial distribution and seasonal pattern of chl-a concentration in Bayanbulak Wetland using Sentinel-2 images from 2016 to 2019. The results indicated that the chl-a concentration in the riparian ponds was generally in the range of 8–10 mg/m3, which was higher than that in rivers with a range of 2–4 mg/m3. The highest chl-a concentration usually appears in summer, followed by spring and autumn, and the lowest in winter. The correlation between meteorological data and chl-a concentration showed that temperature is the dominant factor for chl-a concentration changes. Our analytical framework could provide a better way to accurately map the spatial distribution of chl-a concentration in complex river systems.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://www.mdpi.com/2072-4292/14/23/6119/pdf?version=1670318930
+  doi: 10.3390/rs14236119
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 4
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

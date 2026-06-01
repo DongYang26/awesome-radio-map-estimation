@@ -1,0 +1,23 @@
+id: '2605.31416'
+title: Second-order PACF asymptotics and discrimination between fractional Gaussian noise and $\FARIMA(0,d,0)$
+authors:
+  - Chunhao Cai
+year: 2026
+abstract: Fractional Gaussian noise and $\FARIMA(0,d,0)$ have the same long-memory pole $|θ|^{-2d}$ and hence the same leading PACF law $α(n)\sim d/n$. We show that this agreement breaks at the first non-universal order. For $0<d<1/2$, the pure fGn PACF satisfies $$ α_{\fGn}(n)=\frac d n+\frac{C_{\fGn}(d)}{n^2}+o(n^{-2}), \qquad C_{\fGn}(d)<d^2, $$ The proof uses the Bingham--Inoue--Kasahara representation, a phase-coefficient expansion for fGn, and a Hankel-operator perturbation argument. Thus the fGn spectral envelope is invisible at first order but visible in second-order finite prediction, explaining why short-memory order selection can differ when fGn data are fitted by FARIMA-type models.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31416
+  pdf: https://arxiv.org/pdf/2605.31416
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

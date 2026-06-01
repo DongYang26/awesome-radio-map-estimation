@@ -1,0 +1,27 @@
+id: spectrum-sensing-by-higher-order-svm-based-detection
+title: Spectrum sensing by higher-order SVM-based detection
+authors:
+  - A. Coluccia
+  - A. Fascista
+  - G. Ricci
+year: 2019
+venue: European Signal Processing Conference
+abstract: A novel spectrum sensing algorithm based on support vector machine is proposed. The idea is to map the received signals into a multi-dimensional feature space obtained from well-known spectrum sensing statistics and their higher-order combinations. The approach has been implemented and validated on a software-defined radio testbed. Experimental results have shown the receiver operating characteristic (ROC) curve of the proposed detector can outperform classical spectrum sensing approaches without requiring knowledge of the noise variance.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.23919/EUSIPCO.2019.8903028
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - spectrum-occupancy  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 15
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

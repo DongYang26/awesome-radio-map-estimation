@@ -1,0 +1,27 @@
+id: collaborative-spectrum-sensing-for-multi-uav-system-a-u-net-
+title: 'Collaborative Spectrum Sensing for Multi-UAV System: A U-Net Approach With Uncertainty Awareness'
+authors:
+  - Jie Shi
+  - Jiaxin Wu
+  - Jingzheng Chong
+  - Zhihua Yang
+year: 2025
+venue: IEEE Transactions on Vehicular Technology
+abstract: The spectrum sensing in urban area confronts with intricate terrains and irregular buildings, leading to complex characteristic of electronic magnetic wave propagation, which presents huge challenges such as low accuracy and efficiency for existing spectrum-sensing approaches integrated with Unmanned Aerial Vehicles (UAVs). To address this challenge, we propose a Uncertainty-Aware U-Net based Collaborative Spectrum Sensing (UAUCSS) scheme for multi-UAV systems, which has spectrum-sensing capability with high accuracy and efficiency in complex urban environments through UAVs collaboration. In particular, a Voronoi Partitioning based Path Planning (VP3) algorithm is developed to achieve efficient data collection, which could dynamically plan each UAV' trajectory in the pre-allocated task region with a well-designed uncertainty map. Experiments on a real-data set show that the proposed UAVCSS can perform better with respects to the sensing accuracy and efficiency compared with typical sensing algorithms KernelRidgeRegrEstimator and KNNEstimator.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/TVT.2025.3566494
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+task:
+  - spectrum-occupancy  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 5
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

@@ -1,0 +1,25 @@
+id: '2605.29745'
+title: 'Geometry and localization: Probing Localization Landscape Theory on the Bethe Lattice'
+authors:
+  - Lorenzo Tonetti
+  - Leticia F. Cugliandolo
+  - Marco Tarzia
+year: 2026
+abstract: 'The Localization Landscape Theory (LLT) offers a classical analogy for understanding Anderson localization through an effective confining potential, whose percolation threshold has been proposed to mark the mobility edge. While this correspondence shows striking numerical agreement in three dimensions, its theoretical foundations remain an open question. In this work, we extend the analysis of the LLT on the Bethe lattice presented in~\cite{Tonetti2026}. In this setting in both the Anderson localization transition and the LLT percolation problem admit exact solutions. Our analysis reveals that the two transitions are distinct, with markedly different critical behaviors. Notably, the LLT percolation transition falls into the standard mean-field universality class, in sharp contrast with the unconventional critical behavior of the Anderson transition on the Bethe lattice. Nonetheless, the LLT framework reproduces several exact results, capturing nontrivial features of the very low-disorder regime: it predicts the position of the isolated eigenvalue, the minimal disorder at which both the LLT percolation curve and the mobility edge first appear, and the Aizenman--Warzel lower bound for localization. We also study the dependence of the LLT percolation threshold on the energy shift, evaluate the LLT prediction for the Density of States, and derive several results on the statistical properties of the variables controlling the problem. Finally, we develop an extreme-value analysis showing that the LLT prediction for the Density of States overestimates the amplitude of the tails close to the boundary of the continuous spectrum. These findings provide an exact analytical benchmark showing that, despite its geometric appeal, the LLT does not generally reproduce the quantum critical properties of Anderson localization, while still offering a powerful tool to understand its very low-disorder regime.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.29745
+  pdf: https://arxiv.org/pdf/2605.29745
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

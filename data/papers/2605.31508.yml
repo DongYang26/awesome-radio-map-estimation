@@ -1,0 +1,26 @@
+id: '2605.31508'
+title: Internalizing Temporal Consistency in Video Object-Centric Learning without Explicit Regularization
+authors:
+  - Rongzhen Zhao
+  - Zhiyuan Li
+  - Juho Kannala
+  - Joni Pajarinen
+year: 2026
+abstract: 'Video Object-Centric Learning (OCL) aims to represent objects as \textit{slot} vectors and maintain their consistency across frames. Slot-Slot Contrastive (SSC) loss has become the cornerstone for state-of-the-art (SOTA) video OCL methods. While highly effective, SSC relies on one-to-one object correspondence across frames and introduces an extra loss. Following Occam''s Razor, we propose a paradigm shift: temporal consistency is better enforced as an implicit model design rather than an explicit loss. To elegantly exclude SSC (\textbf{xSSC}), we introduce two quasi-zero-overhead synergistic mechanisms: (\textit{i}) Chrono-Channel Decomposition (CCD) structurally disentangles slot representations along the channel dimension into \textit{static} and \textit{dynamic} sub-spaces, serving as an empirically unified information bottleneck; (\textit{ii}) Cross-Temporal Reconstruction (CTR) stochastically reconstructs target features of either the current or previous time step by fusing current slots'' static channels and target slots'' dynamic channels, using a single standard OCL decoder with minor training adaptation. Thereby, the slot sets inherently learn temporal consistency by minimizing the standard reconstruction error alone. Extensive experiments show that integrating xSSC into leading baselines not only improves training efficiency but also establishes new SOTAs on video object discovery and recognition tasks. Furthermore, our PCA and gradient analyses confirm that objects'' time-invariant semantics and time-variant kinematics are encoded into the proposed sub-spaces. Our source code, model checkpoints and training logs are provided on https://github.com/Genera1Z/xSSC.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31508
+  pdf: https://arxiv.org/pdf/2605.31508
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: self-supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

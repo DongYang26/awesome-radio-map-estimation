@@ -1,0 +1,26 @@
+id: dmac-yolo-a-high-precision-yolo-v5s-object-detection-model-w
+title: 'DMAC-YOLO: A High-Precision YOLO v5s Object Detection Model with a Novel Optimizer'
+authors:
+  - Chao Meng
+  - Shaohua Liu
+  - Yu Yang
+year: 2024
+venue: IEEE International Joint Conference on Neural Network
+abstract: YOLO v5s is one of the commonly used one-stage object detection algorithms currently, known for its small size and fast speed. However, its main limitation is its lower accuracy. To address this issue, this paper proposes an improved YOLO v5s model, DMAC-YOLO, which utilizes the AdamPlus optimizer, an enhancement of the Adam optimizer, for higher accuracy and faster convergence compared to traditional optimizers. The model adopts a Decoupled Head approach to improve gradient propagation during training and introduces the SIoU Loss function to reduce false positives and missed detections. Additionally, by improving the network structure of the original YOLO v5s and incorporating the CBAM attention mechanism, the model's feature extraction capabilities are enhanced. Experiments show that compared to the YOLO v5s model, the DMAC-YOLO model increases mAP@0.5 by 6.0% to 84.3% and mAP@0.95 by 13.2% to 64.2% on the PASCAL VOC dataset. On the COCO dataset, the DMAC-YOLO model's mAP@0.5 is improved by 4.0% to 56.7%, and mAP@0.95 by 4.2% to 37.4%. Ablation experiments also demonstrate that the proposed improvements enable the model to converge quickly while maintaining a balance between accuracy and speed.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/IJCNN60899.2024.10650645
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - Transformer  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 3
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

@@ -1,0 +1,26 @@
+id: '2605.31340'
+title: 'Appropriateness of Empathy in AI: A Signal-Cost Perspective'
+authors:
+  - Chi-Ching Juan
+  - Tao Wang
+  - Harold Lee
+year: 2026
+abstract: The appropriateness of empathy in AI has emerged as a critical concern, as excessive empathy risks seeming manipulative while insufficient empathy appears dismissive. While prior research has explored how to quantify empathy in AI, few studies examine whether such empathy is contextually appropriate. This paper introduces an economic perspective by applying signaling theory to human-AI conversations. We propose Signal Cost Proxies (emotional richness, perspective-taking, and contextual tailoring) mapped to affective, cognitive, and associative empathy. This multidimensional framework enables systematic evaluation of empathy not just by presence, but by its appropriateness relative to user demand.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31340
+  pdf: https://arxiv.org/pdf/2605.31340
+  doi: https://doi.org/10.1109/CASCON66301.2025.00102
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

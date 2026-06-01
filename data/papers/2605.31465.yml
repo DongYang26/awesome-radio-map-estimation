@@ -1,0 +1,25 @@
+id: '2605.31465'
+title: The Nonparametric Kiefer-Weiss Problem
+authors:
+  - Michael Fauss
+  - H. Vincent Poor
+  - Abdelhak M. Zoubir
+year: 2026
+abstract: A nonparametric variant of the Kiefer-Weiss problem is proposed and solved. The objective is to minimize a weighted sum of the error probabilities of a binary sequential test subject to a constraint on its maximum expected sample size. This maximum is taken over all possible probability distributions on the given sequence space. First, it is shown that the nonparametric Kiefer-Weiss problem can be reduced to an optimal stopping problem. Then, the optimal stopping policy is derived under the assumption that at most k uses of randomization are permitted during any run of the test. The solution to the original problem is then obtained by letting k go to infinity. The optimal cost function is shown to be the solution of a nonlinear Bellman equation. The corresponding optimal stopping policy is shown to be based on a two-dimensional test statistic, with one component tracking the likelihood ratio and the other one tracking the expected remaining sample size. Critically, the stopping policy uses randomization to increase the remaining expected sample size for some runs, while stopping early for others. The optimal randomization rule is shown to be determined by a function that maps the likelihood ratio to an integer-valued sample size. Two approximations of this function are proposed that can be evaluated easily in practice. The results are illustrated with two numerical examples of nonparametric Kiefer-Weiss tests, one for a shift in the success probability of a Bernoulli distribution, and one for a shift in the mean of a normal distribution.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31465
+  pdf: https://arxiv.org/pdf/2605.31465
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

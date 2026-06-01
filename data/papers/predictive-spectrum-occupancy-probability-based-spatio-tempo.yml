@@ -1,0 +1,27 @@
+id: predictive-spectrum-occupancy-probability-based-spatio-tempo
+title: Predictive spectrum occupancy probability‐based spatio‐temporal dynamic channel allocation map for future cognitive wireless networks
+authors:
+  - Anirudh Agarwal
+  - R. Gangopadhyay
+year: 2018
+venue: Transactions on Emerging Telecommunications Technologies
+abstract: For a cognitive radio (CR) user to dynamically access the available primary user channels, the spectrum sensing data is required at various locations; however, the data is not generally available at the points present in between the two spectrum sensors. To obtain this data, it is also not feasible to conduct the spectrum measurement surveys at every location. This calls for an interpolation‐based spectrum occupancy data collection in the space. Moreover, the information about the future primary user activity is necessary for highly enhanced dynamic channel allocation with better quality of experience (QoE) of CR users in terms of improved channel utilization and reduced spectrum sensing energy requirement. Most of the existing works are inclined toward either spatial spectrum interpolation or temporal spectrum prediction. In this work, a novel hybridized approach combining the Kriging‐based statistical spatial interpolation and the recurrent neural networks–based temporal prediction of the spectrum has been proposed to obtain the spectrum occupancy probability information using empirical spectrum measurements data in cellular CR networks. Furthermore, the aforementioned framework has been utilized for dynamic channel allocation with the help of a newly investigated CR channel allocation scheme. The corresponding results have been validated through various CR QoE measures and compared with the existing channel allocation strategies, where it is found that the proposed channel allocation scheme significantly outperforms the other schemes with the enhanced QoE of CR. Finally, a spatio‐temporal channel allocation map has been presented for secondary user to perform its best possible CR operation with efficient dynamic spectrum access.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1002/ett.3442
+subfield: spectrum-cartography  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - RNN  # TODO: maintainer verify
+  - Gaussian-process  # TODO: maintainer verify
+  - Kriging  # TODO: maintainer verify
+task:
+  - spectrum-occupancy  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 20
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

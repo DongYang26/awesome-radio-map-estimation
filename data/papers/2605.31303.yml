@@ -1,0 +1,24 @@
+id: '2605.31303'
+title: 'A Practical Guide for Diagnosing Imaginary Phonon Modes in Metal--Organic Frameworks: The Case of MOF-5'
+authors:
+  - Julia Santana-Andreo
+  - Caterina Cocchi
+year: 2026
+abstract: 'Assessing the dynamical stability of computationally predicted metal--organic frameworks (MOFs) is essential to distinguish synthetically feasible structures from dynamically unstable ones. However, reliable first-principles phonon calculations on these systems remain challenging: their large, flexible unit cells and soft collective modes make the vibrational spectrum highly sensitive to the numerical settings. Using MOF-5 as a representative case study, we establish a finite-displacement workflow to identify and isolate the origins of imaginary phonon modes. We demonstrate how numerical force convergence thresholds, real-space grid resolutions, symmetry-standardization protocols, and alternative unit-cell representations can qualitatively and spuriously alter the predicted lattice stability. Once numerical noise is confidently excluded, the remaining imaginary modes can be analyzed through mode mapping or stochastic Monte Carlo symmetry-breaking distortions to locate lower-energy local minima. This protocol provides a robust, transferable strategy for the reliable assessment of dynamical stability and lattice vibrations in flexible porous frameworks.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31303
+  pdf: https://arxiv.org/pdf/2605.31303
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

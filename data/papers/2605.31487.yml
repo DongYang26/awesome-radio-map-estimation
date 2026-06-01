@@ -1,0 +1,27 @@
+id: '2605.31487'
+title: 'Enhancing Computer Vision Model Generalization in Warehouse Facilities: A Case Study on Anomaly Detection in Vertical Material Handling Systems'
+authors:
+  - Ruiliang Liu
+  - Tina Dongxu Li
+  - Joshua Migdal
+  - Ken Meszaros
+  - Trevor Dardik
+year: 2026
+abstract: Deploying computer vision models in Warehouse Facilities traditionally requires extensive resources for camera mounting, image collection, annotation, training, and deployment - a process often needing repetition in each new environment due to camera mounting constraints and environmental variability. This paper explores an innovative approach to streamline this process by conducting the standard procedure solely in a laboratory setting, focusing on vertical material handling systems and anomaly detection in forks of the systems. Through extensive experimentation, we have found that combining optimal camera placement, strategic image triggering, careful model selection and model ensemble enables effective generalization from laboratory conditions to diverse warehouse facilities environments, potentially transforming warehouse automation implementation by simplifying warehouse facilities deployment to just camera mounting, image collection, and model deployment, thereby saving significant resources and time typically spent on image annotation and model retraining. This is an experimental research study and not a production deployment.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31487
+  pdf: https://arxiv.org/pdf/2605.31487
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: unsupervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

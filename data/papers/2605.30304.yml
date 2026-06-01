@@ -1,0 +1,23 @@
+id: '2605.30304'
+title: Analytical model for structured light propagation through a turbulent atmosphere
+authors:
+  - Konstantin Kravtsov
+year: 2026
+abstract: We develop a straightforward analytical framework for the propagation of spatial light modes through a turbulent atmosphere. Built upon the split-step approach with the mode-based optical field representation, it directly assesses how turbulence-induced phase fluctuations deplete the optical power in the original mode and re-distribute it into neighboring spatial modes. Importantly, this power transfer scales linearly with the propagation distance in a uniform channel, yielding a simple solution for arbitrary distances in the form of a matrix exponential. The transfer rate is determined by the spatial spectral overlap between the turbulence spectrum and the acceptance spectrum for a pair of interacting spatial modes. The model predicts the average power in each spatial mode and is exact when a single mode strongly dominates all others. Our predictions show reasonably good agreement with simulations up to medium-to-strong turbulence levels. The model also confirms the scalings with mode order previously known as empirical observations.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.30304
+  pdf: https://arxiv.org/pdf/2605.30304
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

@@ -1,0 +1,25 @@
+id: '2605.31600'
+title: 'Gravitational Waves from hybrid defects as probe of Flavor symmetry breaking: Machine-Learning Approach'
+authors:
+  - Anish Ghoshal
+  - Ilia Gogoladze
+  - Amit Tiwari
+year: 2026
+abstract: We present a novel possibility that a network of domain walls bounded by cosmic strings generates a stochastic gravitational wave background (SWGB) signal originating from the spontaneous breaking of a gauged $U(1)_F$ flavor symmetry and the subsequent breaking of discrete $Z_2$ symmetry that accommodates dark matter. The gravitational wave (GW) spectrum produced by the string-bounded-wall network can be detected for high $U(1)_F$ breaking scales in forthcoming GW detectors including LISA, ET and SKA. The GW signal exhibits a distinctive frequency slope, in the infrared, compared to the standard cosmic-string case, in the frequency range between micro-hertz and hertz. We develop a possible strategy to distinguish and characterize GW spectrum of the hybrid defect from from other defects, such as stable cosmic strings, via employing the exact calculation with a machine-learning surrogate, based on a multilayer perceptron (MLP), trained on spectra obtained from the full numerical treatment. This is then used for rapid inference in the detector-specific signal-to-noise ratio (SNR) computation which also makes the process fast and efficient. We also discuss some possible complementarity between GW searches and Flavor observables in the laboratory.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.31600
+  pdf: https://arxiv.org/pdf/2605.31600
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

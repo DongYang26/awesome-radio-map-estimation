@@ -1,0 +1,28 @@
+id: '2605.29538'
+title: 'RadioFormer3D: Weakly Supervised 3D Radio Map Estimation in Low-Altitude Airspace via Generative Modeling'
+authors:
+  - Zheng Fang
+  - Junjie Liu
+  - Kangjun Liu
+  - Jianguo Zhang
+  - Yaowei Wang
+  - Ke Chen
+year: 2026
+abstract: With the emergence of wireless applications in three-dimensional environments, such as the low-altitude airspace and 3D heterogeneous networks, radio map estimation is increasingly required to characterize signal propagation across both horizontal and vertical dimensions. However, extending radio map estimation from 2D to 3D remains challenging due to increased spatial sparsity and limited supervision across continuous altitudes. In this paper, we propose \textbf{\textit{RadioFormer3D}}, a specialized model for volumetric spectrum reconstruction under weak supervision. Building on the dual-stream, multi-granularity fusion architecture of \textit{RadioFormer}, \textit{RadioFormer3D} introduces a Fourier-based sampling encoder and a volumetric decoder to efficiently process sparse measurements in 3D space. To alleviate the lack of vertical supervision, we propose the \textbf{\textit{Joint Spectrum Integrity Loss}}, which integrates volume-level pseudo-label supervision, map-level geometry-aware radio rendering, and pixel-level localized constraints within a unified optimization scheme. This design enables the model to capture complex vertical structural relationships more effectively under sparse supervision. Extensive experiments across several radio map datasets show that \textit{RadioFormer3D} achieves superior overall performance compared to representative existing methods. In particular, it demonstrates improved reconstruction quality at unlabeled altitudes while maintaining a favorable trade-off between accuracy and inference efficiency, positioning it as a highly promising solution for future 3D environment-aware wireless networks.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.29538
+  pdf: https://arxiv.org/pdf/2605.29538
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'

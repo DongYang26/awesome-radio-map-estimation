@@ -1,0 +1,25 @@
+id: '2605.30536'
+title: Ambiguity problem of the Bootstrap Method in Quantum Mechanics
+authors:
+  - Takeshi Morita
+  - Worapat Piensuk
+  - Pushkar Soni
+year: 2026
+abstract: 'The bootstrap method for quantum mechanics is a powerful tool for computing the energy eigenvalues of a Hamiltonian. However, we point out that this method suffers from an ambiguity problem: it fails to yield the correct spectrum when the potential contains different types of functions, such as polynomial and exponential terms. Similarly, the bootstrap method may break down when evaluating the expectation values of operators of different types. This issue can arise in a wide range of systems, including statistical models and matrix models. We propose three possible resolutions to this problem.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.30536
+  pdf: https://arxiv.org/pdf/2605.30536
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+added_date: '2026-06-01'
