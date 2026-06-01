@@ -24,4 +24,5 @@ supervision: supervised  # TODO: maintainer verify
 citations: 12
 is_milestone: false  # TODO: maintainer verify
 tags: []  # TODO: maintainer verify
+first_affiliation: tokyo-university-of-science
 added_date: '2026-05-25'

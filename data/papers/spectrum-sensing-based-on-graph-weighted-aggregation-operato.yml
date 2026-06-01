@@ -24,4 +24,5 @@ supervision: supervised  # TODO: maintainer verify
 citations: 4
 is_milestone: false  # TODO: maintainer verify
 tags: []  # TODO: maintainer verify
+first_affiliation: xidian-university
 added_date: '2026-06-01'

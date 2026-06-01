@@ -23,4 +23,5 @@ supervision: supervised  # TODO: maintainer verify
 citations: 5
 is_milestone: false  # TODO: maintainer verify
 tags: []  # TODO: maintainer verify
+first_affiliation: university-of-electro-communications
 added_date: '2026-05-25'

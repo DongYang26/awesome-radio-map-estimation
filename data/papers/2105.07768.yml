@@ -27,4 +27,5 @@ supervision: supervised  # TODO: maintainer verify
 citations: 3
 is_milestone: false  # TODO: maintainer verify
 tags: []  # TODO: maintainer verify
+first_affiliation: cea-leti
 added_date: '2026-05-25'

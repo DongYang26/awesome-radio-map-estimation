@@ -30,4 +30,5 @@ supervision: unsupervised  # TODO: maintainer verify
 citations: 21
 is_milestone: false  # TODO: maintainer verify
 tags: []  # TODO: maintainer verify
+first_affiliation: queen-mary-university-of-london
 added_date: '2026-06-01'

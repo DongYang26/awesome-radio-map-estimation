@@ -19,4 +19,5 @@ supervision: supervised  # TODO: maintainer verify
 citations: 13
 is_milestone: false  # TODO: maintainer verify
 tags: []  # TODO: maintainer verify
+first_affiliation: bogazici-university
 added_date: '2026-06-01'

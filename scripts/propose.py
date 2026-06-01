@@ -341,6 +341,10 @@ def build_stub(candidate: dict) -> tuple[str, str]:
         w(f"citations: {citations}")
     w(f"is_milestone: false{_TODO}")
     w(f"tags: []{_TODO}")
+    # first_affiliation powers the Academic Atlas map. Emitted as a comment so
+    # it does not create a broken institutions.yml reference; the maintainer
+    # fills in the first author's institution id (see data/institutions.yml).
+    w(f"# first_affiliation:{_TODO} — first author's institution id from data/institutions.yml (Atlas map)")
     w(f"added_date: '{today}'")
 
     return paper_id, "\n".join(lines) + "\n"

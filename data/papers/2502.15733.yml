@@ -26,4 +26,5 @@ supervision: unsupervised  # TODO: maintainer verify
 citations: 7
 is_milestone: false  # TODO: maintainer verify
 tags: []  # TODO: maintainer verify
+first_affiliation: southeast-university
 added_date: '2026-05-25'

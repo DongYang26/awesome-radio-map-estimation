@@ -25,4 +25,5 @@ supervision: supervised  # TODO: maintainer verify
 citations: 22
 is_milestone: false  # TODO: maintainer verify
 tags: []  # TODO: maintainer verify
+first_affiliation: china-university-of-mining-and-technology
 added_date: '2026-05-25'

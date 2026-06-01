@@ -24,4 +24,5 @@ supervision: supervised  # TODO: maintainer verify
 citations: 59
 is_milestone: false  # TODO: maintainer verify
 tags: []  # TODO: maintainer verify
+first_affiliation: national-technical-university-of-athens
 added_date: '2026-05-25'

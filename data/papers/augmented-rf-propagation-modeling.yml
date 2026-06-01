@@ -26,4 +26,5 @@ supervision: supervised  # TODO: maintainer verify
 citations: 10
 is_milestone: false  # TODO: maintainer verify
 tags: []  # TODO: maintainer verify
+first_affiliation: georgia-institute-of-technology
 added_date: '2026-06-01'

@@ -29,4 +29,5 @@ supervision: supervised  # TODO: maintainer verify
 citations: 78
 is_milestone: false  # TODO: maintainer verify
 tags: []  # TODO: maintainer verify
+first_affiliation: army-engineering-university-pla
 added_date: '2026-05-25'

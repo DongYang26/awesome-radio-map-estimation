@@ -28,4 +28,5 @@ supervision: unsupervised  # TODO: maintainer verify
 citations: 82
 is_milestone: false  # TODO: maintainer verify
 tags: []  # TODO: maintainer verify
+first_affiliation: nuaa
 added_date: '2026-05-25'

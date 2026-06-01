@@ -25,4 +25,5 @@ supervision: supervised  # TODO: maintainer verify
 citations: 22
 is_milestone: false  # TODO: maintainer verify
 tags: []  # TODO: maintainer verify
+first_affiliation: university-of-naples-federico-ii
 added_date: '2026-06-01'

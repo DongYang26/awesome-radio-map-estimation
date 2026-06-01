@@ -25,6 +25,7 @@ import argparse
 import json
 import logging
 import os
+import re
 import sys
 import time
 from pathlib import Path
@@ -37,6 +38,45 @@ if str(SCRIPTS_DIR) not in sys.path:
 from lib.sources import fetch_arxiv, fetch_s2  # noqa: E402
 
 logger = logging.getLogger(__name__)
+
+# ---------------------------------------------------------------------------
+# Relevance gate (defense-in-depth)
+# ---------------------------------------------------------------------------
+# The arXiv / Semantic Scholar search APIs rank by relevance but still RETURN
+# loosely-matched results — and an arXiv query sorted by submittedDate can
+# return a contiguous firehose of recent papers across ALL fields. Relying on
+# the API's matching once polluted the corpus with ~hundreds of off-topic
+# papers (astrophysics, CV, NLP, medical, ...). So we never trust the API's
+# relevance: a candidate is kept ONLY if a genuine radio-map-domain phrase
+# appears in its title or abstract. This favours PRECISION for the automated
+# pipeline — a missed paper can be added by hand, but a firehose pollutes the
+# whole knowledge base. Keep this list tight (multi-word phrases / specific
+# acronyms), NOT generic single words like "wireless" or "propagation" which
+# match unrelated physics/astronomy papers.
+_RELEVANCE = re.compile(
+    r"""
+      radio[\s-]?map | radio[\s-]?environment[\s-]?map | \bREM\b |
+      radio[\s-]?frequency[\s-]?map | radio[\s-]?coverage |
+      spectrum[\s-]?cartograph | spectrum[\s-]?map | power[\s-]?spectral[\s-]?density[\s-]?map |
+      spectrum[\s-]?sensing | spectrum[\s-]?occupanc |
+      path[\s-]?loss | propagation[\s-]?(?:map|prediction|modeling|modelling) | radio[\s-]?propagation |
+      channel[\s-]?knowledge[\s-]?map | \bCKM\b | channel[\s-]?gain[\s-]?map |
+      coverage[\s-]?map | coverage[\s-]?prediction |
+      received[\s-]?signal[\s-]?strength | \bRSS\b[\s-]?map | \bRSSI\b | \bRSRP\b |
+      signal[\s-]?strength[\s-]?map | \bSINR\b[\s-]?map | radiomap
+    """,
+    re.IGNORECASE | re.VERBOSE,
+)
+
+
+def is_relevant(candidate: dict) -> bool:
+    """True if the candidate's title or abstract contains a radio-map-domain phrase.
+
+    Applied as a post-fetch gate so loosely-matched or firehose API results
+    never reach the proposal/PR stage.
+    """
+    text = f"{candidate.get('title') or ''} {candidate.get('abstract') or ''}"
+    return bool(_RELEVANCE.search(text))
 
 # ---------------------------------------------------------------------------
 # Keyword groups (from spec §Automation)
@@ -94,49 +134,46 @@ def fetch_all(
     """
     all_candidates: list[dict] = []
     seen_arxiv_ids: set[str] = set()
+    dropped_irrelevant = 0
+
+    def _absorb(results: list[dict], group_name: str) -> None:
+        nonlocal dropped_irrelevant
+        for c in results:
+            # Relevance gate FIRST — never trust the API's matching (see is_relevant).
+            if not is_relevant(c):
+                dropped_irrelevant += 1
+                continue
+            aid = c.get("arxiv_id")
+            if aid and aid in seen_arxiv_ids:
+                continue
+            c["_group"] = group_name
+            all_candidates.append(c)
+            if aid:
+                seen_arxiv_ids.add(aid)
 
     for group_name, queries in KEYWORD_GROUPS.items():
         logger.info("=== Group: %s ===", group_name)
         for query in queries:
-            # arXiv
             logger.info("  arXiv: %s", query)
-            arxiv_results = fetch_arxiv(
-                query,
-                max_results=max_per_query,
-                days=days,
-                rate_limit_sleep=rate_limit_sleep_arxiv,
+            _absorb(
+                fetch_arxiv(query, max_results=max_per_query, days=days,
+                            rate_limit_sleep=rate_limit_sleep_arxiv),
+                group_name,
             )
-            for c in arxiv_results:
-                aid = c.get("arxiv_id")
-                if aid and aid in seen_arxiv_ids:
-                    continue
-                c["_group"] = group_name
-                all_candidates.append(c)
-                if aid:
-                    seen_arxiv_ids.add(aid)
-
             time.sleep(_INTER_QUERY_SLEEP)
 
-            # Semantic Scholar
             logger.info("  S2: %s", query)
-            s2_results = fetch_s2(
-                query,
-                limit=max_per_query,
-                rate_limit_sleep=rate_limit_sleep_s2,
-                s2_api_key=s2_api_key,
+            _absorb(
+                fetch_s2(query, limit=max_per_query,
+                         rate_limit_sleep=rate_limit_sleep_s2, s2_api_key=s2_api_key),
+                group_name,
             )
-            for c in s2_results:
-                aid = c.get("arxiv_id")
-                if aid and aid in seen_arxiv_ids:
-                    continue
-                c["_group"] = group_name
-                all_candidates.append(c)
-                if aid:
-                    seen_arxiv_ids.add(aid)
-
             time.sleep(_INTER_QUERY_SLEEP)
 
-    logger.info("Total raw candidates after intra-fetch dedup: %d", len(all_candidates))
+    logger.info(
+        "Candidates kept: %d | dropped by relevance gate: %d",
+        len(all_candidates), dropped_irrelevant,
+    )
     return all_candidates
 
 

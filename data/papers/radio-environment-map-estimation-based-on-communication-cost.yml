@@ -29,4 +29,5 @@ supervision: unsupervised  # TODO: maintainer verify
 citations: 5
 is_milestone: false  # TODO: maintainer verify
 tags: []  # TODO: maintainer verify
+first_affiliation: universitat-de-valencia
 added_date: '2026-05-25'
