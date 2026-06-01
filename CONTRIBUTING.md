@@ -57,6 +57,30 @@ field reference lives in [`schema/README.md`](schema/README.md).
 - `task` and `method_detail` are **arrays** (a paper can belong to more than
   one task or use more than one method technique).
 - Unknown or misspelled keys fail CI immediately (`additionalProperties: false`).
+- `method_family: application` is for papers that **use** a radio environment
+  / channel knowledge map for a downstream task (beamforming, ISAC,
+  localization, …) rather than proposing a new estimation method — e.g.
+  CKM concept/tutorial papers and CKM-aided beamforming work.
+
+---
+
+## Optional but appreciated: feed the Academic Atlas
+
+The [`/atlas`](https://dongyang26.github.io/awesome-radio-map-estimation/atlas)
+page plots every paper as a marker on a world map by its first author's
+institution. Adding **`first_affiliation: <institution-id>`** to your paper
+YAML puts it on the map.
+
+- Look up `data/institutions.yml` for existing kebab-case ids (e.g.
+  `mit`, `tu-berlin`, `tsinghua-university`) — most well-known universities
+  are already there.
+- If your institution isn't listed yet, **add a new entry** to
+  `data/institutions.yml` in the same PR — it needs `id`, `name`, `country`,
+  `lat`, `lon` (4-decimal main-campus coords are plenty; CI validates them).
+- `validate.py` cross-checks that every `first_affiliation` resolves to an
+  institution id, so broken refs fail CI immediately.
+- This field is **optional** — your paper will still be added without it; it
+  just won't appear on the Atlas map.
 
 ---
 

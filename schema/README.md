@@ -32,7 +32,7 @@ One YAML file per paper in `data/papers/`. The filename stem **must equal** the
 | `authors` | string[] | Author names, ≥ 1 |
 | `year` | integer | Publication year, 1990–2100 |
 | `subfield` | enum | One of: `REM`, `spectrum-cartography`, `pathloss-prediction`, `CKM` |
-| `method_family` | enum | One of: `interpolation`, `model-based`, `learning-based` |
+| `method_family` | enum | One of: `interpolation`, `model-based`, `learning-based`, `application` (use `application` for papers that USE a radio/channel knowledge map for a downstream task rather than proposing an estimation method) |
 | `task` | enum[] | ≥ 1 of: `signal-strength-estimation`, `coverage-prediction`, `spectrum-occupancy`, `pathloss-prediction`, `channel-gain-prediction`, `spectrum-cartography`, `REM-construction`, `other` |
 | `input_modality` | enum | One of: `sparse-measurements`, `environment-map`, `both` |
 | `environment` | enum | One of: `indoor`, `outdoor`, `both` |
@@ -53,6 +53,7 @@ One YAML file per paper in `data/papers/`. The filename stem **must equal** the
 | `citations` | integer | Semantic Scholar citation count (≥ 0) |
 | `is_milestone` | boolean | Highlight on the evolution timeline (default `false`) |
 | `tags` | string[] | Free-form tags |
+| `first_affiliation` | string | First author's institution id (kebab-case); must exist in `data/institutions.yml`. Powers the Academic Atlas world-map page. |
 
 `method_detail` and `task` are **arrays** — a paper may combine, e.g., a CNN and
 a Transformer, or address both coverage and signal-strength estimation. Use the
@@ -93,3 +94,18 @@ a Transformer, or address both coverage and signal-strength estimation. Use the
 | `order` | integer | Step number (≥ 1) |
 | `paper_id` | string | A paper `id` from `data/papers/` |
 | `why` | string | Why this paper, at this point in the path |
+
+## `institutions.schema.json` — the Academic Atlas catalog
+
+`data/institutions.yml` is `{ institutions: [ ... ] }`. Each entry:
+
+| Field | Type | Meaning |
+|-------|------|---------|
+| `id` | string | kebab-case identifier (referenced by papers' `first_affiliation`) |
+| `name` | string | Institution display name |
+| `country` | string | Country (English) |
+| `lat` | number | Latitude of main campus (-90 to 90) |
+| `lon` | number | Longitude of main campus (-180 to 180) |
+
+`validate.py` cross-checks that every paper's `first_affiliation` resolves to
+an `id` in this catalog — a broken reference fails CI.

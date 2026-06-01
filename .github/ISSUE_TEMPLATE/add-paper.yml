@@ -92,11 +92,15 @@ body:
     id: method_family
     attributes:
       label: "Method family *"
-      description: "Highest-level methodological category."
+      description: |
+        Highest-level methodological category. Use `application` for papers that
+        USE a radio/channel knowledge map for a downstream task (beamforming,
+        ISAC, localization, …) rather than proposing a new estimation method.
       options:
         - interpolation
         - model-based
         - learning-based
+        - application
     validations:
       required: true
 
@@ -193,6 +197,19 @@ body:
   # -------------------------------------------------------------------------
   # Optional metadata
   # -------------------------------------------------------------------------
+  - type: input
+    id: first_affiliation
+    attributes:
+      label: "First author's institution (for the Atlas map)"
+      description: |
+        Kebab-case institution id (e.g. `mit`, `tu-berlin`, `tsinghua-university`).
+        Look up `data/institutions.yml` for existing ids. If your institution
+        isn't listed yet, leave this blank and describe it in "Additional notes"
+        below — the maintainer will add a new entry.
+      placeholder: "e.g. georgia-state-university"
+    validations:
+      required: false
+
   - type: textarea
     id: tldr
     attributes:

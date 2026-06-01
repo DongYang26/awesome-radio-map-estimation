@@ -27,6 +27,8 @@ import json
 import sys
 from pathlib import Path
 
+import yaml
+
 # --- robust import of the shared loader -----------------------------------
 # Works whether invoked as `python scripts/validate.py` from the repo root or
 # from inside scripts/. The scripts/ directory is added to sys.path so the
@@ -124,6 +126,27 @@ def validate_reading_path(reading_path: dict, errors: list[str]) -> None:
     _validate_instance("data/reading-path.yml", reading_path, schema, errors)
 
 
+def validate_institutions(institutions: dict, errors: list[str]) -> None:
+    """Validate data/institutions.yml against schema/institutions.schema.json."""
+    schema = _load_schema("institutions.schema.json")
+    _validate_instance("data/institutions.yml", institutions, schema, errors)
+
+
+def load_institutions() -> dict:
+    """Load data/institutions.yml; return an empty catalog if the file is absent.
+
+    The institutions catalog powers the Academic Atlas. It is optional in that
+    the corpus can validate without it, but any ``first_affiliation`` on a
+    paper must resolve to an entry here — see ``check_references``.
+    """
+    path = DATA_DIR / "institutions.yml"
+    if not path.exists():
+        return {"institutions": []}
+    with open(path, "r", encoding="utf-8") as fh:
+        data = yaml.safe_load(fh)
+    return data if isinstance(data, dict) else {"institutions": []}
+
+
 # ---------------------------------------------------------------------------
 # Cross-file integrity passes
 # ---------------------------------------------------------------------------
@@ -163,8 +186,15 @@ def check_paper_ids(papers: list[dict], errors: list[str]) -> set[str]:
 
 
 def check_references(papers: list[dict], datasets: dict, reading_path: dict,
-                     paper_ids: set[str], errors: list[str]) -> None:
-    """Check that every cross-file id reference resolves to an existing entity."""
+                     paper_ids: set[str], errors: list[str],
+                     institutions: dict | None = None) -> None:
+    """Check that every cross-file id reference resolves to an existing entity.
+
+    If *institutions* is provided, also verifies that every paper's
+    ``first_affiliation`` (when set) resolves to an institution ``id``.
+    Pass ``None`` (or an empty catalog) and the check is still performed —
+    a broken reference to a missing catalog is still a broken reference.
+    """
     dataset_list = datasets.get("datasets") or []
     dataset_ids: set[str] = {
         d.get("id") for d in dataset_list
@@ -214,6 +244,21 @@ def check_references(papers: list[dict], datasets: dict, reading_path: dict,
                     f"{label}: datasets[] references unknown dataset id '{did}'"
                 )
 
+    # (c4) papers[].first_affiliation -> institutions[].id
+    inst_ids: set[str] = set()
+    if isinstance(institutions, dict):
+        for inst in institutions.get("institutions") or []:
+            if isinstance(inst, dict) and isinstance(inst.get("id"), str):
+                inst_ids.add(inst["id"])
+    for paper in papers:
+        stem = paper.get("_stem", "<unknown>")
+        label = f"data/papers/{stem}.yml"
+        fa = paper.get("first_affiliation")
+        if isinstance(fa, str) and fa not in inst_ids:
+            errors.append(
+                f"{label}: first_affiliation references unknown institution id '{fa}'"
+            )
+
 
 # ---------------------------------------------------------------------------
 # Entry point
@@ -229,6 +274,7 @@ def main() -> int:
         taxonomy = load_taxonomy()
         datasets = load_datasets()
         reading_path = load_reading_path()
+        institutions = load_institutions()
     except (ValueError, FileNotFoundError) as exc:
         print(f"FAIL: could not load data: {exc}", file=sys.stderr)
         return 1
@@ -238,10 +284,11 @@ def main() -> int:
     validate_taxonomy(taxonomy, errors)
     validate_datasets(datasets, errors)
     validate_reading_path(reading_path, errors)
+    validate_institutions(institutions, errors)
 
     # Cross-file integrity
     paper_ids = check_paper_ids(papers, errors)
-    check_references(papers, datasets, reading_path, paper_ids, errors)
+    check_references(papers, datasets, reading_path, paper_ids, errors, institutions)
 
     if errors:
         print(f"FAIL: {len(errors)} validation error(s):", file=sys.stderr)
@@ -251,9 +298,11 @@ def main() -> int:
 
     n_datasets = len(datasets.get("datasets") or [])
     n_steps = len(reading_path.get("steps") or [])
+    n_insts = len(institutions.get("institutions") or [])
     print(
         f"OK: {len(papers)} paper(s), taxonomy, "
-        f"{n_datasets} dataset(s), {n_steps} reading-path step(s) — all valid."
+        f"{n_datasets} dataset(s), {n_steps} reading-path step(s), "
+        f"{n_insts} institution(s) — all valid."
     )
     return 0
 

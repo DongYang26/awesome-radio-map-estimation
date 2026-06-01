@@ -7,6 +7,7 @@ Thank you for contributing! Please verify every item before requesting review.
 - [ ] All **required fields** are present: `id`, `title`, `authors`, `year`, `subfield`, `method_family`, `task`, `input_modality`, `environment`, `dimensionality`, `supervision`, `added_date`.
 - [ ] Every **enum field** uses an exact value from [`schema/README.md`](../schema/README.md) (CI will fail on unknown values).
 - [ ] The classification (`subfield`, `method_family`, `task`, etc.) is **justified** — if the choice is non-obvious, add a brief comment above the relevant line in the YAML explaining the reasoning.
+- [ ] (Optional) `first_affiliation: <institution-id>` is set so the paper appears on the [Academic Atlas](https://dongyang26.github.io/awesome-radio-map-estimation/atlas) world map. If the institution isn't in `data/institutions.yml` yet, add a new entry in the same PR.
 - [ ] `python scripts/validate.py` passes locally (or CI passes on this PR).
 - [ ] I did **not** hand-edit `README.md` (the paper list and statistics sections are generated automatically and my edits would be overwritten).
 - [ ] I did **not** hand-edit `site/src/data/stats.json` or `site/src/lib/types.ts` (both are generated artifacts).
