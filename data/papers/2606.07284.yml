@@ -1,0 +1,28 @@
+id: '2606.07284'
+title: 'RSMA Enabled Hierarchical UAV Networks with Non Linear Energy Harvesting: Outage Probability Analysis and UAV Placement Optimization'
+authors:
+  - Faicel Khennoufa
+  - Khelil Abdellatif
+  - Metin Ozturk
+  - Halim Yanikomeroglu
+  - Safwan Alfattani
+year: 2026
+abstract: Uncrewed aerial vehicles (UAVs) are expected to enhance connectivity, extend network coverage, and support advanced communication services in sixth-generation (6G) cellular networks, particularly in public and civil applications. Although multi-UAV systems offer greater efficiency and cost-effectiveness than single-UAV deployments, their implementation still faces several fundamental challenges that limit their reliability, sustainability, and scalability. The limited onboard energy restricts mission duration and communication continuity. Therefore, wireless energy harvesting (EH) emerges as a promising solution to overcome this limitation. However, terrestrial energy sources experience path loss, making EH from surrounding UAVs more sustainable. Moreover, rate-splitting multiple access (RSMA) remains insufficiently explored in hierarchical UAV networks under hardware impairments (HWI) and imperfect channel state information (ICSI). This paper proposes a hierarchical ad hoc UAV network with non-linear EH and RSMA to enhance both energy and cost efficiency, where UAVs harvest energy from surrounding UAVs. For a practical scenario, we consider the effect of HWI and ICSI in our proposed system. To the best of the authors knowledge, this study is the first to investigate such a scenario in the literature. The outage probability expressions for ground Internet of things (IoT) devices, each CMU, and the overall outage probability of the proposed system are derived over Nakagami-$m$ fading channels while considering practical constraints such as HWI, ICSI, and non-linear EH. Additionally, approximate outage probability expressions are derived for high transmit power regimes. Subsequently, we formulate two optimization problems to enhance reliability and performance. Our findings indicate that the proposed system outperforms all benchmarks in terms of outage probability.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2606.07284
+  pdf: https://arxiv.org/pdf/2606.07284
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-06-08'

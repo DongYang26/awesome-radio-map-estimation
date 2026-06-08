@@ -1,0 +1,35 @@
+id: a-dcnn-lstm-model-for-the-construction-of-the-road-radio-map
+title: A DCNN‐LSTM model for the construction of the road radio map
+authors:
+  - Yechao Luo
+  - Wei Shao
+  - Jun Jin
+  - Yang Liu
+  - Haizhou Lu
+  - Hang Zou
+  - Mengting Feng
+  - Peng Zhang
+year: 2024
+venue: Electronics Letters
+abstract: It is crucial for vehicular communications to optimize the field strength coverage on roads, which can be illustrated by the radio map (RM). In this paper, a deep convolutional neural network‐long short‐term memory (DCNN‐LSTM) model for the construction of the road RM is proposed. First, a multi‐modal dataset is built, including the measured field strength, longitude, latitude and elevation data obtained at various measurement points, as well as the outline maps of the buildings that are close to the measurement points. Second, the DCNN‐LSTM model is designed to extract electromagnetic and geographical features separately from the multi‐modal input data and fuse them to predict the field strength at unmeasured points. Finally, the road RM is constructed using the measured and predicted field strength data. The simulation results demonstrate that the field strength prediction accuracy of the proposed model is better than that of the ordinary kriging and the traditional deep learning models. Moreover, it exhibits robust performance even in noise interference environments. The constructed RM also provides an intuitive visualization of field strength coverage along the target road.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://doi.org/10.1049/ell2.70082
+  doi: 10.1049/ell2.70082
+subfield: REM  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - RNN  # TODO: maintainer verify
+  - CNN  # TODO: maintainer verify
+  - Gaussian-process  # TODO: maintainer verify
+  - Kriging  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-06-08'

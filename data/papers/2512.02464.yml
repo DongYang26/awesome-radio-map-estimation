@@ -1,0 +1,29 @@
+id: '2512.02464'
+title: 'Channel Knowledge Map Enabled Low-Altitude ISAC Networks: Joint Air Corridor Planning and Base Station Deployment'
+authors:
+  - Jiaxuan Li
+  - Yilong Chen
+  - Fan Liu
+  - Jie Xu
+year: 2025
+venue: IEEE Wireless Communications Letters
+abstract: This letter addresses the joint air corridor planning and base station (BS) deployment problem for low-altitude integrated sensing and communication (ISAC) networks. In the considered system, unmanned aerial vehicles (UAVs) operate within a structured air corridor composed of connected cubic segments, and multiple BSs need to be selectively deployed at a set of candidate locations to ensure both sensing and communication coverage throughout the corridor. In particular, we leverage the channel knowledge map (CKM) to characterize wireless channels for candidate BS sites prior to deployment, thereby facilitating the offline planning. Under this setup, we minimize the system cost in terms of the weighted sum of the air corridor length and the number of deployed BSs, subject to the constraints on both sensing and communication performance across the corridor. To solve the formulated large-scale nonconvex integer programming problem, we develop a hierarchical coarse-to-fine grid decomposition algorithm. Simulation results demonstrate the benefit of the proposed joint design in reducing the overall deployment cost while ensuring the coverage of the low-altitude ISAC networks.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2512.02464
+  doi: 10.1109/LWC.2025.3642429
+subfield: CKM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-06-08'

@@ -1,0 +1,27 @@
+id: channel-knowledge-map-assisted-channel-estimation-for-an-ext
+title: Channel Knowledge Map Assisted Channel Estimation for an Extremely Large Antenna Array System
+authors:
+  - Muhammad Awais
+  - Y. Kim
+year: 2025
+venue: IEEE Access
+abstract: Sixth generation communication systems are expected to utilize extremely large antenna arrays (ELAAs) to significantly enhance the spectral efficiency by compensating for path loss at high operating frequencies. However, in ELAA systems, the required number of pilot signals can become excessive, especially in multi-user scenarios, making channel estimation for all antennas particularly challenging. In addition, ELAAs present challenges as the near-field region becomes more prominent, rendering traditional channel estimation methods inefficient. To address this, we propose to utilize a channel knowledge map for channel estimation in ELAA systems, enabling seamless near-field and far-field communication while reducing the pilot overhead. To enhance the practicality of the channel knowledge map in ELAA systems, we propose a channel angle distance map (CADM) database that provides the angles and distances of multipaths from the polar-domain for a given location. The estimated channel parameters are adopted as initial values and refined through the limited-memory Broyden-Fletcher-Goldfarb-Shanno quasi-Newton algorithm to minimize the channel estimation error. Extensive simulation results demonstrate that the CADM-based method outperforms benchmark schemes with reduced pilot overhead.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/ACCESS.2025.3606947
+subfield: CKM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-06-08'

@@ -1,0 +1,25 @@
+id: secure-communication-and-eavesdropper-localization-via-chann
+title: Secure Communication and Eavesdropper Localization via Channel Knowledge Map
+authors:
+  - Di Wu
+  - Yong Zeng
+year: 2025
+venue: 2025 IEEE 101st Vehicular Technology Conference (VTC2025-Spring)
+abstract: This paper proposes an advanced framework utilizing channel knowledge map (CKM) to strengthen secure communication and facilitate eavesdropper localization. CKM is established to learn the spatially unique channel characteristics, enabling it to distinguish between legitimate user equipment (UE) and eavesdropper channels without requiring prior knowledge of the latter. This new capability addresses fundamental challenges in conventional physical-layer security methods that rely heavily on prior information of channel state information (CSI). By leveraging CKM, the framework enables multiple critical functionalities, including eavesdropper detection and localization, as well as beamforming design for secure communication. Simulation results validate the advantages of the proposed CKM-enabled approach over several benchmarks, such as statistical model-based method, particularly in terms of signal-to-leakage-and-noise ratio (SLNR) and localization performance.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/VTC2025-Spring65109.2025.11174851
+subfield: CKM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-06-08'

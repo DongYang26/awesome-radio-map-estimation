@@ -1,0 +1,30 @@
+id: '2507.23236'
+title: 'BS-1-to-N: Diffusion-Based Environment-Aware Cross-BS Channel Knowledge Map Generation for Cell-Free Networks'
+authors:
+  - Zhuoyin Dai
+  - Di Wu
+  - Yong Zeng
+  - Xiaoli Xu
+  - Xinyi Wang
+  - Zesong Fei
+year: 2025
+abstract: Channel knowledge map (CKM) inference across base stations (BSs) is the key to achieving efficient environmentaware communications. This paper proposes an environmentaware cross-BS CKM inference method called BS-1-to-N based on the generative diffusion model. To this end, we first design the BS location embedding (BSLE) method tailored for cross-BS CKM inference to embed BS location information in the feature vector of CKM. Further, we utilize the cross- and self-attention mechanism for the proposed BS-1-to-N model to respectively learn the relationships between source and target BSs, as well as that among target BSs. Therefore, given the locations of the source and target BSs, together with the source CKMs as control conditions, cross-BS CKM inference can be performed for an arbitrary number of source and target BSs. Specifically, in architectures with massive distributed nodes like cell-free networks, traditional methods of sequentially traversing each BS for CKM construction are prohibitively costly. By contrast, the proposed BS-1-to-N model is able to achieve efficient CKM inference for a target BS at any potential location based on the CKMs of source BSs. This is achieved by exploiting the fact that within a given area, different BSs share the same wireless environment that leads to their respective CKMs. Therefore, similar to multi-view synthesis, CKMs of different BSs are representations of the same wireless environment from different BS locations. By mining the implicit correlation between CKM and BS location based on the wireless environment, the proposed BS-1-to-N method achieves efficient CKM inference across BSs. We provide extensive comparisons of CKM inference between the proposed BS-1-to-N generative model versus benchmarking schemes, and provide one use case study to demonstrate its practical application for the optimization of BS deployment.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2507.23236
+subfield: CKM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - Diffusion  # TODO: maintainer verify
+  - Transformer  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 2
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-06-08'
