@@ -1,0 +1,33 @@
+id: distributed-signal-strength-prediction-using-satellite-map-e
+title: Distributed Signal Strength Prediction using Satellite Map empowered by Deep Vision Transformer
+authors:
+  - Haiyao Yu
+  - Zhanwei Hou
+  - Yifan Gu
+  - Peng Cheng
+  - Wanli Ouyang
+  - Yonghui Li
+  - B. Vucetic
+year: 2021
+venue: 2021 IEEE Globecom Workshops (GC Wkshps)
+abstract: The accurate prediction of received signal strength (RSS) is the key to coverage optimization and interference management in network planning, as well as proactive resource allocation and anticipated network management. Traditional methods for RSS prediction are based on ray tracing or stochastic radio propagation model. The former requires the detailed 3D geometry and dielectric properties of the reflectors, which may not be available practically. The latter roughly classify the environment as either urban, suburban and rural scenarios and does not make full use of the environment information. In this paper, by leveraging accessible satellite maps to capture the features of radio environment, a distributed federated learning (FL) RSS prediction framework is proposed to fully exploit the user generated real-time data while preserving the users’ privacy. To further improve the prediction accuracy, the deep vision transformer (DeepVIT) is utilized to process the images of the satellite map, because it is capable of learning to "pay attention to" important parts of an image such as reflection surfaces and blockages. The proposed method is evaluated by the real-world data set including around 60, 000 individual measurements. Simulations results verified that the prediction accuracy of the proposed method outperforms baseline methods including ray tracing, Urban Macro (UMa) model and convolutional neural network (CNN) based method. Moreover, the computational time is reduced five times compared with CNN based method.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/GCWkshps52748.2021.9682021
+subfield: REM  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - Transformer  # TODO: maintainer verify
+  - CNN  # TODO: maintainer verify
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 12
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-06-08'

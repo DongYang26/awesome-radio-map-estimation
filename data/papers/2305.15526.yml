@@ -1,0 +1,31 @@
+id: '2305.15526'
+title: Radiomap Inpainting for Restricted Areas Based on Propagation Priority and Depth Map
+authors:
+  - Songyang Zhang
+  - Tianhang Yu
+  - Brian Choi
+  - Feng Ouyang
+  - Zhi Ding
+year: 2023
+venue: IEEE Transactions on Wireless Communications
+abstract: Providing rich and useful information regarding spectrum activities and propagation channels, radiomaps characterize the detailed distribution of power spectral density (PSD) and are important tools for network planning in modern wireless systems. Generally, radiomaps are constructed from radio strength measurements by deployed sensors and user devices. However, not all areas are accessible for radio measurements due to physical constraints and security considerations, leading to non-uniformly spaced measurements and blanks on a radiomap. In this work, we explore distribution of radio spectrum strengths in view of surrounding environments, and propose two radiomap inpainting approaches for the reconstruction of radiomaps that cover missing areas. Specifically, we first define a propagation-based priority before integrating exemplar-based inpainting with radio propagation model for fine-resolution small-size missing area reconstruction on a radiomap. We next introduce a novel radio depth map and propose a two-step template-perturbation approach for large-size restricted region inpainting. Our experimental results demonstrate the power of the proposed propagation priority and radio depth map in capturing PSD distribution, as well as their efficacy in radiomap reconstruction.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2305.15526
+  pdf: https://arxiv.org/pdf/2305.15526
+  doi: 10.1109/TWC.2024.3360872
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 24
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-06-08'
