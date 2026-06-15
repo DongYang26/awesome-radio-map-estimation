@@ -1,0 +1,30 @@
+id: mffgcn-multimodal-feature-fusion-graph-convolution-network-f
+title: 'MFFGCN: Multimodal Feature Fusion Graph Convolution Network for Radio Map Estimation With Uneven Spatial Sampling'
+authors:
+  - Han Zhang
+  - Yu Han
+  - Lingxin Meng
+  - Guan Gui
+  - Wei Xiang
+  - Yun Lin
+year: 2025
+venue: IEEE Transactions on Mobile Computing
+abstract: Radio map estimation (RME) is a crucial method for analyzing spectrum space utilization and network coverage, serving as an essential tool for the mobile communication. However, physical constraints, security, privacy, and other issues often render some areas inaccessible, resulting in extremely sparse and unevenly distributed measurement data. To address these challenges, we propose a multimodal feature fusion graph convolution network (MFFGCN). The model incorporates a dual-encoder architecture with an adaptive multi-feature fusion module to exploit environmental information and learn the shadowing effects of radio-signal propagation. We then convert the coarse estimation into regional feature patches and construct a graph over these patches. A graph neural network aggregates contextual information among them, thereby alleviating the impact of uneven spatial sampling. Extensive experiments on open datasets demonstrate that our method achieves state-of-the-art performance, effectively reducing the effects of uneven sampling.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/TMC.2025.3590335
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - GNN  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 2
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-06-15'

@@ -1,0 +1,31 @@
+id: channel-knowledge-map-enabled-6d-movable-antenna-systems-wit
+title: 'Channel Knowledge Map-Enabled 6D Movable Antenna Systems With Kinematic Constraints: A Manifold Optimization Approach'
+authors:
+  - Nan Cheng
+  - Shuangyu Yang
+  - Ruijin Sun
+  - Zhisheng Yin
+  - Xiaodan Shao
+  - Weihua Zhuang
+  - X. Shen
+year: 2026
+venue: IEEE Transactions on Wireless Communications
+abstract: Six-dimensional movable antenna (6DMA) offers a potential solution to enhance wireless transmission performance by physically reconfiguring antenna positions and orientations. However, prevailing snapshot-based reactive methods are ill-suited for continuously tracking mobile user equipments (UEs) due to their neglect of antenna kinematic constraints and system latency. To address these limitations, in this paper, we propose a proactive approach by modeling UE tracking as a single, long-term 6DMA trajectory optimization problem to maximize sum spectral efficiency. Leveraging a channel knowledge map (CKM) for predictive data, our model holistically incorporates the system’s complex kinematics and physical constraints, including velocity limits and safety distances, to ensure a physically feasible trajectory. To solve this high-dimensional, non-convex problem, we develop a novel manifold optimization algorithm. This method maps the antenna’s rotational states onto the SO(3) Lie group and employs an adaptive penalty measure with tangent space backpropagation for an efficient solution. Simulation results demonstrate our approach significantly enhances sum spectral efficiency over benchmarks, while ensuring continuous and physically feasible antenna trajectories.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/TWC.2025.3645480
+subfield: CKM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 8
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-06-15'

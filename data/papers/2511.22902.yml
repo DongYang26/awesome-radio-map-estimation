@@ -1,0 +1,31 @@
+id: '2511.22902'
+title: Leveraging Channel Knowledge Map for Multi-User Hierarchical Beam Training Under Position Uncertainty
+authors:
+  - Xu Shi
+  - Haohan Wang
+  - Yashuai Cao
+  - Hengyu Zhang
+  - Sufang Yang
+  - Jintao Wang
+year: 2025
+venue: arXiv.org
+abstract: Channel knowledge map (CKM) emerges as a promising framework to acquire location-specific channel information without consuming wireless resources, creating new horizons for advanced wireless network design and optimization. Despite its potential, the practical application of CKM in beam training faces several challenges. On one hand, the user's precise location is typically unavailable prior to beam training, which limits the utility of CKM since its effectiveness relies heavily on accurate input of position data. On the other hand, the intricate interplay among CKM, real-time observations, and training strategies has not been thoroughly studied, leading to suboptimal performance and difficulties in practical implementation. In this paper, we present a framework for CKM-aided beam training that addresses these limitations. For single-user scenario, we propose a reward-motivated beam-potential hierarchical strategy which integrates partial position information and CKM. This strategy models the user equipment (UE) position uncertainty and formulates the hierarchical searching process as a pruned binary search tree. An optimal hierarchical searching strategy with minimal overhead is derived by evaluating the weights and rewards of potential codewords. Furthermore, a low-complexity two-layer lookahead scheme is designed to balance overhead and computational demands. For multi-user scenario, we develop a correlation-driven position-pruning training scheme, where sidelobe gains from inter-user interference are exploited to provide additional side information for overhead reduction, allowing all users to be simultaneously assigned their respective supportive beams. Simulations validate the superior performances of proposed approaches in advancing 6G beam training.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2511.22902
+  doi: 10.48550/arXiv.2511.22902
+subfield: CKM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-06-15'

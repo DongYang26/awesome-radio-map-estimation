@@ -1,0 +1,26 @@
+id: analysis-of-channel-knowledge-map-updating-from-information-
+title: Analysis of Channel Knowledge Map Updating from Information Perspective
+authors:
+  - Rubing Han
+  - Chiya Zhang
+  - Ting Wang
+year: 2025
+venue: 2025 IEEE/CIC International Conference on Communications in China (ICCC Workshops)
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/ICCCWorkshops67136.2025.11148189
+subfield: CKM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 2
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-06-15'

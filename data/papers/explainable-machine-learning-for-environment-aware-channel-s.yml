@@ -1,0 +1,28 @@
+id: explainable-machine-learning-for-environment-aware-channel-s
+title: Explainable Machine Learning for Environment-Aware Channel State Prediction in UAV-Based 6G Networks
+authors:
+  - Ladan Gholami
+  - Pietro Ducange
+  - Arcangela Rago
+  - P. Cassará
+  - Alberto Gotta
+year: 2025
+venue: 2025 21th International Conference on Wireless and Mobile Computing, Networking and Communications (WiMob)
+abstract: 'The emergence of 6G networks demands environment-aware communication paradigms to ensure reliable and efficient connectivity, and Channel Knowledge Maps (CKMs) offer a promising solution by mapping spatial locations to detailed channel characteristics for proactive network optimization. In this context, this paper proposes an explainable Machine Learning (ML)-based framework that uses geometrical features to predict receiver state probabilities in UAV-based mmWave communication networks. Geometrical characteristics extracted from the environment surrounding each receiver are used to train ML models, namely Decision Tree (DT), K-Nearest Neighbors (KNN), and Deep Neural Network (DNN) models, to predict three receiver states probabilities: Line-of-Sight (LOS), No-Line-of-Sight (NLOS), and Blocked. Experimental results show that the DNN model outperforms DT and KNN, achieving higher accuracy across all states, albeit with no inherent explainability. To address this, the SHapley Additive exPlanations (SHAP) method is applied to indicate feature contributions to each state prediction of the black-box DNN model. This improves the interpretability and reliability of the proposed environment-aware framework for $\mathbf{6 G}$ UAV-based networks.'
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/WiMob66857.2025.11257490
+subfield: CKM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-06-15'

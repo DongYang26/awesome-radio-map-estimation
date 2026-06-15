@@ -1,0 +1,37 @@
+id: '2606.14497'
+title: Ultra-broadband Anti-Jamming Communication via a Rydberg Atomic Receiver
+authors:
+  - Jia-Dou Nan
+  - Jun-Rong Chen
+  - Bang Liu
+  - Qi-Feng Wang
+  - Yu Ma
+  - Yi-Ming Yin
+  - Tian-Yu Han
+  - Guang-Can Guo
+  - Hao Tian
+  - Li-Hua Zhang
+  - Bo Du
+  - Bin-Bin Wei
+  - Dong-Sheng Ding
+  - Bao-Sen Shi
+year: 2026
+abstract: Ultra-broadband anti-jamming communication represents a promising approach to secure and robust information transfer through spread-spectrum techniques, effectively combatting malicious interference and eavesdropping. Rydberg atoms, enhanced by waveguide coupling, facilitate ultra-broadband spectrum sensing without traditional RF components. This framework provides an experimental platform for ultra-wide anti-jamming communication. Here, we demonstrate real-time signal demodulation based on frequency-hopping spread spectrum (FHSS) in a waveguide-coupled Rydberg receiver, achieving ultra-broad frequency-hopping covering 100 kHz to 20 GHz and a hopping rate of 100 khop/s. When confined to a standard operational band (e.g., the 2.4 GHz ISM band), our system achieves a high channel density of 8 channels per MHz. Beyond this, by leveraging its ultra-broad and continuous bandwidth, the system supports over 150,000 channels. Experimental results reveal a 51 dB enhancement in narrowband interference tolerance compared with single-frequency systems, confirming its outstanding anti-jamming capability. The reported system demonstrates significant potential for secure communications based on quantum technology, especially communication in complex electromagnetic environments.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2606.14497
+  pdf: https://arxiv.org/pdf/2606.14497
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - spectrum-occupancy  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-06-15'

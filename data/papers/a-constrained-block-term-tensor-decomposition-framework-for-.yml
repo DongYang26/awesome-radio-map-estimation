@@ -1,0 +1,28 @@
+id: a-constrained-block-term-tensor-decomposition-framework-for-
+title: A Constrained Block-Term Tensor Decomposition Framework for Spectrum Cartography
+authors:
+  - Xiaonan Chen
+  - Jun Wang
+  - Qihang Peng
+  - Guoyong Zhang
+year: 2022
+venue: IEEE Signal Processing Letters
+abstract: Joint spectrum cartography and disaggregation from sparse spatial observations has been proven to be theoretically feasible based on block-term tensor decomposition (BTD) model. However, the existing BTD framework suffers from inherent drawbacks in terms of numerical stability, complexity and noise robustness. To combat with these drawbacks, we propose a new Constrained-BTD (CBTD) framework in this letter by fully utilizing practical traits of geographical power density spectrum (PSD) and spatial loss field (SLF). The cornerstone of CBTD framework is formulating the joint PSD and SLF estimation as a constrained matrix factorization problem, instead of addressing the factors of multi-linear rank-BTD. Further, a projection gradient-based (PG) algorithm, which has sublinear convergence, is proposed to handle the restrictions of PSD and SLF by projection on manifolds. Compared with the baseline methods, simulations verify that the proposed approach obtains better performances in terms of stability, complexity and noise robustness.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/lsp.2022.3193036
+subfield: spectrum-cartography  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - matrix-completion  # TODO: maintainer verify
+task:
+  - spectrum-cartography  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 18
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-06-15'

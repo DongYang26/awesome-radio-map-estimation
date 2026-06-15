@@ -1,0 +1,29 @@
+id: '1611.03725'
+title: Practical Interpolation for Spectrum Cartography through Local Path Loss Modeling
+authors:
+  - S. Sagari
+  - L. Greenstein
+  - W. Trappe
+year: 2016
+venue: arXiv.org
+abstract: A fundamental building block for supporting better utilization of radio spectrum involves predicting the impact that an emitter will have at different geographic locations. To this end, fixed sensors can be deployed to spatially sample the RF environment over an area of interest, with interpolation methods used to infer received power at locations between sensors. This paper describes a radio map interpolation method that exploits the known properties of most path loss models, with the aim of minimizing the RMS errors in predicted dB-power. We show that the results come very close to those for ideal Simple Kriging. Moreover, the method is simpler in terms of real-time computation by the network and it requires no knowledge of the spatial correlation of shadow fading. Our analysis of the method is general, but we exemplify it for a specific network geometry, comprising a grid-like pattern of sensors. We also provide comparisons to other widely used interpolation methods.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/1611.03725
+subfield: spectrum-cartography  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - Gaussian-process  # TODO: maintainer verify
+  - Kriging  # TODO: maintainer verify
+task:
+  - spectrum-cartography  # TODO: maintainer verify
+  - pathloss-prediction  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-06-15'

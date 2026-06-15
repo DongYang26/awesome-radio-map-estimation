@@ -1,0 +1,28 @@
+id: iteratively-reweighted-compressive-sensing-based-algorithm-f
+title: Iteratively reweighted compressive sensing based algorithm for spectrum cartography in cognitive radio networks
+authors:
+  - B. Jayawickrama
+  - E. Dutkiewicz
+  - I. Oppermann
+  - M. Muck
+year: 2014
+venue: IEEE Wireless Communications and Networking Conference
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://opus.lib.uts.edu.au/bitstream/10453/43521/4/Iteratively%20Reweighted%20Compressive%20Sensing%20Based%20Algorithm%20for%20Spectrum%20Cartography%20in%20Cognitive%20Radio%20Networks.pdf
+  doi: 10.1109/WCNC.2014.6952156
+subfield: spectrum-cartography  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - spectrum-cartography  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 9
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-06-15'

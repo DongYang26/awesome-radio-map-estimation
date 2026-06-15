@@ -1,0 +1,27 @@
+id: low-rank-tensors-and-3dtv-minimization-based-spectrum-cartog
+title: Low-Rank Tensors and 3DTV Minimization Based Spectrum Cartography
+authors:
+  - Xin Wang
+  - Bin Shen
+  - Xiaoge Huang
+  - Qianbin Chen
+year: 2026
+venue: IEEE Transactions on Network Science and Engineering
+abstract: 'Tensor completion-based spectrum cartography (SC) in wireless networks has been extensively studied in recent years. Nevertheless, most existing algorithms are confined to two-dimensional (2D) geographical regions and entirely overlook the inherent local spatial smoothness (LSS) of the spectrum tensors. As the demand for three-dimensional (3D) SC continues to burgeon, direct adaptation of 2D region-based tensor completion algorithms to 3D scenarios either leads to inherent accuracy degradation or poses significant technical hurdles in precisely processing 3D-structured spatial data. To address these formidable challenges, a novel 3D spatial SC method is proposed in this paper. Firstly, the spectrum data is modeled as a fourth-order spectrum tensor, comprehensively capturing spatial information across the 3D space and multiple frequency bands. Subsequently, by leveraging the low-rank property of spectrum tensors and incorporating the 3DTV regularization as an essential component in the optimization problem, the proposed method effectively overcomes the critical limitation of conventional SC algorithms, which fail to account for LSS in tensor completion. Finally, two algorithms are proposed to solve the resulting optimization problem: 3DTV-based parallel matrix factorization (3DTV-PMF), and its variant with Cholesky-based inversion, named as 3DTV-PMFC. Simulation results demonstrate that the proposed algorithms achieve a minimum performance improvement of 16.15$\%$ compared to the conventional PMF algorithm.'
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/TNSE.2026.3669372
+subfield: spectrum-cartography  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - matrix-completion  # TODO: maintainer verify
+task:
+  - spectrum-cartography  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-06-15'
