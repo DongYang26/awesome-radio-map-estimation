@@ -1,0 +1,29 @@
+id: research-on-spectrum-map-dissemination-for-data-driven-cogni
+title: Research on Spectrum Map Dissemination for Data-Driven Cognitive Radio Networks
+authors:
+  - Yue Zhang
+  - Li Zhou
+  - Xiang Tan
+  - Qi Tang
+  - Jibo Wei
+year: 2020
+venue: International Conference on Wireless Communications and Signal Processing
+abstract: Spectrum maps based on power spectral density (PSD) of spatial signals are helpful for cognitive users (CUs) to accurately sense and utilize the spectrum holes, achieving interference coordination among network nodes, and enhancing link robustness of mobile CUs. As an image matrix based data, the cost of spectrum map dissemination in wireless networks cannot be ignored. Disseminating spectrum maps of excessively high resolution would consume too much bandwidth resources, which prevents the growth space of data traffics. In this paper, we study the spectrum map dissemination problem in the next generation data-driven cognitive radio network scenario and propose a method to obtain the optimal spectrum map resolution and quantization bit of PSD for dissemination. The experiment results demonstrate that we can obtain the tradeoff between spectrum map size and network throughput, so as to achieve better network throughput with relatively low map dissemination consumption.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/WCSP49889.2020.9299761
+subfield: spectrum-cartography  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - spectrum-cartography  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-06-29'

@@ -1,0 +1,28 @@
+id: radio-propagation-prediction-using-neural-network-and-buildi
+title: Radio Propagation Prediction Using Neural Network and Building Occupancy Estimation
+authors:
+  - Kazuya Inoue
+  - K. Ichige
+  - Tatsuya Nagao
+  - Takahiro Hayashi
+year: 2021
+venue: International Symposium on Antennas and Propagation
+abstract: In this paper, we propose a radio propagation prediction method using machine learning and building occupancy estimation. There have been learning-based researches using aerial photographs and building occupancy images as spatial information. However, the availability of building occupancy images is often limited to urban areas. We assume the situation that only the aerial photographs are available and aim to improve radio propagation prediction accuracy by estimating building occupancy images from the given aerial photographs.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.23919/ISAP47053.2021.9391150
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 5
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-06-29'

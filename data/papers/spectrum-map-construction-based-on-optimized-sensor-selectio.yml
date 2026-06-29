@@ -1,0 +1,32 @@
+id: spectrum-map-construction-based-on-optimized-sensor-selectio
+title: Spectrum Map Construction Based on Optimized Sensor Selection and Adaptive Kriging Model
+authors:
+  - Z. Ding
+  - J. Zhang
+  - Y. Liu
+  - J. Wang
+  - G. Chen
+  - L. Cao
+year: 2022
+venue: Radioengineering
+abstract: . Spectrum map ( SM ) is an important tool to reflect the spectrum usage in the electromagnetic environment. To address the problems of low precision and poor efficiency in the SM construction, this paper develops a novel SM construction approach based on the artificial bee colony enabled sensor layout optimization and an adaptive Kriging model based on spatial autocorrelation. Considering the significant autocorrelation between sensor attributes caused by the exponentially decaying shadow fading of signal propagation, the sensor estimation groups are established, and the estimation results are obtained by the Kriging model. The simulation results show that the proposed SM construction scheme can not only effectively reduce the overhead of sensor resources but also obtain a high SM construction accuracy. Extensive simulation results show that the proposed method can reduce the RMSE of SM construction by 37.56%, 25.32% and 12.89% re-spectively compared with Random-OK when the standard deviation of shadow fading is 1 dB, 3 dB and 6 dB.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://doi.org/10.13164/re.2022.0422
+  doi: 10.13164/re.2022.0422
+subfield: spectrum-cartography  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - Gaussian-process  # TODO: maintainer verify
+  - Kriging  # TODO: maintainer verify
+task:
+  - spectrum-cartography  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 2
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-06-29'

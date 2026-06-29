@@ -1,0 +1,31 @@
+id: '2005.02432'
+title: 'Aerial Spectrum Surveying: Radio Map Estimation with Autonomous UAVs'
+authors:
+  - Daniel Romero
+  - Raj K. Shrestha
+  - Yves Teganya
+  - S. Chepuri
+year: 2020
+venue: International Workshop on Machine Learning for Signal Processing
+abstract: Radio maps are emerging as a popular means to endow next-generation wireless communications with situational awareness. In particular, radio maps are expected to play a central role in unmanned aerial vehicle (UAV) communications since they can be used to determine interference or channel gain at a spatial location where a UAV has not been before. Existing methods for radio map estimation utilize measurements collected by sensors whose locations cannot be controlled. In contrast, this paper proposes a scheme in which a UAV collects measurements along a trajectory. This trajectory is designed to obtain accurate estimates of the target radio map in a short time operation. The route planning algorithm relies on a map uncertainty metric to collect measurements at those locations where they are more informative. An online Bayesian learning algorithm is developed to update the map estimate and uncertainty metric every time a new measurement is collected, which enables real-time operation.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2005.02432
+  pdf: https://arxiv.org/pdf/2005.02432
+  doi: 10.1109/MLSP49062.2020.9231595
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 15
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-06-29'

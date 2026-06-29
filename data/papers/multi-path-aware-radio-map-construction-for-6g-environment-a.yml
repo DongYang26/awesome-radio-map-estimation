@@ -1,0 +1,31 @@
+id: multi-path-aware-radio-map-construction-for-6g-environment-a
+title: 'Multi-Path Aware Radio Map Construction for 6G Environment-Aware Communication: A Helmholtz Equation-Informed Approach'
+authors:
+  - Xiucheng Wang
+  - Peilin Zheng
+  - Nan Cheng
+  - Conghao Zhou
+  - Ruijin Sun
+  - Guiyang Luo
+  - Zan Li
+  - Xuemin Shen
+year: 2025
+venue: 2025 IEEE/CIC International Conference on Communications in China (ICCC)
+abstract: Driven by the rising demand for intelligent and proactive optimization in sixth-generation (6G) networks, wireless communication has transitioned towards an environment-aware paradigm, making accurate radio map (RM) construction to provide location-specific wireless channel features critically important. However, traditional electromagnetic (EM) computing-based methods suffer from prohibitive computational complexity, while existing data-driven neural network (NN) methods lack sufficient capability to capture EM singularities arising from EM wave propagation. To overcome these challenges, we explicitly integrate the Helmholtz equation, which governs EM wave propagation, into NN training, establishing a theoretical link between EM singularities and regions characterized by imaginary wave numbers as $k^{2}\lt 0$. Inspired by this analysis, we propose a dual-network architecture where one NN precisely infers EM singularities, while another reconstructs the RM using these inferred singularities alongside environmental information for RM construction. By effectively combining physics-based modeling with data-driven approaches, the proposed Helmholtz equation-informed NN (HEINN) method significantly enhances RM accuracy, especially in complex multi-path-dominated scenarios. Experiment results show the proposed HEINN achieves state-of-the-art (SOTA) RM construction performance, even 2x higher performance than the previous SOTA generative artificial intelligence (GAI) based method with 60x higher efficiency, which provides an insightful direction for the research of physics-informed wireless communication optimization.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/ICCC65529.2025.11148641
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-06-29'

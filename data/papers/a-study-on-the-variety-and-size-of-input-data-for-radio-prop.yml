@@ -1,0 +1,27 @@
+id: a-study-on-the-variety-and-size-of-input-data-for-radio-prop
+title: A study on the variety and size of input data for radio propagation prediction using a deep neural network
+authors:
+  - Takahiro Hayashi
+  - Tatsuya Nagao
+  - Satoshi Ito
+year: 2020
+venue: European Conference on Antennas and Propagation
+abstract: Not only has the volume of mobile traffic been increasing exponentially in recent years, making various services available, such as IoT and connected cars moving at high speed, has also become necessity; moreover, the quality of these services has to be extremely high. As a result, it is necessary to clarify the complicated characteristic of radio propagation. In this paper, we describe radio propagation prediction using a deep neural network (DNN) that can regress to non-linear functions without having to derive complex functions. DNN can learn the features needed for problem solving from input data, in other words, in radio propagation prediction, it is able to learn the environment parameters required for propagation prediction from spatial information that is input such as map data. Based on the evaluation results of propagation prediction with DNN using measurement data in an urban area, we clarify the relationship between the variety and size of input data from the viewpoint of estimation accuracy and computational complexity.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.23919/EuCAP48036.2020.9135876
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 3
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-06-29'
