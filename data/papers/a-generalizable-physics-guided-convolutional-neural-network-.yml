@@ -1,0 +1,29 @@
+id: a-generalizable-physics-guided-convolutional-neural-network-
+title: A Generalizable Physics-Guided Convolutional Neural Network for Irregular Terrain Propagation
+authors:
+  - Siyi Huang
+  - Hao Qin
+  - Weibin Hou
+  - Xinyue Zhang
+  - Xingqi Zhang
+year: 2025
+venue: IEEE Transactions on Antennas and Propagation
+abstract: The application of split-step parabolic equation (SSPE) methods for radio wave propagation across irregular terrains has gained widespread attention. However, the computational intensity of these methods limits their practical use, leading to the exploration of machine learning (ML) techniques as an alternative. A significant hurdle for ML models in the field of electromagnetics is their ability to precisely forecast relevant quantities in situations not covered by their training data, which have not been considered in the current ML-assisted propagation models over irregular terrain. To that end, we propose a generalizable physics-guided propagation modeling framework of high fidelity. This framework is adept at generalizing across various terrain types and antenna configurations, showcasing extrapolation capabilities beyond its training dataset. Our approach innovates by embedding prior knowledge from deterministic models into the network architecture. Furthermore, we demonstrate that adapting the network structure to align with the electromagnetic properties of terrain propagation markedly improves the model’s predictive accuracy and generalizability.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/TAP.2025.3533739
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 13
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-06-29'

@@ -1,0 +1,29 @@
+id: a-channel-knowledge-map-aided-personalized-resource-allocati
+title: A Channel Knowledge Map-Aided Personalized Resource Allocation Strategy in Air-Ground Integrated Mobility
+authors:
+  - Wenwei Yue
+  - Jingli Li
+  - Changle Li
+  - Nan Cheng
+  - Jiaming Wu
+year: 2024
+venue: IEEE transactions on intelligent transportation systems (Print)
+abstract: Air-ground Integrated Mobility (AIM), as a disruptive mode of travel, has the tremendous potential to alleviate ground traffic congestion issues substantially. However, the primary challenge in achieving this leapfrog development lies in ensuring driving safety. Receiving collision warnings in time within a limited distance can significantly reduce collision risks, which is crucial for ensuring driving safety in AIM. However, due to challenges in aerial network coverage, ensuring the communication quality of aerial Personal Aerial Vehicles (PAVs) remains difficult, thereby affecting the effective transmission of messages. Furthermore, the integration of ground Connected and Automated Vehicles (CAVs) with aerial PAVs in AIM results in significant differences in user resource requirements. Given the complexity of the AIM environment and the high mobility of PAVs, it is challenging to rapidly and accurately capture user communication quality. Therefore, addressing the differential resource requirements of users in this environment is particularly challenging. To this end, we propose a personalized resource allocation strategy assisted by a Channel Knowledge Map (CKM) in AIM. This strategy aims to meet the personalized resource requirements of users while maintaining the maximum Perception Response Time (PRT), thereby ensuring driving safety. Specifically, the CKM in AIM is constructed to obtain channel states through environment-aware communication. Next, a 3D collision warning system is designed to analyze rigorously the maximum PRT of vehicles under different motion states in avoiding collisions. On this basis, with the help of CKM, the channel knowledge of the user’s location is obtained to quantify the communication and computing resources required by each user to maintain the maximum PRT. Finally, we establish the PRT-driven resource optimization problem and employ Deep Reinforcement Learning (DRL) to seek the optimal resource allocation strategy. Simulation results indicate that the proposed method effectively enhances safety and resource utilization in AIM under resource constraints and uneven distribution.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/TITS.2024.3409415
+subfield: CKM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 36
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-06-29'

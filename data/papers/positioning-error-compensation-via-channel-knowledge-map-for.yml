@@ -1,0 +1,27 @@
+id: positioning-error-compensation-via-channel-knowledge-map-for
+title: Positioning Error Compensation via Channel Knowledge Map for UAV Communication
+authors:
+  - Chiya Zhang
+  - Ting Wang
+  - Chunlong He
+year: 2025
+venue: IEEE Internet of Things Journal
+abstract: When uncrewed aerial vehicles (UAVs) perform high-precision communication tasks, such as searching for users and providing emergency coverage, positioning errors between base stations and users make it challenging to deploy trajectory planning algorithms. To address these challenges caused by positioning errors, we propose a compensation framework based on channel knowledge map (CKM), a site-specific database that stores and manages channel state information (CSI). By taking the positions with errors as input, the generated CKM could give a prediction of signal attenuation which is close to true positions. Based on that, the predictions are utilized to calculate the received power and a proximal policy optimization-based algorithm is applied to optimize the compensation. After training, the framework is able to find a strategy that minimize the flight time under communication constraints and positioning error. Besides, the confidence interval is calculated to assist the allocation of power and the update of CKM is studied to adapt to the dynamic environment. Simulation results show the robustness of CKM to positioning error and environmental changes, and the superiority of CKM-assisted UAV communication design.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/JIOT.2025.3535731
+subfield: CKM  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 6
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-06-29'

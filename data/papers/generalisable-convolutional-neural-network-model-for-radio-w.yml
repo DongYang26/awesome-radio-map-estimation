@@ -1,0 +1,28 @@
+id: generalisable-convolutional-neural-network-model-for-radio-w
+title: Generalisable convolutional neural network model for radio wave propagation in tunnels
+authors:
+  - Siyi Huang
+  - Shiqi Wang
+  - Xingqi Zhang
+year: 2023
+venue: IET Microwaves, Antennas &amp; Propagation
+abstract: Propagation models are essential for the prediction of received signal strength and the planning of wireless systems in a given environment. The vector parabolic equation (VPE) method has been widely applied to the modelling of radio wave propagation in tunnels. However, carrying out simulations for large‐scale environments is still computationally expensive. A convolutional neural network (CNN)‐based propagation model, which can provide high‐fidelity received signal strength prediction based on results from low‐cost VPE simulations, is proposed. A thorough study of the generalisability, including both interpolation and extrapolation capabilities, of the proposed CNN model is conducted. It is found that the proposed model can achieve significant computational savings while maintaining acceptable accuracy, and its performance is validated in both simulations and actual tunnel cases.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1049/mia2.12412
+  doi: 10.1049/mia2.12412
+subfield: REM  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+task:
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 8
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-06-29'

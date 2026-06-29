@@ -1,0 +1,26 @@
+id: '2604.22056'
+title: 'Learning Coverage- and Power-Optimal Transmitter Placement from Building Maps: A Comparative Study of Direct and Indirect Neural Approaches'
+authors:
+  - cCaugkan Yapar
+year: 2026
+venue: arXiv.org
+abstract: 'Optimal wireless transmitter placement is a central task in radio-network planning, yet exhaustive search becomes prohibitively expensive at scale. This paper studies the single-transmitter setting under a fixed learned propagation model, enabling exhaustive per-pixel assessment at dataset scale in a regime where measurement-based exhaustive labeling is infeasible and ray-tracing-based exhaustive labeling is computationally out of reach. We introduce a dataset of 167{,}525 urban scenarios (\emph{RadioMapSeer-Deployment}) with dual ground-truth labels for coverage-optimal and power-optimal transmitter locations. Benchmark analysis reveals an asymmetric coverage-power trade-off: coverage-optimal placement sacrifices $13.86\%$ of received power, whereas power-optimal placement sacrifices only $5.50\%$ of coverage; the best achievable balanced placement lies at $\bar{d}=2.60$ from the ideal point $(100\%,100\%)$. We evaluate two learning formulations: indirect heatmap-based models predicting received-power radio maps, and direct score-map models predicting the objective landscape over feasible transmitter locations. Within the heatmap family, discriminative models deliver one-shot predictions $1350$-$2400\times$ faster than exhaustive search, while diffusion models additionally support multi-sample inference that improves single-objective performance and, by reusing the same sample pool under a balanced criterion, recovers strong balanced placements without explicit multi-objective training. Dual score-map strategies that combine power and coverage score maps match the exhaustive balanced optimum ($\bar{d}=2.60$) and remain close to it across smaller candidate budgets, at $14$-$22\times$ speedups including the cost of evaluating shortlisted candidates.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2604.22056
+  doi: 10.48550/arXiv.2604.22056
+subfield: REM  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - Diffusion  # TODO: maintainer verify
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-06-29'

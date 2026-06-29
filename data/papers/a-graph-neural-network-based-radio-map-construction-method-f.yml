@@ -1,0 +1,30 @@
+id: a-graph-neural-network-based-radio-map-construction-method-f
+title: A Graph Neural Network Based Radio Map Construction Method for Urban Environment
+authors:
+  - Guokai Chen
+  - Yongxiang Liu
+  - T. Zhang
+  - Jianzhao Zhang
+  - Xiye Guo
+  - Jun Yang
+year: 2023
+venue: IEEE Communications Letters
+abstract: Radio maps can enhance the capability of wireless sensor networks and improve the efficiency of spectrum utilization. However, the construction of an accurate radio map in the urban environment is a challenging task, since the dense buildings lead to a non-line-of-sight (NLOS) transmission environment. With this focus, we first transform the spatial sparse measurement points into a graph structure and extract the connected relation through the building map. Then, we propose a graph neural network (GNN) scheme to recover the complete radio map from sparse measurements. Numerical results show that our algorithm outperforms the benchmark methods in accuracy and is robust to noise.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/LCOMM.2023.3260272
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - GNN  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 61
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-06-29'

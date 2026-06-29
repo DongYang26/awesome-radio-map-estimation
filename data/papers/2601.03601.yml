@@ -1,0 +1,31 @@
+id: '2601.03601'
+title: 'F4-CKM: Learning Channel Knowledge Map With Radio Frequency Radiance Field Rendering'
+authors:
+  - Kequan Zhou
+  - Guangyi Zhang
+  - Hanlei Li
+  - Yunlong Cai
+  - Shengli Liu
+  - Guanding Yu
+year: 2026
+venue: IEEE Transactions on Communications
+abstract: 'In 6G mobile communications, acquiring accurate and timely channel state information (CSI) becomes increasingly challenging due to the growing antenna array size and bandwidth. To alleviate the CSI feedback burden, the channel knowledge map (CKM) has emerged as a promising approach by leveraging environment-aware techniques to predict CSI based solely on user locations. However, how to effectively construct a CKM remains an open issue. In this paper, we propose F4-CKM, a novel CKM construction framework characterized by four distinctive features: radiance Field rendering, spatial-Frequency-awareness, location-Free usage, and Fast learning. Central to our design is the adaptation of radiance field rendering techniques from computer vision to the radio frequency (RF) domain, enabled by a novel Wireless Radiator Representation (WiRARE) network that captures the spatial-frequency characteristics of wireless channels. Additionally, a novel shaping filter module and an angular sampling strategy are introduced to facilitate CKM construction. Extensive experiments demonstrate that F4-CKM significantly outperforms existing baselines in terms of wireless channel prediction accuracy and efficiency.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2601.03601
+  doi: 10.1109/TCOMM.2026.3668162
+subfield: CKM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 4
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-06-29'

@@ -1,0 +1,26 @@
+id: reinforcement-learning-for-simplified-training-in-fingerprin
+title: Reinforcement Learning for Simplified Training in Fingerprinting Radio Localization
+authors:
+  - Nicola Novello
+  - A. Tonello
+year: 2023
+venue: 2023 International Balkan Conference on Communications and Networking (BalkanCom)
+abstract: 'In this paper, we assess the problem of radio localization based on fingerprinting. Although fingerprinting can provide precise localization in complex propagation environments, its drawback is the complexity of building the fingerprinting map. This map associates each location inside an area to a vector of Received Signal Strength (RSS) observations. This paper aims to answer the question: can we reduce the number of measurements to build a fingerprinting map for radio localization? To answer this question, we propose a new method based on sampling the environment intelligently. The method combines Deep Learning (DL) and Deep Reinforcement Learning (DRL) techniques. Reinforcement learning allows us to find an optimal path to perform measurements in relevant areas under the constraint of a given route length the agent can walk. Training a neural network with the measured RSSs along that path provides high localization accuracy. Numerical results on a real data set show that the approach offers high localization accuracy despite lowering the distance covered to acquire data to train the neural network-based fingerprinting map.'
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/BalkanCom58402.2023.10167948
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 2
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-06-29'
