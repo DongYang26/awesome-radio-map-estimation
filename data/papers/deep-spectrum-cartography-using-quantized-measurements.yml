@@ -1,0 +1,29 @@
+id: deep-spectrum-cartography-using-quantized-measurements
+title: Deep Spectrum Cartography Using Quantized Measurements
+authors:
+  - Subash Timilsina
+  - S. Shrestha
+  - Xiao Fu
+year: 2023
+venue: IEEE International Conference on Acoustics, Speech, and Signal Processing
+abstract: Spectrum cartography (SC) techniques craft multi-domain (e.g., space and frequency) radio maps from limited measurements, which is an ill-posed inverse problem. Recent works used low-dimensional priors such as a low tensor rank structure and a deep generative model to assist radio map estimation—with provable guarantees. However, a premise of these approaches is that the sensors are able to send real-valued feedback to a fusion center for SC—yet practical communication systems often use (heavy) quantization for signaling. This work puts forth a limited feedback-based SC framework. Similar to a prior work, a generative adversarial network (GAN)-based deep prior is used in our framework for fending against heavy shadowing. However, instead of using real-valued feedback, a random quantization strategy is adopted and a maximum likelihood estimation (MLE) criterion is proposed. Analysis shows that the MLE provably recovers the radio map, under reasonable conditions. Simulations are conducted to showcase the effectiveness of the proposed approach.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://doi.org/10.1109/icassp49357.2023.10096058
+  doi: 10.1109/ICASSP49357.2023.10096058
+subfield: spectrum-cartography  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - GAN  # TODO: maintainer verify
+task:
+  - spectrum-cartography  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 2
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-07-06'

@@ -1,0 +1,30 @@
+id: '2602.12602'
+title: Channel Gain Map Reconstruction Based on Virtual Scatterer Model
+authors:
+  - He Sun
+  - Lipeng Zhu
+  - Jie Xu
+  - Rui Zhang
+year: 2026
+venue: arXiv.org
+abstract: This paper proposes an efficient method for modeling and reconstructing the channel gain map (CGM) based on virtual scatterers. Specifically, we develop a virtual scatterer model to characterize the channel power gain distribution in three-dimensional (3D) space, by capturing the multi-path propagation environment structure and exploiting the angular-domain spatial correlation of scatterer response. In this model, the CGM is represented as a function over a set of tunable parameters for virtual scatterers, including their number, positions, and scatterer response coefficients (SRCs), which can be estimated from a limited number of channel power gain measurements at a given set of locations within the region of interest. This new representation offers a flexible and scalable modeling framework for efficient and accurate CGM reconstruction. Furthermore, we propose a progressive estimation algorithm to acquire the scatterers'parameters. In this algorithm, we gradually increase the number of virtual scatterers to balance the computational complexity and estimation accuracy. In addition, by exploiting the spatial correlation of scatterer response, we propose a Gaussian process regression (GPR)-based inference method to predict the SRCs that cannot be directly estimated. Finally, ray-tracing-based simulation results under realistic physical environments validate the effectiveness of the proposed method, demonstrating that it achieves higher reconstruction accuracy compared to conventional CGM estimation approaches.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2602.12602
+  doi: 10.48550/arXiv.2602.12602
+subfield: REM  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - Gaussian-process  # TODO: maintainer verify
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 2
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-07-06'

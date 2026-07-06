@@ -1,0 +1,27 @@
+id: clustered-channel-estimation-and-prediction-with-channel-kno
+title: Clustered Channel Estimation and Prediction with Channel Knowledge Map
+authors:
+  - Guanya Meng
+  - Xiujun Zhang
+  - Xiaofeng Zhong
+  - Shidong Zhou
+year: 2025
+venue: 2025 IEEE 102nd Vehicular Technology Conference (VTC2025-Fall)
+abstract: In multiple-input multiple-output (MIMO) wireless communication systems, accurate and low-overhead channel state information (CSI) acquisition is crucial for achieving high performance, which is significantly hampered by user mobility. To address the challenge of efficient CSI acquisition in high-mobility scenarios, this paper proposes a clustered channel estimation and prediction method with historical channel knowledge, where a channel knowledge map (CKM) is constructed using historical channel estimates from other users. During the channel estimation phase, the clustered channel is projected onto a low-rank subspace learned from historical estimates, thereby exploiting the sparsity of the multipath channel without extra overhead. In the channel prediction phase, the CKM provides channel temporal correlation characteristics at the required time granularity, which is not limited by the current user’s pilot interval, enables accurate prediction of future channels. Simulation results demonstrate that the proposed method not only significantly improves accuracy of channel estimation and prediction but also maintains channel prediction performance with low pilot overhead.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/VTC2025-Fall65116.2025.11309355
+subfield: CKM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-07-06'

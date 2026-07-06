@@ -1,0 +1,27 @@
+id: unbalanced-spectrum-tensor-based-multi-band-3d-spectrum-cart
+title: Unbalanced Spectrum Tensor-Based Multi-Band 3D Spectrum Cartography
+authors:
+  - Xin Wang
+  - Bin Shen
+  - Xiaoge Huang
+  - Qianbin Chen
+year: 2026
+venue: IEEE Transactions on Communications
+abstract: Spectrum cartography (SC) based on tensor completion has been extensively studied in recent years, with most algorithms operating in two-dimensional (2D) regions and based on balanced spectrum tensors only. To meet the growing demand for three-dimensional (3D) SC, expanding the 2D tensor completion algorithms to 3D versions is either straightforwardly applicable with an intrinsic accuracy deficiency or technically challenging to process the 3D-structured spatial data meticulously. Additionally, these algorithms suffer significant performance degradation when encountering unbalanced spectrum tensors. To address these issues, we propose multi-band 3D SC algorithms based on unbalanced spectrum tensors sporadically collected in 3D space across multiple bands. The unbalanced spectrum tensors are first transformed into balanced tensors using the 3D-based ket augmentation algorithm (3DKA), overcoming the unbalanced tensor’s incapability to leverage its low rank for estimating the entire tensor. Subsequently, tensor train matricization is employed to obtain more balanced matrices and improve tensor completion accuracy. Finally, tensor completion is accomplished using either the 3DKA-aided parallel matrix factorization (3DKA-PMF) or the Frobenius norm-based singular value decomposition-free (3DKA-SVDF) algorithm. Simulations show that the 3DKA-PMF algorithm achieves a minimum improvement of 20.06% over the conventional PMF algorithm. Notably, the 3DKA-SVDF algorithm exhibits slightly inferior performance but significantly shorter runtime—at most 58.3% of that of the 3DKA-PMF algorithm.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/TCOMM.2025.3637026
+subfield: spectrum-cartography  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - matrix-completion  # TODO: maintainer verify
+task:
+  - spectrum-cartography  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-07-06'

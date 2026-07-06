@@ -1,0 +1,31 @@
+id: '2504.16376'
+title: 'Lightweight and Self-Evolving Channel Twinning: An Ensemble DMD-Assisted Approach'
+authors:
+  - Yashuai Cao
+  - Jintao Wang
+  - Xu Shi
+  - Wei Ni
+year: 2025
+venue: IEEE Transactions on Wireless Communications
+abstract: Traditional channel acquisition faces significant limitations due to ideal model assumptions and scalability challenges. A novel environment-aware paradigm, known as channel twinning, tackles these issues by constructing radio propagation environment semantics using a data-driven approach. In the spotlight of channel twinning technology, a radio map is recognized as an effective region-specific model for learning the spatial distribution of channel information. However, most studies focus on static channel map construction, with only a few collecting numerous channel samples and using deep learning for radio map prediction. In this paper, we develop a novel dynamic radio map twinning framework with a substantially small dataset. Specifically, we present an innovative approach that employs dynamic mode decomposition (DMD) to model the evolution of the dynamic channel gain map as a dynamical system. We first interpret dynamic channel gain maps as spatio-temporal video stream data. The coarse-grained and fine-grained evolving modes are extracted from the stream data using a new ensemble DMD (Ens-DMD) algorithm. To mitigate the impact of noisy data, we design a median-based threshold mask technique to filter the noise artifacts of the twin maps. With the proposed DMD-based radio map twinning framework, numerical results are provided to demonstrate the low-complexity reproduction and evolution of the channel gain maps. Furthermore, we consider four radio map twin performance metrics to confirm the superiority of our framework compared to the baselines.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2504.16376
+  pdf: https://arxiv.org/pdf/2504.16376
+  doi: 10.1109/TWC.2025.3564276
+subfield: CKM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 7
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-07-06'

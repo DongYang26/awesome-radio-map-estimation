@@ -1,0 +1,30 @@
+id: uav-trajectory-optimization-for-spectrum-cartography-a-ppo-a
+title: 'UAV Trajectory Optimization for Spectrum Cartography: A PPO Approach'
+authors:
+  - Li Li
+  - W. Li
+  - Jun Wang
+  - Xiaonan Chen
+  - Qihang Peng
+  - Wei Huang
+year: 2023
+venue: IEEE Communications Letters
+abstract: Benefiting from the flexibility and low operational cost, dispatching unmanned aerial vehicles (UAVs) to collect measurements is promising in spectrum cartography (SC). The main goal is to optimize the trajectory of an UAV to seek the most informative measurement under the environment with dynamic emitters. In this letter, we formulate a Markov Decision Process to find the optimal flight trajectory of an UAV that maximizes the accuracy of SC and minimizes energy consumption. However, due to the unavailable instantaneous feedback about the accuracy of SC, the existing methods are unable to work efficiently with sparse feedback. To tackle those issues, a Proximal Policy Optimization (PPO)-based algorithm is proposed to approach the optimal navigation policy for UAV by training with the delay interactive information at the base station. Moreover, A backtracking advantage function is further constructed to cope with sparse feedback in real-world scenario, which can avoid converging to local solutions. Extensive simulation results demonstrate that our proposed algorithm can significantly increase the accuracy of SC while reducing energy consumption.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/LCOMM.2023.3265214
+subfield: spectrum-cartography  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - spectrum-cartography  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 24
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-07-06'

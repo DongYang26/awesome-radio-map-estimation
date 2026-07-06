@@ -1,0 +1,27 @@
+id: channel-knowledge-map-assisted-underwater-acoustic-communica
+title: Channel Knowledge Map-Assisted Underwater Acoustic Communication Network Using Normal Mode Model
+authors:
+  - Zhaoyang Lin
+  - Jintao Wang
+  - Chengbing He
+  - Zhi Sun
+year: 2026
+venue: IEEE Internet of Things Journal
+abstract: Acquiring channel information in advance is crucial for improving underwater acoustic (UWA) communication networks, yet long propagation delays and severely limited bandwidth make accurate channel acquisition at both the transmitter (Tx) and receiver (Rx) difficult. Channel knowledge maps (CKMs) have recently shown strong benefits in terrestrial wireless systems by providing location-indexed channel information [e.g., gain, delay, AoA/AoD, or even channel state information (CSI)], but have not been systematically studied for UWA channels, whose propagation characteristics differ fundamentally from radio channels. In this work, we develop an any-to-any (X2X) UWA CKM construction framework by leveraging the normal mode model for low-frequency UWACs. Specifically, we construct a UWA CKM that maps Tx–Rx positions to channel priors and propose a CKM construction framework together with channel gain map (CGM), CKM-assisted channel estimation, and beamforming schemes. Numerical simulations and SWellEx-96 S5 experimental data demonstrate that the reconstruction normalized mean square error (NMSE) remains below 0.05 when the signal-to-noise ratio (SNR) exceeds 12 dB, thereby validating the accuracy of the normal mode model and the efficacy of the mode extraction process. Furthermore, a high-fidelity CGM is constructed even in data-sparse scenarios, requiring only one-fourth of the data volume compared to conventional data-driven CGMs. Simulation results further indicate that the CKM-assisted beamforming achieves a superior array gain (AG) over baseline methods. At an SNR of 15 dB, the CKM-assisted channel estimation attains an NMSE of below −16 dB in shallow-water and below −21 dB in deep-water scenarios, significantly outperforming the baselines.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/JIOT.2026.3680079
+subfield: CKM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-07-06'

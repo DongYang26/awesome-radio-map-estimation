@@ -1,0 +1,25 @@
+id: parameter-design-for-channel-knowledge-map-assisted-channel-
+title: Parameter Design for Channel Knowledge Map Assisted Channel Estimation
+authors:
+  - Muhammad Awais
+  - Y. Kim
+year: 2025
+venue: Information and Communication Technology Convergence
+abstract: Efficient channel estimation in massive multiple-input multiple-output (mMIMO) with limited pilot resources remains a key challenge. Recently, the concept of a channel knowledge map (CKM) has been proposed to enable location and environment-aware estimation. For a CKM referred to as channel angle-distance map (CADM) proposed for near-field channels, we investigate the sensitivity of the CADM-assisted channel estimation to the number of stored multipath components for a given location. We explore how variations in the number of multipath components in CADM affect the mean squared error (MSE) performance in different signal-to-noise ratio (SNR) conditions. Simulation results reveal that a moderate overestimation of multipath components in CADM can improve the MSE performance in high SNR regimes, whereas excessive multipath data degrades the performance in low SNR regimes.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/ICTC66702.2025.11388376
+subfield: CKM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-07-06'

@@ -1,0 +1,31 @@
+id: '2607.01368'
+title: Field-Deployable RF Capture System for Indoor, Outdoor, and Foliage Environments
+authors:
+  - Lawrence Obiuwevwi
+  - Krzysztof J. Rechowicz
+  - Vikas Ashok
+  - Sachin Shetty
+  - Peter B. Foytik
+  - Jared Cochran
+  - Jeff Bobrow
+  - Sampath Jayarathna
+year: 2026
+abstract: Reliable and reproducible radio-frequency (RF) measurements in real-world environments are essential for characterizing spectrum behavior across unlicensed ISM and WiFi bands, licensed mid-band allocations, and emerging next-generation wireless deployments. Existing measurement platforms are often laboratory-grade, cost-prohibitive, or dependent on fixed infrastructure, limiting their practicality for rapid, distributed, or long-duration field campaigns. This paper presents a compact, battery-powered RF capture system integrating a HackRF One software-defined radio, Raspberry Pi 5, GNSS receiver, regulated battery supply, and high-speed solid-state storage. The platform records continuous IQ data at up to 20 Msps in SigMF format with per-segment location and timing metadata for reproducible spectrum analysis. Field experiments at 2.45 GHz in dense foliage, urban outdoor, and indoor office environments reveal distinct propagation signatures. Foliage measurements remain near the noise floor at -76 to -82 dBFS with limited spectral structure, consistent with strong canopy attenuation. Urban measurements show multipath activity across a 30 dB dynamic range, overlapping WiFi channels, and frequent ISM-band interference. Indoor measurements show dominant WiFi channels, an estimated 20 to 25 dB building entry loss relative to outdoor conditions, and an 8 to 10 dB higher interference floor caused by structural reflections. The system sustained 75 to 85 MB/s write throughput with no dropped samples or buffer underruns, while GNSS synchronization remained below one second with meter-level positioning. These results show that a portable, cost-effective SDR platform can produce high-fidelity, geotagged IQ datasets for spectrum characterization, interference analysis, radio environment mapping, and environment-aware wireless research.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2607.01368
+  pdf: https://arxiv.org/pdf/2607.01368
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: both  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-07-06'

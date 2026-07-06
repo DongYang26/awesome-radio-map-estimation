@@ -1,0 +1,33 @@
+id: '2607.02001'
+title: Compressive Spectrum Sensing via Spectral Multiplexing in Rydberg Atomic Receiver
+authors:
+  - Jun-Rong Chen
+  - Yi-Ming Yin
+  - Le-Bin Chen
+  - Kai Wang
+  - Bang Liu
+  - Li-Hua Zhang
+  - Hao Tian
+  - Ming-Min Zhao
+  - Bin-Bin Wei
+  - Dong-Sheng Ding
+year: 2026
+abstract: Rydberg-atomic receivers exhibit exceptional sensitivity yet are fundamentally constrained by the narrow instantaneous bandwidth, limiting their practical deployment in broadband scenarios. Prior approaches typically expand the bandwidth by physically broadening the atomic response, which usually requires auxiliary electromagnetic fields or stringent parameter tuning, thereby increasing overall system complexity. Here, we propose a compressive spectral multiplexing framework implemented in a waveguide-coupled Rydberg atomic receiver using a frequency-modulated local oscillator (FMLO). The FMLO creates multiple parallel sensing channels that collectively constitute a physical compressive sensing matrix, generating multiple narrowband intermediate-frequency replicas of the input signal. Thus, a broadband microwave spectrum is projected onto a set of narrowband atomic responses. It is demonstrated that spectral information spanning a bandwidth of over 640 MHz can be effectively compressed into the intrinsic atomic bandwidth of 126 kHz, achieving a spectrum compression ratio exceeding 1000. Furthermore, these output replicas offer intrinsic measurement redundancy and facilitate signal-to-noise ratio enhancement. An approximate 10 dB gain is achieved in the required bit-energy-to-noise-power-density ratio for multi-channel communication via maximal-ratio combining. This approach requires no auxiliary fields or broadband electronics, providing a simple and scalable pathway for chip-scale quantum receivers, latency-critical sensing, and next-generation wireless communications.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2607.02001
+  pdf: https://arxiv.org/pdf/2607.02001
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - spectrum-occupancy  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-07-06'
