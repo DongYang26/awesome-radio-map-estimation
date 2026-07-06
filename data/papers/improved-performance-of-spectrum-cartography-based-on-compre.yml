@@ -1,0 +1,31 @@
+id: improved-performance-of-spectrum-cartography-based-on-compre
+title: Improved performance of spectrum cartography based on compressive sensing in cognitive radio networks
+authors:
+  - B. Jayawickrama
+  - E. Dutkiewicz
+  - I. Oppermann
+  - Gengfa Fang
+  - Jie Ding
+year: 2013
+venue: 2013 IEEE International Conference on Communications (ICC)
+abstract: Spectrum cartography is the process of constructing a map showing Radio Frequency signal strength over a finite geographical area. Multiple research groups have recently proposed to use spectrum cartography in the context of discovering spectrum holes in space that can be exploited locally in cognitive radio networks. In our novel approach, we exploit the sparsity of primary users in space to formulate the cartography process as a compressive sensing problem. Further, we present a novel algorithm for solving the cartography problem that builds on the well-known Orthogonal Matching Pursuit algorithm. We evaluate the performance of our approach by simulating a cognitive radio network where primary users are low power wireless microphones. Our simulation results show a significant improvement in reconstruction error, in comparison to two existing compressive sensing based methods.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://figshare.com/articles/conference_contribution/Improved_performance_of_spectrum_cartography_based_on_compressive_sensing_in_cognitive_radio_networks/20693956
+  doi: 10.1109/ICC.2013.6655495
+subfield: spectrum-cartography  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - spectrum-cartography  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 61
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-07-06'

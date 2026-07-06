@@ -1,0 +1,28 @@
+id: channel-gain-map-estimation-based-on-3-d-virtual-scatterer-m
+title: Channel Gain Map Estimation Based on 3-D Virtual Scatterer Model
+authors:
+  - He Sun
+  - Lipeng Zhu
+  - Jie Xu
+  - Rui Zhang
+year: 2026
+venue: IEEE Transactions on Wireless Communications
+abstract: This paper proposes an efficient method for modeling and reconstructing the channel gain map (CGM) based on virtual scatterers. Specifically, we develop a virtual scatterer model to characterize the channel gain distribution in three-dimensional (3D) space, by capturing the multi-path propagation environment structure and exploiting the angular-domain spatial correlation of scatterer response. In this model, the CGM is represented as a function over a set of tunable parameters for virtual scatterers, including their number, positions, and scatterer response coefficients (SRCs), which can be estimated from a limited number of channel gain measurements at a given set of locations within the region of interest. This new representation offers a flexible and scalable modeling framework for efficient and accurate CGM reconstruction. Furthermore, we propose a progressive estimation algorithm to acquire the scatterers’ parameters. In this algorithm, we gradually increase the number of virtual scatterers to balance the computational complexity and reconstruction accuracy, and derive the closed-form solutions of SRCs with any given number and positions of virtual scatterers. In addition, by exploiting the spatial correlation of scatterer response, we propose a Gaussian process regression (GPR)-based inference method to predict the SRCs that cannot be directly estimated. Finally, ray-tracing-based simulation results under realistic physical environments validate the effectiveness of the proposed method, demonstrating that it achieves higher reconstruction accuracy compared to conventional CGM estimation approaches, especially for the scenario with limited channel measurements.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/TWC.2026.3685411
+subfield: REM  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - Gaussian-process  # TODO: maintainer verify
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-07-06'

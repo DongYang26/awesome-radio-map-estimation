@@ -1,0 +1,27 @@
+id: '2512.20108'
+title: 'Generative Spectrum Cartography: Unified Reconstruction and Active Sensing via Diffusion Models'
+authors:
+  - Yuntong Gu
+  - Xiangming Meng
+  - Zhi-Chien Lin
+  - Sheng Wu
+  - Linling Kuang
+year: 2025
+abstract: 'High-fidelity spectrum cartography is important for spectrum monitoring and wireless situational awareness, especially in satellite-based wide-area sensing scenarios where measurements are sparse, noisy, and often low-bit quantized. In such settings, two coupled challenges arise: accurate reconstruction from severely incomplete measurements and efficient allocation of additional sensing resources under a limited sensing budget. Existing methods usually address these problems separately, and, for reconstruction, they often rely on priors that are insufficiently expressive under sparse and quantized measurements. This paper proposes Generative Spectrum Cartography (GSC), a diffusion-based posterior inference framework for spectrum cartography with uncertainty-aware active sensing. Specifically, spectrum map recovery is formulated as a Bayesian inverse problem under a learned diffusion model prior, and closed-form posterior mean updates are derived for both linear and quantized measurement models. By embedding these updates into the reverse diffusion process, GSC enables gradient-free and measurement-consistent posterior sampling without relying on computationally costly likelihood-gradient guidance. The resulting posterior samples are further used to estimate spatial uncertainty and to guide diversity-aware selection of additional measurement locations for active sensing. Experiments on simulated electromagnetic maps and a high-fidelity simulated satellite monitoring scenario show that GSC achieves higher PSNR, lower LPIPS, and more efficient sensing than representative baseline methods under sparse, noisy, and low-bit quantized measurements.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2512.20108
+subfield: spectrum-cartography  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - Diffusion  # TODO: maintainer verify
+task:
+  - spectrum-cartography  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-07-06'

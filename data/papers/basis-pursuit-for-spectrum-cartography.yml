@@ -1,0 +1,26 @@
+id: basis-pursuit-for-spectrum-cartography
+title: Basis pursuit for spectrum cartography
+authors:
+  - J. Bazerque
+  - G. Mateos
+  - G. Giannakis
+year: 2011
+venue: IEEE International Conference on Acoustics, Speech, and Signal Processing
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/ICASSP.2011.5946287
+subfield: spectrum-cartography  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - spectrum-cartography  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 8
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-07-06'

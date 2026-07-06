@@ -1,0 +1,29 @@
+id: '1601.05928'
+title: Role of large scale channel information on predictive resource allocation
+authors:
+  - Chuting Yao
+  - Chenyang Yang
+year: 2016
+venue: IEEE Wireless Communications and Networking Conference
+abstract: When the future achievable rate is perfectly known, predictive resource allocation can provide high performance gain over traditional resource allocation for the traffic without stringent delay requirement. However, future channel information is hard to obtain in wireless channels, especially the small-scale fading gains. In this paper, we analytically demonstrate that the future large-scale channel information can capture almost all the performance gain from knowing the future channel by taking an energy-saving resource allocation as an example. This result is important for practical systems, since large-scale channel gains can be easily estimated from the predicted trajectory of mobile users and radio map. Simulation results validate our analysis and illustrate the impact of the estimation errors of large-scale channel gains on energy saving.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/1601.05928
+  pdf: https://arxiv.org/pdf/1601.05928
+  doi: 10.1109/WCNC.2016.7564783
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 3
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-07-06'

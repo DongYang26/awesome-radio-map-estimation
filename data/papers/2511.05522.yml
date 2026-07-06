@@ -1,0 +1,35 @@
+id: '2511.05522'
+title: 'AIRMap: AI-Generated Radio Maps for Wireless Digital Twins'
+authors:
+  - Ali Saeizadeh
+  - Miead Tehrani-Moayyed
+  - Davide Villa
+  - J. Beattie
+  - Pedram Johari
+  - Stefano Basagni
+  - Tommaso Melodia
+year: 2025
+venue: IEEE Transactions on Wireless Communications
+abstract: Accurate, low-latency channel modeling is essential for real-time wireless network simulation and digital-twin applications. Traditional modeling methods like ray tracing are however computationally demanding and unsuited to model dynamic conditions. In this paper, we propose AIRMap, a deep-learning framework for ultra-fast radio-map estimation, along with an automated pipeline for creating the largest radio-map dataset to date. AIRMap uses a single-input U-Net autoencoder that processes only a 2D elevation map of terrain and building heights.Trained on 1.2M Boston-area samples and validated across four distinct urban and rural environments with varying terrain and building density, AIRMap predicts path gain with under 4 dB RMSE in 4 ms per inference on an NVIDIA L40S —over $100\times $ faster than GPU-accelerated ray tracing based radio maps.A lightweight calibration using just 20% of field measurements reduces the median error to approximately 5%, significantly outperforming traditional simulators, which exceed 50% error.Integration into the Colosseum emulator and the Sionna SYS platform demonstrate near-zero error in spectral efficiency and block-error rate compared to measurement-based channels. These findings validate AIRMap’s potential for scalable, accurate, and real-time radio map estimation in wireless digital twins.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2511.05522
+  pdf: https://arxiv.org/pdf/2511.05522
+  doi: 10.1109/TWC.2026.3704457
+subfield: REM  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - autoencoder  # TODO: maintainer verify
+  - CNN  # TODO: maintainer verify
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 3
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-07-06'

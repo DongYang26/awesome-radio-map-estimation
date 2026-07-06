@@ -1,0 +1,31 @@
+id: channel-knowledge-map-assisted-routing-scheme-for-low-altitu
+title: Channel Knowledge Map-Assisted Routing Scheme for Low-Altitude Economy
+authors:
+  - Jiteng Liu
+  - Guoru Ding
+  - Yitao Xu
+  - Jiangchun Gu
+  - Haichao Wang
+  - Jiabao Wang
+  - Xingyu Zhou
+year: 2026
+venue: IEEE Transactions on Vehicular Technology
+abstract: To ensure the robust development of the low-altitude economy (LAE), reliable communication within the network is essential. This paper proposes a channel knowledge map (CKM)-assisted routing scheme to address the challenges of complex environments and high mobility in LAE scenarios. Traditional statistical channel models fail to quantify complex propagation environments, while real-time channel estimation in high mobility scenarios incurs high control overhead and outdated channel information. CKM establishes a mapping from the location to the channel knowledge, enabling the estimate of channel gain without real-time interaction, thereby reducing overhead and enhancing adaptability to node mobility. This approach is particularly suitable for the channel information acquisition in LAE scenarios. In this paper, we first propose a general channel gain acquisition approach for routing design, leveraging the CKM to reduce the demands for information interaction. Subsequently, the specific routing protocols for both global routing and greedy routing, called CKM-DAR, CKM-EAR, and CKM-GR, are proposed. Additionally, recovery forwarding and neighbor overhead mechanisms are introduced to improve routing accuracy and reliability despite position errors. Simulation results validate the effectiveness of the CKM-assisted routing schemes in achieving lower transmission delays and higher energy efficiency, with affordable control overhead, in the complex environment and high mobility scenarios.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/TVT.2025.3628478
+subfield: CKM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 2
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-07-06'

@@ -1,0 +1,33 @@
+id: '2403.08200'
+title: Prototyping and Experimental Results for Environment-Aware Millimeter Wave Beam Alignment via Channel Knowledge map
+authors:
+  - Zhuoyin Dai
+  - Di Wu
+  - Zhenjun Dong
+  - Kun Li
+  - Dingyang Ding
+  - Sihan Wang
+  - Yong Zeng
+year: 2024
+venue: IEEE Transactions on Vehicular Technology
+abstract: Channel knowledge map (CKM), which aims to directly reflect the intrinsic channel properties of the local wireless environment, is a novel technique for achieving environment-aware communication. In this paper, to alleviate the large training overhead in millimeter wave (mmWave) beam alignment, an environment-aware and training-free beam alignment prototype is established based on a typical CKM, termed beam index map (BIM). To this end, a general CKM construction method is first presented, and an indoor BIM is constructed offline to learn the candidate transmit and receive beam index pairs for each grid in the experimental area. Furthermore, based on the location information of the receiver (or the dynamic obstacles) from the ultra-wide band (UWB) positioning system, the established BIM is used to achieve training-free beam alignment by directly providing the beam indices for the transmitter and receiver. Three typical scenarios are considered in the experiment, including quasi-static environment with line-of-sight (LoS) link, quasi-static environment without LoS link and dynamic environment. Besides, the receiver orientation measured from the gyroscope is also used to help CKM predict more accurate beam indices. The experiment results show that compared with the benchmark location-based beam alignment strategy, the CKM-based beam alignment strategy can achieve much higher received power, which is close to that achieved by exhaustive beam search, but with significantly reduced training overhead.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2403.08200
+  pdf: https://arxiv.org/pdf/2403.08200
+  doi: 10.1109/TVT.2024.3419795
+subfield: CKM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: indoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 17
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-07-06'

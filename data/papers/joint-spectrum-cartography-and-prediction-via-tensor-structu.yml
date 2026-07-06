@@ -1,0 +1,29 @@
+id: joint-spectrum-cartography-and-prediction-via-tensor-structu
+title: Joint Spectrum Cartography and Prediction via Tensor-Structural Self-Supervised Regularization
+authors:
+  - Xiaonan Chen
+  - Jun Wang
+  - Qingyang Huang
+year: 2024
+venue: Global Communications Conference
+abstract: Spectrum cartography (SC) and spectrum prediction (SP) are homologous tasks in the spectrum sensing (SS) realm, where the former reconstructs multi-domain radio maps from sparse historical samples, and the latter predicts upcoming radio frequency status. Nonetheless, the two tasks are oftentimes considered mutually exclusive and tackled separately in existing literature. This work artfully puts forth a joint spectrum cartography and prediction (JSCP) framework that addresses the two tasks in a unified way. Our idea rests upon the tensor (space-frequency-time) structure of radio maps, where we incorporate a latent temporal regression system into the relative tensor decomposition factor. Such a regression system enjoys a self-supervised optimization flavor, and is utilized for enhancing collaborative SC/SP performances. We propose both theoretical guarantee and effective algorithm to solve the resultant problems of JSCP framework. Simulation results verify that our approaches have more promising estimation accuracy and generalizability compared with a variety of baselines.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/GLOBECOM52923.2024.10901360
+subfield: spectrum-cartography  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - spectrum-occupancy  # TODO: maintainer verify
+  - spectrum-cartography  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: self-supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-07-06'

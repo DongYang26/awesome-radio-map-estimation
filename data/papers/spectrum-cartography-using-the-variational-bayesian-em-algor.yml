@@ -1,0 +1,30 @@
+id: spectrum-cartography-using-the-variational-bayesian-em-algor
+title: Spectrum Cartography Using the Variational Bayesian EM Algorithm
+authors:
+  - Guoyong Zhang
+  - Jun Wang
+  - Xiaonan Chen
+  - Li Li
+  - Shaoqian Li
+year: 2020
+venue: International Conference on Wireless Communications and Signal Processing
+abstract: Spectrum cartography is the process of estimating radio map over a given geographical region. The key problem of model-based cartography is multiple transmitters localization from limited geographical signal power measurements. Existing methods assume that unknown transmitters are exactly on a subset of known candidate locations. In this paper, we avoid this strong assumption via the variational Bayesian expectation maximization (VBEM) algorithm. In the VBEM algorithm, the candidate locations are viewed as an unknown parameter that will be refined and pruned dynamically during the iterations. Compared to the existing methods, simulation results show that our proposed method can significantly reduce the estimation error of spectrum cartography.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/WCSP49889.2020.9299749
+subfield: spectrum-cartography  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - autoencoder  # TODO: maintainer verify
+task:
+  - spectrum-cartography  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 6
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-07-06'
