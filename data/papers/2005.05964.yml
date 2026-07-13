@@ -1,0 +1,29 @@
+id: '2005.05964'
+title: Deep Completion Autoencoders for Radio Map Estimation
+authors:
+  - Yves Teganya
+  - Daniel Romero
+year: 2020
+venue: IEEE Transactions on Wireless Communications
+abstract: Radio maps provide metrics such as power spectral density for every location in a geographic area and find numerous applications such as UAV communications, interference control, spectrum management, resource allocation, and network planning to name a few. Radio maps are constructed from measurements collected by spectrum sensors distributed across space. Since radio maps are complicated functions of the spatial coordinates due to the nature of electromagnetic wave propagation, model-free approaches are strongly motivated. Nevertheless, all existing schemes for radio occupancy map estimation rely on interpolation algorithms unable to learn from experience. In contrast, this paper proposes a novel approach in which the spatial structure of propagation phenomena such as shadowing is learned beforehand from a data set with measurements in other environments. Relative to existing schemes, a significantly smaller number of measurements is therefore required to estimate a map with a prescribed accuracy. As an additional novelty, this is also the first work to estimate radio occupancy maps using deep neural networks. Specifically, a fully convolutional deep completion autoencoder architecture is developed to effectively exploit the manifold structure of this class of maps.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2005.05964
+  pdf: https://arxiv.org/pdf/2005.05964
+  doi: 10.1109/TWC.2021.3106154
+subfield: REM  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - autoencoder  # TODO: maintainer verify
+  - CNN  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 184
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-07-13'

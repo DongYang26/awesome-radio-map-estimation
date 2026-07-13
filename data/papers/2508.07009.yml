@@ -1,0 +1,31 @@
+id: '2508.07009'
+title: Neural Channel Knowledge Map Assisted Scheduling Optimization of Active IRSs in Multi-User Systems
+authors:
+  - Xintong Chen
+  - Zhenyu Jiang
+  - Jiangbin Lyu
+  - Liqun Fu
+year: 2025
+venue: 2025 IEEE Globecom Workshops (GC Wkshps)
+abstract: Intelligent Reflecting Surfaces (IRSs) have potential for significant performance gains in next-generation wireless networks but face key challenges, notably severe double-pathloss and complex multi-user scheduling due to hardware constraints. Active IRSs partially address pathloss but still require efficient scheduling in cell-level multi-IRS multi-user systems, whereby the overhead/delay of channel state acquisition and the scheduling complexity both rise dramatically as the user density and channel dimensions increase. Motivated by these challenges, this paper proposes a novel scheduling framework based on neural Channel Knowledge Map (CKM), designing Transformer-based deep neural networks (DNNs) to predict ergodic spectral efficiency (SE) from historical channel/throughput measurements tagged with user positions. Specifically, two cascaded networks, LPS-Net and SE-Net, are designed to predict link power statistics (LPS) and ergodic SE accurately. We further propose a low-complexity Stable Matching-Iterative Balancing (SM-IB) scheduling algorithm. Numerical evaluations verify that the proposed neural CKM significantly enhances prediction accuracy and computational efficiency, while the SM-IB algorithm effectively achieves near-optimal max-min throughput with greatly reduced complexity.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2508.07009
+  pdf: https://arxiv.org/pdf/2508.07009
+  doi: 10.1109/GCWkshps68340.2025.11591072
+subfield: CKM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - Transformer  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-07-13'
