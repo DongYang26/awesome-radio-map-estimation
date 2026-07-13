@@ -1,0 +1,26 @@
+id: '2607.08045'
+title: 'RadioDiff-v2: Generative Angular Radio Maps for Multi-Beam Selection and Localization'
+authors:
+  - Xiucheng Wang
+  - Junxi Huang
+  - Nan Cheng
+year: 2026
+abstract: Angular radio maps describe the received-power distribution over the angle of arrival and underpin beam selection and receiver localization in sixth-generation (6G) networks. Predicting the angular power spectrum (APS) from geometry is difficult, because the mapping is ill-posed in non-line-of-sight (NLOS) conditions and must generalize to unseen environments. Distortion-minimizing regressors return the conditional mean, which over-smooths the spectrum and erases the multipath structure that downstream tasks need. We cast the task as a perception-distortion problem and propose RadioDiff-v2, a dual-branch one-dimensional diffusion transformer trained with flow matching. It couples periodic angular encoding, adaptive layer-normalization conditioning, a Fourier angular mixer, and joint velocity and clean-signal heads. A per-metric estimator portfolio reads every deployment quantity from this single model, so that samples carry the distribution, the clean-signal head supplies a regression-grade point estimate, Bayes-optimal rules select beams, and the conditional likelihood localizes the receiver. We prove that a concentrated conditional yields a straight probability-flow trajectory that one step integrates exactly, identifying deterministic transport as the correct inductive bias. On a zero-shot test of 99 environments and one million links, RadioDiff-v2 leads every baseline on every metric, with a 0.39 dB Wasserstein-1 distance, per-bin error below the regression baseline, a 2.43 dB eight-beam NLOS sweep loss, and a 20.6-pixel localization error with four base stations. Code is available at https://github.com/UNIC-Lab/RadioDiff-v2.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2607.08045
+  pdf: https://arxiv.org/pdf/2607.08045
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - Transformer  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-07-13'
