@@ -1,0 +1,28 @@
+id: channel-knowledge-map-enhanced-clutter-suppression-for-integ
+title: Channel Knowledge Map-Enhanced Clutter Suppression for Integrated Sensing and Communication
+authors:
+  - Zihan Xu
+  - Zhiwen Zhou
+  - Di Wu
+  - Yong Zeng
+year: 2024
+venue: 2024 IEEE/CIC International Conference on Communications in China (ICCC Workshops)
+abstract: Clutter suppression has been an essential problem for radar sensing, while traditional techniques such as moving target indication (MTI) and pulse Doppler (PD) usually give poor performance for slow and small targets. In this paper, motivated by the concept of channel knowledge map (CKM), we propose a novel clutter suppression technique for integrated sensing and communication (ISAC) systems by leveraging a new type of CKM named clutter angle map (CLAM). CLAM is a site-specific database, containing the primary clutter angles for each location of interest. With such pre-acquired clutter angle information, the sensing signal components corresponding to the clutter environment can be removed before target detection and parameter estimation. Simulation results demonstrate that the proposed CLAM-based technique effectively suppresses clutter and enhances target sensing performance, achieving higher esti-mation accuracy for sensing slow and small targets.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/ICCCWorkshops62562.2024.10693799
+subfield: CKM  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 13
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-07-27'
