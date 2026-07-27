@@ -1,0 +1,31 @@
+id: '2409.00016'
+title: Channel Knowledge Map for Cellular-Connected UAV via Binary Bayesian Filtering
+authors:
+  - Yuhang Yang
+  - Xiaoli Xu
+  - Yong Zeng
+  - Haijian Sun
+  - Rose Qingyang Hu
+year: 2024
+venue: IEEE Transactions on Communications
+abstract: Channel knowledge map (CKM) is a promising technology to enable environment-aware wireless communications and sensing. Link state map (LSM) is one particular type of CKM that aims to learn the location-specific line-of-sight (LoS) link probability between the transmitter and the receiver at all possible locations, which provides the prior information to enhance the communication quality of dynamic networks. This paper investigates the LSM construction for cellular-connected unmanned aerial vehicles (UAVs) by utilizing both the expert empirical mathematical model and the measurement data. Specifically, we first model the LSM as a binary spatial random field and its initial distribution is obtained by the empirical model. Then we propose an effective binary Bayesian filter to sequentially update the LSM by using the channel measurement. To efficiently update the LSM, we establish the spatial correlation models of LoS probability on the location pairs in both the distance and angular domains, which are adopted in the Bayesian filter for updating the probabilities at locations without measurements. Simulation results demonstrate the effectiveness of the proposed algorithm for LSM construction, which significantly outperforms the benchmark scheme, especially when the measurements are sparse.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2409.00016
+  pdf: http://arxiv.org/pdf/2409.00016
+  doi: 10.1109/TCOMM.2025.3554681
+subfield: CKM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 10
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-07-27'

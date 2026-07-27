@@ -1,0 +1,29 @@
+id: channel-knowledge-map-assisted-dual-domain-tracking-for-high
+title: Channel Knowledge Map-assisted Dual-domain Tracking for High-mobility Wireless Networks
+authors:
+  - Ruolin Du
+  - Zhiqiang Wei
+  - Zai Yang
+  - Yong Zeng
+  - Derrick Wing Kwan Ng
+year: 2025
+venue: 2025 IEEE International Conference on Communications Workshops (ICC Workshops)
+abstract: This paper presents a novel channel knowledge map (CKM)-assisted dual-domain tracking and predictive beamforming scheme for high-mobility wireless networks. In the coordinate domain, an extended Kalman filter (EKF) is employed accurately to predict and track the state (i.e., location and velocity) of a moving communication receiver across successive time slots under both line-of-sight (LoS)-present and LoS-absent conditions, where the CKM provides critical prior mapping from multipath channel parameters to potential target location. In the beam domain, the updated location of the receiver is fed back to the CKM, providing essential a priori information of angle of arrival (AoA) variations, which is subsequently integrated to establish beam transition models for refined beam tracking, depending on the angular variation situation of each path. Simulation results demonstrate the proposed scheme achieves significant improvements in both target and beam tracking performance compared to the state-of-art schemes, particularly in AoA tracking of non-line-of-sight (NLoS) paths, highlighting the potential gain of employing CKM in high-mobility communications.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/ICCWorkshops67674.2025.11162289
+subfield: CKM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 3
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-07-27'
