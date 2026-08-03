@@ -1,0 +1,31 @@
+id: '2502.04796'
+title: 'DULRTC-RME: A Deep Unrolled Low-rank Tensor Completion Network for Radio Map Estimation'
+authors:
+  - Yao Wang
+  - Xin Wu
+  - Lianming Xu
+  - Na Liu
+  - Li Wang
+year: 2025
+venue: IEEE International Conference on Acoustics, Speech, and Signal Processing
+abstract: Radio maps enrich radio propagation and spectrum occupancy information, which provides fundamental support for the operation and optimization of wireless communication systems. Traditional radio maps are mainly achieved by extensive manual channel measurements, which is time-consuming and inefficient. To reduce the complexity of channel measurements, radio map estimation (RME) through novel artificial intelligence techniques has emerged to attain higher resolution radio maps from sparse measurements or few observations. However, black box problems and strong dependency on training data make learning-based methods less explainable, while model-based methods offer strong theoretical grounding but perform inferior to the learning-based methods. In this paper, we develop a deep unrolled low-rank tensor completion network (DULRTC-RME) for radio map estimation, which integrates theoretical interpretability and learning ability by unrolling the tedious low-rank tensor completion optimization into a deep network. It is the first time that algorithm unrolling technology has been used in the RME field. Experimental results demonstrate that DULRTC-RME outperforms existing RME methods.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2502.04796
+  doi: 10.1109/ICASSP49660.2025.10889162
+subfield: spectrum-cartography  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - spectrum-occupancy  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 2
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-08-03'

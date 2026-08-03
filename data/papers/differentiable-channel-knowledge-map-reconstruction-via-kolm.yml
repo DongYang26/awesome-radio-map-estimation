@@ -1,0 +1,33 @@
+id: differentiable-channel-knowledge-map-reconstruction-via-kolm
+title: Differentiable Channel Knowledge Map Reconstruction via Kolmogorov-Arnold Networks
+authors:
+  - Le Zhao
+  - Silu Zhao
+  - Xinyi Wang
+  - Jingxuan Huang
+  - Zesong Fei
+  - Yong Zeng
+year: 2025
+venue: International Conference on Wireless Communications and Signal Processing
+abstract: Channel Knowledge Maps (CKMs) provide spatial channel gain modeling for efficient wireless network planning. While recent deep learning methods, such as RadioUNet and RadioDiff, achieve accurate CKM reconstruction, their graphbased input and spatial discontinuities limit their use in gradientbased optimization tasks. To address this issue, we combine Kolmogorov-Arnold networks (KAN) with K-nearest neighbors (KNN) interpolation, propose KNN-augmented KAN (Ka-KAN) to construct differentiable CKMs. By training on sparse received signal strength measurements with KNN-interpolated data, KaKAN ensures both high reconstruction accuracy and spatial differentiability to location coordinates, enabling downstream gradient-based optimization. Simulation results demonstrate that the Ka-KAN method outperforms KNN-augmented multilayer perceptron (Ka-MLP), standalone KAN/MLP, KNN, and Kriging benchmarks in reconstruction accuracy, and exhibits effective differentiability, laying a solid foundation for further network optimization.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/WCSP68525.2025.1010403
+subfield: CKM  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+  - Gaussian-process  # TODO: maintainer verify
+  - Kriging  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-08-03'

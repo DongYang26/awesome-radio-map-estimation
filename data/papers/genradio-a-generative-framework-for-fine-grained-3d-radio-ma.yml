@@ -1,0 +1,30 @@
+id: genradio-a-generative-framework-for-fine-grained-3d-radio-ma
+title: 'GenRadio: A Generative Framework for Fine-Grained 3D Radio Map Estimation'
+authors:
+  - Zhiyuan Liu
+  - Qingyu Liu
+  - Shuhang Zhang
+  - Hongliang Zhang
+  - Kangjun Liu
+  - Yaowei Wang
+year: 2025
+venue: 2025 IEEE 102nd Vehicular Technology Conference (VTC2025-Fall)
+abstract: 'A radio map captures the spatial distribution of wireless channel parameters, such as the strength of the signal received, across a geographic area. The problem of fine-grained three-dimensional (3D) radio map estimation aims to infer a high-resolution radio map for the two-dimensional (2D) area at an arbitrary target height within a 3D region of interest, using radio samples collected by sensors sparsely distributed in that 3D region. Solutions to the problem are crucial for the improvement in drone spectrum utilization in the rapidly developing low-altitude economy. However, this problem is challenging due to ultra-sparse sampling, where the number of collected radio samples is far fewer than the desired resolution of the radio map to be estimated. In this paper, we design a generative framework called GenRadio which employs the creative power of generative AI to address the ultra-sparse sampling challenge and solve the problem. GenRadio consists of three key blocks: (1) an augmentation block that uses radio propagation models to project samples collected at different heights to the 2D area at the target height; (2) a generation block that employs a diffusion model under a Mixture of Experts (MoE) architecture to generate a diverse set of fine-grained radio map candidates; and (3) an election block that leverages radio propagation models to identify the best map candidate from the diverse set. Experimental results demonstrate that GenRadio efficiently solves the fine-grained 3D radio map estimation problem from an ultra-low sampling rate of 0.1%, and significantly outperforms state-of-the-art.'
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/VTC2025-Fall65116.2025.11309879
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - Diffusion  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 3
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-08-03'

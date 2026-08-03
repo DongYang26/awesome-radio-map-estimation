@@ -1,0 +1,31 @@
+id: tensor-completion-for-dynamic-spectrum-cartography-by-canoni
+title: Tensor Completion for Dynamic Spectrum Cartography by Canonical Polyadic Decomposition
+authors:
+  - Guoyong Zhang
+  - Jun Wang
+  - Qihang Peng
+  - Xiaonan Chen
+  - Wei Huang
+  - Shaoqian Li
+year: 2021
+venue: ICC 2021 - IEEE International Conference on Communications
+abstract: Spectrum cartography aims to estimate multidimensional radio map from limited samples taken over a geographical region. The radio map, formulated as a third-order tensor, admits an approximated low rank CANDECOMP/PARAFAC (CP) decomposition (CPD). We formulate the spectrum cartography problem as a low-CP-rank tensor completion problem. To handle the sequential spectrum observations which have not been addressed in existing research, the time-varying spectrum cartography problem is handled via online tensor completion based on incremental CPD and then solved by block coordinate descent approach. In addition, we show that the incremental CPD generates a sequence of latent factors estimates converging to a stationary point. Numerical simulations show that our proposed algorithm has better performance than the baseline methods and is suitable for realtime radio map estimation.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/ICC42927.2021.9500272
+subfield: spectrum-cartography  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - matrix-completion  # TODO: maintainer verify
+task:
+  - spectrum-cartography  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 2
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-08-03'

@@ -1,0 +1,32 @@
+id: environment-aware-enhanced-distributed-target-localization-i
+title: Environment-Aware Enhanced Distributed Target Localization in UWOSNs With Unknown Path Loss Exponent and Heavy-Tailed Noise
+authors:
+  - Yonghui Chai
+  - J. Xian
+  - Yuxuan Zhang
+  - Huafeng Wu
+  - Xinqiang Chen
+  - Xiaojun Mei
+  - Yuanyuan Zhang
+  - Li’nian Liang
+  - Qiannan Zhang
+  - Dezhi Han
+year: 2026
+venue: IEEE Internet of Things Journal
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/JIOT.2026.3689638
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-08-03'

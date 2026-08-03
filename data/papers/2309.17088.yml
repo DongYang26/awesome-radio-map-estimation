@@ -1,0 +1,28 @@
+id: '2309.17088'
+title: White Paper on Radio Channel Modeling and Prediction to Support Future Environment-aware Wireless Communication Systems
+authors:
+  - M. Boban
+  - V. Degli‐Esposti
+year: 2023
+venue: arXiv.org
+abstract: 'COST INTERACT working group (WG)1 aims at increasing the theoretical and experimental understanding of radio propagation and channels in environments of interest and at deriving models for design, simulation, planning and operation of future wireless systems. Wide frequency ranges from sub-GHz to terahertz (THz), potentially high mobility, diverse and highly cluttered environments, dense networks, massive antenna systems, and the use of intelligent surfaces, are some of the challenges for radio channel measurements and modeling for next generation systems. As indicated in [1], with increased number of use cases (e.g., those identified by one6G [2] and shown in Fig. 1) to be supported and a larger number of frequency bands, a paradigm shift in channel measurements and modeling will be required. To address the particular challenges that come with such a paradigm shift, WG1 started the work on relevant topics, ranging from channel sounder design, metrology and measurement methodologies, measurements, modeling, and systematic dataset collection and analysis. In addition to the core activities of WG1, based on the strong interest of the participants, two sub-working groups (subWGs) have been initiated as part of WG1: i) subWG1.1 on millimeter-wave (mmWave) and THz sounding (subWG THz) and ii) subWG1.2 on propagation aspects related to reconfigurable intelligent surfaces (RIS) (subWG RIS). This white paper has two main goals: i) it summarizes the state-of-theart in radio channel measurement and modeling and the key challenges that the scientific community will have to face over the next years to support the development of 6G networks, as identified by WG1 and its subWGs; and ii) it charts the main directions for the work of WG1 and subWGs for the remainder of COST INTERACT duration (i.e., until October 2025).'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2309.17088
+  pdf: https://arxiv.org/pdf/2309.17088
+  doi: 10.48550/arXiv.2309.17088
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 7
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-08-03'

@@ -1,0 +1,32 @@
+id: '2511.15412'
+title: Spatially Consistent Air-to-Ground Channel Modeling and Simulation via 3D Shadow Projections
+authors:
+  - Evgenii Vinogradov
+  - Aymen Fakhreddine
+  - Abdul Saboor
+  - S. Abadal
+  - Sofie Pollin
+year: 2025
+venue: International Conference on Computing, Networking and Communications
+abstract: We present an approach for spatially-consistent semi-deterministic Air-to-Ground (A2G) channel modeling in Unmanned Aerial Vehicle-assisted networks. We use efficient 3D building shadow projections to determine Line-of-Sight (LOS) regions, enabling fast generation of LOS maps. By integrating LOS-aware deterministic path loss with stochastic shadow fading, the approach produces spatially consistent A2G radio maps suitable for environment- and mobility-aware channel evaluation and performance prediction. Simulation results in ITU-compliant Manhattan grid environments demonstrate the model’s ability to reflect key urban propagation characteristics, such as LOS blockage patterns and outage behavior. The proposed approach provides an efficient alternative to ray tracing or fully stochastic models, with particular relevance for user mobility, link planning, and radio map generation in 6 G non-terrestrial networks.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2511.15412
+  pdf: https://hdl.handle.net/2117/465974
+  doi: 10.1109/ICNC68183.2026.11416865
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-08-03'
