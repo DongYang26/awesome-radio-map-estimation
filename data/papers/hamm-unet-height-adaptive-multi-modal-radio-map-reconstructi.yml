@@ -1,0 +1,29 @@
+id: hamm-unet-height-adaptive-multi-modal-radio-map-reconstructi
+title: 'HAMM-UNet: Height-Adaptive Multi-Modal Radio Map Reconstruction Based on Sparse Measurements'
+authors:
+  - Bowen Zhu
+  - Meng Wang
+  - Pan Zhen
+  - Ning Yang
+  - Daoxing Guo
+year: 2026
+venue: IEEE Wireless Communications Letters
+abstract: Radio maps (RMs) characterize the spatial distribution of wireless channel features and provide essential foundations for environment-aware wireless communication. Existing RM reconstruction methods mainly focus on pathloss prediction on fixed two-dimensional planes, while three-dimensional (3D) joint inference of pathloss, time of arrival (TOA), and direction of arrival (DOA) from sparse pathloss-only observations remains underexplored. In this letter, we propose HAMM-UNet, an end-to-end framework for joint reconstruction of 3D multi-modal RMs conditioned on sparse pathloss observations, building information, and base station locations. Through height-adaptive modulation and modality-specific decoding, the framework effectively captures propagation variations across different height layers and mitigates multi-modal reconstruction conflicts. Experimental results demonstrate that at a 10% sampling rate, the proposed method achieves optimal performance across all channel parameters, with a 69.4% reduction in pathloss root mean square error (RMSE) compared to the best baseline, and maintains robust performance even at sampling rates as low as 1%.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/LWC.2026.3712700
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-08-10'
