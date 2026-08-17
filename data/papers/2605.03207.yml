@@ -1,0 +1,29 @@
+id: '2605.03207'
+title: 'Phy2-ExposNet: A Physics-Informed Neural Network for Urban EMF Exposure Mapping'
+authors:
+  - Shuangning Li
+  - Yarui Zhang
+  - Shanshan Wang
+  - J. Wiart
+year: 2026
+venue: IEEE Open Journal of Antennas and Propagation
+abstract: Accurate electromagnetic field (EMF) exposure mapping is critical for wireless network planning, environmental monitoring, and the deployment of next generation communication systems. The mapping results can be converted into the form of a radio map, a key technology in digital twin communication systems, used to describe the wireless signal propagation characteristics at every location in a specific area. Existing deep learning approaches treat propagation estimation as a pure regression problem and do not enforce physical consistency in the predicted fields. In this paper, we propose Phy2-ExposNet, a novel neural network framework that decouples exposure mapping into a physics-informed estimation stage and a transformer-based residual refinement stage. It first estimates the fields under two physical constraints and then refines the resulting exposure map by capturing long range interactions and complex spatial propagation patterns. Experiments demonstrate that the proposed method achieves lower estimation error while significantly reducing model complexity compared to existing approaches. It achieves around 15% relative error reduction over strong baselines, while using over 80% fewer parameters than conventional physics-informed models. Ablation results further reveal that the physics-informed design is crucial for capturing complex propagation effects, particularly in boundary and shadow regions.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.03207
+  pdf: https://doi.org/10.1109/ojap.2026.3707005
+  doi: 10.1109/OJAP.2026.3707005
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - Transformer  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-08-17'

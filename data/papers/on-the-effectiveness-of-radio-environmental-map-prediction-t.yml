@@ -1,0 +1,31 @@
+id: on-the-effectiveness-of-radio-environmental-map-prediction-t
+title: On the Effectiveness of Radio Environmental Map Prediction Through Image-Based Deep Learning
+authors:
+  - Mohammad Hossein Zadeh
+  - M. Barbiroli
+  - E. Vitucci
+  - V. Degli-Esposti
+  - F. Fuschini
+year: 2026
+venue: IEEE Transactions on Antennas and Propagation
+abstract: This article investigates the use of deep learning (DL) techniques for predicting 2-D radio environment maps in urban microcellular scenarios. Starting from the common framework established by prior works, a comprehensive and systematic analysis is conducted to evaluate the impact of multiple factors—including neural network (NN) architecture, auxiliary input data, data augmentation strategies, and training dataset fidelity—on the prediction performance. A modified U-Net architecture, referred to as DeepUNet, is proposed, incorporating hybrid loss functions and deep supervision to enhance learning effectiveness. Extensive experiments are carried out by training the model via synthetically generated data using standard ray tracing (RT), as well as multiple types of auxiliary data, including empirical path-loss (PL) predictions, line-of-sight (LoS) predictions, and sparsified or interpolated radio environment maps. Results demonstrate that, by properly combining the aforementioned techniques, the proposed DL model achieves high prediction accuracy, even in challenging configurations. Furthermore, generalization capabilities are evaluated by training and testing on different RT datasets. A detailed performance analysis is provided to offer practical insights and design guidelines for future radio environment map prediction tasks.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://doi.org/10.1109/tap.2026.3676109
+  doi: 10.1109/TAP.2026.3676109
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-08-17'

@@ -1,0 +1,31 @@
+id: stfd-snn-a-physics-constrained-spiking-neural-network-framew
+title: 'STFD-SNN: A Physics-Constrained Spiking Neural Network Framework for Maritime Radio Environment Map Reconstruction'
+authors:
+  - Liu Yi
+  - Youchen Fan
+  - Yufei Guo
+  - You Fu
+  - Shengliang Fang
+  - Ming Lei
+  - Qichen Wang
+year: 2026
+venue: IEEE Internet of Things Journal
+abstract: The escalating disparity between the supply and demand of maritime radio spectrum resources necessitates the construction of high-fidelity radio environment maps (REMs) for effective spectrum situational awareness and dynamic management. However, this task is severely hampered by distinctive maritime challenges, including extreme data sparsity, highly dynamic electromagnetic propagation characteristics, and complex spatio–temporal correlations, which significantly degrade conventional terrestrial REM reconstruction methods. To overcome these limitations, this article proposes a hierarchical REM reconstruction framework that synergistically integrates spiking neural networks (SNNs) with physical constraints. Our contributions are threefold. First, we devise an adaptive uncrewed aerial vehicle sampling strategy based on a refined ant colony optimization (ACO) algorithm, incorporating a hierarchical priority decision mechanism and a joint heuristic function to improve data collection efficiency under sparse sampling. Second, we architect a frequency-spatio–temporal attention (FSTA)-enhanced SNN model that captures spatio–temporal dynamics from sparse observations for high-precision 2-D REM completion. Third, we introduce a physics-guided knowledge distillation paradigm that embeds maritime electromagnetic propagation models as multistage soft constraints through three coordinated mechanisms, which direct input correction via height-weighted physical deviation terms, and loss-level supervision penalizing physically inconsistent 3-D reconstructions. Extensive simulations conducted in a high-fidelity maritime scenario, which is constructed using real geographic environments, GMTED digital elevation data, and representative meteorological conditions. Our framework outperforms tensor completion U-Net and the physics-informed neural network (PINN) baseline across various sampling rates. Notably, at sampling rates of 20%, 50%, and 80%, the proposed framework consistently attains superior root mean square error (RMSE) and normalized mean square error (NMSE), with the physical residual metric (PRM) further serving as a diagnostic indicator confirming internalization of physical priors.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/JIOT.2026.3702982
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-08-17'

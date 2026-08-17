@@ -1,0 +1,31 @@
+id: unirm-a-universal-large-model-for-multiband-3d-radio-map-con
+title: 'UniRM: A Universal Large Model for Multiband 3D Radio Map Construction'
+authors:
+  - Xinyue Jiang
+  - Tong Li
+  - Zhu Xiao
+  - Ke Chen
+  - Shuai Ma
+  - Zhaocheng Wang
+  - Keqin Li
+year: 2026
+venue: IEEE Journal on Selected Areas in Communications
+abstract: Radio maps play a crucial role in optimizing wireless network performance and configuration, providing insights into the spatial distribution of radio frequency signal power. Existing solutions often face challenges in generalizing and adapting across various environments, frequency bands, and vertical dimensions. To overcome these limitations, we propose UniRM, a universal large model designed for constructing multiband 3D radio maps. UniRM leverages large-scale pre-training and prompt learning techniques to accurately generate radio maps across diverse environments, altitudes, and frequency bands. Specifically, UniRM employs a UNet-based encoder-decoder architecture during pre-training to extract universal latent representations that capture shared features across different environmental conditions. A prompt learning module further enhances this by transforming auxiliary inputs, such as environmental descriptions, frequency bands, and altitudes, into discriminative embeddings, thereby enabling effective cross-domain generalization and ensuring robustness in unseen scenarios. Extensive experiments using a large, diverse dataset covering numerous scenarios demonstrate that UniRM outperforms state-of-the-art baselines by over 10% in key metrics, including mean squared error, normalized mean squared error, root mean squared error, and peak signal-to-noise ratio. Notably, zero-shot evaluations highlight UniRM’s strong ability to generalize to new environments without retraining. The code for UniRM is available at:https://github.com/Shirleyue/UniRM
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/JSAC.2025.3640150
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 8
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-08-17'

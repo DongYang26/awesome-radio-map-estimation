@@ -1,0 +1,29 @@
+id: spatially-aware-conformalized-quantile-regression-for-radio-
+title: Spatially-Aware Conformalized Quantile Regression for Radio Map Uncertainty Quantification
+authors:
+  - Tianqi Mao
+  - Yong Luo
+  - Fang Yuan
+  - Qing-Long Li
+  - M. Wang
+  - Qintian Yu
+year: 2025
+venue: International Conference on Signal Processing Systems
+abstract: Accurate uncertainty quantification for deep learning-based radio propagation models is critical, especially for applications involving non-cooperative signals. While methods like Conformalized Quantile Regression (CQR) provide statistical guarantees, their calibration relies on a purely statistical risk bound that ignores spatial context. This makes them inefficient, often leading to unnecessarily conservative intervals, particularly with limited or outlier-prone calibration data. In this letter, we argue that a more efficient uncertainty bound can be achieved by embedding physical priors into the statistical framework. We propose the Spatially-Aware Quantile Regression Network (SAQR-Net), a two-stage framework that achieves this. First, a neural network learns initial heteroscedastic interval bounds. The core innovation is a subsequent conformal calibration step where we introduce a new non-conformity score. This score supplements the statistical evidence with physical priors by adaptively penalizing spatial inconsistencies, enforcing smoothness in homogeneous regions while preserving sharp changes at environmental edges. Experiments on the RadioMapSeer dataset demonstrate that SAQR-Net achieves the target 90% coverage while reducing average interval width by approximately 7.2% compared to CQR, producing uncertainty maps that are not only efficient but also physically plausible.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/ICSPS66615.2025.11347781
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-08-17'

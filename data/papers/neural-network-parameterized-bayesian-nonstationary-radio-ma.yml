@@ -1,0 +1,30 @@
+id: neural-network-parameterized-bayesian-nonstationary-radio-ma
+title: Neural Network Parameterized Bayesian Nonstationary Radio Map Estimation With Uncertain Location
+authors:
+  - Haoxian Liu
+  - Ziao Liu
+  - Zezhong Zhang
+  - Kai Chen
+year: 2026
+venue: IEEE Conference on Computer Communications
+abstract: Radio mapping accuracy in smart cities, characterized by densely distributed buildings and IoT deployments, is fundamentally limited by environmental nonstationarity and imprecise sensor positioning, which introduce spatially correlated uncertainties and degrade predictive performance. To overcome these challenges, we introduce a Bayesian nonstationary radio mapping (BNRM) framework that jointly models environmental variability and sensor localization uncertainty. Our approach, a nonstationary Gaussian process (GP) with input uncertainty (NGP-IU), dynamically adjusts propagation characteristics through a spatially varying length-scale squared exponential kernel and a neural network-parameterized length-scale. Leveraging variational Bayesian inference for posterior approximation via evidence lower bound optimization, BNRM ensures high computational efficiency while maintaining rigorous uncertainty quantification. Experimental validation demonstrates NGP-IU’s superior performance over stationary GPs, Kriging, and neural networks, with significant improvements in accuracy and reliability.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/INFOCOM59046.2026.11571402
+subfield: REM  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - autoencoder  # TODO: maintainer verify
+  - Gaussian-process  # TODO: maintainer verify
+  - Kriging  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-08-17'
