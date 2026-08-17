@@ -1,0 +1,29 @@
+id: simultaneous-localization-and-mapping-for-pedestrians-using-
+title: Simultaneous Localization and Mapping for Pedestrians Using Radio Frequency Signals
+authors:
+  - B. Shin
+  - Jung Ho Lee
+  - Changsoo Yu
+  - Hankyeol Kyung
+  - Taikjin Lee
+year: 2022
+venue: IEEE Sensors Journal
+abstract: Among various sensor measurements that are obtained through smartphones, the received signal strength indicator (RSSI) of a radio frequency (RF) signal is widely used to estimate a user’s location. In this study, we propose a novel RF-based simultaneous localization and mapping (SLAM) technology for robust map construction. Typically, building an indoor map using the SLAM requires accurate loop closure detection. However, it is generally difficult to accurately estimate the loop closure using RSSI owing to the large variance of RF RSSI in indoor environments. To address this, we utilize the user trajectory and RSSI sequence to identify the correct loop closure. The RSSI sequence accumulated in consecutive poses generates a unique signal pattern. Therefore, it is possible to accurately estimate the revisiting of a pedestrian to a specific position. To evaluate the performance of the proposed method, we performed a field test in a laboratory building. Moreover, SLAM was performed using only 25% of the received RF measurements to validate that the proposed method can perform accurate SLAM despite a poor RF infrastructure environment. The obtained experimental results verify that a mean error of less than 3 m can be achieved in various test scenarios.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/JSEN.2022.3178060
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: indoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 8
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-08-17'

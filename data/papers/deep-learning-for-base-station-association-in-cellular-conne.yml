@@ -1,0 +1,26 @@
+id: deep-learning-for-base-station-association-in-cellular-conne
+title: Deep Learning for Base Station Association in Cellular-connected Unmanned Aerial Vehicle Systems
+authors:
+  - Da-Yu Huang
+  - Yu-Jia Chen
+year: 2022
+venue: IEEE International Conference on Consumer Electronics
+abstract: In this paper, we study the performance of cellular-connected unmanned aerial vehicles (UAVs) in the context of an intelligent ground base station (GBS) association scheme. We aim to maintain reliable wireless communication links between moving UAVs and GBSs. Given the beneficial line-of-sight (LoS) propagation, a UAV may have more candidate GBSs for association compared to that in the terrestrial wireless networks. By exploiting the radio map of the objective area, a deep neural network (DNN) based association scheme is proposed for determining the optimal GBS selection based on the UAV's 3D position. Simulation results show that the proposed association scheme outperforms the conventional nearest association and maximum signal-to-interference-plus-noise ratio (SINR) association schemes.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/ICCE-Taiwan55306.2022.9869286
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-08-17'

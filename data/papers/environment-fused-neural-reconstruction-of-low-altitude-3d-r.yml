@@ -1,0 +1,29 @@
+id: environment-fused-neural-reconstruction-of-low-altitude-3d-r
+title: Environment-Fused Neural Reconstruction of Low-Altitude 3D Radio Maps from Sparse Measurements
+authors:
+  - Ran Gao
+  - Xianling Wang
+  - Zhiyuan Jiang
+year: 2025
+venue: 2025 11th International Conference on Computer and Communications (ICCC)
+abstract: Accurate reconstruction of 3D radio map is critical for fifth-generation network deployment in low-altitude scenarios where traditional 2D methods are insufficient to model complex urban propagation effects due to environmental heterogeneity and vertical dependencies. This paper proposes a novel neural network architecture that integrates multi-modal environmental data with sparse measurements for high-fidelity 3D radio map reconstruction. Our framework introduces a sparse converter transforming irregular measurements into structured grid representations with confidence-aware weighting, a multi-scale feature pyramid extracting hierarchical environmental features from building layouts and a layer-wise reconstructor incorporating attention mechanisms and inter-layer communication for height-adaptive prediction. Evaluated on 8,000 ray-traced urban scenarios across 12 height layers, the method achieves 0.014 Mean Square Error (MSE) and 0.956 correlation, achieving a 54.8% MSE reduction and 96.6% coverage quality improvement compared to traditional Kriging methods.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/ICCC68654.2025.11437919
+subfield: REM  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - Transformer  # TODO: maintainer verify
+  - Gaussian-process  # TODO: maintainer verify
+  - Kriging  # TODO: maintainer verify
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-08-17'

@@ -1,0 +1,27 @@
+id: spatio-temporal-frequency-radio-map-inference-via-physical-g
+title: Spatio-Temporal-Frequency Radio Map Inference via Physical Guided Multiscale Bayesian Neural Networks
+authors:
+  - Zexu Li
+  - Yutao Jiao
+  - Xing Guo
+  - Guoru Ding
+year: 2026
+venue: IEEE Wireless Communications Letters
+abstract: This letter aims to reconstruct spatio-temporal-frequency radio maps from sparse sensor measurements to support proactive wireless resource allocation in low-altitude UAV scenarios. We propose a physically guided multiscale Bayesian neural network (PGM-BNN), which integrates a learnable distance-dependent attenuation prior, multiscale temporal-frequency Fourier encoding, and MAP-based Bayesian regularization. The physical guidance module provides lightweight propagation-related features from sparse reference sensors, while the multiscale Fourier encoding captures slow global trends and rapid local oscillations in the temporal-frequency domain. A MAP-based Bayesian neural network module is further used as a prior-regularized probabilistic regression component for sparse-data inference. Experimental results show that PGM-BNN accurately reconstructs global radio maps using only a few observation points. Compared with DPA, RadioUNet, and SCA, the proposed method achieves the best MSE, RMSE, and MAE values while maintaining competitive MAPE performance.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/LWC.2026.3715493
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-08-17'
