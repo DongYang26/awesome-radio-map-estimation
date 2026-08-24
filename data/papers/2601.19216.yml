@@ -1,0 +1,31 @@
+id: '2601.19216'
+title: Bridging visual and wireless sensing via a unified radiation field for 3D radio map construction
+authors:
+  - Chaozheng Wen
+  - Jingwen Tong
+  - Zehong Lin
+  - Chenghong Bian
+  - Jun Zhang
+year: 2026
+venue: npj Wireless Technology
+abstract: The emerging applications of next-generation wireless networks demand high-fidelity environmental intelligence. 3D radio maps bridge physical environments and electromagnetic propagation for spectrum planning and environment-aware sensing. However, most existing methods treat visual and wireless data as independent modalities and fail to leverage shared electromagnetic propagation principles. To bridge this gap, we propose URF-GS, a unified radio-optical radiation field framework based on 3D Gaussian splatting and inverse rendering for 3D radio map construction. By fusing cross-modal observations, our method recovers scene geometry and material properties to predict radio signals under arbitrary transceiver configurations without retraining. Experiments demonstrate up to a 24.7% improvement in spatial spectrum accuracy and a 10 × increase in sample efficiency compared with NeRF-based methods. We further showcase URF-GS in Wi-Fi AP deployment and robot path planning tasks. This unified visual-wireless representation supports holistic radiation field modeling for future wireless communication systems.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2601.19216
+  pdf: https://www.nature.com/articles/s44459-026-00067-6.pdf
+  doi: 10.1038/s44459-026-00067-6
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - INR  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 5
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-08-24'

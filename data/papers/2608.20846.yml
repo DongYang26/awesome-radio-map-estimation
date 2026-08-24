@@ -1,0 +1,29 @@
+id: '2608.20846'
+title: 'From Sparse Probes to Sum-Rate Maximization: Electromagnetic Twin Beamforming'
+authors:
+  - Tuo Wu
+  - Kangda Zhi
+  - Jie Tang
+  - Jianchao Zheng
+  - Naofal Al-Dhahir
+  - Fumiyuki Adachi
+year: 2026
+abstract: Probing every candidate location at each wireless-map update is costly. This letter develops electromagnetic-twin (ET) beamforming that converts sparse spatial probes into a sum-rate decision. The ET stores a location-dependent angular power spectrum, updates its innovation through graph-regularized estimation, and queries user covariances for projected beam optimization. A rate-sensitivity bound selects subsequent probes by query-weighted posterior-variance reduction. With 1\% random probes, ET beamforming achieves $2.69$ bit/s/Hz versus $1.12$ for a static channel knowledge map; with 7\% query-aware probes, it reaches $3.03$ bit/s/Hz, within 3.4\% of perfect-covariance beamforming.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2608.20846
+  pdf: https://arxiv.org/pdf/2608.20846
+subfield: CKM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-08-24'

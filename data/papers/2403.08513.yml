@@ -1,0 +1,34 @@
+id: '2403.08513'
+title: 3D spectrum mapping and reconstruction under multi-radiation source scenarios
+authors:
+  - Wang Jie
+  - Zhipeng Lin
+  - Qiuming Zhu
+  - Wu Qihui
+  - Tianxu Lan
+  - Zhao Yi
+  - Yunpeng Bai
+  - Weizhi Zhong
+year: 2024
+venue: China Communications
+abstract: Spectrum map construction, which is crucial in cognitive radio (CR) system, visualizes the invisible space of the electromagnetic spectrum for spectrum-resource management and allocation. Traditional reconstruction methods are generally for two-dimensional (2D) spectrum map and driven by abundant sampling data. In this paper, we propose a data-model-knowledge-driven reconstruction scheme to construct the three-dimensional (3D) spectrum map under multi-radiation source scenarios. We firstly design a maximum and minimum path loss difference (MMPLD) clustering algorithm to detect the number of radiation sources in a 3D space. Then, we develop a joint location-power estimation method based on the heuristic population evolutionary optimization algorithm. Considering the variation of electromagnetic environment, we self-learn the path loss (PL) model based on the sampling data. Finally, the 3D spectrum is reconstructed according to the self-learned PL model and the extracted knowledge of radiation sources. Simulations show that the proposed 3D spectrum map reconstruction scheme not only has splendid adaptability to the environment, but also achieves high spectrum construction accuracy even when the sampling rate is very low.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2403.08513
+  doi: 10.23919/JCC.ja.2022-0189
+subfield: spectrum-cartography  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - spectrum-cartography  # TODO: maintainer verify
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: unsupervised  # TODO: maintainer verify
+citations: 6
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-08-24'
