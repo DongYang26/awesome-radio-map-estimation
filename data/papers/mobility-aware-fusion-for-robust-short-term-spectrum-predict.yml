@@ -1,0 +1,26 @@
+id: mobility-aware-fusion-for-robust-short-term-spectrum-predict
+title: Mobility-Aware Fusion for Robust Short-Term Spectrum Prediction in Mobile Autonomous Systems
+authors:
+  - Nitin Rakheja
+year: 2026
+venue: IEEE Access
+abstract: Mobile autonomous systems rely on wireless communication for redundancy and interaction with external infrastructure while operating under continuous motion. Unlike human-driven platforms, their motion is continuously observable, introducing structure into channel variation that standard prediction approaches ignore. Existing methods treat short-term spectrum prediction as a temporal problem, yet in mobile autonomous systems part of the received signal strength (RSSI) variation is induced by motion itself. This work studies short-term RSSI prediction in mobile autonomous systems. A baseline Long Short-Term Memory (LSTM) model trained on historical RSSI is compared against a mobility-aware formulation that incorporates position through a simple propagation model. The two estimates are integrated using a residual-based weighting mechanism that adjusts their relative contribution based on recent prediction behavior. The framework is evaluated in a controlled simulation environment capturing stochastic motion, distance-dependent path loss, and measurement noise across multiple noise regimes and repeated Monte Carlo trials, and validated on real-world LTE measurements across six independent sessions. The mobility-aware formulation consistently reduces prediction error and exhibits lower variance than the baseline. The improvement persists as noise increases, though its relative magnitude diminishes at higher noise levels. Real-world validation confirms that the finding generalizes beyond simulation, with a mean improvement of 48.5% across six sessions ( $p=0.036$ , Cohen’s $d=1.276$ ). These results suggest that mobility is not merely a source of variation but a structured signal that improves short-term prediction without increasing model complexity. More stable channel estimates provide a basis for anticipatory link adaptation in heterogeneous environments.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://doi.org/10.1109/access.2026.3717013
+  doi: 10.1109/ACCESS.2026.3717013
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - RNN  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-08-24'

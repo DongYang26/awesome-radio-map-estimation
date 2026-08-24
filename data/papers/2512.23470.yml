@@ -1,0 +1,29 @@
+id: '2512.23470'
+title: Dynamic Channel Knowledge Map Construction in MIMO-OFDM Systems
+authors:
+  - Wenjun Jiang
+  - Xiaojun Yuan
+  - Chenchen Liu
+  - Boyu Teng
+year: 2025
+venue: arXiv.org
+abstract: Channel knowledge map (CKM) is a promising paradigm for environment-aware communications by establishing a deterministic mapping between physical locations and channel parameters. Existing CKM construction methods focus on quasi-static propagation environment. This paper develops a dynamic CKM construction method for multiple-input multiple-output orthogonal frequency division multiplexing (MIMO-OFDM) systems. We establish a dynamic channel model that captures the coexistence of quasi-static and dynamic scatterers, as well as the impacts of antenna rotation and synchronization errors. Based on this model, we formulate the problem of dynamic CKM construction within a Bayesian inference framework and design a two-stage approximate Bayesian inference algorithm. In stage I, a high-performance algorithm is developed to jointly infer quasi-static channel parameters and calibrate synchronization errors from historical measurements. In stage II, by leveraging the quasi-static parameters as informative priors, a low-complexity algorithm is designed to estimate dynamic parameters from limited real-time measurements. Simulation results validate the superiority of the proposed method and demonstrate its effectiveness in enabling low-overhead, high-performance channel estimation in dynamic environments.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2512.23470
+  doi: 10.48550/arXiv.2512.23470
+subfield: CKM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-08-24'

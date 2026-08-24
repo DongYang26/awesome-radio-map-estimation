@@ -1,0 +1,34 @@
+id: prior-knowledge-based-gaussian-process-for-spectrum-map-reco
+title: Prior Knowledge-Based Gaussian Process for Spectrum Map Reconstruction in LEO Satellite Systems
+authors:
+  - Fangyuan Liu
+  - Jun Yuan
+  - Yaping Wang
+  - Yiqing Liu
+  - Huaiqi Jia
+  - Lei Zhang
+year: 2026
+venue: 2026 IEEE International Conference on Radio Frequency and Antenna Technologies (RFAT)
+abstract: Accurate spectrum map reconstruction in low Earth orbit (LEO) satellite systems is challenging under extremely sparse received signal strength (RSS) measurements. Conventional interpolation, completion, and purely data-driven methods either ignore LEO-specific propagation physics or require dense labeled data, leading to degraded fidelity. This paper proposes a prior knowledge-based Gaussian process (PKGP) method that embeds free-space and atmospheric path loss, multi-beam antenna gain patterns, and Shadowed Rician/squared Shadowed Rician (SR/SSR) fading into the GP mean and covariance kernel. A geometry-aware feature mapping aligned with the beam layout is further introduced to model the log-domain residual field, while hyperparameters are learned by maximizing the marginal likelihood. Simulations in a dual-beam LEO scenario show that, at sampling ratios of 0.15%–1%, PKGP achieves lower RMSE and higher SSIM than Vanilla GP, Kriging, inverse distance weighting, and matrix completion.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/RFAT69041.2026.11634108
+subfield: spectrum-cartography  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - matrix-completion  # TODO: maintainer verify
+  - Gaussian-process  # TODO: maintainer verify
+  - Kriging  # TODO: maintainer verify
+  - IDW  # TODO: maintainer verify
+task:
+  - spectrum-cartography  # TODO: maintainer verify
+  - pathloss-prediction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-08-24'

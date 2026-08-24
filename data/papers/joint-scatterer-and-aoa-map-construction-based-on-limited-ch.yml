@@ -1,0 +1,28 @@
+id: joint-scatterer-and-aoa-map-construction-based-on-limited-ch
+title: Joint Scatterer and AoA Map Construction Based on Limited Channel Measurements
+authors:
+  - Yezhan Sun
+  - Yuhang Yang
+  - Xiaoli Xu
+  - Yong Zeng
+year: 2024
+venue: International Conference on Wireless Communications and Signal Processing
+abstract: In the context of 6G mobile communication networks, achieving centimeter-level positioning accuracy necessitates a comprehensive understanding of wireless signal propagation environments. However, CKM construction usually requires a large amount of channel measurements to achieve the desired accuracy. Besides, the wireless channel information is usually more dynamic as compared with the scatterer distribution on physical map. To this end, this paper proposes the joint construction of scatterer and AoA map based on the limited channel measurements. For scatterer map construction, we first group the AoA measurements into various LoS and NLoS clusters and then estimate the scatterer edges based on the virtual transmitter corresponding to each cluster. For AoA map construction, we first establish the spatial correlation model and obtain the complete AoA map via the classical spatial interpolation method. Then, the obtained AoA map is further refined based on the constructed scatterer map. Simulation results show that the proposed algorithms can considerably improve the map accuracy as compared with the traditional spatial interpolation methods.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/WCSP62071.2024.10827407
+subfield: CKM  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-08-24'
