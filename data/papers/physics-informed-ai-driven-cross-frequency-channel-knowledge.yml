@@ -1,0 +1,27 @@
+id: physics-informed-ai-driven-cross-frequency-channel-knowledge
+title: Physics-Informed AI-driven Cross-Frequency Channel Knowledge Map Construction
+authors:
+  - Shen Fu
+  - Xingyu Tang
+  - Ziyu Huang
+  - Yong Zeng
+year: 2026
+venue: ICC 2026 - IEEE International Conference on Communications
+abstract: Channel knowledge map (CKM), by leveraging location-specific channel prior knowledge, is expected to bring a paradigm shift from the conventional environment-unaware to future environment-aware communication and sensing. Traditional cross-frequency channel prediction methods mainly focus on single-link end-to-end prediction between a user and a base station (BS). In contrast, cross-frequency CKM construction may exploit the multi-link user-BS channel relationships within a region, enabling the utilization of spatial and environmental dependencies for more accurate and robust reconstruction. To address the challenge of limited channel knowledge observations at certain frequency bands, this paper proposes a cross-frequency CKM construction framework that leverages the complete sub-6 GHz (Sub6G) CKM together with sparse upper-6 GHz (U6G) observations to reconstruct complete U6G CKM. The proposed method integrates supervised artificial intelligence (AI) with wireless-domain physical priors, ensuring both physical consistency and improved cross-frequency generalization. Experimental results verify that the proposed method significantly outperforms benchmark schemes.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/ICC59461.2026.11586952
+subfield: CKM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-08-31'

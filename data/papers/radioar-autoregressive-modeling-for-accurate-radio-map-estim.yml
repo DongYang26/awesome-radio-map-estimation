@@ -1,0 +1,34 @@
+id: radioar-autoregressive-modeling-for-accurate-radio-map-estim
+title: 'RadioAR: Autoregressive Modeling for Accurate Radio Map Estimation'
+authors:
+  - Peilin Zheng
+  - Xiucheng Wang
+  - Wenshuo Chen
+  - Ruijin Sun
+  - Lei Wang
+  - Yutao Yue
+  - Nan Cheng
+year: 2026
+venue: The Web Conference
+abstract: Radio map estimation (RME) is a key enabler for environment-aware wireless systems, supporting tasks such as coverage planning, interference management, and context-aware resource allocation. Accurate RME is challenging because radio maps exhibit both smooth, large-scale variations (e.g., path loss and shadowing) and rapidly changing, high-frequency details induced by multipath propagation. This paper presents RadioAR, a multi-scale autoregressive framework that predicts radio maps from coarse to fine resolutions. We design a radio-map tokenizer based on residual Laplacian pyramid decomposition and continuous tokens, which preserves subtle signal variations while avoiding the quantization artifacts introduced by discrete tokenizers. On top of the tokenizer, RadioAR employs a conditional transformer to progressively refine token maps under building and transmitter conditions. Experiments on RadioMapSeer (IRT4) show that RadioAR achieves better accuracy than representative convolutional, transformer, GAN, diffusion, and Mamba baselines, while maintaining inference latency compatible with real-time deployment.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://doi.org/10.1145/3774905.3794674
+  doi: 10.1145/3774905.3794674
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - Transformer  # TODO: maintainer verify
+  - GAN  # TODO: maintainer verify
+  - CNN  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-08-31'

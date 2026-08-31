@@ -1,0 +1,28 @@
+id: '2504.03625'
+title: Reciprocity-Aware Convolutional Neural Networks for Map-Based Path Loss Prediction
+authors:
+  - Ryan G. Dempsey
+  - Jonathan Ethier
+  - H. Yanikomeroglu
+year: 2025
+venue: IEEE International Symposium on Personal, Indoor and Mobile Radio Communications
+abstract: Path loss modeling is a widely used technique for estimating point-to-point losses along a communications link from transmitter (Tx) to receiver (Rx). Accurate path loss predictions can optimize use of the radio frequency spectrum and minimize unwanted interference. Modern path loss modeling often leverages data-driven approaches, using machine learning to train models on drive test measurement datasets. Drive tests primarily represent downlink scenarios, where the Tx is located on a building and the Rx is located on a moving vehicle. Consequently, trained models are frequently reserved for downlink coverage estimation, lacking representation of uplink scenarios. In this paper, we demonstrate that data augmentation can be used to train a path loss model that is generalized to uplink, downlink, and backhaul scenarios, training using only downlink drive test measurements. By adding a small number of synthetic samples representing uplink scenarios to the training set, root mean squared error is reduced by > 8 dB on uplink examples in the test set.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2504.03625
+  doi: 10.1109/PIMRC62392.2025.11275323
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 3
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-08-31'

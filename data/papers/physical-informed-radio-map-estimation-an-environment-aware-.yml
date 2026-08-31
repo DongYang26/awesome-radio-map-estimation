@@ -1,0 +1,31 @@
+id: physical-informed-radio-map-estimation-an-environment-aware-
+title: 'Physical-Informed Radio Map Estimation: An Environment-Aware Decomposition Approach'
+authors:
+  - Wenyu Li
+  - Hongcheng Dong
+  - Xiaoyang Li
+  - Changsheng You
+  - Guangxu Zhu
+  - Xiaowen Cao
+  - Xiong Wang
+year: 2026
+venue: 2026 IEEE Wireless Communications and Networking Conference Workshops (WCNCW)
+abstract: 'High-resolution Radio Map Estimation (RME) is a key enabling technology for environment-aware communications. Existing deep learning approaches often treat the radio map monolithically, ignoring its intrinsic physical structure. In practice, radio maps exhibit a fundamental structural dichotomy: Predictable, smooth Line-of-Sight (LoS) regions and complex, stochastic Non-Line-of-Sight (NLoS) regions governed by multipath phenomena. In this paper, a physics-informed hybrid framework is proposed that decomposes the RME task according to this dichotomy. The framework employs a deterministic regression model to estimate the LoS component and a conditional generative model to estimate the NLoS component. For NLoS estimation, conditional flow matching is leveraged as an efficient and simulation-free alternative to computationally intensive diffusion models. Our framework is validated on a ray-tracing-based dataset. Experiments demonstrate that our hybrid approach significantly outperforms conventional schemes, validating our hypothesis that the decomposition of the problem based on its underlying physics leads to a more accurate and efficient model.'
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/WCNCW67598.2026.11555749
+subfield: REM  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - Diffusion  # TODO: maintainer verify
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-08-31'
