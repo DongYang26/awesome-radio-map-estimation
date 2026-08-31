@@ -1,0 +1,29 @@
+id: terrain-aware-image-transmission-system-for-lunar-iot-networ
+title: 'Terrain-Aware Image Transmission System for Lunar IoT Networks: A Multipriority Robust RaptorQ Coding Approach'
+authors:
+  - Yaonan Wu
+  - Shushi Gu
+  - Yuanjian Lin
+  - Zhikai Zhang
+  - Qinyu Zhang
+year: 2025
+venue: IEEE Internet of Things Journal
+abstract: Reliable image transmission is pivotal for lunar Internet of Things (IoT) networks, providing visual information for scientific exploration and real-time navigation. However, the moon’s harsh environment, i.e., lack of atmosphere, low surface conductivity, and rugged terrain, induces abnormal signal attenuation and packet losses, significantly degrading image transmission quality. This article presents the lunar adaptive image transmission system (LAITS), which integrates the terrain aware field strength prediction (TAFSP) framework with the hierarchical raptorQ redundancy optimization (HRRO) coding algorithm. The TAFSP framework provides field strength predictions for channel packet loss rate estimation, by leveraging high-resolution lunar elevation data to formulate a radio propagation loss model. The HRRO algorithm optimizes coding efficiency and enables low-overhead transmission, by dynamically adjusting RaptorQ’s data segmentation based on the predictions of channel packet loss rate and priorities of image data. Simulations demonstrate that while maintaining image transmission quality above the 25 dB peak signal-to-noise ratio (PSNR) threshold, LAITS achieves a coverage rate of 85% in flat terrain with a 4 km radius at 440, 915, and 2400 MHz, and achieves coverage rates of 85% at 440 MHz, 70% at 915 MHz, and 56% at 2400 MHz in rugged terrain with the same radius.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/JIOT.2025.3596290
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 2
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-08-31'

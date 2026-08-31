@@ -1,0 +1,28 @@
+id: '2605.24655'
+title: Simulation-Driven Ensemble Machine Learning for Robust and Generalizable Path Loss Prediction
+authors:
+  - Ahmed P. Mohamed
+  - Byunghyun Lee
+  - Yaguang Zhang
+  - Christopher R. Anderson
+  - D. J. Love
+  - J. Krogmeier
+year: 2026
+abstract: Machine learning has emerged as a promising approach to path loss prediction, yet its effectiveness often degrades when measurement data are scarce. To address this limitation, we propose an ensemble-based machine learning framework that integrates real measurements with synthetic data generated using a lidar-based simulator. The simulator provides broad spatial coverage through static path loss values that capture terrain variations and physical obstacles in the propagation environment. A dynamically weighted ensemble then combines simulation results with measured data, balancing the contribution of both data sources and improving generalization across diverse environments. To further mitigate the effects of limited measurements, we incorporate the Synthetic Minority Over-sampling Technique (SMOTE), a data augmentation technique that synthesizes additional samples through interpolation between measurements while preserving their statistical properties. By leveraging simulation data, SMOTE, and engineered propagation features, the proposed framework captures geographical and physical variability, enabling adaptability across urban, suburban, residential, industrial, and rural environments. Experimental results demonstrate that the proposed method achieves up to a 50% reduction in mean absolute error (MAE), compared with models trained solely on real data, and up to a 25% improvement relative to models trained exclusively on synthetic data, particularly for cross-environment generalization. These findings highlight the effectiveness of combining simulation-based synthetic data with SMOTE to overcome data scarcity and enhance the model's generalization ability. Overall, the proposed framework provides a robust and practical solution for path loss prediction across diverse environments with limited measurement data, supporting cost-effective planning and optimization of wireless networks.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.24655
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-08-31'

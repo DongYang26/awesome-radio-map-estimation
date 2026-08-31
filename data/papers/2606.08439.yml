@@ -1,0 +1,28 @@
+id: '2606.08439'
+title: 'RadioDiff-Inv2: Differentiable Diffusion Inversion under Location Drift from Sparse Noisy Measurements for Radio Map Estimation'
+authors:
+  - Xiucheng Wang
+  - Kailong Wang
+  - Nan Cheng
+year: 2026
+venue: arXiv.org
+abstract: Radio map (RM) estimation is a key enabler for environment-aware optimization in 6G wireless networks. In practice, RM construction increasingly relies on crowdsourced received signal strength (RSS) feedback that is inherently sparse and noisy. A further and often overlooked challenge is location drift, whereby privacy constraints and user mobility cause reported sampling coordinates to deviate from the true measurement locations. Unlike additive measurement noise, location drift perturbs the sensing operator itself, since each RSS sample effectively queries the underlying RM at an incorrect spatial coordinate. This operator uncertainty, compounded with sparse noisy sensing, renders the inverse problem severely ill-posed and limits conventional estimators that rely on analytically specified priors. This paper proposes RadioDiff-Inv2, a differentiable diffusion inversion framework that estimates RMs from sparse noisy measurements under location drift. A Gaussian resampling scheme is introduced to construct a differentiable, drift-aware measurement operator on grid-based maps, and the probability-flow ordinary differential equation (ODE) is exploited to cast the diffusion sampler as a deterministic, differentiable mapping from an initial noise code to the estimated RM. By optimizing the noise code via backpropagation against a drift-marginalized data-fidelity objective, RadioDiff-Inv2 produces reconstructions that are both prior-plausible and measurement-consistent without costly posterior sampling. Extensive experiments show that RadioDiff-Inv2 outperforms the best competing baseline by 4 to 14 dB in PSNR across varying sparsity and drift levels. The advantage is most pronounced in low-SNR regimes, where the learned diffusion prior maintains near-constant reconstruction fidelity while conventional methods degrade severely.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2606.08439
+  doi: 10.48550/arXiv.2606.08439
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-08-31'

@@ -1,0 +1,26 @@
+id: '2603.08865'
+title: 'Why Channel-Centric Models are not Enough to Predict End-to-End Performance in Private 5G: A Measurement Campaign and Case Study'
+authors:
+  - Nils Jörgensen
+year: 2026
+venue: arXiv.org
+abstract: 'Communication-aware robot planning requires accurate predictions of wireless network performance. Current approaches rely on channel-level metrics such as received signal strength and signal-to-noise ratio, assuming these translate reliably into end-to-end throughput. We challenge this assumption through a measurement campaign in a private 5G industrial environment. We evaluate throughput predictions from a commercial ray-tracing simulator as well as data-driven Gaussian process regression models against measurements collected using a mobile robot. The study uses off-the-shelf user equipment in an underground, radio-shielded facility with detailed 3D modeling, representing a best-case scenario for prediction accuracy. The ray-tracing simulator captures the spatial structure of indoor propagation and predicts channel-level metrics with reasonable fidelity. However, it systematically over-predicts throughput, even in line-of-sight regions. The dominant error source is shown to be over-estimation of sustainable MIMO spatial layers: the simulator assumes near-uniform four-layer transmission while measurements reveal substantial adaptation between one and three layers. This mismatch inflates predicted throughput even when channel metrics appear accurate. In contrast, a Gaussian process model with a rational quadratic kernel achieves approximately two-thirds reduction in prediction error with near-zero bias by learning end-to-end throughput directly from measurements. These findings demonstrate that favorable channel conditions do not guarantee high throughput; communication-aware planners relying solely on channel-centric predictions risk overly optimistic trajectories that violate reliability requirements. Accurate throughput prediction for 5G systems requires either extensive calibration of link-layer models or data-driven approaches that capture real system behavior.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2603.08865
+  doi: 10.48550/arXiv.2603.08865
+subfield: REM  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - Gaussian-process  # TODO: maintainer verify
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: indoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-08-31'

@@ -1,0 +1,32 @@
+id: fully-convolutional-residual-autoencoder-aided-spectrum-map-
+title: Fully Convolutional Residual Autoencoder-Aided Spectrum Map Completion for Data Limited Conditions
+authors:
+  - Yuan Yang
+  - Zhipeng Lin
+  - Qiuming Zhu
+  - Hongyu Li
+  - Jie Zeng
+  - Qihui Wu
+  - Hui Ding
+year: 2024
+venue: 2024 IEEE Globecom Workshops (GC Wkshps)
+abstract: Spectrum map completion is crucial for effective radio environment management. Currently most spectrum map completion methods only consider the available information of measurement data in the energy domain. As a result, they cannot achieve satisfactory performance when the amount of measurement data is limited. In this paper, a new deep autoencoder-aided spectrum map completion method is presented, which exploits the features of measurement data in the energy and frequency domains. We construct a power spectral density (PSD)- based spectrum map completion model to integrate the frequency features of the measurement data into subsequent autoencoder training, guaranteeing the spectrum map completion accuracy under the condition of limited measurement data. We also design a fully convolutional residual autoencoder with joint local and global skip connections. By dividing the autoencoder training network into multiple residual blocks, gradient vanishing can be effectively prevented during network training. Simulation results demonstrate that our proposed method can achieve higher spectrum map completion accuracy compared with the state-of- the-art.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/GCWkshp64532.2024.11100446
+subfield: spectrum-cartography  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - autoencoder  # TODO: maintainer verify
+  - CNN  # TODO: maintainer verify
+task:
+  - spectrum-cartography  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-08-31'

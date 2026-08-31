@@ -1,0 +1,29 @@
+id: radiovar-fast-sampling-free-radio-map-construction-via-coars
+title: 'RadioVAR: Fast Sampling-Free Radio Map Construction via Coarse-to-Fine Token Prediction'
+authors:
+  - Han Zhang
+  - Yu Han
+  - Hanhui Chen
+  - Mengchen Yao
+  - Yun Lin
+year: 2026
+venue: IEEE transactions on consumer electronics
+abstract: Accurate spatial priors of received power spectral density (PSD) are important for communication-aware urban sensing and learning-based resource management. Sampling-free radio map (RM) construction avoids costly in-area measurements by directly constructing a full PSD-based radio map from environmental priors. However, mainstream diffusion-based methods incur high inference latency and lack an explicit coarse-to-fine generation path. To address these issues, we propose RadioVAR, a visual autoregressive (VAR) progressive framework for sampling-free RM construction. RadioVAR replaces iterative denoising with a feed-forward next-scale token prediction process, which substantially reduces inference computation and latency. RadioVAR first represents radio maps in a discrete multi-scale latent space using a frozen tokenizer, and performs coarse-to-fine next-scale token prediction conditioned on multi-channel priors (e.g., building layout, Tx location, and vehicle occupancy maps). We further introduce dynamic residual-token supervision to construct state-dependent token targets from the residual-to-go, improving training–inference alignment. Extensive experiments on public datasets demonstrate that RadioVAR improves reconstruction quality over diffusion-based baselines while significantly reducing inference latency, thereby offering a better accuracy–efficiency trade-off for edge deployments.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/TCE.2026.3686459
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-08-31'
