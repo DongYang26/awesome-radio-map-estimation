@@ -1,0 +1,29 @@
+id: '2609.04707'
+title: 'Wireless Foundation Models: State-of-the-Art and Open Challenges'
+authors:
+  - Alonso M. Pacheco Huachaca
+  - Juan J. Rodriguez Rodriguez
+  - Ahmed Aboulfotouh
+  - Nelson L. S. da Fonseca
+  - Carlos A. Astudillo
+  - Hatem Abou-Zeid
+year: 2026
+abstract: 'Wireless foundation models (WFMs) have emerged as a promising approach for learning reusable representations from large-scale wireless data and adapting them to downstream tasks. However, the rapidly growing literature remains fragmented across modalities, pretraining objectives, architectures, adaptation strategies, and evaluation protocols, making it difficult to assess progress toward broadly transferable models. This survey provides a systematic analysis of WFMs for physical-layer applications. We first introduce the main WFM design components, including pretraining, backbone architectures, and downstream adaptation. We then organize the literature into five physical-layer task families: signal recognition and demodulation, channel representation learning, RF sensing and localization, beam management, and spectrum sensing and monitoring, while separately examining multi-task PHY models. Across these categories, we analyze how existing models are pretrained, adapted, and evaluated, with particular attention to downstream task diversity and the distinction between in-distribution, partial-shift, and out-of-distribution transfer. Our analysis shows that current WFMs provide increasing evidence of reusable wireless representations, but this evidence varies considerably across task families and evaluation settings. Differences in datasets, modalities, architectures, pretraining objectives, adaptation protocols, and distribution shifts make it difficult to determine which design choices drive transfer and generalization. We conclude by identifying open directions for improving data availability, evaluation rigor, generalization, efficient adaptation, and real-world deployment, providing a unified framework for understanding the current WFM landscape and the requirements for developing more reusable foundation models for future physical-layer wireless systems.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2609.04707
+  pdf: https://arxiv.org/pdf/2609.04707
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - spectrum-occupancy  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-09-07'
