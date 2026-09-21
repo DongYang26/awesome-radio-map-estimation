@@ -1,0 +1,30 @@
+id: voronoi-diagram-and-crowdsourcing-based-radio-map-interpolat
+title: Voronoi Diagram and Crowdsourcing-Based Radio Map Interpolation for GRNN Fingerprinting Localization Using WLAN
+authors:
+  - Yongliang Sun
+  - Yu He
+  - W. Meng
+  - Xinggan Zhang
+year: 2018
+venue: Italian National Conference on Sensors
+abstract: In the last decade, fingerprinting localization using wireless local area network (WLAN) has been paid lots of attention. However, this method needs to establish a database called radio map in the off-line stage, which is a labor-intensive and time-consuming process. To save the radio map establishment cost and improve localization performance, in this paper, we first propose a Voronoi diagram and crowdsourcing-based radio map interpolation method. The interpolation method optimizes propagation model parameters for each Voronoi cell using the received signal strength (RSS) and location coordinates of crowdsourcing points and estimates the RSS samples of interpolation points with the optimized propagation model parameters to establish a new radio map. Then a general regression neural network (GRNN) is employed to fuse the new and original radio maps established through interpolation and manual operation, respectively, and also used as a fingerprinting localization algorithm to compute localization coordinates. The experimental results demonstrate that our proposed GRNN fingerprinting localization system with the fused radio map is able to considerably improve the localization performance.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://www.mdpi.com/1424-8220/18/10/3579/pdf?version=1540208930
+  doi: 10.3390/s18103579
+subfield: REM  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 10
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-09-21'

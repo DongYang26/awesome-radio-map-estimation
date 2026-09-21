@@ -1,0 +1,25 @@
+id: reconstruction-of-a-gaussian-random-field-with-application-t
+title: Reconstruction of a Gaussian random field with application to spectrum cartography
+authors:
+  - Geethu Joseph
+  - C. Murthy
+year: 2016
+venue: 2016 IEEE International Conference on Communications (ICC)
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/ICC.2016.7511545
+subfield: spectrum-cartography  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - spectrum-cartography  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 3
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-09-21'

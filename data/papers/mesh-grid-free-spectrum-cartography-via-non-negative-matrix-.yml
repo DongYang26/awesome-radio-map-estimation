@@ -1,0 +1,27 @@
+id: mesh-grid-free-spectrum-cartography-via-non-negative-matrix-
+title: Mesh-Grid-Free Spectrum Cartography via Non-negative Matrix Factorization Assisted Localization
+authors:
+  - Xiaonan Chen
+  - Jun Wang
+year: 2023
+venue: IEEE Vehicular Technology Conference
+abstract: Spectrum cartography (SC) recovers a multi-domain radio map (RM), from limited sensor measurements. Existing mesh-grid-free SC methods rely on the key step that localizes the emitters on an aggregated 2D spatial loss field (SLF). As a consequence, they need the emitters being sufficiently scattered to identify them, and also fail to cover a multi-domain SC problem. This work puts forth an emitter disaggregation-based approach. The key idea is using the non-negative matrix factorization (NMF) to uniquely separate the power spectrum density (PSD) and SLF of each emitter, from high-dimensional sensor feedback. Then, each emitter can be localized by only using its own SLF, instead the aggregated one. Based on the localization information, the SLFs can be completed by using an approximated propagation model, and are assembled with the PSDs to reconstruct a multi-domain RM. This way, the defects of mesh-grid-free SC can be sufficiently overcame. Simulations verified that the propose method can significantly reduce the estimation error of SC, under multiple harsh environments.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/VTC2023-Fall60731.2023.10333469
+subfield: spectrum-cartography  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - matrix-completion  # TODO: maintainer verify
+task:
+  - spectrum-cartography  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-09-21'

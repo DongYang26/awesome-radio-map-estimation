@@ -1,0 +1,28 @@
+id: knowledge-enhanced-3d-ag-se-unet-a-deep-learning-approach-fo
+title: 'Knowledge-Enhanced 3D AG-SE-UNet: A Deep Learning Approach for 3D Indoor Factory Radio Map Estimation'
+authors:
+  - Yu-Ting Gao
+  - Tao Peng
+  - Hao-Tian Wang
+  - Wen-Bo Wang
+year: 2026
+venue: 2026 IEEE/CIC International Conference on Communications in China (ICCC)
+abstract: Indoor factory radio propagation modeling is crucial to ensuring the performance of industrial 5G networks. This paper presents a high-precision indoor factory radio propagation model based on convolutional neural networks (CNN). Most studies use 2D-UNet for 2D radio map prediction, which cannot accurately capture information such as the morphologies and positions of objects in 3D space. So we extend 2D convolutions to 3D convolutions for 3D radio map prediction. Due to the lack of public datasets, we create a multimodal-input 3D indoor factory radio map dataset (MI-3DiFRM1760) containing 44 simplified factory scenes with 1,760 samples, where all input channels and labels are 3D tensors. A feature extraction method guided by knowledge of radio propagation is used to generate expert knowledge input channels, which introduces multimodal tensors as model inputs. Combining expert knowledge-driven with multimodal intelligence enables the neural network to learn radio propagation behaviors more accurately. Furthermore, to enhance the model's ability to extract and focus on wireless propagation features, we propose 3D AG-SE-UNet, which integrates the dual-attention mechanism into the 3D-UNet architecture. Through ablation studies, we verify that the proposed expert knowledge-based feature extraction method and the designed model architecture exhibit strong synergy. By comparative experiments, the proposed 3D AG-SE-UNet can better learn signal propagation laws in 3D space and significantly improve the prediction accuracy of 3D radio maps compared with the traditional 3D-UNet.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/ICCC70295.2026.11680471
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - Transformer  # TODO: maintainer verify
+  - CNN  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: indoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-09-21'

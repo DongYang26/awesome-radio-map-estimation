@@ -1,0 +1,29 @@
+id: a-comprehensive-survey-on-spectrum-cartography-state-of-the-
+title: 'A Comprehensive Survey on Spectrum Cartography: State-of-the-Art, Trends, and Challenges'
+authors:
+  - Dong Yang
+  - Fu-Pei Guo
+  - Yue Wang
+  - Songyang Zhang
+  - Zhi Tian
+  - Zhi Ding
+  - Zhipeng Cai
+year: 2026
+venue: IEEE Communications Surveys &amp; Tutorials
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/comst.2026.3730433
+subfield: spectrum-cartography  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - spectrum-cartography  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-09-21'

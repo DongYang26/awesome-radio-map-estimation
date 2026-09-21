@@ -1,0 +1,31 @@
+id: iteratively-reweighted-compressive-sensing-based-algorithm-f
+title: Iteratively reweighted compressive sensing based algorithm for spectrum cartography in cognitive radio networks
+authors:
+  - B. Jayawickrama
+  - E. Dutkiewicz
+  - I. Oppermann
+  - M. Mueck
+year: 2014
+venue: IEEE Wireless Communications and Networking Conference
+abstract: Spectrum cartography is the process of constructing a map showing Radio Frequency signal strength over a finite geographical area. In our previous work we formulated spectrum cartography as a compressive sensing problem and we illustrated how cartography can be used in the context of discovering spectrum holes in space that can be exploited locally in cognitive radio networks. This paper investigates the performance of compressive sensing based approach to cartography in a fading environment where realtime channel estimation is not feasible. To accommodate for lack of channel information we take an iterative approach. We extend the well-known iteratively reweighted ℓ1 minimisation approach by exploiting spatial correlation between two points in space. We evaluate the performance in an urban environment where Rayleigh fading is prominent. Our numerical results show a significant improvement in the probability of accurately making a spectrum sensing decision, in comparison to the well-known weighted approach and the traditional compressive sensing based method.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://opus.lib.uts.edu.au/bitstream/10453/43521/4/Iteratively%20Reweighted%20Compressive%20Sensing%20Based%20Algorithm%20for%20Spectrum%20Cartography%20in%20Cognitive%20Radio%20Networks.pdf
+  doi: 10.1109/WCNC.2014.6952156
+subfield: spectrum-cartography  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - spectrum-occupancy  # TODO: maintainer verify
+  - spectrum-cartography  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 10
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-09-21'

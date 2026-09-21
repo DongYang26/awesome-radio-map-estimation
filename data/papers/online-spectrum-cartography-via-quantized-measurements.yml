@@ -1,0 +1,26 @@
+id: online-spectrum-cartography-via-quantized-measurements
+title: Online spectrum cartography via quantized measurements
+authors:
+  - Daniel Romero
+  - Seung-Jun Kim
+  - G. Giannakis
+year: 2015
+venue: Annual Conference on Information Sciences and Systems
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/CISS.2015.7086874
+subfield: spectrum-cartography  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - spectrum-cartography  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 6
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-09-21'
