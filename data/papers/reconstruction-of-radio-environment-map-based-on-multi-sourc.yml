@@ -1,0 +1,28 @@
+id: reconstruction-of-radio-environment-map-based-on-multi-sourc
+title: Reconstruction of Radio Environment Map Based on Multi-Source Domain Adaptive of Graph Neural Network for Regression
+authors:
+  - Xiaomin Wen
+  - Sheng-Liang Fang
+  - You-Chen Fan
+year: 2024
+venue: Italian National Conference on Sensors
+abstract: 'The graph neural network (GNN) has shown outstanding performance in processing unstructured data. However, the downstream task performance of GNN strongly depends on the accuracy of data graph structural features and, as a type of deep learning (DL) model, the size of the training dataset is equally crucial to its performance. This paper is based on graph neural networks to predict and complete the target radio environment map (REM) through multiple complete REMs and sparse spectrum monitoring data in the target domain. Due to the complexity of radio wave propagation in space, it is difficult to accurately and explicitly construct the spatial graph structure of the spectral data. In response to the two above issues, we propose a multi-source domain adaptive of GNN for regression (GNN-MDAR) model, which includes two key modules: (1) graph structure alignment modules are used to capture and learn graph structure information shared by cross-domain radio propagation and extract reliable graph structure information for downstream reference signal receiving power (RSRP) prediction task; and (2) a spatial distribution matching module is used to reduce the feature distribution mismatch across spatial grids and improve the model’s ability to remain domain invariant. Based on the measured REMs dataset, the comparative results of simulation experiments show that the GNN-MDAR outperforms the other four benchmark methods in accuracy when there is less RSRP label data in the target domain.'
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://www.mdpi.com/1424-8220/24/8/2523/pdf?version=1713168156
+  doi: 10.3390/s24082523
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - GNN  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 16
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-09-21'

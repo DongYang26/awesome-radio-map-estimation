@@ -1,0 +1,26 @@
+id: radio-map-construction-under-sparse-sampling-conditions-an-a
+title: 'Radio Map Construction Under Sparse Sampling Conditions: An Attention-Driven Deep Neural Network Method Guided by Target Space Priors'
+authors:
+  - Tianrong Deng
+  - Zhou Zou
+year: 2026
+venue: 2026 6th International Conference on Intelligent Communications and Computing (ICICC)
+abstract: Radio map construction provides an effective solution to the scarcity of spectrum resources. To address the challenges of high-precision radio map construction under sparse sampling, this paper proposes a hybrid data-model-driven framework based on a Transformer framework. In this approach, Gaussian Process Regression (GPR) is employed to model the spatial signal propagation as a prior, generating predictive distributions of the continuous signal field. Subsequently, these predictive distributions are transformed into spatial attention weight maps, which are explicitly embedded into a Transformer-guided network to facilitate the precise extraction of spectral features. Finally, global radio map construction is achieved through non-linear feature mapping and signal reconstruction. Experimental results demonstrate that the proposed method exhibits superior reconstruction accuracy and robustness across varying sparse sampling rates and signal-to-noise ratios (SNRs).
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/ICICC71012.2026.11637813
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - Transformer  # TODO: maintainer verify
+  - Gaussian-process  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-09-21'

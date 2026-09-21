@@ -1,0 +1,27 @@
+id: distributed-spectrum-cartography-for-cognitive-radio-network
+title: Distributed Spectrum Cartography for Cognitive Radio Network with Convex Optimization
+authors:
+  - Zhanglin Chen
+  - Chaoyong Li
+year: 2021
+venue: Youth Academic Annual Conference of Chinese Association of Automation
+abstract: Cognitive radio is a new technology used to solve the problem of spectrum resource shortage, which includes spectrum sensing and spectrum allocation. Spectrum sensing is the perception of wireless environment, which can be regarded as the field estimation problem of a certain spatial region. The visualization of the field estimation problem is spectrum cartography or spectrum mapping. Spectrum cartography based on convex optimization has been studied, but distributed projection subgradient solution has not been applied yet. In this paper, a cognitive radio spectrum cartography technology based on distributed projection subgradient is established, which focuses on the sensing of spectrum information of the transmitting source. Considering the unknown quantities in space and frequency domain of this question, this paper uses two assumptions of virtual grid and basis expansion model to transform the problem into a convex optimization equation with sparsity, and then solve the problem by the distributed projection subgradient algorithm.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/YAC53711.2021.9486622
+subfield: spectrum-cartography  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - spectrum-occupancy  # TODO: maintainer verify
+  - spectrum-cartography  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 2
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-09-21'

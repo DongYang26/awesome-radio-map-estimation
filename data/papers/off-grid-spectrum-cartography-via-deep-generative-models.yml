@@ -1,0 +1,27 @@
+id: off-grid-spectrum-cartography-via-deep-generative-models
+title: Off-Grid Spectrum Cartography via Deep Generative Models
+authors:
+  - Chengyao Lyu
+  - Rajesh Shrestha
+  - Xiao Fu
+year: 2026
+venue: International Conference on Security and Management
+abstract: This work studies radio map estimation (also known as spectrum cartography) from off-grid measurements over a continuous spatial domain. Classical approaches to off-grid radio map sensing rely on kernel or polynomial-based interpolation methods. More recently, learned deep generative models (DGMs) have demonstrated strong empirical performance in recovering complex radio maps from highly undersampled measurements, owing to their expressive power. However, DGMs are typically trained on gridded, pixel-based data, and how to coherently integrate them with off-grid sensing remains unclear. We employ a multi-dimensional discrete cosine transform (DCT) representation for modeling radio maps over continuous space. DCT provides a computationally efficient and theoretically grounded basis that bridges off-grid measurements with pre-trained DGMs of the radio map, leading to a simple, compact formulation that can be tackled by off-the-shelf optimization algorithms. Numerical simulations demonstrate the effectiveness of the proposed approach in off-grid radio map estimation scenarios.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/SAM68950.2026.11687935
+subfield: spectrum-cartography  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - spectrum-cartography  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-09-21'

@@ -1,0 +1,29 @@
+id: downlink-power-allocation-algorithm-for-licence-exempt-lte-s
+title: Downlink power allocation algorithm for licence-exempt LTE systems using Kriging and Compressive Sensing based spectrum cartography
+authors:
+  - B. Jayawickrama
+  - E. Dutkiewicz
+  - Gengfa Fang
+  - I. Oppermann
+  - M. Mueck
+year: 2013
+venue: Global Communications Conference
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/GLOCOM.2013.6831659
+subfield: spectrum-cartography  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - Gaussian-process  # TODO: maintainer verify
+  - Kriging  # TODO: maintainer verify
+task:
+  - spectrum-cartography  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 7
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-09-21'

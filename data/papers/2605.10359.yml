@@ -1,0 +1,29 @@
+id: '2605.10359'
+title: 'Learning-Based Spectrum Cartography in Low Earth Orbit Satellite Networks: An Overview'
+authors:
+  - Liping Tao
+  - Xin-Di Tong
+  - Chee-Wei Tan
+year: 2026
+venue: arXiv.org
+abstract: Low earth orbit (LEO) satellite networks are emerging as a key infrastructure for global connectivity and space-based sensing. Many tasks in such systems can be formulated as measurement-set-to-spatial-inference problems, where spatial variables are inferred from sparse and heterogeneous wireless observations. Spectrum cartography provides a unifying framework for this paradigm, encompassing representative tasks such as satellite-assisted localization and radio map reconstruction, as well as map-informed resource allocation. Yet the highly dynamic orbital geometry, complex propagation conditions, and reliability-varying nature of LEO measurements pose fundamental challenges for traditional model-driven and interpolation-based methods. This article surveys the literature from 1964 to 2026 on learning-based spectrum cartography as applied to LEO satellite networks, with a particular focus on attention mechanisms as a principled operator for adaptive and reliability-aware measurement fusion across localization, radio map reconstruction, and resource allocation tasks. We review modeling foundations and key challenges of representative tasks, and analyze how attention-based learning enables flexible fusion of heterogeneous measurements for both inference and map-informed decision-making. Representative formulations and simulation studies are provided to illustrate the framework and demonstrate its effectiveness, offering a unified perspective for measurement-driven inference and decision-making in LEO satellite networks.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2605.10359
+  doi: 10.48550/arXiv.2605.10359
+subfield: spectrum-cartography  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - Transformer  # TODO: maintainer verify
+task:
+  - spectrum-cartography  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-09-21'
