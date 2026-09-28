@@ -1,0 +1,28 @@
+id: '2602.04062'
+title: Ultra-Fast Device-Free Visible Light Sensing and Localization via Reflection-Based ΔRSS and Deep Learning
+authors:
+  - Helena Serpi
+  - C. Politi
+year: 2026
+venue: International Symposium on Communication Systems, Networks and Digital Signal Processing
+abstract: We propose an Ultra-Fast in terms of real-time inference latency, Device-Free Visible Light Sensing and Positioning system based on received signal strength (RSS) measurements in indoor visible light communication (VLC) environments. A single LED transmitter and a ceiling-mounted photodetector array are used to capture human-induced perturbations of the optical Radio Environment Map (REM) through reflection-based $\Delta$ RSS profiles. The proposed approach operates entirely in the power domain and does not perform channel estimation or channel impulse response reconstruction; instead, localization is achieved by learning an inverse mapping from REM perturbations to spatial position. A multi-architecture deep neural network ensemble is trained offline to exploit complementary spatial and cross-sensor characteristics of the RSS fingerprints. The innovative system is evaluated in a fixed indoor environment with a single target, demonstrating mean positioning errors below 10 cm for walking trajectory and approximately 10–11 cm for randomly sampled positions, while achieving millisecond-scale inference latency suitable for real-time edge deployment. The system is highly adaptive and ready to serve different real-world sensing and positioning scenarios using one or more ML based models from the library of multi-architecture deep neural network ensembles we have developed.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2602.04062
+  pdf: https://arxiv.org/pdf/2602.04062
+  doi: 10.1109/CSNDSP68462.2026.11654392
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: indoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-09-28'

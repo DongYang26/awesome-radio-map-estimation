@@ -1,0 +1,31 @@
+id: mitigating-high-frequency-component-degradation-in-radio-map
+title: 'Mitigating High-Frequency Component Degradation in Radio Map Generation: A Novel VAE-Enhanced Latent Diffusion Model'
+authors:
+  - Zhanqi Jin
+  - Nan Li
+  - Ting-Ting Yang
+  - Hai-Xia Zhang
+  - Xiaoxia Huang
+year: 2026
+venue: IEEE Wireless Communications and Networking Conference
+abstract: Radio map (RM) serves as a fundamental tool to characterize the spatial distribution of wireless signals within geographical environments. Traditional RM reconstruction methods typically rely on high-density measurement data and complex physical models, which leads to high computational costs and limited generalizability. With the development of artificial intelligence generated content (AIGC), conditional diffusion model provides a novel solution for RM generation. However, the high training complexity hinders the application. Encoding the RM into low-dimensional latent space, variational autoencoder (VAE) becomes a promising component for reducing the training cost in mainstream diffusion models. Furthermore, high-frequency components can reflect subtle variations induced by scattering and reflection in the RM to accurately describe the spatial received signal strength (RSS) distribution. Hence, we propose a frequency-domain variational autoencoder (FDC-VAE) enhanced with discrete wavelet transform (DWT) and hybrid difference convolution (HDC). FDC-VAE employs explicit frequency decomposition and differentiated encoding mechanisms to enhance the extraction of high-frequency components and the representation capability of latent space. To evaluate the performance of FDC-VAE in the RM generation task, we utilize diffusion transformer (DiT) as conditional generation backbone model to generate fine-grained RM. Experimental results demonstrate that FDC-VAE outperforms baseline models in both PSNR and SSIM metrics.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/WCNC65185.2026.11555426
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - Diffusion  # TODO: maintainer verify
+  - Transformer  # TODO: maintainer verify
+  - autoencoder  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-09-28'

@@ -1,0 +1,29 @@
+id: an-arbitrary-scale-radio-map-super-resolution-framework-for-
+title: An Arbitrary-Scale Radio Map Super-Resolution Framework for Multiple Source Localization
+authors:
+  - Qi-Lu Zhang
+  - Hong-Ying Tang
+  - Zi-Yi Song
+  - Wen Chen
+  - Jiang Wang
+year: 2026
+venue: IEEE Wireless Communications Letters
+abstract: High-resolution (HR) radio maps characterizing the spatial distribution of received signal strength (RSS) provide an effective representation for multi-source localization (MSL). Existing HR radio map reconstruction methods mainly follow two paradigms. The first assigns sparse RSS measurements directly to discrete pixels and performs equal-resolution reconstruction, introducing spatial quantization errors due to misalignment with sampling locations. The second forms low-resolution (LR) sampled maps via grid aggregation and reconstructs them into HR radio maps using fixed-scale super-resolution (SR) techniques, alleviating quantization error but requiring retraining when the upsampling factor changes, thereby limiting flexibility. To address these limitations, this letter proposes a Frequency-Spatial Aware Arbitrary-Scale Radio Map Super-Resolution (FSARS) framework that serves as a plug-and-play backbone compatible with various MSL heads. Simulation results demonstrate that the proposed framework achieves superior reconstruction performance and can be effectively applied to various MSL heads, yielding accurate localization. Our code is available at https://github.com/QLMSL/FSARS
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/LWC.2026.3712735
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-09-28'

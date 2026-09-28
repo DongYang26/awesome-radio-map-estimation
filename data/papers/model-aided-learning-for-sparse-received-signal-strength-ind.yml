@@ -1,0 +1,29 @@
+id: model-aided-learning-for-sparse-received-signal-strength-ind
+title: Model-Aided Learning for Sparse Received Signal Strength Indicator Radio Map Prediction and Wireless Signal Management in Internet of Things Environments
+authors:
+  - Ming-Kun Lu
+  - A. Taparugssanagorn
+year: 2026
+venue: IEEE Access
+abstract: Radio maps provide spatially resolved received signal strength information for coverage assessment, gateway placement, interference awareness, and adaptive power management in Internet of Things (IoT) environments. However, dense radio maps are expensive to measure, and simple path-loss models are often inaccurate in indoor spaces with walls, shadowing, and non-line-of-sight propagation. This paper proposes a propagation-prior-guided model-aided learning framework for sparse received signal strength indicator (RSSI) radio map prediction. Unlike conventional deep learning approaches that expect a network to infer both propagation behavior and local signal variations directly from sparse measurements, the proposed framework explicitly separates these two roles. Coarse propagation knowledge is first encoded into structured physical-prior channels, while the neural network focuses on learning the remaining spatial variations that cannot be captured by analytical propagation models. The input representation combines sampled RSSI values with transmitter location, distance, free-space path-loss prior, wall-loss prior, line-of-sight prior, carrier frequency, and transmit-power channels. A compact encoder–decoder with channel and spatial attention is used as one dense reconstruction implementation of this formulation. A multi-band IoT-style indoor simulation dataset is generated to evaluate sparse radio-map reconstruction under different sampling ratios, frequencies, transmit powers, and indoor layouts. The model is further checked on a real-world indoor Bluetooth Low Energy (BLE) RSSI dataset to examine real-data handling and floor-value sensitivity. A public CampusRSSI dense site-survey experiment is additionally included to evaluate sparse reconstruction against measured indoor WiFi RSSI radio maps under path-constrained sampling. The results show that the proposed method consistently outperforms classical path-loss modeling, interpolation, Kriging, and encoder–decoder baselines, especially when only a small fraction of measurement locations is available. Robustness and generalization analyses further examine imperfect propagation priors, clustered sparse measurements, structured measurement noise, and more challenging unseen evaluation settings. These findings support propagation-prior-guided model-aided learning as a practical approach for low-cost IoT radio-map construction and wireless signal management.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://doi.org/10.1109/access.2026.3717372
+  doi: 10.1109/ACCESS.2026.3717372
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - Gaussian-process  # TODO: maintainer verify
+  - Kriging  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: indoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-09-28'

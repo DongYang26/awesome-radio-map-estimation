@@ -1,0 +1,32 @@
+id: radioynet-efficient-3-d-path-loss-map-prediction-with-height
+title: 'RadioYNet: Efficient 3-D Path Loss Map Prediction With Height-Aware Feature Fusion'
+authors:
+  - Chengkai Liu
+  - Guo Xia
+  - Zeyu Cui
+  - Shiyan Jiang
+  - Xinyu Liao
+  - Yu-Qiang Zhang
+  - Jia Shi
+  - Chen Zhou
+  - Zan Li
+year: 2026
+venue: IEEE Antennas and Wireless Propagation Letters
+abstract: Path loss (PL) map prediction is an important task for wireless propagation modeling and network planning. Neural network (NN)-based approaches have been widely studied due to their higher efficiency than ray tracing (RT). However, most existing methods focus on 2-D PL maps. To address the 3-D PL map prediction problem, this letter proposes a multialtitude PL map prediction framework based on an NN architecture. The proposed model adopts a dual-encoder design to extract heterogeneous features from the environment and the transmitter location and uses a height-aware feature fusion module to embed altitude conditioning into the fused features, enabling the network to differentiate PL patterns across altitude planes. Experimental results show that the proposed model improves prediction accuracy over representative baselines and substantially reduces inference time compared with RT.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/LAWP.2026.3693859
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-09-28'
