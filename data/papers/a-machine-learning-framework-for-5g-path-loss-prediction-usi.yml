@@ -1,0 +1,26 @@
+id: a-machine-learning-framework-for-5g-path-loss-prediction-usi
+title: A Machine Learning Framework for 5G Path Loss Prediction Using Real-World Measurements
+authors:
+  - Achilleas Theocharopoulos
+  - Nektarios Moraitis
+  - Athanasios D. Panagopoulos
+year: 2026
+venue: 2026 7th International Conference in Electronic Engineering & Information Technology (EEITE)
+abstract: This paper evaluates the performance of different machine learning (ML) models in forecasting path loss. Data collected in an urban environment, within a communication scenario involving a flying unmanned aerial vehicle (UAV) and a fixed terminal, are leveraged to train, validate, and test the ML models. These include a multilayer perceptron (MLP), an extreme gradient boosting (XGB) machine, and a support vector regressor (SVR). To prevent data leakage and the associated risk of overfitting that emerges due to inter-sample correlation, a data partitioning scheme that is based on continuous trajectories is proposed instead of random splitting. The results reveal that the adopted ML models consistently outperform the empirical ones, delivering low errors with noticeable adaptability to the path loss variations. Root-mean-square error (RMSE) scores in the range of $\mathbf{4. 9 7 - 5. 1 6 ~ d B}$ are achieved, whereas the corresponding value of the baseline log-distance model is approximately 3.3 dB higher.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/EEITE69609.2026.11679824
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-09-28'

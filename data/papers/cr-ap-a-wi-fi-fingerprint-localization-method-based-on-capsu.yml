@@ -1,0 +1,28 @@
+id: cr-ap-a-wi-fi-fingerprint-localization-method-based-on-capsu
+title: 'CR-AP: A Wi-Fi fingerprint localization method based on capsule networks.'
+authors:
+  - Yiguo Cheng
+  - Jiayao He
+  - Yu Zhou
+  - Kun Zhang
+year: 2026
+venue: Scientific Reports
+abstract: Balancing positioning accuracy and deployment cost in indoor environments remains challenging. RSS-based Wi-Fi fingerprinting has emerged as a popular, low-cost approach; however, RSS is highly variant due to signal attenuation and multipath effects, which substantially degrade localization accuracy. This paper proposes CR-AP (Capsule Routing on AP-Centric Heterogeneous Graphs), a novel method based on capsule network for RSS-based Wi-Fi fingerprinting. Offline, we extract three types of relations from the radio map-AP-AP cosine-similarity kNN, RP-RP co-occurrence, and RP-AP visibility-to construct a heterogeneous graph. Online, the measurement is mapped into a capsule space, followed by one round of message passing over the graph and multi-round conditional dynamic routing to produce AP soft selection and RP soft weights, which are then fed into a lightweight coordinate regressor. We further introduce a reconstruction loss to align the soft weights with the actual observation. On the SODIndoorLoc dataset, CR-AP achieves a mean error of 2.07 m and a P90 of 3.94 m. In AP-missing experiments, CR-AP maintains strong robustness when less than 50% of APs are missing. Cross-scene evaluation on CETC331 also demonstrates good generalization. Compared with multiple baselines and recent models, CR-AP consistently delivers superior performance across several metrics.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://www.nature.com/articles/s41598-026-59813-z_reference.pdf
+  doi: 10.1038/s41598-026-59813-z
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: indoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-09-28'

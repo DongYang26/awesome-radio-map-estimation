@@ -1,0 +1,34 @@
+id: compositional-radio-map-reconstruction-for-wi-fi-rss-localiz
+title: Compositional Radio Map Reconstruction for Wi-Fi RSS Localization with Partial Environmental-State Surveys
+authors:
+  - C. Hou
+  - X. Sun
+  - Y. Huang
+  - Q. Zhu
+  - J. Yi
+  - T. Hu
+  - L. Gao
+  - L. Zhu
+  - M. Xiang
+year: 2026
+venue: Radioengineering
+abstract: "Wi-Fi received signal strength (RSS) fingerprint-based indoor localization is widely deployed due to its low infrastructure cost. However, environmental structural changes---such as opening or closing doors and partitions---alter propagation paths and shift RSS fingerprints, necessitating state-specific fingerprint databases. Our previous multi-fingerprint localization framework handled this problem by associating each environmental state with a dedicated fingerprint database, but it still required exhaustive offline surveys of all 2^H states for H variable elements. To address this remaining state-survey bottleneck, this paper proposes CoStateLoc, a survey-efficient compositional radio map reconstruction framework that constructs unseen-state RSS fingerprint databases from baseline, single-factor, and selected dual-factor surveys. CoStateLoc decomposes each unseen state's fingerprint into a baseline component, single-factor perturbations, and sparse pairwise interaction terms, all estimated directly from the surveyed state databases without fitting regression coefficients. A 2D geometric ray-tracing simulator with coherent multipath combining is developed to generate multi-state RSS data under controlled conditions. Experiments with H=6 doors (64 states) across two distinct layouts indicate that, under the adopted simulation model and known-state assumption, CoStateLoc reduces the number of state-specific surveys by 65.6% while improving unseen-state localization accuracy by up to 20.4% over the first-order additive baseline and outperforming a Hamming-kernel state-generation baseline. Representative stress tests cover online noise, AP count, state-label errors, and offline survey noise, and show that noise-aware interaction shrinkage is useful when surveyed fingerprints are strongly perturbed.\n Keywords: Indoor localization, Wi-Fi RSS fingerprinting, environmental state variation, radio map reconstruction, incomplete site survey, ray tracing"
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://doi.org/10.13164/re.2026.0407
+  doi: 10.13164/re.2026.0407
+subfield: REM  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: indoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-09-28'

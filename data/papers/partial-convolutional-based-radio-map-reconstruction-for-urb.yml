@@ -1,0 +1,29 @@
+id: partial-convolutional-based-radio-map-reconstruction-for-urb
+title: Partial Convolutional Based-Radio Map Reconstruction for Urban Environments with Inaccessible Areas
+authors:
+  - Fan-Hua Li
+  - Yuanyuan Deng
+  - Bo Zhou
+  - Qi-Hui Wu
+year: 2024
+venue: IEEE International Conference on Acoustics, Speech, and Signal Processing
+abstract: The radio map, which describes spatial signal strength and network coverage information, is crucial in modern wireless systems for network planning and resource management. Fine-grained radio maps rely on measurements collected by sparsely deployed spectrum sensors in the area of interest. However, due to physical limitations and security considerations, these measurements may exhibit non-uniform distribution and be entirely absent in certain inaccessible areas, making it challenging for accurate radio map reconstruction. Thus, in this work, considering the issues of non-uniform sampling and inaccessible areas, we propose a deep completion partial convolution network for radio map reconstruction. This approach captures the spatial characteristics by separating the missing measurements from sampled ones and does not require prior knowledge of emitters. We evaluate our method using a simulated dataset for campus environments and demonstrate its effectiveness over several baselines for reconstructing radio maps.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/ICASSP48485.2024.10447286
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 6
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-09-28'

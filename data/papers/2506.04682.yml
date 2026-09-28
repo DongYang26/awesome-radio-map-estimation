@@ -1,0 +1,31 @@
+id: '2506.04682'
+title: 'MARS: Radio Map Super-resolution and Reconstruction Method under Sparse Channel Measurements'
+authors:
+  - Chuyun Deng
+  - Na Liu
+  - Wei Xie
+  - Lianming Xu
+  - Li Wang
+year: 2025
+venue: arXiv.org
+abstract: Radio maps reflect the spatial distribution of signal strength and are essential for applications like smart cities, IoT, and wireless network planning. However, reconstructing accurate radio maps from sparse measurements remains challenging. Traditional interpolation and inpainting methods lack environmental awareness, while many deep learning approaches depend on detailed scene data, limiting generalization. To address this, we propose MARS, a Multi-scale Aware Radiomap Super-resolution method that combines CNNs and Transformers with multi-scale feature fusion and residual connections. MARS focuses on both global and local feature extraction, enhancing feature representation across different receptive fields and improving reconstruction accuracy. Experiments across different scenes and antenna locations show that MARS outperforms baseline models in both MSE and SSIM, while maintaining low computational cost, demonstrating strong practical potential.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2506.04682
+  doi: 10.48550/arXiv.2506.04682
+subfield: REM  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - Transformer  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 6
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-09-28'

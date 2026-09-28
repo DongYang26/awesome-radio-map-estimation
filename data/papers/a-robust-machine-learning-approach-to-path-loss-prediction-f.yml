@@ -1,0 +1,28 @@
+id: a-robust-machine-learning-approach-to-path-loss-prediction-f
+title: A Robust Machine Learning Approach to Path Loss Prediction for a Low Altitude UAV-to-Ground Urban Scenario
+authors:
+  - Achilleas Theocharopoulos
+  - Nektarios Moraitis
+  - Athanasios D. Panagopoulos
+year: 2026
+venue: IEEE Open Journal of Antennas and Propagation
+abstract: This paper presents a machine learning-based approach for the prediction of path loss of a $2\times 2$ dual-polarized (DP) multiple-input-multiple-output (MIMO) channel. The communication scenario takes into account the link established between an unmanned aerial vehicle (UAV) and a ground terminal in an urban environment. The proposed machine learning (ML) methodology is thoroughly analyzed, giving particular emphasis on the hazards induced by the sequential nature of the measurement procedure. It is demonstrated that, due to the temporal correlation between the data samples, the conventional random splitting of the dataset leads to substantial overfitting and a biased performance evaluation. To counteract this issue, an alternative partitioning scheme that is based on continuous trajectory segments is proposed and statistically validated. A set of features that leverages both the link geometry and the MIMO channel is extracted and the performance of three well established ML models, namely multi-layer perceptron (MLP), extreme gradient boosting (XGB) and support vector regression (SVR), is investigated, both in terms of mean prediction error and error dispersion. The results reveal that the suggested models exhibit a highly promising performance, delivering low statistical errors and effectively filtering out the small scale component of fading. The average root-mean-square error (RMSE) is found in the range of 1.85–2.20 dB. The XGB delivers the lowest errors, achieving an RMSE of 1.85 dB and an error standard deviation (ESD) of 1.28 dB, outperforming the rest of the employed models. Finally, an insightful error analysis is carried out to identify systematic prediction flaws and suggest targeted improvements.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://doi.org/10.1109/ojap.2026.3706756
+  doi: 10.1109/OJAP.2026.3706756
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-09-28'

@@ -1,0 +1,30 @@
+id: path-loss-prediction-in-dense-wsn-iot-networks-with-machine-
+title: Path Loss Prediction in Dense WSN–IoT Networks with Machine Learning Techniques Across Diverse Terrains for Energy-Efficient Connectivity
+authors:
+  - G. Papastergiou
+  - A. Xenakis
+  - Dimitrios Kosmanos
+  - C. Chaikalis
+  - Menelaos Panagiotis Papastergiou
+  - Vasileios Priovolos
+year: 2026
+venue: Electronics
+abstract: Accurate path loss prediction is essential for reliable and energy-efficient operation of dense Wireless Sensor Network–Internet of Things (WSN–IoT) systems, where radio transmission dominates node energy consumption and significantly impacts network lifetime. However, existing empirical or simulated models cannot achieve high prediction accuracy without explicitly linking statistical error metrics to system-level design parameters, thus limiting their practical interpretability in deployment scenarios. This work presents an extensive comparative evaluation among well-known propagation models versus machine learning regressors, and a lightweight convolutional neural network (CNN) for path loss prediction, using transmitter–receiver distance and carrier frequency as input features. A pairwise communication model is adopted to ensure consistent analysis across heterogeneous environments while preserving physical interpretability of the propagation process. Building upon this evaluation, a unified analytical framework is proposed that correlates path loss (PL) prediction accuracy to system-level metrics relevant to WSN–IoT design. Moreover, in this work we apply the Root Mean Square Error (RMSE) of the best-performing model as an empirical estimate of the shadowing standard deviation, under standard statistical assumptions, thereby allowing its direct use in link budget and fade margin calculations. Extensive experimental results across five heterogeneous wireless link datasets demonstrate that improved prediction accuracy leads to reduced transmission power requirements, lower energy consumption, enhanced communication reliability, and extended node lifetime.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://doi.org/10.3390/electronics15112350
+  doi: 10.3390/electronics15112350
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-09-28'
