@@ -1,0 +1,28 @@
+id: wi-fi-signal-strength-analyzer-using-deep-learning-for-optim
+title: Wi-Fi Signal Strength Analyzer Using Deep Learning for Optimized Network Performance in Smart Environments
+authors:
+  - A. J.
+  - Niveditha N Raj
+  - Anushiya Jasbin A
+  - Dharanika A
+  - T. Sripriya
+year: 2025
+venue: 2025 2nd International Conference on Artificial Intelligence and Knowledge Discovery in Concurrent Engineering (ICECONF)
+abstract: This work extended a Wi-Fi Signal Strength Analyzer designed to operate in smart environments and combined crowdsourced, RSSI/CSI-based sensing with a physics-enhanced, floormap-aware deep path through dense radio-map recovery and closed-loop tuning. To learn site and hardware agnostic embeddings, a cross-modal self-supervised pretraining strategy was used to align masked CSI with co-temporal IMU traces. Graph embeddings derived using BIM were used as conditioning to a multipath-aware physics-informed neural field which imposed propagation and boundary constraints, and a conditional diffusion model generated uncertainty-aware densified maps. A structural causal layer estimated counterfactuals of channel, power, and beam variations and directed a federated multi-agent controller at edge accelerators. Across ten buildings, the system achieved a reconstruction accuracy of RMSE = 2.9 dBm on a held-out campus and 3.1-3.6 dBm on unseen sites, with PSNR = 27.6 dB and well-calibrated uncertainty (ECE ≈ 3.0%). Hit-rate accuracy was as high as at ±3 dBm (94.1 %); counterfactual effect prediction was able to predict actualized outcomes with 92.3% accuracy. Online control showed a 24.8% median throughput increase, a 31.0% p95 latency decrease and a 10.7% reduction in the energy of the AP, with a p95 inference latency of 148165ms on a Raspberry Pi 5 + Edge-TPU. These findings revealed that the combination of data driven learning with physicalized priors and causal thinking provided correct maps and actionable interventions to achieve consistent network performance improvements.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/ICECONF65644.2025.11379407
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - Diffusion  # TODO: maintainer verify
+task:
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: self-supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-10-05'

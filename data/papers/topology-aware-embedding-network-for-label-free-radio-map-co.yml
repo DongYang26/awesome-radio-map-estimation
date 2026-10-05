@@ -1,0 +1,32 @@
+id: topology-aware-embedding-network-for-label-free-radio-map-co
+title: Topology-Aware Embedding Network for Label-Free Radio Map Construction
+authors:
+  - Zheng Xing
+  - Weibing Zhao
+  - Meng-Ru Wu
+  - Jun Gao
+  - Wenjie Liu
+  - Cheng Zeng
+  - Xu-Hui Zhang
+  - Hui-Jun Xing
+  - Rui-Mao Zhang
+year: 2026
+venue: IEEE Transactions on Wireless Communications
+abstract: Constructing radio maps traditionally requires costly, labor-intensive site surveys for precise location labeling. While inertial measurement unit (IMU)-assisted methods mitigate this, they are constrained by hardware requirements and device-level access permissions. In this paper, we propose a floor-plan-guided, label-free radio map construction method that uses unlabeled Channel State Information (CSI) measurements and floor-plan information, without requiring point-wise location labels. Our approach uses a neural network to embed CSI into a two-dimensional (2D) latent space, treating these embedded coordinates as physical locations to form the radio map. To preserve the intrinsic CSI topological structure while aligning the latent space with the physical geography, we introduce the Topology-Aware Embedding Network (TAEN). TAEN enforces manifold preservation through propagation reversibility, spatio-temporal continuity, and spatial ordering constraints. Furthermore, geographic consistency is achieved via regularized optimal transport with a differentiable Sinkhorn distance, which optimizes the coupling between latent and geographic spaces to supervise and refine the embedding network. Experiments in a real office environment demonstrate that TAEN achieves a mean localization error of 1.12 m and an average relative beam deviation of 6.68%.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/TWC.2026.3713038
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-10-05'
