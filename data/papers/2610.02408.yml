@@ -1,0 +1,30 @@
+id: '2610.02408'
+title: 'UrbanEMF: City-Scale EMF Mapping over a Continuous Urban Area with Real-World Base-Station Deployment'
+authors:
+  - Shuangning Li
+  - Chenxin Luo
+  - Shanshan Wang
+  - Yarui Zhang
+  - Paul Lagouanelle
+  - Joe Wiart
+year: 2026
+abstract: 'Electromagnetic Fields (EMF) mapping is essential for wireless propagation modeling and are fundamental to a wide range of applications, including spectrum awareness, network planning, and integrated sensing and communication (ISAC). However, existing datasets are often limited to spatially separated 2D scenes without real base station (BS) information. To address this gap, we present UrbanEMF, a city-scale EMF mapping dataset constructed from real world urban geometry and physical BS deployments using ray tracing. Unlike conventional single scene-based datasets, UrbanEMF preserves continuous city-scale urban coverage and realistic transmitter location information. It further extends traditional 2D maps by incorporating multiple receiver heights. In addition, both aggregated received signal strength (RSS) maps and path loss maps are provided to characterize complementary aspects of the radio environment. This work provides a realistic and flexible benchmark for developing and evaluating learning-based methods in large-scale urban wireless environments. The code for this work is available at: https://github.com/lemonstudy/UrbanEMF'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2610.02408
+  pdf: https://arxiv.org/pdf/2610.02408
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-10-05'

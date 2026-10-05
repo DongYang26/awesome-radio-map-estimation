@@ -1,0 +1,30 @@
+id: radiogat-a-model-based-learning-framework-for-radio-map-reco
+title: 'RadioGAT: A Model-Based Learning Framework for Radio Map Reconstruction via Graph Attention Networks'
+authors:
+  - Xiao-Jie Li
+  - Hang Li
+  - Xiao-Yang Li
+  - Guang-Xu Zhu
+  - Nan Qi
+  - Ming Xiao
+year: 2025
+venue: IEEE Wireless Communications and Networking Conference
+abstract: Reconstructing accurate radio maps is crucial for optimizing wireless network performance and managing spectrum efficiently. In real-world scenarios, radio map data, often sparse and incompletely labelled, poses significant challenges to traditional learning techniques. Graph Neural Networks (GNNs) have become instrumental in efficiently reconstructing radio maps (RMR) in such environments by effectively encoding correlations in unstructured data. Existing GNN-based methods, however, are limited as they typically consider only single factors like location, environment, or transmitter characteristics during correlation encoding. To overcome this limitation, we introduce RadioGAT, a propagation model-based approach that comprehensively integrates these factors. We further utilize Graph Attention Networks to enable semi-supervised learning, enhancing the accuracy of radio map reconstruction. Our experimental results demonstrate the superiority and robustness of RadioGAT, particularly at low sampling rates, and highlight the importance of selecting appropriate correlation encoding methods based on the data availability for RMR.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/WCNC61545.2025.10978298
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - GNN  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: semi-supervised  # TODO: maintainer verify
+citations: 4
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-10-05'

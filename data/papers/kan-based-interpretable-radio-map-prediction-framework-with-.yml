@@ -1,0 +1,29 @@
+id: kan-based-interpretable-radio-map-prediction-framework-with-
+title: KAN-Based Interpretable Radio Map Prediction Framework With Symbolic Data Fusion
+authors:
+  - Cun-Yi Liao
+  - Xinyue Ge
+  - Mingjian He
+  - Yi Zheng
+  - Shou-Yin Liu
+year: 2026
+venue: IEEE Transactions on Cognitive Communications and Networking
+abstract: Radio maps provide large-scale radio signal power distributions at distinct geographical locations, which are crucial for resource allocation and network planning, and are integral to Integrated Sensing and Communication (ISAC) systems. However, in real-world applications, traditional empirical models of radio propagation can predict the radio signal power at a specific point, but often lack the desired accuracy. In contrast, data-driven neural network methods can generate a comprehensive radio map for a cell range, but may pose trustworthiness and security concerns due to their limited datasets and the interpretability of network structures. Therefore, achieving a high-accuracy and strong interpretability Radio Map Prediction (RMP) model remains a significant challenge. To address this challenge, we exploit the property of Kolmogorov–Arnold Networks (KAN), which replaces weight parameters in neural networks with learnable univariate functions, and propose a new interpretable radio map prediction framework based on symbolic data fusion, named the Radio Kolmogorov–Arnold Networks (RadioKAN). Firstly, RadioKAN is comprised of several univariate functions that are progressively refined using sparse real-world data and B-spline functions. Then, symbolization and sparsification techniques are employed to transform the network structure of RadioKAN into symbolic equations. These techniques improve the poor interpretability of data-driven neural network methods in the field of RMP. Finally, elastic net regularization is introduced to improve the stability of model training. Experiments demonstrate RadioKAN’s superior accuracy and robustness across multiple datasets, proving its practicality and effectiveness.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/TCCN.2025.3603700
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 7
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-10-05'

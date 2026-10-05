@@ -1,0 +1,33 @@
+id: '2504.15623'
+title: 'RadioDiff-k2: Helmholtz Equation Informed Generative Diffusion Model for Multi-Path Aware Radio Map Construction'
+authors:
+  - Xiu-Cheng Wang
+  - Qiming Zhang
+  - Nan Cheng
+  - Ruijin Sun
+  - Zan Li
+  - Shuguang Cui
+  - X. Shen
+year: 2025
+venue: IEEE Journal on Selected Areas in Communications
+abstract: In this paper, we propose a novel physics-informed generative learning approach, named RadioDiff- $k^{2}$ , for accurate and efficient multipath-aware radio map (RM) construction. As future wireless communication evolves towards environment-aware paradigms, the accurate construction of RMs becomes crucial yet highly challenging. Conventional electromagnetic (EM)-based methods, such as full-wave solvers and ray-tracing approaches, exhibit substantial computational overhead and limited adaptability to dynamic scenarios. Although existing neural network (NN) approaches have efficient inferencing speed, they lack sufficient consideration of the underlying physics of EM wave propagation, limiting their effectiveness in accurately modeling critical EM singularities induced by complex multipath environments. To address these fundamental limitations, we propose a novel physics-inspired RM construction method guided explicitly by the Helmholtz equation, which inherently governs EM wave propagation. Specifically, based on the analysis of partial differential equations (PDEs), we theoretically establish a direct correspondence between EM singularities, which correspond to the critical spatial features influencing wireless propagation, and regions defined by negative wave numbers in the Helmholtz equation. We then design an innovative dual diffusion model (DM)-based large artificial intelligence framework comprising one DM dedicated to accurately inferring EM singularities and another DM responsible for reconstructing the complete RM using these singularities along with environmental contextual information. Experimental results demonstrate that the proposed RadioDiff- $k^{2}$ framework achieves state-of-the-art (SOTA) performance in both image-level RM construction and localization tasks, while maintaining inference latency within a few hundred milliseconds. Code is available at https://github.com/UNIC-Lab/RadioDiff-k
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2504.15623
+  doi: 10.1109/JSAC.2025.3641105
+subfield: REM  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - Diffusion  # TODO: maintainer verify
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 44
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-10-05'

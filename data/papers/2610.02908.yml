@@ -1,0 +1,27 @@
+id: '2610.02908'
+title: Permutation-Invariant Time-Frequency Segmentation and Parameter Estimation of Multiple Overlapping Interference Signals
+authors:
+  - Lucas Heublein
+  - Christian Wielenberg
+  - Christopher Mutschler
+  - Felix Ott
+year: 2026
+abstract: Radio-frequency interference threatens satellite navigation, wireless communications, radar, and industrial sensing. Reliable operation therefore requires spectrum situational awareness to detect interference and determine the number, time-frequency occupancy, and characteristics of active sources. In realistic environments, multiple sources may overlap. Source-specific segmentation and characterization are therefore particularly challenging. In this paper, we propose PI-SCAN (Permutation-Invariant Segmentation, Characterization, and Assignment Network), a joint set-based learning framework for source-specific segmentation and characterization of overlapping interference signals. A logarithmic power spectrogram derived from complex IQ samples is mapped to six unordered prediction slots. For each slot, the model estimates objectness, interference type, center frequency, bandwidth, received signal strength, binary offset carrier (BOC) modulation, and a source-specific segmentation mask. Permutation-invariant Hungarian assignment aligns the predicted slots with the unordered ground-truth sources, while a weighted multi-task objective jointly optimizes the individual prediction tasks. The framework is evaluated using a ray-traced industrial environment containing mixtures of one to six simultaneously active interferers drawn from 94 waveform configurations across six interference classes. The full seven-task configuration achieves a detection F1-score of 74.8%, type and BOC accuracies of 97.3% and 98.4%, and mean absolute errors of 1.29MHz, 2.54MHz, and 3.19dB for center frequency, bandwidth, and signal strength. Using only objectness, type, and mask prediction increases the F1-score to 91.1%, highlighting the trade-off between detection and comprehensive characterization.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2610.02908
+  pdf: https://arxiv.org/pdf/2610.02908
+subfield: REM  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-10-05'
