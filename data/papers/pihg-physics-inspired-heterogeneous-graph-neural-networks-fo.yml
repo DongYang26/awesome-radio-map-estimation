@@ -1,0 +1,30 @@
+id: pihg-physics-inspired-heterogeneous-graph-neural-networks-fo
+title: 'PIHG: Physics-Inspired Heterogeneous Graph Neural Networks for Multi-Band Radio Map Prediction'
+authors:
+  - Xin-Yue Jiang
+  - Tong Li
+  - Zhu Xiao
+  - Ke Chen
+  - Andy C. L. Tai
+  - Zhuo Tang
+  - Ken-Li Li
+year: 2026
+venue: IEEE Transactions on Wireless Communications
+abstract: Radio maps are instrumental in optimizing wireless network performance by providing spatial distributions of signal power. However, predicting multi-band radio maps across diverse environments remains challenging, as propagation behaviors vary significantly with frequency and environmental complexity. Although some existing approaches address this issue by incorporating physical constraints into their loss functions, they operate at a coarse level and struggle to capture fine-grained, non-Euclidean propagation dependencies. To address these limitations, we propose PIHG, a physics-inspired heterogeneous graph neural network for multi-band radio map prediction. PIHG incorporates physical knowledge into the learning process for coarse-grained radio map estimation and further refines the prediction using a propagation-aware heterogeneous graph that models environment-dependent spatial dependencies among transmitters, receivers, and obstacles. Extensive experiments on a large-scale multi-band radio map dataset demonstrate that PIHG consistently outperforms state-of-the-art methods in both accuracy and generalization across different frequency bands and environments. The code for PIHG is available at https://github.com/Shirleyue/PIHG
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/TWC.2026.3734160
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - GNN  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-10-12'
