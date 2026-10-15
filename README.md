@@ -10,7 +10,7 @@
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-live-brightgreen)](https://dongyang26.github.io/awesome-radio-map-estimation/)
 [![Code License: MIT](https://img.shields.io/badge/Code%20License-MIT-blue.svg)](LICENSE)
 [![Data License: CC-BY-4.0](https://img.shields.io/badge/Data%20License-CC--BY--4.0-blue.svg)](LICENSE-DATA)
-![Papers](https://img.shields.io/badge/papers-471-informational)
+![Papers](https://img.shields.io/badge/papers-472-informational)
 <!-- AUTO:badges END -->
 
 [**Explore the interactive Research Map →**](https://dongyang26.github.io/awesome-radio-map-estimation/)
@@ -54,10 +54,10 @@ Four sub-families of the field are in scope:
 ## Statistics
 
 <!-- AUTO:stats START -->
-**471** papers · **4** subfields · **20** milestone papers
+**472** papers · **4** subfields · **20** milestone papers
 
 Coverage spans **1996–2026**.
-By subfield — Channel Knowledge Maps (CKM): 72, Radio Environment Maps (REM): 192, Pathloss Prediction: 134, Spectrum Cartography: 73.
+By subfield — Channel Knowledge Maps (CKM): 73, Radio Environment Maps (REM): 192, Pathloss Prediction: 134, Spectrum Cartography: 73.
 <!-- AUTO:stats END -->
 
 ## Taxonomy
@@ -500,6 +500,7 @@ By subfield — Channel Knowledge Maps (CKM): 72, Radio Environment Maps (REM): 
 - [BeamCKMDiff: Beam-Aware Channel Knowledge Map Construction via Diffusion Transformer](https://arxiv.org/abs/2601.10207) — Le Zhao, Yining Wang, Xinyi Wang et al., 2026
 - [Data-Model Co-Driven Continuous Channel Map Construction: A Perceptive Foundation for Embodied Intelligent Agents in 6G Networks](https://arxiv.org/abs/2604.01060) — Tianrun Qi, Cheng-Xiang Wang, Chen-Yen Huang et al., 2026
 - [A Novel 6G Dynamic Channel Map Based on a Hybrid Channel Model](https://arxiv.org/abs/2604.15083) — Tianrun Qi, Chengxiang Wang, Chen-Yen Huang et al., 2026
+- [Polaronic hybridization of atoms, dimers and trimers in a Bose-Einstein condensate](https://arxiv.org/abs/2606.20440) — Carsten Robens, Arthur Christianen, Alexander Y. Chuang et al., 2026
 - [28 GHz Indoor Continuous-Space Channel Measurements and AI-Enabled 6G Channel Map Construction](https://doi.org/10.1109/tcomm.2026.3690362) — Tianrun Qi, Cheng-Xiang Wang, Chen-Yen Huang et al., 2026
 - [A Three-Stage Vision-Based Transformer for Channel Gain Map Construction](https://doi.org/10.1109/TCOMM.2026.3692110) — Tongyi Wei, Kun Tang, Hao Wu et al., 2026
 - [Channel Knowledge Map-Enabled 6D Movable Antenna Systems With Kinematic Constraints: A Manifold Optimization Approach](https://doi.org/10.1109/TWC.2025.3645480) — Nan Cheng, Shuangyu Yang, Ruijin Sun et al., 2026
