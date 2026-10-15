@@ -10,7 +10,7 @@
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-live-brightgreen)](https://dongyang26.github.io/awesome-radio-map-estimation/)
 [![Code License: MIT](https://img.shields.io/badge/Code%20License-MIT-blue.svg)](LICENSE)
 [![Data License: CC-BY-4.0](https://img.shields.io/badge/Data%20License-CC--BY--4.0-blue.svg)](LICENSE-DATA)
-![Papers](https://img.shields.io/badge/papers-392-informational)
+![Papers](https://img.shields.io/badge/papers-471-informational)
 <!-- AUTO:badges END -->
 
 [**Explore the interactive Research Map →**](https://dongyang26.github.io/awesome-radio-map-estimation/)
@@ -54,10 +54,10 @@ Four sub-families of the field are in scope:
 ## Statistics
 
 <!-- AUTO:stats START -->
-**392** papers · **4** subfields · **20** milestone papers
+**471** papers · **4** subfields · **20** milestone papers
 
 Coverage spans **1996–2026**.
-By subfield — Channel Knowledge Maps (CKM): 47, Radio Environment Maps (REM): 181, Pathloss Prediction: 127, Spectrum Cartography: 37.
+By subfield — Channel Knowledge Maps (CKM): 72, Radio Environment Maps (REM): 192, Pathloss Prediction: 134, Spectrum Cartography: 73.
 <!-- AUTO:stats END -->
 
 ## Taxonomy
@@ -88,6 +88,7 @@ By subfield — Channel Knowledge Maps (CKM): 47, Radio Environment Maps (REM): 
 ### Radio Environment Maps (REM)
 
 - [FM-RME: Foundation Model Empowered Radio Map Estimation](https://arxiv.org/abs/2602.22231) — Dong Yang, Yue Wang, Songyang Zhang et al., 2026 ⭐
+- [Why Channel-Centric Models are not Enough to Predict End-to-End Performance in Private 5G: A Measurement Campaign and Case Study](https://arxiv.org/abs/2603.08865) — N. Jørgensen, 2026
 - [A Tutorial on Learning-Based Radio Map Construction: Data, Paradigms, and Physics-Awareness](https://arxiv.org/abs/2603.17499) — Xiucheng Wang, Yuhao Pan, Nan Cheng, 2026
 - [DF-3DRME: A Data-Friendly Learning Framework for 3D Radio Map Estimation based on Super-Resolution Technique](https://arxiv.org/abs/2604.00676) — Lin Zhu, Weifeng Zhu, Shuowen Zhang et al., 2026
 - [Learned Elevation Models as a Lightweight Alternative to LiDAR for Radio Environment Map Estimation](https://arxiv.org/abs/2604.05520) — Ljupcho Milosheski, Fedja Movcnik, Mihael Mohorvcivc et al., 2026
@@ -107,6 +108,7 @@ By subfield — Channel Knowledge Maps (CKM): 47, Radio Environment Maps (REM): 
 - [ISAC-Enabled Grant-Free Uplink via Artificial-Path Delay Modulation](https://arxiv.org/abs/2605.31366) — Ruiqi Kong, He Chen, 2026
 - [Cooperative Uplink Channel Estimation in User-Centric Cell-free Massive MIMO Communication Networks](https://arxiv.org/abs/2605.31510) — Pourya Behmandpoor, Marc Moonen, 2026
 - [Distributionally Robust Physical-Layer Security for Satellite Communication via Aerial Reconfigurable Intelligent Surface](https://arxiv.org/abs/2605.31526) — Zhaole Wang, Xiao Tang, Naijin Liu et al., 2026
+- [Ultra-broadband Anti-Jamming Communication via a Rydberg Atomic Receiver](https://arxiv.org/abs/2606.14497) — Jia-Dou Nan, Jun-Rong Chen, Bang Liu et al., 2026
 - [Wireless Foundation Models: State-of-the-Art and Open Challenges](https://arxiv.org/abs/2609.04707) — Alonso M. Pacheco Huachaca, Juan J. Rodriguez Rodriguez, Ahmed Aboulfotouh et al., 2026
 - [A Data-Driven Transfer Learning Method for Indoor Radio Map Estimation](https://doi.org/10.1109/TVT.2025.3609207) — Rahul Kumar Jaiswal, Mohamed Elnourani, Siddharth Deshmukh et al., 2026
 - [Constructing 4D Radio Map in LEO Satellite Networks with Limited Samples](https://arxiv.org/abs/2501.02775) — Haoxuan Yuan, Zhe Chen, Zheng Lin et al., 2025
@@ -114,6 +116,7 @@ By subfield — Channel Knowledge Maps (CKM): 47, Radio Environment Maps (REM): 
 - [Trajectory Map-Matching in Urban Road Networks Based on RSS Measurements](https://arxiv.org/abs/2502.01280) — Zheng Xing, Weibing Zhao, 2025
 - [Channel Gain Map Construction Based on Subregional Learning and Prediction](https://arxiv.org/abs/2502.15733) — Jiayi Chen, Ruifeng Gao, Jue Wang et al., 2025
 - [Advancing THz Radio Map Construction and Obstacle Sensing: An Integrated Generative Framework in ISAC](https://arxiv.org/abs/2503.23055) — Tianyu Hu, Shuai-Han Wang, Yunhang Xie et al., 2025
+- [RadioDUN: A Physics-Inspired Deep Unfolding Network for Radio Map Estimation](https://arxiv.org/abs/2506.08418) — Taiqin Chen, Zikun Zhou, Zheng Fang et al., 2025
 - [Machine Learning based Radio Environment Map Estimation for Indoor Visible Light Communication](https://arxiv.org/abs/2507.19149) — Helena Serpi, C. Politi, 2025
 - [DT-Aided Resource Management in Spectrum Sharing Integrated Satellite-Terrestrial Networks](https://arxiv.org/abs/2507.20789) — Hung Nguyen-Kha, Vu Nguyen Ha, T. Nguyen et al., 2025
 - [PINN and GNN-based RF Map Construction for Wireless Communication Systems](https://arxiv.org/abs/2507.22513) — Lizhou Liu, Xiaohui Chen, Zihan Tang et al., 2025
@@ -134,12 +137,14 @@ By subfield — Channel Knowledge Maps (CKM): 47, Radio Environment Maps (REM): 
 - [Collaborative Spectrum Sensing for Multi-UAV System: A U-Net Approach With Uncertainty Awareness](https://doi.org/10.1109/TVT.2025.3566494) — Jie Shi, Jiaxin Wu, Jingzheng Chong et al., 2025
 - [Deep Learning for Radio Map Estimation in Wireless Communication Networks](https://doi.org/10.1145/3797161.3797212) — Haokai Zhang, Zhiyuan You, Jianmiao Liu et al., 2025
 - [FedRME: Importance-Aware Cooperative Radio Map Estimation Empowered by Vertical Federated Learning](https://doi.org/10.1109/ICCWorkshops67674.2025.11162141) — Hexuan Ma, Zezhong Zhang, Kai Chen et al., 2025
+- [GenRadio: A Generative Framework for Fine-Grained 3D Radio Map Estimation](https://doi.org/10.1109/VTC2025-Fall65116.2025.11309879) — Zhiyuan Liu, Qingyu Liu, Shuhang Zhang et al., 2025
 - [Grid-Free Radio Map Estimation via Unsupervised Implicit Continuous Representation](https://doi.org/10.1109/LSP.2025.3601038) — Xiaonan Chen, Jun Wang, 2025
 - [Bayesian Radio Map Estimation: Fundamentals and Implementation via Diffusion Models](https://doi.org/10.48550/arXiv.2502.09998) — Tien Ngoc Ha, Daniel Romero, 2025
 - [Leveraging Transfer Learning for Radio Map Estimation via Mixture of Experts](https://doi.org/10.1109/TCCN.2025.3570469) — Rahul Kumar Jaiswal, Mohamed Elnourani, Siddharth Deshmukh et al., 2025
 - [Land Feature Aware Radio Environment Map Construction using Radio Oriented Heterogeneous Multitask Gaussian Process](https://doi.org/10.1109/GLOBECOM59602.2025.11432161) — Haoxian Liu, Kai Chen, Zezhong Zhang et al., 2025
 - [Paying Deformable Attention to Sparse Spatial Observations for Deep Radio Map Estimation](https://github.com/AkonLau/DAT-Unet) — Kangjun Liu, Chunyan Qiu, Ke Chen et al., 2025
 - [MAE-Based Radio Map Construction for Wi-Fi Fingerprint Indoor Localization](https://doi.org/10.1109/LCOMM.2025.3582075) — Yishuo Cheng, Liye Zhang, 2025
+- [MFFGCN: Multimodal Feature Fusion Graph Convolution Network for Radio Map Estimation With Uneven Spatial Sampling](https://doi.org/10.1109/TMC.2025.3590335) — Han Zhang, Yu Han, Lingxin Meng et al., 2025
 - [MoDeFA: Multiobserver and Denoising-Enhanced Fingerprint Augmentation for Semi-Supervised Wi-Fi RSS-Based Indoor Positioning](https://doi.org/10.1109/JIOT.2025.3573967) — Tian-Jie Xiang, Yuanjiang Sun, Gang Shen, 2025
 - [Movable Access Point-Aided Integrated Visible Light Communication and Sensing Networks](https://doi.org/10.1109/LWC.2024.3521192) — Zohaib Saghir, Sylvester B. Aboagye, 2025
 - [Novel Radio Environment Map Construction Scheme for 3-D and Full Band for Modern Internet of Things Applications](https://doi.org/10.1109/JIOT.2024.3520611) — Shoubin Zhang, Zhimeng Li, Haojin Li et al., 2025
@@ -183,11 +188,13 @@ By subfield — Channel Knowledge Maps (CKM): 47, Radio Environment Maps (REM): 
 - [UAV-Aided 3D Building Map Reconstruction from RSS Measurements: A Diffraction-Based Approach](https://doi.org/10.1109/ICET61945.2024.10672783) — Zhiqiang Tan, Yuanhao Jiang, Limin Xiao et al., 2024
 - [Neural Representation for Wireless Radiation Field Reconstruction: A 3D Gaussian Splatting Approach](https://github.com/wenchaozheng/WRF-GSplus) — Chaozheng Wen, Jingwen Tong, Yingdong Hu et al., 2024
 - [UAV-Aided Radio Map Construction Exploiting Environment Semantics](https://arxiv.org/abs/2107.10574) — Wenjie Liu, Junting Chen, 2023
+- [White Paper on Radio Channel Modeling and Prediction to Support Future Environment-aware Wireless Communication Systems](https://arxiv.org/abs/2309.17088) — M. Boban, V. Degli‐Esposti, 2023
 - [3D Radio Map Reconstruction Based on Generative Adversarial Networks Under Constrained Aircraft Trajectories](https://doi.org/10.1109/TVT.2023.3239556) — Tianyu Hu, Yang Huang, Junting Chen et al., 2023
 - [Analytical Performance Bounds for Radio Map Estimation](https://doi.org/10.1109/VTC2024-Spring62846.2024.10683442) — Daniel Romero, Tien Ngoc Ha, Raju Shrestha et al., 2023
 - [Automatic Indoor Radio Map Construction and Localization via Multipath Fingerprint Extrapolation](https://doi.org/10.1109/TWC.2023.3237359) — Qiao Li, Xuewen Liao, Ang Li et al., 2023
 - [Blockage-Aware Radio Map Construction via Exploiting the Diffraction and Obstruction Structure](https://doi.org/10.1109/GLOBECOM54140.2023.10437033) — Wangqian Chen, Junting Chen, 2023
 - [DeepREM: Deep-Learning-Based Radio Environment Map Estimation From Sparse Measurements](https://ieeexplore.ieee.org/ielx7/6287639/10005208/10127968.pdf) — Andrea Cháves-Villota, Carlos A. Viteri-Mera, 2023
+- [Height Pattern Estimation Method Using the Combination of Radio Map and 3D Map for Spectrum Sharing](https://doi.org/10.1109/ICOIN56518.2023.10048945) — Sunao Miyamoto, S. Yamada, T. Fujii, 2023
 - [IndoorRSSINet - Deep learning based 2D RSSI map prediction for indoor environments with application to wireless localization](https://doi.org/10.1109/COMSNETS56262.2023.10041394) — N. Raj, V. B. S., 2023
 - [Location-free Indoor Radio Map Estimation using Transfer learning](https://doi.org/10.1109/VTC2023-Spring57618.2023.10200979) — R. Jaiswal, Mohamed Elnourani, Siddharth Deshmukh et al., 2023
 - [Observation Data and 3D Map-based Radio Environment Estimation for Drone Wireless Communications](https://doi.org/10.1109/ICUFN57995.2023.10199770) — S. Yamada, T. Fujii, Katsuya Suto et al., 2023
@@ -213,6 +220,8 @@ By subfield — Channel Knowledge Maps (CKM): 47, Radio Environment Maps (REM): 
 - [Graph Laplacian-Based Sequential Smooth Estimator for Three-Dimensional RSS Map](https://doi.org/10.1587/TRANSCOM.2020CQP0003) — T. Matsuda, F. Ono, S. Hara, 2021
 - [Space-Frequency-Interpolated Radio Map](https://ieeexplore.ieee.org/ielx7/25/9353678/09316892.pdf) — Koya Sato, Katsuya Suto, Kei Inage et al., 2021
 - [Wireless Signal Propagation Prediction Based on Computer Vision Sensing Technology for Forestry Security Monitoring](https://www.mdpi.com/1424-8220/21/17/5688/pdf?version=1629799914) — Jialuan He, Zirui Xing, Tianqi Xiang et al., 2021
+- [Aerial Spectrum Surveying: Radio Map Estimation with Autonomous UAVs](https://arxiv.org/abs/2005.02432) — Daniel Romero, Raj K. Shrestha, Yves Teganya et al., 2020
+- [Deep Completion Autoencoders for Radio Map Estimation](https://arxiv.org/abs/2005.05964) — Yves Teganya, Daniel Romero, 2020
 - [Radio Environment Maps for Dynamic Frequency Selection in V2X Communications](https://arxiv.org/abs/2203.11604) — Paweł Sroka, P. Kryszkiewicz, Adrian Kliks, 2020
 - [Algorithm for Electromagnetic Power Estimation in Radio Environment Map](https://doi.org/10.14445/23488549/ijece-v7i5p108) — Tilal Elsheikh Ahmed Osman, Osman Mudathir Elfadil, 2020
 - [Design of Optimal Non-Uniform Quantizer in Imperfect Noisy Reporting Channels for Collaborative Spectrum Sensing](https://doi.org/10.1109/TVT.2020.3015219) — Masoumeh Naderipour, Amirhossein Taherpour, Abbas Taherpour et al., 2020
@@ -241,6 +250,7 @@ By subfield — Channel Knowledge Maps (CKM): 47, Radio Environment Maps (REM): 
 - [Radio Environment Map-Aided Doppler Shift Estimation in LTE Railway](https://doi.org/10.1109/TVT.2016.2599558) — Zhanwei Hou, Yiqing Zhou, Lin Tian et al., 2017
 - [Radio Environment Map Estimation Based on Communication Cost Modeling for Heterogeneous Networks](https://roderic.uv.es/bitstreams/532899d7-3982-4eaf-a170-5f6bf3f5076d/download) — Fabiola Frantzis, Vinay-Prasad Chowdappa, C. Botella et al., 2017
 - [Space-time correlation based fast regional spectrum sensing in cognitive radio](https://doi.org/10.1109/CC.2017.7942316) — Sai Huang, Yuanyuan Yao, Zhiyong Feng et al., 2017
+- Large Scale FM Signal Strength Map Estimation For Passive Approximate Localization — Tathagata Mukherjee, 2016
 - [SNR Degradation in GNSS-R Measurements Under the Effects of Radio-Frequency Interference](https://upcommons.upc.edu/bitstream/2117/102031/1/JSTARS15_vF.C.pdf) — J. Querol, Alberto Alonso Arroyo, Raul Onrubia Ibáñez et al., 2016
 - [Spectrum sensing experimentation for LTE and WiFi unlicensed band operation](https://scindeks-clanci.ceon.rs/data/pdf/1821-3251/2016/1821-32511602076M.pdf) — N. Milosevic, Z. Nikolic, F. Jelenkovic et al., 2016
 - [A Centralized PSD Map Construction by Distributed Compressive Sensing](https://doi.org/10.1109/LCOMM.2015.2391265) — M. Eslami, F. Torkamani-Azar, E. Mehrshahi, 2015
@@ -265,54 +275,93 @@ By subfield — Channel Knowledge Maps (CKM): 47, Radio Environment Maps (REM): 
 - Cooperative spectrum sensing and radio environment map construction in cognitive radio networks (Bilişsel radyo ağlarında işbirlikçi spektrum algılama ve frekans haritası oluşturma) — Huseyin Birkan Yilmaz, 2012
 - [Efficient training for fingerprint based positioning using matrix completion](https://doi.org/10.5281/ZENODO.43028) — Sofia Nikitaki, G. Tsagkatakis, P. Tsakalides, 2012
 - [Reconstruction of radio map from sparse RSS data by discontinuity preserving smoothing](https://doi.org/10.1145/2401603.2401653) — Wonsun Bong, Y. C. Kim, 2012
+- A Cooperative Spectrum Sensing Algorithm Based on Progressive MAP Estimation — Guo Yin-jing, 2011
 - [Cooperative Spectrum Sensing with a Progressive MAP Detection Algorithm](https://doi.org/10.1109/GLOCOM.2011.6134258) — Guoqing Zhou, Jingxian Wu, K. Sohraby, 2011
 - [Dynamic Radio Map Construction for WLAN Indoor Location](https://doi.org/10.1109/IHMSC.2011.110) — Huimin Wang, Lin Ma, Yubin Xu et al., 2011
 - [Approximate Calibration-Free Trajectory Reconstruction in a Wireless Network](https://doi.org/10.1109/TSP.2008.919090) — A. Almudevar, 2008
 
 ### Spectrum Cartography
 
+- [Learning-Based Spectrum Cartography in Low Earth Orbit Satellite Networks: An Overview](https://arxiv.org/abs/2605.10359) — Liping Tao, Xindi Tong, Chee Wei Tan, 2026
+- [Compressed Spectrum Cartography: Estimating Wide-Band Channel Gain Maps from Sub-Nyquist Delay Correlations](https://doi.org/10.1109/icassp55912.2026.11462622) — Xiaonan Chen, Jun Wang, Lichu Gan, 2026
+- [Low-Rank Tensors and 3DTV Minimization Based Spectrum Cartography](https://doi.org/10.1109/TNSE.2026.3669372) — Xin Wang, Bin Shen, Xiaoge Huang et al., 2026
 - [Accelerating Regularized Attention Kernel Regression for Spectrum Cartography](https://doi.org/10.48550/arXiv.tao-laker-2026) — Liping Tao, Chee Wei Tan, 2026
+- [Unbalanced Spectrum Tensor-Based Multi-Band 3D Spectrum Cartography](https://doi.org/10.1109/TCOMM.2025.3637026) — Xin Wang, Bin Shen, Xiaoge Huang et al., 2026
+- [Radio Map Estimation via Latent Domain Plug-and-Play Denoising](https://arxiv.org/abs/2501.13472) — Le Xu, Lei Cheng, Junting Chen et al., 2025
+- [DULRTC-RME: A Deep Unrolled Low-rank Tensor Completion Network for Radio Map Estimation](https://arxiv.org/abs/2502.04796) — Yao Wang, Xin Wu, Lianming Xu et al., 2025
+- [Generative Spectrum Cartography: Unified Reconstruction and Active Sensing via Diffusion Models](https://arxiv.org/abs/2512.20108) — Yuntong Gu, Xiangming Meng, Zhi-Chien Lin et al., 2025
 - [Sensing Radio Maps via Bayesian Tensor Learning](https://doi.org/10.1109/ICC52391.2025.11161174) — Zhongtao Chen, Lei Cheng, Yik-Chung Wu, 2025
 - [GPRT: A Gaussian Process Regression-Based Radio Map Construction Method for Rugged Terrain](https://doi.org/10.1109/JIOT.2025.3554507) — Guokai Chen, Yongxiang Liu, Jianzhao Zhang et al., 2025
 - [Dynamic Spectrum Cartography: Reconstructing Spatial-Spectral-Temporal Radio Frequency Map via Tensor Completion](https://doi.org/10.1109/TSP.2025.3531872) — Xiaonan Chen, Jun Wang, Qingyang Huang, 2025
 - [SC-GAN: A Spectrum Cartography with Satellite Internet Based on Pix2Pix Generative Adversarial Network](https://doi.org/10.23919/JCC.fa.2024-0269.202502) — Zhiqiang Pan, Bangning Zhang, Wang Heng et al., 2025
+- [Spectrum Cartography Network with Frequency-Spatial Attention Module](https://doi.org/10.1109/ICICC66840.2025.11199655) — Yuhao Bian, Jinghong Sun, Wenbin Guo, 2025
 - [Domain-Factored Untrained Deep Prior for Spectrum Cartography](https://doi.org/10.1109/LSP.2025.3599714) — Subash Timilsina, Sagar Shrestha, Lei Cheng et al., 2025
 - [Radio Environment Map Reconstruction via Tensor Completion: Bayesian and Semantic Approaches](https://doi.org/10.1109/TVT.2025.3531124) — Xuegang Wang, Fanggang Wang, Boxiang He, 2025
 - [Temporal Spectrum Cartography in Low-Altitude Economy Networks: A Generative AI Framework With Multi-Agent Learning](https://doi.org/10.1109/TMC.2025.3647029) — Changyuan Zhao, Ruichen Zhang, Jiacheng Wang et al., 2025
+- [3D spectrum mapping and reconstruction under multi-radiation source scenarios](https://arxiv.org/abs/2403.08513) — Wang Jie, Zhipeng Lin, Qiuming Zhu et al., 2024
 - [GLIP: Electromagnetic Field Exposure Map Completion by Deep Generative Networks](https://arxiv.org/abs/2405.03384) — Mohammed Mallik, D. Gaillot, Laurent Clavier, 2024
 - [A Spectrum Map Prediction Approach Based on](https://doi.org/10.1109/ICTC61510.2024.10602089) — Shoushuai He, Lei Zhu, Lu Yu et al., 2024
 - [Dynamic Spectrum Cartography via Emitter Separation-Based Tensor Completion](https://doi.org/10.1109/ICC51166.2024.10622998) — Xiaonan Chen, Jun Wang, 2024
 - [Fast 3-D Radio Map Reconstruction via Cross Tensor Approximation](https://doi.org/10.1109/JIOT.2024.3454817) — Chunmei Li, Z. Dou, Yun Lin, 2024
+- [Joint Spectrum Cartography and Prediction via Tensor-Structural Self-Supervised Regularization](https://doi.org/10.1109/GLOBECOM52923.2024.10901360) — Xiaonan Chen, Jun Wang, Qingyang Huang, 2024
 - [Infinite Limits of Convolutional Neural Network for Urban Electromagnetic Field Exposure Reconstruction](https://doi.org/10.1109/ACCESS.2024.3380835) — Mohammed Mallik, Baptiste Allaert, Esteban Egea-Lopez et al., 2024
 - [3D Spectrum Awareness for Radio Dynamic Zones Using Kriging and Matrix Completion](https://doi.org/10.1109/DySPAN60163.2024.10632739) — Mushfiqur Rahman, Seungmo Maeng, Ismail Guvenc et al., 2024
 - [Tensor-Based Parametric Spectrum Cartography From Irregular Off-Grid Samplings](https://doi.org/10.1109/LSP.2023.3257723) — Xiaonan Chen, Jun Wang, Guoyong Zhang et al., 2023
+- [Deep Spectrum Cartography Using Quantized Measurements](https://doi.org/10.1109/icassp49357.2023.10096058) — Subash Timilsina, S. Shrestha, Xiao Fu, 2023
 - [TRASC: Tensor-Based Radio Spectrum Cartography Using Plate Splines and Tensor CP Decomposition](https://doi.org/10.1109/FNWF58287.2023.10520367) — Mohsen Joneidi, Nazanin Rahnavard, Faramarz Hejazi, 2023
 - [Kriging-Based 3-D Spectrum Awareness for Radio Dynamic Zones Using Aerial Spectrum Sensors](https://arxiv.org/abs/2307.06310) — Seungmo Maeng, Ozgur Ozdemir, Ismail Guvenc et al., 2023
+- [Mesh-Grid-Free Spectrum Cartography via Non-negative Matrix Factorization Assisted Localization](https://doi.org/10.1109/VTC2023-Fall60731.2023.10333469) — Xiaonan Chen, Jun Wang, 2023
+- [Spectrum cartography based on dynamic compressed sensing by using multiple domains information](https://ieeexplore.ieee.org/ielx7/5449605/10251734/10251736.pdf) — Haiyang Xia, Song Zha, Jijun Huang et al., 2023
 - [Quantized Radio Map Estimation Using Tensor and Deep Generative Models](https://arxiv.org/abs/2303.01770) — Subash Timilsina, Sagar Shrestha, Xiao Fu, 2023
+- [UAV Trajectory Optimization for Spectrum Cartography: A PPO Approach](https://doi.org/10.1109/LCOMM.2023.3265214) — Li Li, W. Li, Jun Wang et al., 2023
+- [Wide-Area Spectrum Cartography](https://doi.org/10.1109/USNC-URSI52151.2023.10237752) — Charles R. Dietlein, 2023
+- [A Constrained Block-Term Tensor Decomposition Framework for Spectrum Cartography](https://doi.org/10.1109/lsp.2022.3193036) — Xiaonan Chen, Jun Wang, Qihang Peng et al., 2022
 - [Radio Map Estimation: A data-driven approach to spectrum cartography](https://arxiv.org/abs/2202.03269) — Daniel Romero, Seung-Jun Kim, 2022 ⭐
+- [Spectrum Map Construction Based on Optimized Sensor Selection and Adaptive Kriging Model](https://doi.org/10.13164/re.2022.0422) — Z. Ding, J. Zhang, Y. Liu et al., 2022
 - [UAV-Based Volumetric Measurements toward Radio Environment Map Construction and Analysis](https://www.mdpi.com/1424-8220/22/24/9705/pdf?version=1671175849) — Antoni Ivanov, Bilal Muhammad, Krasimir Tonchev et al., 2022
+- [Distributed Spectrum Cartography for Cognitive Radio Network with Convex Optimization](https://doi.org/10.1109/YAC53711.2021.9486622) — Zhanglin Chen, Chaoyong Li, 2021
+- [Dynamic spectrum cartography via canonical polyadic tensor decomposition](https://doi.org/10.1016/J.SIGPRO.2021.108208) — Guoyong Zhang, Jun Wang, Qihang Peng et al., 2021
 - [Deep Generative Model Learning for Blind Spectrum Cartography with NMF-Based Radio Map Disaggregation](https://doi.org/10.1109/ICASSP39728.2021.9413382) — Subash Shrestha, Xiao Fu, Min-Fong Hong, 2021
 - [Deep Spectrum Cartography: Completing Radio Map Tensors Using Learned Neural Models](https://doi.org/10.1109/tsp.2022.3145190) — Subash Shrestha, Xiao Fu, Min-Fong Hong, 2021 ⭐
+- [Spectrum cartography techniques, challenges, opportunities, and applications: A survey](https://doi.org/10.1016/j.pmcj.2021.101511) — Yeduri Sreenivasa Reddy, Abhinav Kumar, O. Pandey et al., 2021
+- [Tensor Completion for Dynamic Spectrum Cartography by Canonical Polyadic Decomposition](https://doi.org/10.1109/ICC42927.2021.9500272) — Guoyong Zhang, Jun Wang, Qihang Peng et al., 2021
 - [Location Based Joint Spectrum Sensing and Radio Resource Allocation in Cognitive Radio Enabled LTE-U Systems](https://doi.org/10.1109/TVT.2020.2966514) — Qi Yang, Yi-Feng Huang, Yin-Chen Yen et al., 2020
+- [Spectrum Cartography Using the Variational Bayesian EM Algorithm](https://doi.org/10.1109/WCSP49889.2020.9299749) — Guoyong Zhang, Jun Wang, Xiaonan Chen et al., 2020
+- [Coupled Block-term Tensor Decomposition Based Blind Spectrum Cartography](https://doi.org/10.1109/IEEECONF44664.2019.9048667) — Guoyong Zhang, Xiao Fu, Jun Wang et al., 2019
 - [Spectrum Cartography via Coupled Block-Term Tensor Decomposition](https://doi.org/10.1109/tsp.2020.2993530) — Guoyong Zhang, Xiao Fu, Jun Wang et al., 2019 ⭐
 - [Data-Driven Spectrum Cartography via Deep Completion Autoencoders](http://arxiv.org/pdf/1911.12810) — Yves Teganya, Daniel Romero, 2019 ⭐
+- [Compressive Multispectral Spectrum Sensing for Spectrum Cartography](https://www.mdpi.com/1424-8220/18/2/387/pdf?version=1517223570) — Jeison Marin, J. I. M. Torre, H. Arguello et al., 2018
 - [Predictive spectrum occupancy probability‐based spatio‐temporal dynamic channel allocation map for future cognitive wireless networks](https://doi.org/10.1002/ett.3442) — Anirudh Agarwal, R. Gangopadhyay, 2018
 - [Location-Free Spectrum Cartography](https://arxiv.org/abs/1812.11539) — Yves Teganya, Daniel Romero, Luis Miguel Lopez Ramos et al., 2018
+- [Experimental validation for spectrum cartography using adaptive multi-kernels](https://uia.brage.unit.no/uia-xmlui/bitstream/11250/2492747/1/ExpVal2_copyrightieee.pdf) — Henning Idsøe, Mohamed Hamid, Linga Reddy Cenkeramaddi et al., 2017
+- [Non-parametric spectrum cartography using adaptive radial basis functions](https://doi.org/10.1109/ICASSP.2017.7952827) — Mohamed Hamid, B. Beferull-Lozano, 2017
 - [Spectrally Efficient Data-Adaptive Spectrum Cartography](https://doi.org/10.1109/TSP.2017.2659650) — Daniel Romero, Seung-Jun Kim, Georgios B. Giannakis et al., 2017 ⭐
+- Spectrum Cartography using Adaptive Multi-kernels – Experimental validation — Henning Idsøe, 2017
+- [Spectrum cartography using adaptive radial basis functions: Experimental validation](https://doi.org/10.1109/SPAWC.2017.8227752) — Henning Idsøe, Mohamed Hamid, Thomas Jordbru et al., 2017
+- [Practical Interpolation for Spectrum Cartography through Local Path Loss Modeling](https://arxiv.org/abs/1611.03725) — S. Sagari, L. Greenstein, W. Trappe, 2016
 - [A Joint Tensor Completion and Prediction Scheme for Multi-Dimensional Spectrum Map Construction](https://ieeexplore.ieee.org/ielx7/6287639/7419931/07742926.pdf) — Mengyun Tang, Guoru Ding, Qihui Wu et al., 2016
 - [Multi-dimensional spectrum map construction: A tensor perspective](https://doi.org/10.1109/WCSP.2016.7752600) — Mengyun Tang, Guoru Ding, Zhen Xue et al., 2016
+- [Reconstruction of a Gaussian random field with application to spectrum cartography](https://doi.org/10.1109/ICC.2016.7511545) — Geethu Joseph, C. Murthy, 2016
+- [Online spectrum cartography via quantized measurements](https://doi.org/10.1109/CISS.2015.7086874) — Daniel Romero, Seung-Jun Kim, G. Giannakis, 2015
 - [Spectrum Cartography Using Quantized Observations](https://doi.org/10.1109/ICASSP.2015.7178572) — Daniel Romero, Seung-Jun Kim, Roberto Lopez-Valcarce et al., 2015
 - [Stochastic Semiparametric Regression for Spectrum Cartography](https://doi.org/10.1109/CAMSAP.2015.7383849) — Daniel Romero, Seung-Jun Kim, Georgios B. Giannakis, 2015
+- [Iteratively reweighted compressive sensing based algorithm for spectrum cartography in cognitive radio networks](https://opus.lib.uts.edu.au/bitstream/10453/43521/4/Iteratively%20Reweighted%20Compressive%20Sensing%20Based%20Algorithm%20for%20Spectrum%20Cartography%20in%20Cognitive%20Radio%20Networks.pdf) — B. Jayawickrama, E. Dutkiewicz, I. Oppermann et al., 2014
+- [Downlink power allocation algorithm for licence-exempt LTE systems using Kriging and Compressive Sensing based spectrum cartography](https://doi.org/10.1109/GLOCOM.2013.6831659) — B. Jayawickrama, E. Dutkiewicz, Gengfa Fang et al., 2013
+- [Improved performance of spectrum cartography based on compressive sensing in cognitive radio networks](https://doi.org/10.1109/ICC.2013.6655495) — B. Jayawickrama, E. Dutkiewicz, I. Oppermann et al., 2013
 - [Wireless Sensor Network for Spectrum Cartography Based on Kriging Interpolation](https://doi.org/10.1109/PIMRC.2012.6362597) — Gabriele Boccolini, Gustavo Hernandez-Penaloza, Baltasar Beferull-Lozano, 2012
+- [Basis pursuit for spectrum cartography](https://doi.org/10.1109/ICASSP.2011.5946287) — J. Bazerque, G. Mateos, G. Giannakis, 2011
 - [Compressed Sensing Construction of Spectrum Map for Routing in Cognitive Radio Networks](https://doi.org/10.1002/wcm.2338) — Sung-Yin Shih, Kwang-Cheng Chen, 2011
 - [Distributed Spectrum Sensing for Cognitive Radio Networks by Exploiting Sparsity](https://doi.org/10.1109/TSP.2009.2038417) — Juan Andres Bazerque, Georgios B. Giannakis, 2010 ⭐
 - [Group-Lasso on Splines for Spectrum Cartography](http://arxiv.org/pdf/1010.0274) — Juan Andres Bazerque, Gonzalo Mateos, Georgios B. Giannakis, 2010 ⭐
+- [Spline-based spectrum cartography for cognitive radios](https://doi.org/10.1109/ACSSC.2009.5470044) — G. Mateos, J. Bazerque, G. Giannakis, 2009
 - [Informed Spectrum Usage in Cognitive Radio Networks: Interference Cartography](https://doi.org/10.1109/PIMRC.2008.4699911) — Afef Ben Hadj Alaya-Feki, Sana Ben Jemaa, Berna Sayrac et al., 2008 ⭐
 
 ### Pathloss Prediction
 
+- [Environment-Aware Channel Prediction for Vehicular Communications: A Multimodal Visual Feature Fusion Framework](https://arxiv.org/abs/2604.02396) — Xuejian Zhang, Ruisi He, Minseok Kim et al., 2026
 - [R$^{2}$Net: 2D Deep Residual Learning with Height Embedding for 3D Radio Map Estimation](https://arxiv.org/abs/2605.18127) — Huiting Rao, Junyuan Wang, Huiling Zhu et al., 2026
 - [A Machine Learning Framework for Large-Scale Static Wireless Mesh Networks](https://arxiv.org/abs/2605.23811) — Julia Andrusenko, 2026
+- [Simulation-Driven Ensemble Machine Learning for Robust and Generalizable Path Loss Prediction](https://arxiv.org/abs/2605.24655) — Ahmed P. Mohamed, Byunghyun Lee, Yaguang Zhang et al., 2026
 - [Perceptual-Quality based AMC for Enhanced mmWave Spectral Efficiency: Concept and Experiment](https://arxiv.org/abs/2605.31499) — Kıvanç Değirmenci, Hasan Atalay Günel, Mohaned Chraiti et al., 2026
 - [A physics-informed machine-learning model for wireless signal path loss prediction in underground infrastructure monitoring](https://doi.org/10.1016/j.tust.2026.107776) — Shuang Nie, Fei Wang, Qunfang Hu et al., 2026
 - [A two-stage machine learning approach to path loss prediction at 5.9 GHz: benchmarking empirical and data-driven models for V2V highway scenarios](https://doi.org/10.1007/s12243-026-01178-5) — H. Fhima, H. Zormati, J. Chebil et al., 2026
@@ -324,16 +373,19 @@ By subfield — Channel Knowledge Maps (CKM): 47, Radio Environment Maps (REM): 
 - [Model-Aided Learning for Sparse Received Signal Strength Indicator Radio Map Prediction and Wireless Signal Management in Internet of Things Environments](https://doi.org/10.1109/access.2026.3717372) — Ming-Kun Lu, A. Taparugssanagorn, 2026
 - [On the Effectiveness of Radio Environmental Map Prediction Through Image-Based Deep Learning](https://doi.org/10.1109/tap.2026.3676109) — Mohammad Hossein Zadeh, M. Barbiroli, E. Vitucci et al., 2026
 - [Path loss prediction for V2V communication using an advanced hybrid machine learning model based on real measurements](https://doi.org/10.1088/2631-8695/ae5e1f) — H. Zormati, J. Chebil, Jamel Bel Hadj Taher, 2026
+- [Path Loss Prediction in Dense WSN–IoT Networks with Machine Learning Techniques Across Diverse Terrains for Energy-Efficient Connectivity](https://doi.org/10.3390/electronics15112350) — G. Papastergiou, A. Xenakis, Dimitrios Kosmanos et al., 2026
 - [RadioYNet: Efficient 3-D Path Loss Map Prediction With Height-Aware Feature Fusion](https://doi.org/10.1109/LAWP.2026.3693859) — Chengkai Liu, Guo Xia, Zeyu Cui et al., 2026
 - [REM-Net+: Quantified 3D Radio Environment Map Construction Guided by Radio Propagation Model](https://doi.org/10.1109/TVT.2025.3623917) — Qi Chen, Ming Huang, Jingjing Yang, 2026
 - [Investigating Map-Based Path Loss Models: A Study of Feature Representations in Convolutional Neural Networks](https://arxiv.org/abs/2501.07534) — Ryan G. Dempsey, Jonathan Ethier, H. Yanikomeroglu, 2025
 - [TransPathNet: A Novel Two-Stage Framework for Indoor Radio Map Prediction](https://arxiv.org/abs/2501.16023) — Xin Li, Ran Liu, Saihua Xu et al., 2025
+- [Reciprocity-Aware Convolutional Neural Networks for Map-Based Path Loss Prediction](https://arxiv.org/abs/2504.03625) — Ryan G. Dempsey, Jonathan Ethier, H. Yanikomeroglu, 2025
 - [RadioDiff-Inverse: Diffusion Enhanced Bayesian Inverse Estimation for ISAC Radio Map Construction](https://arxiv.org/abs/2504.14298) — Xiucheng Wang, Zhongsheng Fang, Nan Cheng et al., 2025
 - [RadioDiff-3D: A 3D× 3D Radio Map Dataset and Generative Diffusion Based Benchmark for 6G Environment-Aware Communication](https://arxiv.org/abs/2507.12166) — Xiucheng Wang, Qiming Zhang, Nan Cheng et al., 2025
 - [A Multi-Scale Feature Extraction and Fusion U-Net for Pathloss Prediction in UAV-Assisted mmWave Radio Networks](https://arxiv.org/abs/2509.09606) — Sajjad Hussain, 2025
 - [Machine Learning-based Path Loss Prediction in Suburban Environment in the Sub-6 GHz Band](https://arxiv.org/abs/2510.00696) — Ferdaous Tarhouni, M. Alzubi, M. Alouini, 2025
 - [LLM4PG: Adapting Large Language Model for Pathloss Map Generation via Synesthesia of Machines](https://arxiv.org/abs/2511.02423) — Mingran Sun, Lu Bai, Xiang Cheng et al., 2025
 - [WiCo-PG: Wireless Channel Foundation Model for Pathloss Map Generation via Synesthesia of Machines](https://arxiv.org/abs/2511.15030) — Mingran Sun, Lu Bai, Ziwei Huang et al., 2025
+- [Spatially Consistent Air-to-Ground Channel Modeling and Simulation via 3D Shadow Projections](https://arxiv.org/abs/2511.15412) — Evgenii Vinogradov, Aymen Fakhreddine, Abdul Saboor et al., 2025
 - [3D Urban Radio Map Estimation Based on UAV Sparse Measurement Data](https://doi.org/10.1109/ICCC68654.2025.11437905) — Wenqiang Chen, Xinwei Chen, Xiaofeng Zhong et al., 2025
 - [A comparative analysis of machine learning models based on weighted input parameters for V2V path loss prediction in highway, rural, suburban, and urban environments](https://doi.org/10.1016/j.compeleceng.2025.110722) — N. Sağır, Zeynep Hasırcı Tuğcu, 2025
 - [A deep-learning-based reconstruction method for 3D low-altitude propagation fields](https://doi.org/10.1117/12.3083929) — Chen Liang, Tianqi Xiang, Ya Liu et al., 2025
@@ -365,6 +417,7 @@ By subfield — Channel Knowledge Maps (CKM): 47, Radio Environment Maps (REM): 
 - [SamplerUNet: Data Efficient Pathloss Map Prediction](https://doi.org/10.1109/IEEECONF67917.2025.11443800) — Omer Gokalp Serbetci, Pradeep Mahtiyarasu, A. Molisch, 2025
 - [SIP2Net: Situational-Aware Indoor Pathloss-Map Prediction Network for Radio Map Generation](https://doi.org/10.1109/ICASSP49660.2025.10890319) — Wenlihan Lu, Ziyi Lu, Jia Yan et al., 2025
 - [Enhancing Pathloss Estimation with Vision Transformers and Direct Wave Power Integration](https://doi.org/10.23919/eusipco63237.2025.11226433) — Yuuki Tachioka, 2025
+- [Terrain-Aware Image Transmission System for Lunar IoT Networks: A Multipriority Robust RaptorQ Coding Approach](https://doi.org/10.1109/JIOT.2025.3596290) — Yaonan Wu, Shushi Gu, Yuanjian Lin et al., 2025
 - [U-Net Based Indoor Radio Map Prediction Under Sparse Sampling](https://doi.org/10.1109/MLSP62443.2025.11204227) — Tianxiang Xing, Leyi Zou, Tejas Bharadwaj et al., 2025
 - [U-Net for Indoor Pathloss Prediction from Sparse Measurements with Physics-Based Features](https://doi.org/10.1109/MLSP62443.2025.11204276) — K. Petrosyan, Rafayel Mkrtchyan, Hrant Khachatrian et al., 2025
 - [The Sampling-Assisted Pathloss Radio Map Prediction Competition](https://doi.org/10.1109/MLSP62443.2025.11204278) — Çagkan Yapar, Stefanos Bakirtzis, Andra Lutu et al., 2025
@@ -375,6 +428,7 @@ By subfield — Channel Knowledge Maps (CKM): 47, Radio Environment Maps (REM): 
 - [A Machine Learning Approach for Path Loss Prediction Using Combination of Regression and Classification Models](https://doi.org/10.3390/s24175855) — I. Iliev, Y. Velchev, Peter Z. Petkov et al., 2024
 - [A Machine Learning Approach for the Prediction of Indoor Propagation Path-Loss in the Tera-Hertz Bands](https://doi.org/10.1109/access.2024.3472549) — Nagma Elburki, Affes Sofiéne, 2024
 - [ANALYSIS OF 5G CELLULAR TECHNOLOGY PATHLOSS PREDICTION ON MICRO URBAN CELLS USING ABG PREDICTION MODEL IN PONTIANAK CITY](https://jurnal.untan.ac.id/index.php/TELECTRICAL/article/download/69802/pdf) — Alfodaniel Theodorus Barahama, Fitri Imansyah, Eka Kusumawardhani, 2024
+- [Bayesian Active Learning for Sample Efficient 5G Radio Map Reconstruction](https://doi.org/10.1109/TWC.2024.3483112) — Konstantinos D. Polyzos, A. Sadeghi, Wei Ye et al., 2024
 - [Comparing Exponential Decay Models for Path Loss Prediction at 5.8 GHz Using Machine Learning Techniques](https://doi.org/10.1109/LACAP63752.2024.10876251) — Leoni Marti Miranda Saravia, Alejandro Rommel Miranda Saravia, Marcelo Molina Silva et al., 2024
 - [Comparison of Machine Learning Algorithms for Propagation Path Loss Prediction Using Ray Tracing Data](https://doi.org/10.1109/ICTC62082.2024.10826992) — Chaewon Yoon, Junseok Kim, Hyuk-Je Kim et al., 2024
 - [Enhanced Path Loss Prediction Using Machine Learning and Modified COST-Hata Model for High-Frequency Wireless Networks](https://doi.org/10.52783/jes.8642) — Awal Halifa, K. Gyasi, E. A. Ampomah et al., 2024
@@ -441,18 +495,38 @@ By subfield — Channel Knowledge Maps (CKM): 47, Radio Environment Maps (REM): 
 
 ### Channel Knowledge Maps (CKM)
 
+- [F4-CKM: Learning Channel Knowledge Map With Radio Frequency Radiance Field Rendering](https://arxiv.org/abs/2601.03601) — Kequan Zhou, Guangyi Zhang, Hanlei Li et al., 2026
 - [Channel Knowledge Map Construction via Guided Flow Matching](https://arxiv.org/abs/2601.06156) — Ziyu Huang, Yong Zeng, Shen Fu et al., 2026
 - [BeamCKMDiff: Beam-Aware Channel Knowledge Map Construction via Diffusion Transformer](https://arxiv.org/abs/2601.10207) — Le Zhao, Yining Wang, Xinyi Wang et al., 2026
 - [Data-Model Co-Driven Continuous Channel Map Construction: A Perceptive Foundation for Embodied Intelligent Agents in 6G Networks](https://arxiv.org/abs/2604.01060) — Tianrun Qi, Cheng-Xiang Wang, Chen-Yen Huang et al., 2026
 - [A Novel 6G Dynamic Channel Map Based on a Hybrid Channel Model](https://arxiv.org/abs/2604.15083) — Tianrun Qi, Chengxiang Wang, Chen-Yen Huang et al., 2026
 - [28 GHz Indoor Continuous-Space Channel Measurements and AI-Enabled 6G Channel Map Construction](https://doi.org/10.1109/tcomm.2026.3690362) — Tianrun Qi, Cheng-Xiang Wang, Chen-Yen Huang et al., 2026
+- [A Three-Stage Vision-Based Transformer for Channel Gain Map Construction](https://doi.org/10.1109/TCOMM.2026.3692110) — Tongyi Wei, Kun Tang, Hao Wu et al., 2026
+- [Channel Knowledge Map-Enabled 6D Movable Antenna Systems With Kinematic Constraints: A Manifold Optimization Approach](https://doi.org/10.1109/TWC.2025.3645480) — Nan Cheng, Shuangyu Yang, Ruijin Sun et al., 2026
 - [Wireless Channel Map Enabled Instantaneous Channel State Information Acquisition in High-Mobility Scenarios](https://doi.org/10.1109/TCOMM.2026.3663282) — Yinglan Bu, Cheng-Xiang Wang, Chen-Yen Huang et al., 2026
+- [Fast Transmission Control Adaptation for URLLC via Channel Knowledge Map and Meta-Learning](https://arxiv.org/abs/2502.10777) — Hongsen Peng, Tobias Kallehauge, Meixia Tao et al., 2025
 - [CKMImageNet: A Dataset for AI-Based Channel Knowledge Map Toward Environment-Aware Communication and Sensing](https://arxiv.org/abs/2504.09849) — Zijian Wu, Di Wu, Shen Fu et al., 2025
+- [Lightweight and Self-Evolving Channel Twinning: An Ensemble DMD-Assisted Approach](https://arxiv.org/abs/2504.16376) — Yashuai Cao, Jintao Wang, Xu Shi et al., 2025
 - [Beamforming-Codebook-Aware Channel Knowledge Map Construction for Multi-Antenna Systems](https://arxiv.org/abs/2505.16132) — Haohan Wang, Xu Shi, Hengyu Zhang et al., 2025
+- [BS-1-to-N: Diffusion-Based Environment-Aware Cross-BS Channel Knowledge Map Generation for Cell-Free Networks](https://arxiv.org/abs/2507.23236) — Zhuoyin Dai, Di Wu, Yong Zeng et al., 2025
+- [Neural Channel Knowledge Map Assisted Scheduling Optimization of Active IRSs in Multi-User Systems](https://arxiv.org/abs/2508.07009) — Xintong Chen, Zhenyu Jiang, Jiangbin Lyu et al., 2025
+- [Environment-Aware IRS Deployment via Channel Knowledge Map: Joint Sensing-Communications Coverage Optimization](https://arxiv.org/abs/2509.04768) — Yilong Chen, Zixiang Ren, Jie Xu et al., 2025
 - [6D Channel Knowledge Map Construction via Bidirectional Wireless Gaussian Splatting](https://arxiv.org/abs/2510.26166) — Juncong Zhou, Chao Hu, Guanlin Wu et al., 2025
+- [Leveraging Channel Knowledge Map for Multi-User Hierarchical Beam Training Under Position Uncertainty](https://arxiv.org/abs/2511.22902) — Xu Shi, Haohan Wang, Yashuai Cao et al., 2025
+- [Channel Knowledge Map Enabled Low-Altitude ISAC Networks: Joint Air Corridor Planning and Base Station Deployment](https://arxiv.org/abs/2512.02464) — Jiaxuan Li, Yilong Chen, Fan Liu et al., 2025
+- [Update Strategy for Channel Knowledge Map in Complex Environments](https://arxiv.org/abs/2512.15154) — Ting Wang, Chiya Zhang, Chang Liu et al., 2025
+- [Analysis of Channel Knowledge Map Updating from Information Perspective](https://doi.org/10.1109/ICCCWorkshops67136.2025.11148189) — Rubing Han, Chiya Zhang, Ting Wang, 2025
+- [Channel Knowledge Map Assisted Channel Estimation for an Extremely Large Antenna Array System](https://doi.org/10.1109/ACCESS.2025.3606947) — Muhammad Awais, Y. Kim, 2025
+- [Channel Knowledge Map-assisted Dual-domain Tracking for High-mobility Wireless Networks](https://doi.org/10.1109/ICCWorkshops67674.2025.11162289) — Ruolin Du, Zhiqiang Wei, Zai Yang et al., 2025
+- [Channel Knowledge Map Updating with Machine Unlearning](https://doi.org/10.1109/ICCCWorkshops67136.2025.11148163) — Yuanxiang Gong, Xingchen Wang, Ting Wang et al., 2025
+- [Clustered Channel Estimation and Prediction with Channel Knowledge Map](https://doi.org/10.1109/VTC2025-Fall65116.2025.11309355) — Guanya Meng, Xiujun Zhang, Xiaofeng Zhong et al., 2025
 - [Channel Knowledge Map-Assisted Dual-Domain Tracking and Predictive Beamforming for High-Mobility Wireless Networks](https://doi.org/10.1109/TWC.2026.3654755) — Ruolin Du, Zhiqiang Wei, Zai Yang et al., 2025
+- [Explainable Machine Learning for Environment-Aware Channel State Prediction in UAV-Based 6G Networks](https://doi.org/10.1109/WiMob66857.2025.11257490) — Ladan Gholami, Pietro Ducange, Arcangela Rago et al., 2025
 - [Joint Trajectory and Transmit Power Design for Cellular-Connected UAVs via Differentiable Channel Knowledge Map](https://doi.org/10.1109/TVT.2025.3567741) — Yuan Li, Xinyao Wang, Zhong Zheng et al., 2025
 - [Scene Structure Based Neural Radio-Frequency Radiance Fields for Channel Knowledge Map Construction](https://doi.org/10.1109/LWC.2025.3615621) — Kai Liu, Wenjun Jiang, Xiaojun Yuan, 2025
+- [Localization performance analysis based on channel knowledge map](https://doi.org/10.1016/j.phycom.2025.102721) — Huayang Wei, Qidong Gao, Wence Zhang et al., 2025
+- [Parameter Design for Channel Knowledge Map Assisted Channel Estimation](https://doi.org/10.1109/ICTC66702.2025.11388376) — Muhammad Awais, Y. Kim, 2025
+- [Positioning Error Compensation via Channel Knowledge Map for UAV Communication](https://doi.org/10.1109/JIOT.2025.3535731) — Chiya Zhang, Ting Wang, Chunlong He, 2025
 - [Channel Knowledge Map Construction: Recent Advances and Open Challenges](https://doi.org/10.1109/mwc.2026.3668205) — Zixiang Ren, Juncong Zhou, Jie Xu et al., 2025
 - [Deep Learning-Based Millimeter Wave Beam Recommendation via Channel Knowledge Map](https://doi.org/10.1109/LWC.2025.3551496) — Chen Shao, Chunshan Liu, Lou Zhao et al., 2025
 - [Trajectory Optimization for Cellular-Connected UAV in Complex Environment With Partial CKM](https://doi.org/10.1109/TCOMM.2026.3689212) — Yuxuan Song, Haiquan Lu, Chiya Zhang et al., 2025
@@ -462,14 +536,19 @@ By subfield — Channel Knowledge Maps (CKM): 47, Radio Environment Maps (REM): 
 - [Channel Knowledge Map-Aided Channel Prediction With Measurements-Based Evaluation](https://doi.org/10.1109/TCOMM.2024.3487310) — Xianling Wang, Yi-xing Shi, Tianci Wang et al., 2025
 - [You May Use the Same Channel Knowledge Map for Environment-Aware NLoS Sensing and Communication](https://doi.org/10.1109/TWC.2026.3678277) — Di Wu, Zhuoyin Dai, Yong Zeng, 2025
 - [Channel Knowledge Map Construction via Physics-Inspired Diffusion Model Without Prior Observations](https://doi.org/10.48550/arXiv.2506.01234) — Yunzhe Zhu, Xuewen Liao, Zhenzhen Gao et al., 2025
+- [Prototyping and Experimental Results for Environment-Aware Millimeter Wave Beam Alignment via Channel Knowledge map](https://arxiv.org/abs/2403.08200) — Zhuoyin Dai, Di Wu, Zhenjun Dong et al., 2024
 - [An I2I Inpainting Approach for Efficient Channel Knowledge Map Construction](https://arxiv.org/abs/2406.09822) — Zhe-Xue Jin, Li You, Jue Wang et al., 2024
+- [Channel Knowledge Map for Cellular-Connected UAV via Binary Bayesian Filtering](https://arxiv.org/abs/2409.00016) — Yuhang Yang, Xiaoli Xu, Yong Zeng et al., 2024
 - [Interference-Cancellation-Based Channel Knowledge Map Construction and Its Applications to Channel Estimation](https://arxiv.org/abs/2409.00461) — Wenjun Jiang, Xiaojun Yuan, Boyu Teng et al., 2024
 - [IMNet: Interference-Aware Channel Knowledge Map Construction and Localization](https://arxiv.org/abs/2412.01279) — Le Zhao, Zesong Fei, Xinyi Wang et al., 2024
 - [6G Dynamic Channel Map Construction Based on AI and Image Processing](https://doi.org/10.1109/ICCT62411.2024.10946643) — Lixiang Song, Junling Li, Tong Wu et al., 2024
+- [A Channel Knowledge Map-Aided Personalized Resource Allocation Strategy in Air-Ground Integrated Mobility](https://doi.org/10.1109/TITS.2024.3409415) — Wenwei Yue, Jingli Li, Changle Li et al., 2024
 - [Can Channel Knowledge Map Help to Predict Instantaneous MIMO Channel State Information?](https://doi.org/10.1109/WCNC57260.2024.10570728) — Xianling Wang, Yi-xing Shi, Tianci Wang et al., 2024
 - [Channel Knowledge Map Construction with Laplacian Pyramid Reconstruction Network](https://doi.org/10.1109/WCNC57260.2024.10570885) — Zhe-Xue Jin, Li You, Jue Wang et al., 2024
+- [Channel Knowledge Map-Enhanced Clutter Suppression for Integrated Sensing and Communication](https://doi.org/10.1109/ICCCWorkshops62562.2024.10693799) — Zihan Xu, Zhiwen Zhou, Di Wu et al., 2024
 - [Deep Machine Learning-Based AoD Map and AoA Map Construction for Wireless Networks](https://doi.org/10.1109/VTC2024-Spring62846.2024.10683141) — Ronghong Mo, Yiyang Pei, Sumei Sun et al., 2024
 - [Energy Minimization for Federated Learning Based Radio Map Construction](https://doi.org/10.1109/tmlcn.2024.3453212) — Fahui Wu, Yunfei Gao, Lin Xiao et al., 2024
+- [Integrating Air and Ground: Crafting a Universal 3D Channel Knowledge Map for AIM](https://doi.org/10.1109/ICCC62479.2024.10681902) — Xiaojia Yang, Wenwei Yue, Jingli Li et al., 2024
 - [A Deep Learning Framework for Wireless Radiation Field Reconstruction and Channel Prediction](https://arxiv.org/abs/2403.03241) — Haofan Lu, Christopher Vattheuer, Baharan Mirzasoleiman et al., 2024
 - [Channel Knowledge Map Construction Based on a UAV-Assisted Channel Measurement System](https://doi.org/10.3390/drones8050191) — Yanheng Qiu, Xiaomin Chen, Kai Mao et al., 2024
 - [Deep Learning-Based CKM Construction with Image Super-Resolution](https://doi.org/10.1109/VTC2025-Spring65109.2025.11174933) — Shiyu Wang, Xiaoli Xu, Yong Zeng, 2024
