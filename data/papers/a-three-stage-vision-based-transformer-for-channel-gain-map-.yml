@@ -1,0 +1,29 @@
+id: a-three-stage-vision-based-transformer-for-channel-gain-map-
+title: A Three-Stage Vision-Based Transformer for Channel Gain Map Construction
+authors:
+  - Tongyi Wei
+  - Kun Tang
+  - Hao Wu
+  - W. Feng
+  - Wenquan Che
+  - Quan Xue
+year: 2026
+venue: IEEE Transactions on Communications
+abstract: The channel knowledge map (CKM) is regarded as a digital twin of the wireless channel and provides location-specific channel information for environment-aware wireless communications. The channel gain map (CGM) is a typical form of CKM that stores spatially indexed channel gains over a target area, enabling fast link scheduling, coverage planning, and beam selection. Existing CGM construction methods mainly rely on propagation modeling or data-driven spatial completion, which can be computationally expensive or may inadequately capture site-specific propagation characteristics, thereby limiting prediction accuracy. To address this issue, we propose a three-stage Transformer-based CGM construction framework for predicting channel gains at arbitrary locations. In the first stage, the city map is discretized into grids, and the channel gain values within each grid are normalized to facilitate continuous spatial prediction. In the second stage, a Transformer-based coarse CGM prediction method is proposed to extract environmental features from the city map and generate a coarse CGM. In the third stage, a lightweight refinement network is designed, which leverages a small number of sparse measurements to refine the coarse predictions. Simulation results demonstrate that the proposed method significantly outperforms the state-of-the-art approaches across all performance metrics. In particular, compared with the existing optimal scheme, the proposed method achieves 32.81% and 20.63% reductions in normalized mean square error (NMSE) and root mean square error (RMSE), respectively, while improving the structural similarity index (SSIM) and peak signal-to-noise ratio (PSNR) by 2.08% and 3.71%, respectively.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/TCOMM.2026.3692110
+subfield: CKM  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - Transformer  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-06-15'

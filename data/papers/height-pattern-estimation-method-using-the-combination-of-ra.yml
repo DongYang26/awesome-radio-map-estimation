@@ -1,0 +1,27 @@
+id: height-pattern-estimation-method-using-the-combination-of-ra
+title: Height Pattern Estimation Method Using the Combination of Radio Map and 3D Map for Spectrum Sharing
+authors:
+  - Sunao Miyamoto
+  - S. Yamada
+  - T. Fujii
+year: 2023
+venue: International Conference on Information Networking
+abstract: Nowadays, spectrum sharing is attracting attention as a solution to spectrum shortage. In order to maximize the spectrum utilization efficiency while avoiding interference from the Secondary User to the Primary User, it is necessary to estimate radio propagation with high accuracy. In recent years, a radio map based on measurements is focused as a highly accurate radio propagation estimation method. It is necessary to estimate the height pattern characteristics and extrapolate the observed values on the ground level in order to estimate the radio propagation in places where there are no observed data sets such as on the upper sky. In this paper, we propose a height pattern estimation method using the radio map and the 3D map. In the proposed method, the main structure on the propagation path is recognized, and dominant propagation path between transmitter and receiver is estimated. Then, the height pattern is estimated by calculating the loss value due to the structures on the selected propagation path using the main structure and the dominant propagation path information. The evaluation results using the measurement datasets show that the estimated performance of the proposed method is improved compared to without extrapolation.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/ICOIN56518.2023.10048945
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 2
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-06-15'

@@ -1,0 +1,28 @@
+id: improved-performance-of-spectrum-cartography-based-on-compre
+title: Improved performance of spectrum cartography based on compressive sensing in cognitive radio networks
+authors:
+  - B. Jayawickrama
+  - E. Dutkiewicz
+  - I. Oppermann
+  - Gengfa Fang
+  - Jie Ding
+year: 2013
+venue: 2013 IEEE International Conference on Communications (ICC)
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/ICC.2013.6655495
+subfield: spectrum-cartography  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - spectrum-cartography  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 61
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-06-15'

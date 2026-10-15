@@ -1,0 +1,31 @@
+id: '2512.15154'
+title: Update Strategy for Channel Knowledge Map in Complex Environments
+authors:
+  - Ting Wang
+  - Chiya Zhang
+  - Chang Liu
+  - Zhuoyuan Hao
+  - Rubing Han
+  - Weizheng Zhang
+  - Chunlong He
+year: 2025
+venue: arXiv.org
+abstract: 'The Channel Knowledge Map (CKM) maps position information to channel state information, leveraging environmental knowledge to reduce signaling overhead in sixth-generation networks. However, constructing a reliable CKM demands substantial data and computation, and in dynamic environments, a pre-built CKM becomes outdated, degrading performance. Frequent retraining restores accuracy but incurs significant waste, creating a fundamental trade-off between CKM efficacy and update overhead. To address this, we introduce a Map Efficacy Function (MEF) capturing both gradual aging and abrupt environmental transitions, and formulate the update scheduling problem as fractional programming. We develop two Dinkelbach-based algorithms: Delta-P guarantees global optimality, while Delta-L achieves near-optimal performance with near-linear complexity. For unpredictable environments, we derive a threshold-based policy: immediate updates are optimal when the environmental degradation rate exceeds the resource consumption acceleration; otherwise, delay is preferable. For predictable environments, long-term strategies strategically relax these myopic rules to maximize global performance. Across this regime, the policy reveals that stronger entry loss and faster decay favor immediate updates, while weaker entry loss and slower decay favor delayed updates.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2512.15154
+  doi: 10.48550/arXiv.2512.15154
+subfield: CKM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-06-15'
