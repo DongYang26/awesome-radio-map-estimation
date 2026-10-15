@@ -81,16 +81,16 @@
       "model-based": 14
     },
     "2026": {
-      "interpolation": 1,
-      "learning-based": 31,
-      "model-based": 8
+      "interpolation": 2,
+      "learning-based": 32,
+      "model-based": 10
     }
   },
   "method_family_distribution": {
     "application": 8,
-    "interpolation": 52,
-    "learning-based": 288,
-    "model-based": 40
+    "interpolation": 53,
+    "learning-based": 289,
+    "model-based": 42
   },
   "papers_per_year": {
     "1996": 1,
@@ -112,17 +112,17 @@
     "2023": 41,
     "2024": 72,
     "2025": 111,
-    "2026": 40
+    "2026": 44
   },
   "subfield_distribution": {
     "CKM": 47,
-    "REM": 180,
-    "pathloss-prediction": 124,
+    "REM": 181,
+    "pathloss-prediction": 127,
     "spectrum-cartography": 37
   },
   "totals": {
     "milestones": 20,
-    "papers": 388,
+    "papers": 392,
     "subfields": 4
   }
 }

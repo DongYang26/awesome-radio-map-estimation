@@ -10,7 +10,7 @@
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-live-brightgreen)](https://dongyang26.github.io/awesome-radio-map-estimation/)
 [![Code License: MIT](https://img.shields.io/badge/Code%20License-MIT-blue.svg)](LICENSE)
 [![Data License: CC-BY-4.0](https://img.shields.io/badge/Data%20License-CC--BY--4.0-blue.svg)](LICENSE-DATA)
-![Papers](https://img.shields.io/badge/papers-388-informational)
+![Papers](https://img.shields.io/badge/papers-392-informational)
 <!-- AUTO:badges END -->
 
 [**Explore the interactive Research Map →**](https://dongyang26.github.io/awesome-radio-map-estimation/)
@@ -54,10 +54,10 @@ Four sub-families of the field are in scope:
 ## Statistics
 
 <!-- AUTO:stats START -->
-**388** papers · **4** subfields · **20** milestone papers
+**392** papers · **4** subfields · **20** milestone papers
 
 Coverage spans **1996–2026**.
-By subfield — Channel Knowledge Maps (CKM): 47, Radio Environment Maps (REM): 180, Pathloss Prediction: 124, Spectrum Cartography: 37.
+By subfield — Channel Knowledge Maps (CKM): 47, Radio Environment Maps (REM): 181, Pathloss Prediction: 127, Spectrum Cartography: 37.
 <!-- AUTO:stats END -->
 
 ## Taxonomy
@@ -107,6 +107,7 @@ By subfield — Channel Knowledge Maps (CKM): 47, Radio Environment Maps (REM): 
 - [ISAC-Enabled Grant-Free Uplink via Artificial-Path Delay Modulation](https://arxiv.org/abs/2605.31366) — Ruiqi Kong, He Chen, 2026
 - [Cooperative Uplink Channel Estimation in User-Centric Cell-free Massive MIMO Communication Networks](https://arxiv.org/abs/2605.31510) — Pourya Behmandpoor, Marc Moonen, 2026
 - [Distributionally Robust Physical-Layer Security for Satellite Communication via Aerial Reconfigurable Intelligent Surface](https://arxiv.org/abs/2605.31526) — Zhaole Wang, Xiao Tang, Naijin Liu et al., 2026
+- [Wireless Foundation Models: State-of-the-Art and Open Challenges](https://arxiv.org/abs/2609.04707) — Alonso M. Pacheco Huachaca, Juan J. Rodriguez Rodriguez, Ahmed Aboulfotouh et al., 2026
 - [A Data-Driven Transfer Learning Method for Indoor Radio Map Estimation](https://doi.org/10.1109/TVT.2025.3609207) — Rahul Kumar Jaiswal, Mohamed Elnourani, Siddharth Deshmukh et al., 2026
 - [Constructing 4D Radio Map in LEO Satellite Networks with Limited Samples](https://arxiv.org/abs/2501.02775) — Haoxuan Yuan, Zhe Chen, Zheng Lin et al., 2025
 - [Physics-Informed Representation Alignment for Sparse Radio-Map Reconstruction](https://arxiv.org/abs/2501.19160) — Haozhe Jia, Wenshuo Chen, Zhihui Huang et al., 2025
@@ -320,7 +321,10 @@ By subfield — Channel Knowledge Maps (CKM): 47, Radio Environment Maps (REM): 
 - [Machine Learning Approach for the Modelling and Prediction of Path Loss Over GSM 4 & 5G Channels in Kano Metropolis, Nigeria](https://doi.org/10.46654/dy29kr76) — Hamza Ahmad Masari, A. Akinbolati, M. Sani, 2026
 - [Machine-Learning-Based Path Loss Prediction and Data-Leakage-Avoidance Modeling for UAV Links](https://doi.org/10.1109/PACET68758.2026.11498248) — Achilleas Theocharopoulos, N. Moraitis, Athanasios D. Panagopoulos, 2026
 - [Machine-Learning-Based Urban Path Loss Prediction at 900 MHz: Principal Component Analysis, Clustering, Feature Importance and Regression](https://doi.org/10.1109/OJAP.2025.3629578) — José Lorente-López, Ignacio Rodríguez-Rodríguez, J. Rodríguez et al., 2026
+- [Model-Aided Learning for Sparse Received Signal Strength Indicator Radio Map Prediction and Wireless Signal Management in Internet of Things Environments](https://doi.org/10.1109/access.2026.3717372) — Ming-Kun Lu, A. Taparugssanagorn, 2026
+- [On the Effectiveness of Radio Environmental Map Prediction Through Image-Based Deep Learning](https://doi.org/10.1109/tap.2026.3676109) — Mohammad Hossein Zadeh, M. Barbiroli, E. Vitucci et al., 2026
 - [Path loss prediction for V2V communication using an advanced hybrid machine learning model based on real measurements](https://doi.org/10.1088/2631-8695/ae5e1f) — H. Zormati, J. Chebil, Jamel Bel Hadj Taher, 2026
+- [RadioYNet: Efficient 3-D Path Loss Map Prediction With Height-Aware Feature Fusion](https://doi.org/10.1109/LAWP.2026.3693859) — Chengkai Liu, Guo Xia, Zeyu Cui et al., 2026
 - [REM-Net+: Quantified 3D Radio Environment Map Construction Guided by Radio Propagation Model](https://doi.org/10.1109/TVT.2025.3623917) — Qi Chen, Ming Huang, Jingjing Yang, 2026
 - [Investigating Map-Based Path Loss Models: A Study of Feature Representations in Convolutional Neural Networks](https://arxiv.org/abs/2501.07534) — Ryan G. Dempsey, Jonathan Ethier, H. Yanikomeroglu, 2025
 - [TransPathNet: A Novel Two-Stage Framework for Indoor Radio Map Prediction](https://arxiv.org/abs/2501.16023) — Xin Li, Ran Liu, Saihua Xu et al., 2025
