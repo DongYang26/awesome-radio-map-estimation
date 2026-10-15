@@ -1,0 +1,30 @@
+id: '2606.20440'
+title: Polaronic hybridization of atoms, dimers and trimers in a Bose-Einstein condensate
+authors:
+  - Carsten Robens
+  - Arthur Christianen
+  - Alexander Y. Chuang
+  - Huan Q. Bui
+  - Yiming Zhang
+  - Richard Schmidt
+  - Martin Zwierlein
+year: 2026
+abstract: The Bose polaron problem of an impurity immersed in a Bose-Einstein condensate (BEC) has been predicted to feature strong correlations arising from bound states of multiple bosons with the impurity. While direct experimental evidence has so far remained elusive, here we observe clear signatures of three-body correlations in Bose polarons. We perform radiofrequency spectroscopy on $^{40}$K impurities in a BEC of $^{23}$Na and identify polaronic hybrid states that can be understood as superpositions of the bare atom, a NaK dimer and a Na$_2$K trimer, coupled through coherent particle exchange with the condensate. We show that the main spectroscopic features are captured by a simple three-level model without free parameters. Our work shows how a condensate environment can coherently hybridize bound states of different composition and mass, reminiscent of quark-flavor mixing described by the Cabibbo-Kobayashi-Maskawa (CKM) matrix in particle physics.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2606.20440
+  pdf: https://arxiv.org/pdf/2606.20440
+subfield: CKM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-06-22'
