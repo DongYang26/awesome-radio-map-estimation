@@ -1,0 +1,30 @@
+id: environment-aware-path-loss-prediction-using-panoramic-image
+title: Environment-Aware Path Loss Prediction Using Panoramic Images for Vehicular Communications
+authors:
+  - Xuejian Zhang
+  - Minseok Kim
+  - Inocent Calist
+  - Ruisi He
+  - Mi Yang
+  - Ziyi Qi
+year: 2026
+venue: ICC 2026 - IEEE International Conference on Communications
+abstract: The integration of communications and artificial intelligence is a key driver of the 6G evolution. Accurate channel prediction is fundamental to system design and optimization; however, traditional prediction approaches struggle to balance accuracy, efficiency, and generalization, making them insufficient for increasingly complex and dynamic 6G scenarios. The rapid advancement of artificial intelligence, particularly computer vision, provides a promising pathway for intelligent channel prediction due to its zero spectrum cost, low deployment overhead, and mature algorithmic foundation. In this paper, we propose a deep learning-based path loss prediction model leveraging panoramic visual information for vehicle-to-infrastructure communication scenarios. We first conduct comprehensive channel measurements and environmental awareness in urban scenarios, building a multi-modal dataset comprising synchronized channel, panoramic image, and GPS data. Subsequently, a panoramic segmentation and depth estimation network is employed to extract environmental features, such as the location, scale, and distance of scatterers, from panoramic images. An enhanced ResNet-based architecture is then developed, jointly incorporating segmented and depth images, and transceiver geolocation data to predict path loss. Experimental results from both scenario self- and cross-validation demonstrate that the proposed model achieves high prediction accuracy and strong generalization. This study provides an effective and scalable framework for intelligent channel prediction in vehicular communication systems.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/ICC59461.2026.11587373
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-08-03'

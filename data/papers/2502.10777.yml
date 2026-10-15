@@ -1,0 +1,30 @@
+id: '2502.10777'
+title: Fast Transmission Control Adaptation for URLLC via Channel Knowledge Map and Meta-Learning
+authors:
+  - Hongsen Peng
+  - Tobias Kallehauge
+  - Meixia Tao
+  - P. Popovski
+year: 2025
+venue: IEEE Internet of Things Journal
+abstract: This article considers methods for delivering ultrareliable low-latency communication (URLLC) to enable mission-critical Internet of Things (IoT) services in wireless environments with unknown channel distribution. The methods rely upon the historical channel gain samples of a few locations in a target area. We formulate a nontrivial transmission control adaptation problem across the target area under the URLLC constraints. Then we propose two solutions to solve this problem. The first is a power scaling scheme in conjunction with the deep reinforcement learning (DRL) algorithm with the help of the channel knowledge map (CKM) without retraining, where the CKM employs the spatial correlation of the channel characteristics from the historical channel gain samples. The second solution is model agnostic meta-learning (MAML)-based meta-reinforcement learning algorithm that is trained from the known channel gain samples following distinct channel distributions and can quickly adapt to the new environment within a few steps of gradient update. Simulation results indicate that the DRL-based algorithm can effectively meet the reliability requirement of URLLC under various Quality-of-Service (QoS) constraints. Then the adaptation capabilities of the power scaling scheme and meta-reinforcement learning algorithm are also validated.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2502.10777
+  pdf: https://vbn.aau.dk/ws/files/771649588/Fast_Transmission_Control_Adaptation_for_URLLC_via_Channel_Knowledge_Map_and_Meta-Learning.pdf
+  doi: 10.1109/JIOT.2025.3552413
+subfield: CKM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 7
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-08-03'

@@ -1,0 +1,29 @@
+id: coupled-block-term-tensor-decomposition-based-blind-spectrum
+title: Coupled Block-term Tensor Decomposition Based Blind Spectrum Cartography
+authors:
+  - Guoyong Zhang
+  - Xiao Fu
+  - Jun Wang
+  - Mingyi Hong
+year: 2019
+venue: Asilomar Conference on Signals, Systems and Computers
+abstract: Spectrum cartography aims at estimating the pattern of wideband signal power propagation over a region of interest (i.e. the radio map)—from limited samples taken sparsely over the region. Classical cartography methods are mostly concerned with recovering the aggregate radio frequency (RF) information while ignoring the constituents of the radio map— but fine-grained emitter-level RF information is of great interest. In addition, most existing cartography methods are based on random geographical sampling that is considered difficult to implement in some cases, due to legal/privacy/security issues. The theoretical aspects (e.g., identifiability of the radio map) of many existing methods are also unclear. In this work, we propose a radio map disaggregation method that is based on coupled block-term tensor decomposition. Our method guarantees identifiability of the individual wideband radio map of each emitter in the geographical region of interest (thereby that of the aggregate radio map as well), under some realistic conditions. The identifiability result holds under a large variety of geographical sampling patterns, including many pragmatic systematic sampling strategies. We also propose an effective optimization algorithm to carry out the formulated coupled tensor decomposition problem.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/IEEECONF44664.2019.9048667
+subfield: spectrum-cartography  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - spectrum-cartography  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 6
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-08-03'

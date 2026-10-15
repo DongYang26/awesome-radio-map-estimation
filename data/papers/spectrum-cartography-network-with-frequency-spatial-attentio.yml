@@ -1,0 +1,27 @@
+id: spectrum-cartography-network-with-frequency-spatial-attentio
+title: Spectrum Cartography Network with Frequency-Spatial Attention Module
+authors:
+  - Yuhao Bian
+  - Jinghong Sun
+  - Wenbin Guo
+year: 2025
+venue: 2025 5th International Conference on Intelligent Communications and Computing (ICICC)
+abstract: Radio maps quantify the electromagnetic environment across time, space, and frequency. However, sparse measurements due to limited sensor deployment and inaccessible regions make accurate reconstruction challenging. Traditional methods rely on local smoothness, while recent deep learning approaches still struggle with broadband cross-frequency correlations and multi-dimensional data. We propose FSAM-SCNet, a novel architecture integrating channel and spatial attention to adaptively focus on key frequency bands and spatial regions. FSAM-SCNet explicitly models 3D spatial-spectral radio data, achieving superior reconstruction accuracy and robustness compared to methods, especially under sparse and noisy conditions.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/ICICC66840.2025.11199655
+subfield: spectrum-cartography  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - spectrum-cartography  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-08-03'

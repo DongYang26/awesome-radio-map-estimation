@@ -1,0 +1,35 @@
+id: '2607.28965'
+title: 'When 5G MIMO Scaling Breaks: Toward 6G Upper-Mid-Band Extreme MIMO'
+authors:
+  - Kwang Soon Kim
+  - Jeonghun Park
+  - Byung-Wook Min
+  - Kwanghoon Lee
+  - Eui Whan Jin
+  - Juntaek Han
+  - Geonwoo Park
+  - Jun-Seok Ko
+  - Jungho Myung
+  - Wooram Shin
+  - Young-Jo Ko
+  - Chan-Byoung Chae
+year: 2026
+abstract: 'The upper-mid band, particularly the 7-8 GHz range within frequency range 3 (FR3), has emerged as a leading spectrum candidate for wide-area sixth-generation (6G) cellular networks. Its shorter wavelength enables hundreds of antenna elements to be integrated within the physical aperture of an existing 5G base-station panel. In principle, the resulting aperture gain can compensate for the increased path loss and enable extreme MIMO (E-MIMO) with 256 or more antenna ports while reusing current cell sites. In practice, however, simply scaling the 5G New Radio (NR) architecture from tens to hundreds of ports encounters fundamental system-level limitations. This paper identifies where 5G-style MIMO scaling breaks and develops a research roadmap for practical upper-mid-band E-MIMO. We first review the evolution of FR3 spectrum, its propagation and channel characteristics, and the emerging 6G system requirements. We then organize the principal challenges into four coupled areas: maintaining effective coverage across all physical channels and protocol states; implementing wideband, energy-efficient RF devices and radio units; developing new low-power array and beamforming architectures; and acquiring sufficiently refined channel state information with manageable sounding and feedback overhead. Representative system studies illustrate the coverage asymmetry between user-specific data transmission and common or channel-acquisition signals, as well as the spectral- and energy-efficiency tradeoffs among fully digital, hybrid, tri-hybrid, dynamic-metasurface, and fluid-antenna architectures. Finally, we discuss how distributed apertures, integrated sensing, AI-assisted channel acquisition, and environment-aware operation can transform fixed-aperture scaling into a deployable 6G E-MIMO architecture.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2607.28965
+  pdf: https://arxiv.org/pdf/2607.28965
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-08-03'

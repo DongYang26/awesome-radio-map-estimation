@@ -1,0 +1,28 @@
+id: a-radio-map-estimation-method-based-on-improved-conditional-
+title: A Radio Map Estimation Method Based on Improved Conditional Variational Autoencoder
+authors:
+  - Z. An
+  - Z. Dou
+  - Qi Liu
+  - Zhuo Li
+year: 2024
+venue: International Conference on Software Engineering
+abstract: A radio map is a specialized representation that depicts the power spectral density across a specific region. By leveraging electromagnetic maps, the efficient utilization of spectrum resources can be greatly enhanced. To achieve high-precision reconstruction of electromagnetic maps, this study proposes a method based on Conditional Variational Autoencoders (CVAE). This approach utilizes the redundancy in image information by incorporating both the values of sampled points and their positional data as conditions. The latent space is then sampled to generate reconstructed maps. The proposed method demonstrates superior performance when compared to traditional interpolation techniques and conventional autoencoder models, offering significant improvements in accuracy and efficiency.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/ICSE63502.2024.10899049
+subfield: REM  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - autoencoder  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 2
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-08-03'

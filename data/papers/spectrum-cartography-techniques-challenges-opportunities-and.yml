@@ -1,0 +1,28 @@
+id: spectrum-cartography-techniques-challenges-opportunities-and
+title: 'Spectrum cartography techniques, challenges, opportunities, and applications: A survey'
+authors:
+  - Yeduri Sreenivasa Reddy
+  - Abhinav Kumar
+  - O. Pandey
+  - Linga Reddy Cenkeramaddi
+year: 2021
+venue: Pervasive and Mobile Computing
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://doi.org/10.1016/j.pmcj.2021.101511
+  doi: 10.1016/j.pmcj.2021.101511
+subfield: spectrum-cartography  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - spectrum-cartography  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 41
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-08-03'

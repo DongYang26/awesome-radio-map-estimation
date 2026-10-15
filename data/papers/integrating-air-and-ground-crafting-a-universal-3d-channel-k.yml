@@ -1,0 +1,30 @@
+id: integrating-air-and-ground-crafting-a-universal-3d-channel-k
+title: 'Integrating Air and Ground: Crafting a Universal 3D Channel Knowledge Map for AIM'
+authors:
+  - Xiaojia Yang
+  - Wenwei Yue
+  - Jingli Li
+  - Zifan Sha
+  - Danwen Zhang
+  - Changle Li
+year: 2024
+venue: 2024 IEEE/CIC International Conference on Communications in China (ICCC)
+abstract: In the context of the Air-ground Integrated Mobility (AIM) scenario in which Personal Aerial Vehicles (PAVs) move at high speeds, the communication channel is influenced by the surrounding environment, including complex and variable environmental factors such as scatterer distribution, terrain features, and antenna configuration. This leads to PAVs facing more rapid changes in driving scenarios and making it difficult to obtain channel state information (CSI) within a short period of time. Therefore, it is imperative to establish a universal 3D Channel Knowledge Map (CKM) that can directly provide the channel knowledge between the transmitter and the receiver to avoid the measurement of CSI with violent fluctuations caused by rapid scene changes. This paper proposes a universal 3D channel model based on Machine Learning (ML) for AIM, which constructs a CKM by mapping the relationship between channel characteristics and physical environment information, to obtain the channel characteristics between PAVs and Base Station (BS) in different scenarios. Specifically, we first design various physical environments with different urban characteristics and antenna configurations. Subsequently, we gather a large channel dataset of multiple-input multiple-output (MIMO) communication characteristics, which includes data points with varying positions across different city layouts and antenna configurations. After data preprocessing, a channel model is trained on the dataset using eXtreme Gradient Boosting (XGBoost). Finally, using the trained CKM, PAVs can obtain the channel knowledge in advance according to the environmental characteristics and location information, so as to realize the pre-perception of channel characteristics in different scenarios. Additionally, the influence of different factors on communication quality can be evaluated. Simulation results demonstrate that the proposed 3D CKM can effectively predict the 3D channel characteristics in various propagation environments in AIM.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/ICCC62479.2024.10681902
+subfield: CKM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 4
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-08-03'

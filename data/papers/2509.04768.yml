@@ -1,0 +1,30 @@
+id: '2509.04768'
+title: 'Environment-Aware IRS Deployment via Channel Knowledge Map: Joint Sensing-Communications Coverage Optimization'
+authors:
+  - Yilong Chen
+  - Zixiang Ren
+  - Jie Xu
+  - Rui Zhang
+year: 2025
+venue: IEEE Transactions on Network Science and Engineering
+abstract: This paper studies the intelligent reflecting surface (IRS) deployment optimization problem for IRS-enabled integrated sensing and communications (ISAC) systems, in which multiple IRSs are strategically deployed at candidate locations to assist a base station (BS) to enhance the coverage of both sensing and communications. We present an environment-aware IRS deployment design via exploiting the channel knowledge map (CKM), which provides a priori channel state information (CSI) between each candidate IRS location and BS or targeted sensing/communication points. Based on CKM, we optimize the deployment of IRSs, jointly with the BS’s transmit beamforming and IRSs’ reflective beamforming during operation, with the objective of minimizing the system cost, while guaranteeing the minimum signal-to-clutter-plus-noise ratio (SCNR) requirements at sensing areas and the minimum signal-to-noise ratio (SNR) requirements at communication areas. In particular, we consider two cases when the IRSs’ reflective beamforming optimization can be implemented dynamically in real time and quasi-stationarily over the whole operation period, respectively. For both cases, the joint IRS deployment and transmit/reflective beamforming designs are formulated as mixed-integer non-convex optimization problems, which are solved via the successive convex approximation (SCA)-based relax-and-bound method. Specifically, we first relax the binary IRS deployment indicators into continuous variables, then find converged solutions via SCA, and finally round relaxed indicators back to binary values. Numerical results demonstrate the effectiveness of our proposed algorithms in reducing the system cost while meeting the sensing and communication requirements.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2509.04768
+  pdf: https://arxiv.org/pdf/2509.04768
+  doi: 10.1109/TNSE.2026.3691866
+subfield: CKM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 3
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-08-03'

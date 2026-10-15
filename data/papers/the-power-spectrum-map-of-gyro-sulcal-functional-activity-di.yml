@@ -1,0 +1,32 @@
+id: the-power-spectrum-map-of-gyro-sulcal-functional-activity-di
+title: The power spectrum map of gyro-sulcal functional activity dissociation in macaque brains.
+authors:
+  - Yusong Sun
+  - Jingchao Zhou
+  - Wei Mao
+  - Weihan Zhang
+  - Boyu Zhao
+  - Xujun Duan
+  - Songyao Zhang
+  - Tuo Zhang
+  - Xi Jiang
+year: 2025
+venue: Cerebral Cortex
+abstract: Nonhuman primates, particularly rhesus macaques, have served as crucial animal models for investigating complex brain functions. While previous studies have explored neural activity features in macaques, the gyro-sulcal functional dissociation characteristics are largely unknown. In this study, we employ a deep learning model named one-dimensional convolutional neural network to differentiate resting state functional magnetic resonance imaging signals between gyri and sulci in macaque brains, and further investigate the frequency-specific dissociations between gyri and sulci inferred from the power spectral density of resting state functional magnetic resonance imaging. Experimental results based on a large cohort of 440 macaques from two independent sites demonstrate substantial frequency-specific dissociation between gyral and sulcal signals at both whole-brain and regional levels. The magnitude of gyral power spectral density is significantly larger than that of sulcal power spectral density within the range of 0.01 to 0.1 Hz, suggesting that gyri and sulci may play distinct roles as the global hubs and local processing units for functional activity transmission and interaction in macaque brains. In conclusion, our study has established one of the first power spectrum maps of gyro-sulcal functional activity dissociation in macaque brains, providing a novel perspective for systematically exploring the neural mechanism of functional dissociation in mammalian brains.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1093/cercor/bhaf160
+subfield: spectrum-cartography  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+task:
+  - spectrum-cartography  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-08-03'

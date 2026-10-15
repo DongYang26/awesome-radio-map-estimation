@@ -1,0 +1,31 @@
+id: '2501.13472'
+title: Radio Map Estimation via Latent Domain Plug-and-Play Denoising
+authors:
+  - Le Xu
+  - Lei Cheng
+  - Junting Chen
+  - Wenqiang Pu
+  - Xiao Fu
+year: 2025
+venue: IEEE Transactions on Signal Processing
+abstract: Radio map estimation (RME), also known as spectrum cartography, aims to reconstruct the strength of radio interference across different domains (e.g., space and frequency) from sparsely sampled measurements. To tackle this typical inverse problem, state-of-the-art RME methods rely on handcrafted or data-driven structural information of radio maps. However, the former often struggles to model complex radio frequency (RF) environments and the latter requires excessive training -- making it hard to quickly adapt to in situ sensing tasks. This work presents a spatio-spectral RME approach based on plug-and-play (PnP) denoising, a technique from computational imaging. The idea is to leverage the observation that the denoising operations of signals like natural images and radio maps are similar -- despite the nontrivial differences of the signals themselves. Hence, sophisticated denoisers designed for or learned from natural images can be directly employed to assist RME, avoiding using radio map data for training. Unlike conventional PnP methods that operate directly in the data domain, the proposed method exploits the underlying physical structure of radio maps and proposes an ADMM algorithm that denoises in a latent domain. This design significantly improves computational efficiency and enhances noise robustness. Theoretical aspects, e.g., recoverability of the complete radio map and convergence of the ADMM algorithm are analyzed. Synthetic and real data experiments are conducted to demonstrate the effectiveness of our approach.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2501.13472
+  doi: 10.48550/arXiv.2501.13472
+subfield: spectrum-cartography  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - spectrum-cartography  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 4
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-08-03'
