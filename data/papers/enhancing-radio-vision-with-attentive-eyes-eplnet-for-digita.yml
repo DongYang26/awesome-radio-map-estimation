@@ -1,0 +1,31 @@
+id: enhancing-radio-vision-with-attentive-eyes-eplnet-for-digita
+title: 'Enhancing Radio Vision with Attentive Eyes: EPLNet for Digital Twin Oriented Data-Scarce and Cross-Scenario Pathloss Map Prediction'
+authors:
+  - Mao-Dong Chen
+  - Miao Liu
+  - Yang Peng
+  - Yu Wang
+  - Hao Huang
+  - Chun Zhu
+  - Hai-Tao Zhao
+year: 2026
+venue: 2026 IEEE/CIC International Conference on Communications in China (ICCC)
+abstract: Accurate and efficient pathloss map prediction is essential for wireless network planning and optimization in the beyond 5th generation mobile communication (B5G) systems. Recent learning-based approaches have demonstrated promising performance by employing convolutional encoder-decoder architectures with atrous convolution to capture multi-scale spatial features. However, existing models lack effective mechanisms for modeling inter-channel feature dependencies, limiting their ability to fully exploit rich contextual information in complex propagation environments. To address the limitation, we propose an attention-enhanced architecture termed Efficient Pathloss Map Prediction Network (EPLNet), which integrates Efficient Channel Attention (ECA) modules into both the encoder and decoder stages of PMNet. The ECA module adaptively recalibrates channel-wise feature responses via lightweight local cross-channel interaction, introducing negligible computational overhead while enhancing feature representation capability. Extensive experiments on multiple ray-tracing datasets demonstrate that the EPLNet consistently achieves improved performance compared with the existing method in terms of Root Mean Square Error, Mean Absolute Error, and Region of Interest Segmentation Error. Moreover, under limited training data conditions, EPLNet exhibits enhanced robustness and superior data efficiency, verifying practical suitability for deployment scenarios where channel measurement data are scarce.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/ICCC70295.2026.11680313
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-10-19'

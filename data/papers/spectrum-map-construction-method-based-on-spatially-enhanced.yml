@@ -1,0 +1,29 @@
+id: spectrum-map-construction-method-based-on-spatially-enhanced
+title: Spectrum Map Construction Method Based on Spatially-Enhanced Channel Attention
+authors:
+  - Siqi Peng
+  - Han Zhang
+  - Cong'an Xu
+  - Wei Zhang
+  - Yun Lin
+year: 2024
+venue: 2024 International Conference on Ubiquitous Communication (Ucom)
+abstract: In sixth-generation (6G) wireless communication networks, spectrum map are crucial for network optimization and the intelligent management of electromagnetic spectrum. Spectrum map provide information on spatial power spectral density (PSD) distribution and spectrum resource occupancy. However, the complexities of urban environments and sparse PSD measurements pose challenges to accurately constructing high-resolution spectrum map. This paper introduces a Dual Attention Spectrum Cartography (DASC) method that utilizes channel features and spatial information through a joint spatial channel attention mechanism. This approach enhances the learning of propagation patterns and shadowing effects in complex environments, thereby improving the quality of spectrum map construction. Experimental results demonstrate that our method outperforms other deep learning models and interpolation algorithms in both performance and generalization capabilities.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/Ucom62433.2024.10695875
+subfield: spectrum-cartography  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - Transformer  # TODO: maintainer verify
+task:
+  - spectrum-cartography  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 1
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-10-19'

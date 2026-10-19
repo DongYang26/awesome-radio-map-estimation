@@ -1,0 +1,26 @@
+id: '2610.23026'
+title: An Efficient Blind Detection of OFDM Signals with Unknown Parameters
+authors:
+  - Ata Bartu Soyuer
+  - Gokhan M. Guvensen
+year: 2026
+abstract: This study investigates efficient detector designs for the blind detection of orthogonal frequency-division multiplexing (OFDM) signals with unknown power, bandwidth, and carrier frequency in wideband spectrum sensing. We first describe the received signal model and conduct an asymptotic covariance analysis to obtain a tractable discrete-time representation. Based on this model, generalized likelihood ratio test (GLRT) detectors are derived for both known and unknown noise power cases in a single-antenna receiver setting. The proposed framework is subsequently extended to multi-antenna receivers, and the corresponding multi-antenna GLRT detectors are developed for both known and unknown noise power cases. Importantly, using the cumulative-sum (CUSUM) operations, the resulting detectors reduce to an efficient one-dimensional (1D) search in both single-antenna and multi-antenna settings. We also provide theoretical analysis for the conventional energy detector (Conv-ED) and the hypothetical uniformly most powerful (UMP) test to reveal the impact of system parameters on detection performance. In addition, computational complexity analysis is presented for both the proposed and conventional detectors. Finally, comprehensive simulation results are provided to evaluate the probability of detection. The results demonstrate that the proposed detectors achieve performance close to that of a genie-aided detector while significantly outperforming conventional detection approaches.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2610.23026
+  pdf: https://arxiv.org/pdf/2610.23026
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - spectrum-occupancy  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-10-19'

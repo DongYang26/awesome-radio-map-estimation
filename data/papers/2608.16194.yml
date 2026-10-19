@@ -1,0 +1,24 @@
+id: '2608.16194'
+title: Zero-Shot Frequency Generalization for Radio Map Prediction via Cross-Attention Physics-Residual Learning
+authors:
+  - Sajjad Hussain
+year: 2026
+abstract: Deep learning models for radio map prediction are trained and tested at the same carriers and cannot serve unseen frequencies. We propose a two-stream network learning a residual over an analytic prior, fusing environment and physics streams by cross-attention. Evaluated at the query frequency, this free-space and knife-edge prior absorbs dominant frequency scaling of pathloss, leaving a residual that varies little across bands. Across 150 ray-traced scenes and four training carriers (1.8--28 GHz), the method reduces RMSE by 35.3% zero-shot at unseen carriers and scenes, and by 37.6% at extrapolated 60 GHz, outperforming interpolated 10 GHz.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2608.16194
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-10-19'

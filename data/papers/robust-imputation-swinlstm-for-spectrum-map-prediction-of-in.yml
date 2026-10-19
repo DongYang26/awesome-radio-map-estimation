@@ -1,0 +1,29 @@
+id: robust-imputation-swinlstm-for-spectrum-map-prediction-of-in
+title: Robust Imputation SwinLSTM for Spectrum Map Prediction of Incomplete Data
+authors:
+  - Hai-Kuo Xu
+  - Jie Li
+  - Qi-Hui Wu
+  - You-Biao Wu
+  - Jie-Yu Gao
+year: 2025
+venue: International Workshop on Machine Learning for Signal Processing
+abstract: The prediction of spectrum maps has received significant attention in recent years as a result of its critical role in resource management and signal detection. However, contemporary spectrum maps often exhibit rapid temporal variations, and historical spectrum data are frequently incomplete or contaminated by anomalies. Existing research on spectrum map prediction remains limited in addressing missing data processing capabilities. To address this challenge, we propose DSwinLSTM-I, an encoder-decoder framework that integrates imputation and prediction of spectrum maps into a unified process, thus streamlining the traditional two-step im-putation-prediction workflow. DSwinLSTM-I incorporates a dedicated imputation unit, allowing the model to infer missing values while simultaneously predicting future spectrum maps. Experimental results demonstrate that the proposed DSwinLSTM-I achieves superior performance in spectrum map prediction with respect to both accuracy and robustness.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/MLSP62443.2025.11204306
+subfield: spectrum-cartography  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - RNN  # TODO: maintainer verify
+task:
+  - spectrum-cartography  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 2
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-10-19'

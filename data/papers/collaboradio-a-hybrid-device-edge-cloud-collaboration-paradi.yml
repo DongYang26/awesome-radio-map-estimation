@@ -1,0 +1,33 @@
+id: collaboradio-a-hybrid-device-edge-cloud-collaboration-paradi
+title: 'CollaboRadio: A Hybrid Device-Edge-Cloud Collaboration Paradigm for Fine-Grained Radio Map Construction'
+authors:
+  - Shuai Shao
+  - Lu Cheng
+  - Ke Chen
+  - Qing-Yu Liu
+  - Shu-Hang Zhang
+  - Hong-Liang Zhang
+  - Ling-Yang Song
+year: 2026
+venue: IEEE Transactions on Mobile Computing
+abstract: Radio map presents communication parameters of interest, e.g., received signal strength, across a geographical region in a specific frequency band. It can be leveraged to improve the efficiency of spectrum utilization. With the rapid development of radio technology and the proliferation of radio-enabled devices, there is an increasing demand for finer granularity (higher resolution) in radio maps. However, the problem of fine-grained radio map construction is uniquely challenging, as it requires to utilize an extremely small number of radio samples collected by sparsely distributed sensor devices to infer the map. To address the challenge, we propose a hybrid device-edge-cloud collaboration paradigm called CollaboRadio. CollaboRadio first groups sensor devices into multiple clusters, with cluster locations optimized based on principles of radio propagation. Next, it leverages a small AI model on each edge server to generate a local radio map for the respective cluster region from radio samples collected by intra-cluster sensors. Finally, it employs a large AI model in the cloud to construct a global radio map for the entire region from the local maps produced by edge servers of different clusters. For the implementation of CollaboRadio, we develop an UNet-based small model for the edge server and a Transformer-based large model for the cloud. Extensive simulations show that CollaboRadio is capable of constructing fine-grained radio maps from an ultra-low sampling rate of 0.1%, and significantly outperforms state-of-the-art.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/TMC.2025.3596312
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - Transformer  # TODO: maintainer verify
+  - CNN  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 9
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-10-19'

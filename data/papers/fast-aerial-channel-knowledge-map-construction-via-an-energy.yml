@@ -1,0 +1,32 @@
+id: fast-aerial-channel-knowledge-map-construction-via-an-energy
+title: Fast Aerial Channel Knowledge Map Construction via an Energy-Constrained UAV
+authors:
+  - Chang-Yong Chen
+  - Jian-Bing Zheng
+  - Feng Li
+  - Fa-Hui Wu
+  - Yu Xu
+  - Zhi-Wen Ding
+  - Ding-Cheng Yang
+  - Lin Xiao
+year: 2026
+venue: IEEE Transactions on Vehicular Technology
+abstract: 'Channel knowledge maps (CKMs) have been widely applied in resource allocation and performance optimization for wireless communication systems. CKMs are generally constructed from measurements gathered by user equipment or sensors dispersed within the area of interest. To construct aerial CKMs with precision, it is imperative to deploy uncrewed aerial vehicles (UAVs) to gather radio information in low-altitude regions. However, due to the limited onboard energy of UAVs, measuring every location in the area proves to be exceedingly inefficient. This paper focuses on constructing the Signal-to-Noise Ratio map, which serves as a core component of the CKM, and proposes an efficient CKM construction scheme for this purpose. In this scheme, UAVs autonomously select high-value measurement locations to collect data and complete the CKM estimation based on the collected data. The scheme comprises two steps: first, a deep learning-based CKM constructor is designed to update the map estimation and indicate the uncertainty metric for each potential location. Second, utilizing the uncertainty metrics, the UAV’s trajectory is planned by proposing a dynamic trajectory planning algorithm. This algorithm enables the UAV to collect measurements at the most informative locations under constrained energy conditions, thereby achieving rapid CKM estimation. Numerical results demonstrate that, compared to the baseline, this method offers significant performance advantages in CKM estimation.'
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/TVT.2026.3693060
+subfield: CKM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 2
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-10-19'
