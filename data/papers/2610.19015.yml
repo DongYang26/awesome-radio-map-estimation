@@ -1,0 +1,29 @@
+id: '2610.19015'
+title: Scaling Cheap Synthetic Pretraining Improves Indoor Radio-Map Prediction
+authors:
+  - K. Petrosyan
+  - Artashes Mkrtchyan
+  - R. Mkrtchyan
+  - Hrant Khachatrian
+  - Theofanis P. Raptis
+year: 2026
+abstract: 'Real measurements are too limited to train an accurate indoor pathloss predictor that works across a wide range of buildings. Large-scale synthetic pretraining offers a way forward, but real building layouts are also scarce, and accurate ray-tracing simulators are slow, expensive, and often proprietary. We address both problems by introducing a generator that automatically creates diverse indoor layouts and a fast, open-source approximate ray tracer that computes radio maps for them. Using this pipeline, we generate 128M synthetic samples, pretrain ResNet-101 and Swin-T encoder-decoders, and fine-tune them on high-quality benchmark data. Despite simulator mismatch, our ResNet-101 model reduces error by 15% on average relative to the best known methods across five indoor radio-map prediction tasks and improves transfer on a small real-measurement dataset. Both architectures show predictable data-scaling trends: power laws fitted on 2M-16M samples predict the mean normalized downstream RMSE at 32M-128M with 3.33% mean absolute percentage error for ResNet-101 and 7.10% for Swin-T. These results show that pretraining on large amounts of cheap simulated data can improve indoor radio-map prediction, even when real measurements and high-quality simulations are limited.'
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2610.19015
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: indoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-10-19'
