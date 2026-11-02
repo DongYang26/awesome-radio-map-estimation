@@ -1,0 +1,30 @@
+id: '2610.41786'
+title: 'RadioTraj3D: Height-Aware Adaptive Sampling for 3D Radio-Map Reconstruction from Ultra-Sparse Trajectories'
+authors:
+  - Zixuan Guo
+  - Xiucheng Wang
+  - Wenshuo Chen
+  - Conghao Zhou
+  - Chuan Huang
+  - Ruijin Sun
+  - Nan Cheng
+year: 2026
+abstract: Aerial networks require radio propagation information at unvisited positions and heights to plan routes, select links, and allocate wireless resources. A three-dimensional radio map (3D RM) represents propagation conditions over the service area, enabling these decisions before flight. However, constructing such a map from autonomous aerial vehicle (AAV) measurements is challenging, since radio measurements are available only along the trajectory, whereas the target covers the 3D service volume. Existing methods use fixed AAV trajectories that ignore how building distributions and heights affect electromagnetic propagation, missing the heights most informative for RM reconstruction. To address these issues, we propose RadioTraj3D, which uses building-height information to coordinate measurement selection and layer-wise reconstruction. Building-height variations reveal propagation-sensitive layers that guide height-adaptive sampling. We therefore propose G-METS to select geometry-sensitive heights and allocate an exact budget across edge, corridor, and open regions before channel acquisition. A dual-view reconstructor then integrates local three-dimensional boundaries with full-height context through one bounded coefficient per layer. Simulated outdoor and indoor maps demonstrate state-of-the-art reconstruction across environments and vertical grids. On real-world AAV measurements from the LACN dataset, RadioTraj3D improves peak signal-to-noise ratio by 0.84 dB and reduces normalized mean squared error by 17.5% over Completion AE.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2610.41786
+  pdf: https://arxiv.org/pdf/2610.41786
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: both  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-11-02'

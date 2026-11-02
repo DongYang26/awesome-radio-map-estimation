@@ -1,0 +1,28 @@
+id: '2610.41783'
+title: RSS-Based Verification of Drone Remote ID Position Claims with Unknown Transmit Power
+authors:
+  - Cole Dickerson
+  - Ismail Guvenc
+  - Wahab Khawaja
+  - Ali Cafer Gurbuz
+year: 2026
+abstract: Broadcast Remote Identification (Remote ID) is a key enabler for integrating unmanned aircraft into the airspace. However, the position it reports is self-declared and can be falsified with low-cost hardware. In this paper, we study how Remote ID receivers can verify the declared position from the received signal strength (RSS) when neither the transmit power nor the path-loss exponent is known. In particular, we derive a Rao score test whose null distribution is exactly chi-squared for any number of packets. Its threshold and detection probability therefore follow in closed form. We then bound the detection probability of any detector that is invariant to the unknown link parameters. This bound saturates as the falsified position recedes along a fixed bearing, so a sufficiently large falsification can remain undetectable. From this limit, we obtain the worst-case bearing in closed form, the observation length needed to close it, and a receiver placement rule. Simulation results show that the proposed test considerably outperforms an estimate-then-threshold detector at low false-alarm rates.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2610.41783
+  pdf: https://arxiv.org/pdf/2610.41783
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-11-02'

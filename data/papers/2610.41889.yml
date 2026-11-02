@@ -1,0 +1,29 @@
+id: '2610.41889'
+title: 'Reconstruct everything everywhere all at once: An end-to-end model for future colliders'
+authors:
+  - Max Hart
+  - Kwok Yiu Wong
+  - Samuel Van Stroud
+  - Philippa Duckett
+  - Tim Scanlon
+  - Gabriel Facini
+year: 2026
+abstract: We present the Reconstruct Everything Model (REM), an end-to-end multitask model for sparse, multimodal sensor data, demonstrated in high-energy physics. To our knowledge, REM is the first demonstration of a single learned framework simultaneously reconstructing multiple particle types directly from hit-level measurements across the silicon tracker, calorimeters, and muon system in a full simulation. It performs hit assignment, particle identification, kinematic regression, and resonance reconstruction without externally reconstructed tracks or calorimeter clusters as inputs. REM improves particle-reconstruction efficiency and purity and jet-energy resolution relative to both conventional and machine-learned particle-flow approaches. In diboson events, the learned resonance reconstruction improves W/Z mass separation relative to conventional jet reconstruction. These results demonstrate a reconstruction chain from detector hits to particles to resonances, with potential applications to structured prediction in other large-scale, sparse, multimodal sensor systems.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2610.41889
+  pdf: https://arxiv.org/pdf/2610.41889
+subfield: REM  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-11-02'
