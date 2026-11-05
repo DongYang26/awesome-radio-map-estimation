@@ -600,7 +600,7 @@ Edit the YAML in `data/`; CI regenerates this README on merge.
   see [`LICENSE-DATA`](LICENSE-DATA).
 
 ## Reference
-Please cite the following paper if the codes is useful/inspiring for your research.
+Please cite the following paper if the repository is useful/inspiring for your research.
 
 ```
 @ARTICLE{yang2026comprehensive,
