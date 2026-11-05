@@ -598,3 +598,17 @@ Edit the YAML in `data/`; CI regenerates this README on merge.
 - **Code** (`scripts/`, `site/`): MIT — see [`LICENSE`](LICENSE).
 - **Data & content** (`data/`, generated README and site content): CC-BY-4.0 —
   see [`LICENSE-DATA`](LICENSE-DATA).
+
+## Reference
+Please cite the following paper if the codes is useful/inspiring for your research.
+
+```
+@ARTICLE{yang2026comprehensive,
+  author={Yang, Dong and Guo, Fupei and Wang, Yue and Zhang, Songyang and Tian, Zhi and Ding, Zhi and Cai, Zhipeng},
+  journal={IEEE Communications Surveys & Tutorials}, 
+  title={A Comprehensive Survey on Spectrum Cartography: State-of-the-Art, Trends, and Challenges}, 
+  year={2026},
+  volume={28},
+  pages={7136-7172},
+  doi={10.1109/COMST.2026.3730433}}
+  ```
