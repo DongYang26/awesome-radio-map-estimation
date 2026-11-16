@@ -1,0 +1,30 @@
+id: a-low-complexity-channel-knowledge-map-construction-based-on
+title: A Low-Complexity Channel Knowledge Map Construction Based on Environmental Partitioning and Interpolation Weight Learning
+authors:
+  - Xiao-Yan Shao
+  - Wen-Ce Zhang
+  - Hao-Han Li
+  - Zhi-Chao Shao
+  - Zhiguang Zhang
+  - Xu Bao
+year: 2026
+venue: IEEE Internet of Things Journal
+abstract: The channel knowledge map (CKM) is an emerging technology for enabling future integrated sensing and communication (ISAC) services that have attracted significant research interests in recent years. Current methods for constructing CKM primarily include interpolation-based, model-based, and machine learning algorithms. However, these methods are often limited by their low-estimation accuracy or high-computational complexity. To address these challenges, we propose a novel approach to construct CKM based on environmental partitioning and interpolation weight learning (EPIWL). The proposed method leverages channel state information (CSI) from partially known locations to interpolate and estimate the channel state in the target region, thus completing the CKM construction. To reduce the computational complexity, we proposed a graph-based feature aggregation and community detection-based partitioning (GFA-CD-P) algorithm, which selects representative anchor points through environmental partitioning, thereby decreasing the computational load. Furthermore, we propose an interpolation weight learning scheme based on Kolmogorov–Arnold network (KAN) and multihead cross attention (MHCA), namely, KM-IWL algorithm, which automatically learn the weight between anchor points and target points, enhancing both the efficiency and accuracy of CKM construction. The experimental results demonstrate that the proposed EPIWL approach achieves a 10-dB improvement in the normalized mean squared error (NMSE) and reduces the computational complexity by over 60% compared with existing schemes, showcasing robust performance and excellent generalization capability.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/JIOT.2026.3672412
+subfield: CKM  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 3
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-11-16'

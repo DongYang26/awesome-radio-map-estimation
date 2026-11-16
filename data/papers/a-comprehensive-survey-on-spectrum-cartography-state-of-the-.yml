@@ -1,0 +1,34 @@
+id: a-comprehensive-survey-on-spectrum-cartography-state-of-the-
+title: 'A Comprehensive Survey on Spectrum Cartography: State-of-the-Art, Trends, and Challenges'
+authors:
+  - Dong Yang
+  - Fu-Pei Guo
+  - Yue Wang
+  - Song-Yang Zhang
+  - Zhi Tian
+  - Zhi Ding
+  - Zhi-Peng Cai
+year: 2026
+venue: IEEE Communications Surveys and Tutorials
+abstract: With the emergence of 6G, autonomous systems, and massive Internet of Things, spectrum cartography and related radio map techniques are attracting increasing attention. These techniques are critical enablers for real-time, high-fidelity spatial, spectral, and temporal awareness in dense and dynamic radio frequency environments. However, research in this domain remains fragmented, with different methodologies studied in isolation. In this work, we present a comprehensive survey of the fundamental concepts and research taxonomy of spectrum cartography, together with a detailed technical tutorial covering its core methodologies. Specifically, we start by clarifying the relationships among spectrum cartography, radio map estimation, radio environment maps, and channel knowledge maps, and then establish a taxonomy of radio map types and available datasets. Afterwards, we present unified problem formulations covering key tasks such as map generation, interpolation, reconstruction, inpainting, estimation, distributed learning, and dynamic map updating. Furthermore, we categorize spectrum cartography methods and discuss their evolution from traditional model-based techniques, which rely on physical or statistical assumptions, to flexible data-driven paradigms and physics-enhanced learning, which combines the robustness of physical models with the flexibility of data-driven architectures. Finally, we discuss key applications unlocked by these techniques, such as autonomous drone navigation and dynamic network management, together with technical challenges, deployment tradeoffs, standardization needs, and future research opportunities toward real-time, semantic-aware digital twins of the wireless environment.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://doi.org/10.1109/comst.2026.3730433
+  doi: 10.1109/COMST.2026.3730433
+subfield: CKM  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - spectrum-cartography  # TODO: maintainer verify
+  - channel-gain-prediction  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+input_modality: environment-map  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 3
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-11-16'

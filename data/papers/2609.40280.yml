@@ -1,0 +1,25 @@
+id: '2609.40280'
+title: Uncertainty-Guided UAV Spectrum Cartography with Deep-Unfolded Online Tensor Decomposition
+authors:
+  - Shang-Jie Zhuang
+  - Jia-Hui Liang
+  - Shi-Jian Gao
+year: 2026
+abstract: Spectrum cartography is crucial for spectrum-aware resource management in low-altitude networks, where uncrewed aerial vehicles (UAVs) collect spectrum measurements to reconstruct power spectral density (PSD) maps. However, limited energy and sensing bandwidth make measurements sparse in space and incomplete in frequency. To collect these measurements efficiently, the UAV actively plans its next move based on the latest map and its uncertainty, which requires rapid online reconstruction. We therefore propose an active online spectrum cartography framework. We first develop online deep-unfolded tensor decomposition (ODU-TD) for rapid map updates. An ensemble of reconstructors then estimates uncertainty to select informative sensing targets, and a learning-based policy determines the UAV movement and sensing bandwidth under the energy budget. Experiments show that ODU-TD achieves an approximately 27-fold speedup over online tensor decomposition and the lowest normalized mean square error (NMSE) among the compared reconstructors under sparse spatial and spectral observations, and the proposed framework reduces the NMSE by at least 55% compared with the representative baselines.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2609.40280
+subfield: spectrum-cartography  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - spectrum-cartography  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-11-16'

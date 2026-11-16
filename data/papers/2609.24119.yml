@@ -1,0 +1,26 @@
+id: '2609.24119'
+title: 'Sensing While Communicating: Active Online Spectrum Cartography via Air-Ground Cooperation'
+authors:
+  - Shang-Jie Zhuang
+  - Jia-Hui Liang
+  - Shi-Jian Gao
+year: 2026
+abstract: Spectrum cartography is crucial for spectrum-aware resource management in low-altitude networks, where uncrewed aerial vehicles (UAVs) collect measurements to reconstruct power spectral density (PSD) radio maps. However, limited UAV energy budgets constrain both sampling density and onboard computation, while complex urban blockages hinder reliable measurement transmission to a remote station. To address these challenges, we propose an air-ground cooperative framework for active online spectrum cartography. Through adaptive bandwidth allocation, the UAV actively collects PSD measurements using uncertainty and simultaneously transmits them to a mobile uncrewed ground vehicle (UGV), while the UGV maintains a reliable air-ground link for map updates. Specifically, we first develop an online deep-unfolded tensor decomposition method to accelerate online map updates. We then derive a bit-depth-dependent interpolation-error model to guide the selection of quantization bit depths to balance overhead and accuracy. Finally, we use uncertainty information to coordinate the UAV and UGV for active sampling and link maintenance, respectively. Extensive experiments show that the proposed reconstruction method achieves a nearly 27-fold speedup over online tensor decomposition. In urban scenes, the proposed framework outperforms the representative baselines, reducing both normalized mean squared error (NMSE) and outage ratio by more than 23% each and increasing the packet-service completion ratio by over 4%.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2609.24119
+subfield: spectrum-cartography  # TODO: maintainer verify
+method_family: interpolation  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - spectrum-cartography  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-11-16'
