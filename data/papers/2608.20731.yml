@@ -1,0 +1,26 @@
+id: '2608.20731'
+title: Dispersion-aware Localization Network for Wideband OFDM Pinching-Antenna Integrated Sensing and Communication Systems
+authors:
+  - Hyeonho Noh
+  - Hyun Jong Yang
+year: 2026
+abstract: Pinching-antenna systems (PASS) provide a large effective aperture and substantial path-loss reduction at low hardware cost, making them attractive for integrated sensing and communication (ISAC). Under wideband OFDM operation, however, the antennas on each waveguide impose nonlinear, position-dependent group delays on the same baseband signal, giving rise to waveguide dispersion that severely degrades range estimation. To this end, this paper proposes a two-stage ISAC framework comprising communication-aware beamforming and antenna placement followed by a dispersion-aware target localization stage. A fractional-programming beamformer and an element-wise coordinate-descent placement jointly maximize the downlink sum rate under a sensing beampattern-gain constraint, and the resulting optimized beamformer and placement determine the effective sensing channel used by the localization stage. The proposed DisPersion-aware Localization Network (DiPL-Net) detects targets from the received signal via a dispersion-aware score map built on a physics-derived range dictionary. Its convolutional backbone employs dual-kernel residual blocks, each pairing a short kernel matched to the OFDM main lobe with a long kernel matched to the dispersion tail, so as to deconvolve the dispersion and restore a sharp target peak at each true target. Simulation results show substantial localization gains over various sensing baselines while preserving the achievable communication rate.
+tldr: ''    # TODO: maintainer verify
+links:
+  arxiv: https://arxiv.org/abs/2608.20731
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+  - signal-strength-estimation  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+citations: 2
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-11-23'

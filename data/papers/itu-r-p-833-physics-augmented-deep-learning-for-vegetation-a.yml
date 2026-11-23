@@ -1,0 +1,30 @@
+id: itu-r-p-833-physics-augmented-deep-learning-for-vegetation-a
+title: ITU-R P.833 Physics-Augmented Deep Learning for Vegetation-Aware Radio Map Estimation
+authors:
+  - Si-Min Ma
+  - Guan-Gen Wu
+  - Dong Liu
+year: 2026
+venue: IEEE Access
+abstract: Radio maps give the path loss from a transmitter at every location in an area and underpin network planning. Vegetation causes substantial attenuation at 5G/6G frequencies, yet deep-learning estimators treat it as generic clutter rather than as an explicit, controllable input. This paper injects vegetation attenuation, following a first-order form of Recommendation ITU-R P.833, into the RadioMapSeer path loss ground truth along each transmitter–receiver line, and feeds the vegetation layout to the network as an extra input channel. Because the injection is fixed by the vegetation mask and two physical parameters, the channel’s gain is predictable before training, and the specific attenuation realized by any path loss map can be recovered. This prediction holds across five attenuation levels from 0.2 to 1.5 dB/m; at the nominal level, the channel cuts the root mean square error of U-Net++ from 6.10 to 3.22 dB, with consistent gains on two other backbones. After transfer to an independently modeled campus scene with three-dimensional ray-traced ground truth and one global affine calibration, the vegetation channel lowers the error from 7.19 to 5.39 dB, mostly in vegetation-shadowed regions. A standardized physical model thus improves coverage prediction in vegetated scenes without changing the network architecture.
+tldr: ''    # TODO: maintainer verify
+links:
+  pdf: https://doi.org/10.1109/access.2026.3749822
+  doi: 10.1109/ACCESS.2026.3749822
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: model-based  # TODO: maintainer verify
+method_detail:
+  - CNN  # TODO: maintainer verify
+  - ray-tracing  # TODO: maintainer verify
+task:
+  - pathloss-prediction  # TODO: maintainer verify
+  - coverage-prediction  # TODO: maintainer verify
+  - REM-construction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 3D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-11-23'
