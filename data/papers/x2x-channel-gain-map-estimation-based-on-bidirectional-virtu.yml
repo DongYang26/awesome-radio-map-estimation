@@ -1,0 +1,28 @@
+id: x2x-channel-gain-map-estimation-based-on-bidirectional-virtu
+title: X2X Channel Gain Map Estimation Based on Bidirectional Virtual Scatterer Model
+authors:
+  - Hao-Ming Ma
+  - Zi-Xiang Ren
+  - Jie Xu
+  - Rui Zhang
+year: 2026
+venue: IEEE Wireless Communications Letters
+abstract: This letter studies the construction of any-to-any (X2X) channel gain maps (CGMs), which predict the large-scale channel power gain for arbitrary transmitter (TX) and receiver (RX) locations in a region of interest. Unlike fixed-TX CGM methods that require intensive measurements for varying TXs, we propose a bidirectional virtual-scatterer-based X2X CGM construction framework that models dominant environmental objects as shared power-transfer virtual scatterers. Specifically, a priori coarse object geometry is used to determine the visibility and propagation loss of each multipath component, while sparse channel gain measurements are used to estimate bidirectional scatterer responses via a convex quadratic program. Simulation results show that the proposed framework accurately reconstructs X2X CGMs for different TX locations, substantially reduces the measurement requirement over fixed-TX baselines, and further benefits from a geometry-guided spatial sampling strategy.
+tldr: ''    # TODO: maintainer verify
+links:
+  doi: 10.1109/LWC.2026.3739567
+subfield: pathloss-prediction  # TODO: maintainer verify
+method_family: learning-based  # TODO: maintainer verify
+method_detail:
+  - other  # TODO: maintainer verify
+task:
+  - channel-gain-prediction  # TODO: maintainer verify
+  - pathloss-prediction  # TODO: maintainer verify
+input_modality: sparse-measurements  # TODO: maintainer verify
+environment: outdoor  # TODO: maintainer verify
+dimensionality: 2D  # TODO: maintainer verify
+supervision: supervised  # TODO: maintainer verify
+is_milestone: false  # TODO: maintainer verify
+tags: []  # TODO: maintainer verify
+# first_affiliation:  # TODO: maintainer verify — first author's institution id from data/institutions.yml (Atlas map)
+added_date: '2026-11-23'
